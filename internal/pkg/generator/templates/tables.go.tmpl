@@ -1,0 +1,13 @@
+{{template "header" .}}
+
+// plainForms maps every emoji name to its unmodified form. A handful of emoji
+// are defined by Unicode only in modified forms; their value here is empty and
+// they can be reached solely by passing variants.
+var plainForms = map[string]string{
+{{range .Plain}}	{{.Name}}: {{.Sequence}},
+{{end}}}
+
+// variantForms maps a name and its modifiers to the emoji they select.
+var variantForms = map[formKey]string{
+{{range .Forms}}	{{"{"}}{{.Name}}, {{.A}}, {{.B}}{{"}"}}: {{.Sequence}},
+{{end}}}

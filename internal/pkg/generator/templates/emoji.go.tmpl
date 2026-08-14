@@ -1,0 +1,7 @@
+{{template "header" .}}
+{{range .Groups}}
+// {{.Name}}
+{{range .Bases}}
+{{range .Doc}}// {{.}}
+{{end}}func {{.Ident}}(v ...Variant) string { return Lookup({{.Name}}, v...) }
+{{end}}{{end}}

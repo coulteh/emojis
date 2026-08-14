@@ -1,0 +1,21 @@
+{{template "header" .}}
+
+// The variants an emoji can be styled with. Skin tones come first and stay
+// contiguous so that isSkinTone is a range check.
+const (
+	noVariant Variant = iota
+{{range .Variants}}	// {{.Token}}
+	{{.Ident}}
+{{end}})
+
+const (
+	firstSkinTone = {{.FirstSkinTone}}
+	lastSkinTone  = {{.LastSkinTone}}
+	lastVariant   = {{.LastVariant}}
+)
+
+// variantTokens holds the CLDR name of each variant, indexed by its value.
+var variantTokens = [...]string{
+	noVariant: "",
+{{range .Variants}}	{{.Ident}}: {{.TokenLit}},
+{{end}}}
