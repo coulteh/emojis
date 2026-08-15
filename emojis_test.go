@@ -125,8 +125,8 @@ func TestLookup(t *testing.T) {
 
 func TestNames(t *testing.T) {
 	names := Names()
-	if len(names) != len(plainForms) {
-		t.Errorf("Names() returned %d names, want %d", len(names), len(plainForms))
+	if len(names) != len(baseNames) {
+		t.Errorf("Names() returned %d names, want %d", len(names), len(baseNames))
 	}
 	for i := 1; i < len(names); i++ {
 		if names[i-1] >= names[i] {
@@ -176,18 +176,48 @@ func TestParseVariant(t *testing.T) {
 	}
 }
 
-// The tables and the functions must agree: every form in variantForms has to be
-// reachable through Lookup with the variants it was keyed by.
+// The tables and the functions must agree: every modified form has to come back
+// through Lookup when asked for by name and variants.
 func TestEveryFormIsReachable(t *testing.T) {
-	for key, want := range variantForms {
-		var got string
-		if key.b == noVariant {
-			got = Lookup(key.name, key.a)
-		} else {
-			got = Lookup(key.name, key.a, key.b)
+	for i, key := range styledKeys {
+		row := int(key >> 16)
+		a, b := Variant(key>>8&0xFF), Variant(key&0xFF)
+		name := baseNames[row].in(nameBlob)
+		want := styledEmoji[i].in(emojiBlob)
+
+		got := Lookup(name, a)
+		if b != noVariant {
+			got = Lookup(name, a, b)
 		}
 		if got != want {
-			t.Errorf("Lookup(%q, %v, %v) = %q, want %q", key.name, key.a, key.b, got, want)
+			t.Errorf("Lookup(%q, %v, %v) = %q, want %q", name, a, b, got, want)
+		}
+	}
+}
+
+// Every name must be findable, which is what the binary search depends on.
+func TestBaseNamesAreSorted(t *testing.T) {
+	for i := 1; i < len(baseNames); i++ {
+		prev, cur := baseNames[i-1].in(nameBlob), baseNames[i].in(nameBlob)
+		if prev >= cur {
+			t.Fatalf("baseNames is not sorted: %q before %q", prev, cur)
+		}
+	}
+	for i, n := range baseNames {
+		if row, ok := findBase(n.in(nameBlob)); !ok || row != i {
+			t.Errorf("findBase(%q) = %d, %v; want %d, true", n.in(nameBlob), row, ok, i)
+		}
+	}
+}
+
+// The binary search over styledKeys depends on their order too.
+func TestStyledKeysAreSorted(t *testing.T) {
+	if len(styledKeys) != len(styledEmoji) {
+		t.Fatalf("styledKeys has %d entries but styledEmoji has %d", len(styledKeys), len(styledEmoji))
+	}
+	for i := 1; i < len(styledKeys); i++ {
+		if styledKeys[i-1] >= styledKeys[i] {
+			t.Fatalf("styledKeys is not sorted at %d: %d before %d", i, styledKeys[i-1], styledKeys[i])
 		}
 	}
 }
@@ -195,10 +225,12 @@ func TestEveryFormIsReachable(t *testing.T) {
 // No generated emoji should contain a stray separator or be empty by accident.
 func TestGeneratedDataIsSane(t *testing.T) {
 	var empty int
-	for name, seq := range plainForms {
+	for i, n := range baseNames {
+		name := n.in(nameBlob)
 		if name == "" {
-			t.Error("plainForms contains an empty name")
+			t.Error("baseNames contains an empty name")
 		}
+		seq := baseEmoji[i].in(emojiBlob)
 		if seq == "" {
 			empty++
 			continue
@@ -210,10 +242,10 @@ func TestGeneratedDataIsSane(t *testing.T) {
 	if empty > 2 {
 		t.Errorf("%d emoji have no unmodified form, expected at most 2", empty)
 	}
-	if len(plainForms) < 1500 {
-		t.Errorf("only %d emoji generated; the data looks truncated", len(plainForms))
+	if len(baseNames) < 1500 {
+		t.Errorf("only %d emoji generated; the data looks truncated", len(baseNames))
 	}
-	if len(variantForms) < 1500 {
-		t.Errorf("only %d modified forms generated; the data looks truncated", len(variantForms))
+	if len(styledKeys) < 1500 {
+		t.Errorf("only %d modified forms generated; the data looks truncated", len(styledKeys))
 	}
 }

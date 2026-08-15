@@ -3,6 +3,7 @@ package generator
 import (
 	"io"
 	"log/slog"
+	"regexp"
 	"strconv"
 	"strings"
 	"testing"
@@ -272,8 +273,72 @@ func TestRenderProducesValidGo(t *testing.T) {
 			t.Errorf("%s is missing the package clause", f.Name)
 		}
 	}
-	if !strings.Contains(string(files[2].Contents), `func ThumbsUp(v ...Variant) string`) {
-		t.Error("emoji_gen.go does not declare ThumbsUp")
+	// Only emoji that can be restyled take an argument, so passing a variant to
+	// one that cannot is a compile error rather than an empty string.
+	emoji := string(files[2].Contents)
+	for _, want := range []*regexp.Regexp{
+		regexp.MustCompile(`func ThumbsUp\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
+		regexp.MustCompile(`func Person\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
+		regexp.MustCompile(`func GrinningFace\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
+		regexp.MustCompile(`func FamilyManBoy\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
+	} {
+		if !want.MatchString(emoji) {
+			t.Errorf("emoji_gen.go has nothing matching:\n\t%s", want)
+		}
+	}
+
+}
+
+// No generated line may be long enough to upset an editor.
+func TestGeneratedLinesAreReasonable(t *testing.T) {
+	m, err := Build(parseSample(t))
+	if err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+	files, err := render(m, "emojis")
+	if err != nil {
+		t.Fatalf("render: %v", err)
+	}
+	for _, f := range files {
+		for i, line := range strings.Split(string(f.Contents), "\n") {
+			if len(line) > 200 {
+				t.Errorf("%s:%d is %d bytes long", f.Name, i+1, len(line))
+			}
+		}
+	}
+}
+
+func TestBlobPacksContainedStrings(t *testing.T) {
+	// "\U0001F44D" is inside "\U0001F44D\U0001F3FB" and "b" is inside "abc",
+	// so neither costs any bytes of its own.
+	items := []string{"\U0001F44D", "\U0001F44D\U0001F3FB", "abc", "b", "", "abc"}
+	b := NewBlob("test", items)
+
+	for _, s := range items {
+		span := b.Span(s)
+		if got := b.Text[span.Off:span.End]; got != s {
+			t.Errorf("Span(%q) points at %q", s, got)
+		}
+	}
+	if want := len("\U0001F44D\U0001F3FB") + len("abc"); len(b.Text) != want {
+		t.Errorf("blob is %d bytes (%q), want %d with nothing stored twice", len(b.Text), b.Text, want)
+	}
+	if got := b.Span(""); got != (Span{}) {
+		t.Errorf(`Span("") = %+v, want the zero span`, got)
+	}
+	if got := b.Span("not packed"); got != (Span{}) {
+		t.Errorf("Span of an unpacked string = %+v, want the zero span", got)
+	}
+}
+
+// The blob must be identical from one run to the next, or every regeneration
+// would churn the whole generated package.
+func TestBlobIsDeterministic(t *testing.T) {
+	first := NewBlob("test", []string{"cherry", "err", "banana", "an", "apple", "ple"})
+	second := NewBlob("test", []string{"ple", "an", "apple", "banana", "err", "cherry"})
+
+	if first.Text != second.Text {
+		t.Errorf("blob depends on input order:\n\t%q\n\t%q", first.Text, second.Text)
 	}
 }
 

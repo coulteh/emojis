@@ -17,8 +17,6 @@
 // "go generate ./...".
 package emojis
 
-import "sort"
-
 //go:generate go run ./internal
 
 // A Variant is a styling an emoji can be asked for: one of the five skin
@@ -47,35 +45,93 @@ func ParseVariant(name string) (Variant, bool) {
 	return noVariant, false
 }
 
-// formKey identifies one modified form of an emoji. Both slots are always set;
-// b is noVariant for emoji carrying a single modifier.
-type formKey struct {
-	name string
-	a, b Variant
-}
+// A span is a half-open range of one of the generated blobs. The tables hold
+// spans rather than strings so that they stay arrays of plain integers, which
+// the compiler writes into the binary; an array of strings would carry a
+// pointer each and need relocating when the program loads.
+type span struct{ off, end uint32 }
+
+func (s span) in(blob string) string { return blob[s.off:s.end] }
 
 // Lookup returns the emoji with the given Unicode name, styled with the given
 // variants. The name is the CLDR short name with any modifiers stripped, which
-// is what the generated functions pass:
+// is what the generated functions are named after:
 //
 //	emojis.Lookup("thumbs up", emojis.DarkSkinTone) // 👍🏿
 //	emojis.Lookup("family: man, boy")               // 👨‍👦
 //
 // An unknown name, or a combination of variants that Unicode does not define,
 // returns the empty string. Prefer the generated functions where the emoji is
-// known at compile time; Lookup is for choosing one at runtime.
+// known at compile time: they index the tables directly, while Lookup has to
+// search them for the name.
 func Lookup(name string, v ...Variant) string {
+	row, ok := findBase(name)
+	if !ok {
+		return ""
+	}
+	return styled(row, v)
+}
+
+// styled returns the emoji at a row of the base tables, in the requested
+// style. The generated functions call it with their own row, which they know
+// at compile time and so never have to search for.
+func styled(row int, v []Variant) string {
 	switch len(v) {
 	case 0:
-		return plainForms[name]
+		return baseEmoji[row].in(emojiBlob)
 	case 1:
-		return variantForms[formKey{name, v[0], noVariant}]
+		return findStyled(row, v[0], noVariant)
 	case 2:
 		a, b := order(v[0], v[1])
-		return variantForms[formKey{name, a, b}]
+		return findStyled(row, a, b)
 	default:
 		return ""
 	}
+}
+
+// findBase binary searches baseNames, which the generator sorted by name.
+//
+// The search is written out rather than handed to sort.Search because the
+// closure that takes would keep this off the inlining path, and these two
+// searches are the whole cost of a lookup.
+func findBase(name string) (int, bool) {
+	lo, hi := 0, len(baseNames)
+	for lo < hi {
+		mid := int(uint(lo+hi) >> 1)
+		if baseNames[mid].in(nameBlob) < name {
+			lo = mid + 1
+		} else {
+			hi = mid
+		}
+	}
+	if lo < len(baseNames) && baseNames[lo].in(nameBlob) == name {
+		return lo, true
+	}
+	return 0, false
+}
+
+// findStyled binary searches styledKeys for one modified form.
+func findStyled(row int, a, b Variant) string {
+	// Out-of-range variants are rejected before they are packed into the key,
+	// where they would otherwise corrupt the row number beside them.
+	if a <= noVariant || a > lastVariant || b < noVariant || b > lastVariant {
+		return ""
+	}
+	key := uint32(row)<<16 | uint32(a)<<8 | uint32(b)
+
+	lo, hi := 0, len(styledKeys)
+	for lo < hi {
+		mid := int(uint(lo+hi) >> 1)
+		if styledKeys[mid] < key {
+			lo = mid + 1
+		} else {
+			hi = mid
+		}
+	}
+	if lo < len(styledKeys) && styledKeys[lo] == key {
+		return styledEmoji[lo].in(emojiBlob)
+	}
+	return ""
 }
 
 // order puts a skin tone ahead of a hair style, which is the order Unicode
@@ -94,11 +150,13 @@ func order(a, b Variant) (Variant, Variant) {
 
 // Names returns the Unicode name of every emoji in the package, sorted. Each
 // is a name Lookup accepts.
+//
+// The slice is built on demand rather than kept around, so a program that never
+// calls this pays nothing for it.
 func Names() []string {
-	names := make([]string, 0, len(plainForms))
-	for name := range plainForms {
-		names = append(names, name)
+	names := make([]string, len(baseNames))
+	for i, n := range baseNames {
+		names[i] = n.in(nameBlob) // baseNames is already sorted
 	}
-	sort.Strings(names)
 	return names
 }

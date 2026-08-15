@@ -5,6 +5,7 @@ import (
 	"embed"
 	"fmt"
 	"go/format"
+	"sort"
 	"strconv"
 	"strings"
 	"text/template"
@@ -23,7 +24,10 @@ type file struct {
 
 // render produces the generated source for the model, gofmt'd.
 func render(m *Model, pkg string) ([]file, error) {
-	data := newTemplateData(m, pkg)
+	data, err := newTemplateData(m, pkg)
+	if err != nil {
+		return nil, err
+	}
 
 	files := []file{
 		{Name: "variants_gen.go"},
@@ -59,8 +63,11 @@ type templateData struct {
 	LastSkinTone  string
 	LastVariant   string
 
-	Plain  []entryData
-	Forms  []formData
+	EmojiBlob string // quoted literal holding every emoji
+	NameBlob  string // quoted literal holding every name
+
+	Bases  []baseEntry   // sorted by name, for binary search
+	Styled []styledEntry // sorted by key, for binary search
 	Groups []groupData
 }
 
@@ -70,12 +77,18 @@ type variantData struct {
 	TokenLit string
 }
 
-type entryData struct{ Name, Sequence string }
+// baseEntry is one row of the generated baseTable.
+type baseEntry struct {
+	Name    Span
+	Plain   Span
+	Comment string // the name, so the table stays readable
+}
 
-type formData struct {
-	Name     string
-	A, B     string
-	Sequence string
+// styledEntry is one row of the generated variant tables.
+type styledEntry struct {
+	Key     uint32
+	Emoji   Span
+	Comment string
 }
 
 type groupData struct {
@@ -85,11 +98,18 @@ type groupData struct {
 
 type baseData struct {
 	Ident string
-	Name  string
 	Doc   []string
+
+	Index int // row in the base tables
 }
 
-func newTemplateData(m *Model, pkg string) *templateData {
+// styledKey packs a row of baseTable and up to two variants into one integer,
+// so the variant table is a sorted list of integers rather than a map.
+func styledKey(base, a, b int) uint32 {
+	return uint32(base)<<16 | uint32(a)<<8 | uint32(b)
+}
+
+func newTemplateData(m *Model, pkg string) (*templateData, error) {
 	d := &templateData{
 		Package:       pkg,
 		Source:        m.Source,
@@ -99,50 +119,80 @@ func newTemplateData(m *Model, pkg string) *templateData {
 		LastVariant:   m.Variants[len(m.Variants)-1].Ident,
 	}
 
-	for _, v := range m.Variants {
+	variantValue := make(map[string]int, len(m.Variants))
+	for i, v := range m.Variants {
 		d.Variants = append(d.Variants, variantData{
 			Ident: v.Ident, Token: v.Token, TokenLit: strconv.Quote(v.Token),
+		})
+		variantValue[v.Ident] = i + 1 // noVariant is 0
+	}
+	if n := len(m.Variants); n >= 1<<8 {
+		return nil, fmt.Errorf("%d variants will not fit in a byte of the lookup key", n)
+	}
+
+	// Pack every emoji and every name into one string each.
+	var sequences, names []string
+	for _, b := range m.Bases {
+		names = append(names, b.Name)
+		sequences = append(sequences, b.Plain)
+		for _, f := range b.Forms {
+			sequences = append(sequences, f.Sequence)
+		}
+	}
+	emojiBlob := NewBlob("emoji", sequences)
+	nameBlob := NewBlob("names", names)
+	d.EmojiBlob = quoteChunked(emojiBlob.Text)
+	d.NameBlob = quoteChunked(nameBlob.Text)
+
+	// baseTable is searched by name, so it is sorted by name.
+	sorted := append([]*Base(nil), m.Bases...)
+	sort.Slice(sorted, func(i, j int) bool { return sorted[i].Name < sorted[j].Name })
+	if n := len(sorted); n >= 1<<16 {
+		return nil, fmt.Errorf("%d emoji will not fit in the 16 bits the lookup key allows", n)
+	}
+	row := make(map[string]int, len(sorted))
+	for i, b := range sorted {
+		row[b.Name] = i
+		d.Bases = append(d.Bases, baseEntry{
+			Name:    nameBlob.Span(b.Name),
+			Plain:   emojiBlob.Span(b.Plain),
+			Comment: b.Name,
 		})
 	}
 
 	for _, b := range m.Bases {
-		d.Plain = append(d.Plain, entryData{
-			Name:     strconv.Quote(b.Name),
-			Sequence: quote(b.Plain),
-		})
 		for _, f := range b.Forms {
-			fd := formData{
-				Name:     strconv.Quote(b.Name),
-				A:        f.Variants[0],
-				B:        "noVariant",
-				Sequence: quote(f.Sequence),
-			}
+			a := variantValue[f.Variants[0]]
+			second := 0
 			if len(f.Variants) > 1 {
-				fd.B = f.Variants[1]
+				second = variantValue[f.Variants[1]]
 			}
-			d.Forms = append(d.Forms, fd)
+			d.Styled = append(d.Styled, styledEntry{
+				Key:     styledKey(row[b.Name], a, second),
+				Emoji:   emojiBlob.Span(f.Sequence),
+				Comment: f.Name,
+			})
 		}
 	}
+	sort.Slice(d.Styled, func(i, j int) bool { return d.Styled[i].Key < d.Styled[j].Key })
 
 	for _, g := range m.Groups {
 		gd := groupData{Name: g.Name}
 		for _, b := range g.Bases {
 			gd.Bases = append(gd.Bases, baseData{
 				Ident: b.Ident,
-				Name:  strconv.Quote(b.Name),
 				Doc:   doc(b),
+				Index: row[b.Name],
 			})
 		}
 		d.Groups = append(d.Groups, gd)
 	}
-	return d
+	return d, nil
 }
 
 // doc writes the comment above a generated function.
 func doc(b *Base) []string {
-	lines := []string{
-		fmt.Sprintf("%s returns the %q emoji%s.", b.Ident, b.Name, sample(b)),
-	}
+	lines := wrap(fmt.Sprintf("%s returns the %q emoji%s.", b.Ident, b.Name, sample(b)), 72)
 	if len(b.Forms) == 0 {
 		return lines
 	}
@@ -238,21 +288,68 @@ func quote(s string) string {
 	var sb strings.Builder
 	sb.WriteByte('"')
 	for _, r := range s {
-		switch {
-		case r == '"' || r == '\\':
-			sb.WriteByte('\\')
-			sb.WriteRune(r)
-		case isVariationSelector(r) || !strconv.IsPrint(r):
-			if r > 0xFFFF {
-				fmt.Fprintf(&sb, `\U%08X`, r)
-			} else {
-				fmt.Fprintf(&sb, `\u%04X`, r)
-			}
-		default:
-			sb.WriteRune(r)
-		}
+		sb.WriteString(escape(r))
 	}
 	sb.WriteByte('"')
+	return sb.String()
+}
+
+// escape renders one rune as it should appear inside a Go string literal.
+func escape(r rune) string {
+	switch {
+	case r == '"' || r == '\\':
+		return `\` + string(r)
+	case isVariationSelector(r) || !strconv.IsPrint(r):
+		if r > 0xFFFF {
+			return fmt.Sprintf(`\U%08X`, r)
+		}
+		return fmt.Sprintf(`\u%04X`, r)
+	default:
+		return string(r)
+	}
+}
+
+// chunkWidth is roughly how many bytes of a blob go on one line of the
+// generated source.
+const chunkWidth = 96
+
+// quoteChunked renders s as a Go string literal broken across many lines:
+//
+//	"" +
+//		"first chunk" +
+//		"second chunk"
+//
+// The blobs run to tens of thousands of characters. On one line that is a
+// valid but hostile piece of source: editors that cap how long a line they
+// will parse report phantom errors across the whole file, and every diff
+// touching the blob rewrites one enormous line. Concatenated constants fold at
+// compile time, so this costs nothing at run time.
+//
+// Lines are only ever broken between runes, never inside an escape sequence.
+func quoteChunked(s string) string {
+	var lines []string
+	var cur strings.Builder
+	for _, r := range s {
+		piece := escape(r)
+		if cur.Len() > 0 && cur.Len()+len(piece) > chunkWidth {
+			lines = append(lines, cur.String())
+			cur.Reset()
+		}
+		cur.WriteString(piece)
+	}
+	if cur.Len() > 0 {
+		lines = append(lines, cur.String())
+	}
+
+	// The leading "" keeps every chunk on a line of its own, including the
+	// first, and makes the empty blob render as a plain "".
+	var sb strings.Builder
+	sb.WriteString(`""`)
+	for _, line := range lines {
+		sb.WriteString(" +\n\t\"")
+		sb.WriteString(line)
+		sb.WriteByte('"')
+	}
 	return sb.String()
 }
 

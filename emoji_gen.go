@@ -8,541 +8,541 @@ package emojis
 // Smileys & Emotion
 
 // GrinningFace returns the "grinning face" emoji 😀.
-func GrinningFace(v ...Variant) string { return Lookup("grinning face", v...) }
+func GrinningFace(v ...Variant) string { return styled(867, v) }
 
-// GrinningFaceWithBigEyes returns the "grinning face with big eyes" emoji 😃.
-func GrinningFaceWithBigEyes(v ...Variant) string { return Lookup("grinning face with big eyes", v...) }
+// GrinningFaceWithBigEyes returns the "grinning face with big eyes" emoji
+// 😃.
+func GrinningFaceWithBigEyes(v ...Variant) string { return styled(868, v) }
 
-// GrinningFaceWithSmilingEyes returns the "grinning face with smiling eyes" emoji 😄.
-func GrinningFaceWithSmilingEyes(v ...Variant) string {
-	return Lookup("grinning face with smiling eyes", v...)
-}
+// GrinningFaceWithSmilingEyes returns the "grinning face with smiling
+// eyes" emoji 😄.
+func GrinningFaceWithSmilingEyes(v ...Variant) string { return styled(869, v) }
 
-// BeamingFaceWithSmilingEyes returns the "beaming face with smiling eyes" emoji 😁.
-func BeamingFaceWithSmilingEyes(v ...Variant) string {
-	return Lookup("beaming face with smiling eyes", v...)
-}
+// BeamingFaceWithSmilingEyes returns the "beaming face with smiling eyes"
+// emoji 😁.
+func BeamingFaceWithSmilingEyes(v ...Variant) string { return styled(134, v) }
 
 // GrinningSquintingFace returns the "grinning squinting face" emoji 😆.
-func GrinningSquintingFace(v ...Variant) string { return Lookup("grinning squinting face", v...) }
+func GrinningSquintingFace(v ...Variant) string { return styled(871, v) }
 
 // GrinningFaceWithSweat returns the "grinning face with sweat" emoji 😅.
-func GrinningFaceWithSweat(v ...Variant) string { return Lookup("grinning face with sweat", v...) }
+func GrinningFaceWithSweat(v ...Variant) string { return styled(870, v) }
 
-// RollingOnTheFloorLaughing returns the "rolling on the floor laughing" emoji 🤣.
-func RollingOnTheFloorLaughing(v ...Variant) string {
-	return Lookup("rolling on the floor laughing", v...)
-}
+// RollingOnTheFloorLaughing returns the "rolling on the floor laughing"
+// emoji 🤣.
+func RollingOnTheFloorLaughing(v ...Variant) string { return styled(1492, v) }
 
 // FaceWithTearsOfJoy returns the "face with tears of joy" emoji 😂.
-func FaceWithTearsOfJoy(v ...Variant) string { return Lookup("face with tears of joy", v...) }
+func FaceWithTearsOfJoy(v ...Variant) string { return styled(459, v) }
 
 // SlightlySmilingFace returns the "slightly smiling face" emoji 🙂.
-func SlightlySmilingFace(v ...Variant) string { return Lookup("slightly smiling face", v...) }
+func SlightlySmilingFace(v ...Variant) string { return styled(1563, v) }
 
 // UpsideDownFace returns the "upside-down face" emoji 🙃.
-func UpsideDownFace(v ...Variant) string { return Lookup("upside-down face", v...) }
+func UpsideDownFace(v ...Variant) string { return styled(1737, v) }
 
 // MeltingFace returns the "melting face" emoji 🫠.
-func MeltingFace(v ...Variant) string { return Lookup("melting face", v...) }
+func MeltingFace(v ...Variant) string { return styled(1153, v) }
 
 // WinkingFace returns the "winking face" emoji 😉.
-func WinkingFace(v ...Variant) string { return Lookup("winking face", v...) }
+func WinkingFace(v ...Variant) string { return styled(1790, v) }
 
-// SmilingFaceWithSmilingEyes returns the "smiling face with smiling eyes" emoji 😊.
-func SmilingFaceWithSmilingEyes(v ...Variant) string {
-	return Lookup("smiling face with smiling eyes", v...)
-}
+// SmilingFaceWithSmilingEyes returns the "smiling face with smiling eyes"
+// emoji 😊.
+func SmilingFaceWithSmilingEyes(v ...Variant) string { return styled(1576, v) }
 
 // SmilingFaceWithHalo returns the "smiling face with halo" emoji 😇.
-func SmilingFaceWithHalo(v ...Variant) string { return Lookup("smiling face with halo", v...) }
+func SmilingFaceWithHalo(v ...Variant) string { return styled(1571, v) }
 
 // SmilingFaceWithHearts returns the "smiling face with hearts" emoji 🥰.
-func SmilingFaceWithHearts(v ...Variant) string { return Lookup("smiling face with hearts", v...) }
+func SmilingFaceWithHearts(v ...Variant) string { return styled(1573, v) }
 
-// SmilingFaceWithHeartEyes returns the "smiling face with heart-eyes" emoji 😍.
-func SmilingFaceWithHeartEyes(v ...Variant) string {
-	return Lookup("smiling face with heart-eyes", v...)
-}
+// SmilingFaceWithHeartEyes returns the "smiling face with heart-eyes"
+// emoji 😍.
+func SmilingFaceWithHeartEyes(v ...Variant) string { return styled(1572, v) }
 
 // StarStruck returns the "star-struck" emoji 🤩.
-func StarStruck(v ...Variant) string { return Lookup("star-struck", v...) }
+func StarStruck(v ...Variant) string { return styled(1623, v) }
 
 // FaceBlowingAKiss returns the "face blowing a kiss" emoji 😘.
-func FaceBlowingAKiss(v ...Variant) string { return Lookup("face blowing a kiss", v...) }
+func FaceBlowingAKiss(v ...Variant) string { return styled(437, v) }
 
 // KissingFace returns the "kissing face" emoji 😗.
-func KissingFace(v ...Variant) string { return Lookup("kissing face", v...) }
+func KissingFace(v ...Variant) string { return styled(990, v) }
 
 // SmilingFace returns the "smiling face" emoji ☺️.
-func SmilingFace(v ...Variant) string { return Lookup("smiling face", v...) }
+func SmilingFace(v ...Variant) string { return styled(1570, v) }
 
-// KissingFaceWithClosedEyes returns the "kissing face with closed eyes" emoji 😚.
-func KissingFaceWithClosedEyes(v ...Variant) string {
-	return Lookup("kissing face with closed eyes", v...)
-}
+// KissingFaceWithClosedEyes returns the "kissing face with closed eyes"
+// emoji 😚.
+func KissingFaceWithClosedEyes(v ...Variant) string { return styled(991, v) }
 
-// KissingFaceWithSmilingEyes returns the "kissing face with smiling eyes" emoji 😙.
-func KissingFaceWithSmilingEyes(v ...Variant) string {
-	return Lookup("kissing face with smiling eyes", v...)
-}
+// KissingFaceWithSmilingEyes returns the "kissing face with smiling eyes"
+// emoji 😙.
+func KissingFaceWithSmilingEyes(v ...Variant) string { return styled(992, v) }
 
 // SmilingFaceWithTear returns the "smiling face with tear" emoji 🥲.
-func SmilingFaceWithTear(v ...Variant) string { return Lookup("smiling face with tear", v...) }
+func SmilingFaceWithTear(v ...Variant) string { return styled(1578, v) }
 
 // FaceSavoringFood returns the "face savoring food" emoji 😋.
-func FaceSavoringFood(v ...Variant) string { return Lookup("face savoring food", v...) }
+func FaceSavoringFood(v ...Variant) string { return styled(441, v) }
 
 // FaceWithTongue returns the "face with tongue" emoji 😛.
-func FaceWithTongue(v ...Variant) string { return Lookup("face with tongue", v...) }
+func FaceWithTongue(v ...Variant) string { return styled(461, v) }
 
 // WinkingFaceWithTongue returns the "winking face with tongue" emoji 😜.
-func WinkingFaceWithTongue(v ...Variant) string { return Lookup("winking face with tongue", v...) }
+func WinkingFaceWithTongue(v ...Variant) string { return styled(1791, v) }
 
 // ZanyFace returns the "zany face" emoji 🤪.
-func ZanyFace(v ...Variant) string { return Lookup("zany face", v...) }
+func ZanyFace(v ...Variant) string { return styled(1894, v) }
 
-// SquintingFaceWithTongue returns the "squinting face with tongue" emoji 😝.
-func SquintingFaceWithTongue(v ...Variant) string { return Lookup("squinting face with tongue", v...) }
+// SquintingFaceWithTongue returns the "squinting face with tongue" emoji
+// 😝.
+func SquintingFaceWithTongue(v ...Variant) string { return styled(1618, v) }
 
 // MoneyMouthFace returns the "money-mouth face" emoji 🤑.
-func MoneyMouthFace(v ...Variant) string { return Lookup("money-mouth face", v...) }
+func MoneyMouthFace(v ...Variant) string { return styled(1182, v) }
 
-// SmilingFaceWithOpenHands returns the "smiling face with open hands" emoji 🤗.
-func SmilingFaceWithOpenHands(v ...Variant) string {
-	return Lookup("smiling face with open hands", v...)
-}
+// SmilingFaceWithOpenHands returns the "smiling face with open hands"
+// emoji 🤗.
+func SmilingFaceWithOpenHands(v ...Variant) string { return styled(1575, v) }
 
-// FaceWithHandOverMouth returns the "face with hand over mouth" emoji 🤭.
-func FaceWithHandOverMouth(v ...Variant) string { return Lookup("face with hand over mouth", v...) }
+// FaceWithHandOverMouth returns the "face with hand over mouth" emoji
+// 🤭.
+func FaceWithHandOverMouth(v ...Variant) string { return styled(447, v) }
 
-// FaceWithOpenEyesAndHandOverMouth returns the "face with open eyes and hand over mouth" emoji 🫢.
-func FaceWithOpenEyesAndHandOverMouth(v ...Variant) string {
-	return Lookup("face with open eyes and hand over mouth", v...)
-}
+// FaceWithOpenEyesAndHandOverMouth returns the "face with open eyes and
+// hand over mouth" emoji 🫢.
+func FaceWithOpenEyesAndHandOverMouth(v ...Variant) string { return styled(451, v) }
 
 // FaceWithPeekingEye returns the "face with peeking eye" emoji 🫣.
-func FaceWithPeekingEye(v ...Variant) string { return Lookup("face with peeking eye", v...) }
+func FaceWithPeekingEye(v ...Variant) string { return styled(453, v) }
 
 // ShushingFace returns the "shushing face" emoji 🤫.
-func ShushingFace(v ...Variant) string { return Lookup("shushing face", v...) }
+func ShushingFace(v ...Variant) string { return styled(1548, v) }
 
 // ThinkingFace returns the "thinking face" emoji 🤔.
-func ThinkingFace(v ...Variant) string { return Lookup("thinking face", v...) }
+func ThinkingFace(v ...Variant) string { return styled(1677, v) }
 
 // SalutingFace returns the "saluting face" emoji 🫡.
-func SalutingFace(v ...Variant) string { return Lookup("saluting face", v...) }
+func SalutingFace(v ...Variant) string { return styled(1507, v) }
 
 // ZipperMouthFace returns the "zipper-mouth face" emoji 🤐.
-func ZipperMouthFace(v ...Variant) string { return Lookup("zipper-mouth face", v...) }
+func ZipperMouthFace(v ...Variant) string { return styled(1896, v) }
 
 // FaceWithRaisedEyebrow returns the "face with raised eyebrow" emoji 🤨.
-func FaceWithRaisedEyebrow(v ...Variant) string { return Lookup("face with raised eyebrow", v...) }
+func FaceWithRaisedEyebrow(v ...Variant) string { return styled(454, v) }
 
 // NeutralFace returns the "neutral face" emoji 😐.
-func NeutralFace(v ...Variant) string { return Lookup("neutral face", v...) }
+func NeutralFace(v ...Variant) string { return styled(1221, v) }
 
 // ExpressionlessFace returns the "expressionless face" emoji 😑.
-func ExpressionlessFace(v ...Variant) string { return Lookup("expressionless face", v...) }
+func ExpressionlessFace(v ...Variant) string { return styled(433, v) }
 
 // FaceWithoutMouth returns the "face without mouth" emoji 😶.
-func FaceWithoutMouth(v ...Variant) string { return Lookup("face without mouth", v...) }
+func FaceWithoutMouth(v ...Variant) string { return styled(462, v) }
 
 // DottedLineFace returns the "dotted line face" emoji 🫥.
-func DottedLineFace(v ...Variant) string { return Lookup("dotted line face", v...) }
+func DottedLineFace(v ...Variant) string { return styled(385, v) }
 
 // FaceInClouds returns the "face in clouds" emoji 😶‍🌫️.
-func FaceInClouds(v ...Variant) string { return Lookup("face in clouds", v...) }
+func FaceInClouds(v ...Variant) string { return styled(440, v) }
 
 // SmirkingFace returns the "smirking face" emoji 😏.
-func SmirkingFace(v ...Variant) string { return Lookup("smirking face", v...) }
+func SmirkingFace(v ...Variant) string { return styled(1579, v) }
 
 // UnamusedFace returns the "unamused face" emoji 😒.
-func UnamusedFace(v ...Variant) string { return Lookup("unamused face", v...) }
+func UnamusedFace(v ...Variant) string { return styled(1730, v) }
 
 // FaceWithRollingEyes returns the "face with rolling eyes" emoji 🙄.
-func FaceWithRollingEyes(v ...Variant) string { return Lookup("face with rolling eyes", v...) }
+func FaceWithRollingEyes(v ...Variant) string { return styled(455, v) }
 
 // GrimacingFace returns the "grimacing face" emoji 😬.
-func GrimacingFace(v ...Variant) string { return Lookup("grimacing face", v...) }
+func GrimacingFace(v ...Variant) string { return styled(864, v) }
 
 // FaceExhaling returns the "face exhaling" emoji 😮‍💨.
-func FaceExhaling(v ...Variant) string { return Lookup("face exhaling", v...) }
+func FaceExhaling(v ...Variant) string { return styled(438, v) }
 
 // LyingFace returns the "lying face" emoji 🤥.
-func LyingFace(v ...Variant) string { return Lookup("lying face", v...) }
+func LyingFace(v ...Variant) string { return styled(1055, v) }
 
 // ShakingFace returns the "shaking face" emoji 🫨.
-func ShakingFace(v ...Variant) string { return Lookup("shaking face", v...) }
+func ShakingFace(v ...Variant) string { return styled(1530, v) }
 
-// HeadShakingHorizontally returns the "head shaking horizontally" emoji 🙂‍↔️.
-func HeadShakingHorizontally(v ...Variant) string { return Lookup("head shaking horizontally", v...) }
+// HeadShakingHorizontally returns the "head shaking horizontally" emoji
+// 🙂‍↔️.
+func HeadShakingHorizontally(v ...Variant) string { return styled(890, v) }
 
-// HeadShakingVertically returns the "head shaking vertically" emoji 🙂‍↕️.
-func HeadShakingVertically(v ...Variant) string { return Lookup("head shaking vertically", v...) }
+// HeadShakingVertically returns the "head shaking vertically" emoji
+// 🙂‍↕️.
+func HeadShakingVertically(v ...Variant) string { return styled(891, v) }
 
 // RelievedFace returns the "relieved face" emoji 😌.
-func RelievedFace(v ...Variant) string { return Lookup("relieved face", v...) }
+func RelievedFace(v ...Variant) string { return styled(1461, v) }
 
 // PensiveFace returns the "pensive face" emoji 😔.
-func PensiveFace(v ...Variant) string { return Lookup("pensive face", v...) }
+func PensiveFace(v ...Variant) string { return styled(1311, v) }
 
 // SleepyFace returns the "sleepy face" emoji 😪.
-func SleepyFace(v ...Variant) string { return Lookup("sleepy face", v...) }
+func SleepyFace(v ...Variant) string { return styled(1561, v) }
 
 // DroolingFace returns the "drooling face" emoji 🤤.
-func DroolingFace(v ...Variant) string { return Lookup("drooling face", v...) }
+func DroolingFace(v ...Variant) string { return styled(399, v) }
 
 // SleepingFace returns the "sleeping face" emoji 😴.
-func SleepingFace(v ...Variant) string { return Lookup("sleeping face", v...) }
+func SleepingFace(v ...Variant) string { return styled(1560, v) }
 
-// FaceWithBagsUnderEyes returns the "face with bags under eyes" emoji 🫩.
-func FaceWithBagsUnderEyes(v ...Variant) string { return Lookup("face with bags under eyes", v...) }
+// FaceWithBagsUnderEyes returns the "face with bags under eyes" emoji
+// 🫩.
+func FaceWithBagsUnderEyes(v ...Variant) string { return styled(444, v) }
 
 // FaceWithMedicalMask returns the "face with medical mask" emoji 😷.
-func FaceWithMedicalMask(v ...Variant) string { return Lookup("face with medical mask", v...) }
+func FaceWithMedicalMask(v ...Variant) string { return styled(449, v) }
 
 // FaceWithThermometer returns the "face with thermometer" emoji 🤒.
-func FaceWithThermometer(v ...Variant) string { return Lookup("face with thermometer", v...) }
+func FaceWithThermometer(v ...Variant) string { return styled(460, v) }
 
 // FaceWithHeadBandage returns the "face with head-bandage" emoji 🤕.
-func FaceWithHeadBandage(v ...Variant) string { return Lookup("face with head-bandage", v...) }
+func FaceWithHeadBandage(v ...Variant) string { return styled(448, v) }
 
 // NauseatedFace returns the "nauseated face" emoji 🤢.
-func NauseatedFace(v ...Variant) string { return Lookup("nauseated face", v...) }
+func NauseatedFace(v ...Variant) string { return styled(1215, v) }
 
 // FaceVomiting returns the "face vomiting" emoji 🤮.
-func FaceVomiting(v ...Variant) string { return Lookup("face vomiting", v...) }
+func FaceVomiting(v ...Variant) string { return styled(443, v) }
 
 // SneezingFace returns the "sneezing face" emoji 🤧.
-func SneezingFace(v ...Variant) string { return Lookup("sneezing face", v...) }
+func SneezingFace(v ...Variant) string { return styled(1582, v) }
 
 // HotFace returns the "hot face" emoji 🥵.
-func HotFace(v ...Variant) string { return Lookup("hot face", v...) }
+func HotFace(v ...Variant) string { return styled(927, v) }
 
 // ColdFace returns the "cold face" emoji 🥶.
-func ColdFace(v ...Variant) string { return Lookup("cold face", v...) }
+func ColdFace(v ...Variant) string { return styled(294, v) }
 
 // WoozyFace returns the "woozy face" emoji 🥴.
-func WoozyFace(v ...Variant) string { return Lookup("woozy face", v...) }
+func WoozyFace(v ...Variant) string { return styled(1878, v) }
 
-// FaceWithCrossedOutEyes returns the "face with crossed-out eyes" emoji 😵.
-func FaceWithCrossedOutEyes(v ...Variant) string { return Lookup("face with crossed-out eyes", v...) }
+// FaceWithCrossedOutEyes returns the "face with crossed-out eyes" emoji
+// 😵.
+func FaceWithCrossedOutEyes(v ...Variant) string { return styled(445, v) }
 
-// FaceWithSpiralEyes returns the "face with spiral eyes" emoji 😵‍💫.
-func FaceWithSpiralEyes(v ...Variant) string { return Lookup("face with spiral eyes", v...) }
+// FaceWithSpiralEyes returns the "face with spiral eyes" emoji
+// 😵‍💫.
+func FaceWithSpiralEyes(v ...Variant) string { return styled(456, v) }
 
 // ExplodingHead returns the "exploding head" emoji 🤯.
-func ExplodingHead(v ...Variant) string { return Lookup("exploding head", v...) }
+func ExplodingHead(v ...Variant) string { return styled(432, v) }
 
 // CowboyHatFace returns the "cowboy hat face" emoji 🤠.
-func CowboyHatFace(v ...Variant) string { return Lookup("cowboy hat face", v...) }
+func CowboyHatFace(v ...Variant) string { return styled(322, v) }
 
 // PartyingFace returns the "partying face" emoji 🥳.
-func PartyingFace(v ...Variant) string { return Lookup("partying face", v...) }
+func PartyingFace(v ...Variant) string { return styled(1297, v) }
 
 // DisguisedFace returns the "disguised face" emoji 🥸.
-func DisguisedFace(v ...Variant) string { return Lookup("disguised face", v...) }
+func DisguisedFace(v ...Variant) string { return styled(371, v) }
 
-// SmilingFaceWithSunglasses returns the "smiling face with sunglasses" emoji 😎.
-func SmilingFaceWithSunglasses(v ...Variant) string {
-	return Lookup("smiling face with sunglasses", v...)
-}
+// SmilingFaceWithSunglasses returns the "smiling face with sunglasses"
+// emoji 😎.
+func SmilingFaceWithSunglasses(v ...Variant) string { return styled(1577, v) }
 
 // NerdFace returns the "nerd face" emoji 🤓.
-func NerdFace(v ...Variant) string { return Lookup("nerd face", v...) }
+func NerdFace(v ...Variant) string { return styled(1218, v) }
 
 // FaceWithMonocle returns the "face with monocle" emoji 🧐.
-func FaceWithMonocle(v ...Variant) string { return Lookup("face with monocle", v...) }
+func FaceWithMonocle(v ...Variant) string { return styled(450, v) }
 
 // ConfusedFace returns the "confused face" emoji 😕.
-func ConfusedFace(v ...Variant) string { return Lookup("confused face", v...) }
+func ConfusedFace(v ...Variant) string { return styled(302, v) }
 
 // FaceWithDiagonalMouth returns the "face with diagonal mouth" emoji 🫤.
-func FaceWithDiagonalMouth(v ...Variant) string { return Lookup("face with diagonal mouth", v...) }
+func FaceWithDiagonalMouth(v ...Variant) string { return styled(446, v) }
 
 // WorriedFace returns the "worried face" emoji 😟.
-func WorriedFace(v ...Variant) string { return Lookup("worried face", v...) }
+func WorriedFace(v ...Variant) string { return styled(1881, v) }
 
 // SlightlyFrowningFace returns the "slightly frowning face" emoji 🙁.
-func SlightlyFrowningFace(v ...Variant) string { return Lookup("slightly frowning face", v...) }
+func SlightlyFrowningFace(v ...Variant) string { return styled(1562, v) }
 
 // FrowningFace returns the "frowning face" emoji ☹️.
-func FrowningFace(v ...Variant) string { return Lookup("frowning face", v...) }
+func FrowningFace(v ...Variant) string { return styled(826, v) }
 
 // FaceWithOpenMouth returns the "face with open mouth" emoji 😮.
-func FaceWithOpenMouth(v ...Variant) string { return Lookup("face with open mouth", v...) }
+func FaceWithOpenMouth(v ...Variant) string { return styled(452, v) }
 
 // HushedFace returns the "hushed face" emoji 😯.
-func HushedFace(v ...Variant) string { return Lookup("hushed face", v...) }
+func HushedFace(v ...Variant) string { return styled(937, v) }
 
 // AstonishedFace returns the "astonished face" emoji 😲.
-func AstonishedFace(v ...Variant) string { return Lookup("astonished face", v...) }
+func AstonishedFace(v ...Variant) string { return styled(94, v) }
 
 // FlushedFace returns the "flushed face" emoji 😳.
-func FlushedFace(v ...Variant) string { return Lookup("flushed face", v...) }
+func FlushedFace(v ...Variant) string { return styled(800, v) }
 
 // DistortedFace returns the "distorted face" emoji 🫪.
-func DistortedFace(v ...Variant) string { return Lookup("distorted face", v...) }
+func DistortedFace(v ...Variant) string { return styled(372, v) }
 
 // PleadingFace returns the "pleading face" emoji 🥺.
-func PleadingFace(v ...Variant) string { return Lookup("pleading face", v...) }
+func PleadingFace(v ...Variant) string { return styled(1393, v) }
 
 // FaceHoldingBackTears returns the "face holding back tears" emoji 🥹.
-func FaceHoldingBackTears(v ...Variant) string { return Lookup("face holding back tears", v...) }
+func FaceHoldingBackTears(v ...Variant) string { return styled(439, v) }
 
-// FrowningFaceWithOpenMouth returns the "frowning face with open mouth" emoji 😦.
-func FrowningFaceWithOpenMouth(v ...Variant) string {
-	return Lookup("frowning face with open mouth", v...)
-}
+// FrowningFaceWithOpenMouth returns the "frowning face with open mouth"
+// emoji 😦.
+func FrowningFaceWithOpenMouth(v ...Variant) string { return styled(827, v) }
 
 // AnguishedFace returns the "anguished face" emoji 😧.
-func AnguishedFace(v ...Variant) string { return Lookup("anguished face", v...) }
+func AnguishedFace(v ...Variant) string { return styled(87, v) }
 
 // FearfulFace returns the "fearful face" emoji 😨.
-func FearfulFace(v ...Variant) string { return Lookup("fearful face", v...) }
+func FearfulFace(v ...Variant) string { return styled(504, v) }
 
 // AnxiousFaceWithSweat returns the "anxious face with sweat" emoji 😰.
-func AnxiousFaceWithSweat(v ...Variant) string { return Lookup("anxious face with sweat", v...) }
+func AnxiousFaceWithSweat(v ...Variant) string { return styled(90, v) }
 
 // SadButRelievedFace returns the "sad but relieved face" emoji 😥.
-func SadButRelievedFace(v ...Variant) string { return Lookup("sad but relieved face", v...) }
+func SadButRelievedFace(v ...Variant) string { return styled(1501, v) }
 
 // CryingFace returns the "crying face" emoji 😢.
-func CryingFace(v ...Variant) string { return Lookup("crying face", v...) }
+func CryingFace(v ...Variant) string { return styled(339, v) }
 
 // LoudlyCryingFace returns the "loudly crying face" emoji 😭.
-func LoudlyCryingFace(v ...Variant) string { return Lookup("loudly crying face", v...) }
+func LoudlyCryingFace(v ...Variant) string { return styled(1047, v) }
 
 // FaceScreamingInFear returns the "face screaming in fear" emoji 😱.
-func FaceScreamingInFear(v ...Variant) string { return Lookup("face screaming in fear", v...) }
+func FaceScreamingInFear(v ...Variant) string { return styled(442, v) }
 
 // ConfoundedFace returns the "confounded face" emoji 😖.
-func ConfoundedFace(v ...Variant) string { return Lookup("confounded face", v...) }
+func ConfoundedFace(v ...Variant) string { return styled(301, v) }
 
 // PerseveringFace returns the "persevering face" emoji 😣.
-func PerseveringFace(v ...Variant) string { return Lookup("persevering face", v...) }
+func PerseveringFace(v ...Variant) string { return styled(1317, v) }
 
 // DisappointedFace returns the "disappointed face" emoji 😞.
-func DisappointedFace(v ...Variant) string { return Lookup("disappointed face", v...) }
+func DisappointedFace(v ...Variant) string { return styled(370, v) }
 
 // DowncastFaceWithSweat returns the "downcast face with sweat" emoji 😓.
-func DowncastFaceWithSweat(v ...Variant) string { return Lookup("downcast face with sweat", v...) }
+func DowncastFaceWithSweat(v ...Variant) string { return styled(394, v) }
 
 // WearyFace returns the "weary face" emoji 😩.
-func WearyFace(v ...Variant) string { return Lookup("weary face", v...) }
+func WearyFace(v ...Variant) string { return styled(1766, v) }
 
 // TiredFace returns the "tired face" emoji 😫.
-func TiredFace(v ...Variant) string { return Lookup("tired face", v...) }
+func TiredFace(v ...Variant) string { return styled(1689, v) }
 
 // YawningFace returns the "yawning face" emoji 🥱.
-func YawningFace(v ...Variant) string { return Lookup("yawning face", v...) }
+func YawningFace(v ...Variant) string { return styled(1887, v) }
 
-// FaceWithSteamFromNose returns the "face with steam from nose" emoji 😤.
-func FaceWithSteamFromNose(v ...Variant) string { return Lookup("face with steam from nose", v...) }
+// FaceWithSteamFromNose returns the "face with steam from nose" emoji
+// 😤.
+func FaceWithSteamFromNose(v ...Variant) string { return styled(457, v) }
 
 // EnragedFace returns the "enraged face" emoji 😡.
-func EnragedFace(v ...Variant) string { return Lookup("enraged face", v...) }
+func EnragedFace(v ...Variant) string { return styled(425, v) }
 
 // AngryFace returns the "angry face" emoji 😠.
-func AngryFace(v ...Variant) string { return Lookup("angry face", v...) }
+func AngryFace(v ...Variant) string { return styled(85, v) }
 
-// FaceWithSymbolsOnMouth returns the "face with symbols on mouth" emoji 🤬.
-func FaceWithSymbolsOnMouth(v ...Variant) string { return Lookup("face with symbols on mouth", v...) }
+// FaceWithSymbolsOnMouth returns the "face with symbols on mouth" emoji
+// 🤬.
+func FaceWithSymbolsOnMouth(v ...Variant) string { return styled(458, v) }
 
 // SmilingFaceWithHorns returns the "smiling face with horns" emoji 😈.
-func SmilingFaceWithHorns(v ...Variant) string { return Lookup("smiling face with horns", v...) }
+func SmilingFaceWithHorns(v ...Variant) string { return styled(1574, v) }
 
 // AngryFaceWithHorns returns the "angry face with horns" emoji 👿.
-func AngryFaceWithHorns(v ...Variant) string { return Lookup("angry face with horns", v...) }
+func AngryFaceWithHorns(v ...Variant) string { return styled(86, v) }
 
 // Skull returns the "skull" emoji 💀.
-func Skull(v ...Variant) string { return Lookup("skull", v...) }
+func Skull(v ...Variant) string { return styled(1556, v) }
 
 // SkullAndCrossbones returns the "skull and crossbones" emoji ☠️.
-func SkullAndCrossbones(v ...Variant) string { return Lookup("skull and crossbones", v...) }
+func SkullAndCrossbones(v ...Variant) string { return styled(1557, v) }
 
 // PileOfPoo returns the "pile of poo" emoji 💩.
-func PileOfPoo(v ...Variant) string { return Lookup("pile of poo", v...) }
+func PileOfPoo(v ...Variant) string { return styled(1376, v) }
 
 // ClownFace returns the "clown face" emoji 🤡.
-func ClownFace(v ...Variant) string { return Lookup("clown face", v...) }
+func ClownFace(v ...Variant) string { return styled(285, v) }
 
 // Ogre returns the "ogre" emoji 👹.
-func Ogre(v ...Variant) string { return Lookup("ogre", v...) }
+func Ogre(v ...Variant) string { return styled(1246, v) }
 
 // Goblin returns the "goblin" emoji 👺.
-func Goblin(v ...Variant) string { return Lookup("goblin", v...) }
+func Goblin(v ...Variant) string { return styled(851, v) }
 
 // Ghost returns the "ghost" emoji 👻.
-func Ghost(v ...Variant) string { return Lookup("ghost", v...) }
+func Ghost(v ...Variant) string { return styled(837, v) }
 
 // Alien returns the "alien" emoji 👽.
-func Alien(v ...Variant) string { return Lookup("alien", v...) }
+func Alien(v ...Variant) string { return styled(77, v) }
 
 // AlienMonster returns the "alien monster" emoji 👾.
-func AlienMonster(v ...Variant) string { return Lookup("alien monster", v...) }
+func AlienMonster(v ...Variant) string { return styled(78, v) }
 
 // Robot returns the "robot" emoji 🤖.
-func Robot(v ...Variant) string { return Lookup("robot", v...) }
+func Robot(v ...Variant) string { return styled(1485, v) }
 
 // GrinningCat returns the "grinning cat" emoji 😺.
-func GrinningCat(v ...Variant) string { return Lookup("grinning cat", v...) }
+func GrinningCat(v ...Variant) string { return styled(865, v) }
 
-// GrinningCatWithSmilingEyes returns the "grinning cat with smiling eyes" emoji 😸.
-func GrinningCatWithSmilingEyes(v ...Variant) string {
-	return Lookup("grinning cat with smiling eyes", v...)
-}
+// GrinningCatWithSmilingEyes returns the "grinning cat with smiling eyes"
+// emoji 😸.
+func GrinningCatWithSmilingEyes(v ...Variant) string { return styled(866, v) }
 
 // CatWithTearsOfJoy returns the "cat with tears of joy" emoji 😹.
-func CatWithTearsOfJoy(v ...Variant) string { return Lookup("cat with tears of joy", v...) }
+func CatWithTearsOfJoy(v ...Variant) string { return styled(239, v) }
 
-// SmilingCatWithHeartEyes returns the "smiling cat with heart-eyes" emoji 😻.
-func SmilingCatWithHeartEyes(v ...Variant) string { return Lookup("smiling cat with heart-eyes", v...) }
+// SmilingCatWithHeartEyes returns the "smiling cat with heart-eyes" emoji
+// 😻.
+func SmilingCatWithHeartEyes(v ...Variant) string { return styled(1569, v) }
 
 // CatWithWrySmile returns the "cat with wry smile" emoji 😼.
-func CatWithWrySmile(v ...Variant) string { return Lookup("cat with wry smile", v...) }
+func CatWithWrySmile(v ...Variant) string { return styled(240, v) }
 
 // KissingCat returns the "kissing cat" emoji 😽.
-func KissingCat(v ...Variant) string { return Lookup("kissing cat", v...) }
+func KissingCat(v ...Variant) string { return styled(989, v) }
 
 // WearyCat returns the "weary cat" emoji 🙀.
-func WearyCat(v ...Variant) string { return Lookup("weary cat", v...) }
+func WearyCat(v ...Variant) string { return styled(1765, v) }
 
 // CryingCat returns the "crying cat" emoji 😿.
-func CryingCat(v ...Variant) string { return Lookup("crying cat", v...) }
+func CryingCat(v ...Variant) string { return styled(338, v) }
 
 // PoutingCat returns the "pouting cat" emoji 😾.
-func PoutingCat(v ...Variant) string { return Lookup("pouting cat", v...) }
+func PoutingCat(v ...Variant) string { return styled(1413, v) }
 
 // SeeNoEvilMonkey returns the "see-no-evil monkey" emoji 🙈.
-func SeeNoEvilMonkey(v ...Variant) string { return Lookup("see-no-evil monkey", v...) }
+func SeeNoEvilMonkey(v ...Variant) string { return styled(1523, v) }
 
 // HearNoEvilMonkey returns the "hear-no-evil monkey" emoji 🙉.
-func HearNoEvilMonkey(v ...Variant) string { return Lookup("hear-no-evil monkey", v...) }
+func HearNoEvilMonkey(v ...Variant) string { return styled(895, v) }
 
 // SpeakNoEvilMonkey returns the "speak-no-evil monkey" emoji 🙊.
-func SpeakNoEvilMonkey(v ...Variant) string { return Lookup("speak-no-evil monkey", v...) }
+func SpeakNoEvilMonkey(v ...Variant) string { return styled(1599, v) }
 
 // LoveLetter returns the "love letter" emoji 💌.
-func LoveLetter(v ...Variant) string { return Lookup("love letter", v...) }
+func LoveLetter(v ...Variant) string { return styled(1050, v) }
 
 // HeartWithArrow returns the "heart with arrow" emoji 💘.
-func HeartWithArrow(v ...Variant) string { return Lookup("heart with arrow", v...) }
+func HeartWithArrow(v ...Variant) string { return styled(901, v) }
 
 // HeartWithRibbon returns the "heart with ribbon" emoji 💝.
-func HeartWithRibbon(v ...Variant) string { return Lookup("heart with ribbon", v...) }
+func HeartWithRibbon(v ...Variant) string { return styled(902, v) }
 
 // SparklingHeart returns the "sparkling heart" emoji 💖.
-func SparklingHeart(v ...Variant) string { return Lookup("sparkling heart", v...) }
+func SparklingHeart(v ...Variant) string { return styled(1598, v) }
 
 // GrowingHeart returns the "growing heart" emoji 💗.
-func GrowingHeart(v ...Variant) string { return Lookup("growing heart", v...) }
+func GrowingHeart(v ...Variant) string { return styled(872, v) }
 
 // BeatingHeart returns the "beating heart" emoji 💓.
-func BeatingHeart(v ...Variant) string { return Lookup("beating heart", v...) }
+func BeatingHeart(v ...Variant) string { return styled(137, v) }
 
 // RevolvingHearts returns the "revolving hearts" emoji 💞.
-func RevolvingHearts(v ...Variant) string { return Lookup("revolving hearts", v...) }
+func RevolvingHearts(v ...Variant) string { return styled(1468, v) }
 
 // TwoHearts returns the "two hearts" emoji 💕.
-func TwoHearts(v ...Variant) string { return Lookup("two hearts", v...) }
+func TwoHearts(v ...Variant) string { return styled(1723, v) }
 
 // HeartDecoration returns the "heart decoration" emoji 💟.
-func HeartDecoration(v ...Variant) string { return Lookup("heart decoration", v...) }
+func HeartDecoration(v ...Variant) string { return styled(896, v) }
 
 // HeartExclamation returns the "heart exclamation" emoji ❣️.
-func HeartExclamation(v ...Variant) string { return Lookup("heart exclamation", v...) }
+func HeartExclamation(v ...Variant) string { return styled(897, v) }
 
 // BrokenHeart returns the "broken heart" emoji 💔.
-func BrokenHeart(v ...Variant) string { return Lookup("broken heart", v...) }
+func BrokenHeart(v ...Variant) string { return styled(198, v) }
 
 // HeartOnFire returns the "heart on fire" emoji ❤️‍🔥.
-func HeartOnFire(v ...Variant) string { return Lookup("heart on fire", v...) }
+func HeartOnFire(v ...Variant) string { return styled(899, v) }
 
 // MendingHeart returns the "mending heart" emoji ❤️‍🩹.
-func MendingHeart(v ...Variant) string { return Lookup("mending heart", v...) }
+func MendingHeart(v ...Variant) string { return styled(1158, v) }
 
 // RedHeart returns the "red heart" emoji ❤️.
-func RedHeart(v ...Variant) string { return Lookup("red heart", v...) }
+func RedHeart(v ...Variant) string { return styled(1454, v) }
 
 // PinkHeart returns the "pink heart" emoji 🩷.
-func PinkHeart(v ...Variant) string { return Lookup("pink heart", v...) }
+func PinkHeart(v ...Variant) string { return styled(1384, v) }
 
 // OrangeHeart returns the "orange heart" emoji 🧡.
-func OrangeHeart(v ...Variant) string { return Lookup("orange heart", v...) }
+func OrangeHeart(v ...Variant) string { return styled(1271, v) }
 
 // YellowHeart returns the "yellow heart" emoji 💛.
-func YellowHeart(v ...Variant) string { return Lookup("yellow heart", v...) }
+func YellowHeart(v ...Variant) string { return styled(1889, v) }
 
 // GreenHeart returns the "green heart" emoji 💚.
-func GreenHeart(v ...Variant) string { return Lookup("green heart", v...) }
+func GreenHeart(v ...Variant) string { return styled(860, v) }
 
 // BlueHeart returns the "blue heart" emoji 💙.
-func BlueHeart(v ...Variant) string { return Lookup("blue heart", v...) }
+func BlueHeart(v ...Variant) string { return styled(171, v) }
 
 // LightBlueHeart returns the "light blue heart" emoji 🩵.
-func LightBlueHeart(v ...Variant) string { return Lookup("light blue heart", v...) }
+func LightBlueHeart(v ...Variant) string { return styled(1027, v) }
 
 // PurpleHeart returns the "purple heart" emoji 💜.
-func PurpleHeart(v ...Variant) string { return Lookup("purple heart", v...) }
+func PurpleHeart(v ...Variant) string { return styled(1424, v) }
 
 // BrownHeart returns the "brown heart" emoji 🤎.
-func BrownHeart(v ...Variant) string { return Lookup("brown heart", v...) }
+func BrownHeart(v ...Variant) string { return styled(201, v) }
 
 // BlackHeart returns the "black heart" emoji 🖤.
-func BlackHeart(v ...Variant) string { return Lookup("black heart", v...) }
+func BlackHeart(v ...Variant) string { return styled(160, v) }
 
 // GreyHeart returns the "grey heart" emoji 🩶.
-func GreyHeart(v ...Variant) string { return Lookup("grey heart", v...) }
+func GreyHeart(v ...Variant) string { return styled(863, v) }
 
 // WhiteHeart returns the "white heart" emoji 🤍.
-func WhiteHeart(v ...Variant) string { return Lookup("white heart", v...) }
+func WhiteHeart(v ...Variant) string { return styled(1777, v) }
 
 // KissMark returns the "kiss mark" emoji 💋.
-func KissMark(v ...Variant) string { return Lookup("kiss mark", v...) }
+func KissMark(v ...Variant) string { return styled(984, v) }
 
 // HundredPoints returns the "hundred points" emoji 💯.
-func HundredPoints(v ...Variant) string { return Lookup("hundred points", v...) }
+func HundredPoints(v ...Variant) string { return styled(936, v) }
 
 // AngerSymbol returns the "anger symbol" emoji 💢.
-func AngerSymbol(v ...Variant) string { return Lookup("anger symbol", v...) }
+func AngerSymbol(v ...Variant) string { return styled(84, v) }
 
 // FightCloud returns the "fight cloud" emoji 🫯.
-func FightCloud(v ...Variant) string { return Lookup("fight cloud", v...) }
+func FightCloud(v ...Variant) string { return styled(510, v) }
 
 // Collision returns the "collision" emoji 💥.
-func Collision(v ...Variant) string { return Lookup("collision", v...) }
+func Collision(v ...Variant) string { return styled(295, v) }
 
 // Dizzy returns the "dizzy" emoji 💫.
-func Dizzy(v ...Variant) string { return Lookup("dizzy", v...) }
+func Dizzy(v ...Variant) string { return styled(376, v) }
 
 // SweatDroplets returns the "sweat droplets" emoji 💦.
-func SweatDroplets(v ...Variant) string { return Lookup("sweat droplets", v...) }
+func SweatDroplets(v ...Variant) string { return styled(1651, v) }
 
 // DashingAway returns the "dashing away" emoji 💨.
-func DashingAway(v ...Variant) string { return Lookup("dashing away", v...) }
+func DashingAway(v ...Variant) string { return styled(354, v) }
 
 // Hole returns the "hole" emoji 🕳️.
-func Hole(v ...Variant) string { return Lookup("hole", v...) }
+func Hole(v ...Variant) string { return styled(915, v) }
 
 // SpeechBalloon returns the "speech balloon" emoji 💬.
-func SpeechBalloon(v ...Variant) string { return Lookup("speech balloon", v...) }
+func SpeechBalloon(v ...Variant) string { return styled(1604, v) }
 
-// EyeInSpeechBubble returns the "eye in speech bubble" emoji 👁️‍🗨️.
-func EyeInSpeechBubble(v ...Variant) string { return Lookup("eye in speech bubble", v...) }
+// EyeInSpeechBubble returns the "eye in speech bubble" emoji
+// 👁️‍🗨️.
+func EyeInSpeechBubble(v ...Variant) string { return styled(435, v) }
 
 // LeftSpeechBubble returns the "left speech bubble" emoji 🗨️.
-func LeftSpeechBubble(v ...Variant) string { return Lookup("left speech bubble", v...) }
+func LeftSpeechBubble(v ...Variant) string { return styled(1018, v) }
 
 // RightAngerBubble returns the "right anger bubble" emoji 🗯️.
-func RightAngerBubble(v ...Variant) string { return Lookup("right anger bubble", v...) }
+func RightAngerBubble(v ...Variant) string { return styled(1473, v) }
 
 // ThoughtBalloon returns the "thought balloon" emoji 💭.
-func ThoughtBalloon(v ...Variant) string { return Lookup("thought balloon", v...) }
+func ThoughtBalloon(v ...Variant) string { return styled(1679, v) }
 
 // ZZZ returns the "ZZZ" emoji 💤.
-func ZZZ(v ...Variant) string { return Lookup("ZZZ", v...) }
+func ZZZ(v ...Variant) string { return styled(66, v) }
 
 // People & Body
 
@@ -552,7 +552,7 @@ func ZZZ(v ...Variant) string { return Lookup("ZZZ", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WavingHand(v ...Variant) string { return Lookup("waving hand", v...) }
+func WavingHand(v ...Variant) string { return styled(1761, v) }
 
 // RaisedBackOfHand returns the "raised back of hand" emoji 🤚.
 //
@@ -560,15 +560,16 @@ func WavingHand(v ...Variant) string { return Lookup("waving hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RaisedBackOfHand(v ...Variant) string { return Lookup("raised back of hand", v...) }
+func RaisedBackOfHand(v ...Variant) string { return styled(1440, v) }
 
-// HandWithFingersSplayed returns the "hand with fingers splayed" emoji 🖐️.
+// HandWithFingersSplayed returns the "hand with fingers splayed" emoji
+// 🖐️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func HandWithFingersSplayed(v ...Variant) string { return Lookup("hand with fingers splayed", v...) }
+func HandWithFingersSplayed(v ...Variant) string { return styled(884, v) }
 
 // RaisedHand returns the "raised hand" emoji ✋.
 //
@@ -576,7 +577,7 @@ func HandWithFingersSplayed(v ...Variant) string { return Lookup("hand with fing
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RaisedHand(v ...Variant) string { return Lookup("raised hand", v...) }
+func RaisedHand(v ...Variant) string { return styled(1442, v) }
 
 // VulcanSalute returns the "vulcan salute" emoji 🖖.
 //
@@ -584,7 +585,7 @@ func RaisedHand(v ...Variant) string { return Lookup("raised hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func VulcanSalute(v ...Variant) string { return Lookup("vulcan salute", v...) }
+func VulcanSalute(v ...Variant) string { return styled(1749, v) }
 
 // RightwardsHand returns the "rightwards hand" emoji 🫱.
 //
@@ -592,7 +593,7 @@ func VulcanSalute(v ...Variant) string { return Lookup("vulcan salute", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RightwardsHand(v ...Variant) string { return Lookup("rightwards hand", v...) }
+func RightwardsHand(v ...Variant) string { return styled(1479, v) }
 
 // LeftwardsHand returns the "leftwards hand" emoji 🫲.
 //
@@ -600,7 +601,7 @@ func RightwardsHand(v ...Variant) string { return Lookup("rightwards hand", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func LeftwardsHand(v ...Variant) string { return Lookup("leftwards hand", v...) }
+func LeftwardsHand(v ...Variant) string { return styled(1021, v) }
 
 // PalmDownHand returns the "palm down hand" emoji 🫳.
 //
@@ -608,7 +609,7 @@ func LeftwardsHand(v ...Variant) string { return Lookup("leftwards hand", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PalmDownHand(v ...Variant) string { return Lookup("palm down hand", v...) }
+func PalmDownHand(v ...Variant) string { return styled(1286, v) }
 
 // PalmUpHand returns the "palm up hand" emoji 🫴.
 //
@@ -616,7 +617,7 @@ func PalmDownHand(v ...Variant) string { return Lookup("palm down hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PalmUpHand(v ...Variant) string { return Lookup("palm up hand", v...) }
+func PalmUpHand(v ...Variant) string { return styled(1288, v) }
 
 // LeftwardsPushingHand returns the "leftwards pushing hand" emoji 🫷.
 //
@@ -624,7 +625,7 @@ func PalmUpHand(v ...Variant) string { return Lookup("palm up hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func LeftwardsPushingHand(v ...Variant) string { return Lookup("leftwards pushing hand", v...) }
+func LeftwardsPushingHand(v ...Variant) string { return styled(1022, v) }
 
 // RightwardsPushingHand returns the "rightwards pushing hand" emoji 🫸.
 //
@@ -632,7 +633,7 @@ func LeftwardsPushingHand(v ...Variant) string { return Lookup("leftwards pushin
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RightwardsPushingHand(v ...Variant) string { return Lookup("rightwards pushing hand", v...) }
+func RightwardsPushingHand(v ...Variant) string { return styled(1480, v) }
 
 // OKHand returns the "OK hand" emoji 👌.
 //
@@ -640,7 +641,7 @@ func RightwardsPushingHand(v ...Variant) string { return Lookup("rightwards push
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OKHand(v ...Variant) string { return Lookup("OK hand", v...) }
+func OKHand(v ...Variant) string { return styled(48, v) }
 
 // PinchedFingers returns the "pinched fingers" emoji 🤌.
 //
@@ -648,7 +649,7 @@ func OKHand(v ...Variant) string { return Lookup("OK hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PinchedFingers(v ...Variant) string { return Lookup("pinched fingers", v...) }
+func PinchedFingers(v ...Variant) string { return styled(1379, v) }
 
 // PinchingHand returns the "pinching hand" emoji 🤏.
 //
@@ -656,7 +657,7 @@ func PinchedFingers(v ...Variant) string { return Lookup("pinched fingers", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PinchingHand(v ...Variant) string { return Lookup("pinching hand", v...) }
+func PinchingHand(v ...Variant) string { return styled(1380, v) }
 
 // VictoryHand returns the "victory hand" emoji ✌️.
 //
@@ -664,7 +665,7 @@ func PinchingHand(v ...Variant) string { return Lookup("pinching hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func VictoryHand(v ...Variant) string { return Lookup("victory hand", v...) }
+func VictoryHand(v ...Variant) string { return styled(1742, v) }
 
 // CrossedFingers returns the "crossed fingers" emoji 🤞.
 //
@@ -672,17 +673,16 @@ func VictoryHand(v ...Variant) string { return Lookup("victory hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func CrossedFingers(v ...Variant) string { return Lookup("crossed fingers", v...) }
+func CrossedFingers(v ...Variant) string { return styled(333, v) }
 
-// HandWithIndexFingerAndThumbCrossed returns the "hand with index finger and thumb crossed" emoji 🫰.
+// HandWithIndexFingerAndThumbCrossed returns the "hand with index finger
+// and thumb crossed" emoji 🫰.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func HandWithIndexFingerAndThumbCrossed(v ...Variant) string {
-	return Lookup("hand with index finger and thumb crossed", v...)
-}
+func HandWithIndexFingerAndThumbCrossed(v ...Variant) string { return styled(885, v) }
 
 // LoveYouGesture returns the "love-you gesture" emoji 🤟.
 //
@@ -690,7 +690,7 @@ func HandWithIndexFingerAndThumbCrossed(v ...Variant) string {
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func LoveYouGesture(v ...Variant) string { return Lookup("love-you gesture", v...) }
+func LoveYouGesture(v ...Variant) string { return styled(1051, v) }
 
 // SignOfTheHorns returns the "sign of the horns" emoji 🤘.
 //
@@ -698,7 +698,7 @@ func LoveYouGesture(v ...Variant) string { return Lookup("love-you gesture", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func SignOfTheHorns(v ...Variant) string { return Lookup("sign of the horns", v...) }
+func SignOfTheHorns(v ...Variant) string { return styled(1549, v) }
 
 // CallMeHand returns the "call me hand" emoji 🤙.
 //
@@ -706,35 +706,34 @@ func SignOfTheHorns(v ...Variant) string { return Lookup("sign of the horns", v.
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func CallMeHand(v ...Variant) string { return Lookup("call me hand", v...) }
+func CallMeHand(v ...Variant) string { return styled(220, v) }
 
-// BackhandIndexPointingLeft returns the "backhand index pointing left" emoji 👈.
+// BackhandIndexPointingLeft returns the "backhand index pointing left"
+// emoji 👈.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BackhandIndexPointingLeft(v ...Variant) string {
-	return Lookup("backhand index pointing left", v...)
-}
+func BackhandIndexPointingLeft(v ...Variant) string { return styled(107, v) }
 
-// BackhandIndexPointingRight returns the "backhand index pointing right" emoji 👉.
+// BackhandIndexPointingRight returns the "backhand index pointing right"
+// emoji 👉.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BackhandIndexPointingRight(v ...Variant) string {
-	return Lookup("backhand index pointing right", v...)
-}
+func BackhandIndexPointingRight(v ...Variant) string { return styled(108, v) }
 
-// BackhandIndexPointingUp returns the "backhand index pointing up" emoji 👆.
+// BackhandIndexPointingUp returns the "backhand index pointing up" emoji
+// 👆.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BackhandIndexPointingUp(v ...Variant) string { return Lookup("backhand index pointing up", v...) }
+func BackhandIndexPointingUp(v ...Variant) string { return styled(109, v) }
 
 // MiddleFinger returns the "middle finger" emoji 🖕.
 //
@@ -742,17 +741,16 @@ func BackhandIndexPointingUp(v ...Variant) string { return Lookup("backhand inde
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func MiddleFinger(v ...Variant) string { return Lookup("middle finger", v...) }
+func MiddleFinger(v ...Variant) string { return styled(1168, v) }
 
-// BackhandIndexPointingDown returns the "backhand index pointing down" emoji 👇.
+// BackhandIndexPointingDown returns the "backhand index pointing down"
+// emoji 👇.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BackhandIndexPointingDown(v ...Variant) string {
-	return Lookup("backhand index pointing down", v...)
-}
+func BackhandIndexPointingDown(v ...Variant) string { return styled(106, v) }
 
 // IndexPointingUp returns the "index pointing up" emoji ☝️.
 //
@@ -760,17 +758,16 @@ func BackhandIndexPointingDown(v ...Variant) string {
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func IndexPointingUp(v ...Variant) string { return Lookup("index pointing up", v...) }
+func IndexPointingUp(v ...Variant) string { return styled(948, v) }
 
-// IndexPointingAtTheViewer returns the "index pointing at the viewer" emoji 🫵.
+// IndexPointingAtTheViewer returns the "index pointing at the viewer"
+// emoji 🫵.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func IndexPointingAtTheViewer(v ...Variant) string {
-	return Lookup("index pointing at the viewer", v...)
-}
+func IndexPointingAtTheViewer(v ...Variant) string { return styled(947, v) }
 
 // ThumbsUp returns the "thumbs up" emoji 👍.
 //
@@ -778,7 +775,7 @@ func IndexPointingAtTheViewer(v ...Variant) string {
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ThumbsUp(v ...Variant) string { return Lookup("thumbs up", v...) }
+func ThumbsUp(v ...Variant) string { return styled(1684, v) }
 
 // ThumbsDown returns the "thumbs down" emoji 👎.
 //
@@ -786,7 +783,7 @@ func ThumbsUp(v ...Variant) string { return Lookup("thumbs up", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ThumbsDown(v ...Variant) string { return Lookup("thumbs down", v...) }
+func ThumbsDown(v ...Variant) string { return styled(1683, v) }
 
 // RaisedFist returns the "raised fist" emoji ✊.
 //
@@ -794,7 +791,7 @@ func ThumbsDown(v ...Variant) string { return Lookup("thumbs down", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RaisedFist(v ...Variant) string { return Lookup("raised fist", v...) }
+func RaisedFist(v ...Variant) string { return styled(1441, v) }
 
 // OncomingFist returns the "oncoming fist" emoji 👊.
 //
@@ -802,7 +799,7 @@ func RaisedFist(v ...Variant) string { return Lookup("raised fist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OncomingFist(v ...Variant) string { return Lookup("oncoming fist", v...) }
+func OncomingFist(v ...Variant) string { return styled(1256, v) }
 
 // LeftFacingFist returns the "left-facing fist" emoji 🤛.
 //
@@ -810,7 +807,7 @@ func OncomingFist(v ...Variant) string { return Lookup("oncoming fist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func LeftFacingFist(v ...Variant) string { return Lookup("left-facing fist", v...) }
+func LeftFacingFist(v ...Variant) string { return styled(1019, v) }
 
 // RightFacingFist returns the "right-facing fist" emoji 🤜.
 //
@@ -818,7 +815,7 @@ func LeftFacingFist(v ...Variant) string { return Lookup("left-facing fist", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RightFacingFist(v ...Variant) string { return Lookup("right-facing fist", v...) }
+func RightFacingFist(v ...Variant) string { return styled(1478, v) }
 
 // ClappingHands returns the "clapping hands" emoji 👏.
 //
@@ -826,7 +823,7 @@ func RightFacingFist(v ...Variant) string { return Lookup("right-facing fist", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ClappingHands(v ...Variant) string { return Lookup("clapping hands", v...) }
+func ClappingHands(v ...Variant) string { return styled(270, v) }
 
 // RaisingHands returns the "raising hands" emoji 🙌.
 //
@@ -834,7 +831,7 @@ func ClappingHands(v ...Variant) string { return Lookup("clapping hands", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func RaisingHands(v ...Variant) string { return Lookup("raising hands", v...) }
+func RaisingHands(v ...Variant) string { return styled(1443, v) }
 
 // HeartHands returns the "heart hands" emoji 🫶.
 //
@@ -842,7 +839,7 @@ func RaisingHands(v ...Variant) string { return Lookup("raising hands", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func HeartHands(v ...Variant) string { return Lookup("heart hands", v...) }
+func HeartHands(v ...Variant) string { return styled(898, v) }
 
 // OpenHands returns the "open hands" emoji 👐.
 //
@@ -850,7 +847,7 @@ func HeartHands(v ...Variant) string { return Lookup("heart hands", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OpenHands(v ...Variant) string { return Lookup("open hands", v...) }
+func OpenHands(v ...Variant) string { return styled(1265, v) }
 
 // PalmsUpTogether returns the "palms up together" emoji 🤲.
 //
@@ -858,7 +855,7 @@ func OpenHands(v ...Variant) string { return Lookup("open hands", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PalmsUpTogether(v ...Variant) string { return Lookup("palms up together", v...) }
+func PalmsUpTogether(v ...Variant) string { return styled(1289, v) }
 
 // Handshake returns the "handshake" emoji 🤝.
 //
@@ -867,7 +864,7 @@ func PalmsUpTogether(v ...Variant) string { return Lookup("palms up together", v
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func Handshake(v ...Variant) string { return Lookup("handshake", v...) }
+func Handshake(v ...Variant) string { return styled(887, v) }
 
 // FoldedHands returns the "folded hands" emoji 🙏.
 //
@@ -875,7 +872,7 @@ func Handshake(v ...Variant) string { return Lookup("handshake", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func FoldedHands(v ...Variant) string { return Lookup("folded hands", v...) }
+func FoldedHands(v ...Variant) string { return styled(807, v) }
 
 // WritingHand returns the "writing hand" emoji ✍️.
 //
@@ -883,7 +880,7 @@ func FoldedHands(v ...Variant) string { return Lookup("folded hands", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WritingHand(v ...Variant) string { return Lookup("writing hand", v...) }
+func WritingHand(v ...Variant) string { return styled(1884, v) }
 
 // NailPolish returns the "nail polish" emoji 💅.
 //
@@ -891,7 +888,7 @@ func WritingHand(v ...Variant) string { return Lookup("writing hand", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func NailPolish(v ...Variant) string { return Lookup("nail polish", v...) }
+func NailPolish(v ...Variant) string { return styled(1212, v) }
 
 // Selfie returns the "selfie" emoji 🤳.
 //
@@ -899,7 +896,7 @@ func NailPolish(v ...Variant) string { return Lookup("nail polish", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Selfie(v ...Variant) string { return Lookup("selfie", v...) }
+func Selfie(v ...Variant) string { return styled(1525, v) }
 
 // FlexedBiceps returns the "flexed biceps" emoji 💪.
 //
@@ -907,13 +904,13 @@ func Selfie(v ...Variant) string { return Lookup("selfie", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func FlexedBiceps(v ...Variant) string { return Lookup("flexed biceps", v...) }
+func FlexedBiceps(v ...Variant) string { return styled(797, v) }
 
 // MechanicalArm returns the "mechanical arm" emoji 🦾.
-func MechanicalArm(v ...Variant) string { return Lookup("mechanical arm", v...) }
+func MechanicalArm(v ...Variant) string { return styled(1148, v) }
 
 // MechanicalLeg returns the "mechanical leg" emoji 🦿.
-func MechanicalLeg(v ...Variant) string { return Lookup("mechanical leg", v...) }
+func MechanicalLeg(v ...Variant) string { return styled(1149, v) }
 
 // Leg returns the "leg" emoji 🦵.
 //
@@ -921,7 +918,7 @@ func MechanicalLeg(v ...Variant) string { return Lookup("mechanical leg", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Leg(v ...Variant) string { return Lookup("leg", v...) }
+func Leg(v ...Variant) string { return styled(1023, v) }
 
 // Foot returns the "foot" emoji 🦶.
 //
@@ -929,7 +926,7 @@ func Leg(v ...Variant) string { return Lookup("leg", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Foot(v ...Variant) string { return Lookup("foot", v...) }
+func Foot(v ...Variant) string { return styled(810, v) }
 
 // Ear returns the "ear" emoji 👂.
 //
@@ -937,7 +934,7 @@ func Foot(v ...Variant) string { return Lookup("foot", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Ear(v ...Variant) string { return Lookup("ear", v...) }
+func Ear(v ...Variant) string { return styled(408, v) }
 
 // EarWithHearingAid returns the "ear with hearing aid" emoji 🦻.
 //
@@ -945,7 +942,7 @@ func Ear(v ...Variant) string { return Lookup("ear", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func EarWithHearingAid(v ...Variant) string { return Lookup("ear with hearing aid", v...) }
+func EarWithHearingAid(v ...Variant) string { return styled(410, v) }
 
 // Nose returns the "nose" emoji 👃.
 //
@@ -953,37 +950,37 @@ func EarWithHearingAid(v ...Variant) string { return Lookup("ear with hearing ai
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Nose(v ...Variant) string { return Lookup("nose", v...) }
+func Nose(v ...Variant) string { return styled(1238, v) }
 
 // Brain returns the "brain" emoji 🧠.
-func Brain(v ...Variant) string { return Lookup("brain", v...) }
+func Brain(v ...Variant) string { return styled(188, v) }
 
 // AnatomicalHeart returns the "anatomical heart" emoji 🫀.
-func AnatomicalHeart(v ...Variant) string { return Lookup("anatomical heart", v...) }
+func AnatomicalHeart(v ...Variant) string { return styled(82, v) }
 
 // Lungs returns the "lungs" emoji 🫁.
-func Lungs(v ...Variant) string { return Lookup("lungs", v...) }
+func Lungs(v ...Variant) string { return styled(1054, v) }
 
 // Tooth returns the "tooth" emoji 🦷.
-func Tooth(v ...Variant) string { return Lookup("tooth", v...) }
+func Tooth(v ...Variant) string { return styled(1694, v) }
 
 // Bone returns the "bone" emoji 🦴.
-func Bone(v ...Variant) string { return Lookup("bone", v...) }
+func Bone(v ...Variant) string { return styled(176, v) }
 
 // Eyes returns the "eyes" emoji 👀.
-func Eyes(v ...Variant) string { return Lookup("eyes", v...) }
+func Eyes(v ...Variant) string { return styled(436, v) }
 
 // Eye returns the "eye" emoji 👁️.
-func Eye(v ...Variant) string { return Lookup("eye", v...) }
+func Eye(v ...Variant) string { return styled(434, v) }
 
 // Tongue returns the "tongue" emoji 👅.
-func Tongue(v ...Variant) string { return Lookup("tongue", v...) }
+func Tongue(v ...Variant) string { return styled(1692, v) }
 
 // Mouth returns the "mouth" emoji 👄.
-func Mouth(v ...Variant) string { return Lookup("mouth", v...) }
+func Mouth(v ...Variant) string { return styled(1203, v) }
 
 // BitingLip returns the "biting lip" emoji 🫦.
-func BitingLip(v ...Variant) string { return Lookup("biting lip", v...) }
+func BitingLip(v ...Variant) string { return styled(155, v) }
 
 // Baby returns the "baby" emoji 👶.
 //
@@ -991,7 +988,7 @@ func BitingLip(v ...Variant) string { return Lookup("biting lip", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Baby(v ...Variant) string { return Lookup("baby", v...) }
+func Baby(v ...Variant) string { return styled(101, v) }
 
 // Child returns the "child" emoji 🧒.
 //
@@ -999,7 +996,7 @@ func Baby(v ...Variant) string { return Lookup("baby", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Child(v ...Variant) string { return Lookup("child", v...) }
+func Child(v ...Variant) string { return styled(256, v) }
 
 // Boy returns the "boy" emoji 👦.
 //
@@ -1007,7 +1004,7 @@ func Child(v ...Variant) string { return Lookup("child", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Boy(v ...Variant) string { return Lookup("boy", v...) }
+func Boy(v ...Variant) string { return styled(187, v) }
 
 // Girl returns the "girl" emoji 👧.
 //
@@ -1015,7 +1012,7 @@ func Boy(v ...Variant) string { return Lookup("boy", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Girl(v ...Variant) string { return Lookup("girl", v...) }
+func Girl(v ...Variant) string { return styled(840, v) }
 
 // Person returns the "person" emoji 🧑.
 //
@@ -1025,7 +1022,7 @@ func Girl(v ...Variant) string { return Lookup("girl", v...) }
 // BlondHair, Bald, Beard. Calling it with no variants returns the
 // unmodified emoji, and an unsupported combination returns the empty
 // string.
-func Person(v ...Variant) string { return Lookup("person", v...) }
+func Person(v ...Variant) string { return styled(1318, v) }
 
 // Man returns the "man" emoji 👨.
 //
@@ -1035,7 +1032,7 @@ func Person(v ...Variant) string { return Lookup("person", v...) }
 // BlondHair, Bald, Beard. Calling it with no variants returns the
 // unmodified emoji, and an unsupported combination returns the empty
 // string.
-func Man(v ...Variant) string { return Lookup("man", v...) }
+func Man(v ...Variant) string { return styled(1064, v) }
 
 // Woman returns the "woman" emoji 👩.
 //
@@ -1045,7 +1042,7 @@ func Man(v ...Variant) string { return Lookup("man", v...) }
 // BlondHair, Bald, Beard. Calling it with no variants returns the
 // unmodified emoji, and an unsupported combination returns the empty
 // string.
-func Woman(v ...Variant) string { return Lookup("woman", v...) }
+func Woman(v ...Variant) string { return styled(1794, v) }
 
 // OlderPerson returns the "older person" emoji 🧓.
 //
@@ -1053,7 +1050,7 @@ func Woman(v ...Variant) string { return Lookup("woman", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OlderPerson(v ...Variant) string { return Lookup("older person", v...) }
+func OlderPerson(v ...Variant) string { return styled(1251, v) }
 
 // OldMan returns the "old man" emoji 👴.
 //
@@ -1061,7 +1058,7 @@ func OlderPerson(v ...Variant) string { return Lookup("older person", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OldMan(v ...Variant) string { return Lookup("old man", v...) }
+func OldMan(v ...Variant) string { return styled(1249, v) }
 
 // OldWoman returns the "old woman" emoji 👵.
 //
@@ -1069,7 +1066,7 @@ func OldMan(v ...Variant) string { return Lookup("old man", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OldWoman(v ...Variant) string { return Lookup("old woman", v...) }
+func OldWoman(v ...Variant) string { return styled(1250, v) }
 
 // PersonFrowning returns the "person frowning" emoji 🙍.
 //
@@ -1077,7 +1074,7 @@ func OldWoman(v ...Variant) string { return Lookup("old woman", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonFrowning(v ...Variant) string { return Lookup("person frowning", v...) }
+func PersonFrowning(v ...Variant) string { return styled(1327, v) }
 
 // ManFrowning returns the "man frowning" emoji 🙍‍♂️.
 //
@@ -1085,7 +1082,7 @@ func PersonFrowning(v ...Variant) string { return Lookup("person frowning", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFrowning(v ...Variant) string { return Lookup("man frowning", v...) }
+func ManFrowning(v ...Variant) string { return styled(1083, v) }
 
 // WomanFrowning returns the "woman frowning" emoji 🙍‍♀️.
 //
@@ -1093,7 +1090,7 @@ func ManFrowning(v ...Variant) string { return Lookup("man frowning", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFrowning(v ...Variant) string { return Lookup("woman frowning", v...) }
+func WomanFrowning(v ...Variant) string { return styled(1814, v) }
 
 // PersonPouting returns the "person pouting" emoji 🙎.
 //
@@ -1101,7 +1098,7 @@ func WomanFrowning(v ...Variant) string { return Lookup("woman frowning", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonPouting(v ...Variant) string { return Lookup("person pouting", v...) }
+func PersonPouting(v ...Variant) string { return styled(1349, v) }
 
 // ManPouting returns the "man pouting" emoji 🙎‍♂️.
 //
@@ -1109,7 +1106,7 @@ func PersonPouting(v ...Variant) string { return Lookup("person pouting", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManPouting(v ...Variant) string { return Lookup("man pouting", v...) }
+func ManPouting(v ...Variant) string { return styled(1112, v) }
 
 // WomanPouting returns the "woman pouting" emoji 🙎‍♀️.
 //
@@ -1117,7 +1114,7 @@ func ManPouting(v ...Variant) string { return Lookup("man pouting", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanPouting(v ...Variant) string { return Lookup("woman pouting", v...) }
+func WomanPouting(v ...Variant) string { return styled(1843, v) }
 
 // PersonGesturingNO returns the "person gesturing NO" emoji 🙅.
 //
@@ -1125,7 +1122,7 @@ func WomanPouting(v ...Variant) string { return Lookup("woman pouting", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonGesturingNO(v ...Variant) string { return Lookup("person gesturing NO", v...) }
+func PersonGesturingNO(v ...Variant) string { return styled(1328, v) }
 
 // ManGesturingNO returns the "man gesturing NO" emoji 🙅‍♂️.
 //
@@ -1133,7 +1130,7 @@ func PersonGesturingNO(v ...Variant) string { return Lookup("person gesturing NO
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGesturingNO(v ...Variant) string { return Lookup("man gesturing NO", v...) }
+func ManGesturingNO(v ...Variant) string { return styled(1085, v) }
 
 // WomanGesturingNO returns the "woman gesturing NO" emoji 🙅‍♀️.
 //
@@ -1141,7 +1138,7 @@ func ManGesturingNO(v ...Variant) string { return Lookup("man gesturing NO", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGesturingNO(v ...Variant) string { return Lookup("woman gesturing NO", v...) }
+func WomanGesturingNO(v ...Variant) string { return styled(1816, v) }
 
 // PersonGesturingOK returns the "person gesturing OK" emoji 🙆.
 //
@@ -1149,7 +1146,7 @@ func WomanGesturingNO(v ...Variant) string { return Lookup("woman gesturing NO",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonGesturingOK(v ...Variant) string { return Lookup("person gesturing OK", v...) }
+func PersonGesturingOK(v ...Variant) string { return styled(1329, v) }
 
 // ManGesturingOK returns the "man gesturing OK" emoji 🙆‍♂️.
 //
@@ -1157,7 +1154,7 @@ func PersonGesturingOK(v ...Variant) string { return Lookup("person gesturing OK
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGesturingOK(v ...Variant) string { return Lookup("man gesturing OK", v...) }
+func ManGesturingOK(v ...Variant) string { return styled(1086, v) }
 
 // WomanGesturingOK returns the "woman gesturing OK" emoji 🙆‍♀️.
 //
@@ -1165,7 +1162,7 @@ func ManGesturingOK(v ...Variant) string { return Lookup("man gesturing OK", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGesturingOK(v ...Variant) string { return Lookup("woman gesturing OK", v...) }
+func WomanGesturingOK(v ...Variant) string { return styled(1817, v) }
 
 // PersonTippingHand returns the "person tipping hand" emoji 💁.
 //
@@ -1173,7 +1170,7 @@ func WomanGesturingOK(v ...Variant) string { return Lookup("woman gesturing OK",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonTippingHand(v ...Variant) string { return Lookup("person tipping hand", v...) }
+func PersonTippingHand(v ...Variant) string { return styled(1359, v) }
 
 // ManTippingHand returns the "man tipping hand" emoji 💁‍♂️.
 //
@@ -1181,7 +1178,7 @@ func PersonTippingHand(v ...Variant) string { return Lookup("person tipping hand
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManTippingHand(v ...Variant) string { return Lookup("man tipping hand", v...) }
+func ManTippingHand(v ...Variant) string { return styled(1128, v) }
 
 // WomanTippingHand returns the "woman tipping hand" emoji 💁‍♀️.
 //
@@ -1189,7 +1186,7 @@ func ManTippingHand(v ...Variant) string { return Lookup("man tipping hand", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanTippingHand(v ...Variant) string { return Lookup("woman tipping hand", v...) }
+func WomanTippingHand(v ...Variant) string { return styled(1859, v) }
 
 // PersonRaisingHand returns the "person raising hand" emoji 🙋.
 //
@@ -1197,7 +1194,7 @@ func WomanTippingHand(v ...Variant) string { return Lookup("woman tipping hand",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonRaisingHand(v ...Variant) string { return Lookup("person raising hand", v...) }
+func PersonRaisingHand(v ...Variant) string { return styled(1350, v) }
 
 // ManRaisingHand returns the "man raising hand" emoji 🙋‍♂️.
 //
@@ -1205,7 +1202,7 @@ func PersonRaisingHand(v ...Variant) string { return Lookup("person raising hand
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManRaisingHand(v ...Variant) string { return Lookup("man raising hand", v...) }
+func ManRaisingHand(v ...Variant) string { return styled(1113, v) }
 
 // WomanRaisingHand returns the "woman raising hand" emoji 🙋‍♀️.
 //
@@ -1213,7 +1210,7 @@ func ManRaisingHand(v ...Variant) string { return Lookup("man raising hand", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanRaisingHand(v ...Variant) string { return Lookup("woman raising hand", v...) }
+func WomanRaisingHand(v ...Variant) string { return styled(1844, v) }
 
 // DeafPerson returns the "deaf person" emoji 🧏.
 //
@@ -1221,7 +1218,7 @@ func WomanRaisingHand(v ...Variant) string { return Lookup("woman raising hand",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func DeafPerson(v ...Variant) string { return Lookup("deaf person", v...) }
+func DeafPerson(v ...Variant) string { return styled(356, v) }
 
 // DeafMan returns the "deaf man" emoji 🧏‍♂️.
 //
@@ -1229,7 +1226,7 @@ func DeafPerson(v ...Variant) string { return Lookup("deaf person", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func DeafMan(v ...Variant) string { return Lookup("deaf man", v...) }
+func DeafMan(v ...Variant) string { return styled(355, v) }
 
 // DeafWoman returns the "deaf woman" emoji 🧏‍♀️.
 //
@@ -1237,7 +1234,7 @@ func DeafMan(v ...Variant) string { return Lookup("deaf man", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func DeafWoman(v ...Variant) string { return Lookup("deaf woman", v...) }
+func DeafWoman(v ...Variant) string { return styled(357, v) }
 
 // PersonBowing returns the "person bowing" emoji 🙇.
 //
@@ -1245,7 +1242,7 @@ func DeafWoman(v ...Variant) string { return Lookup("deaf woman", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonBowing(v ...Variant) string { return Lookup("person bowing", v...) }
+func PersonBowing(v ...Variant) string { return styled(1321, v) }
 
 // ManBowing returns the "man bowing" emoji 🙇‍♂️.
 //
@@ -1253,7 +1250,7 @@ func PersonBowing(v ...Variant) string { return Lookup("person bowing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManBowing(v ...Variant) string { return Lookup("man bowing", v...) }
+func ManBowing(v ...Variant) string { return styled(1069, v) }
 
 // WomanBowing returns the "woman bowing" emoji 🙇‍♀️.
 //
@@ -1261,7 +1258,7 @@ func ManBowing(v ...Variant) string { return Lookup("man bowing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanBowing(v ...Variant) string { return Lookup("woman bowing", v...) }
+func WomanBowing(v ...Variant) string { return styled(1800, v) }
 
 // PersonFacepalming returns the "person facepalming" emoji 🤦.
 //
@@ -1269,7 +1266,7 @@ func WomanBowing(v ...Variant) string { return Lookup("woman bowing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonFacepalming(v ...Variant) string { return Lookup("person facepalming", v...) }
+func PersonFacepalming(v ...Variant) string { return styled(1324, v) }
 
 // ManFacepalming returns the "man facepalming" emoji 🤦‍♂️.
 //
@@ -1277,7 +1274,7 @@ func PersonFacepalming(v ...Variant) string { return Lookup("person facepalming"
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFacepalming(v ...Variant) string { return Lookup("man facepalming", v...) }
+func ManFacepalming(v ...Variant) string { return styled(1077, v) }
 
 // WomanFacepalming returns the "woman facepalming" emoji 🤦‍♀️.
 //
@@ -1285,7 +1282,7 @@ func ManFacepalming(v ...Variant) string { return Lookup("man facepalming", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFacepalming(v ...Variant) string { return Lookup("woman facepalming", v...) }
+func WomanFacepalming(v ...Variant) string { return styled(1808, v) }
 
 // PersonShrugging returns the "person shrugging" emoji 🤷.
 //
@@ -1293,7 +1290,7 @@ func WomanFacepalming(v ...Variant) string { return Lookup("woman facepalming", 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonShrugging(v ...Variant) string { return Lookup("person shrugging", v...) }
+func PersonShrugging(v ...Variant) string { return styled(1354, v) }
 
 // ManShrugging returns the "man shrugging" emoji 🤷‍♂️.
 //
@@ -1301,7 +1298,7 @@ func PersonShrugging(v ...Variant) string { return Lookup("person shrugging", v.
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManShrugging(v ...Variant) string { return Lookup("man shrugging", v...) }
+func ManShrugging(v ...Variant) string { return styled(1118, v) }
 
 // WomanShrugging returns the "woman shrugging" emoji 🤷‍♀️.
 //
@@ -1309,7 +1306,7 @@ func ManShrugging(v ...Variant) string { return Lookup("man shrugging", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanShrugging(v ...Variant) string { return Lookup("woman shrugging", v...) }
+func WomanShrugging(v ...Variant) string { return styled(1849, v) }
 
 // HealthWorker returns the "health worker" emoji 🧑‍⚕️.
 //
@@ -1317,7 +1314,7 @@ func WomanShrugging(v ...Variant) string { return Lookup("woman shrugging", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func HealthWorker(v ...Variant) string { return Lookup("health worker", v...) }
+func HealthWorker(v ...Variant) string { return styled(894, v) }
 
 // ManHealthWorker returns the "man health worker" emoji 👨‍⚕️.
 //
@@ -1325,7 +1322,7 @@ func HealthWorker(v ...Variant) string { return Lookup("health worker", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManHealthWorker(v ...Variant) string { return Lookup("man health worker", v...) }
+func ManHealthWorker(v ...Variant) string { return styled(1091, v) }
 
 // WomanHealthWorker returns the "woman health worker" emoji 👩‍⚕️.
 //
@@ -1333,7 +1330,7 @@ func ManHealthWorker(v ...Variant) string { return Lookup("man health worker", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanHealthWorker(v ...Variant) string { return Lookup("woman health worker", v...) }
+func WomanHealthWorker(v ...Variant) string { return styled(1822, v) }
 
 // Student returns the "student" emoji 🧑‍🎓.
 //
@@ -1341,7 +1338,7 @@ func WomanHealthWorker(v ...Variant) string { return Lookup("woman health worker
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Student(v ...Variant) string { return Lookup("student", v...) }
+func Student(v ...Variant) string { return styled(1632, v) }
 
 // ManStudent returns the "man student" emoji 👨‍🎓.
 //
@@ -1349,7 +1346,7 @@ func Student(v ...Variant) string { return Lookup("student", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManStudent(v ...Variant) string { return Lookup("man student", v...) }
+func ManStudent(v ...Variant) string { return styled(1121, v) }
 
 // WomanStudent returns the "woman student" emoji 👩‍🎓.
 //
@@ -1357,7 +1354,7 @@ func ManStudent(v ...Variant) string { return Lookup("man student", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanStudent(v ...Variant) string { return Lookup("woman student", v...) }
+func WomanStudent(v ...Variant) string { return styled(1852, v) }
 
 // Teacher returns the "teacher" emoji 🧑‍🏫.
 //
@@ -1365,7 +1362,7 @@ func WomanStudent(v ...Variant) string { return Lookup("woman student", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Teacher(v ...Variant) string { return Lookup("teacher", v...) }
+func Teacher(v ...Variant) string { return styled(1661, v) }
 
 // ManTeacher returns the "man teacher" emoji 👨‍🏫.
 //
@@ -1373,7 +1370,7 @@ func Teacher(v ...Variant) string { return Lookup("teacher", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManTeacher(v ...Variant) string { return Lookup("man teacher", v...) }
+func ManTeacher(v ...Variant) string { return styled(1126, v) }
 
 // WomanTeacher returns the "woman teacher" emoji 👩‍🏫.
 //
@@ -1381,7 +1378,7 @@ func ManTeacher(v ...Variant) string { return Lookup("man teacher", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanTeacher(v ...Variant) string { return Lookup("woman teacher", v...) }
+func WomanTeacher(v ...Variant) string { return styled(1857, v) }
 
 // Judge returns the "judge" emoji 🧑‍⚖️.
 //
@@ -1389,7 +1386,7 @@ func WomanTeacher(v ...Variant) string { return Lookup("woman teacher", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Judge(v ...Variant) string { return Lookup("judge", v...) }
+func Judge(v ...Variant) string { return styled(962, v) }
 
 // ManJudge returns the "man judge" emoji 👨‍⚖️.
 //
@@ -1397,7 +1394,7 @@ func Judge(v ...Variant) string { return Lookup("judge", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManJudge(v ...Variant) string { return Lookup("man judge", v...) }
+func ManJudge(v ...Variant) string { return styled(1099, v) }
 
 // WomanJudge returns the "woman judge" emoji 👩‍⚖️.
 //
@@ -1405,7 +1402,7 @@ func ManJudge(v ...Variant) string { return Lookup("man judge", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanJudge(v ...Variant) string { return Lookup("woman judge", v...) }
+func WomanJudge(v ...Variant) string { return styled(1830, v) }
 
 // Farmer returns the "farmer" emoji 🧑‍🌾.
 //
@@ -1413,7 +1410,7 @@ func WomanJudge(v ...Variant) string { return Lookup("woman judge", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Farmer(v ...Variant) string { return Lookup("farmer", v...) }
+func Farmer(v ...Variant) string { return styled(498, v) }
 
 // ManFarmer returns the "man farmer" emoji 👨‍🌾.
 //
@@ -1421,7 +1418,7 @@ func Farmer(v ...Variant) string { return Lookup("farmer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFarmer(v ...Variant) string { return Lookup("man farmer", v...) }
+func ManFarmer(v ...Variant) string { return styled(1080, v) }
 
 // WomanFarmer returns the "woman farmer" emoji 👩‍🌾.
 //
@@ -1429,7 +1426,7 @@ func ManFarmer(v ...Variant) string { return Lookup("man farmer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFarmer(v ...Variant) string { return Lookup("woman farmer", v...) }
+func WomanFarmer(v ...Variant) string { return styled(1811, v) }
 
 // Cook returns the "cook" emoji 🧑‍🍳.
 //
@@ -1437,7 +1434,7 @@ func WomanFarmer(v ...Variant) string { return Lookup("woman farmer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Cook(v ...Variant) string { return Lookup("cook", v...) }
+func Cook(v ...Variant) string { return styled(307, v) }
 
 // ManCook returns the "man cook" emoji 👨‍🍳.
 //
@@ -1445,7 +1442,7 @@ func Cook(v ...Variant) string { return Lookup("cook", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManCook(v ...Variant) string { return Lookup("man cook", v...) }
+func ManCook(v ...Variant) string { return styled(1073, v) }
 
 // WomanCook returns the "woman cook" emoji 👩‍🍳.
 //
@@ -1453,7 +1450,7 @@ func ManCook(v ...Variant) string { return Lookup("man cook", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanCook(v ...Variant) string { return Lookup("woman cook", v...) }
+func WomanCook(v ...Variant) string { return styled(1804, v) }
 
 // Mechanic returns the "mechanic" emoji 🧑‍🔧.
 //
@@ -1461,7 +1458,7 @@ func WomanCook(v ...Variant) string { return Lookup("woman cook", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Mechanic(v ...Variant) string { return Lookup("mechanic", v...) }
+func Mechanic(v ...Variant) string { return styled(1147, v) }
 
 // ManMechanic returns the "man mechanic" emoji 👨‍🔧.
 //
@@ -1469,7 +1466,7 @@ func Mechanic(v ...Variant) string { return Lookup("mechanic", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManMechanic(v ...Variant) string { return Lookup("man mechanic", v...) }
+func ManMechanic(v ...Variant) string { return styled(1105, v) }
 
 // WomanMechanic returns the "woman mechanic" emoji 👩‍🔧.
 //
@@ -1477,7 +1474,7 @@ func ManMechanic(v ...Variant) string { return Lookup("man mechanic", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanMechanic(v ...Variant) string { return Lookup("woman mechanic", v...) }
+func WomanMechanic(v ...Variant) string { return styled(1836, v) }
 
 // FactoryWorker returns the "factory worker" emoji 🧑‍🏭.
 //
@@ -1485,7 +1482,7 @@ func WomanMechanic(v ...Variant) string { return Lookup("woman mechanic", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func FactoryWorker(v ...Variant) string { return Lookup("factory worker", v...) }
+func FactoryWorker(v ...Variant) string { return styled(464, v) }
 
 // ManFactoryWorker returns the "man factory worker" emoji 👨‍🏭.
 //
@@ -1493,7 +1490,7 @@ func FactoryWorker(v ...Variant) string { return Lookup("factory worker", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFactoryWorker(v ...Variant) string { return Lookup("man factory worker", v...) }
+func ManFactoryWorker(v ...Variant) string { return styled(1078, v) }
 
 // WomanFactoryWorker returns the "woman factory worker" emoji 👩‍🏭.
 //
@@ -1501,7 +1498,7 @@ func ManFactoryWorker(v ...Variant) string { return Lookup("man factory worker",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFactoryWorker(v ...Variant) string { return Lookup("woman factory worker", v...) }
+func WomanFactoryWorker(v ...Variant) string { return styled(1809, v) }
 
 // OfficeWorker returns the "office worker" emoji 🧑‍💼.
 //
@@ -1509,7 +1506,7 @@ func WomanFactoryWorker(v ...Variant) string { return Lookup("woman factory work
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func OfficeWorker(v ...Variant) string { return Lookup("office worker", v...) }
+func OfficeWorker(v ...Variant) string { return styled(1245, v) }
 
 // ManOfficeWorker returns the "man office worker" emoji 👨‍💼.
 //
@@ -1517,7 +1514,7 @@ func OfficeWorker(v ...Variant) string { return Lookup("office worker", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManOfficeWorker(v ...Variant) string { return Lookup("man office worker", v...) }
+func ManOfficeWorker(v ...Variant) string { return styled(1107, v) }
 
 // WomanOfficeWorker returns the "woman office worker" emoji 👩‍💼.
 //
@@ -1525,7 +1522,7 @@ func ManOfficeWorker(v ...Variant) string { return Lookup("man office worker", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanOfficeWorker(v ...Variant) string { return Lookup("woman office worker", v...) }
+func WomanOfficeWorker(v ...Variant) string { return styled(1838, v) }
 
 // Scientist returns the "scientist" emoji 🧑‍🔬.
 //
@@ -1533,7 +1530,7 @@ func WomanOfficeWorker(v ...Variant) string { return Lookup("woman office worker
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Scientist(v ...Variant) string { return Lookup("scientist", v...) }
+func Scientist(v ...Variant) string { return styled(1516, v) }
 
 // ManScientist returns the "man scientist" emoji 👨‍🔬.
 //
@@ -1541,7 +1538,7 @@ func Scientist(v ...Variant) string { return Lookup("scientist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManScientist(v ...Variant) string { return Lookup("man scientist", v...) }
+func ManScientist(v ...Variant) string { return styled(1117, v) }
 
 // WomanScientist returns the "woman scientist" emoji 👩‍🔬.
 //
@@ -1549,7 +1546,7 @@ func ManScientist(v ...Variant) string { return Lookup("man scientist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanScientist(v ...Variant) string { return Lookup("woman scientist", v...) }
+func WomanScientist(v ...Variant) string { return styled(1848, v) }
 
 // Technologist returns the "technologist" emoji 🧑‍💻.
 //
@@ -1557,7 +1554,7 @@ func WomanScientist(v ...Variant) string { return Lookup("woman scientist", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Technologist(v ...Variant) string { return Lookup("technologist", v...) }
+func Technologist(v ...Variant) string { return styled(1665, v) }
 
 // ManTechnologist returns the "man technologist" emoji 👨‍💻.
 //
@@ -1565,7 +1562,7 @@ func Technologist(v ...Variant) string { return Lookup("technologist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManTechnologist(v ...Variant) string { return Lookup("man technologist", v...) }
+func ManTechnologist(v ...Variant) string { return styled(1127, v) }
 
 // WomanTechnologist returns the "woman technologist" emoji 👩‍💻.
 //
@@ -1573,7 +1570,7 @@ func ManTechnologist(v ...Variant) string { return Lookup("man technologist", v.
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanTechnologist(v ...Variant) string { return Lookup("woman technologist", v...) }
+func WomanTechnologist(v ...Variant) string { return styled(1858, v) }
 
 // Singer returns the "singer" emoji 🧑‍🎤.
 //
@@ -1581,7 +1578,7 @@ func WomanTechnologist(v ...Variant) string { return Lookup("woman technologist"
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Singer(v ...Variant) string { return Lookup("singer", v...) }
+func Singer(v ...Variant) string { return styled(1550, v) }
 
 // ManSinger returns the "man singer" emoji 👨‍🎤.
 //
@@ -1589,7 +1586,7 @@ func Singer(v ...Variant) string { return Lookup("singer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManSinger(v ...Variant) string { return Lookup("man singer", v...) }
+func ManSinger(v ...Variant) string { return styled(1119, v) }
 
 // WomanSinger returns the "woman singer" emoji 👩‍🎤.
 //
@@ -1597,7 +1594,7 @@ func ManSinger(v ...Variant) string { return Lookup("man singer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanSinger(v ...Variant) string { return Lookup("woman singer", v...) }
+func WomanSinger(v ...Variant) string { return styled(1850, v) }
 
 // Artist returns the "artist" emoji 🧑‍🎨.
 //
@@ -1605,7 +1602,7 @@ func WomanSinger(v ...Variant) string { return Lookup("woman singer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Artist(v ...Variant) string { return Lookup("artist", v...) }
+func Artist(v ...Variant) string { return styled(92, v) }
 
 // ManArtist returns the "man artist" emoji 👨‍🎨.
 //
@@ -1613,7 +1610,7 @@ func Artist(v ...Variant) string { return Lookup("artist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManArtist(v ...Variant) string { return Lookup("man artist", v...) }
+func ManArtist(v ...Variant) string { return styled(1065, v) }
 
 // WomanArtist returns the "woman artist" emoji 👩‍🎨.
 //
@@ -1621,7 +1618,7 @@ func ManArtist(v ...Variant) string { return Lookup("man artist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanArtist(v ...Variant) string { return Lookup("woman artist", v...) }
+func WomanArtist(v ...Variant) string { return styled(1796, v) }
 
 // Pilot returns the "pilot" emoji 🧑‍✈️.
 //
@@ -1629,7 +1626,7 @@ func WomanArtist(v ...Variant) string { return Lookup("woman artist", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Pilot(v ...Variant) string { return Lookup("pilot", v...) }
+func Pilot(v ...Variant) string { return styled(1378, v) }
 
 // ManPilot returns the "man pilot" emoji 👨‍✈️.
 //
@@ -1637,7 +1634,7 @@ func Pilot(v ...Variant) string { return Lookup("pilot", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManPilot(v ...Variant) string { return Lookup("man pilot", v...) }
+func ManPilot(v ...Variant) string { return styled(1108, v) }
 
 // WomanPilot returns the "woman pilot" emoji 👩‍✈️.
 //
@@ -1645,7 +1642,7 @@ func ManPilot(v ...Variant) string { return Lookup("man pilot", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanPilot(v ...Variant) string { return Lookup("woman pilot", v...) }
+func WomanPilot(v ...Variant) string { return styled(1839, v) }
 
 // Astronaut returns the "astronaut" emoji 🧑‍🚀.
 //
@@ -1653,7 +1650,7 @@ func WomanPilot(v ...Variant) string { return Lookup("woman pilot", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Astronaut(v ...Variant) string { return Lookup("astronaut", v...) }
+func Astronaut(v ...Variant) string { return styled(95, v) }
 
 // ManAstronaut returns the "man astronaut" emoji 👨‍🚀.
 //
@@ -1661,7 +1658,7 @@ func Astronaut(v ...Variant) string { return Lookup("astronaut", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManAstronaut(v ...Variant) string { return Lookup("man astronaut", v...) }
+func ManAstronaut(v ...Variant) string { return styled(1066, v) }
 
 // WomanAstronaut returns the "woman astronaut" emoji 👩‍🚀.
 //
@@ -1669,7 +1666,7 @@ func ManAstronaut(v ...Variant) string { return Lookup("man astronaut", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanAstronaut(v ...Variant) string { return Lookup("woman astronaut", v...) }
+func WomanAstronaut(v ...Variant) string { return styled(1797, v) }
 
 // Firefighter returns the "firefighter" emoji 🧑‍🚒.
 //
@@ -1677,7 +1674,7 @@ func WomanAstronaut(v ...Variant) string { return Lookup("woman astronaut", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Firefighter(v ...Variant) string { return Lookup("firefighter", v...) }
+func Firefighter(v ...Variant) string { return styled(520, v) }
 
 // ManFirefighter returns the "man firefighter" emoji 👨‍🚒.
 //
@@ -1685,7 +1682,7 @@ func Firefighter(v ...Variant) string { return Lookup("firefighter", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFirefighter(v ...Variant) string { return Lookup("man firefighter", v...) }
+func ManFirefighter(v ...Variant) string { return styled(1082, v) }
 
 // WomanFirefighter returns the "woman firefighter" emoji 👩‍🚒.
 //
@@ -1693,7 +1690,7 @@ func ManFirefighter(v ...Variant) string { return Lookup("man firefighter", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFirefighter(v ...Variant) string { return Lookup("woman firefighter", v...) }
+func WomanFirefighter(v ...Variant) string { return styled(1813, v) }
 
 // PoliceOfficer returns the "police officer" emoji 👮.
 //
@@ -1701,7 +1698,7 @@ func WomanFirefighter(v ...Variant) string { return Lookup("woman firefighter", 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PoliceOfficer(v ...Variant) string { return Lookup("police officer", v...) }
+func PoliceOfficer(v ...Variant) string { return styled(1399, v) }
 
 // ManPoliceOfficer returns the "man police officer" emoji 👮‍♂️.
 //
@@ -1709,15 +1706,16 @@ func PoliceOfficer(v ...Variant) string { return Lookup("police officer", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManPoliceOfficer(v ...Variant) string { return Lookup("man police officer", v...) }
+func ManPoliceOfficer(v ...Variant) string { return styled(1111, v) }
 
-// WomanPoliceOfficer returns the "woman police officer" emoji 👮‍♀️.
+// WomanPoliceOfficer returns the "woman police officer" emoji
+// 👮‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanPoliceOfficer(v ...Variant) string { return Lookup("woman police officer", v...) }
+func WomanPoliceOfficer(v ...Variant) string { return styled(1842, v) }
 
 // Detective returns the "detective" emoji 🕵️.
 //
@@ -1725,7 +1723,7 @@ func WomanPoliceOfficer(v ...Variant) string { return Lookup("woman police offic
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Detective(v ...Variant) string { return Lookup("detective", v...) }
+func Detective(v ...Variant) string { return styled(366, v) }
 
 // ManDetective returns the "man detective" emoji 🕵️‍♂️.
 //
@@ -1733,7 +1731,7 @@ func Detective(v ...Variant) string { return Lookup("detective", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManDetective(v ...Variant) string { return Lookup("man detective", v...) }
+func ManDetective(v ...Variant) string { return styled(1075, v) }
 
 // WomanDetective returns the "woman detective" emoji 🕵️‍♀️.
 //
@@ -1741,7 +1739,7 @@ func ManDetective(v ...Variant) string { return Lookup("man detective", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanDetective(v ...Variant) string { return Lookup("woman detective", v...) }
+func WomanDetective(v ...Variant) string { return styled(1806, v) }
 
 // Guard returns the "guard" emoji 💂.
 //
@@ -1749,7 +1747,7 @@ func WomanDetective(v ...Variant) string { return Lookup("woman detective", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Guard(v ...Variant) string { return Lookup("guard", v...) }
+func Guard(v ...Variant) string { return styled(873, v) }
 
 // ManGuard returns the "man guard" emoji 💂‍♂️.
 //
@@ -1757,7 +1755,7 @@ func Guard(v ...Variant) string { return Lookup("guard", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGuard(v ...Variant) string { return Lookup("man guard", v...) }
+func ManGuard(v ...Variant) string { return styled(1090, v) }
 
 // WomanGuard returns the "woman guard" emoji 💂‍♀️.
 //
@@ -1765,7 +1763,7 @@ func ManGuard(v ...Variant) string { return Lookup("man guard", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGuard(v ...Variant) string { return Lookup("woman guard", v...) }
+func WomanGuard(v ...Variant) string { return styled(1821, v) }
 
 // Ninja returns the "ninja" emoji 🥷.
 //
@@ -1773,7 +1771,7 @@ func WomanGuard(v ...Variant) string { return Lookup("woman guard", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Ninja(v ...Variant) string { return Lookup("ninja", v...) }
+func Ninja(v ...Variant) string { return styled(1229, v) }
 
 // ConstructionWorker returns the "construction worker" emoji 👷.
 //
@@ -1781,23 +1779,25 @@ func Ninja(v ...Variant) string { return Lookup("ninja", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ConstructionWorker(v ...Variant) string { return Lookup("construction worker", v...) }
+func ConstructionWorker(v ...Variant) string { return styled(304, v) }
 
-// ManConstructionWorker returns the "man construction worker" emoji 👷‍♂️.
+// ManConstructionWorker returns the "man construction worker" emoji
+// 👷‍♂️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManConstructionWorker(v ...Variant) string { return Lookup("man construction worker", v...) }
+func ManConstructionWorker(v ...Variant) string { return styled(1072, v) }
 
-// WomanConstructionWorker returns the "woman construction worker" emoji 👷‍♀️.
+// WomanConstructionWorker returns the "woman construction worker" emoji
+// 👷‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanConstructionWorker(v ...Variant) string { return Lookup("woman construction worker", v...) }
+func WomanConstructionWorker(v ...Variant) string { return styled(1803, v) }
 
 // PersonWithCrown returns the "person with crown" emoji 🫅.
 //
@@ -1805,7 +1805,7 @@ func WomanConstructionWorker(v ...Variant) string { return Lookup("woman constru
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWithCrown(v ...Variant) string { return Lookup("person with crown", v...) }
+func PersonWithCrown(v ...Variant) string { return styled(1363, v) }
 
 // Prince returns the "prince" emoji 🤴.
 //
@@ -1813,7 +1813,7 @@ func PersonWithCrown(v ...Variant) string { return Lookup("person with crown", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Prince(v ...Variant) string { return Lookup("prince", v...) }
+func Prince(v ...Variant) string { return styled(1419, v) }
 
 // Princess returns the "princess" emoji 👸.
 //
@@ -1821,7 +1821,7 @@ func Prince(v ...Variant) string { return Lookup("prince", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Princess(v ...Variant) string { return Lookup("princess", v...) }
+func Princess(v ...Variant) string { return styled(1420, v) }
 
 // PersonWearingTurban returns the "person wearing turban" emoji 👳.
 //
@@ -1829,7 +1829,7 @@ func Princess(v ...Variant) string { return Lookup("princess", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWearingTurban(v ...Variant) string { return Lookup("person wearing turban", v...) }
+func PersonWearingTurban(v ...Variant) string { return styled(1362, v) }
 
 // ManWearingTurban returns the "man wearing turban" emoji 👳‍♂️.
 //
@@ -1837,15 +1837,16 @@ func PersonWearingTurban(v ...Variant) string { return Lookup("person wearing tu
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWearingTurban(v ...Variant) string { return Lookup("man wearing turban", v...) }
+func ManWearingTurban(v ...Variant) string { return styled(1132, v) }
 
-// WomanWearingTurban returns the "woman wearing turban" emoji 👳‍♀️.
+// WomanWearingTurban returns the "woman wearing turban" emoji
+// 👳‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWearingTurban(v ...Variant) string { return Lookup("woman wearing turban", v...) }
+func WomanWearingTurban(v ...Variant) string { return styled(1863, v) }
 
 // PersonWithSkullcap returns the "person with skullcap" emoji 👲.
 //
@@ -1853,7 +1854,7 @@ func WomanWearingTurban(v ...Variant) string { return Lookup("woman wearing turb
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWithSkullcap(v ...Variant) string { return Lookup("person with skullcap", v...) }
+func PersonWithSkullcap(v ...Variant) string { return styled(1364, v) }
 
 // WomanWithHeadscarf returns the "woman with headscarf" emoji 🧕.
 //
@@ -1861,7 +1862,7 @@ func PersonWithSkullcap(v ...Variant) string { return Lookup("person with skullc
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWithHeadscarf(v ...Variant) string { return Lookup("woman with headscarf", v...) }
+func WomanWithHeadscarf(v ...Variant) string { return styled(1864, v) }
 
 // PersonInTuxedo returns the "person in tuxedo" emoji 🤵.
 //
@@ -1869,7 +1870,7 @@ func WomanWithHeadscarf(v ...Variant) string { return Lookup("woman with headsca
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInTuxedo(v ...Variant) string { return Lookup("person in tuxedo", v...) }
+func PersonInTuxedo(v ...Variant) string { return styled(1341, v) }
 
 // ManInTuxedo returns the "man in tuxedo" emoji 🤵‍♂️.
 //
@@ -1877,7 +1878,7 @@ func PersonInTuxedo(v ...Variant) string { return Lookup("person in tuxedo", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInTuxedo(v ...Variant) string { return Lookup("man in tuxedo", v...) }
+func ManInTuxedo(v ...Variant) string { return styled(1098, v) }
 
 // WomanInTuxedo returns the "woman in tuxedo" emoji 🤵‍♀️.
 //
@@ -1885,7 +1886,7 @@ func ManInTuxedo(v ...Variant) string { return Lookup("man in tuxedo", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInTuxedo(v ...Variant) string { return Lookup("woman in tuxedo", v...) }
+func WomanInTuxedo(v ...Variant) string { return styled(1829, v) }
 
 // PersonWithVeil returns the "person with veil" emoji 👰.
 //
@@ -1893,7 +1894,7 @@ func WomanInTuxedo(v ...Variant) string { return Lookup("woman in tuxedo", v...)
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWithVeil(v ...Variant) string { return Lookup("person with veil", v...) }
+func PersonWithVeil(v ...Variant) string { return styled(1365, v) }
 
 // ManWithVeil returns the "man with veil" emoji 👰‍♂️.
 //
@@ -1901,7 +1902,7 @@ func PersonWithVeil(v ...Variant) string { return Lookup("person with veil", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWithVeil(v ...Variant) string { return Lookup("man with veil", v...) }
+func ManWithVeil(v ...Variant) string { return styled(1133, v) }
 
 // WomanWithVeil returns the "woman with veil" emoji 👰‍♀️.
 //
@@ -1909,7 +1910,7 @@ func ManWithVeil(v ...Variant) string { return Lookup("man with veil", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWithVeil(v ...Variant) string { return Lookup("woman with veil", v...) }
+func WomanWithVeil(v ...Variant) string { return styled(1865, v) }
 
 // PregnantWoman returns the "pregnant woman" emoji 🤰.
 //
@@ -1917,7 +1918,7 @@ func WomanWithVeil(v ...Variant) string { return Lookup("woman with veil", v...)
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PregnantWoman(v ...Variant) string { return Lookup("pregnant woman", v...) }
+func PregnantWoman(v ...Variant) string { return styled(1417, v) }
 
 // PregnantMan returns the "pregnant man" emoji 🫃.
 //
@@ -1925,7 +1926,7 @@ func PregnantWoman(v ...Variant) string { return Lookup("pregnant woman", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PregnantMan(v ...Variant) string { return Lookup("pregnant man", v...) }
+func PregnantMan(v ...Variant) string { return styled(1415, v) }
 
 // PregnantPerson returns the "pregnant person" emoji 🫄.
 //
@@ -1933,7 +1934,7 @@ func PregnantMan(v ...Variant) string { return Lookup("pregnant man", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PregnantPerson(v ...Variant) string { return Lookup("pregnant person", v...) }
+func PregnantPerson(v ...Variant) string { return styled(1416, v) }
 
 // BreastFeeding returns the "breast-feeding" emoji 🤱.
 //
@@ -1941,7 +1942,7 @@ func PregnantPerson(v ...Variant) string { return Lookup("pregnant person", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BreastFeeding(v ...Variant) string { return Lookup("breast-feeding", v...) }
+func BreastFeeding(v ...Variant) string { return styled(190, v) }
 
 // WomanFeedingBaby returns the "woman feeding baby" emoji 👩‍🍼.
 //
@@ -1949,7 +1950,7 @@ func BreastFeeding(v ...Variant) string { return Lookup("breast-feeding", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFeedingBaby(v ...Variant) string { return Lookup("woman feeding baby", v...) }
+func WomanFeedingBaby(v ...Variant) string { return styled(1812, v) }
 
 // ManFeedingBaby returns the "man feeding baby" emoji 👨‍🍼.
 //
@@ -1957,7 +1958,7 @@ func WomanFeedingBaby(v ...Variant) string { return Lookup("woman feeding baby",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFeedingBaby(v ...Variant) string { return Lookup("man feeding baby", v...) }
+func ManFeedingBaby(v ...Variant) string { return styled(1081, v) }
 
 // PersonFeedingBaby returns the "person feeding baby" emoji 🧑‍🍼.
 //
@@ -1965,7 +1966,7 @@ func ManFeedingBaby(v ...Variant) string { return Lookup("man feeding baby", v..
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonFeedingBaby(v ...Variant) string { return Lookup("person feeding baby", v...) }
+func PersonFeedingBaby(v ...Variant) string { return styled(1325, v) }
 
 // BabyAngel returns the "baby angel" emoji 👼.
 //
@@ -1973,7 +1974,7 @@ func PersonFeedingBaby(v ...Variant) string { return Lookup("person feeding baby
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BabyAngel(v ...Variant) string { return Lookup("baby angel", v...) }
+func BabyAngel(v ...Variant) string { return styled(102, v) }
 
 // SantaClaus returns the "Santa Claus" emoji 🎅.
 //
@@ -1981,7 +1982,7 @@ func BabyAngel(v ...Variant) string { return Lookup("baby angel", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func SantaClaus(v ...Variant) string { return Lookup("Santa Claus", v...) }
+func SantaClaus(v ...Variant) string { return styled(56, v) }
 
 // MrsClaus returns the "Mrs. Claus" emoji 🤶.
 //
@@ -1989,7 +1990,7 @@ func SantaClaus(v ...Variant) string { return Lookup("Santa Claus", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func MrsClaus(v ...Variant) string { return Lookup("Mrs. Claus", v...) }
+func MrsClaus(v ...Variant) string { return styled(42, v) }
 
 // MxClaus returns the "Mx Claus" emoji 🧑‍🎄.
 //
@@ -1997,7 +1998,7 @@ func MrsClaus(v ...Variant) string { return Lookup("Mrs. Claus", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func MxClaus(v ...Variant) string { return Lookup("Mx Claus", v...) }
+func MxClaus(v ...Variant) string { return styled(43, v) }
 
 // Superhero returns the "superhero" emoji 🦸.
 //
@@ -2005,7 +2006,7 @@ func MxClaus(v ...Variant) string { return Lookup("Mx Claus", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Superhero(v ...Variant) string { return Lookup("superhero", v...) }
+func Superhero(v ...Variant) string { return styled(1646, v) }
 
 // ManSuperhero returns the "man superhero" emoji 🦸‍♂️.
 //
@@ -2013,7 +2014,7 @@ func Superhero(v ...Variant) string { return Lookup("superhero", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManSuperhero(v ...Variant) string { return Lookup("man superhero", v...) }
+func ManSuperhero(v ...Variant) string { return styled(1122, v) }
 
 // WomanSuperhero returns the "woman superhero" emoji 🦸‍♀️.
 //
@@ -2021,7 +2022,7 @@ func ManSuperhero(v ...Variant) string { return Lookup("man superhero", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanSuperhero(v ...Variant) string { return Lookup("woman superhero", v...) }
+func WomanSuperhero(v ...Variant) string { return styled(1853, v) }
 
 // Supervillain returns the "supervillain" emoji 🦹.
 //
@@ -2029,7 +2030,7 @@ func WomanSuperhero(v ...Variant) string { return Lookup("woman superhero", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Supervillain(v ...Variant) string { return Lookup("supervillain", v...) }
+func Supervillain(v ...Variant) string { return styled(1647, v) }
 
 // ManSupervillain returns the "man supervillain" emoji 🦹‍♂️.
 //
@@ -2037,7 +2038,7 @@ func Supervillain(v ...Variant) string { return Lookup("supervillain", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManSupervillain(v ...Variant) string { return Lookup("man supervillain", v...) }
+func ManSupervillain(v ...Variant) string { return styled(1123, v) }
 
 // WomanSupervillain returns the "woman supervillain" emoji 🦹‍♀️.
 //
@@ -2045,7 +2046,7 @@ func ManSupervillain(v ...Variant) string { return Lookup("man supervillain", v.
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanSupervillain(v ...Variant) string { return Lookup("woman supervillain", v...) }
+func WomanSupervillain(v ...Variant) string { return styled(1854, v) }
 
 // Mage returns the "mage" emoji 🧙.
 //
@@ -2053,7 +2054,7 @@ func WomanSupervillain(v ...Variant) string { return Lookup("woman supervillain"
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Mage(v ...Variant) string { return Lookup("mage", v...) }
+func Mage(v ...Variant) string { return styled(1056, v) }
 
 // ManMage returns the "man mage" emoji 🧙‍♂️.
 //
@@ -2061,7 +2062,7 @@ func Mage(v ...Variant) string { return Lookup("mage", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManMage(v ...Variant) string { return Lookup("man mage", v...) }
+func ManMage(v ...Variant) string { return styled(1104, v) }
 
 // WomanMage returns the "woman mage" emoji 🧙‍♀️.
 //
@@ -2069,7 +2070,7 @@ func ManMage(v ...Variant) string { return Lookup("man mage", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanMage(v ...Variant) string { return Lookup("woman mage", v...) }
+func WomanMage(v ...Variant) string { return styled(1835, v) }
 
 // Fairy returns the "fairy" emoji 🧚.
 //
@@ -2077,7 +2078,7 @@ func WomanMage(v ...Variant) string { return Lookup("woman mage", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Fairy(v ...Variant) string { return Lookup("fairy", v...) }
+func Fairy(v ...Variant) string { return styled(465, v) }
 
 // ManFairy returns the "man fairy" emoji 🧚‍♂️.
 //
@@ -2085,7 +2086,7 @@ func Fairy(v ...Variant) string { return Lookup("fairy", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManFairy(v ...Variant) string { return Lookup("man fairy", v...) }
+func ManFairy(v ...Variant) string { return styled(1079, v) }
 
 // WomanFairy returns the "woman fairy" emoji 🧚‍♀️.
 //
@@ -2093,7 +2094,7 @@ func ManFairy(v ...Variant) string { return Lookup("man fairy", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanFairy(v ...Variant) string { return Lookup("woman fairy", v...) }
+func WomanFairy(v ...Variant) string { return styled(1810, v) }
 
 // Vampire returns the "vampire" emoji 🧛.
 //
@@ -2101,7 +2102,7 @@ func WomanFairy(v ...Variant) string { return Lookup("woman fairy", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Vampire(v ...Variant) string { return Lookup("vampire", v...) }
+func Vampire(v ...Variant) string { return styled(1739, v) }
 
 // ManVampire returns the "man vampire" emoji 🧛‍♂️.
 //
@@ -2109,7 +2110,7 @@ func Vampire(v ...Variant) string { return Lookup("vampire", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManVampire(v ...Variant) string { return Lookup("man vampire", v...) }
+func ManVampire(v ...Variant) string { return styled(1129, v) }
 
 // WomanVampire returns the "woman vampire" emoji 🧛‍♀️.
 //
@@ -2117,7 +2118,7 @@ func ManVampire(v ...Variant) string { return Lookup("man vampire", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanVampire(v ...Variant) string { return Lookup("woman vampire", v...) }
+func WomanVampire(v ...Variant) string { return styled(1860, v) }
 
 // Merperson returns the "merperson" emoji 🧜.
 //
@@ -2125,7 +2126,7 @@ func WomanVampire(v ...Variant) string { return Lookup("woman vampire", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Merperson(v ...Variant) string { return Lookup("merperson", v...) }
+func Merperson(v ...Variant) string { return styled(1163, v) }
 
 // Merman returns the "merman" emoji 🧜‍♂️.
 //
@@ -2133,7 +2134,7 @@ func Merperson(v ...Variant) string { return Lookup("merperson", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Merman(v ...Variant) string { return Lookup("merman", v...) }
+func Merman(v ...Variant) string { return styled(1162, v) }
 
 // Mermaid returns the "mermaid" emoji 🧜‍♀️.
 //
@@ -2141,7 +2142,7 @@ func Merman(v ...Variant) string { return Lookup("merman", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Mermaid(v ...Variant) string { return Lookup("mermaid", v...) }
+func Mermaid(v ...Variant) string { return styled(1161, v) }
 
 // Elf returns the "elf" emoji 🧝.
 //
@@ -2149,7 +2150,7 @@ func Mermaid(v ...Variant) string { return Lookup("mermaid", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Elf(v ...Variant) string { return Lookup("elf", v...) }
+func Elf(v ...Variant) string { return styled(423, v) }
 
 // ManElf returns the "man elf" emoji 🧝‍♂️.
 //
@@ -2157,7 +2158,7 @@ func Elf(v ...Variant) string { return Lookup("elf", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManElf(v ...Variant) string { return Lookup("man elf", v...) }
+func ManElf(v ...Variant) string { return styled(1076, v) }
 
 // WomanElf returns the "woman elf" emoji 🧝‍♀️.
 //
@@ -2165,31 +2166,31 @@ func ManElf(v ...Variant) string { return Lookup("man elf", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanElf(v ...Variant) string { return Lookup("woman elf", v...) }
+func WomanElf(v ...Variant) string { return styled(1807, v) }
 
 // Genie returns the "genie" emoji 🧞.
-func Genie(v ...Variant) string { return Lookup("genie", v...) }
+func Genie(v ...Variant) string { return styled(836, v) }
 
 // ManGenie returns the "man genie" emoji 🧞‍♂️.
-func ManGenie(v ...Variant) string { return Lookup("man genie", v...) }
+func ManGenie(v ...Variant) string { return styled(1084, v) }
 
 // WomanGenie returns the "woman genie" emoji 🧞‍♀️.
-func WomanGenie(v ...Variant) string { return Lookup("woman genie", v...) }
+func WomanGenie(v ...Variant) string { return styled(1815, v) }
 
 // Zombie returns the "zombie" emoji 🧟.
-func Zombie(v ...Variant) string { return Lookup("zombie", v...) }
+func Zombie(v ...Variant) string { return styled(1897, v) }
 
 // ManZombie returns the "man zombie" emoji 🧟‍♂️.
-func ManZombie(v ...Variant) string { return Lookup("man zombie", v...) }
+func ManZombie(v ...Variant) string { return styled(1136, v) }
 
 // WomanZombie returns the "woman zombie" emoji 🧟‍♀️.
-func WomanZombie(v ...Variant) string { return Lookup("woman zombie", v...) }
+func WomanZombie(v ...Variant) string { return styled(1868, v) }
 
 // Troll returns the "troll" emoji 🧌.
-func Troll(v ...Variant) string { return Lookup("troll", v...) }
+func Troll(v ...Variant) string { return styled(1710, v) }
 
 // HairyCreature returns the "hairy creature" emoji 🫈.
-func HairyCreature(v ...Variant) string { return Lookup("hairy creature", v...) }
+func HairyCreature(v ...Variant) string { return styled(877, v) }
 
 // PersonGettingMassage returns the "person getting massage" emoji 💆.
 //
@@ -2197,7 +2198,7 @@ func HairyCreature(v ...Variant) string { return Lookup("hairy creature", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonGettingMassage(v ...Variant) string { return Lookup("person getting massage", v...) }
+func PersonGettingMassage(v ...Variant) string { return styled(1331, v) }
 
 // ManGettingMassage returns the "man getting massage" emoji 💆‍♂️.
 //
@@ -2205,15 +2206,16 @@ func PersonGettingMassage(v ...Variant) string { return Lookup("person getting m
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGettingMassage(v ...Variant) string { return Lookup("man getting massage", v...) }
+func ManGettingMassage(v ...Variant) string { return styled(1088, v) }
 
-// WomanGettingMassage returns the "woman getting massage" emoji 💆‍♀️.
+// WomanGettingMassage returns the "woman getting massage" emoji
+// 💆‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGettingMassage(v ...Variant) string { return Lookup("woman getting massage", v...) }
+func WomanGettingMassage(v ...Variant) string { return styled(1819, v) }
 
 // PersonGettingHaircut returns the "person getting haircut" emoji 💇.
 //
@@ -2221,7 +2223,7 @@ func WomanGettingMassage(v ...Variant) string { return Lookup("woman getting mas
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonGettingHaircut(v ...Variant) string { return Lookup("person getting haircut", v...) }
+func PersonGettingHaircut(v ...Variant) string { return styled(1330, v) }
 
 // ManGettingHaircut returns the "man getting haircut" emoji 💇‍♂️.
 //
@@ -2229,15 +2231,16 @@ func PersonGettingHaircut(v ...Variant) string { return Lookup("person getting h
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGettingHaircut(v ...Variant) string { return Lookup("man getting haircut", v...) }
+func ManGettingHaircut(v ...Variant) string { return styled(1087, v) }
 
-// WomanGettingHaircut returns the "woman getting haircut" emoji 💇‍♀️.
+// WomanGettingHaircut returns the "woman getting haircut" emoji
+// 💇‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGettingHaircut(v ...Variant) string { return Lookup("woman getting haircut", v...) }
+func WomanGettingHaircut(v ...Variant) string { return styled(1818, v) }
 
 // PersonWalking returns the "person walking" emoji 🚶.
 //
@@ -2245,7 +2248,7 @@ func WomanGettingHaircut(v ...Variant) string { return Lookup("woman getting hai
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWalking(v ...Variant) string { return Lookup("person walking", v...) }
+func PersonWalking(v ...Variant) string { return styled(1360, v) }
 
 // ManWalking returns the "man walking" emoji 🚶‍♂️.
 //
@@ -2253,7 +2256,7 @@ func PersonWalking(v ...Variant) string { return Lookup("person walking", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWalking(v ...Variant) string { return Lookup("man walking", v...) }
+func ManWalking(v ...Variant) string { return styled(1130, v) }
 
 // WomanWalking returns the "woman walking" emoji 🚶‍♀️.
 //
@@ -2261,33 +2264,34 @@ func ManWalking(v ...Variant) string { return Lookup("man walking", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWalking(v ...Variant) string { return Lookup("woman walking", v...) }
+func WomanWalking(v ...Variant) string { return styled(1861, v) }
 
-// PersonWalkingFacingRight returns the "person walking facing right" emoji 🚶‍➡️.
+// PersonWalkingFacingRight returns the "person walking facing right" emoji
+// 🚶‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWalkingFacingRight(v ...Variant) string {
-	return Lookup("person walking facing right", v...)
-}
+func PersonWalkingFacingRight(v ...Variant) string { return styled(1361, v) }
 
-// WomanWalkingFacingRight returns the "woman walking facing right" emoji 🚶‍♀️‍➡️.
+// WomanWalkingFacingRight returns the "woman walking facing right" emoji
+// 🚶‍♀️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWalkingFacingRight(v ...Variant) string { return Lookup("woman walking facing right", v...) }
+func WomanWalkingFacingRight(v ...Variant) string { return styled(1862, v) }
 
-// ManWalkingFacingRight returns the "man walking facing right" emoji 🚶‍♂️‍➡️.
+// ManWalkingFacingRight returns the "man walking facing right" emoji
+// 🚶‍♂️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWalkingFacingRight(v ...Variant) string { return Lookup("man walking facing right", v...) }
+func ManWalkingFacingRight(v ...Variant) string { return styled(1131, v) }
 
 // PersonStanding returns the "person standing" emoji 🧍.
 //
@@ -2295,7 +2299,7 @@ func ManWalkingFacingRight(v ...Variant) string { return Lookup("man walking fac
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonStanding(v ...Variant) string { return Lookup("person standing", v...) }
+func PersonStanding(v ...Variant) string { return styled(1355, v) }
 
 // ManStanding returns the "man standing" emoji 🧍‍♂️.
 //
@@ -2303,7 +2307,7 @@ func PersonStanding(v ...Variant) string { return Lookup("person standing", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManStanding(v ...Variant) string { return Lookup("man standing", v...) }
+func ManStanding(v ...Variant) string { return styled(1120, v) }
 
 // WomanStanding returns the "woman standing" emoji 🧍‍♀️.
 //
@@ -2311,7 +2315,7 @@ func ManStanding(v ...Variant) string { return Lookup("man standing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanStanding(v ...Variant) string { return Lookup("woman standing", v...) }
+func WomanStanding(v ...Variant) string { return styled(1851, v) }
 
 // PersonKneeling returns the "person kneeling" emoji 🧎.
 //
@@ -2319,7 +2323,7 @@ func WomanStanding(v ...Variant) string { return Lookup("woman standing", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonKneeling(v ...Variant) string { return Lookup("person kneeling", v...) }
+func PersonKneeling(v ...Variant) string { return styled(1343, v) }
 
 // ManKneeling returns the "man kneeling" emoji 🧎‍♂️.
 //
@@ -2327,7 +2331,7 @@ func PersonKneeling(v ...Variant) string { return Lookup("person kneeling", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManKneeling(v ...Variant) string { return Lookup("man kneeling", v...) }
+func ManKneeling(v ...Variant) string { return styled(1101, v) }
 
 // WomanKneeling returns the "woman kneeling" emoji 🧎‍♀️.
 //
@@ -2335,53 +2339,52 @@ func ManKneeling(v ...Variant) string { return Lookup("man kneeling", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanKneeling(v ...Variant) string { return Lookup("woman kneeling", v...) }
+func WomanKneeling(v ...Variant) string { return styled(1832, v) }
 
-// PersonKneelingFacingRight returns the "person kneeling facing right" emoji 🧎‍➡️.
+// PersonKneelingFacingRight returns the "person kneeling facing right"
+// emoji 🧎‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonKneelingFacingRight(v ...Variant) string {
-	return Lookup("person kneeling facing right", v...)
-}
+func PersonKneelingFacingRight(v ...Variant) string { return styled(1344, v) }
 
-// WomanKneelingFacingRight returns the "woman kneeling facing right" emoji 🧎‍♀️‍➡️.
+// WomanKneelingFacingRight returns the "woman kneeling facing right" emoji
+// 🧎‍♀️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanKneelingFacingRight(v ...Variant) string {
-	return Lookup("woman kneeling facing right", v...)
-}
+func WomanKneelingFacingRight(v ...Variant) string { return styled(1833, v) }
 
-// ManKneelingFacingRight returns the "man kneeling facing right" emoji 🧎‍♂️‍➡️.
+// ManKneelingFacingRight returns the "man kneeling facing right" emoji
+// 🧎‍♂️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManKneelingFacingRight(v ...Variant) string { return Lookup("man kneeling facing right", v...) }
+func ManKneelingFacingRight(v ...Variant) string { return styled(1102, v) }
 
-// PersonWithWhiteCane returns the "person with white cane" emoji 🧑‍🦯.
+// PersonWithWhiteCane returns the "person with white cane" emoji
+// 🧑‍🦯.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWithWhiteCane(v ...Variant) string { return Lookup("person with white cane", v...) }
+func PersonWithWhiteCane(v ...Variant) string { return styled(1366, v) }
 
-// PersonWithWhiteCaneFacingRight returns the "person with white cane facing right" emoji 🧑‍🦯‍➡️.
+// PersonWithWhiteCaneFacingRight returns the "person with white cane
+// facing right" emoji 🧑‍🦯‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonWithWhiteCaneFacingRight(v ...Variant) string {
-	return Lookup("person with white cane facing right", v...)
-}
+func PersonWithWhiteCaneFacingRight(v ...Variant) string { return styled(1367, v) }
 
 // ManWithWhiteCane returns the "man with white cane" emoji 👨‍🦯.
 //
@@ -2389,151 +2392,142 @@ func PersonWithWhiteCaneFacingRight(v ...Variant) string {
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWithWhiteCane(v ...Variant) string { return Lookup("man with white cane", v...) }
+func ManWithWhiteCane(v ...Variant) string { return styled(1134, v) }
 
-// ManWithWhiteCaneFacingRight returns the "man with white cane facing right" emoji 👨‍🦯‍➡️.
+// ManWithWhiteCaneFacingRight returns the "man with white cane facing
+// right" emoji 👨‍🦯‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManWithWhiteCaneFacingRight(v ...Variant) string {
-	return Lookup("man with white cane facing right", v...)
-}
+func ManWithWhiteCaneFacingRight(v ...Variant) string { return styled(1135, v) }
 
-// WomanWithWhiteCane returns the "woman with white cane" emoji 👩‍🦯.
+// WomanWithWhiteCane returns the "woman with white cane" emoji
+// 👩‍🦯.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWithWhiteCane(v ...Variant) string { return Lookup("woman with white cane", v...) }
+func WomanWithWhiteCane(v ...Variant) string { return styled(1866, v) }
 
-// WomanWithWhiteCaneFacingRight returns the "woman with white cane facing right" emoji 👩‍🦯‍➡️.
+// WomanWithWhiteCaneFacingRight returns the "woman with white cane facing
+// right" emoji 👩‍🦯‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanWithWhiteCaneFacingRight(v ...Variant) string {
-	return Lookup("woman with white cane facing right", v...)
-}
+func WomanWithWhiteCaneFacingRight(v ...Variant) string { return styled(1867, v) }
 
-// PersonInMotorizedWheelchair returns the "person in motorized wheelchair" emoji 🧑‍🦼.
+// PersonInMotorizedWheelchair returns the "person in motorized wheelchair"
+// emoji 🧑‍🦼.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInMotorizedWheelchair(v ...Variant) string {
-	return Lookup("person in motorized wheelchair", v...)
-}
+func PersonInMotorizedWheelchair(v ...Variant) string { return styled(1337, v) }
 
-// PersonInMotorizedWheelchairFacingRight returns the "person in motorized wheelchair facing right" emoji 🧑‍🦼‍➡️.
+// PersonInMotorizedWheelchairFacingRight returns the "person in motorized
+// wheelchair facing right" emoji 🧑‍🦼‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInMotorizedWheelchairFacingRight(v ...Variant) string {
-	return Lookup("person in motorized wheelchair facing right", v...)
-}
+func PersonInMotorizedWheelchairFacingRight(v ...Variant) string { return styled(1338, v) }
 
-// ManInMotorizedWheelchair returns the "man in motorized wheelchair" emoji 👨‍🦼.
+// ManInMotorizedWheelchair returns the "man in motorized wheelchair" emoji
+// 👨‍🦼.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInMotorizedWheelchair(v ...Variant) string {
-	return Lookup("man in motorized wheelchair", v...)
-}
+func ManInMotorizedWheelchair(v ...Variant) string { return styled(1095, v) }
 
-// ManInMotorizedWheelchairFacingRight returns the "man in motorized wheelchair facing right" emoji 👨‍🦼‍➡️.
+// ManInMotorizedWheelchairFacingRight returns the "man in motorized
+// wheelchair facing right" emoji 👨‍🦼‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInMotorizedWheelchairFacingRight(v ...Variant) string {
-	return Lookup("man in motorized wheelchair facing right", v...)
-}
+func ManInMotorizedWheelchairFacingRight(v ...Variant) string { return styled(1096, v) }
 
-// WomanInMotorizedWheelchair returns the "woman in motorized wheelchair" emoji 👩‍🦼.
+// WomanInMotorizedWheelchair returns the "woman in motorized wheelchair"
+// emoji 👩‍🦼.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInMotorizedWheelchair(v ...Variant) string {
-	return Lookup("woman in motorized wheelchair", v...)
-}
+func WomanInMotorizedWheelchair(v ...Variant) string { return styled(1826, v) }
 
-// WomanInMotorizedWheelchairFacingRight returns the "woman in motorized wheelchair facing right" emoji 👩‍🦼‍➡️.
+// WomanInMotorizedWheelchairFacingRight returns the "woman in motorized
+// wheelchair facing right" emoji 👩‍🦼‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInMotorizedWheelchairFacingRight(v ...Variant) string {
-	return Lookup("woman in motorized wheelchair facing right", v...)
-}
+func WomanInMotorizedWheelchairFacingRight(v ...Variant) string { return styled(1827, v) }
 
-// PersonInManualWheelchair returns the "person in manual wheelchair" emoji 🧑‍🦽.
+// PersonInManualWheelchair returns the "person in manual wheelchair" emoji
+// 🧑‍🦽.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInManualWheelchair(v ...Variant) string {
-	return Lookup("person in manual wheelchair", v...)
-}
+func PersonInManualWheelchair(v ...Variant) string { return styled(1335, v) }
 
-// PersonInManualWheelchairFacingRight returns the "person in manual wheelchair facing right" emoji 🧑‍🦽‍➡️.
+// PersonInManualWheelchairFacingRight returns the "person in manual
+// wheelchair facing right" emoji 🧑‍🦽‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInManualWheelchairFacingRight(v ...Variant) string {
-	return Lookup("person in manual wheelchair facing right", v...)
-}
+func PersonInManualWheelchairFacingRight(v ...Variant) string { return styled(1336, v) }
 
-// ManInManualWheelchair returns the "man in manual wheelchair" emoji 👨‍🦽.
+// ManInManualWheelchair returns the "man in manual wheelchair" emoji
+// 👨‍🦽.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInManualWheelchair(v ...Variant) string { return Lookup("man in manual wheelchair", v...) }
+func ManInManualWheelchair(v ...Variant) string { return styled(1093, v) }
 
-// ManInManualWheelchairFacingRight returns the "man in manual wheelchair facing right" emoji 👨‍🦽‍➡️.
+// ManInManualWheelchairFacingRight returns the "man in manual wheelchair
+// facing right" emoji 👨‍🦽‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInManualWheelchairFacingRight(v ...Variant) string {
-	return Lookup("man in manual wheelchair facing right", v...)
-}
+func ManInManualWheelchairFacingRight(v ...Variant) string { return styled(1094, v) }
 
-// WomanInManualWheelchair returns the "woman in manual wheelchair" emoji 👩‍🦽.
+// WomanInManualWheelchair returns the "woman in manual wheelchair" emoji
+// 👩‍🦽.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInManualWheelchair(v ...Variant) string { return Lookup("woman in manual wheelchair", v...) }
+func WomanInManualWheelchair(v ...Variant) string { return styled(1824, v) }
 
-// WomanInManualWheelchairFacingRight returns the "woman in manual wheelchair facing right" emoji 👩‍🦽‍➡️.
+// WomanInManualWheelchairFacingRight returns the "woman in manual
+// wheelchair facing right" emoji 👩‍🦽‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInManualWheelchairFacingRight(v ...Variant) string {
-	return Lookup("woman in manual wheelchair facing right", v...)
-}
+func WomanInManualWheelchairFacingRight(v ...Variant) string { return styled(1825, v) }
 
 // PersonRunning returns the "person running" emoji 🏃.
 //
@@ -2541,7 +2535,7 @@ func WomanInManualWheelchairFacingRight(v ...Variant) string {
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonRunning(v ...Variant) string { return Lookup("person running", v...) }
+func PersonRunning(v ...Variant) string { return styled(1352, v) }
 
 // ManRunning returns the "man running" emoji 🏃‍♂️.
 //
@@ -2549,7 +2543,7 @@ func PersonRunning(v ...Variant) string { return Lookup("person running", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManRunning(v ...Variant) string { return Lookup("man running", v...) }
+func ManRunning(v ...Variant) string { return styled(1115, v) }
 
 // WomanRunning returns the "woman running" emoji 🏃‍♀️.
 //
@@ -2557,33 +2551,34 @@ func ManRunning(v ...Variant) string { return Lookup("man running", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanRunning(v ...Variant) string { return Lookup("woman running", v...) }
+func WomanRunning(v ...Variant) string { return styled(1846, v) }
 
-// PersonRunningFacingRight returns the "person running facing right" emoji 🏃‍➡️.
+// PersonRunningFacingRight returns the "person running facing right" emoji
+// 🏃‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonRunningFacingRight(v ...Variant) string {
-	return Lookup("person running facing right", v...)
-}
+func PersonRunningFacingRight(v ...Variant) string { return styled(1353, v) }
 
-// WomanRunningFacingRight returns the "woman running facing right" emoji 🏃‍♀️‍➡️.
+// WomanRunningFacingRight returns the "woman running facing right" emoji
+// 🏃‍♀️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanRunningFacingRight(v ...Variant) string { return Lookup("woman running facing right", v...) }
+func WomanRunningFacingRight(v ...Variant) string { return styled(1847, v) }
 
-// ManRunningFacingRight returns the "man running facing right" emoji 🏃‍♂️‍➡️.
+// ManRunningFacingRight returns the "man running facing right" emoji
+// 🏃‍♂️‍➡️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManRunningFacingRight(v ...Variant) string { return Lookup("man running facing right", v...) }
+func ManRunningFacingRight(v ...Variant) string { return styled(1116, v) }
 
 // BalletDancer returns the "ballet dancer" emoji 🧑‍🩰.
 //
@@ -2591,7 +2586,7 @@ func ManRunningFacingRight(v ...Variant) string { return Lookup("man running fac
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func BalletDancer(v ...Variant) string { return Lookup("ballet dancer", v...) }
+func BalletDancer(v ...Variant) string { return styled(118, v) }
 
 // WomanDancing returns the "woman dancing" emoji 💃.
 //
@@ -2599,7 +2594,7 @@ func BalletDancer(v ...Variant) string { return Lookup("ballet dancer", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanDancing(v ...Variant) string { return Lookup("woman dancing", v...) }
+func WomanDancing(v ...Variant) string { return styled(1805, v) }
 
 // ManDancing returns the "man dancing" emoji 🕺.
 //
@@ -2607,15 +2602,16 @@ func WomanDancing(v ...Variant) string { return Lookup("woman dancing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManDancing(v ...Variant) string { return Lookup("man dancing", v...) }
+func ManDancing(v ...Variant) string { return styled(1074, v) }
 
-// PersonInSuitLevitating returns the "person in suit levitating" emoji 🕴️.
+// PersonInSuitLevitating returns the "person in suit levitating" emoji
+// 🕴️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInSuitLevitating(v ...Variant) string { return Lookup("person in suit levitating", v...) }
+func PersonInSuitLevitating(v ...Variant) string { return styled(1340, v) }
 
 // PeopleWithBunnyEars returns the "people with bunny ears" emoji 👯.
 //
@@ -2624,7 +2620,7 @@ func PersonInSuitLevitating(v ...Variant) string { return Lookup("person in suit
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func PeopleWithBunnyEars(v ...Variant) string { return Lookup("people with bunny ears", v...) }
+func PeopleWithBunnyEars(v ...Variant) string { return styled(1314, v) }
 
 // MenWithBunnyEars returns the "men with bunny ears" emoji 👯‍♂️.
 //
@@ -2633,16 +2629,17 @@ func PeopleWithBunnyEars(v ...Variant) string { return Lookup("people with bunny
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func MenWithBunnyEars(v ...Variant) string { return Lookup("men with bunny ears", v...) }
+func MenWithBunnyEars(v ...Variant) string { return styled(1156, v) }
 
-// WomenWithBunnyEars returns the "women with bunny ears" emoji 👯‍♀️.
+// WomenWithBunnyEars returns the "women with bunny ears" emoji
+// 👯‍♀️.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func WomenWithBunnyEars(v ...Variant) string { return Lookup("women with bunny ears", v...) }
+func WomenWithBunnyEars(v ...Variant) string { return styled(1874, v) }
 
 // PersonInSteamyRoom returns the "person in steamy room" emoji 🧖.
 //
@@ -2650,7 +2647,7 @@ func WomenWithBunnyEars(v ...Variant) string { return Lookup("women with bunny e
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInSteamyRoom(v ...Variant) string { return Lookup("person in steamy room", v...) }
+func PersonInSteamyRoom(v ...Variant) string { return styled(1339, v) }
 
 // ManInSteamyRoom returns the "man in steamy room" emoji 🧖‍♂️.
 //
@@ -2658,15 +2655,16 @@ func PersonInSteamyRoom(v ...Variant) string { return Lookup("person in steamy r
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInSteamyRoom(v ...Variant) string { return Lookup("man in steamy room", v...) }
+func ManInSteamyRoom(v ...Variant) string { return styled(1097, v) }
 
-// WomanInSteamyRoom returns the "woman in steamy room" emoji 🧖‍♀️.
+// WomanInSteamyRoom returns the "woman in steamy room" emoji
+// 🧖‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInSteamyRoom(v ...Variant) string { return Lookup("woman in steamy room", v...) }
+func WomanInSteamyRoom(v ...Variant) string { return styled(1828, v) }
 
 // PersonClimbing returns the "person climbing" emoji 🧗.
 //
@@ -2674,7 +2672,7 @@ func WomanInSteamyRoom(v ...Variant) string { return Lookup("woman in steamy roo
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonClimbing(v ...Variant) string { return Lookup("person climbing", v...) }
+func PersonClimbing(v ...Variant) string { return styled(1323, v) }
 
 // ManClimbing returns the "man climbing" emoji 🧗‍♂️.
 //
@@ -2682,7 +2680,7 @@ func PersonClimbing(v ...Variant) string { return Lookup("person climbing", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManClimbing(v ...Variant) string { return Lookup("man climbing", v...) }
+func ManClimbing(v ...Variant) string { return styled(1071, v) }
 
 // WomanClimbing returns the "woman climbing" emoji 🧗‍♀️.
 //
@@ -2690,10 +2688,10 @@ func ManClimbing(v ...Variant) string { return Lookup("man climbing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanClimbing(v ...Variant) string { return Lookup("woman climbing", v...) }
+func WomanClimbing(v ...Variant) string { return styled(1802, v) }
 
 // PersonFencing returns the "person fencing" emoji 🤺.
-func PersonFencing(v ...Variant) string { return Lookup("person fencing", v...) }
+func PersonFencing(v ...Variant) string { return styled(1326, v) }
 
 // HorseRacing returns the "horse racing" emoji 🏇.
 //
@@ -2701,10 +2699,10 @@ func PersonFencing(v ...Variant) string { return Lookup("person fencing", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func HorseRacing(v ...Variant) string { return Lookup("horse racing", v...) }
+func HorseRacing(v ...Variant) string { return styled(923, v) }
 
 // Skier returns the "skier" emoji ⛷️.
-func Skier(v ...Variant) string { return Lookup("skier", v...) }
+func Skier(v ...Variant) string { return styled(1554, v) }
 
 // Snowboarder returns the "snowboarder" emoji 🏂.
 //
@@ -2712,7 +2710,7 @@ func Skier(v ...Variant) string { return Lookup("skier", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Snowboarder(v ...Variant) string { return Lookup("snowboarder", v...) }
+func Snowboarder(v ...Variant) string { return styled(1584, v) }
 
 // PersonGolfing returns the "person golfing" emoji 🏌️.
 //
@@ -2720,7 +2718,7 @@ func Snowboarder(v ...Variant) string { return Lookup("snowboarder", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonGolfing(v ...Variant) string { return Lookup("person golfing", v...) }
+func PersonGolfing(v ...Variant) string { return styled(1332, v) }
 
 // ManGolfing returns the "man golfing" emoji 🏌️‍♂️.
 //
@@ -2728,7 +2726,7 @@ func PersonGolfing(v ...Variant) string { return Lookup("person golfing", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManGolfing(v ...Variant) string { return Lookup("man golfing", v...) }
+func ManGolfing(v ...Variant) string { return styled(1089, v) }
 
 // WomanGolfing returns the "woman golfing" emoji 🏌️‍♀️.
 //
@@ -2736,7 +2734,7 @@ func ManGolfing(v ...Variant) string { return Lookup("man golfing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanGolfing(v ...Variant) string { return Lookup("woman golfing", v...) }
+func WomanGolfing(v ...Variant) string { return styled(1820, v) }
 
 // PersonSurfing returns the "person surfing" emoji 🏄.
 //
@@ -2744,7 +2742,7 @@ func WomanGolfing(v ...Variant) string { return Lookup("woman golfing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonSurfing(v ...Variant) string { return Lookup("person surfing", v...) }
+func PersonSurfing(v ...Variant) string { return styled(1356, v) }
 
 // ManSurfing returns the "man surfing" emoji 🏄‍♂️.
 //
@@ -2752,7 +2750,7 @@ func PersonSurfing(v ...Variant) string { return Lookup("person surfing", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManSurfing(v ...Variant) string { return Lookup("man surfing", v...) }
+func ManSurfing(v ...Variant) string { return styled(1124, v) }
 
 // WomanSurfing returns the "woman surfing" emoji 🏄‍♀️.
 //
@@ -2760,7 +2758,7 @@ func ManSurfing(v ...Variant) string { return Lookup("man surfing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanSurfing(v ...Variant) string { return Lookup("woman surfing", v...) }
+func WomanSurfing(v ...Variant) string { return styled(1855, v) }
 
 // PersonRowingBoat returns the "person rowing boat" emoji 🚣.
 //
@@ -2768,7 +2766,7 @@ func WomanSurfing(v ...Variant) string { return Lookup("woman surfing", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonRowingBoat(v ...Variant) string { return Lookup("person rowing boat", v...) }
+func PersonRowingBoat(v ...Variant) string { return styled(1351, v) }
 
 // ManRowingBoat returns the "man rowing boat" emoji 🚣‍♂️.
 //
@@ -2776,7 +2774,7 @@ func PersonRowingBoat(v ...Variant) string { return Lookup("person rowing boat",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManRowingBoat(v ...Variant) string { return Lookup("man rowing boat", v...) }
+func ManRowingBoat(v ...Variant) string { return styled(1114, v) }
 
 // WomanRowingBoat returns the "woman rowing boat" emoji 🚣‍♀️.
 //
@@ -2784,7 +2782,7 @@ func ManRowingBoat(v ...Variant) string { return Lookup("man rowing boat", v...)
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanRowingBoat(v ...Variant) string { return Lookup("woman rowing boat", v...) }
+func WomanRowingBoat(v ...Variant) string { return styled(1845, v) }
 
 // PersonSwimming returns the "person swimming" emoji 🏊.
 //
@@ -2792,7 +2790,7 @@ func WomanRowingBoat(v ...Variant) string { return Lookup("woman rowing boat", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonSwimming(v ...Variant) string { return Lookup("person swimming", v...) }
+func PersonSwimming(v ...Variant) string { return styled(1357, v) }
 
 // ManSwimming returns the "man swimming" emoji 🏊‍♂️.
 //
@@ -2800,7 +2798,7 @@ func PersonSwimming(v ...Variant) string { return Lookup("person swimming", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManSwimming(v ...Variant) string { return Lookup("man swimming", v...) }
+func ManSwimming(v ...Variant) string { return styled(1125, v) }
 
 // WomanSwimming returns the "woman swimming" emoji 🏊‍♀️.
 //
@@ -2808,7 +2806,7 @@ func ManSwimming(v ...Variant) string { return Lookup("man swimming", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanSwimming(v ...Variant) string { return Lookup("woman swimming", v...) }
+func WomanSwimming(v ...Variant) string { return styled(1856, v) }
 
 // PersonBouncingBall returns the "person bouncing ball" emoji ⛹️.
 //
@@ -2816,7 +2814,7 @@ func WomanSwimming(v ...Variant) string { return Lookup("woman swimming", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonBouncingBall(v ...Variant) string { return Lookup("person bouncing ball", v...) }
+func PersonBouncingBall(v ...Variant) string { return styled(1320, v) }
 
 // ManBouncingBall returns the "man bouncing ball" emoji ⛹️‍♂️.
 //
@@ -2824,15 +2822,16 @@ func PersonBouncingBall(v ...Variant) string { return Lookup("person bouncing ba
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManBouncingBall(v ...Variant) string { return Lookup("man bouncing ball", v...) }
+func ManBouncingBall(v ...Variant) string { return styled(1068, v) }
 
-// WomanBouncingBall returns the "woman bouncing ball" emoji ⛹️‍♀️.
+// WomanBouncingBall returns the "woman bouncing ball" emoji
+// ⛹️‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanBouncingBall(v ...Variant) string { return Lookup("woman bouncing ball", v...) }
+func WomanBouncingBall(v ...Variant) string { return styled(1799, v) }
 
 // PersonLiftingWeights returns the "person lifting weights" emoji 🏋️.
 //
@@ -2840,23 +2839,25 @@ func WomanBouncingBall(v ...Variant) string { return Lookup("woman bouncing ball
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonLiftingWeights(v ...Variant) string { return Lookup("person lifting weights", v...) }
+func PersonLiftingWeights(v ...Variant) string { return styled(1345, v) }
 
-// ManLiftingWeights returns the "man lifting weights" emoji 🏋️‍♂️.
+// ManLiftingWeights returns the "man lifting weights" emoji
+// 🏋️‍♂️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManLiftingWeights(v ...Variant) string { return Lookup("man lifting weights", v...) }
+func ManLiftingWeights(v ...Variant) string { return styled(1103, v) }
 
-// WomanLiftingWeights returns the "woman lifting weights" emoji 🏋️‍♀️.
+// WomanLiftingWeights returns the "woman lifting weights" emoji
+// 🏋️‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanLiftingWeights(v ...Variant) string { return Lookup("woman lifting weights", v...) }
+func WomanLiftingWeights(v ...Variant) string { return styled(1834, v) }
 
 // PersonBiking returns the "person biking" emoji 🚴.
 //
@@ -2864,7 +2865,7 @@ func WomanLiftingWeights(v ...Variant) string { return Lookup("woman lifting wei
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonBiking(v ...Variant) string { return Lookup("person biking", v...) }
+func PersonBiking(v ...Variant) string { return styled(1319, v) }
 
 // ManBiking returns the "man biking" emoji 🚴‍♂️.
 //
@@ -2872,7 +2873,7 @@ func PersonBiking(v ...Variant) string { return Lookup("person biking", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManBiking(v ...Variant) string { return Lookup("man biking", v...) }
+func ManBiking(v ...Variant) string { return styled(1067, v) }
 
 // WomanBiking returns the "woman biking" emoji 🚴‍♀️.
 //
@@ -2880,7 +2881,7 @@ func ManBiking(v ...Variant) string { return Lookup("man biking", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanBiking(v ...Variant) string { return Lookup("woman biking", v...) }
+func WomanBiking(v ...Variant) string { return styled(1798, v) }
 
 // PersonMountainBiking returns the "person mountain biking" emoji 🚵.
 //
@@ -2888,7 +2889,7 @@ func WomanBiking(v ...Variant) string { return Lookup("woman biking", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonMountainBiking(v ...Variant) string { return Lookup("person mountain biking", v...) }
+func PersonMountainBiking(v ...Variant) string { return styled(1346, v) }
 
 // ManMountainBiking returns the "man mountain biking" emoji 🚵‍♂️.
 //
@@ -2896,15 +2897,16 @@ func PersonMountainBiking(v ...Variant) string { return Lookup("person mountain 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManMountainBiking(v ...Variant) string { return Lookup("man mountain biking", v...) }
+func ManMountainBiking(v ...Variant) string { return styled(1106, v) }
 
-// WomanMountainBiking returns the "woman mountain biking" emoji 🚵‍♀️.
+// WomanMountainBiking returns the "woman mountain biking" emoji
+// 🚵‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanMountainBiking(v ...Variant) string { return Lookup("woman mountain biking", v...) }
+func WomanMountainBiking(v ...Variant) string { return styled(1837, v) }
 
 // PersonCartwheeling returns the "person cartwheeling" emoji 🤸.
 //
@@ -2912,7 +2914,7 @@ func WomanMountainBiking(v ...Variant) string { return Lookup("woman mountain bi
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonCartwheeling(v ...Variant) string { return Lookup("person cartwheeling", v...) }
+func PersonCartwheeling(v ...Variant) string { return styled(1322, v) }
 
 // ManCartwheeling returns the "man cartwheeling" emoji 🤸‍♂️.
 //
@@ -2920,7 +2922,7 @@ func PersonCartwheeling(v ...Variant) string { return Lookup("person cartwheelin
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManCartwheeling(v ...Variant) string { return Lookup("man cartwheeling", v...) }
+func ManCartwheeling(v ...Variant) string { return styled(1070, v) }
 
 // WomanCartwheeling returns the "woman cartwheeling" emoji 🤸‍♀️.
 //
@@ -2928,7 +2930,7 @@ func ManCartwheeling(v ...Variant) string { return Lookup("man cartwheeling", v.
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanCartwheeling(v ...Variant) string { return Lookup("woman cartwheeling", v...) }
+func WomanCartwheeling(v ...Variant) string { return styled(1801, v) }
 
 // PeopleWrestling returns the "people wrestling" emoji 🤼.
 //
@@ -2937,7 +2939,7 @@ func WomanCartwheeling(v ...Variant) string { return Lookup("woman cartwheeling"
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func PeopleWrestling(v ...Variant) string { return Lookup("people wrestling", v...) }
+func PeopleWrestling(v ...Variant) string { return styled(1315, v) }
 
 // MenWrestling returns the "men wrestling" emoji 🤼‍♂️.
 //
@@ -2946,7 +2948,7 @@ func PeopleWrestling(v ...Variant) string { return Lookup("people wrestling", v.
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func MenWrestling(v ...Variant) string { return Lookup("men wrestling", v...) }
+func MenWrestling(v ...Variant) string { return styled(1157, v) }
 
 // WomenWrestling returns the "women wrestling" emoji 🤼‍♀️.
 //
@@ -2955,31 +2957,34 @@ func MenWrestling(v ...Variant) string { return Lookup("men wrestling", v...) }
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func WomenWrestling(v ...Variant) string { return Lookup("women wrestling", v...) }
+func WomenWrestling(v ...Variant) string { return styled(1875, v) }
 
-// PersonPlayingWaterPolo returns the "person playing water polo" emoji 🤽.
+// PersonPlayingWaterPolo returns the "person playing water polo" emoji
+// 🤽.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonPlayingWaterPolo(v ...Variant) string { return Lookup("person playing water polo", v...) }
+func PersonPlayingWaterPolo(v ...Variant) string { return styled(1348, v) }
 
-// ManPlayingWaterPolo returns the "man playing water polo" emoji 🤽‍♂️.
+// ManPlayingWaterPolo returns the "man playing water polo" emoji
+// 🤽‍♂️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManPlayingWaterPolo(v ...Variant) string { return Lookup("man playing water polo", v...) }
+func ManPlayingWaterPolo(v ...Variant) string { return styled(1110, v) }
 
-// WomanPlayingWaterPolo returns the "woman playing water polo" emoji 🤽‍♀️.
+// WomanPlayingWaterPolo returns the "woman playing water polo" emoji
+// 🤽‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanPlayingWaterPolo(v ...Variant) string { return Lookup("woman playing water polo", v...) }
+func WomanPlayingWaterPolo(v ...Variant) string { return styled(1841, v) }
 
 // PersonPlayingHandball returns the "person playing handball" emoji 🤾.
 //
@@ -2987,23 +2992,25 @@ func WomanPlayingWaterPolo(v ...Variant) string { return Lookup("woman playing w
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonPlayingHandball(v ...Variant) string { return Lookup("person playing handball", v...) }
+func PersonPlayingHandball(v ...Variant) string { return styled(1347, v) }
 
-// ManPlayingHandball returns the "man playing handball" emoji 🤾‍♂️.
+// ManPlayingHandball returns the "man playing handball" emoji
+// 🤾‍♂️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManPlayingHandball(v ...Variant) string { return Lookup("man playing handball", v...) }
+func ManPlayingHandball(v ...Variant) string { return styled(1109, v) }
 
-// WomanPlayingHandball returns the "woman playing handball" emoji 🤾‍♀️.
+// WomanPlayingHandball returns the "woman playing handball" emoji
+// 🤾‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanPlayingHandball(v ...Variant) string { return Lookup("woman playing handball", v...) }
+func WomanPlayingHandball(v ...Variant) string { return styled(1840, v) }
 
 // PersonJuggling returns the "person juggling" emoji 🤹.
 //
@@ -3011,7 +3018,7 @@ func WomanPlayingHandball(v ...Variant) string { return Lookup("woman playing ha
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonJuggling(v ...Variant) string { return Lookup("person juggling", v...) }
+func PersonJuggling(v ...Variant) string { return styled(1342, v) }
 
 // ManJuggling returns the "man juggling" emoji 🤹‍♂️.
 //
@@ -3019,7 +3026,7 @@ func PersonJuggling(v ...Variant) string { return Lookup("person juggling", v...
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManJuggling(v ...Variant) string { return Lookup("man juggling", v...) }
+func ManJuggling(v ...Variant) string { return styled(1100, v) }
 
 // WomanJuggling returns the "woman juggling" emoji 🤹‍♀️.
 //
@@ -3027,7 +3034,7 @@ func ManJuggling(v ...Variant) string { return Lookup("man juggling", v...) }
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanJuggling(v ...Variant) string { return Lookup("woman juggling", v...) }
+func WomanJuggling(v ...Variant) string { return styled(1831, v) }
 
 // PersonInLotusPosition returns the "person in lotus position" emoji 🧘.
 //
@@ -3035,23 +3042,25 @@ func WomanJuggling(v ...Variant) string { return Lookup("woman juggling", v...) 
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInLotusPosition(v ...Variant) string { return Lookup("person in lotus position", v...) }
+func PersonInLotusPosition(v ...Variant) string { return styled(1334, v) }
 
-// ManInLotusPosition returns the "man in lotus position" emoji 🧘‍♂️.
+// ManInLotusPosition returns the "man in lotus position" emoji
+// 🧘‍♂️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func ManInLotusPosition(v ...Variant) string { return Lookup("man in lotus position", v...) }
+func ManInLotusPosition(v ...Variant) string { return styled(1092, v) }
 
-// WomanInLotusPosition returns the "woman in lotus position" emoji 🧘‍♀️.
+// WomanInLotusPosition returns the "woman in lotus position" emoji
+// 🧘‍♀️.
 //
 // It accepts one variant: LightSkinTone, MediumLightSkinTone,
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func WomanInLotusPosition(v ...Variant) string { return Lookup("woman in lotus position", v...) }
+func WomanInLotusPosition(v ...Variant) string { return styled(1823, v) }
 
 // PersonTakingBath returns the "person taking bath" emoji 🛀.
 //
@@ -3059,7 +3068,7 @@ func WomanInLotusPosition(v ...Variant) string { return Lookup("woman in lotus p
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonTakingBath(v ...Variant) string { return Lookup("person taking bath", v...) }
+func PersonTakingBath(v ...Variant) string { return styled(1358, v) }
 
 // PersonInBed returns the "person in bed" emoji 🛌.
 //
@@ -3067,16 +3076,17 @@ func PersonTakingBath(v ...Variant) string { return Lookup("person taking bath",
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func PersonInBed(v ...Variant) string { return Lookup("person in bed", v...) }
+func PersonInBed(v ...Variant) string { return styled(1333, v) }
 
-// PeopleHoldingHands returns the "people holding hands" emoji 🧑‍🤝‍🧑.
+// PeopleHoldingHands returns the "people holding hands" emoji
+// 🧑‍🤝‍🧑.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func PeopleHoldingHands(v ...Variant) string { return Lookup("people holding hands", v...) }
+func PeopleHoldingHands(v ...Variant) string { return styled(1312, v) }
 
 // WomenHoldingHands returns the "women holding hands" emoji 👭.
 //
@@ -3085,16 +3095,17 @@ func PeopleHoldingHands(v ...Variant) string { return Lookup("people holding han
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func WomenHoldingHands(v ...Variant) string { return Lookup("women holding hands", v...) }
+func WomenHoldingHands(v ...Variant) string { return styled(1873, v) }
 
-// WomanAndManHoldingHands returns the "woman and man holding hands" emoji 👫.
+// WomanAndManHoldingHands returns the "woman and man holding hands" emoji
+// 👫.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func WomanAndManHoldingHands(v ...Variant) string { return Lookup("woman and man holding hands", v...) }
+func WomanAndManHoldingHands(v ...Variant) string { return styled(1795, v) }
 
 // MenHoldingHands returns the "men holding hands" emoji 👬.
 //
@@ -3103,7 +3114,7 @@ func WomanAndManHoldingHands(v ...Variant) string { return Lookup("woman and man
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func MenHoldingHands(v ...Variant) string { return Lookup("men holding hands", v...) }
+func MenHoldingHands(v ...Variant) string { return styled(1155, v) }
 
 // Kiss returns the "kiss" emoji 💏.
 //
@@ -3111,42 +3122,46 @@ func MenHoldingHands(v ...Variant) string { return Lookup("men holding hands", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func Kiss(v ...Variant) string { return Lookup("kiss", v...) }
+func Kiss(v ...Variant) string { return styled(983, v) }
 
-// KissPersonPerson returns the "kiss: person, person" emoji 🧑🏻‍❤️‍💋‍🧑🏼.
+// KissPersonPerson returns the "kiss: person, person" emoji
+// 🧑🏻‍❤️‍💋‍🧑🏼.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Unicode defines this emoji only in
 // modified forms, so calling it with no variants returns the empty string.
-func KissPersonPerson(v ...Variant) string { return Lookup("kiss: person, person", v...) }
+func KissPersonPerson(v ...Variant) string { return styled(986, v) }
 
-// KissWomanMan returns the "kiss: woman, man" emoji 👩‍❤️‍💋‍👨.
+// KissWomanMan returns the "kiss: woman, man" emoji
+// 👩‍❤️‍💋‍👨.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func KissWomanMan(v ...Variant) string { return Lookup("kiss: woman, man", v...) }
+func KissWomanMan(v ...Variant) string { return styled(987, v) }
 
-// KissManMan returns the "kiss: man, man" emoji 👨‍❤️‍💋‍👨.
+// KissManMan returns the "kiss: man, man" emoji
+// 👨‍❤️‍💋‍👨.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func KissManMan(v ...Variant) string { return Lookup("kiss: man, man", v...) }
+func KissManMan(v ...Variant) string { return styled(985, v) }
 
-// KissWomanWoman returns the "kiss: woman, woman" emoji 👩‍❤️‍💋‍👩.
+// KissWomanWoman returns the "kiss: woman, woman" emoji
+// 👩‍❤️‍💋‍👩.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func KissWomanWoman(v ...Variant) string { return Lookup("kiss: woman, woman", v...) }
+func KissWomanWoman(v ...Variant) string { return styled(988, v) }
 
 // CoupleWithHeart returns the "couple with heart" emoji 💑.
 //
@@ -3154,4316 +3169,4323 @@ func KissWomanWoman(v ...Variant) string { return Lookup("kiss: woman, woman", v
 // MediumSkinTone, MediumDarkSkinTone, DarkSkinTone. Calling it with no
 // variants returns the unmodified emoji, and an unsupported combination
 // returns the empty string.
-func CoupleWithHeart(v ...Variant) string { return Lookup("couple with heart", v...) }
+func CoupleWithHeart(v ...Variant) string { return styled(315, v) }
 
-// CoupleWithHeartPersonPerson returns the "couple with heart: person, person" emoji 🧑🏻‍❤️‍🧑🏼.
+// CoupleWithHeartPersonPerson returns the "couple with heart: person,
+// person" emoji 🧑🏻‍❤️‍🧑🏼.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Unicode defines this emoji only in
 // modified forms, so calling it with no variants returns the empty string.
-func CoupleWithHeartPersonPerson(v ...Variant) string {
-	return Lookup("couple with heart: person, person", v...)
-}
+func CoupleWithHeartPersonPerson(v ...Variant) string { return styled(317, v) }
 
-// CoupleWithHeartWomanMan returns the "couple with heart: woman, man" emoji 👩‍❤️‍👨.
+// CoupleWithHeartWomanMan returns the "couple with heart: woman, man"
+// emoji 👩‍❤️‍👨.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func CoupleWithHeartWomanMan(v ...Variant) string {
-	return Lookup("couple with heart: woman, man", v...)
-}
+func CoupleWithHeartWomanMan(v ...Variant) string { return styled(318, v) }
 
-// CoupleWithHeartManMan returns the "couple with heart: man, man" emoji 👨‍❤️‍👨.
+// CoupleWithHeartManMan returns the "couple with heart: man, man" emoji
+// 👨‍❤️‍👨.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func CoupleWithHeartManMan(v ...Variant) string { return Lookup("couple with heart: man, man", v...) }
+func CoupleWithHeartManMan(v ...Variant) string { return styled(316, v) }
 
-// CoupleWithHeartWomanWoman returns the "couple with heart: woman, woman" emoji 👩‍❤️‍👩.
+// CoupleWithHeartWomanWoman returns the "couple with heart: woman, woman"
+// emoji 👩‍❤️‍👩.
 //
 // It accepts one skin tone for both figures, or one per figure in the
 // order they appear: LightSkinTone, MediumLightSkinTone, MediumSkinTone,
 // MediumDarkSkinTone, DarkSkinTone. Calling it with no variants returns
 // the unmodified emoji, and an unsupported combination returns the empty
 // string.
-func CoupleWithHeartWomanWoman(v ...Variant) string {
-	return Lookup("couple with heart: woman, woman", v...)
-}
+func CoupleWithHeartWomanWoman(v ...Variant) string { return styled(319, v) }
 
-// FamilyManWomanBoy returns the "family: man, woman, boy" emoji 👨‍👩‍👦.
-func FamilyManWomanBoy(v ...Variant) string { return Lookup("family: man, woman, boy", v...) }
+// FamilyManWomanBoy returns the "family: man, woman, boy" emoji
+// 👨‍👩‍👦.
+func FamilyManWomanBoy(v ...Variant) string { return styled(483, v) }
 
-// FamilyManWomanGirl returns the "family: man, woman, girl" emoji 👨‍👩‍👧.
-func FamilyManWomanGirl(v ...Variant) string { return Lookup("family: man, woman, girl", v...) }
+// FamilyManWomanGirl returns the "family: man, woman, girl" emoji
+// 👨‍👩‍👧.
+func FamilyManWomanGirl(v ...Variant) string { return styled(485, v) }
 
-// FamilyManWomanGirlBoy returns the "family: man, woman, girl, boy" emoji 👨‍👩‍👧‍👦.
-func FamilyManWomanGirlBoy(v ...Variant) string { return Lookup("family: man, woman, girl, boy", v...) }
+// FamilyManWomanGirlBoy returns the "family: man, woman, girl, boy" emoji
+// 👨‍👩‍👧‍👦.
+func FamilyManWomanGirlBoy(v ...Variant) string { return styled(486, v) }
 
-// FamilyManWomanBoyBoy returns the "family: man, woman, boy, boy" emoji 👨‍👩‍👦‍👦.
-func FamilyManWomanBoyBoy(v ...Variant) string { return Lookup("family: man, woman, boy, boy", v...) }
+// FamilyManWomanBoyBoy returns the "family: man, woman, boy, boy" emoji
+// 👨‍👩‍👦‍👦.
+func FamilyManWomanBoyBoy(v ...Variant) string { return styled(484, v) }
 
-// FamilyManWomanGirlGirl returns the "family: man, woman, girl, girl" emoji 👨‍👩‍👧‍👧.
-func FamilyManWomanGirlGirl(v ...Variant) string {
-	return Lookup("family: man, woman, girl, girl", v...)
-}
+// FamilyManWomanGirlGirl returns the "family: man, woman, girl, girl"
+// emoji 👨‍👩‍👧‍👧.
+func FamilyManWomanGirlGirl(v ...Variant) string { return styled(487, v) }
 
-// FamilyManManBoy returns the "family: man, man, boy" emoji 👨‍👨‍👦.
-func FamilyManManBoy(v ...Variant) string { return Lookup("family: man, man, boy", v...) }
+// FamilyManManBoy returns the "family: man, man, boy" emoji
+// 👨‍👨‍👦.
+func FamilyManManBoy(v ...Variant) string { return styled(478, v) }
 
-// FamilyManManGirl returns the "family: man, man, girl" emoji 👨‍👨‍👧.
-func FamilyManManGirl(v ...Variant) string { return Lookup("family: man, man, girl", v...) }
+// FamilyManManGirl returns the "family: man, man, girl" emoji
+// 👨‍👨‍👧.
+func FamilyManManGirl(v ...Variant) string { return styled(480, v) }
 
-// FamilyManManGirlBoy returns the "family: man, man, girl, boy" emoji 👨‍👨‍👧‍👦.
-func FamilyManManGirlBoy(v ...Variant) string { return Lookup("family: man, man, girl, boy", v...) }
+// FamilyManManGirlBoy returns the "family: man, man, girl, boy" emoji
+// 👨‍👨‍👧‍👦.
+func FamilyManManGirlBoy(v ...Variant) string { return styled(481, v) }
 
-// FamilyManManBoyBoy returns the "family: man, man, boy, boy" emoji 👨‍👨‍👦‍👦.
-func FamilyManManBoyBoy(v ...Variant) string { return Lookup("family: man, man, boy, boy", v...) }
+// FamilyManManBoyBoy returns the "family: man, man, boy, boy" emoji
+// 👨‍👨‍👦‍👦.
+func FamilyManManBoyBoy(v ...Variant) string { return styled(479, v) }
 
-// FamilyManManGirlGirl returns the "family: man, man, girl, girl" emoji 👨‍👨‍👧‍👧.
-func FamilyManManGirlGirl(v ...Variant) string { return Lookup("family: man, man, girl, girl", v...) }
+// FamilyManManGirlGirl returns the "family: man, man, girl, girl" emoji
+// 👨‍👨‍👧‍👧.
+func FamilyManManGirlGirl(v ...Variant) string { return styled(482, v) }
 
-// FamilyWomanWomanBoy returns the "family: woman, woman, boy" emoji 👩‍👩‍👦.
-func FamilyWomanWomanBoy(v ...Variant) string { return Lookup("family: woman, woman, boy", v...) }
+// FamilyWomanWomanBoy returns the "family: woman, woman, boy" emoji
+// 👩‍👩‍👦.
+func FamilyWomanWomanBoy(v ...Variant) string { return styled(493, v) }
 
-// FamilyWomanWomanGirl returns the "family: woman, woman, girl" emoji 👩‍👩‍👧.
-func FamilyWomanWomanGirl(v ...Variant) string { return Lookup("family: woman, woman, girl", v...) }
+// FamilyWomanWomanGirl returns the "family: woman, woman, girl" emoji
+// 👩‍👩‍👧.
+func FamilyWomanWomanGirl(v ...Variant) string { return styled(495, v) }
 
-// FamilyWomanWomanGirlBoy returns the "family: woman, woman, girl, boy" emoji 👩‍👩‍👧‍👦.
-func FamilyWomanWomanGirlBoy(v ...Variant) string {
-	return Lookup("family: woman, woman, girl, boy", v...)
-}
+// FamilyWomanWomanGirlBoy returns the "family: woman, woman, girl, boy"
+// emoji 👩‍👩‍👧‍👦.
+func FamilyWomanWomanGirlBoy(v ...Variant) string { return styled(496, v) }
 
-// FamilyWomanWomanBoyBoy returns the "family: woman, woman, boy, boy" emoji 👩‍👩‍👦‍👦.
-func FamilyWomanWomanBoyBoy(v ...Variant) string {
-	return Lookup("family: woman, woman, boy, boy", v...)
-}
+// FamilyWomanWomanBoyBoy returns the "family: woman, woman, boy, boy"
+// emoji 👩‍👩‍👦‍👦.
+func FamilyWomanWomanBoyBoy(v ...Variant) string { return styled(494, v) }
 
-// FamilyWomanWomanGirlGirl returns the "family: woman, woman, girl, girl" emoji 👩‍👩‍👧‍👧.
-func FamilyWomanWomanGirlGirl(v ...Variant) string {
-	return Lookup("family: woman, woman, girl, girl", v...)
-}
+// FamilyWomanWomanGirlGirl returns the "family: woman, woman, girl, girl"
+// emoji 👩‍👩‍👧‍👧.
+func FamilyWomanWomanGirlGirl(v ...Variant) string { return styled(497, v) }
 
 // FamilyManBoy returns the "family: man, boy" emoji 👨‍👦.
-func FamilyManBoy(v ...Variant) string { return Lookup("family: man, boy", v...) }
+func FamilyManBoy(v ...Variant) string { return styled(473, v) }
 
-// FamilyManBoyBoy returns the "family: man, boy, boy" emoji 👨‍👦‍👦.
-func FamilyManBoyBoy(v ...Variant) string { return Lookup("family: man, boy, boy", v...) }
+// FamilyManBoyBoy returns the "family: man, boy, boy" emoji
+// 👨‍👦‍👦.
+func FamilyManBoyBoy(v ...Variant) string { return styled(474, v) }
 
 // FamilyManGirl returns the "family: man, girl" emoji 👨‍👧.
-func FamilyManGirl(v ...Variant) string { return Lookup("family: man, girl", v...) }
+func FamilyManGirl(v ...Variant) string { return styled(475, v) }
 
-// FamilyManGirlBoy returns the "family: man, girl, boy" emoji 👨‍👧‍👦.
-func FamilyManGirlBoy(v ...Variant) string { return Lookup("family: man, girl, boy", v...) }
+// FamilyManGirlBoy returns the "family: man, girl, boy" emoji
+// 👨‍👧‍👦.
+func FamilyManGirlBoy(v ...Variant) string { return styled(476, v) }
 
-// FamilyManGirlGirl returns the "family: man, girl, girl" emoji 👨‍👧‍👧.
-func FamilyManGirlGirl(v ...Variant) string { return Lookup("family: man, girl, girl", v...) }
+// FamilyManGirlGirl returns the "family: man, girl, girl" emoji
+// 👨‍👧‍👧.
+func FamilyManGirlGirl(v ...Variant) string { return styled(477, v) }
 
 // FamilyWomanBoy returns the "family: woman, boy" emoji 👩‍👦.
-func FamilyWomanBoy(v ...Variant) string { return Lookup("family: woman, boy", v...) }
+func FamilyWomanBoy(v ...Variant) string { return styled(488, v) }
 
-// FamilyWomanBoyBoy returns the "family: woman, boy, boy" emoji 👩‍👦‍👦.
-func FamilyWomanBoyBoy(v ...Variant) string { return Lookup("family: woman, boy, boy", v...) }
+// FamilyWomanBoyBoy returns the "family: woman, boy, boy" emoji
+// 👩‍👦‍👦.
+func FamilyWomanBoyBoy(v ...Variant) string { return styled(489, v) }
 
 // FamilyWomanGirl returns the "family: woman, girl" emoji 👩‍👧.
-func FamilyWomanGirl(v ...Variant) string { return Lookup("family: woman, girl", v...) }
+func FamilyWomanGirl(v ...Variant) string { return styled(490, v) }
 
-// FamilyWomanGirlBoy returns the "family: woman, girl, boy" emoji 👩‍👧‍👦.
-func FamilyWomanGirlBoy(v ...Variant) string { return Lookup("family: woman, girl, boy", v...) }
+// FamilyWomanGirlBoy returns the "family: woman, girl, boy" emoji
+// 👩‍👧‍👦.
+func FamilyWomanGirlBoy(v ...Variant) string { return styled(491, v) }
 
-// FamilyWomanGirlGirl returns the "family: woman, girl, girl" emoji 👩‍👧‍👧.
-func FamilyWomanGirlGirl(v ...Variant) string { return Lookup("family: woman, girl, girl", v...) }
+// FamilyWomanGirlGirl returns the "family: woman, girl, girl" emoji
+// 👩‍👧‍👧.
+func FamilyWomanGirlGirl(v ...Variant) string { return styled(492, v) }
 
 // SpeakingHead returns the "speaking head" emoji 🗣️.
-func SpeakingHead(v ...Variant) string { return Lookup("speaking head", v...) }
+func SpeakingHead(v ...Variant) string { return styled(1603, v) }
 
 // BustInSilhouette returns the "bust in silhouette" emoji 👤.
-func BustInSilhouette(v ...Variant) string { return Lookup("bust in silhouette", v...) }
+func BustInSilhouette(v ...Variant) string { return styled(214, v) }
 
 // BustsInSilhouette returns the "busts in silhouette" emoji 👥.
-func BustsInSilhouette(v ...Variant) string { return Lookup("busts in silhouette", v...) }
+func BustsInSilhouette(v ...Variant) string { return styled(215, v) }
 
 // PeopleHugging returns the "people hugging" emoji 🫂.
-func PeopleHugging(v ...Variant) string { return Lookup("people hugging", v...) }
+func PeopleHugging(v ...Variant) string { return styled(1313, v) }
 
 // Family returns the "family" emoji 👪.
-func Family(v ...Variant) string { return Lookup("family", v...) }
+func Family(v ...Variant) string { return styled(468, v) }
 
-// FamilyAdultAdultChild returns the "family: adult, adult, child" emoji 🧑‍🧑‍🧒.
-func FamilyAdultAdultChild(v ...Variant) string { return Lookup("family: adult, adult, child", v...) }
+// FamilyAdultAdultChild returns the "family: adult, adult, child" emoji
+// 🧑‍🧑‍🧒.
+func FamilyAdultAdultChild(v ...Variant) string { return styled(469, v) }
 
-// FamilyAdultAdultChildChild returns the "family: adult, adult, child, child" emoji 🧑‍🧑‍🧒‍🧒.
-func FamilyAdultAdultChildChild(v ...Variant) string {
-	return Lookup("family: adult, adult, child, child", v...)
-}
+// FamilyAdultAdultChildChild returns the "family: adult, adult, child,
+// child" emoji 🧑‍🧑‍🧒‍🧒.
+func FamilyAdultAdultChildChild(v ...Variant) string { return styled(470, v) }
 
 // FamilyAdultChild returns the "family: adult, child" emoji 🧑‍🧒.
-func FamilyAdultChild(v ...Variant) string { return Lookup("family: adult, child", v...) }
+func FamilyAdultChild(v ...Variant) string { return styled(471, v) }
 
-// FamilyAdultChildChild returns the "family: adult, child, child" emoji 🧑‍🧒‍🧒.
-func FamilyAdultChildChild(v ...Variant) string { return Lookup("family: adult, child, child", v...) }
+// FamilyAdultChildChild returns the "family: adult, child, child" emoji
+// 🧑‍🧒‍🧒.
+func FamilyAdultChildChild(v ...Variant) string { return styled(472, v) }
 
 // Footprints returns the "footprints" emoji 👣.
-func Footprints(v ...Variant) string { return Lookup("footprints", v...) }
+func Footprints(v ...Variant) string { return styled(811, v) }
 
 // Fingerprint returns the "fingerprint" emoji 🫆.
-func Fingerprint(v ...Variant) string { return Lookup("fingerprint", v...) }
+func Fingerprint(v ...Variant) string { return styled(515, v) }
 
 // Animals & Nature
 
 // MonkeyFace returns the "monkey face" emoji 🐵.
-func MonkeyFace(v ...Variant) string { return Lookup("monkey face", v...) }
+func MonkeyFace(v ...Variant) string { return styled(1184, v) }
 
 // Monkey returns the "monkey" emoji 🐒.
-func Monkey(v ...Variant) string { return Lookup("monkey", v...) }
+func Monkey(v ...Variant) string { return styled(1183, v) }
 
 // Gorilla returns the "gorilla" emoji 🦍.
-func Gorilla(v ...Variant) string { return Lookup("gorilla", v...) }
+func Gorilla(v ...Variant) string { return styled(854, v) }
 
 // Orangutan returns the "orangutan" emoji 🦧.
-func Orangutan(v ...Variant) string { return Lookup("orangutan", v...) }
+func Orangutan(v ...Variant) string { return styled(1273, v) }
 
 // DogFace returns the "dog face" emoji 🐶.
-func DogFace(v ...Variant) string { return Lookup("dog face", v...) }
+func DogFace(v ...Variant) string { return styled(380, v) }
 
 // Dog returns the "dog" emoji 🐕.
-func Dog(v ...Variant) string { return Lookup("dog", v...) }
+func Dog(v ...Variant) string { return styled(379, v) }
 
 // GuideDog returns the "guide dog" emoji 🦮.
-func GuideDog(v ...Variant) string { return Lookup("guide dog", v...) }
+func GuideDog(v ...Variant) string { return styled(874, v) }
 
 // ServiceDog returns the "service dog" emoji 🐕‍🦺.
-func ServiceDog(v ...Variant) string { return Lookup("service dog", v...) }
+func ServiceDog(v ...Variant) string { return styled(1526, v) }
 
 // Poodle returns the "poodle" emoji 🐩.
-func Poodle(v ...Variant) string { return Lookup("poodle", v...) }
+func Poodle(v ...Variant) string { return styled(1400, v) }
 
 // Wolf returns the "wolf" emoji 🐺.
-func Wolf(v ...Variant) string { return Lookup("wolf", v...) }
+func Wolf(v ...Variant) string { return styled(1793, v) }
 
 // Fox returns the "fox" emoji 🦊.
-func Fox(v ...Variant) string { return Lookup("fox", v...) }
+func Fox(v ...Variant) string { return styled(820, v) }
 
 // Raccoon returns the "raccoon" emoji 🦝.
-func Raccoon(v ...Variant) string { return Lookup("raccoon", v...) }
+func Raccoon(v ...Variant) string { return styled(1431, v) }
 
 // CatFace returns the "cat face" emoji 🐱.
-func CatFace(v ...Variant) string { return Lookup("cat face", v...) }
+func CatFace(v ...Variant) string { return styled(238, v) }
 
 // Cat returns the "cat" emoji 🐈.
-func Cat(v ...Variant) string { return Lookup("cat", v...) }
+func Cat(v ...Variant) string { return styled(237, v) }
 
 // BlackCat returns the "black cat" emoji 🐈‍⬛.
-func BlackCat(v ...Variant) string { return Lookup("black cat", v...) }
+func BlackCat(v ...Variant) string { return styled(157, v) }
 
 // Lion returns the "lion" emoji 🦁.
-func Lion(v ...Variant) string { return Lookup("lion", v...) }
+func Lion(v ...Variant) string { return styled(1033, v) }
 
 // TigerFace returns the "tiger face" emoji 🐯.
-func TigerFace(v ...Variant) string { return Lookup("tiger face", v...) }
+func TigerFace(v ...Variant) string { return styled(1687, v) }
 
 // Tiger returns the "tiger" emoji 🐅.
-func Tiger(v ...Variant) string { return Lookup("tiger", v...) }
+func Tiger(v ...Variant) string { return styled(1686, v) }
 
 // Leopard returns the "leopard" emoji 🐆.
-func Leopard(v ...Variant) string { return Lookup("leopard", v...) }
+func Leopard(v ...Variant) string { return styled(1025, v) }
 
 // HorseFace returns the "horse face" emoji 🐴.
-func HorseFace(v ...Variant) string { return Lookup("horse face", v...) }
+func HorseFace(v ...Variant) string { return styled(922, v) }
 
 // Moose returns the "moose" emoji 🫎.
-func Moose(v ...Variant) string { return Lookup("moose", v...) }
+func Moose(v ...Variant) string { return styled(1188, v) }
 
 // Donkey returns the "donkey" emoji 🫏.
-func Donkey(v ...Variant) string { return Lookup("donkey", v...) }
+func Donkey(v ...Variant) string { return styled(383, v) }
 
 // Horse returns the "horse" emoji 🐎.
-func Horse(v ...Variant) string { return Lookup("horse", v...) }
+func Horse(v ...Variant) string { return styled(921, v) }
 
 // Unicorn returns the "unicorn" emoji 🦄.
-func Unicorn(v ...Variant) string { return Lookup("unicorn", v...) }
+func Unicorn(v ...Variant) string { return styled(1731, v) }
 
 // Zebra returns the "zebra" emoji 🦓.
-func Zebra(v ...Variant) string { return Lookup("zebra", v...) }
+func Zebra(v ...Variant) string { return styled(1895, v) }
 
 // Deer returns the "deer" emoji 🦌.
-func Deer(v ...Variant) string { return Lookup("deer", v...) }
+func Deer(v ...Variant) string { return styled(359, v) }
 
 // Bison returns the "bison" emoji 🦬.
-func Bison(v ...Variant) string { return Lookup("bison", v...) }
+func Bison(v ...Variant) string { return styled(154, v) }
 
 // CowFace returns the "cow face" emoji 🐮.
-func CowFace(v ...Variant) string { return Lookup("cow face", v...) }
+func CowFace(v ...Variant) string { return styled(321, v) }
 
 // Ox returns the "ox" emoji 🐂.
-func Ox(v ...Variant) string { return Lookup("ox", v...) }
+func Ox(v ...Variant) string { return styled(1279, v) }
 
 // WaterBuffalo returns the "water buffalo" emoji 🐃.
-func WaterBuffalo(v ...Variant) string { return Lookup("water buffalo", v...) }
+func WaterBuffalo(v ...Variant) string { return styled(1756, v) }
 
 // Cow returns the "cow" emoji 🐄.
-func Cow(v ...Variant) string { return Lookup("cow", v...) }
+func Cow(v ...Variant) string { return styled(320, v) }
 
 // PigFace returns the "pig face" emoji 🐷.
-func PigFace(v ...Variant) string { return Lookup("pig face", v...) }
+func PigFace(v ...Variant) string { return styled(1374, v) }
 
 // Pig returns the "pig" emoji 🐖.
-func Pig(v ...Variant) string { return Lookup("pig", v...) }
+func Pig(v ...Variant) string { return styled(1373, v) }
 
 // Boar returns the "boar" emoji 🐗.
-func Boar(v ...Variant) string { return Lookup("boar", v...) }
+func Boar(v ...Variant) string { return styled(174, v) }
 
 // PigNose returns the "pig nose" emoji 🐽.
-func PigNose(v ...Variant) string { return Lookup("pig nose", v...) }
+func PigNose(v ...Variant) string { return styled(1375, v) }
 
 // Ram returns the "ram" emoji 🐏.
-func Ram(v ...Variant) string { return Lookup("ram", v...) }
+func Ram(v ...Variant) string { return styled(1444, v) }
 
 // Ewe returns the "ewe" emoji 🐑.
-func Ewe(v ...Variant) string { return Lookup("ewe", v...) }
+func Ewe(v ...Variant) string { return styled(430, v) }
 
 // Goat returns the "goat" emoji 🐐.
-func Goat(v ...Variant) string { return Lookup("goat", v...) }
+func Goat(v ...Variant) string { return styled(850, v) }
 
 // Camel returns the "camel" emoji 🐪.
-func Camel(v ...Variant) string { return Lookup("camel", v...) }
+func Camel(v ...Variant) string { return styled(221, v) }
 
 // TwoHumpCamel returns the "two-hump camel" emoji 🐫.
-func TwoHumpCamel(v ...Variant) string { return Lookup("two-hump camel", v...) }
+func TwoHumpCamel(v ...Variant) string { return styled(1725, v) }
 
 // Llama returns the "llama" emoji 🦙.
-func Llama(v ...Variant) string { return Lookup("llama", v...) }
+func Llama(v ...Variant) string { return styled(1037, v) }
 
 // Giraffe returns the "giraffe" emoji 🦒.
-func Giraffe(v ...Variant) string { return Lookup("giraffe", v...) }
+func Giraffe(v ...Variant) string { return styled(839, v) }
 
 // Elephant returns the "elephant" emoji 🐘.
-func Elephant(v ...Variant) string { return Lookup("elephant", v...) }
+func Elephant(v ...Variant) string { return styled(419, v) }
 
 // Mammoth returns the "mammoth" emoji 🦣.
-func Mammoth(v ...Variant) string { return Lookup("mammoth", v...) }
+func Mammoth(v ...Variant) string { return styled(1063, v) }
 
 // Rhinoceros returns the "rhinoceros" emoji 🦏.
-func Rhinoceros(v ...Variant) string { return Lookup("rhinoceros", v...) }
+func Rhinoceros(v ...Variant) string { return styled(1469, v) }
 
 // Hippopotamus returns the "hippopotamus" emoji 🦛.
-func Hippopotamus(v ...Variant) string { return Lookup("hippopotamus", v...) }
+func Hippopotamus(v ...Variant) string { return styled(914, v) }
 
 // MouseFace returns the "mouse face" emoji 🐭.
-func MouseFace(v ...Variant) string { return Lookup("mouse face", v...) }
+func MouseFace(v ...Variant) string { return styled(1201, v) }
 
 // Mouse returns the "mouse" emoji 🐁.
-func Mouse(v ...Variant) string { return Lookup("mouse", v...) }
+func Mouse(v ...Variant) string { return styled(1200, v) }
 
 // Rat returns the "rat" emoji 🐀.
-func Rat(v ...Variant) string { return Lookup("rat", v...) }
+func Rat(v ...Variant) string { return styled(1445, v) }
 
 // Hamster returns the "hamster" emoji 🐹.
-func Hamster(v ...Variant) string { return Lookup("hamster", v...) }
+func Hamster(v ...Variant) string { return styled(883, v) }
 
 // RabbitFace returns the "rabbit face" emoji 🐰.
-func RabbitFace(v ...Variant) string { return Lookup("rabbit face", v...) }
+func RabbitFace(v ...Variant) string { return styled(1430, v) }
 
 // Rabbit returns the "rabbit" emoji 🐇.
-func Rabbit(v ...Variant) string { return Lookup("rabbit", v...) }
+func Rabbit(v ...Variant) string { return styled(1429, v) }
 
 // Chipmunk returns the "chipmunk" emoji 🐿️.
-func Chipmunk(v ...Variant) string { return Lookup("chipmunk", v...) }
+func Chipmunk(v ...Variant) string { return styled(258, v) }
 
 // Beaver returns the "beaver" emoji 🦫.
-func Beaver(v ...Variant) string { return Lookup("beaver", v...) }
+func Beaver(v ...Variant) string { return styled(138, v) }
 
 // Hedgehog returns the "hedgehog" emoji 🦔.
-func Hedgehog(v ...Variant) string { return Lookup("hedgehog", v...) }
+func Hedgehog(v ...Variant) string { return styled(905, v) }
 
 // Bat returns the "bat" emoji 🦇.
-func Bat(v ...Variant) string { return Lookup("bat", v...) }
+func Bat(v ...Variant) string { return styled(130, v) }
 
 // Bear returns the "bear" emoji 🐻.
-func Bear(v ...Variant) string { return Lookup("bear", v...) }
+func Bear(v ...Variant) string { return styled(136, v) }
 
 // PolarBear returns the "polar bear" emoji 🐻‍❄️.
-func PolarBear(v ...Variant) string { return Lookup("polar bear", v...) }
+func PolarBear(v ...Variant) string { return styled(1396, v) }
 
 // Koala returns the "koala" emoji 🐨.
-func Koala(v ...Variant) string { return Lookup("koala", v...) }
+func Koala(v ...Variant) string { return styled(997, v) }
 
 // Panda returns the "panda" emoji 🐼.
-func Panda(v ...Variant) string { return Lookup("panda", v...) }
+func Panda(v ...Variant) string { return styled(1291, v) }
 
 // Sloth returns the "sloth" emoji 🦥.
-func Sloth(v ...Variant) string { return Lookup("sloth", v...) }
+func Sloth(v ...Variant) string { return styled(1565, v) }
 
 // Otter returns the "otter" emoji 🦦.
-func Otter(v ...Variant) string { return Lookup("otter", v...) }
+func Otter(v ...Variant) string { return styled(1276, v) }
 
 // Skunk returns the "skunk" emoji 🦨.
-func Skunk(v ...Variant) string { return Lookup("skunk", v...) }
+func Skunk(v ...Variant) string { return styled(1558, v) }
 
 // Kangaroo returns the "kangaroo" emoji 🦘.
-func Kangaroo(v ...Variant) string { return Lookup("kangaroo", v...) }
+func Kangaroo(v ...Variant) string { return styled(964, v) }
 
 // Badger returns the "badger" emoji 🦡.
-func Badger(v ...Variant) string { return Lookup("badger", v...) }
+func Badger(v ...Variant) string { return styled(112, v) }
 
 // PawPrints returns the "paw prints" emoji 🐾.
-func PawPrints(v ...Variant) string { return Lookup("paw prints", v...) }
+func PawPrints(v ...Variant) string { return styled(1301, v) }
 
 // Turkey returns the "turkey" emoji 🦃.
-func Turkey(v ...Variant) string { return Lookup("turkey", v...) }
+func Turkey(v ...Variant) string { return styled(1719, v) }
 
 // Chicken returns the "chicken" emoji 🐔.
-func Chicken(v ...Variant) string { return Lookup("chicken", v...) }
+func Chicken(v ...Variant) string { return styled(255, v) }
 
 // Rooster returns the "rooster" emoji 🐓.
-func Rooster(v ...Variant) string { return Lookup("rooster", v...) }
+func Rooster(v ...Variant) string { return styled(1493, v) }
 
 // HatchingChick returns the "hatching chick" emoji 🐣.
-func HatchingChick(v ...Variant) string { return Lookup("hatching chick", v...) }
+func HatchingChick(v ...Variant) string { return styled(889, v) }
 
 // BabyChick returns the "baby chick" emoji 🐤.
-func BabyChick(v ...Variant) string { return Lookup("baby chick", v...) }
+func BabyChick(v ...Variant) string { return styled(104, v) }
 
 // FrontFacingBabyChick returns the "front-facing baby chick" emoji 🐥.
-func FrontFacingBabyChick(v ...Variant) string { return Lookup("front-facing baby chick", v...) }
+func FrontFacingBabyChick(v ...Variant) string { return styled(825, v) }
 
 // Bird returns the "bird" emoji 🐦.
-func Bird(v ...Variant) string { return Lookup("bird", v...) }
+func Bird(v ...Variant) string { return styled(152, v) }
 
 // Penguin returns the "penguin" emoji 🐧.
-func Penguin(v ...Variant) string { return Lookup("penguin", v...) }
+func Penguin(v ...Variant) string { return styled(1310, v) }
 
 // Dove returns the "dove" emoji 🕊️.
-func Dove(v ...Variant) string { return Lookup("dove", v...) }
+func Dove(v ...Variant) string { return styled(390, v) }
 
 // Eagle returns the "eagle" emoji 🦅.
-func Eagle(v ...Variant) string { return Lookup("eagle", v...) }
+func Eagle(v ...Variant) string { return styled(407, v) }
 
 // Duck returns the "duck" emoji 🦆.
-func Duck(v ...Variant) string { return Lookup("duck", v...) }
+func Duck(v ...Variant) string { return styled(403, v) }
 
 // Swan returns the "swan" emoji 🦢.
-func Swan(v ...Variant) string { return Lookup("swan", v...) }
+func Swan(v ...Variant) string { return styled(1650, v) }
 
 // Owl returns the "owl" emoji 🦉.
-func Owl(v ...Variant) string { return Lookup("owl", v...) }
+func Owl(v ...Variant) string { return styled(1278, v) }
 
 // Dodo returns the "dodo" emoji 🦤.
-func Dodo(v ...Variant) string { return Lookup("dodo", v...) }
+func Dodo(v ...Variant) string { return styled(378, v) }
 
 // Feather returns the "feather" emoji 🪶.
-func Feather(v ...Variant) string { return Lookup("feather", v...) }
+func Feather(v ...Variant) string { return styled(505, v) }
 
 // Flamingo returns the "flamingo" emoji 🦩.
-func Flamingo(v ...Variant) string { return Lookup("flamingo", v...) }
+func Flamingo(v ...Variant) string { return styled(792, v) }
 
 // Peacock returns the "peacock" emoji 🦚.
-func Peacock(v ...Variant) string { return Lookup("peacock", v...) }
+func Peacock(v ...Variant) string { return styled(1305, v) }
 
 // Parrot returns the "parrot" emoji 🦜.
-func Parrot(v ...Variant) string { return Lookup("parrot", v...) }
+func Parrot(v ...Variant) string { return styled(1294, v) }
 
 // Wing returns the "wing" emoji 🪽.
-func Wing(v ...Variant) string { return Lookup("wing", v...) }
+func Wing(v ...Variant) string { return styled(1789, v) }
 
 // BlackBird returns the "black bird" emoji 🐦‍⬛.
-func BlackBird(v ...Variant) string { return Lookup("black bird", v...) }
+func BlackBird(v ...Variant) string { return styled(156, v) }
 
 // Goose returns the "goose" emoji 🪿.
-func Goose(v ...Variant) string { return Lookup("goose", v...) }
+func Goose(v ...Variant) string { return styled(853, v) }
 
 // Phoenix returns the "phoenix" emoji 🐦‍🔥.
-func Phoenix(v ...Variant) string { return Lookup("phoenix", v...) }
+func Phoenix(v ...Variant) string { return styled(1369, v) }
 
 // Frog returns the "frog" emoji 🐸.
-func Frog(v ...Variant) string { return Lookup("frog", v...) }
+func Frog(v ...Variant) string { return styled(824, v) }
 
 // Crocodile returns the "crocodile" emoji 🐊.
-func Crocodile(v ...Variant) string { return Lookup("crocodile", v...) }
+func Crocodile(v ...Variant) string { return styled(329, v) }
 
 // Turtle returns the "turtle" emoji 🐢.
-func Turtle(v ...Variant) string { return Lookup("turtle", v...) }
+func Turtle(v ...Variant) string { return styled(1720, v) }
 
 // Lizard returns the "lizard" emoji 🦎.
-func Lizard(v ...Variant) string { return Lookup("lizard", v...) }
+func Lizard(v ...Variant) string { return styled(1036, v) }
 
 // Snake returns the "snake" emoji 🐍.
-func Snake(v ...Variant) string { return Lookup("snake", v...) }
+func Snake(v ...Variant) string { return styled(1581, v) }
 
 // DragonFace returns the "dragon face" emoji 🐲.
-func DragonFace(v ...Variant) string { return Lookup("dragon face", v...) }
+func DragonFace(v ...Variant) string { return styled(397, v) }
 
 // Dragon returns the "dragon" emoji 🐉.
-func Dragon(v ...Variant) string { return Lookup("dragon", v...) }
+func Dragon(v ...Variant) string { return styled(396, v) }
 
 // Sauropod returns the "sauropod" emoji 🦕.
-func Sauropod(v ...Variant) string { return Lookup("sauropod", v...) }
+func Sauropod(v ...Variant) string { return styled(1512, v) }
 
 // TRex returns the "T-Rex" emoji 🦖.
-func TRex(v ...Variant) string { return Lookup("T-Rex", v...) }
+func TRex(v ...Variant) string { return styled(59, v) }
 
 // SpoutingWhale returns the "spouting whale" emoji 🐳.
-func SpoutingWhale(v ...Variant) string { return Lookup("spouting whale", v...) }
+func SpoutingWhale(v ...Variant) string { return styled(1616, v) }
 
 // Whale returns the "whale" emoji 🐋.
-func Whale(v ...Variant) string { return Lookup("whale", v...) }
+func Whale(v ...Variant) string { return styled(1768, v) }
 
 // Dolphin returns the "dolphin" emoji 🐬.
-func Dolphin(v ...Variant) string { return Lookup("dolphin", v...) }
+func Dolphin(v ...Variant) string { return styled(382, v) }
 
 // Orca returns the "orca" emoji 🫍.
-func Orca(v ...Variant) string { return Lookup("orca", v...) }
+func Orca(v ...Variant) string { return styled(1274, v) }
 
 // Seal returns the "seal" emoji 🦭.
-func Seal(v ...Variant) string { return Lookup("seal", v...) }
+func Seal(v ...Variant) string { return styled(1521, v) }
 
 // Fish returns the "fish" emoji 🐟.
-func Fish(v ...Variant) string { return Lookup("fish", v...) }
+func Fish(v ...Variant) string { return styled(524, v) }
 
 // TropicalFish returns the "tropical fish" emoji 🐠.
-func TropicalFish(v ...Variant) string { return Lookup("tropical fish", v...) }
+func TropicalFish(v ...Variant) string { return styled(1715, v) }
 
 // Blowfish returns the "blowfish" emoji 🐡.
-func Blowfish(v ...Variant) string { return Lookup("blowfish", v...) }
+func Blowfish(v ...Variant) string { return styled(168, v) }
 
 // Shark returns the "shark" emoji 🦈.
-func Shark(v ...Variant) string { return Lookup("shark", v...) }
+func Shark(v ...Variant) string { return styled(1533, v) }
 
 // Octopus returns the "octopus" emoji 🐙.
-func Octopus(v ...Variant) string { return Lookup("octopus", v...) }
+func Octopus(v ...Variant) string { return styled(1242, v) }
 
 // SpiralShell returns the "spiral shell" emoji 🐚.
-func SpiralShell(v ...Variant) string { return Lookup("spiral shell", v...) }
+func SpiralShell(v ...Variant) string { return styled(1610, v) }
 
 // Coral returns the "coral" emoji 🪸.
-func Coral(v ...Variant) string { return Lookup("coral", v...) }
+func Coral(v ...Variant) string { return styled(312, v) }
 
 // Jellyfish returns the "jellyfish" emoji 🪼.
-func Jellyfish(v ...Variant) string { return Lookup("jellyfish", v...) }
+func Jellyfish(v ...Variant) string { return styled(959, v) }
 
 // Crab returns the "crab" emoji 🦀.
-func Crab(v ...Variant) string { return Lookup("crab", v...) }
+func Crab(v ...Variant) string { return styled(323, v) }
 
 // Lobster returns the "lobster" emoji 🦞.
-func Lobster(v ...Variant) string { return Lookup("lobster", v...) }
+func Lobster(v ...Variant) string { return styled(1038, v) }
 
 // Shrimp returns the "shrimp" emoji 🦐.
-func Shrimp(v ...Variant) string { return Lookup("shrimp", v...) }
+func Shrimp(v ...Variant) string { return styled(1546, v) }
 
 // Squid returns the "squid" emoji 🦑.
-func Squid(v ...Variant) string { return Lookup("squid", v...) }
+func Squid(v ...Variant) string { return styled(1617, v) }
 
 // Oyster returns the "oyster" emoji 🦪.
-func Oyster(v ...Variant) string { return Lookup("oyster", v...) }
+func Oyster(v ...Variant) string { return styled(1280, v) }
 
 // Snail returns the "snail" emoji 🐌.
-func Snail(v ...Variant) string { return Lookup("snail", v...) }
+func Snail(v ...Variant) string { return styled(1580, v) }
 
 // Butterfly returns the "butterfly" emoji 🦋.
-func Butterfly(v ...Variant) string { return Lookup("butterfly", v...) }
+func Butterfly(v ...Variant) string { return styled(217, v) }
 
 // Bug returns the "bug" emoji 🐛.
-func Bug(v ...Variant) string { return Lookup("bug", v...) }
+func Bug(v ...Variant) string { return styled(207, v) }
 
 // Ant returns the "ant" emoji 🐜.
-func Ant(v ...Variant) string { return Lookup("ant", v...) }
+func Ant(v ...Variant) string { return styled(88, v) }
 
 // Honeybee returns the "honeybee" emoji 🐝.
-func Honeybee(v ...Variant) string { return Lookup("honeybee", v...) }
+func Honeybee(v ...Variant) string { return styled(918, v) }
 
 // Beetle returns the "beetle" emoji 🪲.
-func Beetle(v ...Variant) string { return Lookup("beetle", v...) }
+func Beetle(v ...Variant) string { return styled(141, v) }
 
 // LadyBeetle returns the "lady beetle" emoji 🐞.
-func LadyBeetle(v ...Variant) string { return Lookup("lady beetle", v...) }
+func LadyBeetle(v ...Variant) string { return styled(1002, v) }
 
 // Cricket returns the "cricket" emoji 🦗.
-func Cricket(v ...Variant) string { return Lookup("cricket", v...) }
+func Cricket(v ...Variant) string { return styled(327, v) }
 
 // Cockroach returns the "cockroach" emoji 🪳.
-func Cockroach(v ...Variant) string { return Lookup("cockroach", v...) }
+func Cockroach(v ...Variant) string { return styled(289, v) }
 
 // Spider returns the "spider" emoji 🕷️.
-func Spider(v ...Variant) string { return Lookup("spider", v...) }
+func Spider(v ...Variant) string { return styled(1606, v) }
 
 // SpiderWeb returns the "spider web" emoji 🕸️.
-func SpiderWeb(v ...Variant) string { return Lookup("spider web", v...) }
+func SpiderWeb(v ...Variant) string { return styled(1607, v) }
 
 // Scorpion returns the "scorpion" emoji 🦂.
-func Scorpion(v ...Variant) string { return Lookup("scorpion", v...) }
+func Scorpion(v ...Variant) string { return styled(1518, v) }
 
 // Mosquito returns the "mosquito" emoji 🦟.
-func Mosquito(v ...Variant) string { return Lookup("mosquito", v...) }
+func Mosquito(v ...Variant) string { return styled(1190, v) }
 
 // Fly returns the "fly" emoji 🪰.
-func Fly(v ...Variant) string { return Lookup("fly", v...) }
+func Fly(v ...Variant) string { return styled(802, v) }
 
 // Worm returns the "worm" emoji 🪱.
-func Worm(v ...Variant) string { return Lookup("worm", v...) }
+func Worm(v ...Variant) string { return styled(1880, v) }
 
 // Microbe returns the "microbe" emoji 🦠.
-func Microbe(v ...Variant) string { return Lookup("microbe", v...) }
+func Microbe(v ...Variant) string { return styled(1165, v) }
 
 // Bouquet returns the "bouquet" emoji 💐.
-func Bouquet(v ...Variant) string { return Lookup("bouquet", v...) }
+func Bouquet(v ...Variant) string { return styled(182, v) }
 
 // CherryBlossom returns the "cherry blossom" emoji 🌸.
-func CherryBlossom(v ...Variant) string { return Lookup("cherry blossom", v...) }
+func CherryBlossom(v ...Variant) string { return styled(252, v) }
 
 // WhiteFlower returns the "white flower" emoji 💮.
-func WhiteFlower(v ...Variant) string { return Lookup("white flower", v...) }
+func WhiteFlower(v ...Variant) string { return styled(1776, v) }
 
 // Lotus returns the "lotus" emoji 🪷.
-func Lotus(v ...Variant) string { return Lookup("lotus", v...) }
+func Lotus(v ...Variant) string { return styled(1046, v) }
 
 // Rosette returns the "rosette" emoji 🏵️.
-func Rosette(v ...Variant) string { return Lookup("rosette", v...) }
+func Rosette(v ...Variant) string { return styled(1496, v) }
 
 // Rose returns the "rose" emoji 🌹.
-func Rose(v ...Variant) string { return Lookup("rose", v...) }
+func Rose(v ...Variant) string { return styled(1495, v) }
 
 // WiltedFlower returns the "wilted flower" emoji 🥀.
-func WiltedFlower(v ...Variant) string { return Lookup("wilted flower", v...) }
+func WiltedFlower(v ...Variant) string { return styled(1784, v) }
 
 // Hibiscus returns the "hibiscus" emoji 🌺.
-func Hibiscus(v ...Variant) string { return Lookup("hibiscus", v...) }
+func Hibiscus(v ...Variant) string { return styled(908, v) }
 
 // Sunflower returns the "sunflower" emoji 🌻.
-func Sunflower(v ...Variant) string { return Lookup("sunflower", v...) }
+func Sunflower(v ...Variant) string { return styled(1641, v) }
 
 // Blossom returns the "blossom" emoji 🌼.
-func Blossom(v ...Variant) string { return Lookup("blossom", v...) }
+func Blossom(v ...Variant) string { return styled(167, v) }
 
 // Tulip returns the "tulip" emoji 🌷.
-func Tulip(v ...Variant) string { return Lookup("tulip", v...) }
+func Tulip(v ...Variant) string { return styled(1717, v) }
 
 // Hyacinth returns the "hyacinth" emoji 🪻.
-func Hyacinth(v ...Variant) string { return Lookup("hyacinth", v...) }
+func Hyacinth(v ...Variant) string { return styled(939, v) }
 
 // Seedling returns the "seedling" emoji 🌱.
-func Seedling(v ...Variant) string { return Lookup("seedling", v...) }
+func Seedling(v ...Variant) string { return styled(1524, v) }
 
 // PottedPlant returns the "potted plant" emoji 🪴.
-func PottedPlant(v ...Variant) string { return Lookup("potted plant", v...) }
+func PottedPlant(v ...Variant) string { return styled(1409, v) }
 
 // EvergreenTree returns the "evergreen tree" emoji 🌲.
-func EvergreenTree(v ...Variant) string { return Lookup("evergreen tree", v...) }
+func EvergreenTree(v ...Variant) string { return styled(429, v) }
 
 // DeciduousTree returns the "deciduous tree" emoji 🌳.
-func DeciduousTree(v ...Variant) string { return Lookup("deciduous tree", v...) }
+func DeciduousTree(v ...Variant) string { return styled(358, v) }
 
 // PalmTree returns the "palm tree" emoji 🌴.
-func PalmTree(v ...Variant) string { return Lookup("palm tree", v...) }
+func PalmTree(v ...Variant) string { return styled(1287, v) }
 
 // Cactus returns the "cactus" emoji 🌵.
-func Cactus(v ...Variant) string { return Lookup("cactus", v...) }
+func Cactus(v ...Variant) string { return styled(218, v) }
 
 // SheafOfRice returns the "sheaf of rice" emoji 🌾.
-func SheafOfRice(v ...Variant) string { return Lookup("sheaf of rice", v...) }
+func SheafOfRice(v ...Variant) string { return styled(1535, v) }
 
 // Herb returns the "herb" emoji 🌿.
-func Herb(v ...Variant) string { return Lookup("herb", v...) }
+func Herb(v ...Variant) string { return styled(907, v) }
 
 // Shamrock returns the "shamrock" emoji ☘️.
-func Shamrock(v ...Variant) string { return Lookup("shamrock", v...) }
+func Shamrock(v ...Variant) string { return styled(1532, v) }
 
 // FourLeafClover returns the "four leaf clover" emoji 🍀.
-func FourLeafClover(v ...Variant) string { return Lookup("four leaf clover", v...) }
+func FourLeafClover(v ...Variant) string { return styled(817, v) }
 
 // MapleLeaf returns the "maple leaf" emoji 🍁.
-func MapleLeaf(v ...Variant) string { return Lookup("maple leaf", v...) }
+func MapleLeaf(v ...Variant) string { return styled(1142, v) }
 
 // FallenLeaf returns the "fallen leaf" emoji 🍂.
-func FallenLeaf(v ...Variant) string { return Lookup("fallen leaf", v...) }
+func FallenLeaf(v ...Variant) string { return styled(467, v) }
 
 // LeafFlutteringInWind returns the "leaf fluttering in wind" emoji 🍃.
-func LeafFlutteringInWind(v ...Variant) string { return Lookup("leaf fluttering in wind", v...) }
+func LeafFlutteringInWind(v ...Variant) string { return styled(1011, v) }
 
 // EmptyNest returns the "empty nest" emoji 🪹.
-func EmptyNest(v ...Variant) string { return Lookup("empty nest", v...) }
+func EmptyNest(v ...Variant) string { return styled(424, v) }
 
 // NestWithEggs returns the "nest with eggs" emoji 🪺.
-func NestWithEggs(v ...Variant) string { return Lookup("nest with eggs", v...) }
+func NestWithEggs(v ...Variant) string { return styled(1219, v) }
 
 // Mushroom returns the "mushroom" emoji 🍄.
-func Mushroom(v ...Variant) string { return Lookup("mushroom", v...) }
+func Mushroom(v ...Variant) string { return styled(1206, v) }
 
 // LeaflessTree returns the "leafless tree" emoji 🪾.
-func LeaflessTree(v ...Variant) string { return Lookup("leafless tree", v...) }
+func LeaflessTree(v ...Variant) string { return styled(1012, v) }
 
 // Food & Drink
 
 // Grapes returns the "grapes" emoji 🍇.
-func Grapes(v ...Variant) string { return Lookup("grapes", v...) }
+func Grapes(v ...Variant) string { return styled(856, v) }
 
 // Melon returns the "melon" emoji 🍈.
-func Melon(v ...Variant) string { return Lookup("melon", v...) }
+func Melon(v ...Variant) string { return styled(1152, v) }
 
 // Watermelon returns the "watermelon" emoji 🍉.
-func Watermelon(v ...Variant) string { return Lookup("watermelon", v...) }
+func Watermelon(v ...Variant) string { return styled(1760, v) }
 
 // Tangerine returns the "tangerine" emoji 🍊.
-func Tangerine(v ...Variant) string { return Lookup("tangerine", v...) }
+func Tangerine(v ...Variant) string { return styled(1659, v) }
 
 // Lemon returns the "lemon" emoji 🍋.
-func Lemon(v ...Variant) string { return Lookup("lemon", v...) }
+func Lemon(v ...Variant) string { return styled(1024, v) }
 
 // Lime returns the "lime" emoji 🍋‍🟩.
-func Lime(v ...Variant) string { return Lookup("lime", v...) }
+func Lime(v ...Variant) string { return styled(1030, v) }
 
 // Banana returns the "banana" emoji 🍌.
-func Banana(v ...Variant) string { return Lookup("banana", v...) }
+func Banana(v ...Variant) string { return styled(122, v) }
 
 // Pineapple returns the "pineapple" emoji 🍍.
-func Pineapple(v ...Variant) string { return Lookup("pineapple", v...) }
+func Pineapple(v ...Variant) string { return styled(1382, v) }
 
 // Mango returns the "mango" emoji 🥭.
-func Mango(v ...Variant) string { return Lookup("mango", v...) }
+func Mango(v ...Variant) string { return styled(1137, v) }
 
 // RedApple returns the "red apple" emoji 🍎.
-func RedApple(v ...Variant) string { return Lookup("red apple", v...) }
+func RedApple(v ...Variant) string { return styled(1450, v) }
 
 // GreenApple returns the "green apple" emoji 🍏.
-func GreenApple(v ...Variant) string { return Lookup("green apple", v...) }
+func GreenApple(v ...Variant) string { return styled(857, v) }
 
 // Pear returns the "pear" emoji 🍐.
-func Pear(v ...Variant) string { return Lookup("pear", v...) }
+func Pear(v ...Variant) string { return styled(1307, v) }
 
 // Peach returns the "peach" emoji 🍑.
-func Peach(v ...Variant) string { return Lookup("peach", v...) }
+func Peach(v ...Variant) string { return styled(1304, v) }
 
 // Cherries returns the "cherries" emoji 🍒.
-func Cherries(v ...Variant) string { return Lookup("cherries", v...) }
+func Cherries(v ...Variant) string { return styled(251, v) }
 
 // Strawberry returns the "strawberry" emoji 🍓.
-func Strawberry(v ...Variant) string { return Lookup("strawberry", v...) }
+func Strawberry(v ...Variant) string { return styled(1631, v) }
 
 // Blueberries returns the "blueberries" emoji 🫐.
-func Blueberries(v ...Variant) string { return Lookup("blueberries", v...) }
+func Blueberries(v ...Variant) string { return styled(173, v) }
 
 // KiwiFruit returns the "kiwi fruit" emoji 🥝.
-func KiwiFruit(v ...Variant) string { return Lookup("kiwi fruit", v...) }
+func KiwiFruit(v ...Variant) string { return styled(995, v) }
 
 // Tomato returns the "tomato" emoji 🍅.
-func Tomato(v ...Variant) string { return Lookup("tomato", v...) }
+func Tomato(v ...Variant) string { return styled(1691, v) }
 
 // Olive returns the "olive" emoji 🫒.
-func Olive(v ...Variant) string { return Lookup("olive", v...) }
+func Olive(v ...Variant) string { return styled(1252, v) }
 
 // Coconut returns the "coconut" emoji 🥥.
-func Coconut(v ...Variant) string { return Lookup("coconut", v...) }
+func Coconut(v ...Variant) string { return styled(291, v) }
 
 // Avocado returns the "avocado" emoji 🥑.
-func Avocado(v ...Variant) string { return Lookup("avocado", v...) }
+func Avocado(v ...Variant) string { return styled(99, v) }
 
 // Eggplant returns the "eggplant" emoji 🍆.
-func Eggplant(v ...Variant) string { return Lookup("eggplant", v...) }
+func Eggplant(v ...Variant) string { return styled(412, v) }
 
 // Potato returns the "potato" emoji 🥔.
-func Potato(v ...Variant) string { return Lookup("potato", v...) }
+func Potato(v ...Variant) string { return styled(1408, v) }
 
 // Carrot returns the "carrot" emoji 🥕.
-func Carrot(v ...Variant) string { return Lookup("carrot", v...) }
+func Carrot(v ...Variant) string { return styled(235, v) }
 
 // EarOfCorn returns the "ear of corn" emoji 🌽.
-func EarOfCorn(v ...Variant) string { return Lookup("ear of corn", v...) }
+func EarOfCorn(v ...Variant) string { return styled(409, v) }
 
 // HotPepper returns the "hot pepper" emoji 🌶️.
-func HotPepper(v ...Variant) string { return Lookup("hot pepper", v...) }
+func HotPepper(v ...Variant) string { return styled(928, v) }
 
 // BellPepper returns the "bell pepper" emoji 🫑.
-func BellPepper(v ...Variant) string { return Lookup("bell pepper", v...) }
+func BellPepper(v ...Variant) string { return styled(143, v) }
 
 // Cucumber returns the "cucumber" emoji 🥒.
-func Cucumber(v ...Variant) string { return Lookup("cucumber", v...) }
+func Cucumber(v ...Variant) string { return styled(341, v) }
 
 // LeafyGreen returns the "leafy green" emoji 🥬.
-func LeafyGreen(v ...Variant) string { return Lookup("leafy green", v...) }
+func LeafyGreen(v ...Variant) string { return styled(1013, v) }
 
 // Broccoli returns the "broccoli" emoji 🥦.
-func Broccoli(v ...Variant) string { return Lookup("broccoli", v...) }
+func Broccoli(v ...Variant) string { return styled(196, v) }
 
 // Garlic returns the "garlic" emoji 🧄.
-func Garlic(v ...Variant) string { return Lookup("garlic", v...) }
+func Garlic(v ...Variant) string { return styled(833, v) }
 
 // Onion returns the "onion" emoji 🧅.
-func Onion(v ...Variant) string { return Lookup("onion", v...) }
+func Onion(v ...Variant) string { return styled(1262, v) }
 
 // Peanuts returns the "peanuts" emoji 🥜.
-func Peanuts(v ...Variant) string { return Lookup("peanuts", v...) }
+func Peanuts(v ...Variant) string { return styled(1306, v) }
 
 // Beans returns the "beans" emoji 🫘.
-func Beans(v ...Variant) string { return Lookup("beans", v...) }
+func Beans(v ...Variant) string { return styled(135, v) }
 
 // Chestnut returns the "chestnut" emoji 🌰.
-func Chestnut(v ...Variant) string { return Lookup("chestnut", v...) }
+func Chestnut(v ...Variant) string { return styled(254, v) }
 
 // GingerRoot returns the "ginger root" emoji 🫚.
-func GingerRoot(v ...Variant) string { return Lookup("ginger root", v...) }
+func GingerRoot(v ...Variant) string { return styled(838, v) }
 
 // PeaPod returns the "pea pod" emoji 🫛.
-func PeaPod(v ...Variant) string { return Lookup("pea pod", v...) }
+func PeaPod(v ...Variant) string { return styled(1302, v) }
 
 // BrownMushroom returns the "brown mushroom" emoji 🍄‍🟫.
-func BrownMushroom(v ...Variant) string { return Lookup("brown mushroom", v...) }
+func BrownMushroom(v ...Variant) string { return styled(202, v) }
 
 // RootVegetable returns the "root vegetable" emoji 🫜.
-func RootVegetable(v ...Variant) string { return Lookup("root vegetable", v...) }
+func RootVegetable(v ...Variant) string { return styled(1494, v) }
 
 // Bread returns the "bread" emoji 🍞.
-func Bread(v ...Variant) string { return Lookup("bread", v...) }
+func Bread(v ...Variant) string { return styled(189, v) }
 
 // Croissant returns the "croissant" emoji 🥐.
-func Croissant(v ...Variant) string { return Lookup("croissant", v...) }
+func Croissant(v ...Variant) string { return styled(330, v) }
 
 // BaguetteBread returns the "baguette bread" emoji 🥖.
-func BaguetteBread(v ...Variant) string { return Lookup("baguette bread", v...) }
+func BaguetteBread(v ...Variant) string { return styled(116, v) }
 
 // Flatbread returns the "flatbread" emoji 🫓.
-func Flatbread(v ...Variant) string { return Lookup("flatbread", v...) }
+func Flatbread(v ...Variant) string { return styled(795, v) }
 
 // Pretzel returns the "pretzel" emoji 🥨.
-func Pretzel(v ...Variant) string { return Lookup("pretzel", v...) }
+func Pretzel(v ...Variant) string { return styled(1418, v) }
 
 // Bagel returns the "bagel" emoji 🥯.
-func Bagel(v ...Variant) string { return Lookup("bagel", v...) }
+func Bagel(v ...Variant) string { return styled(114, v) }
 
 // Pancakes returns the "pancakes" emoji 🥞.
-func Pancakes(v ...Variant) string { return Lookup("pancakes", v...) }
+func Pancakes(v ...Variant) string { return styled(1290, v) }
 
 // Waffle returns the "waffle" emoji 🧇.
-func Waffle(v ...Variant) string { return Lookup("waffle", v...) }
+func Waffle(v ...Variant) string { return styled(1750, v) }
 
 // CheeseWedge returns the "cheese wedge" emoji 🧀.
-func CheeseWedge(v ...Variant) string { return Lookup("cheese wedge", v...) }
+func CheeseWedge(v ...Variant) string { return styled(249, v) }
 
 // MeatOnBone returns the "meat on bone" emoji 🍖.
-func MeatOnBone(v ...Variant) string { return Lookup("meat on bone", v...) }
+func MeatOnBone(v ...Variant) string { return styled(1146, v) }
 
 // PoultryLeg returns the "poultry leg" emoji 🍗.
-func PoultryLeg(v ...Variant) string { return Lookup("poultry leg", v...) }
+func PoultryLeg(v ...Variant) string { return styled(1410, v) }
 
 // CutOfMeat returns the "cut of meat" emoji 🥩.
-func CutOfMeat(v ...Variant) string { return Lookup("cut of meat", v...) }
+func CutOfMeat(v ...Variant) string { return styled(350, v) }
 
 // Bacon returns the "bacon" emoji 🥓.
-func Bacon(v ...Variant) string { return Lookup("bacon", v...) }
+func Bacon(v ...Variant) string { return styled(111, v) }
 
 // Hamburger returns the "hamburger" emoji 🍔.
-func Hamburger(v ...Variant) string { return Lookup("hamburger", v...) }
+func Hamburger(v ...Variant) string { return styled(878, v) }
 
 // FrenchFries returns the "french fries" emoji 🍟.
-func FrenchFries(v ...Variant) string { return Lookup("french fries", v...) }
+func FrenchFries(v ...Variant) string { return styled(822, v) }
 
 // Pizza returns the "pizza" emoji 🍕.
-func Pizza(v ...Variant) string { return Lookup("pizza", v...) }
+func Pizza(v ...Variant) string { return styled(1386, v) }
 
 // HotDog returns the "hot dog" emoji 🌭.
-func HotDog(v ...Variant) string { return Lookup("hot dog", v...) }
+func HotDog(v ...Variant) string { return styled(926, v) }
 
 // Sandwich returns the "sandwich" emoji 🥪.
-func Sandwich(v ...Variant) string { return Lookup("sandwich", v...) }
+func Sandwich(v ...Variant) string { return styled(1508, v) }
 
 // Taco returns the "taco" emoji 🌮.
-func Taco(v ...Variant) string { return Lookup("taco", v...) }
+func Taco(v ...Variant) string { return styled(1655, v) }
 
 // Burrito returns the "burrito" emoji 🌯.
-func Burrito(v ...Variant) string { return Lookup("burrito", v...) }
+func Burrito(v ...Variant) string { return styled(211, v) }
 
 // Tamale returns the "tamale" emoji 🫔.
-func Tamale(v ...Variant) string { return Lookup("tamale", v...) }
+func Tamale(v ...Variant) string { return styled(1657, v) }
 
 // StuffedFlatbread returns the "stuffed flatbread" emoji 🥙.
-func StuffedFlatbread(v ...Variant) string { return Lookup("stuffed flatbread", v...) }
+func StuffedFlatbread(v ...Variant) string { return styled(1634, v) }
 
 // Falafel returns the "falafel" emoji 🧆.
-func Falafel(v ...Variant) string { return Lookup("falafel", v...) }
+func Falafel(v ...Variant) string { return styled(466, v) }
 
 // Egg returns the "egg" emoji 🥚.
-func Egg(v ...Variant) string { return Lookup("egg", v...) }
+func Egg(v ...Variant) string { return styled(411, v) }
 
 // Cooking returns the "cooking" emoji 🍳.
-func Cooking(v ...Variant) string { return Lookup("cooking", v...) }
+func Cooking(v ...Variant) string { return styled(310, v) }
 
 // ShallowPanOfFood returns the "shallow pan of food" emoji 🥘.
-func ShallowPanOfFood(v ...Variant) string { return Lookup("shallow pan of food", v...) }
+func ShallowPanOfFood(v ...Variant) string { return styled(1531, v) }
 
 // PotOfFood returns the "pot of food" emoji 🍲.
-func PotOfFood(v ...Variant) string { return Lookup("pot of food", v...) }
+func PotOfFood(v ...Variant) string { return styled(1406, v) }
 
 // Fondue returns the "fondue" emoji 🫕.
-func Fondue(v ...Variant) string { return Lookup("fondue", v...) }
+func Fondue(v ...Variant) string { return styled(809, v) }
 
 // BowlWithSpoon returns the "bowl with spoon" emoji 🥣.
-func BowlWithSpoon(v ...Variant) string { return Lookup("bowl with spoon", v...) }
+func BowlWithSpoon(v ...Variant) string { return styled(184, v) }
 
 // GreenSalad returns the "green salad" emoji 🥗.
-func GreenSalad(v ...Variant) string { return Lookup("green salad", v...) }
+func GreenSalad(v ...Variant) string { return styled(861, v) }
 
 // Popcorn returns the "popcorn" emoji 🍿.
-func Popcorn(v ...Variant) string { return Lookup("popcorn", v...) }
+func Popcorn(v ...Variant) string { return styled(1402, v) }
 
 // Butter returns the "butter" emoji 🧈.
-func Butter(v ...Variant) string { return Lookup("butter", v...) }
+func Butter(v ...Variant) string { return styled(216, v) }
 
 // Salt returns the "salt" emoji 🧂.
-func Salt(v ...Variant) string { return Lookup("salt", v...) }
+func Salt(v ...Variant) string { return styled(1506, v) }
 
 // CannedFood returns the "canned food" emoji 🥫.
-func CannedFood(v ...Variant) string { return Lookup("canned food", v...) }
+func CannedFood(v ...Variant) string { return styled(227, v) }
 
 // BentoBox returns the "bento box" emoji 🍱.
-func BentoBox(v ...Variant) string { return Lookup("bento box", v...) }
+func BentoBox(v ...Variant) string { return styled(146, v) }
 
 // RiceCracker returns the "rice cracker" emoji 🍘.
-func RiceCracker(v ...Variant) string { return Lookup("rice cracker", v...) }
+func RiceCracker(v ...Variant) string { return styled(1472, v) }
 
 // RiceBall returns the "rice ball" emoji 🍙.
-func RiceBall(v ...Variant) string { return Lookup("rice ball", v...) }
+func RiceBall(v ...Variant) string { return styled(1471, v) }
 
 // CookedRice returns the "cooked rice" emoji 🍚.
-func CookedRice(v ...Variant) string { return Lookup("cooked rice", v...) }
+func CookedRice(v ...Variant) string { return styled(308, v) }
 
 // CurryRice returns the "curry rice" emoji 🍛.
-func CurryRice(v ...Variant) string { return Lookup("curry rice", v...) }
+func CurryRice(v ...Variant) string { return styled(347, v) }
 
 // SteamingBowl returns the "steaming bowl" emoji 🍜.
-func SteamingBowl(v ...Variant) string { return Lookup("steaming bowl", v...) }
+func SteamingBowl(v ...Variant) string { return styled(1625, v) }
 
 // Spaghetti returns the "spaghetti" emoji 🍝.
-func Spaghetti(v ...Variant) string { return Lookup("spaghetti", v...) }
+func Spaghetti(v ...Variant) string { return styled(1594, v) }
 
 // RoastedSweetPotato returns the "roasted sweet potato" emoji 🍠.
-func RoastedSweetPotato(v ...Variant) string { return Lookup("roasted sweet potato", v...) }
+func RoastedSweetPotato(v ...Variant) string { return styled(1484, v) }
 
 // Oden returns the "oden" emoji 🍢.
-func Oden(v ...Variant) string { return Lookup("oden", v...) }
+func Oden(v ...Variant) string { return styled(1243, v) }
 
 // Sushi returns the "sushi" emoji 🍣.
-func Sushi(v ...Variant) string { return Lookup("sushi", v...) }
+func Sushi(v ...Variant) string { return styled(1648, v) }
 
 // FriedShrimp returns the "fried shrimp" emoji 🍤.
-func FriedShrimp(v ...Variant) string { return Lookup("fried shrimp", v...) }
+func FriedShrimp(v ...Variant) string { return styled(823, v) }
 
 // FishCakeWithSwirl returns the "fish cake with swirl" emoji 🍥.
-func FishCakeWithSwirl(v ...Variant) string { return Lookup("fish cake with swirl", v...) }
+func FishCakeWithSwirl(v ...Variant) string { return styled(525, v) }
 
 // MoonCake returns the "moon cake" emoji 🥮.
-func MoonCake(v ...Variant) string { return Lookup("moon cake", v...) }
+func MoonCake(v ...Variant) string { return styled(1186, v) }
 
 // Dango returns the "dango" emoji 🍡.
-func Dango(v ...Variant) string { return Lookup("dango", v...) }
+func Dango(v ...Variant) string { return styled(353, v) }
 
 // Dumpling returns the "dumpling" emoji 🥟.
-func Dumpling(v ...Variant) string { return Lookup("dumpling", v...) }
+func Dumpling(v ...Variant) string { return styled(404, v) }
 
 // FortuneCookie returns the "fortune cookie" emoji 🥠.
-func FortuneCookie(v ...Variant) string { return Lookup("fortune cookie", v...) }
+func FortuneCookie(v ...Variant) string { return styled(814, v) }
 
 // TakeoutBox returns the "takeout box" emoji 🥡.
-func TakeoutBox(v ...Variant) string { return Lookup("takeout box", v...) }
+func TakeoutBox(v ...Variant) string { return styled(1656, v) }
 
 // SoftIceCream returns the "soft ice cream" emoji 🍦.
-func SoftIceCream(v ...Variant) string { return Lookup("soft ice cream", v...) }
+func SoftIceCream(v ...Variant) string { return styled(1591, v) }
 
 // ShavedIce returns the "shaved ice" emoji 🍧.
-func ShavedIce(v ...Variant) string { return Lookup("shaved ice", v...) }
+func ShavedIce(v ...Variant) string { return styled(1534, v) }
 
 // IceCream returns the "ice cream" emoji 🍨.
-func IceCream(v ...Variant) string { return Lookup("ice cream", v...) }
+func IceCream(v ...Variant) string { return styled(941, v) }
 
 // Doughnut returns the "doughnut" emoji 🍩.
-func Doughnut(v ...Variant) string { return Lookup("doughnut", v...) }
+func Doughnut(v ...Variant) string { return styled(389, v) }
 
 // Cookie returns the "cookie" emoji 🍪.
-func Cookie(v ...Variant) string { return Lookup("cookie", v...) }
+func Cookie(v ...Variant) string { return styled(309, v) }
 
 // BirthdayCake returns the "birthday cake" emoji 🎂.
-func BirthdayCake(v ...Variant) string { return Lookup("birthday cake", v...) }
+func BirthdayCake(v ...Variant) string { return styled(153, v) }
 
 // Shortcake returns the "shortcake" emoji 🍰.
-func Shortcake(v ...Variant) string { return Lookup("shortcake", v...) }
+func Shortcake(v ...Variant) string { return styled(1542, v) }
 
 // Cupcake returns the "cupcake" emoji 🧁.
-func Cupcake(v ...Variant) string { return Lookup("cupcake", v...) }
+func Cupcake(v ...Variant) string { return styled(343, v) }
 
 // Pie returns the "pie" emoji 🥧.
-func Pie(v ...Variant) string { return Lookup("pie", v...) }
+func Pie(v ...Variant) string { return styled(1372, v) }
 
 // ChocolateBar returns the "chocolate bar" emoji 🍫.
-func ChocolateBar(v ...Variant) string { return Lookup("chocolate bar", v...) }
+func ChocolateBar(v ...Variant) string { return styled(259, v) }
 
 // Candy returns the "candy" emoji 🍬.
-func Candy(v ...Variant) string { return Lookup("candy", v...) }
+func Candy(v ...Variant) string { return styled(226, v) }
 
 // Lollipop returns the "lollipop" emoji 🍭.
-func Lollipop(v ...Variant) string { return Lookup("lollipop", v...) }
+func Lollipop(v ...Variant) string { return styled(1043, v) }
 
 // Custard returns the "custard" emoji 🍮.
-func Custard(v ...Variant) string { return Lookup("custard", v...) }
+func Custard(v ...Variant) string { return styled(348, v) }
 
 // HoneyPot returns the "honey pot" emoji 🍯.
-func HoneyPot(v ...Variant) string { return Lookup("honey pot", v...) }
+func HoneyPot(v ...Variant) string { return styled(917, v) }
 
 // BabyBottle returns the "baby bottle" emoji 🍼.
-func BabyBottle(v ...Variant) string { return Lookup("baby bottle", v...) }
+func BabyBottle(v ...Variant) string { return styled(103, v) }
 
 // GlassOfMilk returns the "glass of milk" emoji 🥛.
-func GlassOfMilk(v ...Variant) string { return Lookup("glass of milk", v...) }
+func GlassOfMilk(v ...Variant) string { return styled(841, v) }
 
 // HotBeverage returns the "hot beverage" emoji ☕.
-func HotBeverage(v ...Variant) string { return Lookup("hot beverage", v...) }
+func HotBeverage(v ...Variant) string { return styled(925, v) }
 
 // Teapot returns the "teapot" emoji 🫖.
-func Teapot(v ...Variant) string { return Lookup("teapot", v...) }
+func Teapot(v ...Variant) string { return styled(1663, v) }
 
 // TeacupWithoutHandle returns the "teacup without handle" emoji 🍵.
-func TeacupWithoutHandle(v ...Variant) string { return Lookup("teacup without handle", v...) }
+func TeacupWithoutHandle(v ...Variant) string { return styled(1662, v) }
 
 // Sake returns the "sake" emoji 🍶.
-func Sake(v ...Variant) string { return Lookup("sake", v...) }
+func Sake(v ...Variant) string { return styled(1505, v) }
 
 // BottleWithPoppingCork returns the "bottle with popping cork" emoji 🍾.
-func BottleWithPoppingCork(v ...Variant) string { return Lookup("bottle with popping cork", v...) }
+func BottleWithPoppingCork(v ...Variant) string { return styled(181, v) }
 
 // WineGlass returns the "wine glass" emoji 🍷.
-func WineGlass(v ...Variant) string { return Lookup("wine glass", v...) }
+func WineGlass(v ...Variant) string { return styled(1788, v) }
 
 // CocktailGlass returns the "cocktail glass" emoji 🍸.
-func CocktailGlass(v ...Variant) string { return Lookup("cocktail glass", v...) }
+func CocktailGlass(v ...Variant) string { return styled(290, v) }
 
 // TropicalDrink returns the "tropical drink" emoji 🍹.
-func TropicalDrink(v ...Variant) string { return Lookup("tropical drink", v...) }
+func TropicalDrink(v ...Variant) string { return styled(1714, v) }
 
 // BeerMug returns the "beer mug" emoji 🍺.
-func BeerMug(v ...Variant) string { return Lookup("beer mug", v...) }
+func BeerMug(v ...Variant) string { return styled(140, v) }
 
 // ClinkingBeerMugs returns the "clinking beer mugs" emoji 🍻.
-func ClinkingBeerMugs(v ...Variant) string { return Lookup("clinking beer mugs", v...) }
+func ClinkingBeerMugs(v ...Variant) string { return styled(272, v) }
 
 // ClinkingGlasses returns the "clinking glasses" emoji 🥂.
-func ClinkingGlasses(v ...Variant) string { return Lookup("clinking glasses", v...) }
+func ClinkingGlasses(v ...Variant) string { return styled(273, v) }
 
 // TumblerGlass returns the "tumbler glass" emoji 🥃.
-func TumblerGlass(v ...Variant) string { return Lookup("tumbler glass", v...) }
+func TumblerGlass(v ...Variant) string { return styled(1718, v) }
 
 // PouringLiquid returns the "pouring liquid" emoji 🫗.
-func PouringLiquid(v ...Variant) string { return Lookup("pouring liquid", v...) }
+func PouringLiquid(v ...Variant) string { return styled(1412, v) }
 
 // CupWithStraw returns the "cup with straw" emoji 🥤.
-func CupWithStraw(v ...Variant) string { return Lookup("cup with straw", v...) }
+func CupWithStraw(v ...Variant) string { return styled(342, v) }
 
 // BubbleTea returns the "bubble tea" emoji 🧋.
-func BubbleTea(v ...Variant) string { return Lookup("bubble tea", v...) }
+func BubbleTea(v ...Variant) string { return styled(204, v) }
 
 // BeverageBox returns the "beverage box" emoji 🧃.
-func BeverageBox(v ...Variant) string { return Lookup("beverage box", v...) }
+func BeverageBox(v ...Variant) string { return styled(147, v) }
 
 // Mate returns the "mate" emoji 🧉.
-func Mate(v ...Variant) string { return Lookup("mate", v...) }
+func Mate(v ...Variant) string { return styled(1145, v) }
 
 // Ice returns the "ice" emoji 🧊.
-func Ice(v ...Variant) string { return Lookup("ice", v...) }
+func Ice(v ...Variant) string { return styled(940, v) }
 
 // Chopsticks returns the "chopsticks" emoji 🥢.
-func Chopsticks(v ...Variant) string { return Lookup("chopsticks", v...) }
+func Chopsticks(v ...Variant) string { return styled(260, v) }
 
-// ForkAndKnifeWithPlate returns the "fork and knife with plate" emoji 🍽️.
-func ForkAndKnifeWithPlate(v ...Variant) string { return Lookup("fork and knife with plate", v...) }
+// ForkAndKnifeWithPlate returns the "fork and knife with plate" emoji
+// 🍽️.
+func ForkAndKnifeWithPlate(v ...Variant) string { return styled(813, v) }
 
 // ForkAndKnife returns the "fork and knife" emoji 🍴.
-func ForkAndKnife(v ...Variant) string { return Lookup("fork and knife", v...) }
+func ForkAndKnife(v ...Variant) string { return styled(812, v) }
 
 // Spoon returns the "spoon" emoji 🥄.
-func Spoon(v ...Variant) string { return Lookup("spoon", v...) }
+func Spoon(v ...Variant) string { return styled(1613, v) }
 
 // KitchenKnife returns the "kitchen knife" emoji 🔪.
-func KitchenKnife(v ...Variant) string { return Lookup("kitchen knife", v...) }
+func KitchenKnife(v ...Variant) string { return styled(993, v) }
 
 // Jar returns the "jar" emoji 🫙.
-func Jar(v ...Variant) string { return Lookup("jar", v...) }
+func Jar(v ...Variant) string { return styled(957, v) }
 
 // Amphora returns the "amphora" emoji 🏺.
-func Amphora(v ...Variant) string { return Lookup("amphora", v...) }
+func Amphora(v ...Variant) string { return styled(81, v) }
 
 // Travel & Places
 
-// GlobeShowingEuropeAfrica returns the "globe showing Europe-Africa" emoji 🌍.
-func GlobeShowingEuropeAfrica(v ...Variant) string {
-	return Lookup("globe showing Europe-Africa", v...)
-}
+// GlobeShowingEuropeAfrica returns the "globe showing Europe-Africa" emoji
+// 🌍.
+func GlobeShowingEuropeAfrica(v ...Variant) string { return styled(845, v) }
 
 // GlobeShowingAmericas returns the "globe showing Americas" emoji 🌎.
-func GlobeShowingAmericas(v ...Variant) string { return Lookup("globe showing Americas", v...) }
+func GlobeShowingAmericas(v ...Variant) string { return styled(843, v) }
 
-// GlobeShowingAsiaAustralia returns the "globe showing Asia-Australia" emoji 🌏.
-func GlobeShowingAsiaAustralia(v ...Variant) string {
-	return Lookup("globe showing Asia-Australia", v...)
-}
+// GlobeShowingAsiaAustralia returns the "globe showing Asia-Australia"
+// emoji 🌏.
+func GlobeShowingAsiaAustralia(v ...Variant) string { return styled(844, v) }
 
 // GlobeWithMeridians returns the "globe with meridians" emoji 🌐.
-func GlobeWithMeridians(v ...Variant) string { return Lookup("globe with meridians", v...) }
+func GlobeWithMeridians(v ...Variant) string { return styled(846, v) }
 
 // WorldMap returns the "world map" emoji 🗺️.
-func WorldMap(v ...Variant) string { return Lookup("world map", v...) }
+func WorldMap(v ...Variant) string { return styled(1879, v) }
 
 // MapOfJapan returns the "map of Japan" emoji 🗾.
-func MapOfJapan(v ...Variant) string { return Lookup("map of Japan", v...) }
+func MapOfJapan(v ...Variant) string { return styled(1141, v) }
 
 // Compass returns the "compass" emoji 🧭.
-func Compass(v ...Variant) string { return Lookup("compass", v...) }
+func Compass(v ...Variant) string { return styled(297, v) }
 
 // SnowCappedMountain returns the "snow-capped mountain" emoji 🏔️.
-func SnowCappedMountain(v ...Variant) string { return Lookup("snow-capped mountain", v...) }
+func SnowCappedMountain(v ...Variant) string { return styled(1583, v) }
 
 // Mountain returns the "mountain" emoji ⛰️.
-func Mountain(v ...Variant) string { return Lookup("mountain", v...) }
+func Mountain(v ...Variant) string { return styled(1197, v) }
 
 // Landslide returns the "landslide" emoji 🛘.
-func Landslide(v ...Variant) string { return Lookup("landslide", v...) }
+func Landslide(v ...Variant) string { return styled(1003, v) }
 
 // Volcano returns the "volcano" emoji 🌋.
-func Volcano(v ...Variant) string { return Lookup("volcano", v...) }
+func Volcano(v ...Variant) string { return styled(1747, v) }
 
 // MountFuji returns the "mount fuji" emoji 🗻.
-func MountFuji(v ...Variant) string { return Lookup("mount fuji", v...) }
+func MountFuji(v ...Variant) string { return styled(1196, v) }
 
 // Camping returns the "camping" emoji 🏕️.
-func Camping(v ...Variant) string { return Lookup("camping", v...) }
+func Camping(v ...Variant) string { return styled(224, v) }
 
 // BeachWithUmbrella returns the "beach with umbrella" emoji 🏖️.
-func BeachWithUmbrella(v ...Variant) string { return Lookup("beach with umbrella", v...) }
+func BeachWithUmbrella(v ...Variant) string { return styled(133, v) }
 
 // Desert returns the "desert" emoji 🏜️.
-func Desert(v ...Variant) string { return Lookup("desert", v...) }
+func Desert(v ...Variant) string { return styled(363, v) }
 
 // DesertIsland returns the "desert island" emoji 🏝️.
-func DesertIsland(v ...Variant) string { return Lookup("desert island", v...) }
+func DesertIsland(v ...Variant) string { return styled(364, v) }
 
 // NationalPark returns the "national park" emoji 🏞️.
-func NationalPark(v ...Variant) string { return Lookup("national park", v...) }
+func NationalPark(v ...Variant) string { return styled(1214, v) }
 
 // Stadium returns the "stadium" emoji 🏟️.
-func Stadium(v ...Variant) string { return Lookup("stadium", v...) }
+func Stadium(v ...Variant) string { return styled(1619, v) }
 
 // ClassicalBuilding returns the "classical building" emoji 🏛️.
-func ClassicalBuilding(v ...Variant) string { return Lookup("classical building", v...) }
+func ClassicalBuilding(v ...Variant) string { return styled(271, v) }
 
 // BuildingConstruction returns the "building construction" emoji 🏗️.
-func BuildingConstruction(v ...Variant) string { return Lookup("building construction", v...) }
+func BuildingConstruction(v ...Variant) string { return styled(208, v) }
 
 // Brick returns the "brick" emoji 🧱.
-func Brick(v ...Variant) string { return Lookup("brick", v...) }
+func Brick(v ...Variant) string { return styled(191, v) }
 
 // Rock returns the "rock" emoji 🪨.
-func Rock(v ...Variant) string { return Lookup("rock", v...) }
+func Rock(v ...Variant) string { return styled(1486, v) }
 
 // Wood returns the "wood" emoji 🪵.
-func Wood(v ...Variant) string { return Lookup("wood", v...) }
+func Wood(v ...Variant) string { return styled(1877, v) }
 
 // Hut returns the "hut" emoji 🛖.
-func Hut(v ...Variant) string { return Lookup("hut", v...) }
+func Hut(v ...Variant) string { return styled(938, v) }
 
 // Houses returns the "houses" emoji 🏘️.
-func Houses(v ...Variant) string { return Lookup("houses", v...) }
+func Houses(v ...Variant) string { return styled(935, v) }
 
 // DerelictHouse returns the "derelict house" emoji 🏚️.
-func DerelictHouse(v ...Variant) string { return Lookup("derelict house", v...) }
+func DerelictHouse(v ...Variant) string { return styled(362, v) }
 
 // House returns the "house" emoji 🏠.
-func House(v ...Variant) string { return Lookup("house", v...) }
+func House(v ...Variant) string { return styled(933, v) }
 
 // HouseWithGarden returns the "house with garden" emoji 🏡.
-func HouseWithGarden(v ...Variant) string { return Lookup("house with garden", v...) }
+func HouseWithGarden(v ...Variant) string { return styled(934, v) }
 
 // OfficeBuilding returns the "office building" emoji 🏢.
-func OfficeBuilding(v ...Variant) string { return Lookup("office building", v...) }
+func OfficeBuilding(v ...Variant) string { return styled(1244, v) }
 
 // JapanesePostOffice returns the "Japanese post office" emoji 🏣.
-func JapanesePostOffice(v ...Variant) string { return Lookup("Japanese post office", v...) }
+func JapanesePostOffice(v ...Variant) string { return styled(21, v) }
 
 // PostOffice returns the "post office" emoji 🏤.
-func PostOffice(v ...Variant) string { return Lookup("post office", v...) }
+func PostOffice(v ...Variant) string { return styled(1403, v) }
 
 // Hospital returns the "hospital" emoji 🏥.
-func Hospital(v ...Variant) string { return Lookup("hospital", v...) }
+func Hospital(v ...Variant) string { return styled(924, v) }
 
 // Bank returns the "bank" emoji 🏦.
-func Bank(v ...Variant) string { return Lookup("bank", v...) }
+func Bank(v ...Variant) string { return styled(124, v) }
 
 // Hotel returns the "hotel" emoji 🏨.
-func Hotel(v ...Variant) string { return Lookup("hotel", v...) }
+func Hotel(v ...Variant) string { return styled(930, v) }
 
 // LoveHotel returns the "love hotel" emoji 🏩.
-func LoveHotel(v ...Variant) string { return Lookup("love hotel", v...) }
+func LoveHotel(v ...Variant) string { return styled(1049, v) }
 
 // ConvenienceStore returns the "convenience store" emoji 🏪.
-func ConvenienceStore(v ...Variant) string { return Lookup("convenience store", v...) }
+func ConvenienceStore(v ...Variant) string { return styled(306, v) }
 
 // School returns the "school" emoji 🏫.
-func School(v ...Variant) string { return Lookup("school", v...) }
+func School(v ...Variant) string { return styled(1515, v) }
 
 // DepartmentStore returns the "department store" emoji 🏬.
-func DepartmentStore(v ...Variant) string { return Lookup("department store", v...) }
+func DepartmentStore(v ...Variant) string { return styled(361, v) }
 
 // Factory returns the "factory" emoji 🏭.
-func Factory(v ...Variant) string { return Lookup("factory", v...) }
+func Factory(v ...Variant) string { return styled(463, v) }
 
 // JapaneseCastle returns the "Japanese castle" emoji 🏯.
-func JapaneseCastle(v ...Variant) string { return Lookup("Japanese castle", v...) }
+func JapaneseCastle(v ...Variant) string { return styled(19, v) }
 
 // Castle returns the "castle" emoji 🏰.
-func Castle(v ...Variant) string { return Lookup("castle", v...) }
+func Castle(v ...Variant) string { return styled(236, v) }
 
 // Wedding returns the "wedding" emoji 💒.
-func Wedding(v ...Variant) string { return Lookup("wedding", v...) }
+func Wedding(v ...Variant) string { return styled(1767, v) }
 
 // TokyoTower returns the "Tokyo tower" emoji 🗼.
-func TokyoTower(v ...Variant) string { return Lookup("Tokyo tower", v...) }
+func TokyoTower(v ...Variant) string { return styled(62, v) }
 
 // StatueOfLiberty returns the "Statue of Liberty" emoji 🗽.
-func StatueOfLiberty(v ...Variant) string { return Lookup("Statue of Liberty", v...) }
+func StatueOfLiberty(v ...Variant) string { return styled(58, v) }
 
 // Church returns the "church" emoji ⛪.
-func Church(v ...Variant) string { return Lookup("church", v...) }
+func Church(v ...Variant) string { return styled(261, v) }
 
 // Mosque returns the "mosque" emoji 🕌.
-func Mosque(v ...Variant) string { return Lookup("mosque", v...) }
+func Mosque(v ...Variant) string { return styled(1189, v) }
 
 // HinduTemple returns the "hindu temple" emoji 🛕.
-func HinduTemple(v ...Variant) string { return Lookup("hindu temple", v...) }
+func HinduTemple(v ...Variant) string { return styled(913, v) }
 
 // Synagogue returns the "synagogue" emoji 🕍.
-func Synagogue(v ...Variant) string { return Lookup("synagogue", v...) }
+func Synagogue(v ...Variant) string { return styled(1652, v) }
 
 // ShintoShrine returns the "shinto shrine" emoji ⛩️.
-func ShintoShrine(v ...Variant) string { return Lookup("shinto shrine", v...) }
+func ShintoShrine(v ...Variant) string { return styled(1537, v) }
 
 // Kaaba returns the "kaaba" emoji 🕋.
-func Kaaba(v ...Variant) string { return Lookup("kaaba", v...) }
+func Kaaba(v ...Variant) string { return styled(963, v) }
 
 // Fountain returns the "fountain" emoji ⛲.
-func Fountain(v ...Variant) string { return Lookup("fountain", v...) }
+func Fountain(v ...Variant) string { return styled(815, v) }
 
 // Tent returns the "tent" emoji ⛺.
-func Tent(v ...Variant) string { return Lookup("tent", v...) }
+func Tent(v ...Variant) string { return styled(1674, v) }
 
 // Foggy returns the "foggy" emoji 🌁.
-func Foggy(v ...Variant) string { return Lookup("foggy", v...) }
+func Foggy(v ...Variant) string { return styled(806, v) }
 
 // NightWithStars returns the "night with stars" emoji 🌃.
-func NightWithStars(v ...Variant) string { return Lookup("night with stars", v...) }
+func NightWithStars(v ...Variant) string { return styled(1226, v) }
 
 // Cityscape returns the "cityscape" emoji 🏙️.
-func Cityscape(v ...Variant) string { return Lookup("cityscape", v...) }
+func Cityscape(v ...Variant) string { return styled(266, v) }
 
 // SunriseOverMountains returns the "sunrise over mountains" emoji 🌄.
-func SunriseOverMountains(v ...Variant) string { return Lookup("sunrise over mountains", v...) }
+func SunriseOverMountains(v ...Variant) string { return styled(1644, v) }
 
 // Sunrise returns the "sunrise" emoji 🌅.
-func Sunrise(v ...Variant) string { return Lookup("sunrise", v...) }
+func Sunrise(v ...Variant) string { return styled(1643, v) }
 
 // CityscapeAtDusk returns the "cityscape at dusk" emoji 🌆.
-func CityscapeAtDusk(v ...Variant) string { return Lookup("cityscape at dusk", v...) }
+func CityscapeAtDusk(v ...Variant) string { return styled(267, v) }
 
 // Sunset returns the "sunset" emoji 🌇.
-func Sunset(v ...Variant) string { return Lookup("sunset", v...) }
+func Sunset(v ...Variant) string { return styled(1645, v) }
 
 // BridgeAtNight returns the "bridge at night" emoji 🌉.
-func BridgeAtNight(v ...Variant) string { return Lookup("bridge at night", v...) }
+func BridgeAtNight(v ...Variant) string { return styled(192, v) }
 
 // HotSprings returns the "hot springs" emoji ♨️.
-func HotSprings(v ...Variant) string { return Lookup("hot springs", v...) }
+func HotSprings(v ...Variant) string { return styled(929, v) }
 
 // CarouselHorse returns the "carousel horse" emoji 🎠.
-func CarouselHorse(v ...Variant) string { return Lookup("carousel horse", v...) }
+func CarouselHorse(v ...Variant) string { return styled(232, v) }
 
 // PlaygroundSlide returns the "playground slide" emoji 🛝.
-func PlaygroundSlide(v ...Variant) string { return Lookup("playground slide", v...) }
+func PlaygroundSlide(v ...Variant) string { return styled(1392, v) }
 
 // FerrisWheel returns the "ferris wheel" emoji 🎡.
-func FerrisWheel(v ...Variant) string { return Lookup("ferris wheel", v...) }
+func FerrisWheel(v ...Variant) string { return styled(507, v) }
 
 // RollerCoaster returns the "roller coaster" emoji 🎢.
-func RollerCoaster(v ...Variant) string { return Lookup("roller coaster", v...) }
+func RollerCoaster(v ...Variant) string { return styled(1490, v) }
 
 // BarberPole returns the "barber pole" emoji 💈.
-func BarberPole(v ...Variant) string { return Lookup("barber pole", v...) }
+func BarberPole(v ...Variant) string { return styled(126, v) }
 
 // CircusTent returns the "circus tent" emoji 🎪.
-func CircusTent(v ...Variant) string { return Lookup("circus tent", v...) }
+func CircusTent(v ...Variant) string { return styled(265, v) }
 
 // Locomotive returns the "locomotive" emoji 🚂.
-func Locomotive(v ...Variant) string { return Lookup("locomotive", v...) }
+func Locomotive(v ...Variant) string { return styled(1042, v) }
 
 // RailwayCar returns the "railway car" emoji 🚃.
-func RailwayCar(v ...Variant) string { return Lookup("railway car", v...) }
+func RailwayCar(v ...Variant) string { return styled(1436, v) }
 
 // HighSpeedTrain returns the "high-speed train" emoji 🚄.
-func HighSpeedTrain(v ...Variant) string { return Lookup("high-speed train", v...) }
+func HighSpeedTrain(v ...Variant) string { return styled(911, v) }
 
 // BulletTrain returns the "bullet train" emoji 🚅.
-func BulletTrain(v ...Variant) string { return Lookup("bullet train", v...) }
+func BulletTrain(v ...Variant) string { return styled(209, v) }
 
 // Train returns the "train" emoji 🚆.
-func Train(v ...Variant) string { return Lookup("train", v...) }
+func Train(v ...Variant) string { return styled(1701, v) }
 
 // Metro returns the "metro" emoji 🚇.
-func Metro(v ...Variant) string { return Lookup("metro", v...) }
+func Metro(v ...Variant) string { return styled(1164, v) }
 
 // LightRail returns the "light rail" emoji 🚈.
-func LightRail(v ...Variant) string { return Lookup("light rail", v...) }
+func LightRail(v ...Variant) string { return styled(1029, v) }
 
 // Station returns the "station" emoji 🚉.
-func Station(v ...Variant) string { return Lookup("station", v...) }
+func Station(v ...Variant) string { return styled(1624, v) }
 
 // Tram returns the "tram" emoji 🚊.
-func Tram(v ...Variant) string { return Lookup("tram", v...) }
+func Tram(v ...Variant) string { return styled(1702, v) }
 
 // Monorail returns the "monorail" emoji 🚝.
-func Monorail(v ...Variant) string { return Lookup("monorail", v...) }
+func Monorail(v ...Variant) string { return styled(1185, v) }
 
 // MountainRailway returns the "mountain railway" emoji 🚞.
-func MountainRailway(v ...Variant) string { return Lookup("mountain railway", v...) }
+func MountainRailway(v ...Variant) string { return styled(1199, v) }
 
 // TramCar returns the "tram car" emoji 🚋.
-func TramCar(v ...Variant) string { return Lookup("tram car", v...) }
+func TramCar(v ...Variant) string { return styled(1703, v) }
 
 // Bus returns the "bus" emoji 🚌.
-func Bus(v ...Variant) string { return Lookup("bus", v...) }
+func Bus(v ...Variant) string { return styled(212, v) }
 
 // OncomingBus returns the "oncoming bus" emoji 🚍.
-func OncomingBus(v ...Variant) string { return Lookup("oncoming bus", v...) }
+func OncomingBus(v ...Variant) string { return styled(1255, v) }
 
 // Trolleybus returns the "trolleybus" emoji 🚎.
-func Trolleybus(v ...Variant) string { return Lookup("trolleybus", v...) }
+func Trolleybus(v ...Variant) string { return styled(1711, v) }
 
 // Minibus returns the "minibus" emoji 🚐.
-func Minibus(v ...Variant) string { return Lookup("minibus", v...) }
+func Minibus(v ...Variant) string { return styled(1172, v) }
 
 // Ambulance returns the "ambulance" emoji 🚑.
-func Ambulance(v ...Variant) string { return Lookup("ambulance", v...) }
+func Ambulance(v ...Variant) string { return styled(79, v) }
 
 // FireEngine returns the "fire engine" emoji 🚒.
-func FireEngine(v ...Variant) string { return Lookup("fire engine", v...) }
+func FireEngine(v ...Variant) string { return styled(517, v) }
 
 // PoliceCar returns the "police car" emoji 🚓.
-func PoliceCar(v ...Variant) string { return Lookup("police car", v...) }
+func PoliceCar(v ...Variant) string { return styled(1397, v) }
 
 // OncomingPoliceCar returns the "oncoming police car" emoji 🚔.
-func OncomingPoliceCar(v ...Variant) string { return Lookup("oncoming police car", v...) }
+func OncomingPoliceCar(v ...Variant) string { return styled(1257, v) }
 
 // Taxi returns the "taxi" emoji 🚕.
-func Taxi(v ...Variant) string { return Lookup("taxi", v...) }
+func Taxi(v ...Variant) string { return styled(1660, v) }
 
 // OncomingTaxi returns the "oncoming taxi" emoji 🚖.
-func OncomingTaxi(v ...Variant) string { return Lookup("oncoming taxi", v...) }
+func OncomingTaxi(v ...Variant) string { return styled(1258, v) }
 
 // Automobile returns the "automobile" emoji 🚗.
-func Automobile(v ...Variant) string { return Lookup("automobile", v...) }
+func Automobile(v ...Variant) string { return styled(98, v) }
 
 // OncomingAutomobile returns the "oncoming automobile" emoji 🚘.
-func OncomingAutomobile(v ...Variant) string { return Lookup("oncoming automobile", v...) }
+func OncomingAutomobile(v ...Variant) string { return styled(1254, v) }
 
 // SportUtilityVehicle returns the "sport utility vehicle" emoji 🚙.
-func SportUtilityVehicle(v ...Variant) string { return Lookup("sport utility vehicle", v...) }
+func SportUtilityVehicle(v ...Variant) string { return styled(1614, v) }
 
 // PickupTruck returns the "pickup truck" emoji 🛻.
-func PickupTruck(v ...Variant) string { return Lookup("pickup truck", v...) }
+func PickupTruck(v ...Variant) string { return styled(1371, v) }
 
 // DeliveryTruck returns the "delivery truck" emoji 🚚.
-func DeliveryTruck(v ...Variant) string { return Lookup("delivery truck", v...) }
+func DeliveryTruck(v ...Variant) string { return styled(360, v) }
 
 // ArticulatedLorry returns the "articulated lorry" emoji 🚛.
-func ArticulatedLorry(v ...Variant) string { return Lookup("articulated lorry", v...) }
+func ArticulatedLorry(v ...Variant) string { return styled(91, v) }
 
 // Tractor returns the "tractor" emoji 🚜.
-func Tractor(v ...Variant) string { return Lookup("tractor", v...) }
+func Tractor(v ...Variant) string { return styled(1699, v) }
 
 // RacingCar returns the "racing car" emoji 🏎️.
-func RacingCar(v ...Variant) string { return Lookup("racing car", v...) }
+func RacingCar(v ...Variant) string { return styled(1432, v) }
 
 // Motorcycle returns the "motorcycle" emoji 🏍️.
-func Motorcycle(v ...Variant) string { return Lookup("motorcycle", v...) }
+func Motorcycle(v ...Variant) string { return styled(1193, v) }
 
 // MotorScooter returns the "motor scooter" emoji 🛵.
-func MotorScooter(v ...Variant) string { return Lookup("motor scooter", v...) }
+func MotorScooter(v ...Variant) string { return styled(1192, v) }
 
 // ManualWheelchair returns the "manual wheelchair" emoji 🦽.
-func ManualWheelchair(v ...Variant) string { return Lookup("manual wheelchair", v...) }
+func ManualWheelchair(v ...Variant) string { return styled(1139, v) }
 
 // MotorizedWheelchair returns the "motorized wheelchair" emoji 🦼.
-func MotorizedWheelchair(v ...Variant) string { return Lookup("motorized wheelchair", v...) }
+func MotorizedWheelchair(v ...Variant) string { return styled(1194, v) }
 
 // AutoRickshaw returns the "auto rickshaw" emoji 🛺.
-func AutoRickshaw(v ...Variant) string { return Lookup("auto rickshaw", v...) }
+func AutoRickshaw(v ...Variant) string { return styled(97, v) }
 
 // Bicycle returns the "bicycle" emoji 🚲.
-func Bicycle(v ...Variant) string { return Lookup("bicycle", v...) }
+func Bicycle(v ...Variant) string { return styled(148, v) }
 
 // KickScooter returns the "kick scooter" emoji 🛴.
-func KickScooter(v ...Variant) string { return Lookup("kick scooter", v...) }
+func KickScooter(v ...Variant) string { return styled(981, v) }
 
 // Skateboard returns the "skateboard" emoji 🛹.
-func Skateboard(v ...Variant) string { return Lookup("skateboard", v...) }
+func Skateboard(v ...Variant) string { return styled(1553, v) }
 
 // RollerSkate returns the "roller skate" emoji 🛼.
-func RollerSkate(v ...Variant) string { return Lookup("roller skate", v...) }
+func RollerSkate(v ...Variant) string { return styled(1491, v) }
 
 // BusStop returns the "bus stop" emoji 🚏.
-func BusStop(v ...Variant) string { return Lookup("bus stop", v...) }
+func BusStop(v ...Variant) string { return styled(213, v) }
 
 // Motorway returns the "motorway" emoji 🛣️.
-func Motorway(v ...Variant) string { return Lookup("motorway", v...) }
+func Motorway(v ...Variant) string { return styled(1195, v) }
 
 // RailwayTrack returns the "railway track" emoji 🛤️.
-func RailwayTrack(v ...Variant) string { return Lookup("railway track", v...) }
+func RailwayTrack(v ...Variant) string { return styled(1437, v) }
 
 // OilDrum returns the "oil drum" emoji 🛢️.
-func OilDrum(v ...Variant) string { return Lookup("oil drum", v...) }
+func OilDrum(v ...Variant) string { return styled(1247, v) }
 
 // FuelPump returns the "fuel pump" emoji ⛽.
-func FuelPump(v ...Variant) string { return Lookup("fuel pump", v...) }
+func FuelPump(v ...Variant) string { return styled(828, v) }
 
 // Wheel returns the "wheel" emoji 🛞.
-func Wheel(v ...Variant) string { return Lookup("wheel", v...) }
+func Wheel(v ...Variant) string { return styled(1769, v) }
 
 // PoliceCarLight returns the "police car light" emoji 🚨.
-func PoliceCarLight(v ...Variant) string { return Lookup("police car light", v...) }
+func PoliceCarLight(v ...Variant) string { return styled(1398, v) }
 
-// HorizontalTrafficLight returns the "horizontal traffic light" emoji 🚥.
-func HorizontalTrafficLight(v ...Variant) string { return Lookup("horizontal traffic light", v...) }
+// HorizontalTrafficLight returns the "horizontal traffic light" emoji
+// 🚥.
+func HorizontalTrafficLight(v ...Variant) string { return styled(920, v) }
 
 // VerticalTrafficLight returns the "vertical traffic light" emoji 🚦.
-func VerticalTrafficLight(v ...Variant) string { return Lookup("vertical traffic light", v...) }
+func VerticalTrafficLight(v ...Variant) string { return styled(1740, v) }
 
 // StopSign returns the "stop sign" emoji 🛑.
-func StopSign(v ...Variant) string { return Lookup("stop sign", v...) }
+func StopSign(v ...Variant) string { return styled(1628, v) }
 
 // Construction returns the "construction" emoji 🚧.
-func Construction(v ...Variant) string { return Lookup("construction", v...) }
+func Construction(v ...Variant) string { return styled(303, v) }
 
 // Anchor returns the "anchor" emoji ⚓.
-func Anchor(v ...Variant) string { return Lookup("anchor", v...) }
+func Anchor(v ...Variant) string { return styled(83, v) }
 
 // RingBuoy returns the "ring buoy" emoji 🛟.
-func RingBuoy(v ...Variant) string { return Lookup("ring buoy", v...) }
+func RingBuoy(v ...Variant) string { return styled(1482, v) }
 
 // Sailboat returns the "sailboat" emoji ⛵.
-func Sailboat(v ...Variant) string { return Lookup("sailboat", v...) }
+func Sailboat(v ...Variant) string { return styled(1504, v) }
 
 // Canoe returns the "canoe" emoji 🛶.
-func Canoe(v ...Variant) string { return Lookup("canoe", v...) }
+func Canoe(v ...Variant) string { return styled(228, v) }
 
 // Speedboat returns the "speedboat" emoji 🚤.
-func Speedboat(v ...Variant) string { return Lookup("speedboat", v...) }
+func Speedboat(v ...Variant) string { return styled(1605, v) }
 
 // PassengerShip returns the "passenger ship" emoji 🛳️.
-func PassengerShip(v ...Variant) string { return Lookup("passenger ship", v...) }
+func PassengerShip(v ...Variant) string { return styled(1298, v) }
 
 // Ferry returns the "ferry" emoji ⛴️.
-func Ferry(v ...Variant) string { return Lookup("ferry", v...) }
+func Ferry(v ...Variant) string { return styled(508, v) }
 
 // MotorBoat returns the "motor boat" emoji 🛥️.
-func MotorBoat(v ...Variant) string { return Lookup("motor boat", v...) }
+func MotorBoat(v ...Variant) string { return styled(1191, v) }
 
 // Ship returns the "ship" emoji 🚢.
-func Ship(v ...Variant) string { return Lookup("ship", v...) }
+func Ship(v ...Variant) string { return styled(1538, v) }
 
 // Airplane returns the "airplane" emoji ✈️.
-func Airplane(v ...Variant) string { return Lookup("airplane", v...) }
+func Airplane(v ...Variant) string { return styled(72, v) }
 
 // SmallAirplane returns the "small airplane" emoji 🛩️.
-func SmallAirplane(v ...Variant) string { return Lookup("small airplane", v...) }
+func SmallAirplane(v ...Variant) string { return styled(1566, v) }
 
 // AirplaneDeparture returns the "airplane departure" emoji 🛫.
-func AirplaneDeparture(v ...Variant) string { return Lookup("airplane departure", v...) }
+func AirplaneDeparture(v ...Variant) string { return styled(74, v) }
 
 // AirplaneArrival returns the "airplane arrival" emoji 🛬.
-func AirplaneArrival(v ...Variant) string { return Lookup("airplane arrival", v...) }
+func AirplaneArrival(v ...Variant) string { return styled(73, v) }
 
 // Parachute returns the "parachute" emoji 🪂.
-func Parachute(v ...Variant) string { return Lookup("parachute", v...) }
+func Parachute(v ...Variant) string { return styled(1293, v) }
 
 // Seat returns the "seat" emoji 💺.
-func Seat(v ...Variant) string { return Lookup("seat", v...) }
+func Seat(v ...Variant) string { return styled(1522, v) }
 
 // Helicopter returns the "helicopter" emoji 🚁.
-func Helicopter(v ...Variant) string { return Lookup("helicopter", v...) }
+func Helicopter(v ...Variant) string { return styled(906, v) }
 
 // SuspensionRailway returns the "suspension railway" emoji 🚟.
-func SuspensionRailway(v ...Variant) string { return Lookup("suspension railway", v...) }
+func SuspensionRailway(v ...Variant) string { return styled(1649, v) }
 
 // MountainCableway returns the "mountain cableway" emoji 🚠.
-func MountainCableway(v ...Variant) string { return Lookup("mountain cableway", v...) }
+func MountainCableway(v ...Variant) string { return styled(1198, v) }
 
 // AerialTramway returns the "aerial tramway" emoji 🚡.
-func AerialTramway(v ...Variant) string { return Lookup("aerial tramway", v...) }
+func AerialTramway(v ...Variant) string { return styled(71, v) }
 
 // Satellite returns the "satellite" emoji 🛰️.
-func Satellite(v ...Variant) string { return Lookup("satellite", v...) }
+func Satellite(v ...Variant) string { return styled(1510, v) }
 
 // Rocket returns the "rocket" emoji 🚀.
-func Rocket(v ...Variant) string { return Lookup("rocket", v...) }
+func Rocket(v ...Variant) string { return styled(1487, v) }
 
 // FlyingSaucer returns the "flying saucer" emoji 🛸.
-func FlyingSaucer(v ...Variant) string { return Lookup("flying saucer", v...) }
+func FlyingSaucer(v ...Variant) string { return styled(804, v) }
 
 // BellhopBell returns the "bellhop bell" emoji 🛎️.
-func BellhopBell(v ...Variant) string { return Lookup("bellhop bell", v...) }
+func BellhopBell(v ...Variant) string { return styled(145, v) }
 
 // Luggage returns the "luggage" emoji 🧳.
-func Luggage(v ...Variant) string { return Lookup("luggage", v...) }
+func Luggage(v ...Variant) string { return styled(1053, v) }
 
 // HourglassDone returns the "hourglass done" emoji ⌛.
-func HourglassDone(v ...Variant) string { return Lookup("hourglass done", v...) }
+func HourglassDone(v ...Variant) string { return styled(931, v) }
 
 // HourglassNotDone returns the "hourglass not done" emoji ⏳.
-func HourglassNotDone(v ...Variant) string { return Lookup("hourglass not done", v...) }
+func HourglassNotDone(v ...Variant) string { return styled(932, v) }
 
 // Watch returns the "watch" emoji ⌚.
-func Watch(v ...Variant) string { return Lookup("watch", v...) }
+func Watch(v ...Variant) string { return styled(1755, v) }
 
 // AlarmClock returns the "alarm clock" emoji ⏰.
-func AlarmClock(v ...Variant) string { return Lookup("alarm clock", v...) }
+func AlarmClock(v ...Variant) string { return styled(75, v) }
 
 // Stopwatch returns the "stopwatch" emoji ⏱️.
-func Stopwatch(v ...Variant) string { return Lookup("stopwatch", v...) }
+func Stopwatch(v ...Variant) string { return styled(1629, v) }
 
 // TimerClock returns the "timer clock" emoji ⏲️.
-func TimerClock(v ...Variant) string { return Lookup("timer clock", v...) }
+func TimerClock(v ...Variant) string { return styled(1688, v) }
 
 // MantelpieceClock returns the "mantelpiece clock" emoji 🕰️.
-func MantelpieceClock(v ...Variant) string { return Lookup("mantelpiece clock", v...) }
+func MantelpieceClock(v ...Variant) string { return styled(1138, v) }
 
 // TwelveOclock returns the "twelve o’clock" emoji 🕛.
-func TwelveOclock(v ...Variant) string { return Lookup("twelve o’clock", v...) }
+func TwelveOclock(v ...Variant) string { return styled(1721, v) }
 
 // TwelveThirty returns the "twelve-thirty" emoji 🕧.
-func TwelveThirty(v ...Variant) string { return Lookup("twelve-thirty", v...) }
+func TwelveThirty(v ...Variant) string { return styled(1722, v) }
 
 // OneOclock returns the "one o’clock" emoji 🕐.
-func OneOclock(v ...Variant) string { return Lookup("one o’clock", v...) }
+func OneOclock(v ...Variant) string { return styled(1259, v) }
 
 // OneThirty returns the "one-thirty" emoji 🕜.
-func OneThirty(v ...Variant) string { return Lookup("one-thirty", v...) }
+func OneThirty(v ...Variant) string { return styled(1261, v) }
 
 // TwoOclock returns the "two o’clock" emoji 🕑.
-func TwoOclock(v ...Variant) string { return Lookup("two o’clock", v...) }
+func TwoOclock(v ...Variant) string { return styled(1724, v) }
 
 // TwoThirty returns the "two-thirty" emoji 🕝.
-func TwoThirty(v ...Variant) string { return Lookup("two-thirty", v...) }
+func TwoThirty(v ...Variant) string { return styled(1726, v) }
 
 // ThreeOclock returns the "three o’clock" emoji 🕒.
-func ThreeOclock(v ...Variant) string { return Lookup("three o’clock", v...) }
+func ThreeOclock(v ...Variant) string { return styled(1681, v) }
 
 // ThreeThirty returns the "three-thirty" emoji 🕞.
-func ThreeThirty(v ...Variant) string { return Lookup("three-thirty", v...) }
+func ThreeThirty(v ...Variant) string { return styled(1682, v) }
 
 // FourOclock returns the "four o’clock" emoji 🕓.
-func FourOclock(v ...Variant) string { return Lookup("four o’clock", v...) }
+func FourOclock(v ...Variant) string { return styled(818, v) }
 
 // FourThirty returns the "four-thirty" emoji 🕟.
-func FourThirty(v ...Variant) string { return Lookup("four-thirty", v...) }
+func FourThirty(v ...Variant) string { return styled(819, v) }
 
 // FiveOclock returns the "five o’clock" emoji 🕔.
-func FiveOclock(v ...Variant) string { return Lookup("five o’clock", v...) }
+func FiveOclock(v ...Variant) string { return styled(527, v) }
 
 // FiveThirty returns the "five-thirty" emoji 🕠.
-func FiveThirty(v ...Variant) string { return Lookup("five-thirty", v...) }
+func FiveThirty(v ...Variant) string { return styled(528, v) }
 
 // SixOclock returns the "six o’clock" emoji 🕕.
-func SixOclock(v ...Variant) string { return Lookup("six o’clock", v...) }
+func SixOclock(v ...Variant) string { return styled(1551, v) }
 
 // SixThirty returns the "six-thirty" emoji 🕡.
-func SixThirty(v ...Variant) string { return Lookup("six-thirty", v...) }
+func SixThirty(v ...Variant) string { return styled(1552, v) }
 
 // SevenOclock returns the "seven o’clock" emoji 🕖.
-func SevenOclock(v ...Variant) string { return Lookup("seven o’clock", v...) }
+func SevenOclock(v ...Variant) string { return styled(1527, v) }
 
 // SevenThirty returns the "seven-thirty" emoji 🕢.
-func SevenThirty(v ...Variant) string { return Lookup("seven-thirty", v...) }
+func SevenThirty(v ...Variant) string { return styled(1528, v) }
 
 // EightOclock returns the "eight o’clock" emoji 🕗.
-func EightOclock(v ...Variant) string { return Lookup("eight o’clock", v...) }
+func EightOclock(v ...Variant) string { return styled(413, v) }
 
 // EightThirty returns the "eight-thirty" emoji 🕣.
-func EightThirty(v ...Variant) string { return Lookup("eight-thirty", v...) }
+func EightThirty(v ...Variant) string { return styled(416, v) }
 
 // NineOclock returns the "nine o’clock" emoji 🕘.
-func NineOclock(v ...Variant) string { return Lookup("nine o’clock", v...) }
+func NineOclock(v ...Variant) string { return styled(1227, v) }
 
 // NineThirty returns the "nine-thirty" emoji 🕤.
-func NineThirty(v ...Variant) string { return Lookup("nine-thirty", v...) }
+func NineThirty(v ...Variant) string { return styled(1228, v) }
 
 // TenOclock returns the "ten o’clock" emoji 🕙.
-func TenOclock(v ...Variant) string { return Lookup("ten o’clock", v...) }
+func TenOclock(v ...Variant) string { return styled(1671, v) }
 
 // TenThirty returns the "ten-thirty" emoji 🕥.
-func TenThirty(v ...Variant) string { return Lookup("ten-thirty", v...) }
+func TenThirty(v ...Variant) string { return styled(1672, v) }
 
 // ElevenOclock returns the "eleven o’clock" emoji 🕚.
-func ElevenOclock(v ...Variant) string { return Lookup("eleven o’clock", v...) }
+func ElevenOclock(v ...Variant) string { return styled(421, v) }
 
 // ElevenThirty returns the "eleven-thirty" emoji 🕦.
-func ElevenThirty(v ...Variant) string { return Lookup("eleven-thirty", v...) }
+func ElevenThirty(v ...Variant) string { return styled(422, v) }
 
 // NewMoon returns the "new moon" emoji 🌑.
-func NewMoon(v ...Variant) string { return Lookup("new moon", v...) }
+func NewMoon(v ...Variant) string { return styled(1222, v) }
 
 // WaxingCrescentMoon returns the "waxing crescent moon" emoji 🌒.
-func WaxingCrescentMoon(v ...Variant) string { return Lookup("waxing crescent moon", v...) }
+func WaxingCrescentMoon(v ...Variant) string { return styled(1763, v) }
 
 // FirstQuarterMoon returns the "first quarter moon" emoji 🌓.
-func FirstQuarterMoon(v ...Variant) string { return Lookup("first quarter moon", v...) }
+func FirstQuarterMoon(v ...Variant) string { return styled(522, v) }
 
 // WaxingGibbousMoon returns the "waxing gibbous moon" emoji 🌔.
-func WaxingGibbousMoon(v ...Variant) string { return Lookup("waxing gibbous moon", v...) }
+func WaxingGibbousMoon(v ...Variant) string { return styled(1764, v) }
 
 // FullMoon returns the "full moon" emoji 🌕.
-func FullMoon(v ...Variant) string { return Lookup("full moon", v...) }
+func FullMoon(v ...Variant) string { return styled(829, v) }
 
 // WaningGibbousMoon returns the "waning gibbous moon" emoji 🌖.
-func WaningGibbousMoon(v ...Variant) string { return Lookup("waning gibbous moon", v...) }
+func WaningGibbousMoon(v ...Variant) string { return styled(1752, v) }
 
 // LastQuarterMoon returns the "last quarter moon" emoji 🌗.
-func LastQuarterMoon(v ...Variant) string { return Lookup("last quarter moon", v...) }
+func LastQuarterMoon(v ...Variant) string { return styled(1007, v) }
 
 // WaningCrescentMoon returns the "waning crescent moon" emoji 🌘.
-func WaningCrescentMoon(v ...Variant) string { return Lookup("waning crescent moon", v...) }
+func WaningCrescentMoon(v ...Variant) string { return styled(1751, v) }
 
 // CrescentMoon returns the "crescent moon" emoji 🌙.
-func CrescentMoon(v ...Variant) string { return Lookup("crescent moon", v...) }
+func CrescentMoon(v ...Variant) string { return styled(326, v) }
 
 // NewMoonFace returns the "new moon face" emoji 🌚.
-func NewMoonFace(v ...Variant) string { return Lookup("new moon face", v...) }
+func NewMoonFace(v ...Variant) string { return styled(1223, v) }
 
 // FirstQuarterMoonFace returns the "first quarter moon face" emoji 🌛.
-func FirstQuarterMoonFace(v ...Variant) string { return Lookup("first quarter moon face", v...) }
+func FirstQuarterMoonFace(v ...Variant) string { return styled(523, v) }
 
 // LastQuarterMoonFace returns the "last quarter moon face" emoji 🌜.
-func LastQuarterMoonFace(v ...Variant) string { return Lookup("last quarter moon face", v...) }
+func LastQuarterMoonFace(v ...Variant) string { return styled(1008, v) }
 
 // Thermometer returns the "thermometer" emoji 🌡️.
-func Thermometer(v ...Variant) string { return Lookup("thermometer", v...) }
+func Thermometer(v ...Variant) string { return styled(1676, v) }
 
 // Sun returns the "sun" emoji ☀️.
-func Sun(v ...Variant) string { return Lookup("sun", v...) }
+func Sun(v ...Variant) string { return styled(1635, v) }
 
 // FullMoonFace returns the "full moon face" emoji 🌝.
-func FullMoonFace(v ...Variant) string { return Lookup("full moon face", v...) }
+func FullMoonFace(v ...Variant) string { return styled(830, v) }
 
 // SunWithFace returns the "sun with face" emoji 🌞.
-func SunWithFace(v ...Variant) string { return Lookup("sun with face", v...) }
+func SunWithFace(v ...Variant) string { return styled(1640, v) }
 
 // RingedPlanet returns the "ringed planet" emoji 🪐.
-func RingedPlanet(v ...Variant) string { return Lookup("ringed planet", v...) }
+func RingedPlanet(v ...Variant) string { return styled(1483, v) }
 
 // Star returns the "star" emoji ⭐.
-func Star(v ...Variant) string { return Lookup("star", v...) }
+func Star(v ...Variant) string { return styled(1620, v) }
 
 // GlowingStar returns the "glowing star" emoji 🌟.
-func GlowingStar(v ...Variant) string { return Lookup("glowing star", v...) }
+func GlowingStar(v ...Variant) string { return styled(848, v) }
 
 // ShootingStar returns the "shooting star" emoji 🌠.
-func ShootingStar(v ...Variant) string { return Lookup("shooting star", v...) }
+func ShootingStar(v ...Variant) string { return styled(1539, v) }
 
 // MilkyWay returns the "milky way" emoji 🌌.
-func MilkyWay(v ...Variant) string { return Lookup("milky way", v...) }
+func MilkyWay(v ...Variant) string { return styled(1171, v) }
 
 // Cloud returns the "cloud" emoji ☁️.
-func Cloud(v ...Variant) string { return Lookup("cloud", v...) }
+func Cloud(v ...Variant) string { return styled(280, v) }
 
 // SunBehindCloud returns the "sun behind cloud" emoji ⛅.
-func SunBehindCloud(v ...Variant) string { return Lookup("sun behind cloud", v...) }
+func SunBehindCloud(v ...Variant) string { return styled(1636, v) }
 
-// CloudWithLightningAndRain returns the "cloud with lightning and rain" emoji ⛈️.
-func CloudWithLightningAndRain(v ...Variant) string {
-	return Lookup("cloud with lightning and rain", v...)
-}
+// CloudWithLightningAndRain returns the "cloud with lightning and rain"
+// emoji ⛈️.
+func CloudWithLightningAndRain(v ...Variant) string { return styled(282, v) }
 
 // SunBehindSmallCloud returns the "sun behind small cloud" emoji 🌤️.
-func SunBehindSmallCloud(v ...Variant) string { return Lookup("sun behind small cloud", v...) }
+func SunBehindSmallCloud(v ...Variant) string { return styled(1639, v) }
 
 // SunBehindLargeCloud returns the "sun behind large cloud" emoji 🌥️.
-func SunBehindLargeCloud(v ...Variant) string { return Lookup("sun behind large cloud", v...) }
+func SunBehindLargeCloud(v ...Variant) string { return styled(1637, v) }
 
 // SunBehindRainCloud returns the "sun behind rain cloud" emoji 🌦️.
-func SunBehindRainCloud(v ...Variant) string { return Lookup("sun behind rain cloud", v...) }
+func SunBehindRainCloud(v ...Variant) string { return styled(1638, v) }
 
 // CloudWithRain returns the "cloud with rain" emoji 🌧️.
-func CloudWithRain(v ...Variant) string { return Lookup("cloud with rain", v...) }
+func CloudWithRain(v ...Variant) string { return styled(283, v) }
 
 // CloudWithSnow returns the "cloud with snow" emoji 🌨️.
-func CloudWithSnow(v ...Variant) string { return Lookup("cloud with snow", v...) }
+func CloudWithSnow(v ...Variant) string { return styled(284, v) }
 
 // CloudWithLightning returns the "cloud with lightning" emoji 🌩️.
-func CloudWithLightning(v ...Variant) string { return Lookup("cloud with lightning", v...) }
+func CloudWithLightning(v ...Variant) string { return styled(281, v) }
 
 // Tornado returns the "tornado" emoji 🌪️.
-func Tornado(v ...Variant) string { return Lookup("tornado", v...) }
+func Tornado(v ...Variant) string { return styled(1697, v) }
 
 // Fog returns the "fog" emoji 🌫️.
-func Fog(v ...Variant) string { return Lookup("fog", v...) }
+func Fog(v ...Variant) string { return styled(805, v) }
 
 // WindFace returns the "wind face" emoji 🌬️.
-func WindFace(v ...Variant) string { return Lookup("wind face", v...) }
+func WindFace(v ...Variant) string { return styled(1786, v) }
 
 // Cyclone returns the "cyclone" emoji 🌀.
-func Cyclone(v ...Variant) string { return Lookup("cyclone", v...) }
+func Cyclone(v ...Variant) string { return styled(351, v) }
 
 // Rainbow returns the "rainbow" emoji 🌈.
-func Rainbow(v ...Variant) string { return Lookup("rainbow", v...) }
+func Rainbow(v ...Variant) string { return styled(1438, v) }
 
 // ClosedUmbrella returns the "closed umbrella" emoji 🌂.
-func ClosedUmbrella(v ...Variant) string { return Lookup("closed umbrella", v...) }
+func ClosedUmbrella(v ...Variant) string { return styled(279, v) }
 
 // Umbrella returns the "umbrella" emoji ☂️.
-func Umbrella(v ...Variant) string { return Lookup("umbrella", v...) }
+func Umbrella(v ...Variant) string { return styled(1727, v) }
 
 // UmbrellaWithRainDrops returns the "umbrella with rain drops" emoji ☔.
-func UmbrellaWithRainDrops(v ...Variant) string { return Lookup("umbrella with rain drops", v...) }
+func UmbrellaWithRainDrops(v ...Variant) string { return styled(1729, v) }
 
 // UmbrellaOnGround returns the "umbrella on ground" emoji ⛱️.
-func UmbrellaOnGround(v ...Variant) string { return Lookup("umbrella on ground", v...) }
+func UmbrellaOnGround(v ...Variant) string { return styled(1728, v) }
 
 // HighVoltage returns the "high voltage" emoji ⚡.
-func HighVoltage(v ...Variant) string { return Lookup("high voltage", v...) }
+func HighVoltage(v ...Variant) string { return styled(909, v) }
 
 // Snowflake returns the "snowflake" emoji ❄️.
-func Snowflake(v ...Variant) string { return Lookup("snowflake", v...) }
+func Snowflake(v ...Variant) string { return styled(1585, v) }
 
 // Snowman returns the "snowman" emoji ☃️.
-func Snowman(v ...Variant) string { return Lookup("snowman", v...) }
+func Snowman(v ...Variant) string { return styled(1586, v) }
 
 // SnowmanWithoutSnow returns the "snowman without snow" emoji ⛄.
-func SnowmanWithoutSnow(v ...Variant) string { return Lookup("snowman without snow", v...) }
+func SnowmanWithoutSnow(v ...Variant) string { return styled(1587, v) }
 
 // Comet returns the "comet" emoji ☄️.
-func Comet(v ...Variant) string { return Lookup("comet", v...) }
+func Comet(v ...Variant) string { return styled(296, v) }
 
 // Fire returns the "fire" emoji 🔥.
-func Fire(v ...Variant) string { return Lookup("fire", v...) }
+func Fire(v ...Variant) string { return styled(516, v) }
 
 // Droplet returns the "droplet" emoji 💧.
-func Droplet(v ...Variant) string { return Lookup("droplet", v...) }
+func Droplet(v ...Variant) string { return styled(401, v) }
 
 // WaterWave returns the "water wave" emoji 🌊.
-func WaterWave(v ...Variant) string { return Lookup("water wave", v...) }
+func WaterWave(v ...Variant) string { return styled(1759, v) }
 
 // Activities
 
 // JackOLantern returns the "jack-o-lantern" emoji 🎃.
-func JackOLantern(v ...Variant) string { return Lookup("jack-o-lantern", v...) }
+func JackOLantern(v ...Variant) string { return styled(956, v) }
 
 // ChristmasTree returns the "Christmas tree" emoji 🎄.
-func ChristmasTree(v ...Variant) string { return Lookup("Christmas tree", v...) }
+func ChristmasTree(v ...Variant) string { return styled(14, v) }
 
 // Fireworks returns the "fireworks" emoji 🎆.
-func Fireworks(v ...Variant) string { return Lookup("fireworks", v...) }
+func Fireworks(v ...Variant) string { return styled(521, v) }
 
 // Sparkler returns the "sparkler" emoji 🎇.
-func Sparkler(v ...Variant) string { return Lookup("sparkler", v...) }
+func Sparkler(v ...Variant) string { return styled(1596, v) }
 
 // Firecracker returns the "firecracker" emoji 🧨.
-func Firecracker(v ...Variant) string { return Lookup("firecracker", v...) }
+func Firecracker(v ...Variant) string { return styled(519, v) }
 
 // Sparkles returns the "sparkles" emoji ✨.
-func Sparkles(v ...Variant) string { return Lookup("sparkles", v...) }
+func Sparkles(v ...Variant) string { return styled(1597, v) }
 
 // Balloon returns the "balloon" emoji 🎈.
-func Balloon(v ...Variant) string { return Lookup("balloon", v...) }
+func Balloon(v ...Variant) string { return styled(120, v) }
 
 // PartyPopper returns the "party popper" emoji 🎉.
-func PartyPopper(v ...Variant) string { return Lookup("party popper", v...) }
+func PartyPopper(v ...Variant) string { return styled(1296, v) }
 
 // ConfettiBall returns the "confetti ball" emoji 🎊.
-func ConfettiBall(v ...Variant) string { return Lookup("confetti ball", v...) }
+func ConfettiBall(v ...Variant) string { return styled(300, v) }
 
 // TanabataTree returns the "tanabata tree" emoji 🎋.
-func TanabataTree(v ...Variant) string { return Lookup("tanabata tree", v...) }
+func TanabataTree(v ...Variant) string { return styled(1658, v) }
 
 // PineDecoration returns the "pine decoration" emoji 🎍.
-func PineDecoration(v ...Variant) string { return Lookup("pine decoration", v...) }
+func PineDecoration(v ...Variant) string { return styled(1381, v) }
 
 // JapaneseDolls returns the "Japanese dolls" emoji 🎎.
-func JapaneseDolls(v ...Variant) string { return Lookup("Japanese dolls", v...) }
+func JapaneseDolls(v ...Variant) string { return styled(20, v) }
 
 // CarpStreamer returns the "carp streamer" emoji 🎏.
-func CarpStreamer(v ...Variant) string { return Lookup("carp streamer", v...) }
+func CarpStreamer(v ...Variant) string { return styled(233, v) }
 
 // WindChime returns the "wind chime" emoji 🎐.
-func WindChime(v ...Variant) string { return Lookup("wind chime", v...) }
+func WindChime(v ...Variant) string { return styled(1785, v) }
 
 // MoonViewingCeremony returns the "moon viewing ceremony" emoji 🎑.
-func MoonViewingCeremony(v ...Variant) string { return Lookup("moon viewing ceremony", v...) }
+func MoonViewingCeremony(v ...Variant) string { return styled(1187, v) }
 
 // RedEnvelope returns the "red envelope" emoji 🧧.
-func RedEnvelope(v ...Variant) string { return Lookup("red envelope", v...) }
+func RedEnvelope(v ...Variant) string { return styled(1452, v) }
 
 // Ribbon returns the "ribbon" emoji 🎀.
-func Ribbon(v ...Variant) string { return Lookup("ribbon", v...) }
+func Ribbon(v ...Variant) string { return styled(1470, v) }
 
 // WrappedGift returns the "wrapped gift" emoji 🎁.
-func WrappedGift(v ...Variant) string { return Lookup("wrapped gift", v...) }
+func WrappedGift(v ...Variant) string { return styled(1882, v) }
 
 // ReminderRibbon returns the "reminder ribbon" emoji 🎗️.
-func ReminderRibbon(v ...Variant) string { return Lookup("reminder ribbon", v...) }
+func ReminderRibbon(v ...Variant) string { return styled(1462, v) }
 
 // AdmissionTickets returns the "admission tickets" emoji 🎟️.
-func AdmissionTickets(v ...Variant) string { return Lookup("admission tickets", v...) }
+func AdmissionTickets(v ...Variant) string { return styled(70, v) }
 
 // Ticket returns the "ticket" emoji 🎫.
-func Ticket(v ...Variant) string { return Lookup("ticket", v...) }
+func Ticket(v ...Variant) string { return styled(1685, v) }
 
 // MilitaryMedal returns the "military medal" emoji 🎖️.
-func MilitaryMedal(v ...Variant) string { return Lookup("military medal", v...) }
+func MilitaryMedal(v ...Variant) string { return styled(1170, v) }
 
 // Trophy returns the "trophy" emoji 🏆.
-func Trophy(v ...Variant) string { return Lookup("trophy", v...) }
+func Trophy(v ...Variant) string { return styled(1713, v) }
 
 // SportsMedal returns the "sports medal" emoji 🏅.
-func SportsMedal(v ...Variant) string { return Lookup("sports medal", v...) }
+func SportsMedal(v ...Variant) string { return styled(1615, v) }
 
 // FirstPlaceMedal returns the "1st place medal" emoji 🥇.
-func FirstPlaceMedal(v ...Variant) string { return Lookup("1st place medal", v...) }
+func FirstPlaceMedal(v ...Variant) string { return styled(0, v) }
 
 // SecondPlaceMedal returns the "2nd place medal" emoji 🥈.
-func SecondPlaceMedal(v ...Variant) string { return Lookup("2nd place medal", v...) }
+func SecondPlaceMedal(v ...Variant) string { return styled(1, v) }
 
 // ThirdPlaceMedal returns the "3rd place medal" emoji 🥉.
-func ThirdPlaceMedal(v ...Variant) string { return Lookup("3rd place medal", v...) }
+func ThirdPlaceMedal(v ...Variant) string { return styled(2, v) }
 
 // SoccerBall returns the "soccer ball" emoji ⚽.
-func SoccerBall(v ...Variant) string { return Lookup("soccer ball", v...) }
+func SoccerBall(v ...Variant) string { return styled(1589, v) }
 
 // Baseball returns the "baseball" emoji ⚾.
-func Baseball(v ...Variant) string { return Lookup("baseball", v...) }
+func Baseball(v ...Variant) string { return styled(127, v) }
 
 // Softball returns the "softball" emoji 🥎.
-func Softball(v ...Variant) string { return Lookup("softball", v...) }
+func Softball(v ...Variant) string { return styled(1592, v) }
 
 // Basketball returns the "basketball" emoji 🏀.
-func Basketball(v ...Variant) string { return Lookup("basketball", v...) }
+func Basketball(v ...Variant) string { return styled(129, v) }
 
 // Volleyball returns the "volleyball" emoji 🏐.
-func Volleyball(v ...Variant) string { return Lookup("volleyball", v...) }
+func Volleyball(v ...Variant) string { return styled(1748, v) }
 
 // AmericanFootball returns the "american football" emoji 🏈.
-func AmericanFootball(v ...Variant) string { return Lookup("american football", v...) }
+func AmericanFootball(v ...Variant) string { return styled(80, v) }
 
 // RugbyFootball returns the "rugby football" emoji 🏉.
-func RugbyFootball(v ...Variant) string { return Lookup("rugby football", v...) }
+func RugbyFootball(v ...Variant) string { return styled(1498, v) }
 
 // Tennis returns the "tennis" emoji 🎾.
-func Tennis(v ...Variant) string { return Lookup("tennis", v...) }
+func Tennis(v ...Variant) string { return styled(1673, v) }
 
 // FlyingDisc returns the "flying disc" emoji 🥏.
-func FlyingDisc(v ...Variant) string { return Lookup("flying disc", v...) }
+func FlyingDisc(v ...Variant) string { return styled(803, v) }
 
 // Bowling returns the "bowling" emoji 🎳.
-func Bowling(v ...Variant) string { return Lookup("bowling", v...) }
+func Bowling(v ...Variant) string { return styled(185, v) }
 
 // CricketGame returns the "cricket game" emoji 🏏.
-func CricketGame(v ...Variant) string { return Lookup("cricket game", v...) }
+func CricketGame(v ...Variant) string { return styled(328, v) }
 
 // FieldHockey returns the "field hockey" emoji 🏑.
-func FieldHockey(v ...Variant) string { return Lookup("field hockey", v...) }
+func FieldHockey(v ...Variant) string { return styled(509, v) }
 
 // IceHockey returns the "ice hockey" emoji 🏒.
-func IceHockey(v ...Variant) string { return Lookup("ice hockey", v...) }
+func IceHockey(v ...Variant) string { return styled(942, v) }
 
 // Lacrosse returns the "lacrosse" emoji 🥍.
-func Lacrosse(v ...Variant) string { return Lookup("lacrosse", v...) }
+func Lacrosse(v ...Variant) string { return styled(1000, v) }
 
 // PingPong returns the "ping pong" emoji 🏓.
-func PingPong(v ...Variant) string { return Lookup("ping pong", v...) }
+func PingPong(v ...Variant) string { return styled(1383, v) }
 
 // Badminton returns the "badminton" emoji 🏸.
-func Badminton(v ...Variant) string { return Lookup("badminton", v...) }
+func Badminton(v ...Variant) string { return styled(113, v) }
 
 // BoxingGlove returns the "boxing glove" emoji 🥊.
-func BoxingGlove(v ...Variant) string { return Lookup("boxing glove", v...) }
+func BoxingGlove(v ...Variant) string { return styled(186, v) }
 
 // MartialArtsUniform returns the "martial arts uniform" emoji 🥋.
-func MartialArtsUniform(v ...Variant) string { return Lookup("martial arts uniform", v...) }
+func MartialArtsUniform(v ...Variant) string { return styled(1144, v) }
 
 // GoalNet returns the "goal net" emoji 🥅.
-func GoalNet(v ...Variant) string { return Lookup("goal net", v...) }
+func GoalNet(v ...Variant) string { return styled(849, v) }
 
 // FlagInHole returns the "flag in hole" emoji ⛳.
-func FlagInHole(v ...Variant) string { return Lookup("flag in hole", v...) }
+func FlagInHole(v ...Variant) string { return styled(529, v) }
 
 // IceSkate returns the "ice skate" emoji ⛸️.
-func IceSkate(v ...Variant) string { return Lookup("ice skate", v...) }
+func IceSkate(v ...Variant) string { return styled(943, v) }
 
 // FishingPole returns the "fishing pole" emoji 🎣.
-func FishingPole(v ...Variant) string { return Lookup("fishing pole", v...) }
+func FishingPole(v ...Variant) string { return styled(526, v) }
 
 // DivingMask returns the "diving mask" emoji 🤿.
-func DivingMask(v ...Variant) string { return Lookup("diving mask", v...) }
+func DivingMask(v ...Variant) string { return styled(374, v) }
 
 // RunningShirt returns the "running shirt" emoji 🎽.
-func RunningShirt(v ...Variant) string { return Lookup("running shirt", v...) }
+func RunningShirt(v ...Variant) string { return styled(1499, v) }
 
 // Skis returns the "skis" emoji 🎿.
-func Skis(v ...Variant) string { return Lookup("skis", v...) }
+func Skis(v ...Variant) string { return styled(1555, v) }
 
 // Sled returns the "sled" emoji 🛷.
-func Sled(v ...Variant) string { return Lookup("sled", v...) }
+func Sled(v ...Variant) string { return styled(1559, v) }
 
 // CurlingStone returns the "curling stone" emoji 🥌.
-func CurlingStone(v ...Variant) string { return Lookup("curling stone", v...) }
+func CurlingStone(v ...Variant) string { return styled(344, v) }
 
 // Bullseye returns the "bullseye" emoji 🎯.
-func Bullseye(v ...Variant) string { return Lookup("bullseye", v...) }
+func Bullseye(v ...Variant) string { return styled(210, v) }
 
 // YoYo returns the "yo-yo" emoji 🪀.
-func YoYo(v ...Variant) string { return Lookup("yo-yo", v...) }
+func YoYo(v ...Variant) string { return styled(1893, v) }
 
 // Kite returns the "kite" emoji 🪁.
-func Kite(v ...Variant) string { return Lookup("kite", v...) }
+func Kite(v ...Variant) string { return styled(994, v) }
 
 // WaterPistol returns the "water pistol" emoji 🔫.
-func WaterPistol(v ...Variant) string { return Lookup("water pistol", v...) }
+func WaterPistol(v ...Variant) string { return styled(1758, v) }
 
 // Pool8Ball returns the "pool 8 ball" emoji 🎱.
-func Pool8Ball(v ...Variant) string { return Lookup("pool 8 ball", v...) }
+func Pool8Ball(v ...Variant) string { return styled(1401, v) }
 
 // CrystalBall returns the "crystal ball" emoji 🔮.
-func CrystalBall(v ...Variant) string { return Lookup("crystal ball", v...) }
+func CrystalBall(v ...Variant) string { return styled(340, v) }
 
 // MagicWand returns the "magic wand" emoji 🪄.
-func MagicWand(v ...Variant) string { return Lookup("magic wand", v...) }
+func MagicWand(v ...Variant) string { return styled(1057, v) }
 
 // VideoGame returns the "video game" emoji 🎮.
-func VideoGame(v ...Variant) string { return Lookup("video game", v...) }
+func VideoGame(v ...Variant) string { return styled(1744, v) }
 
 // Joystick returns the "joystick" emoji 🕹️.
-func Joystick(v ...Variant) string { return Lookup("joystick", v...) }
+func Joystick(v ...Variant) string { return styled(961, v) }
 
 // SlotMachine returns the "slot machine" emoji 🎰.
-func SlotMachine(v ...Variant) string { return Lookup("slot machine", v...) }
+func SlotMachine(v ...Variant) string { return styled(1564, v) }
 
 // GameDie returns the "game die" emoji 🎲.
-func GameDie(v ...Variant) string { return Lookup("game die", v...) }
+func GameDie(v ...Variant) string { return styled(832, v) }
 
 // PuzzlePiece returns the "puzzle piece" emoji 🧩.
-func PuzzlePiece(v ...Variant) string { return Lookup("puzzle piece", v...) }
+func PuzzlePiece(v ...Variant) string { return styled(1428, v) }
 
 // TeddyBear returns the "teddy bear" emoji 🧸.
-func TeddyBear(v ...Variant) string { return Lookup("teddy bear", v...) }
+func TeddyBear(v ...Variant) string { return styled(1666, v) }
 
 // Pinata returns the "piñata" emoji 🪅.
-func Pinata(v ...Variant) string { return Lookup("piñata", v...) }
+func Pinata(v ...Variant) string { return styled(1387, v) }
 
 // MirrorBall returns the "mirror ball" emoji 🪩.
-func MirrorBall(v ...Variant) string { return Lookup("mirror ball", v...) }
+func MirrorBall(v ...Variant) string { return styled(1175, v) }
 
 // NestingDolls returns the "nesting dolls" emoji 🪆.
-func NestingDolls(v ...Variant) string { return Lookup("nesting dolls", v...) }
+func NestingDolls(v ...Variant) string { return styled(1220, v) }
 
 // SpadeSuit returns the "spade suit" emoji ♠️.
-func SpadeSuit(v ...Variant) string { return Lookup("spade suit", v...) }
+func SpadeSuit(v ...Variant) string { return styled(1593, v) }
 
 // HeartSuit returns the "heart suit" emoji ♥️.
-func HeartSuit(v ...Variant) string { return Lookup("heart suit", v...) }
+func HeartSuit(v ...Variant) string { return styled(900, v) }
 
 // DiamondSuit returns the "diamond suit" emoji ♦️.
-func DiamondSuit(v ...Variant) string { return Lookup("diamond suit", v...) }
+func DiamondSuit(v ...Variant) string { return styled(367, v) }
 
 // ClubSuit returns the "club suit" emoji ♣️.
-func ClubSuit(v ...Variant) string { return Lookup("club suit", v...) }
+func ClubSuit(v ...Variant) string { return styled(286, v) }
 
 // ChessPawn returns the "chess pawn" emoji ♟️.
-func ChessPawn(v ...Variant) string { return Lookup("chess pawn", v...) }
+func ChessPawn(v ...Variant) string { return styled(253, v) }
 
 // Joker returns the "joker" emoji 🃏.
-func Joker(v ...Variant) string { return Lookup("joker", v...) }
+func Joker(v ...Variant) string { return styled(960, v) }
 
 // MahjongRedDragon returns the "mahjong red dragon" emoji 🀄.
-func MahjongRedDragon(v ...Variant) string { return Lookup("mahjong red dragon", v...) }
+func MahjongRedDragon(v ...Variant) string { return styled(1061, v) }
 
 // FlowerPlayingCards returns the "flower playing cards" emoji 🎴.
-func FlowerPlayingCards(v ...Variant) string { return Lookup("flower playing cards", v...) }
+func FlowerPlayingCards(v ...Variant) string { return styled(799, v) }
 
 // PerformingArts returns the "performing arts" emoji 🎭.
-func PerformingArts(v ...Variant) string { return Lookup("performing arts", v...) }
+func PerformingArts(v ...Variant) string { return styled(1316, v) }
 
 // FramedPicture returns the "framed picture" emoji 🖼️.
-func FramedPicture(v ...Variant) string { return Lookup("framed picture", v...) }
+func FramedPicture(v ...Variant) string { return styled(821, v) }
 
 // ArtistPalette returns the "artist palette" emoji 🎨.
-func ArtistPalette(v ...Variant) string { return Lookup("artist palette", v...) }
+func ArtistPalette(v ...Variant) string { return styled(93, v) }
 
 // Thread returns the "thread" emoji 🧵.
-func Thread(v ...Variant) string { return Lookup("thread", v...) }
+func Thread(v ...Variant) string { return styled(1680, v) }
 
 // SewingNeedle returns the "sewing needle" emoji 🪡.
-func SewingNeedle(v ...Variant) string { return Lookup("sewing needle", v...) }
+func SewingNeedle(v ...Variant) string { return styled(1529, v) }
 
 // Yarn returns the "yarn" emoji 🧶.
-func Yarn(v ...Variant) string { return Lookup("yarn", v...) }
+func Yarn(v ...Variant) string { return styled(1886, v) }
 
 // Knot returns the "knot" emoji 🪢.
-func Knot(v ...Variant) string { return Lookup("knot", v...) }
+func Knot(v ...Variant) string { return styled(996, v) }
 
 // Objects
 
 // Glasses returns the "glasses" emoji 👓.
-func Glasses(v ...Variant) string { return Lookup("glasses", v...) }
+func Glasses(v ...Variant) string { return styled(842, v) }
 
 // Sunglasses returns the "sunglasses" emoji 🕶️.
-func Sunglasses(v ...Variant) string { return Lookup("sunglasses", v...) }
+func Sunglasses(v ...Variant) string { return styled(1642, v) }
 
 // Goggles returns the "goggles" emoji 🥽.
-func Goggles(v ...Variant) string { return Lookup("goggles", v...) }
+func Goggles(v ...Variant) string { return styled(852, v) }
 
 // LabCoat returns the "lab coat" emoji 🥼.
-func LabCoat(v ...Variant) string { return Lookup("lab coat", v...) }
+func LabCoat(v ...Variant) string { return styled(998, v) }
 
 // SafetyVest returns the "safety vest" emoji 🦺.
-func SafetyVest(v ...Variant) string { return Lookup("safety vest", v...) }
+func SafetyVest(v ...Variant) string { return styled(1503, v) }
 
 // Necktie returns the "necktie" emoji 👔.
-func Necktie(v ...Variant) string { return Lookup("necktie", v...) }
+func Necktie(v ...Variant) string { return styled(1217, v) }
 
 // TShirt returns the "t-shirt" emoji 👕.
-func TShirt(v ...Variant) string { return Lookup("t-shirt", v...) }
+func TShirt(v ...Variant) string { return styled(1654, v) }
 
 // Jeans returns the "jeans" emoji 👖.
-func Jeans(v ...Variant) string { return Lookup("jeans", v...) }
+func Jeans(v ...Variant) string { return styled(958, v) }
 
 // Scarf returns the "scarf" emoji 🧣.
-func Scarf(v ...Variant) string { return Lookup("scarf", v...) }
+func Scarf(v ...Variant) string { return styled(1514, v) }
 
 // Gloves returns the "gloves" emoji 🧤.
-func Gloves(v ...Variant) string { return Lookup("gloves", v...) }
+func Gloves(v ...Variant) string { return styled(847, v) }
 
 // Coat returns the "coat" emoji 🧥.
-func Coat(v ...Variant) string { return Lookup("coat", v...) }
+func Coat(v ...Variant) string { return styled(288, v) }
 
 // Socks returns the "socks" emoji 🧦.
-func Socks(v ...Variant) string { return Lookup("socks", v...) }
+func Socks(v ...Variant) string { return styled(1590, v) }
 
 // Dress returns the "dress" emoji 👗.
-func Dress(v ...Variant) string { return Lookup("dress", v...) }
+func Dress(v ...Variant) string { return styled(398, v) }
 
 // Kimono returns the "kimono" emoji 👘.
-func Kimono(v ...Variant) string { return Lookup("kimono", v...) }
+func Kimono(v ...Variant) string { return styled(982, v) }
 
 // Sari returns the "sari" emoji 🥻.
-func Sari(v ...Variant) string { return Lookup("sari", v...) }
+func Sari(v ...Variant) string { return styled(1509, v) }
 
 // OnePieceSwimsuit returns the "one-piece swimsuit" emoji 🩱.
-func OnePieceSwimsuit(v ...Variant) string { return Lookup("one-piece swimsuit", v...) }
+func OnePieceSwimsuit(v ...Variant) string { return styled(1260, v) }
 
 // Briefs returns the "briefs" emoji 🩲.
-func Briefs(v ...Variant) string { return Lookup("briefs", v...) }
+func Briefs(v ...Variant) string { return styled(194, v) }
 
 // Shorts returns the "shorts" emoji 🩳.
-func Shorts(v ...Variant) string { return Lookup("shorts", v...) }
+func Shorts(v ...Variant) string { return styled(1543, v) }
 
 // Bikini returns the "bikini" emoji 👙.
-func Bikini(v ...Variant) string { return Lookup("bikini", v...) }
+func Bikini(v ...Variant) string { return styled(149, v) }
 
 // WomansClothes returns the "woman’s clothes" emoji 👚.
-func WomansClothes(v ...Variant) string { return Lookup("woman’s clothes", v...) }
+func WomansClothes(v ...Variant) string { return styled(1870, v) }
 
 // FoldingHandFan returns the "folding hand fan" emoji 🪭.
-func FoldingHandFan(v ...Variant) string { return Lookup("folding hand fan", v...) }
+func FoldingHandFan(v ...Variant) string { return styled(808, v) }
 
 // Purse returns the "purse" emoji 👛.
-func Purse(v ...Variant) string { return Lookup("purse", v...) }
+func Purse(v ...Variant) string { return styled(1426, v) }
 
 // Handbag returns the "handbag" emoji 👜.
-func Handbag(v ...Variant) string { return Lookup("handbag", v...) }
+func Handbag(v ...Variant) string { return styled(886, v) }
 
 // ClutchBag returns the "clutch bag" emoji 👝.
-func ClutchBag(v ...Variant) string { return Lookup("clutch bag", v...) }
+func ClutchBag(v ...Variant) string { return styled(287, v) }
 
 // ShoppingBags returns the "shopping bags" emoji 🛍️.
-func ShoppingBags(v ...Variant) string { return Lookup("shopping bags", v...) }
+func ShoppingBags(v ...Variant) string { return styled(1540, v) }
 
 // Backpack returns the "backpack" emoji 🎒.
-func Backpack(v ...Variant) string { return Lookup("backpack", v...) }
+func Backpack(v ...Variant) string { return styled(110, v) }
 
 // ThongSandal returns the "thong sandal" emoji 🩴.
-func ThongSandal(v ...Variant) string { return Lookup("thong sandal", v...) }
+func ThongSandal(v ...Variant) string { return styled(1678, v) }
 
 // MansShoe returns the "man’s shoe" emoji 👞.
-func MansShoe(v ...Variant) string { return Lookup("man’s shoe", v...) }
+func MansShoe(v ...Variant) string { return styled(1140, v) }
 
 // RunningShoe returns the "running shoe" emoji 👟.
-func RunningShoe(v ...Variant) string { return Lookup("running shoe", v...) }
+func RunningShoe(v ...Variant) string { return styled(1500, v) }
 
 // HikingBoot returns the "hiking boot" emoji 🥾.
-func HikingBoot(v ...Variant) string { return Lookup("hiking boot", v...) }
+func HikingBoot(v ...Variant) string { return styled(912, v) }
 
 // FlatShoe returns the "flat shoe" emoji 🥿.
-func FlatShoe(v ...Variant) string { return Lookup("flat shoe", v...) }
+func FlatShoe(v ...Variant) string { return styled(794, v) }
 
 // HighHeeledShoe returns the "high-heeled shoe" emoji 👠.
-func HighHeeledShoe(v ...Variant) string { return Lookup("high-heeled shoe", v...) }
+func HighHeeledShoe(v ...Variant) string { return styled(910, v) }
 
 // WomansSandal returns the "woman’s sandal" emoji 👡.
-func WomansSandal(v ...Variant) string { return Lookup("woman’s sandal", v...) }
+func WomansSandal(v ...Variant) string { return styled(1872, v) }
 
 // BalletShoes returns the "ballet shoes" emoji 🩰.
-func BalletShoes(v ...Variant) string { return Lookup("ballet shoes", v...) }
+func BalletShoes(v ...Variant) string { return styled(119, v) }
 
 // WomansBoot returns the "woman’s boot" emoji 👢.
-func WomansBoot(v ...Variant) string { return Lookup("woman’s boot", v...) }
+func WomansBoot(v ...Variant) string { return styled(1869, v) }
 
 // HairPick returns the "hair pick" emoji 🪮.
-func HairPick(v ...Variant) string { return Lookup("hair pick", v...) }
+func HairPick(v ...Variant) string { return styled(876, v) }
 
 // Crown returns the "crown" emoji 👑.
-func Crown(v ...Variant) string { return Lookup("crown", v...) }
+func Crown(v ...Variant) string { return styled(336, v) }
 
 // WomansHat returns the "woman’s hat" emoji 👒.
-func WomansHat(v ...Variant) string { return Lookup("woman’s hat", v...) }
+func WomansHat(v ...Variant) string { return styled(1871, v) }
 
 // TopHat returns the "top hat" emoji 🎩.
-func TopHat(v ...Variant) string { return Lookup("top hat", v...) }
+func TopHat(v ...Variant) string { return styled(1696, v) }
 
 // GraduationCap returns the "graduation cap" emoji 🎓.
-func GraduationCap(v ...Variant) string { return Lookup("graduation cap", v...) }
+func GraduationCap(v ...Variant) string { return styled(855, v) }
 
 // BilledCap returns the "billed cap" emoji 🧢.
-func BilledCap(v ...Variant) string { return Lookup("billed cap", v...) }
+func BilledCap(v ...Variant) string { return styled(150, v) }
 
 // MilitaryHelmet returns the "military helmet" emoji 🪖.
-func MilitaryHelmet(v ...Variant) string { return Lookup("military helmet", v...) }
+func MilitaryHelmet(v ...Variant) string { return styled(1169, v) }
 
 // RescueWorkersHelmet returns the "rescue worker’s helmet" emoji ⛑️.
-func RescueWorkersHelmet(v ...Variant) string { return Lookup("rescue worker’s helmet", v...) }
+func RescueWorkersHelmet(v ...Variant) string { return styled(1465, v) }
 
 // PrayerBeads returns the "prayer beads" emoji 📿.
-func PrayerBeads(v ...Variant) string { return Lookup("prayer beads", v...) }
+func PrayerBeads(v ...Variant) string { return styled(1414, v) }
 
 // Lipstick returns the "lipstick" emoji 💄.
-func Lipstick(v ...Variant) string { return Lookup("lipstick", v...) }
+func Lipstick(v ...Variant) string { return styled(1034, v) }
 
 // Ring returns the "ring" emoji 💍.
-func Ring(v ...Variant) string { return Lookup("ring", v...) }
+func Ring(v ...Variant) string { return styled(1481, v) }
 
 // GemStone returns the "gem stone" emoji 💎.
-func GemStone(v ...Variant) string { return Lookup("gem stone", v...) }
+func GemStone(v ...Variant) string { return styled(835, v) }
 
 // MutedSpeaker returns the "muted speaker" emoji 🔇.
-func MutedSpeaker(v ...Variant) string { return Lookup("muted speaker", v...) }
+func MutedSpeaker(v ...Variant) string { return styled(1211, v) }
 
 // SpeakerLowVolume returns the "speaker low volume" emoji 🔈.
-func SpeakerLowVolume(v ...Variant) string { return Lookup("speaker low volume", v...) }
+func SpeakerLowVolume(v ...Variant) string { return styled(1601, v) }
 
 // SpeakerMediumVolume returns the "speaker medium volume" emoji 🔉.
-func SpeakerMediumVolume(v ...Variant) string { return Lookup("speaker medium volume", v...) }
+func SpeakerMediumVolume(v ...Variant) string { return styled(1602, v) }
 
 // SpeakerHighVolume returns the "speaker high volume" emoji 🔊.
-func SpeakerHighVolume(v ...Variant) string { return Lookup("speaker high volume", v...) }
+func SpeakerHighVolume(v ...Variant) string { return styled(1600, v) }
 
 // Loudspeaker returns the "loudspeaker" emoji 📢.
-func Loudspeaker(v ...Variant) string { return Lookup("loudspeaker", v...) }
+func Loudspeaker(v ...Variant) string { return styled(1048, v) }
 
 // Megaphone returns the "megaphone" emoji 📣.
-func Megaphone(v ...Variant) string { return Lookup("megaphone", v...) }
+func Megaphone(v ...Variant) string { return styled(1151, v) }
 
 // PostalHorn returns the "postal horn" emoji 📯.
-func PostalHorn(v ...Variant) string { return Lookup("postal horn", v...) }
+func PostalHorn(v ...Variant) string { return styled(1404, v) }
 
 // Bell returns the "bell" emoji 🔔.
-func Bell(v ...Variant) string { return Lookup("bell", v...) }
+func Bell(v ...Variant) string { return styled(142, v) }
 
 // BellWithSlash returns the "bell with slash" emoji 🔕.
-func BellWithSlash(v ...Variant) string { return Lookup("bell with slash", v...) }
+func BellWithSlash(v ...Variant) string { return styled(144, v) }
 
 // MusicalScore returns the "musical score" emoji 🎼.
-func MusicalScore(v ...Variant) string { return Lookup("musical score", v...) }
+func MusicalScore(v ...Variant) string { return styled(1210, v) }
 
 // MusicalNote returns the "musical note" emoji 🎵.
-func MusicalNote(v ...Variant) string { return Lookup("musical note", v...) }
+func MusicalNote(v ...Variant) string { return styled(1208, v) }
 
 // MusicalNotes returns the "musical notes" emoji 🎶.
-func MusicalNotes(v ...Variant) string { return Lookup("musical notes", v...) }
+func MusicalNotes(v ...Variant) string { return styled(1209, v) }
 
 // StudioMicrophone returns the "studio microphone" emoji 🎙️.
-func StudioMicrophone(v ...Variant) string { return Lookup("studio microphone", v...) }
+func StudioMicrophone(v ...Variant) string { return styled(1633, v) }
 
 // LevelSlider returns the "level slider" emoji 🎚️.
-func LevelSlider(v ...Variant) string { return Lookup("level slider", v...) }
+func LevelSlider(v ...Variant) string { return styled(1026, v) }
 
 // ControlKnobs returns the "control knobs" emoji 🎛️.
-func ControlKnobs(v ...Variant) string { return Lookup("control knobs", v...) }
+func ControlKnobs(v ...Variant) string { return styled(305, v) }
 
 // Microphone returns the "microphone" emoji 🎤.
-func Microphone(v ...Variant) string { return Lookup("microphone", v...) }
+func Microphone(v ...Variant) string { return styled(1166, v) }
 
 // Headphone returns the "headphone" emoji 🎧.
-func Headphone(v ...Variant) string { return Lookup("headphone", v...) }
+func Headphone(v ...Variant) string { return styled(892, v) }
 
 // Radio returns the "radio" emoji 📻.
-func Radio(v ...Variant) string { return Lookup("radio", v...) }
+func Radio(v ...Variant) string { return styled(1433, v) }
 
 // Saxophone returns the "saxophone" emoji 🎷.
-func Saxophone(v ...Variant) string { return Lookup("saxophone", v...) }
+func Saxophone(v ...Variant) string { return styled(1513, v) }
 
 // Trumpet returns the "trumpet" emoji 🎺.
-func Trumpet(v ...Variant) string { return Lookup("trumpet", v...) }
+func Trumpet(v ...Variant) string { return styled(1716, v) }
 
 // Trombone returns the "trombone" emoji 🪊.
-func Trombone(v ...Variant) string { return Lookup("trombone", v...) }
+func Trombone(v ...Variant) string { return styled(1712, v) }
 
 // Accordion returns the "accordion" emoji 🪗.
-func Accordion(v ...Variant) string { return Lookup("accordion", v...) }
+func Accordion(v ...Variant) string { return styled(68, v) }
 
 // Guitar returns the "guitar" emoji 🎸.
-func Guitar(v ...Variant) string { return Lookup("guitar", v...) }
+func Guitar(v ...Variant) string { return styled(875, v) }
 
 // MusicalKeyboard returns the "musical keyboard" emoji 🎹.
-func MusicalKeyboard(v ...Variant) string { return Lookup("musical keyboard", v...) }
+func MusicalKeyboard(v ...Variant) string { return styled(1207, v) }
 
 // Violin returns the "violin" emoji 🎻.
-func Violin(v ...Variant) string { return Lookup("violin", v...) }
+func Violin(v ...Variant) string { return styled(1746, v) }
 
 // Banjo returns the "banjo" emoji 🪕.
-func Banjo(v ...Variant) string { return Lookup("banjo", v...) }
+func Banjo(v ...Variant) string { return styled(123, v) }
 
 // Drum returns the "drum" emoji 🥁.
-func Drum(v ...Variant) string { return Lookup("drum", v...) }
+func Drum(v ...Variant) string { return styled(402, v) }
 
 // LongDrum returns the "long drum" emoji 🪘.
-func LongDrum(v ...Variant) string { return Lookup("long drum", v...) }
+func LongDrum(v ...Variant) string { return styled(1044, v) }
 
 // Maracas returns the "maracas" emoji 🪇.
-func Maracas(v ...Variant) string { return Lookup("maracas", v...) }
+func Maracas(v ...Variant) string { return styled(1143, v) }
 
 // Flute returns the "flute" emoji 🪈.
-func Flute(v ...Variant) string { return Lookup("flute", v...) }
+func Flute(v ...Variant) string { return styled(801, v) }
 
 // Harp returns the "harp" emoji 🪉.
-func Harp(v ...Variant) string { return Lookup("harp", v...) }
+func Harp(v ...Variant) string { return styled(888, v) }
 
 // MobilePhone returns the "mobile phone" emoji 📱.
-func MobilePhone(v ...Variant) string { return Lookup("mobile phone", v...) }
+func MobilePhone(v ...Variant) string { return styled(1177, v) }
 
 // MobilePhoneWithArrow returns the "mobile phone with arrow" emoji 📲.
-func MobilePhoneWithArrow(v ...Variant) string { return Lookup("mobile phone with arrow", v...) }
+func MobilePhoneWithArrow(v ...Variant) string { return styled(1179, v) }
 
 // Telephone returns the "telephone" emoji ☎️.
-func Telephone(v ...Variant) string { return Lookup("telephone", v...) }
+func Telephone(v ...Variant) string { return styled(1667, v) }
 
 // TelephoneReceiver returns the "telephone receiver" emoji 📞.
-func TelephoneReceiver(v ...Variant) string { return Lookup("telephone receiver", v...) }
+func TelephoneReceiver(v ...Variant) string { return styled(1668, v) }
 
 // Pager returns the "pager" emoji 📟.
-func Pager(v ...Variant) string { return Lookup("pager", v...) }
+func Pager(v ...Variant) string { return styled(1284, v) }
 
 // FaxMachine returns the "fax machine" emoji 📠.
-func FaxMachine(v ...Variant) string { return Lookup("fax machine", v...) }
+func FaxMachine(v ...Variant) string { return styled(503, v) }
 
 // Battery returns the "battery" emoji 🔋.
-func Battery(v ...Variant) string { return Lookup("battery", v...) }
+func Battery(v ...Variant) string { return styled(132, v) }
 
 // LowBattery returns the "low battery" emoji 🪫.
-func LowBattery(v ...Variant) string { return Lookup("low battery", v...) }
+func LowBattery(v ...Variant) string { return styled(1052, v) }
 
 // ElectricPlug returns the "electric plug" emoji 🔌.
-func ElectricPlug(v ...Variant) string { return Lookup("electric plug", v...) }
+func ElectricPlug(v ...Variant) string { return styled(418, v) }
 
 // Laptop returns the "laptop" emoji 💻.
-func Laptop(v ...Variant) string { return Lookup("laptop", v...) }
+func Laptop(v ...Variant) string { return styled(1004, v) }
 
 // DesktopComputer returns the "desktop computer" emoji 🖥️.
-func DesktopComputer(v ...Variant) string { return Lookup("desktop computer", v...) }
+func DesktopComputer(v ...Variant) string { return styled(365, v) }
 
 // Printer returns the "printer" emoji 🖨️.
-func Printer(v ...Variant) string { return Lookup("printer", v...) }
+func Printer(v ...Variant) string { return styled(1421, v) }
 
 // Keyboard returns the "keyboard" emoji ⌨️.
-func Keyboard(v ...Variant) string { return Lookup("keyboard", v...) }
+func Keyboard(v ...Variant) string { return styled(966, v) }
 
 // ComputerMouse returns the "computer mouse" emoji 🖱️.
-func ComputerMouse(v ...Variant) string { return Lookup("computer mouse", v...) }
+func ComputerMouse(v ...Variant) string { return styled(299, v) }
 
 // Trackball returns the "trackball" emoji 🖲️.
-func Trackball(v ...Variant) string { return Lookup("trackball", v...) }
+func Trackball(v ...Variant) string { return styled(1698, v) }
 
 // ComputerDisk returns the "computer disk" emoji 💽.
-func ComputerDisk(v ...Variant) string { return Lookup("computer disk", v...) }
+func ComputerDisk(v ...Variant) string { return styled(298, v) }
 
 // FloppyDisk returns the "floppy disk" emoji 💾.
-func FloppyDisk(v ...Variant) string { return Lookup("floppy disk", v...) }
+func FloppyDisk(v ...Variant) string { return styled(798, v) }
 
 // OpticalDisk returns the "optical disk" emoji 💿.
-func OpticalDisk(v ...Variant) string { return Lookup("optical disk", v...) }
+func OpticalDisk(v ...Variant) string { return styled(1268, v) }
 
 // Dvd returns the "dvd" emoji 📀.
-func Dvd(v ...Variant) string { return Lookup("dvd", v...) }
+func Dvd(v ...Variant) string { return styled(405, v) }
 
 // Abacus returns the "abacus" emoji 🧮.
-func Abacus(v ...Variant) string { return Lookup("abacus", v...) }
+func Abacus(v ...Variant) string { return styled(67, v) }
 
 // MovieCamera returns the "movie camera" emoji 🎥.
-func MovieCamera(v ...Variant) string { return Lookup("movie camera", v...) }
+func MovieCamera(v ...Variant) string { return styled(1204, v) }
 
 // FilmFrames returns the "film frames" emoji 🎞️.
-func FilmFrames(v ...Variant) string { return Lookup("film frames", v...) }
+func FilmFrames(v ...Variant) string { return styled(513, v) }
 
 // FilmProjector returns the "film projector" emoji 📽️.
-func FilmProjector(v ...Variant) string { return Lookup("film projector", v...) }
+func FilmProjector(v ...Variant) string { return styled(514, v) }
 
 // ClapperBoard returns the "clapper board" emoji 🎬.
-func ClapperBoard(v ...Variant) string { return Lookup("clapper board", v...) }
+func ClapperBoard(v ...Variant) string { return styled(269, v) }
 
 // Television returns the "television" emoji 📺.
-func Television(v ...Variant) string { return Lookup("television", v...) }
+func Television(v ...Variant) string { return styled(1670, v) }
 
 // Camera returns the "camera" emoji 📷.
-func Camera(v ...Variant) string { return Lookup("camera", v...) }
+func Camera(v ...Variant) string { return styled(222, v) }
 
 // CameraWithFlash returns the "camera with flash" emoji 📸.
-func CameraWithFlash(v ...Variant) string { return Lookup("camera with flash", v...) }
+func CameraWithFlash(v ...Variant) string { return styled(223, v) }
 
 // VideoCamera returns the "video camera" emoji 📹.
-func VideoCamera(v ...Variant) string { return Lookup("video camera", v...) }
+func VideoCamera(v ...Variant) string { return styled(1743, v) }
 
 // Videocassette returns the "videocassette" emoji 📼.
-func Videocassette(v ...Variant) string { return Lookup("videocassette", v...) }
+func Videocassette(v ...Variant) string { return styled(1745, v) }
 
-// MagnifyingGlassTiltedLeft returns the "magnifying glass tilted left" emoji 🔍.
-func MagnifyingGlassTiltedLeft(v ...Variant) string {
-	return Lookup("magnifying glass tilted left", v...)
-}
+// MagnifyingGlassTiltedLeft returns the "magnifying glass tilted left"
+// emoji 🔍.
+func MagnifyingGlassTiltedLeft(v ...Variant) string { return styled(1059, v) }
 
-// MagnifyingGlassTiltedRight returns the "magnifying glass tilted right" emoji 🔎.
-func MagnifyingGlassTiltedRight(v ...Variant) string {
-	return Lookup("magnifying glass tilted right", v...)
-}
+// MagnifyingGlassTiltedRight returns the "magnifying glass tilted right"
+// emoji 🔎.
+func MagnifyingGlassTiltedRight(v ...Variant) string { return styled(1060, v) }
 
 // Candle returns the "candle" emoji 🕯️.
-func Candle(v ...Variant) string { return Lookup("candle", v...) }
+func Candle(v ...Variant) string { return styled(225, v) }
 
 // LightBulb returns the "light bulb" emoji 💡.
-func LightBulb(v ...Variant) string { return Lookup("light bulb", v...) }
+func LightBulb(v ...Variant) string { return styled(1028, v) }
 
 // Flashlight returns the "flashlight" emoji 🔦.
-func Flashlight(v ...Variant) string { return Lookup("flashlight", v...) }
+func Flashlight(v ...Variant) string { return styled(793, v) }
 
 // RedPaperLantern returns the "red paper lantern" emoji 🏮.
-func RedPaperLantern(v ...Variant) string { return Lookup("red paper lantern", v...) }
+func RedPaperLantern(v ...Variant) string { return styled(1455, v) }
 
 // DiyaLamp returns the "diya lamp" emoji 🪔.
-func DiyaLamp(v ...Variant) string { return Lookup("diya lamp", v...) }
+func DiyaLamp(v ...Variant) string { return styled(375, v) }
 
-// NotebookWithDecorativeCover returns the "notebook with decorative cover" emoji 📔.
-func NotebookWithDecorativeCover(v ...Variant) string {
-	return Lookup("notebook with decorative cover", v...)
-}
+// NotebookWithDecorativeCover returns the "notebook with decorative cover"
+// emoji 📔.
+func NotebookWithDecorativeCover(v ...Variant) string { return styled(1240, v) }
 
 // ClosedBook returns the "closed book" emoji 📕.
-func ClosedBook(v ...Variant) string { return Lookup("closed book", v...) }
+func ClosedBook(v ...Variant) string { return styled(276, v) }
 
 // OpenBook returns the "open book" emoji 📖.
-func OpenBook(v ...Variant) string { return Lookup("open book", v...) }
+func OpenBook(v ...Variant) string { return styled(1263, v) }
 
 // GreenBook returns the "green book" emoji 📗.
-func GreenBook(v ...Variant) string { return Lookup("green book", v...) }
+func GreenBook(v ...Variant) string { return styled(858, v) }
 
 // BlueBook returns the "blue book" emoji 📘.
-func BlueBook(v ...Variant) string { return Lookup("blue book", v...) }
+func BlueBook(v ...Variant) string { return styled(169, v) }
 
 // OrangeBook returns the "orange book" emoji 📙.
-func OrangeBook(v ...Variant) string { return Lookup("orange book", v...) }
+func OrangeBook(v ...Variant) string { return styled(1269, v) }
 
 // Books returns the "books" emoji 📚.
-func Books(v ...Variant) string { return Lookup("books", v...) }
+func Books(v ...Variant) string { return styled(179, v) }
 
 // Notebook returns the "notebook" emoji 📓.
-func Notebook(v ...Variant) string { return Lookup("notebook", v...) }
+func Notebook(v ...Variant) string { return styled(1239, v) }
 
 // Ledger returns the "ledger" emoji 📒.
-func Ledger(v ...Variant) string { return Lookup("ledger", v...) }
+func Ledger(v ...Variant) string { return styled(1014, v) }
 
 // PageWithCurl returns the "page with curl" emoji 📃.
-func PageWithCurl(v ...Variant) string { return Lookup("page with curl", v...) }
+func PageWithCurl(v ...Variant) string { return styled(1283, v) }
 
 // Scroll returns the "scroll" emoji 📜.
-func Scroll(v ...Variant) string { return Lookup("scroll", v...) }
+func Scroll(v ...Variant) string { return styled(1520, v) }
 
 // PageFacingUp returns the "page facing up" emoji 📄.
-func PageFacingUp(v ...Variant) string { return Lookup("page facing up", v...) }
+func PageFacingUp(v ...Variant) string { return styled(1282, v) }
 
 // Newspaper returns the "newspaper" emoji 📰.
-func Newspaper(v ...Variant) string { return Lookup("newspaper", v...) }
+func Newspaper(v ...Variant) string { return styled(1224, v) }
 
 // RolledUpNewspaper returns the "rolled-up newspaper" emoji 🗞️.
-func RolledUpNewspaper(v ...Variant) string { return Lookup("rolled-up newspaper", v...) }
+func RolledUpNewspaper(v ...Variant) string { return styled(1489, v) }
 
 // BookmarkTabs returns the "bookmark tabs" emoji 📑.
-func BookmarkTabs(v ...Variant) string { return Lookup("bookmark tabs", v...) }
+func BookmarkTabs(v ...Variant) string { return styled(178, v) }
 
 // Bookmark returns the "bookmark" emoji 🔖.
-func Bookmark(v ...Variant) string { return Lookup("bookmark", v...) }
+func Bookmark(v ...Variant) string { return styled(177, v) }
 
 // Label returns the "label" emoji 🏷️.
-func Label(v ...Variant) string { return Lookup("label", v...) }
+func Label(v ...Variant) string { return styled(999, v) }
 
 // Coin returns the "coin" emoji 🪙.
-func Coin(v ...Variant) string { return Lookup("coin", v...) }
+func Coin(v ...Variant) string { return styled(293, v) }
 
 // MoneyBag returns the "money bag" emoji 💰.
-func MoneyBag(v ...Variant) string { return Lookup("money bag", v...) }
+func MoneyBag(v ...Variant) string { return styled(1180, v) }
 
 // TreasureChest returns the "treasure chest" emoji 🪎.
-func TreasureChest(v ...Variant) string { return Lookup("treasure chest", v...) }
+func TreasureChest(v ...Variant) string { return styled(1706, v) }
 
 // YenBanknote returns the "yen banknote" emoji 💴.
-func YenBanknote(v ...Variant) string { return Lookup("yen banknote", v...) }
+func YenBanknote(v ...Variant) string { return styled(1891, v) }
 
 // DollarBanknote returns the "dollar banknote" emoji 💵.
-func DollarBanknote(v ...Variant) string { return Lookup("dollar banknote", v...) }
+func DollarBanknote(v ...Variant) string { return styled(381, v) }
 
 // EuroBanknote returns the "euro banknote" emoji 💶.
-func EuroBanknote(v ...Variant) string { return Lookup("euro banknote", v...) }
+func EuroBanknote(v ...Variant) string { return styled(428, v) }
 
 // PoundBanknote returns the "pound banknote" emoji 💷.
-func PoundBanknote(v ...Variant) string { return Lookup("pound banknote", v...) }
+func PoundBanknote(v ...Variant) string { return styled(1411, v) }
 
 // MoneyWithWings returns the "money with wings" emoji 💸.
-func MoneyWithWings(v ...Variant) string { return Lookup("money with wings", v...) }
+func MoneyWithWings(v ...Variant) string { return styled(1181, v) }
 
 // CreditCard returns the "credit card" emoji 💳.
-func CreditCard(v ...Variant) string { return Lookup("credit card", v...) }
+func CreditCard(v ...Variant) string { return styled(325, v) }
 
 // Receipt returns the "receipt" emoji 🧾.
-func Receipt(v ...Variant) string { return Lookup("receipt", v...) }
+func Receipt(v ...Variant) string { return styled(1447, v) }
 
-// ChartIncreasingWithYen returns the "chart increasing with yen" emoji 💹.
-func ChartIncreasingWithYen(v ...Variant) string { return Lookup("chart increasing with yen", v...) }
+// ChartIncreasingWithYen returns the "chart increasing with yen" emoji
+// 💹.
+func ChartIncreasingWithYen(v ...Variant) string { return styled(245, v) }
 
 // Envelope returns the "envelope" emoji ✉️.
-func Envelope(v ...Variant) string { return Lookup("envelope", v...) }
+func Envelope(v ...Variant) string { return styled(426, v) }
 
 // EMail returns the "e-mail" emoji 📧.
-func EMail(v ...Variant) string { return Lookup("e-mail", v...) }
+func EMail(v ...Variant) string { return styled(406, v) }
 
 // IncomingEnvelope returns the "incoming envelope" emoji 📨.
-func IncomingEnvelope(v ...Variant) string { return Lookup("incoming envelope", v...) }
+func IncomingEnvelope(v ...Variant) string { return styled(946, v) }
 
 // EnvelopeWithArrow returns the "envelope with arrow" emoji 📩.
-func EnvelopeWithArrow(v ...Variant) string { return Lookup("envelope with arrow", v...) }
+func EnvelopeWithArrow(v ...Variant) string { return styled(427, v) }
 
 // OutboxTray returns the "outbox tray" emoji 📤.
-func OutboxTray(v ...Variant) string { return Lookup("outbox tray", v...) }
+func OutboxTray(v ...Variant) string { return styled(1277, v) }
 
 // InboxTray returns the "inbox tray" emoji 📥.
-func InboxTray(v ...Variant) string { return Lookup("inbox tray", v...) }
+func InboxTray(v ...Variant) string { return styled(945, v) }
 
 // Package returns the "package" emoji 📦.
-func Package(v ...Variant) string { return Lookup("package", v...) }
+func Package(v ...Variant) string { return styled(1281, v) }
 
-// ClosedMailboxWithRaisedFlag returns the "closed mailbox with raised flag" emoji 📫.
-func ClosedMailboxWithRaisedFlag(v ...Variant) string {
-	return Lookup("closed mailbox with raised flag", v...)
-}
+// ClosedMailboxWithRaisedFlag returns the "closed mailbox with raised
+// flag" emoji 📫.
+func ClosedMailboxWithRaisedFlag(v ...Variant) string { return styled(278, v) }
 
-// ClosedMailboxWithLoweredFlag returns the "closed mailbox with lowered flag" emoji 📪.
-func ClosedMailboxWithLoweredFlag(v ...Variant) string {
-	return Lookup("closed mailbox with lowered flag", v...)
-}
+// ClosedMailboxWithLoweredFlag returns the "closed mailbox with lowered
+// flag" emoji 📪.
+func ClosedMailboxWithLoweredFlag(v ...Variant) string { return styled(277, v) }
 
-// OpenMailboxWithRaisedFlag returns the "open mailbox with raised flag" emoji 📬.
-func OpenMailboxWithRaisedFlag(v ...Variant) string {
-	return Lookup("open mailbox with raised flag", v...)
-}
+// OpenMailboxWithRaisedFlag returns the "open mailbox with raised flag"
+// emoji 📬.
+func OpenMailboxWithRaisedFlag(v ...Variant) string { return styled(1267, v) }
 
-// OpenMailboxWithLoweredFlag returns the "open mailbox with lowered flag" emoji 📭.
-func OpenMailboxWithLoweredFlag(v ...Variant) string {
-	return Lookup("open mailbox with lowered flag", v...)
-}
+// OpenMailboxWithLoweredFlag returns the "open mailbox with lowered flag"
+// emoji 📭.
+func OpenMailboxWithLoweredFlag(v ...Variant) string { return styled(1266, v) }
 
 // Postbox returns the "postbox" emoji 📮.
-func Postbox(v ...Variant) string { return Lookup("postbox", v...) }
+func Postbox(v ...Variant) string { return styled(1405, v) }
 
 // BallotBoxWithBallot returns the "ballot box with ballot" emoji 🗳️.
-func BallotBoxWithBallot(v ...Variant) string { return Lookup("ballot box with ballot", v...) }
+func BallotBoxWithBallot(v ...Variant) string { return styled(121, v) }
 
 // Pencil returns the "pencil" emoji ✏️.
-func Pencil(v ...Variant) string { return Lookup("pencil", v...) }
+func Pencil(v ...Variant) string { return styled(1309, v) }
 
 // BlackNib returns the "black nib" emoji ✒️.
-func BlackNib(v ...Variant) string { return Lookup("black nib", v...) }
+func BlackNib(v ...Variant) string { return styled(164, v) }
 
 // FountainPen returns the "fountain pen" emoji 🖋️.
-func FountainPen(v ...Variant) string { return Lookup("fountain pen", v...) }
+func FountainPen(v ...Variant) string { return styled(816, v) }
 
 // Pen returns the "pen" emoji 🖊️.
-func Pen(v ...Variant) string { return Lookup("pen", v...) }
+func Pen(v ...Variant) string { return styled(1308, v) }
 
 // Paintbrush returns the "paintbrush" emoji 🖌️.
-func Paintbrush(v ...Variant) string { return Lookup("paintbrush", v...) }
+func Paintbrush(v ...Variant) string { return styled(1285, v) }
 
 // Crayon returns the "crayon" emoji 🖍️.
-func Crayon(v ...Variant) string { return Lookup("crayon", v...) }
+func Crayon(v ...Variant) string { return styled(324, v) }
 
 // Memo returns the "memo" emoji 📝.
-func Memo(v ...Variant) string { return Lookup("memo", v...) }
+func Memo(v ...Variant) string { return styled(1154, v) }
 
 // Briefcase returns the "briefcase" emoji 💼.
-func Briefcase(v ...Variant) string { return Lookup("briefcase", v...) }
+func Briefcase(v ...Variant) string { return styled(193, v) }
 
 // FileFolder returns the "file folder" emoji 📁.
-func FileFolder(v ...Variant) string { return Lookup("file folder", v...) }
+func FileFolder(v ...Variant) string { return styled(512, v) }
 
 // OpenFileFolder returns the "open file folder" emoji 📂.
-func OpenFileFolder(v ...Variant) string { return Lookup("open file folder", v...) }
+func OpenFileFolder(v ...Variant) string { return styled(1264, v) }
 
 // CardIndexDividers returns the "card index dividers" emoji 🗂️.
-func CardIndexDividers(v ...Variant) string { return Lookup("card index dividers", v...) }
+func CardIndexDividers(v ...Variant) string { return styled(231, v) }
 
 // Calendar returns the "calendar" emoji 📅.
-func Calendar(v ...Variant) string { return Lookup("calendar", v...) }
+func Calendar(v ...Variant) string { return styled(219, v) }
 
 // TearOffCalendar returns the "tear-off calendar" emoji 📆.
-func TearOffCalendar(v ...Variant) string { return Lookup("tear-off calendar", v...) }
+func TearOffCalendar(v ...Variant) string { return styled(1664, v) }
 
 // SpiralNotepad returns the "spiral notepad" emoji 🗒️.
-func SpiralNotepad(v ...Variant) string { return Lookup("spiral notepad", v...) }
+func SpiralNotepad(v ...Variant) string { return styled(1609, v) }
 
 // SpiralCalendar returns the "spiral calendar" emoji 🗓️.
-func SpiralCalendar(v ...Variant) string { return Lookup("spiral calendar", v...) }
+func SpiralCalendar(v ...Variant) string { return styled(1608, v) }
 
 // CardIndex returns the "card index" emoji 📇.
-func CardIndex(v ...Variant) string { return Lookup("card index", v...) }
+func CardIndex(v ...Variant) string { return styled(230, v) }
 
 // ChartIncreasing returns the "chart increasing" emoji 📈.
-func ChartIncreasing(v ...Variant) string { return Lookup("chart increasing", v...) }
+func ChartIncreasing(v ...Variant) string { return styled(244, v) }
 
 // ChartDecreasing returns the "chart decreasing" emoji 📉.
-func ChartDecreasing(v ...Variant) string { return Lookup("chart decreasing", v...) }
+func ChartDecreasing(v ...Variant) string { return styled(243, v) }
 
 // BarChart returns the "bar chart" emoji 📊.
-func BarChart(v ...Variant) string { return Lookup("bar chart", v...) }
+func BarChart(v ...Variant) string { return styled(125, v) }
 
 // Clipboard returns the "clipboard" emoji 📋.
-func Clipboard(v ...Variant) string { return Lookup("clipboard", v...) }
+func Clipboard(v ...Variant) string { return styled(274, v) }
 
 // Pushpin returns the "pushpin" emoji 📌.
-func Pushpin(v ...Variant) string { return Lookup("pushpin", v...) }
+func Pushpin(v ...Variant) string { return styled(1427, v) }
 
 // RoundPushpin returns the "round pushpin" emoji 📍.
-func RoundPushpin(v ...Variant) string { return Lookup("round pushpin", v...) }
+func RoundPushpin(v ...Variant) string { return styled(1497, v) }
 
 // Paperclip returns the "paperclip" emoji 📎.
-func Paperclip(v ...Variant) string { return Lookup("paperclip", v...) }
+func Paperclip(v ...Variant) string { return styled(1292, v) }
 
 // LinkedPaperclips returns the "linked paperclips" emoji 🖇️.
-func LinkedPaperclips(v ...Variant) string { return Lookup("linked paperclips", v...) }
+func LinkedPaperclips(v ...Variant) string { return styled(1032, v) }
 
 // StraightRuler returns the "straight ruler" emoji 📏.
-func StraightRuler(v ...Variant) string { return Lookup("straight ruler", v...) }
+func StraightRuler(v ...Variant) string { return styled(1630, v) }
 
 // TriangularRuler returns the "triangular ruler" emoji 📐.
-func TriangularRuler(v ...Variant) string { return Lookup("triangular ruler", v...) }
+func TriangularRuler(v ...Variant) string { return styled(1708, v) }
 
 // Scissors returns the "scissors" emoji ✂️.
-func Scissors(v ...Variant) string { return Lookup("scissors", v...) }
+func Scissors(v ...Variant) string { return styled(1517, v) }
 
 // CardFileBox returns the "card file box" emoji 🗃️.
-func CardFileBox(v ...Variant) string { return Lookup("card file box", v...) }
+func CardFileBox(v ...Variant) string { return styled(229, v) }
 
 // FileCabinet returns the "file cabinet" emoji 🗄️.
-func FileCabinet(v ...Variant) string { return Lookup("file cabinet", v...) }
+func FileCabinet(v ...Variant) string { return styled(511, v) }
 
 // Wastebasket returns the "wastebasket" emoji 🗑️.
-func Wastebasket(v ...Variant) string { return Lookup("wastebasket", v...) }
+func Wastebasket(v ...Variant) string { return styled(1754, v) }
 
 // Locked returns the "locked" emoji 🔒.
-func Locked(v ...Variant) string { return Lookup("locked", v...) }
+func Locked(v ...Variant) string { return styled(1039, v) }
 
 // Unlocked returns the "unlocked" emoji 🔓.
-func Unlocked(v ...Variant) string { return Lookup("unlocked", v...) }
+func Unlocked(v ...Variant) string { return styled(1732, v) }
 
 // LockedWithPen returns the "locked with pen" emoji 🔏.
-func LockedWithPen(v ...Variant) string { return Lookup("locked with pen", v...) }
+func LockedWithPen(v ...Variant) string { return styled(1041, v) }
 
 // LockedWithKey returns the "locked with key" emoji 🔐.
-func LockedWithKey(v ...Variant) string { return Lookup("locked with key", v...) }
+func LockedWithKey(v ...Variant) string { return styled(1040, v) }
 
 // Key returns the "key" emoji 🔑.
-func Key(v ...Variant) string { return Lookup("key", v...) }
+func Key(v ...Variant) string { return styled(965, v) }
 
 // OldKey returns the "old key" emoji 🗝️.
-func OldKey(v ...Variant) string { return Lookup("old key", v...) }
+func OldKey(v ...Variant) string { return styled(1248, v) }
 
 // Hammer returns the "hammer" emoji 🔨.
-func Hammer(v ...Variant) string { return Lookup("hammer", v...) }
+func Hammer(v ...Variant) string { return styled(879, v) }
 
 // Axe returns the "axe" emoji 🪓.
-func Axe(v ...Variant) string { return Lookup("axe", v...) }
+func Axe(v ...Variant) string { return styled(100, v) }
 
 // Pick returns the "pick" emoji ⛏️.
-func Pick(v ...Variant) string { return Lookup("pick", v...) }
+func Pick(v ...Variant) string { return styled(1370, v) }
 
 // HammerAndPick returns the "hammer and pick" emoji ⚒️.
-func HammerAndPick(v ...Variant) string { return Lookup("hammer and pick", v...) }
+func HammerAndPick(v ...Variant) string { return styled(880, v) }
 
 // HammerAndWrench returns the "hammer and wrench" emoji 🛠️.
-func HammerAndWrench(v ...Variant) string { return Lookup("hammer and wrench", v...) }
+func HammerAndWrench(v ...Variant) string { return styled(881, v) }
 
 // Dagger returns the "dagger" emoji 🗡️.
-func Dagger(v ...Variant) string { return Lookup("dagger", v...) }
+func Dagger(v ...Variant) string { return styled(352, v) }
 
 // CrossedSwords returns the "crossed swords" emoji ⚔️.
-func CrossedSwords(v ...Variant) string { return Lookup("crossed swords", v...) }
+func CrossedSwords(v ...Variant) string { return styled(335, v) }
 
 // Bomb returns the "bomb" emoji 💣.
-func Bomb(v ...Variant) string { return Lookup("bomb", v...) }
+func Bomb(v ...Variant) string { return styled(175, v) }
 
 // Boomerang returns the "boomerang" emoji 🪃.
-func Boomerang(v ...Variant) string { return Lookup("boomerang", v...) }
+func Boomerang(v ...Variant) string { return styled(180, v) }
 
 // BowAndArrow returns the "bow and arrow" emoji 🏹.
-func BowAndArrow(v ...Variant) string { return Lookup("bow and arrow", v...) }
+func BowAndArrow(v ...Variant) string { return styled(183, v) }
 
 // Shield returns the "shield" emoji 🛡️.
-func Shield(v ...Variant) string { return Lookup("shield", v...) }
+func Shield(v ...Variant) string { return styled(1536, v) }
 
 // CarpentrySaw returns the "carpentry saw" emoji 🪚.
-func CarpentrySaw(v ...Variant) string { return Lookup("carpentry saw", v...) }
+func CarpentrySaw(v ...Variant) string { return styled(234, v) }
 
 // Wrench returns the "wrench" emoji 🔧.
-func Wrench(v ...Variant) string { return Lookup("wrench", v...) }
+func Wrench(v ...Variant) string { return styled(1883, v) }
 
 // Screwdriver returns the "screwdriver" emoji 🪛.
-func Screwdriver(v ...Variant) string { return Lookup("screwdriver", v...) }
+func Screwdriver(v ...Variant) string { return styled(1519, v) }
 
 // NutAndBolt returns the "nut and bolt" emoji 🔩.
-func NutAndBolt(v ...Variant) string { return Lookup("nut and bolt", v...) }
+func NutAndBolt(v ...Variant) string { return styled(1241, v) }
 
 // Gear returns the "gear" emoji ⚙️.
-func Gear(v ...Variant) string { return Lookup("gear", v...) }
+func Gear(v ...Variant) string { return styled(834, v) }
 
 // Clamp returns the "clamp" emoji 🗜️.
-func Clamp(v ...Variant) string { return Lookup("clamp", v...) }
+func Clamp(v ...Variant) string { return styled(268, v) }
 
 // BalanceScale returns the "balance scale" emoji ⚖️.
-func BalanceScale(v ...Variant) string { return Lookup("balance scale", v...) }
+func BalanceScale(v ...Variant) string { return styled(117, v) }
 
 // WhiteCane returns the "white cane" emoji 🦯.
-func WhiteCane(v ...Variant) string { return Lookup("white cane", v...) }
+func WhiteCane(v ...Variant) string { return styled(1772, v) }
 
 // Link returns the "link" emoji 🔗.
-func Link(v ...Variant) string { return Lookup("link", v...) }
+func Link(v ...Variant) string { return styled(1031, v) }
 
 // BrokenChain returns the "broken chain" emoji ⛓️‍💥.
-func BrokenChain(v ...Variant) string { return Lookup("broken chain", v...) }
+func BrokenChain(v ...Variant) string { return styled(197, v) }
 
 // Chains returns the "chains" emoji ⛓️.
-func Chains(v ...Variant) string { return Lookup("chains", v...) }
+func Chains(v ...Variant) string { return styled(241, v) }
 
 // Hook returns the "hook" emoji 🪝.
-func Hook(v ...Variant) string { return Lookup("hook", v...) }
+func Hook(v ...Variant) string { return styled(919, v) }
 
 // Toolbox returns the "toolbox" emoji 🧰.
-func Toolbox(v ...Variant) string { return Lookup("toolbox", v...) }
+func Toolbox(v ...Variant) string { return styled(1693, v) }
 
 // Magnet returns the "magnet" emoji 🧲.
-func Magnet(v ...Variant) string { return Lookup("magnet", v...) }
+func Magnet(v ...Variant) string { return styled(1058, v) }
 
 // Ladder returns the "ladder" emoji 🪜.
-func Ladder(v ...Variant) string { return Lookup("ladder", v...) }
+func Ladder(v ...Variant) string { return styled(1001, v) }
 
 // Shovel returns the "shovel" emoji 🪏.
-func Shovel(v ...Variant) string { return Lookup("shovel", v...) }
+func Shovel(v ...Variant) string { return styled(1544, v) }
 
 // Alembic returns the "alembic" emoji ⚗️.
-func Alembic(v ...Variant) string { return Lookup("alembic", v...) }
+func Alembic(v ...Variant) string { return styled(76, v) }
 
 // TestTube returns the "test tube" emoji 🧪.
-func TestTube(v ...Variant) string { return Lookup("test tube", v...) }
+func TestTube(v ...Variant) string { return styled(1675, v) }
 
 // PetriDish returns the "petri dish" emoji 🧫.
-func PetriDish(v ...Variant) string { return Lookup("petri dish", v...) }
+func PetriDish(v ...Variant) string { return styled(1368, v) }
 
 // Dna returns the "dna" emoji 🧬.
-func Dna(v ...Variant) string { return Lookup("dna", v...) }
+func Dna(v ...Variant) string { return styled(377, v) }
 
 // Microscope returns the "microscope" emoji 🔬.
-func Microscope(v ...Variant) string { return Lookup("microscope", v...) }
+func Microscope(v ...Variant) string { return styled(1167, v) }
 
 // Telescope returns the "telescope" emoji 🔭.
-func Telescope(v ...Variant) string { return Lookup("telescope", v...) }
+func Telescope(v ...Variant) string { return styled(1669, v) }
 
 // SatelliteAntenna returns the "satellite antenna" emoji 📡.
-func SatelliteAntenna(v ...Variant) string { return Lookup("satellite antenna", v...) }
+func SatelliteAntenna(v ...Variant) string { return styled(1511, v) }
 
 // Syringe returns the "syringe" emoji 💉.
-func Syringe(v ...Variant) string { return Lookup("syringe", v...) }
+func Syringe(v ...Variant) string { return styled(1653, v) }
 
 // DropOfBlood returns the "drop of blood" emoji 🩸.
-func DropOfBlood(v ...Variant) string { return Lookup("drop of blood", v...) }
+func DropOfBlood(v ...Variant) string { return styled(400, v) }
 
 // Pill returns the "pill" emoji 💊.
-func Pill(v ...Variant) string { return Lookup("pill", v...) }
+func Pill(v ...Variant) string { return styled(1377, v) }
 
 // AdhesiveBandage returns the "adhesive bandage" emoji 🩹.
-func AdhesiveBandage(v ...Variant) string { return Lookup("adhesive bandage", v...) }
+func AdhesiveBandage(v ...Variant) string { return styled(69, v) }
 
 // Crutch returns the "crutch" emoji 🩼.
-func Crutch(v ...Variant) string { return Lookup("crutch", v...) }
+func Crutch(v ...Variant) string { return styled(337, v) }
 
 // Stethoscope returns the "stethoscope" emoji 🩺.
-func Stethoscope(v ...Variant) string { return Lookup("stethoscope", v...) }
+func Stethoscope(v ...Variant) string { return styled(1626, v) }
 
 // XRay returns the "x-ray" emoji 🩻.
-func XRay(v ...Variant) string { return Lookup("x-ray", v...) }
+func XRay(v ...Variant) string { return styled(1885, v) }
 
 // Door returns the "door" emoji 🚪.
-func Door(v ...Variant) string { return Lookup("door", v...) }
+func Door(v ...Variant) string { return styled(384, v) }
 
 // Elevator returns the "elevator" emoji 🛗.
-func Elevator(v ...Variant) string { return Lookup("elevator", v...) }
+func Elevator(v ...Variant) string { return styled(420, v) }
 
 // Mirror returns the "mirror" emoji 🪞.
-func Mirror(v ...Variant) string { return Lookup("mirror", v...) }
+func Mirror(v ...Variant) string { return styled(1174, v) }
 
 // Window returns the "window" emoji 🪟.
-func Window(v ...Variant) string { return Lookup("window", v...) }
+func Window(v ...Variant) string { return styled(1787, v) }
 
 // Bed returns the "bed" emoji 🛏️.
-func Bed(v ...Variant) string { return Lookup("bed", v...) }
+func Bed(v ...Variant) string { return styled(139, v) }
 
 // CouchAndLamp returns the "couch and lamp" emoji 🛋️.
-func CouchAndLamp(v ...Variant) string { return Lookup("couch and lamp", v...) }
+func CouchAndLamp(v ...Variant) string { return styled(313, v) }
 
 // Chair returns the "chair" emoji 🪑.
-func Chair(v ...Variant) string { return Lookup("chair", v...) }
+func Chair(v ...Variant) string { return styled(242, v) }
 
 // Toilet returns the "toilet" emoji 🚽.
-func Toilet(v ...Variant) string { return Lookup("toilet", v...) }
+func Toilet(v ...Variant) string { return styled(1690, v) }
 
 // Plunger returns the "plunger" emoji 🪠.
-func Plunger(v ...Variant) string { return Lookup("plunger", v...) }
+func Plunger(v ...Variant) string { return styled(1394, v) }
 
 // Shower returns the "shower" emoji 🚿.
-func Shower(v ...Variant) string { return Lookup("shower", v...) }
+func Shower(v ...Variant) string { return styled(1545, v) }
 
 // Bathtub returns the "bathtub" emoji 🛁.
-func Bathtub(v ...Variant) string { return Lookup("bathtub", v...) }
+func Bathtub(v ...Variant) string { return styled(131, v) }
 
 // MouseTrap returns the "mouse trap" emoji 🪤.
-func MouseTrap(v ...Variant) string { return Lookup("mouse trap", v...) }
+func MouseTrap(v ...Variant) string { return styled(1202, v) }
 
 // Razor returns the "razor" emoji 🪒.
-func Razor(v ...Variant) string { return Lookup("razor", v...) }
+func Razor(v ...Variant) string { return styled(1446, v) }
 
 // LotionBottle returns the "lotion bottle" emoji 🧴.
-func LotionBottle(v ...Variant) string { return Lookup("lotion bottle", v...) }
+func LotionBottle(v ...Variant) string { return styled(1045, v) }
 
 // SafetyPin returns the "safety pin" emoji 🧷.
-func SafetyPin(v ...Variant) string { return Lookup("safety pin", v...) }
+func SafetyPin(v ...Variant) string { return styled(1502, v) }
 
 // Broom returns the "broom" emoji 🧹.
-func Broom(v ...Variant) string { return Lookup("broom", v...) }
+func Broom(v ...Variant) string { return styled(199, v) }
 
 // Basket returns the "basket" emoji 🧺.
-func Basket(v ...Variant) string { return Lookup("basket", v...) }
+func Basket(v ...Variant) string { return styled(128, v) }
 
 // RollOfPaper returns the "roll of paper" emoji 🧻.
-func RollOfPaper(v ...Variant) string { return Lookup("roll of paper", v...) }
+func RollOfPaper(v ...Variant) string { return styled(1488, v) }
 
 // Bucket returns the "bucket" emoji 🪣.
-func Bucket(v ...Variant) string { return Lookup("bucket", v...) }
+func Bucket(v ...Variant) string { return styled(206, v) }
 
 // Soap returns the "soap" emoji 🧼.
-func Soap(v ...Variant) string { return Lookup("soap", v...) }
+func Soap(v ...Variant) string { return styled(1588, v) }
 
 // Bubbles returns the "bubbles" emoji 🫧.
-func Bubbles(v ...Variant) string { return Lookup("bubbles", v...) }
+func Bubbles(v ...Variant) string { return styled(205, v) }
 
 // Toothbrush returns the "toothbrush" emoji 🪥.
-func Toothbrush(v ...Variant) string { return Lookup("toothbrush", v...) }
+func Toothbrush(v ...Variant) string { return styled(1695, v) }
 
 // Sponge returns the "sponge" emoji 🧽.
-func Sponge(v ...Variant) string { return Lookup("sponge", v...) }
+func Sponge(v ...Variant) string { return styled(1612, v) }
 
 // FireExtinguisher returns the "fire extinguisher" emoji 🧯.
-func FireExtinguisher(v ...Variant) string { return Lookup("fire extinguisher", v...) }
+func FireExtinguisher(v ...Variant) string { return styled(518, v) }
 
 // ShoppingCart returns the "shopping cart" emoji 🛒.
-func ShoppingCart(v ...Variant) string { return Lookup("shopping cart", v...) }
+func ShoppingCart(v ...Variant) string { return styled(1541, v) }
 
 // Cigarette returns the "cigarette" emoji 🚬.
-func Cigarette(v ...Variant) string { return Lookup("cigarette", v...) }
+func Cigarette(v ...Variant) string { return styled(262, v) }
 
 // Coffin returns the "coffin" emoji ⚰️.
-func Coffin(v ...Variant) string { return Lookup("coffin", v...) }
+func Coffin(v ...Variant) string { return styled(292, v) }
 
 // Headstone returns the "headstone" emoji 🪦.
-func Headstone(v ...Variant) string { return Lookup("headstone", v...) }
+func Headstone(v ...Variant) string { return styled(893, v) }
 
 // FuneralUrn returns the "funeral urn" emoji ⚱️.
-func FuneralUrn(v ...Variant) string { return Lookup("funeral urn", v...) }
+func FuneralUrn(v ...Variant) string { return styled(831, v) }
 
 // NazarAmulet returns the "nazar amulet" emoji 🧿.
-func NazarAmulet(v ...Variant) string { return Lookup("nazar amulet", v...) }
+func NazarAmulet(v ...Variant) string { return styled(1216, v) }
 
 // Hamsa returns the "hamsa" emoji 🪬.
-func Hamsa(v ...Variant) string { return Lookup("hamsa", v...) }
+func Hamsa(v ...Variant) string { return styled(882, v) }
 
 // Moai returns the "moai" emoji 🗿.
-func Moai(v ...Variant) string { return Lookup("moai", v...) }
+func Moai(v ...Variant) string { return styled(1176, v) }
 
 // Placard returns the "placard" emoji 🪧.
-func Placard(v ...Variant) string { return Lookup("placard", v...) }
+func Placard(v ...Variant) string { return styled(1388, v) }
 
 // IdentificationCard returns the "identification card" emoji 🪪.
-func IdentificationCard(v ...Variant) string { return Lookup("identification card", v...) }
+func IdentificationCard(v ...Variant) string { return styled(944, v) }
 
 // Symbols
 
 // ATMSign returns the "ATM sign" emoji 🏧.
-func ATMSign(v ...Variant) string { return Lookup("ATM sign", v...) }
+func ATMSign(v ...Variant) string { return styled(5, v) }
 
 // LitterInBinSign returns the "litter in bin sign" emoji 🚮.
-func LitterInBinSign(v ...Variant) string { return Lookup("litter in bin sign", v...) }
+func LitterInBinSign(v ...Variant) string { return styled(1035, v) }
 
 // PotableWater returns the "potable water" emoji 🚰.
-func PotableWater(v ...Variant) string { return Lookup("potable water", v...) }
+func PotableWater(v ...Variant) string { return styled(1407, v) }
 
 // WheelchairSymbol returns the "wheelchair symbol" emoji ♿.
-func WheelchairSymbol(v ...Variant) string { return Lookup("wheelchair symbol", v...) }
+func WheelchairSymbol(v ...Variant) string { return styled(1771, v) }
 
 // MensRoom returns the "men’s room" emoji 🚹.
-func MensRoom(v ...Variant) string { return Lookup("men’s room", v...) }
+func MensRoom(v ...Variant) string { return styled(1160, v) }
 
 // WomensRoom returns the "women’s room" emoji 🚺.
-func WomensRoom(v ...Variant) string { return Lookup("women’s room", v...) }
+func WomensRoom(v ...Variant) string { return styled(1876, v) }
 
 // Restroom returns the "restroom" emoji 🚻.
-func Restroom(v ...Variant) string { return Lookup("restroom", v...) }
+func Restroom(v ...Variant) string { return styled(1466, v) }
 
 // BabySymbol returns the "baby symbol" emoji 🚼.
-func BabySymbol(v ...Variant) string { return Lookup("baby symbol", v...) }
+func BabySymbol(v ...Variant) string { return styled(105, v) }
 
 // WaterCloset returns the "water closet" emoji 🚾.
-func WaterCloset(v ...Variant) string { return Lookup("water closet", v...) }
+func WaterCloset(v ...Variant) string { return styled(1757, v) }
 
 // PassportControl returns the "passport control" emoji 🛂.
-func PassportControl(v ...Variant) string { return Lookup("passport control", v...) }
+func PassportControl(v ...Variant) string { return styled(1299, v) }
 
 // Customs returns the "customs" emoji 🛃.
-func Customs(v ...Variant) string { return Lookup("customs", v...) }
+func Customs(v ...Variant) string { return styled(349, v) }
 
 // BaggageClaim returns the "baggage claim" emoji 🛄.
-func BaggageClaim(v ...Variant) string { return Lookup("baggage claim", v...) }
+func BaggageClaim(v ...Variant) string { return styled(115, v) }
 
 // LeftLuggage returns the "left luggage" emoji 🛅.
-func LeftLuggage(v ...Variant) string { return Lookup("left luggage", v...) }
+func LeftLuggage(v ...Variant) string { return styled(1017, v) }
 
 // Warning returns the "warning" emoji ⚠️.
-func Warning(v ...Variant) string { return Lookup("warning", v...) }
+func Warning(v ...Variant) string { return styled(1753, v) }
 
 // ChildrenCrossing returns the "children crossing" emoji 🚸.
-func ChildrenCrossing(v ...Variant) string { return Lookup("children crossing", v...) }
+func ChildrenCrossing(v ...Variant) string { return styled(257, v) }
 
 // NoEntry returns the "no entry" emoji ⛔.
-func NoEntry(v ...Variant) string { return Lookup("no entry", v...) }
+func NoEntry(v ...Variant) string { return styled(1231, v) }
 
 // Prohibited returns the "prohibited" emoji 🚫.
-func Prohibited(v ...Variant) string { return Lookup("prohibited", v...) }
+func Prohibited(v ...Variant) string { return styled(1422, v) }
 
 // NoBicycles returns the "no bicycles" emoji 🚳.
-func NoBicycles(v ...Variant) string { return Lookup("no bicycles", v...) }
+func NoBicycles(v ...Variant) string { return styled(1230, v) }
 
 // NoSmoking returns the "no smoking" emoji 🚭.
-func NoSmoking(v ...Variant) string { return Lookup("no smoking", v...) }
+func NoSmoking(v ...Variant) string { return styled(1236, v) }
 
 // NoLittering returns the "no littering" emoji 🚯.
-func NoLittering(v ...Variant) string { return Lookup("no littering", v...) }
+func NoLittering(v ...Variant) string { return styled(1232, v) }
 
 // NonPotableWater returns the "non-potable water" emoji 🚱.
-func NonPotableWater(v ...Variant) string { return Lookup("non-potable water", v...) }
+func NonPotableWater(v ...Variant) string { return styled(1237, v) }
 
 // NoPedestrians returns the "no pedestrians" emoji 🚷.
-func NoPedestrians(v ...Variant) string { return Lookup("no pedestrians", v...) }
+func NoPedestrians(v ...Variant) string { return styled(1235, v) }
 
 // NoMobilePhones returns the "no mobile phones" emoji 📵.
-func NoMobilePhones(v ...Variant) string { return Lookup("no mobile phones", v...) }
+func NoMobilePhones(v ...Variant) string { return styled(1233, v) }
 
 // NoOneUnderEighteen returns the "no one under eighteen" emoji 🔞.
-func NoOneUnderEighteen(v ...Variant) string { return Lookup("no one under eighteen", v...) }
+func NoOneUnderEighteen(v ...Variant) string { return styled(1234, v) }
 
 // Radioactive returns the "radioactive" emoji ☢️.
-func Radioactive(v ...Variant) string { return Lookup("radioactive", v...) }
+func Radioactive(v ...Variant) string { return styled(1435, v) }
 
 // Biohazard returns the "biohazard" emoji ☣️.
-func Biohazard(v ...Variant) string { return Lookup("biohazard", v...) }
+func Biohazard(v ...Variant) string { return styled(151, v) }
 
 // UpArrow returns the "up arrow" emoji ⬆️.
-func UpArrow(v ...Variant) string { return Lookup("up arrow", v...) }
+func UpArrow(v ...Variant) string { return styled(1733, v) }
 
 // UpRightArrow returns the "up-right arrow" emoji ↗️.
-func UpRightArrow(v ...Variant) string { return Lookup("up-right arrow", v...) }
+func UpRightArrow(v ...Variant) string { return styled(1736, v) }
 
 // RightArrow returns the "right arrow" emoji ➡️.
-func RightArrow(v ...Variant) string { return Lookup("right arrow", v...) }
+func RightArrow(v ...Variant) string { return styled(1474, v) }
 
 // DownRightArrow returns the "down-right arrow" emoji ↘️.
-func DownRightArrow(v ...Variant) string { return Lookup("down-right arrow", v...) }
+func DownRightArrow(v ...Variant) string { return styled(393, v) }
 
 // DownArrow returns the "down arrow" emoji ⬇️.
-func DownArrow(v ...Variant) string { return Lookup("down arrow", v...) }
+func DownArrow(v ...Variant) string { return styled(391, v) }
 
 // DownLeftArrow returns the "down-left arrow" emoji ↙️.
-func DownLeftArrow(v ...Variant) string { return Lookup("down-left arrow", v...) }
+func DownLeftArrow(v ...Variant) string { return styled(392, v) }
 
 // LeftArrow returns the "left arrow" emoji ⬅️.
-func LeftArrow(v ...Variant) string { return Lookup("left arrow", v...) }
+func LeftArrow(v ...Variant) string { return styled(1015, v) }
 
 // UpLeftArrow returns the "up-left arrow" emoji ↖️.
-func UpLeftArrow(v ...Variant) string { return Lookup("up-left arrow", v...) }
+func UpLeftArrow(v ...Variant) string { return styled(1735, v) }
 
 // UpDownArrow returns the "up-down arrow" emoji ↕️.
-func UpDownArrow(v ...Variant) string { return Lookup("up-down arrow", v...) }
+func UpDownArrow(v ...Variant) string { return styled(1734, v) }
 
 // LeftRightArrow returns the "left-right arrow" emoji ↔️.
-func LeftRightArrow(v ...Variant) string { return Lookup("left-right arrow", v...) }
+func LeftRightArrow(v ...Variant) string { return styled(1020, v) }
 
-// RightArrowCurvingLeft returns the "right arrow curving left" emoji ↩️.
-func RightArrowCurvingLeft(v ...Variant) string { return Lookup("right arrow curving left", v...) }
+// RightArrowCurvingLeft returns the "right arrow curving left" emoji
+// ↩️.
+func RightArrowCurvingLeft(v ...Variant) string { return styled(1476, v) }
 
-// LeftArrowCurvingRight returns the "left arrow curving right" emoji ↪️.
-func LeftArrowCurvingRight(v ...Variant) string { return Lookup("left arrow curving right", v...) }
+// LeftArrowCurvingRight returns the "left arrow curving right" emoji
+// ↪️.
+func LeftArrowCurvingRight(v ...Variant) string { return styled(1016, v) }
 
 // RightArrowCurvingUp returns the "right arrow curving up" emoji ⤴️.
-func RightArrowCurvingUp(v ...Variant) string { return Lookup("right arrow curving up", v...) }
+func RightArrowCurvingUp(v ...Variant) string { return styled(1477, v) }
 
-// RightArrowCurvingDown returns the "right arrow curving down" emoji ⤵️.
-func RightArrowCurvingDown(v ...Variant) string { return Lookup("right arrow curving down", v...) }
+// RightArrowCurvingDown returns the "right arrow curving down" emoji
+// ⤵️.
+func RightArrowCurvingDown(v ...Variant) string { return styled(1475, v) }
 
-// ClockwiseVerticalArrows returns the "clockwise vertical arrows" emoji 🔃.
-func ClockwiseVerticalArrows(v ...Variant) string { return Lookup("clockwise vertical arrows", v...) }
+// ClockwiseVerticalArrows returns the "clockwise vertical arrows" emoji
+// 🔃.
+func ClockwiseVerticalArrows(v ...Variant) string { return styled(275, v) }
 
-// CounterclockwiseArrowsButton returns the "counterclockwise arrows button" emoji 🔄.
-func CounterclockwiseArrowsButton(v ...Variant) string {
-	return Lookup("counterclockwise arrows button", v...)
-}
+// CounterclockwiseArrowsButton returns the "counterclockwise arrows
+// button" emoji 🔄.
+func CounterclockwiseArrowsButton(v ...Variant) string { return styled(314, v) }
 
 // BACKArrow returns the "BACK arrow" emoji 🔙.
-func BACKArrow(v ...Variant) string { return Lookup("BACK arrow", v...) }
+func BACKArrow(v ...Variant) string { return styled(9, v) }
 
 // ENDArrow returns the "END arrow" emoji 🔚.
-func ENDArrow(v ...Variant) string { return Lookup("END arrow", v...) }
+func ENDArrow(v ...Variant) string { return styled(15, v) }
 
 // ONArrow returns the "ON! arrow" emoji 🔛.
-func ONArrow(v ...Variant) string { return Lookup("ON! arrow", v...) }
+func ONArrow(v ...Variant) string { return styled(49, v) }
 
 // SOONArrow returns the "SOON arrow" emoji 🔜.
-func SOONArrow(v ...Variant) string { return Lookup("SOON arrow", v...) }
+func SOONArrow(v ...Variant) string { return styled(53, v) }
 
 // TOPArrow returns the "TOP arrow" emoji 🔝.
-func TOPArrow(v ...Variant) string { return Lookup("TOP arrow", v...) }
+func TOPArrow(v ...Variant) string { return styled(60, v) }
 
 // PlaceOfWorship returns the "place of worship" emoji 🛐.
-func PlaceOfWorship(v ...Variant) string { return Lookup("place of worship", v...) }
+func PlaceOfWorship(v ...Variant) string { return styled(1389, v) }
 
 // AtomSymbol returns the "atom symbol" emoji ⚛️.
-func AtomSymbol(v ...Variant) string { return Lookup("atom symbol", v...) }
+func AtomSymbol(v ...Variant) string { return styled(96, v) }
 
 // Om returns the "om" emoji 🕉️.
-func Om(v ...Variant) string { return Lookup("om", v...) }
+func Om(v ...Variant) string { return styled(1253, v) }
 
 // StarOfDavid returns the "star of David" emoji ✡️.
-func StarOfDavid(v ...Variant) string { return Lookup("star of David", v...) }
+func StarOfDavid(v ...Variant) string { return styled(1622, v) }
 
 // WheelOfDharma returns the "wheel of dharma" emoji ☸️.
-func WheelOfDharma(v ...Variant) string { return Lookup("wheel of dharma", v...) }
+func WheelOfDharma(v ...Variant) string { return styled(1770, v) }
 
 // YinYang returns the "yin yang" emoji ☯️.
-func YinYang(v ...Variant) string { return Lookup("yin yang", v...) }
+func YinYang(v ...Variant) string { return styled(1892, v) }
 
 // LatinCross returns the "latin cross" emoji ✝️.
-func LatinCross(v ...Variant) string { return Lookup("latin cross", v...) }
+func LatinCross(v ...Variant) string { return styled(1010, v) }
 
 // OrthodoxCross returns the "orthodox cross" emoji ☦️.
-func OrthodoxCross(v ...Variant) string { return Lookup("orthodox cross", v...) }
+func OrthodoxCross(v ...Variant) string { return styled(1275, v) }
 
 // StarAndCrescent returns the "star and crescent" emoji ☪️.
-func StarAndCrescent(v ...Variant) string { return Lookup("star and crescent", v...) }
+func StarAndCrescent(v ...Variant) string { return styled(1621, v) }
 
 // PeaceSymbol returns the "peace symbol" emoji ☮️.
-func PeaceSymbol(v ...Variant) string { return Lookup("peace symbol", v...) }
+func PeaceSymbol(v ...Variant) string { return styled(1303, v) }
 
 // Menorah returns the "menorah" emoji 🕎.
-func Menorah(v ...Variant) string { return Lookup("menorah", v...) }
+func Menorah(v ...Variant) string { return styled(1159, v) }
 
 // DottedSixPointedStar returns the "dotted six-pointed star" emoji 🔯.
-func DottedSixPointedStar(v ...Variant) string { return Lookup("dotted six-pointed star", v...) }
+func DottedSixPointedStar(v ...Variant) string { return styled(386, v) }
 
 // Khanda returns the "khanda" emoji 🪯.
-func Khanda(v ...Variant) string { return Lookup("khanda", v...) }
+func Khanda(v ...Variant) string { return styled(980, v) }
 
 // Aries returns the "Aries" emoji ♈.
-func Aries(v ...Variant) string { return Lookup("Aries", v...) }
+func Aries(v ...Variant) string { return styled(7, v) }
 
 // Taurus returns the "Taurus" emoji ♉.
-func Taurus(v ...Variant) string { return Lookup("Taurus", v...) }
+func Taurus(v ...Variant) string { return styled(61, v) }
 
 // Gemini returns the "Gemini" emoji ♊.
-func Gemini(v ...Variant) string { return Lookup("Gemini", v...) }
+func Gemini(v ...Variant) string { return styled(17, v) }
 
 // Cancer returns the "Cancer" emoji ♋.
-func Cancer(v ...Variant) string { return Lookup("Cancer", v...) }
+func Cancer(v ...Variant) string { return styled(12, v) }
 
 // Leo returns the "Leo" emoji ♌.
-func Leo(v ...Variant) string { return Lookup("Leo", v...) }
+func Leo(v ...Variant) string { return styled(40, v) }
 
 // Virgo returns the "Virgo" emoji ♍.
-func Virgo(v ...Variant) string { return Lookup("Virgo", v...) }
+func Virgo(v ...Variant) string { return styled(65, v) }
 
 // Libra returns the "Libra" emoji ♎.
-func Libra(v ...Variant) string { return Lookup("Libra", v...) }
+func Libra(v ...Variant) string { return styled(41, v) }
 
 // Scorpio returns the "Scorpio" emoji ♏.
-func Scorpio(v ...Variant) string { return Lookup("Scorpio", v...) }
+func Scorpio(v ...Variant) string { return styled(57, v) }
 
 // Sagittarius returns the "Sagittarius" emoji ♐.
-func Sagittarius(v ...Variant) string { return Lookup("Sagittarius", v...) }
+func Sagittarius(v ...Variant) string { return styled(55, v) }
 
 // Capricorn returns the "Capricorn" emoji ♑.
-func Capricorn(v ...Variant) string { return Lookup("Capricorn", v...) }
+func Capricorn(v ...Variant) string { return styled(13, v) }
 
 // Aquarius returns the "Aquarius" emoji ♒.
-func Aquarius(v ...Variant) string { return Lookup("Aquarius", v...) }
+func Aquarius(v ...Variant) string { return styled(6, v) }
 
 // Pisces returns the "Pisces" emoji ♓.
-func Pisces(v ...Variant) string { return Lookup("Pisces", v...) }
+func Pisces(v ...Variant) string { return styled(52, v) }
 
 // Ophiuchus returns the "Ophiuchus" emoji ⛎.
-func Ophiuchus(v ...Variant) string { return Lookup("Ophiuchus", v...) }
+func Ophiuchus(v ...Variant) string { return styled(50, v) }
 
 // ShuffleTracksButton returns the "shuffle tracks button" emoji 🔀.
-func ShuffleTracksButton(v ...Variant) string { return Lookup("shuffle tracks button", v...) }
+func ShuffleTracksButton(v ...Variant) string { return styled(1547, v) }
 
 // RepeatButton returns the "repeat button" emoji 🔁.
-func RepeatButton(v ...Variant) string { return Lookup("repeat button", v...) }
+func RepeatButton(v ...Variant) string { return styled(1463, v) }
 
 // RepeatSingleButton returns the "repeat single button" emoji 🔂.
-func RepeatSingleButton(v ...Variant) string { return Lookup("repeat single button", v...) }
+func RepeatSingleButton(v ...Variant) string { return styled(1464, v) }
 
 // PlayButton returns the "play button" emoji ▶️.
-func PlayButton(v ...Variant) string { return Lookup("play button", v...) }
+func PlayButton(v ...Variant) string { return styled(1390, v) }
 
 // FastForwardButton returns the "fast-forward button" emoji ⏩.
-func FastForwardButton(v ...Variant) string { return Lookup("fast-forward button", v...) }
+func FastForwardButton(v ...Variant) string { return styled(502, v) }
 
 // NextTrackButton returns the "next track button" emoji ⏭️.
-func NextTrackButton(v ...Variant) string { return Lookup("next track button", v...) }
+func NextTrackButton(v ...Variant) string { return styled(1225, v) }
 
 // PlayOrPauseButton returns the "play or pause button" emoji ⏯️.
-func PlayOrPauseButton(v ...Variant) string { return Lookup("play or pause button", v...) }
+func PlayOrPauseButton(v ...Variant) string { return styled(1391, v) }
 
 // ReverseButton returns the "reverse button" emoji ◀️.
-func ReverseButton(v ...Variant) string { return Lookup("reverse button", v...) }
+func ReverseButton(v ...Variant) string { return styled(1467, v) }
 
 // FastReverseButton returns the "fast reverse button" emoji ⏪.
-func FastReverseButton(v ...Variant) string { return Lookup("fast reverse button", v...) }
+func FastReverseButton(v ...Variant) string { return styled(500, v) }
 
 // LastTrackButton returns the "last track button" emoji ⏮️.
-func LastTrackButton(v ...Variant) string { return Lookup("last track button", v...) }
+func LastTrackButton(v ...Variant) string { return styled(1009, v) }
 
 // UpwardsButton returns the "upwards button" emoji 🔼.
-func UpwardsButton(v ...Variant) string { return Lookup("upwards button", v...) }
+func UpwardsButton(v ...Variant) string { return styled(1738, v) }
 
 // FastUpButton returns the "fast up button" emoji ⏫.
-func FastUpButton(v ...Variant) string { return Lookup("fast up button", v...) }
+func FastUpButton(v ...Variant) string { return styled(501, v) }
 
 // DownwardsButton returns the "downwards button" emoji 🔽.
-func DownwardsButton(v ...Variant) string { return Lookup("downwards button", v...) }
+func DownwardsButton(v ...Variant) string { return styled(395, v) }
 
 // FastDownButton returns the "fast down button" emoji ⏬.
-func FastDownButton(v ...Variant) string { return Lookup("fast down button", v...) }
+func FastDownButton(v ...Variant) string { return styled(499, v) }
 
 // PauseButton returns the "pause button" emoji ⏸️.
-func PauseButton(v ...Variant) string { return Lookup("pause button", v...) }
+func PauseButton(v ...Variant) string { return styled(1300, v) }
 
 // StopButton returns the "stop button" emoji ⏹️.
-func StopButton(v ...Variant) string { return Lookup("stop button", v...) }
+func StopButton(v ...Variant) string { return styled(1627, v) }
 
 // RecordButton returns the "record button" emoji ⏺️.
-func RecordButton(v ...Variant) string { return Lookup("record button", v...) }
+func RecordButton(v ...Variant) string { return styled(1448, v) }
 
 // EjectButton returns the "eject button" emoji ⏏️.
-func EjectButton(v ...Variant) string { return Lookup("eject button", v...) }
+func EjectButton(v ...Variant) string { return styled(417, v) }
 
 // Cinema returns the "cinema" emoji 🎦.
-func Cinema(v ...Variant) string { return Lookup("cinema", v...) }
+func Cinema(v ...Variant) string { return styled(263, v) }
 
 // DimButton returns the "dim button" emoji 🔅.
-func DimButton(v ...Variant) string { return Lookup("dim button", v...) }
+func DimButton(v ...Variant) string { return styled(369, v) }
 
 // BrightButton returns the "bright button" emoji 🔆.
-func BrightButton(v ...Variant) string { return Lookup("bright button", v...) }
+func BrightButton(v ...Variant) string { return styled(195, v) }
 
 // AntennaBars returns the "antenna bars" emoji 📶.
-func AntennaBars(v ...Variant) string { return Lookup("antenna bars", v...) }
+func AntennaBars(v ...Variant) string { return styled(89, v) }
 
 // Wireless returns the "wireless" emoji 🛜.
-func Wireless(v ...Variant) string { return Lookup("wireless", v...) }
+func Wireless(v ...Variant) string { return styled(1792, v) }
 
 // VibrationMode returns the "vibration mode" emoji 📳.
-func VibrationMode(v ...Variant) string { return Lookup("vibration mode", v...) }
+func VibrationMode(v ...Variant) string { return styled(1741, v) }
 
 // MobilePhoneOff returns the "mobile phone off" emoji 📴.
-func MobilePhoneOff(v ...Variant) string { return Lookup("mobile phone off", v...) }
+func MobilePhoneOff(v ...Variant) string { return styled(1178, v) }
 
 // FemaleSign returns the "female sign" emoji ♀️.
-func FemaleSign(v ...Variant) string { return Lookup("female sign", v...) }
+func FemaleSign(v ...Variant) string { return styled(506, v) }
 
 // MaleSign returns the "male sign" emoji ♂️.
-func MaleSign(v ...Variant) string { return Lookup("male sign", v...) }
+func MaleSign(v ...Variant) string { return styled(1062, v) }
 
 // TransgenderSymbol returns the "transgender symbol" emoji ⚧️.
-func TransgenderSymbol(v ...Variant) string { return Lookup("transgender symbol", v...) }
+func TransgenderSymbol(v ...Variant) string { return styled(1705, v) }
 
 // Multiply returns the "multiply" emoji ✖️.
-func Multiply(v ...Variant) string { return Lookup("multiply", v...) }
+func Multiply(v ...Variant) string { return styled(1205, v) }
 
 // Plus returns the "plus" emoji ➕.
-func Plus(v ...Variant) string { return Lookup("plus", v...) }
+func Plus(v ...Variant) string { return styled(1395, v) }
 
 // Minus returns the "minus" emoji ➖.
-func Minus(v ...Variant) string { return Lookup("minus", v...) }
+func Minus(v ...Variant) string { return styled(1173, v) }
 
 // Divide returns the "divide" emoji ➗.
-func Divide(v ...Variant) string { return Lookup("divide", v...) }
+func Divide(v ...Variant) string { return styled(373, v) }
 
 // HeavyEqualsSign returns the "heavy equals sign" emoji 🟰.
-func HeavyEqualsSign(v ...Variant) string { return Lookup("heavy equals sign", v...) }
+func HeavyEqualsSign(v ...Variant) string { return styled(904, v) }
 
 // Infinity returns the "infinity" emoji ♾️.
-func Infinity(v ...Variant) string { return Lookup("infinity", v...) }
+func Infinity(v ...Variant) string { return styled(949, v) }
 
-// DoubleExclamationMark returns the "double exclamation mark" emoji ‼️.
-func DoubleExclamationMark(v ...Variant) string { return Lookup("double exclamation mark", v...) }
+// DoubleExclamationMark returns the "double exclamation mark" emoji
+// ‼️.
+func DoubleExclamationMark(v ...Variant) string { return styled(388, v) }
 
-// ExclamationQuestionMark returns the "exclamation question mark" emoji ⁉️.
-func ExclamationQuestionMark(v ...Variant) string { return Lookup("exclamation question mark", v...) }
+// ExclamationQuestionMark returns the "exclamation question mark" emoji
+// ⁉️.
+func ExclamationQuestionMark(v ...Variant) string { return styled(431, v) }
 
 // RedQuestionMark returns the "red question mark" emoji ❓.
-func RedQuestionMark(v ...Variant) string { return Lookup("red question mark", v...) }
+func RedQuestionMark(v ...Variant) string { return styled(1456, v) }
 
 // WhiteQuestionMark returns the "white question mark" emoji ❔.
-func WhiteQuestionMark(v ...Variant) string { return Lookup("white question mark", v...) }
+func WhiteQuestionMark(v ...Variant) string { return styled(1781, v) }
 
 // WhiteExclamationMark returns the "white exclamation mark" emoji ❕.
-func WhiteExclamationMark(v ...Variant) string { return Lookup("white exclamation mark", v...) }
+func WhiteExclamationMark(v ...Variant) string { return styled(1774, v) }
 
 // RedExclamationMark returns the "red exclamation mark" emoji ❗.
-func RedExclamationMark(v ...Variant) string { return Lookup("red exclamation mark", v...) }
+func RedExclamationMark(v ...Variant) string { return styled(1453, v) }
 
 // WavyDash returns the "wavy dash" emoji 〰️.
-func WavyDash(v ...Variant) string { return Lookup("wavy dash", v...) }
+func WavyDash(v ...Variant) string { return styled(1762, v) }
 
 // CurrencyExchange returns the "currency exchange" emoji 💱.
-func CurrencyExchange(v ...Variant) string { return Lookup("currency exchange", v...) }
+func CurrencyExchange(v ...Variant) string { return styled(346, v) }
 
 // HeavyDollarSign returns the "heavy dollar sign" emoji 💲.
-func HeavyDollarSign(v ...Variant) string { return Lookup("heavy dollar sign", v...) }
+func HeavyDollarSign(v ...Variant) string { return styled(903, v) }
 
 // MedicalSymbol returns the "medical symbol" emoji ⚕️.
-func MedicalSymbol(v ...Variant) string { return Lookup("medical symbol", v...) }
+func MedicalSymbol(v ...Variant) string { return styled(1150, v) }
 
 // RecyclingSymbol returns the "recycling symbol" emoji ♻️.
-func RecyclingSymbol(v ...Variant) string { return Lookup("recycling symbol", v...) }
+func RecyclingSymbol(v ...Variant) string { return styled(1449, v) }
 
 // FleurDeLis returns the "fleur-de-lis" emoji ⚜️.
-func FleurDeLis(v ...Variant) string { return Lookup("fleur-de-lis", v...) }
+func FleurDeLis(v ...Variant) string { return styled(796, v) }
 
 // TridentEmblem returns the "trident emblem" emoji 🔱.
-func TridentEmblem(v ...Variant) string { return Lookup("trident emblem", v...) }
+func TridentEmblem(v ...Variant) string { return styled(1709, v) }
 
 // NameBadge returns the "name badge" emoji 📛.
-func NameBadge(v ...Variant) string { return Lookup("name badge", v...) }
+func NameBadge(v ...Variant) string { return styled(1213, v) }
 
-// JapaneseSymbolForBeginner returns the "Japanese symbol for beginner" emoji 🔰.
-func JapaneseSymbolForBeginner(v ...Variant) string {
-	return Lookup("Japanese symbol for beginner", v...)
-}
+// JapaneseSymbolForBeginner returns the "Japanese symbol for beginner"
+// emoji 🔰.
+func JapaneseSymbolForBeginner(v ...Variant) string { return styled(22, v) }
 
 // HollowRedCircle returns the "hollow red circle" emoji ⭕.
-func HollowRedCircle(v ...Variant) string { return Lookup("hollow red circle", v...) }
+func HollowRedCircle(v ...Variant) string { return styled(916, v) }
 
 // CheckMarkButton returns the "check mark button" emoji ✅.
-func CheckMarkButton(v ...Variant) string { return Lookup("check mark button", v...) }
+func CheckMarkButton(v ...Variant) string { return styled(248, v) }
 
 // CheckBoxWithCheck returns the "check box with check" emoji ☑️.
-func CheckBoxWithCheck(v ...Variant) string { return Lookup("check box with check", v...) }
+func CheckBoxWithCheck(v ...Variant) string { return styled(246, v) }
 
 // CheckMark returns the "check mark" emoji ✔️.
-func CheckMark(v ...Variant) string { return Lookup("check mark", v...) }
+func CheckMark(v ...Variant) string { return styled(247, v) }
 
 // CrossMark returns the "cross mark" emoji ❌.
-func CrossMark(v ...Variant) string { return Lookup("cross mark", v...) }
+func CrossMark(v ...Variant) string { return styled(331, v) }
 
 // CrossMarkButton returns the "cross mark button" emoji ❎.
-func CrossMarkButton(v ...Variant) string { return Lookup("cross mark button", v...) }
+func CrossMarkButton(v ...Variant) string { return styled(332, v) }
 
 // CurlyLoop returns the "curly loop" emoji ➰.
-func CurlyLoop(v ...Variant) string { return Lookup("curly loop", v...) }
+func CurlyLoop(v ...Variant) string { return styled(345, v) }
 
 // DoubleCurlyLoop returns the "double curly loop" emoji ➿.
-func DoubleCurlyLoop(v ...Variant) string { return Lookup("double curly loop", v...) }
+func DoubleCurlyLoop(v ...Variant) string { return styled(387, v) }
 
 // PartAlternationMark returns the "part alternation mark" emoji 〽️.
-func PartAlternationMark(v ...Variant) string { return Lookup("part alternation mark", v...) }
+func PartAlternationMark(v ...Variant) string { return styled(1295, v) }
 
 // EightSpokedAsterisk returns the "eight-spoked asterisk" emoji ✳️.
-func EightSpokedAsterisk(v ...Variant) string { return Lookup("eight-spoked asterisk", v...) }
+func EightSpokedAsterisk(v ...Variant) string { return styled(415, v) }
 
 // EightPointedStar returns the "eight-pointed star" emoji ✴️.
-func EightPointedStar(v ...Variant) string { return Lookup("eight-pointed star", v...) }
+func EightPointedStar(v ...Variant) string { return styled(414, v) }
 
 // Sparkle returns the "sparkle" emoji ❇️.
-func Sparkle(v ...Variant) string { return Lookup("sparkle", v...) }
+func Sparkle(v ...Variant) string { return styled(1595, v) }
 
 // Copyright returns the "copyright" emoji ©️.
-func Copyright(v ...Variant) string { return Lookup("copyright", v...) }
+func Copyright(v ...Variant) string { return styled(311, v) }
 
 // Registered returns the "registered" emoji ®️.
-func Registered(v ...Variant) string { return Lookup("registered", v...) }
+func Registered(v ...Variant) string { return styled(1460, v) }
 
 // TradeMark returns the "trade mark" emoji ™️.
-func TradeMark(v ...Variant) string { return Lookup("trade mark", v...) }
+func TradeMark(v ...Variant) string { return styled(1700, v) }
 
 // Splatter returns the "splatter" emoji 🫟.
-func Splatter(v ...Variant) string { return Lookup("splatter", v...) }
+func Splatter(v ...Variant) string { return styled(1611, v) }
 
 // KeycapHash returns the "keycap: #" emoji #️⃣.
-func KeycapHash(v ...Variant) string { return Lookup("keycap: #", v...) }
+func KeycapHash(v ...Variant) string { return styled(967, v) }
 
 // KeycapAsterisk returns the "keycap: *" emoji *️⃣.
-func KeycapAsterisk(v ...Variant) string { return Lookup("keycap: *", v...) }
+func KeycapAsterisk(v ...Variant) string { return styled(968, v) }
 
 // Keycap0 returns the "keycap: 0" emoji 0️⃣.
-func Keycap0(v ...Variant) string { return Lookup("keycap: 0", v...) }
+func Keycap0(v ...Variant) string { return styled(969, v) }
 
 // Keycap1 returns the "keycap: 1" emoji 1️⃣.
-func Keycap1(v ...Variant) string { return Lookup("keycap: 1", v...) }
+func Keycap1(v ...Variant) string { return styled(970, v) }
 
 // Keycap2 returns the "keycap: 2" emoji 2️⃣.
-func Keycap2(v ...Variant) string { return Lookup("keycap: 2", v...) }
+func Keycap2(v ...Variant) string { return styled(972, v) }
 
 // Keycap3 returns the "keycap: 3" emoji 3️⃣.
-func Keycap3(v ...Variant) string { return Lookup("keycap: 3", v...) }
+func Keycap3(v ...Variant) string { return styled(973, v) }
 
 // Keycap4 returns the "keycap: 4" emoji 4️⃣.
-func Keycap4(v ...Variant) string { return Lookup("keycap: 4", v...) }
+func Keycap4(v ...Variant) string { return styled(974, v) }
 
 // Keycap5 returns the "keycap: 5" emoji 5️⃣.
-func Keycap5(v ...Variant) string { return Lookup("keycap: 5", v...) }
+func Keycap5(v ...Variant) string { return styled(975, v) }
 
 // Keycap6 returns the "keycap: 6" emoji 6️⃣.
-func Keycap6(v ...Variant) string { return Lookup("keycap: 6", v...) }
+func Keycap6(v ...Variant) string { return styled(976, v) }
 
 // Keycap7 returns the "keycap: 7" emoji 7️⃣.
-func Keycap7(v ...Variant) string { return Lookup("keycap: 7", v...) }
+func Keycap7(v ...Variant) string { return styled(977, v) }
 
 // Keycap8 returns the "keycap: 8" emoji 8️⃣.
-func Keycap8(v ...Variant) string { return Lookup("keycap: 8", v...) }
+func Keycap8(v ...Variant) string { return styled(978, v) }
 
 // Keycap9 returns the "keycap: 9" emoji 9️⃣.
-func Keycap9(v ...Variant) string { return Lookup("keycap: 9", v...) }
+func Keycap9(v ...Variant) string { return styled(979, v) }
 
 // Keycap10 returns the "keycap: 10" emoji 🔟.
-func Keycap10(v ...Variant) string { return Lookup("keycap: 10", v...) }
+func Keycap10(v ...Variant) string { return styled(971, v) }
 
 // InputLatinUppercase returns the "input latin uppercase" emoji 🔠.
-func InputLatinUppercase(v ...Variant) string { return Lookup("input latin uppercase", v...) }
+func InputLatinUppercase(v ...Variant) string { return styled(953, v) }
 
 // InputLatinLowercase returns the "input latin lowercase" emoji 🔡.
-func InputLatinLowercase(v ...Variant) string { return Lookup("input latin lowercase", v...) }
+func InputLatinLowercase(v ...Variant) string { return styled(952, v) }
 
 // InputNumbers returns the "input numbers" emoji 🔢.
-func InputNumbers(v ...Variant) string { return Lookup("input numbers", v...) }
+func InputNumbers(v ...Variant) string { return styled(954, v) }
 
 // InputSymbols returns the "input symbols" emoji 🔣.
-func InputSymbols(v ...Variant) string { return Lookup("input symbols", v...) }
+func InputSymbols(v ...Variant) string { return styled(955, v) }
 
 // InputLatinLetters returns the "input latin letters" emoji 🔤.
-func InputLatinLetters(v ...Variant) string { return Lookup("input latin letters", v...) }
+func InputLatinLetters(v ...Variant) string { return styled(951, v) }
 
 // AButtonBloodType returns the "A button (blood type)" emoji 🅰️.
-func AButtonBloodType(v ...Variant) string { return Lookup("A button (blood type)", v...) }
+func AButtonBloodType(v ...Variant) string { return styled(3, v) }
 
 // ABButtonBloodType returns the "AB button (blood type)" emoji 🆎.
-func ABButtonBloodType(v ...Variant) string { return Lookup("AB button (blood type)", v...) }
+func ABButtonBloodType(v ...Variant) string { return styled(4, v) }
 
 // BButtonBloodType returns the "B button (blood type)" emoji 🅱️.
-func BButtonBloodType(v ...Variant) string { return Lookup("B button (blood type)", v...) }
+func BButtonBloodType(v ...Variant) string { return styled(8, v) }
 
 // CLButton returns the "CL button" emoji 🆑.
-func CLButton(v ...Variant) string { return Lookup("CL button", v...) }
+func CLButton(v ...Variant) string { return styled(10, v) }
 
 // COOLButton returns the "COOL button" emoji 🆒.
-func COOLButton(v ...Variant) string { return Lookup("COOL button", v...) }
+func COOLButton(v ...Variant) string { return styled(11, v) }
 
 // FREEButton returns the "FREE button" emoji 🆓.
-func FREEButton(v ...Variant) string { return Lookup("FREE button", v...) }
+func FREEButton(v ...Variant) string { return styled(16, v) }
 
 // Information returns the "information" emoji ℹ️.
-func Information(v ...Variant) string { return Lookup("information", v...) }
+func Information(v ...Variant) string { return styled(950, v) }
 
 // IDButton returns the "ID button" emoji 🆔.
-func IDButton(v ...Variant) string { return Lookup("ID button", v...) }
+func IDButton(v ...Variant) string { return styled(18, v) }
 
 // CircledM returns the "circled M" emoji Ⓜ️.
-func CircledM(v ...Variant) string { return Lookup("circled M", v...) }
+func CircledM(v ...Variant) string { return styled(264, v) }
 
 // NEWButton returns the "NEW button" emoji 🆕.
-func NEWButton(v ...Variant) string { return Lookup("NEW button", v...) }
+func NEWButton(v ...Variant) string { return styled(44, v) }
 
 // NGButton returns the "NG button" emoji 🆖.
-func NGButton(v ...Variant) string { return Lookup("NG button", v...) }
+func NGButton(v ...Variant) string { return styled(45, v) }
 
 // OButtonBloodType returns the "O button (blood type)" emoji 🅾️.
-func OButtonBloodType(v ...Variant) string { return Lookup("O button (blood type)", v...) }
+func OButtonBloodType(v ...Variant) string { return styled(46, v) }
 
 // OKButton returns the "OK button" emoji 🆗.
-func OKButton(v ...Variant) string { return Lookup("OK button", v...) }
+func OKButton(v ...Variant) string { return styled(47, v) }
 
 // PButton returns the "P button" emoji 🅿️.
-func PButton(v ...Variant) string { return Lookup("P button", v...) }
+func PButton(v ...Variant) string { return styled(51, v) }
 
 // SOSButton returns the "SOS button" emoji 🆘.
-func SOSButton(v ...Variant) string { return Lookup("SOS button", v...) }
+func SOSButton(v ...Variant) string { return styled(54, v) }
 
 // UPButton returns the "UP! button" emoji 🆙.
-func UPButton(v ...Variant) string { return Lookup("UP! button", v...) }
+func UPButton(v ...Variant) string { return styled(63, v) }
 
 // VSButton returns the "VS button" emoji 🆚.
-func VSButton(v ...Variant) string { return Lookup("VS button", v...) }
+func VSButton(v ...Variant) string { return styled(64, v) }
 
 // JapaneseHereButton returns the "Japanese “here” button" emoji 🈁.
-func JapaneseHereButton(v ...Variant) string { return Lookup("Japanese “here” button", v...) }
+func JapaneseHereButton(v ...Variant) string { return styled(29, v) }
 
-// JapaneseServiceChargeButton returns the "Japanese “service charge” button" emoji 🈂️.
-func JapaneseServiceChargeButton(v ...Variant) string {
-	return Lookup("Japanese “service charge” button", v...)
-}
+// JapaneseServiceChargeButton returns the "Japanese “service charge”
+// button" emoji 🈂️.
+func JapaneseServiceChargeButton(v ...Variant) string { return styled(38, v) }
 
-// JapaneseMonthlyAmountButton returns the "Japanese “monthly amount” button" emoji 🈷️.
-func JapaneseMonthlyAmountButton(v ...Variant) string {
-	return Lookup("Japanese “monthly amount” button", v...)
-}
+// JapaneseMonthlyAmountButton returns the "Japanese “monthly amount”
+// button" emoji 🈷️.
+func JapaneseMonthlyAmountButton(v ...Variant) string { return styled(30, v) }
 
-// JapaneseNotFreeOfChargeButton returns the "Japanese “not free of charge” button" emoji 🈶.
-func JapaneseNotFreeOfChargeButton(v ...Variant) string {
-	return Lookup("Japanese “not free of charge” button", v...)
-}
+// JapaneseNotFreeOfChargeButton returns the "Japanese “not free of
+// charge” button" emoji 🈶.
+func JapaneseNotFreeOfChargeButton(v ...Variant) string { return styled(32, v) }
 
-// JapaneseReservedButton returns the "Japanese “reserved” button" emoji 🈯.
-func JapaneseReservedButton(v ...Variant) string {
-	return Lookup("Japanese “reserved” button", v...)
-}
+// JapaneseReservedButton returns the "Japanese “reserved” button"
+// emoji 🈯.
+func JapaneseReservedButton(v ...Variant) string { return styled(36, v) }
 
-// JapaneseBargainButton returns the "Japanese “bargain” button" emoji 🉐.
-func JapaneseBargainButton(v ...Variant) string { return Lookup("Japanese “bargain” button", v...) }
+// JapaneseBargainButton returns the "Japanese “bargain” button" emoji
+// 🉐.
+func JapaneseBargainButton(v ...Variant) string { return styled(25, v) }
 
-// JapaneseDiscountButton returns the "Japanese “discount” button" emoji 🈹.
-func JapaneseDiscountButton(v ...Variant) string {
-	return Lookup("Japanese “discount” button", v...)
-}
+// JapaneseDiscountButton returns the "Japanese “discount” button"
+// emoji 🈹.
+func JapaneseDiscountButton(v ...Variant) string { return styled(27, v) }
 
-// JapaneseFreeOfChargeButton returns the "Japanese “free of charge” button" emoji 🈚.
-func JapaneseFreeOfChargeButton(v ...Variant) string {
-	return Lookup("Japanese “free of charge” button", v...)
-}
+// JapaneseFreeOfChargeButton returns the "Japanese “free of charge”
+// button" emoji 🈚.
+func JapaneseFreeOfChargeButton(v ...Variant) string { return styled(28, v) }
 
-// JapaneseProhibitedButton returns the "Japanese “prohibited” button" emoji 🈲.
-func JapaneseProhibitedButton(v ...Variant) string {
-	return Lookup("Japanese “prohibited” button", v...)
-}
+// JapaneseProhibitedButton returns the "Japanese “prohibited” button"
+// emoji 🈲.
+func JapaneseProhibitedButton(v ...Variant) string { return styled(35, v) }
 
-// JapaneseAcceptableButton returns the "Japanese “acceptable” button" emoji 🉑.
-func JapaneseAcceptableButton(v ...Variant) string {
-	return Lookup("Japanese “acceptable” button", v...)
-}
+// JapaneseAcceptableButton returns the "Japanese “acceptable” button"
+// emoji 🉑.
+func JapaneseAcceptableButton(v ...Variant) string { return styled(23, v) }
 
-// JapaneseApplicationButton returns the "Japanese “application” button" emoji 🈸.
-func JapaneseApplicationButton(v ...Variant) string {
-	return Lookup("Japanese “application” button", v...)
-}
+// JapaneseApplicationButton returns the "Japanese “application”
+// button" emoji 🈸.
+func JapaneseApplicationButton(v ...Variant) string { return styled(24, v) }
 
-// JapanesePassingGradeButton returns the "Japanese “passing grade” button" emoji 🈴.
-func JapanesePassingGradeButton(v ...Variant) string {
-	return Lookup("Japanese “passing grade” button", v...)
-}
+// JapanesePassingGradeButton returns the "Japanese “passing grade”
+// button" emoji 🈴.
+func JapanesePassingGradeButton(v ...Variant) string { return styled(34, v) }
 
-// JapaneseVacancyButton returns the "Japanese “vacancy” button" emoji 🈳.
-func JapaneseVacancyButton(v ...Variant) string { return Lookup("Japanese “vacancy” button", v...) }
+// JapaneseVacancyButton returns the "Japanese “vacancy” button" emoji
+// 🈳.
+func JapaneseVacancyButton(v ...Variant) string { return styled(39, v) }
 
-// JapaneseCongratulationsButton returns the "Japanese “congratulations” button" emoji ㊗️.
-func JapaneseCongratulationsButton(v ...Variant) string {
-	return Lookup("Japanese “congratulations” button", v...)
-}
+// JapaneseCongratulationsButton returns the "Japanese
+// “congratulations” button" emoji ㊗️.
+func JapaneseCongratulationsButton(v ...Variant) string { return styled(26, v) }
 
-// JapaneseSecretButton returns the "Japanese “secret” button" emoji ㊙️.
-func JapaneseSecretButton(v ...Variant) string { return Lookup("Japanese “secret” button", v...) }
+// JapaneseSecretButton returns the "Japanese “secret” button" emoji
+// ㊙️.
+func JapaneseSecretButton(v ...Variant) string { return styled(37, v) }
 
-// JapaneseOpenForBusinessButton returns the "Japanese “open for business” button" emoji 🈺.
-func JapaneseOpenForBusinessButton(v ...Variant) string {
-	return Lookup("Japanese “open for business” button", v...)
-}
+// JapaneseOpenForBusinessButton returns the "Japanese “open for
+// business” button" emoji 🈺.
+func JapaneseOpenForBusinessButton(v ...Variant) string { return styled(33, v) }
 
-// JapaneseNoVacancyButton returns the "Japanese “no vacancy” button" emoji 🈵.
-func JapaneseNoVacancyButton(v ...Variant) string {
-	return Lookup("Japanese “no vacancy” button", v...)
-}
+// JapaneseNoVacancyButton returns the "Japanese “no vacancy” button"
+// emoji 🈵.
+func JapaneseNoVacancyButton(v ...Variant) string { return styled(31, v) }
 
 // RedCircle returns the "red circle" emoji 🔴.
-func RedCircle(v ...Variant) string { return Lookup("red circle", v...) }
+func RedCircle(v ...Variant) string { return styled(1451, v) }
 
 // OrangeCircle returns the "orange circle" emoji 🟠.
-func OrangeCircle(v ...Variant) string { return Lookup("orange circle", v...) }
+func OrangeCircle(v ...Variant) string { return styled(1270, v) }
 
 // YellowCircle returns the "yellow circle" emoji 🟡.
-func YellowCircle(v ...Variant) string { return Lookup("yellow circle", v...) }
+func YellowCircle(v ...Variant) string { return styled(1888, v) }
 
 // GreenCircle returns the "green circle" emoji 🟢.
-func GreenCircle(v ...Variant) string { return Lookup("green circle", v...) }
+func GreenCircle(v ...Variant) string { return styled(859, v) }
 
 // BlueCircle returns the "blue circle" emoji 🔵.
-func BlueCircle(v ...Variant) string { return Lookup("blue circle", v...) }
+func BlueCircle(v ...Variant) string { return styled(170, v) }
 
 // PurpleCircle returns the "purple circle" emoji 🟣.
-func PurpleCircle(v ...Variant) string { return Lookup("purple circle", v...) }
+func PurpleCircle(v ...Variant) string { return styled(1423, v) }
 
 // BrownCircle returns the "brown circle" emoji 🟤.
-func BrownCircle(v ...Variant) string { return Lookup("brown circle", v...) }
+func BrownCircle(v ...Variant) string { return styled(200, v) }
 
 // BlackCircle returns the "black circle" emoji ⚫.
-func BlackCircle(v ...Variant) string { return Lookup("black circle", v...) }
+func BlackCircle(v ...Variant) string { return styled(158, v) }
 
 // WhiteCircle returns the "white circle" emoji ⚪.
-func WhiteCircle(v ...Variant) string { return Lookup("white circle", v...) }
+func WhiteCircle(v ...Variant) string { return styled(1773, v) }
 
 // RedSquare returns the "red square" emoji 🟥.
-func RedSquare(v ...Variant) string { return Lookup("red square", v...) }
+func RedSquare(v ...Variant) string { return styled(1457, v) }
 
 // OrangeSquare returns the "orange square" emoji 🟧.
-func OrangeSquare(v ...Variant) string { return Lookup("orange square", v...) }
+func OrangeSquare(v ...Variant) string { return styled(1272, v) }
 
 // YellowSquare returns the "yellow square" emoji 🟨.
-func YellowSquare(v ...Variant) string { return Lookup("yellow square", v...) }
+func YellowSquare(v ...Variant) string { return styled(1890, v) }
 
 // GreenSquare returns the "green square" emoji 🟩.
-func GreenSquare(v ...Variant) string { return Lookup("green square", v...) }
+func GreenSquare(v ...Variant) string { return styled(862, v) }
 
 // BlueSquare returns the "blue square" emoji 🟦.
-func BlueSquare(v ...Variant) string { return Lookup("blue square", v...) }
+func BlueSquare(v ...Variant) string { return styled(172, v) }
 
 // PurpleSquare returns the "purple square" emoji 🟪.
-func PurpleSquare(v ...Variant) string { return Lookup("purple square", v...) }
+func PurpleSquare(v ...Variant) string { return styled(1425, v) }
 
 // BrownSquare returns the "brown square" emoji 🟫.
-func BrownSquare(v ...Variant) string { return Lookup("brown square", v...) }
+func BrownSquare(v ...Variant) string { return styled(203, v) }
 
 // BlackLargeSquare returns the "black large square" emoji ⬛.
-func BlackLargeSquare(v ...Variant) string { return Lookup("black large square", v...) }
+func BlackLargeSquare(v ...Variant) string { return styled(161, v) }
 
 // WhiteLargeSquare returns the "white large square" emoji ⬜.
-func WhiteLargeSquare(v ...Variant) string { return Lookup("white large square", v...) }
+func WhiteLargeSquare(v ...Variant) string { return styled(1778, v) }
 
 // BlackMediumSquare returns the "black medium square" emoji ◼️.
-func BlackMediumSquare(v ...Variant) string { return Lookup("black medium square", v...) }
+func BlackMediumSquare(v ...Variant) string { return styled(162, v) }
 
 // WhiteMediumSquare returns the "white medium square" emoji ◻️.
-func WhiteMediumSquare(v ...Variant) string { return Lookup("white medium square", v...) }
+func WhiteMediumSquare(v ...Variant) string { return styled(1779, v) }
 
-// BlackMediumSmallSquare returns the "black medium-small square" emoji ◾.
-func BlackMediumSmallSquare(v ...Variant) string { return Lookup("black medium-small square", v...) }
+// BlackMediumSmallSquare returns the "black medium-small square" emoji
+// ◾.
+func BlackMediumSmallSquare(v ...Variant) string { return styled(163, v) }
 
-// WhiteMediumSmallSquare returns the "white medium-small square" emoji ◽.
-func WhiteMediumSmallSquare(v ...Variant) string { return Lookup("white medium-small square", v...) }
+// WhiteMediumSmallSquare returns the "white medium-small square" emoji
+// ◽.
+func WhiteMediumSmallSquare(v ...Variant) string { return styled(1780, v) }
 
 // BlackSmallSquare returns the "black small square" emoji ▪️.
-func BlackSmallSquare(v ...Variant) string { return Lookup("black small square", v...) }
+func BlackSmallSquare(v ...Variant) string { return styled(165, v) }
 
 // WhiteSmallSquare returns the "white small square" emoji ▫️.
-func WhiteSmallSquare(v ...Variant) string { return Lookup("white small square", v...) }
+func WhiteSmallSquare(v ...Variant) string { return styled(1782, v) }
 
 // LargeOrangeDiamond returns the "large orange diamond" emoji 🔶.
-func LargeOrangeDiamond(v ...Variant) string { return Lookup("large orange diamond", v...) }
+func LargeOrangeDiamond(v ...Variant) string { return styled(1006, v) }
 
 // LargeBlueDiamond returns the "large blue diamond" emoji 🔷.
-func LargeBlueDiamond(v ...Variant) string { return Lookup("large blue diamond", v...) }
+func LargeBlueDiamond(v ...Variant) string { return styled(1005, v) }
 
 // SmallOrangeDiamond returns the "small orange diamond" emoji 🔸.
-func SmallOrangeDiamond(v ...Variant) string { return Lookup("small orange diamond", v...) }
+func SmallOrangeDiamond(v ...Variant) string { return styled(1568, v) }
 
 // SmallBlueDiamond returns the "small blue diamond" emoji 🔹.
-func SmallBlueDiamond(v ...Variant) string { return Lookup("small blue diamond", v...) }
+func SmallBlueDiamond(v ...Variant) string { return styled(1567, v) }
 
 // RedTrianglePointedUp returns the "red triangle pointed up" emoji 🔺.
-func RedTrianglePointedUp(v ...Variant) string { return Lookup("red triangle pointed up", v...) }
+func RedTrianglePointedUp(v ...Variant) string { return styled(1459, v) }
 
-// RedTrianglePointedDown returns the "red triangle pointed down" emoji 🔻.
-func RedTrianglePointedDown(v ...Variant) string { return Lookup("red triangle pointed down", v...) }
+// RedTrianglePointedDown returns the "red triangle pointed down" emoji
+// 🔻.
+func RedTrianglePointedDown(v ...Variant) string { return styled(1458, v) }
 
 // DiamondWithADot returns the "diamond with a dot" emoji 💠.
-func DiamondWithADot(v ...Variant) string { return Lookup("diamond with a dot", v...) }
+func DiamondWithADot(v ...Variant) string { return styled(368, v) }
 
 // RadioButton returns the "radio button" emoji 🔘.
-func RadioButton(v ...Variant) string { return Lookup("radio button", v...) }
+func RadioButton(v ...Variant) string { return styled(1434, v) }
 
 // WhiteSquareButton returns the "white square button" emoji 🔳.
-func WhiteSquareButton(v ...Variant) string { return Lookup("white square button", v...) }
+func WhiteSquareButton(v ...Variant) string { return styled(1783, v) }
 
 // BlackSquareButton returns the "black square button" emoji 🔲.
-func BlackSquareButton(v ...Variant) string { return Lookup("black square button", v...) }
+func BlackSquareButton(v ...Variant) string { return styled(166, v) }
 
 // Flags
 
 // ChequeredFlag returns the "chequered flag" emoji 🏁.
-func ChequeredFlag(v ...Variant) string { return Lookup("chequered flag", v...) }
+func ChequeredFlag(v ...Variant) string { return styled(250, v) }
 
 // TriangularFlag returns the "triangular flag" emoji 🚩.
-func TriangularFlag(v ...Variant) string { return Lookup("triangular flag", v...) }
+func TriangularFlag(v ...Variant) string { return styled(1707, v) }
 
 // CrossedFlags returns the "crossed flags" emoji 🎌.
-func CrossedFlags(v ...Variant) string { return Lookup("crossed flags", v...) }
+func CrossedFlags(v ...Variant) string { return styled(334, v) }
 
 // BlackFlag returns the "black flag" emoji 🏴.
-func BlackFlag(v ...Variant) string { return Lookup("black flag", v...) }
+func BlackFlag(v ...Variant) string { return styled(159, v) }
 
 // WhiteFlag returns the "white flag" emoji 🏳️.
-func WhiteFlag(v ...Variant) string { return Lookup("white flag", v...) }
+func WhiteFlag(v ...Variant) string { return styled(1775, v) }
 
 // RainbowFlag returns the "rainbow flag" emoji 🏳️‍🌈.
-func RainbowFlag(v ...Variant) string { return Lookup("rainbow flag", v...) }
+func RainbowFlag(v ...Variant) string { return styled(1439, v) }
 
 // TransgenderFlag returns the "transgender flag" emoji 🏳️‍⚧️.
-func TransgenderFlag(v ...Variant) string { return Lookup("transgender flag", v...) }
+func TransgenderFlag(v ...Variant) string { return styled(1704, v) }
 
 // PirateFlag returns the "pirate flag" emoji 🏴‍☠️.
-func PirateFlag(v ...Variant) string { return Lookup("pirate flag", v...) }
+func PirateFlag(v ...Variant) string { return styled(1385, v) }
 
 // FlagAscensionIsland returns the "flag: Ascension Island" emoji 🇦🇨.
-func FlagAscensionIsland(v ...Variant) string { return Lookup("flag: Ascension Island", v...) }
+func FlagAscensionIsland(v ...Variant) string { return styled(542, v) }
 
 // FlagAndorra returns the "flag: Andorra" emoji 🇦🇩.
-func FlagAndorra(v ...Variant) string { return Lookup("flag: Andorra", v...) }
+func FlagAndorra(v ...Variant) string { return styled(534, v) }
 
-// FlagUnitedArabEmirates returns the "flag: United Arab Emirates" emoji 🇦🇪.
-func FlagUnitedArabEmirates(v ...Variant) string { return Lookup("flag: United Arab Emirates", v...) }
+// FlagUnitedArabEmirates returns the "flag: United Arab Emirates" emoji
+// 🇦🇪.
+func FlagUnitedArabEmirates(v ...Variant) string { return styled(775, v) }
 
 // FlagAfghanistan returns the "flag: Afghanistan" emoji 🇦🇫.
-func FlagAfghanistan(v ...Variant) string { return Lookup("flag: Afghanistan", v...) }
+func FlagAfghanistan(v ...Variant) string { return styled(530, v) }
 
-// FlagAntiguaAndBarbuda returns the "flag: Antigua & Barbuda" emoji 🇦🇬.
-func FlagAntiguaAndBarbuda(v ...Variant) string { return Lookup("flag: Antigua & Barbuda", v...) }
+// FlagAntiguaAndBarbuda returns the "flag: Antigua & Barbuda" emoji
+// 🇦🇬.
+func FlagAntiguaAndBarbuda(v ...Variant) string { return styled(538, v) }
 
 // FlagAnguilla returns the "flag: Anguilla" emoji 🇦🇮.
-func FlagAnguilla(v ...Variant) string { return Lookup("flag: Anguilla", v...) }
+func FlagAnguilla(v ...Variant) string { return styled(536, v) }
 
 // FlagAlbania returns the "flag: Albania" emoji 🇦🇱.
-func FlagAlbania(v ...Variant) string { return Lookup("flag: Albania", v...) }
+func FlagAlbania(v ...Variant) string { return styled(531, v) }
 
 // FlagArmenia returns the "flag: Armenia" emoji 🇦🇲.
-func FlagArmenia(v ...Variant) string { return Lookup("flag: Armenia", v...) }
+func FlagArmenia(v ...Variant) string { return styled(540, v) }
 
 // FlagAngola returns the "flag: Angola" emoji 🇦🇴.
-func FlagAngola(v ...Variant) string { return Lookup("flag: Angola", v...) }
+func FlagAngola(v ...Variant) string { return styled(535, v) }
 
 // FlagAntarctica returns the "flag: Antarctica" emoji 🇦🇶.
-func FlagAntarctica(v ...Variant) string { return Lookup("flag: Antarctica", v...) }
+func FlagAntarctica(v ...Variant) string { return styled(537, v) }
 
 // FlagArgentina returns the "flag: Argentina" emoji 🇦🇷.
-func FlagArgentina(v ...Variant) string { return Lookup("flag: Argentina", v...) }
+func FlagArgentina(v ...Variant) string { return styled(539, v) }
 
 // FlagAmericanSamoa returns the "flag: American Samoa" emoji 🇦🇸.
-func FlagAmericanSamoa(v ...Variant) string { return Lookup("flag: American Samoa", v...) }
+func FlagAmericanSamoa(v ...Variant) string { return styled(533, v) }
 
 // FlagAustria returns the "flag: Austria" emoji 🇦🇹.
-func FlagAustria(v ...Variant) string { return Lookup("flag: Austria", v...) }
+func FlagAustria(v ...Variant) string { return styled(544, v) }
 
 // FlagAustralia returns the "flag: Australia" emoji 🇦🇺.
-func FlagAustralia(v ...Variant) string { return Lookup("flag: Australia", v...) }
+func FlagAustralia(v ...Variant) string { return styled(543, v) }
 
 // FlagAruba returns the "flag: Aruba" emoji 🇦🇼.
-func FlagAruba(v ...Variant) string { return Lookup("flag: Aruba", v...) }
+func FlagAruba(v ...Variant) string { return styled(541, v) }
 
 // FlagAlandIslands returns the "flag: Åland Islands" emoji 🇦🇽.
-func FlagAlandIslands(v ...Variant) string { return Lookup("flag: Åland Islands", v...) }
+func FlagAlandIslands(v ...Variant) string { return styled(791, v) }
 
 // FlagAzerbaijan returns the "flag: Azerbaijan" emoji 🇦🇿.
-func FlagAzerbaijan(v ...Variant) string { return Lookup("flag: Azerbaijan", v...) }
+func FlagAzerbaijan(v ...Variant) string { return styled(545, v) }
 
-// FlagBosniaAndHerzegovina returns the "flag: Bosnia & Herzegovina" emoji 🇧🇦.
-func FlagBosniaAndHerzegovina(v ...Variant) string { return Lookup("flag: Bosnia & Herzegovina", v...) }
+// FlagBosniaAndHerzegovina returns the "flag: Bosnia & Herzegovina" emoji
+// 🇧🇦.
+func FlagBosniaAndHerzegovina(v ...Variant) string { return styled(557, v) }
 
 // FlagBarbados returns the "flag: Barbados" emoji 🇧🇧.
-func FlagBarbados(v ...Variant) string { return Lookup("flag: Barbados", v...) }
+func FlagBarbados(v ...Variant) string { return styled(549, v) }
 
 // FlagBangladesh returns the "flag: Bangladesh" emoji 🇧🇩.
-func FlagBangladesh(v ...Variant) string { return Lookup("flag: Bangladesh", v...) }
+func FlagBangladesh(v ...Variant) string { return styled(548, v) }
 
 // FlagBelgium returns the "flag: Belgium" emoji 🇧🇪.
-func FlagBelgium(v ...Variant) string { return Lookup("flag: Belgium", v...) }
+func FlagBelgium(v ...Variant) string { return styled(551, v) }
 
 // FlagBurkinaFaso returns the "flag: Burkina Faso" emoji 🇧🇫.
-func FlagBurkinaFaso(v ...Variant) string { return Lookup("flag: Burkina Faso", v...) }
+func FlagBurkinaFaso(v ...Variant) string { return styled(565, v) }
 
 // FlagBulgaria returns the "flag: Bulgaria" emoji 🇧🇬.
-func FlagBulgaria(v ...Variant) string { return Lookup("flag: Bulgaria", v...) }
+func FlagBulgaria(v ...Variant) string { return styled(564, v) }
 
 // FlagBahrain returns the "flag: Bahrain" emoji 🇧🇭.
-func FlagBahrain(v ...Variant) string { return Lookup("flag: Bahrain", v...) }
+func FlagBahrain(v ...Variant) string { return styled(547, v) }
 
 // FlagBurundi returns the "flag: Burundi" emoji 🇧🇮.
-func FlagBurundi(v ...Variant) string { return Lookup("flag: Burundi", v...) }
+func FlagBurundi(v ...Variant) string { return styled(566, v) }
 
 // FlagBenin returns the "flag: Benin" emoji 🇧🇯.
-func FlagBenin(v ...Variant) string { return Lookup("flag: Benin", v...) }
+func FlagBenin(v ...Variant) string { return styled(553, v) }
 
 // FlagStBarthelemy returns the "flag: St. Barthélemy" emoji 🇧🇱.
-func FlagStBarthelemy(v ...Variant) string { return Lookup("flag: St. Barthélemy", v...) }
+func FlagStBarthelemy(v ...Variant) string { return styled(742, v) }
 
 // FlagBermuda returns the "flag: Bermuda" emoji 🇧🇲.
-func FlagBermuda(v ...Variant) string { return Lookup("flag: Bermuda", v...) }
+func FlagBermuda(v ...Variant) string { return styled(554, v) }
 
 // FlagBrunei returns the "flag: Brunei" emoji 🇧🇳.
-func FlagBrunei(v ...Variant) string { return Lookup("flag: Brunei", v...) }
+func FlagBrunei(v ...Variant) string { return styled(563, v) }
 
 // FlagBolivia returns the "flag: Bolivia" emoji 🇧🇴.
-func FlagBolivia(v ...Variant) string { return Lookup("flag: Bolivia", v...) }
+func FlagBolivia(v ...Variant) string { return styled(556, v) }
 
-// FlagCaribbeanNetherlands returns the "flag: Caribbean Netherlands" emoji 🇧🇶.
-func FlagCaribbeanNetherlands(v ...Variant) string {
-	return Lookup("flag: Caribbean Netherlands", v...)
-}
+// FlagCaribbeanNetherlands returns the "flag: Caribbean Netherlands" emoji
+// 🇧🇶.
+func FlagCaribbeanNetherlands(v ...Variant) string { return styled(572, v) }
 
 // FlagBrazil returns the "flag: Brazil" emoji 🇧🇷.
-func FlagBrazil(v ...Variant) string { return Lookup("flag: Brazil", v...) }
+func FlagBrazil(v ...Variant) string { return styled(560, v) }
 
 // FlagBahamas returns the "flag: Bahamas" emoji 🇧🇸.
-func FlagBahamas(v ...Variant) string { return Lookup("flag: Bahamas", v...) }
+func FlagBahamas(v ...Variant) string { return styled(546, v) }
 
 // FlagBhutan returns the "flag: Bhutan" emoji 🇧🇹.
-func FlagBhutan(v ...Variant) string { return Lookup("flag: Bhutan", v...) }
+func FlagBhutan(v ...Variant) string { return styled(555, v) }
 
 // FlagBouvetIsland returns the "flag: Bouvet Island" emoji 🇧🇻.
-func FlagBouvetIsland(v ...Variant) string { return Lookup("flag: Bouvet Island", v...) }
+func FlagBouvetIsland(v ...Variant) string { return styled(559, v) }
 
 // FlagBotswana returns the "flag: Botswana" emoji 🇧🇼.
-func FlagBotswana(v ...Variant) string { return Lookup("flag: Botswana", v...) }
+func FlagBotswana(v ...Variant) string { return styled(558, v) }
 
 // FlagBelarus returns the "flag: Belarus" emoji 🇧🇾.
-func FlagBelarus(v ...Variant) string { return Lookup("flag: Belarus", v...) }
+func FlagBelarus(v ...Variant) string { return styled(550, v) }
 
 // FlagBelize returns the "flag: Belize" emoji 🇧🇿.
-func FlagBelize(v ...Variant) string { return Lookup("flag: Belize", v...) }
+func FlagBelize(v ...Variant) string { return styled(552, v) }
 
 // FlagCanada returns the "flag: Canada" emoji 🇨🇦.
-func FlagCanada(v ...Variant) string { return Lookup("flag: Canada", v...) }
+func FlagCanada(v ...Variant) string { return styled(569, v) }
 
-// FlagCocosKeelingIslands returns the "flag: Cocos (Keeling) Islands" emoji 🇨🇨.
-func FlagCocosKeelingIslands(v ...Variant) string {
-	return Lookup("flag: Cocos (Keeling) Islands", v...)
-}
+// FlagCocosKeelingIslands returns the "flag: Cocos (Keeling) Islands"
+// emoji 🇨🇨.
+func FlagCocosKeelingIslands(v ...Variant) string { return styled(581, v) }
 
 // FlagCongoKinshasa returns the "flag: Congo - Kinshasa" emoji 🇨🇩.
-func FlagCongoKinshasa(v ...Variant) string { return Lookup("flag: Congo - Kinshasa", v...) }
+func FlagCongoKinshasa(v ...Variant) string { return styled(585, v) }
 
-// FlagCentralAfricanRepublic returns the "flag: Central African Republic" emoji 🇨🇫.
-func FlagCentralAfricanRepublic(v ...Variant) string {
-	return Lookup("flag: Central African Republic", v...)
-}
+// FlagCentralAfricanRepublic returns the "flag: Central African Republic"
+// emoji 🇨🇫.
+func FlagCentralAfricanRepublic(v ...Variant) string { return styled(574, v) }
 
-// FlagCongoBrazzaville returns the "flag: Congo - Brazzaville" emoji 🇨🇬.
-func FlagCongoBrazzaville(v ...Variant) string { return Lookup("flag: Congo - Brazzaville", v...) }
+// FlagCongoBrazzaville returns the "flag: Congo - Brazzaville" emoji
+// 🇨🇬.
+func FlagCongoBrazzaville(v ...Variant) string { return styled(584, v) }
 
 // FlagSwitzerland returns the "flag: Switzerland" emoji 🇨🇭.
-func FlagSwitzerland(v ...Variant) string { return Lookup("flag: Switzerland", v...) }
+func FlagSwitzerland(v ...Variant) string { return styled(753, v) }
 
 // FlagCoteDIvoire returns the "flag: Côte d’Ivoire" emoji 🇨🇮.
-func FlagCoteDIvoire(v ...Variant) string { return Lookup("flag: Côte d’Ivoire", v...) }
+func FlagCoteDIvoire(v ...Variant) string { return styled(593, v) }
 
 // FlagCookIslands returns the "flag: Cook Islands" emoji 🇨🇰.
-func FlagCookIslands(v ...Variant) string { return Lookup("flag: Cook Islands", v...) }
+func FlagCookIslands(v ...Variant) string { return styled(586, v) }
 
 // FlagChile returns the "flag: Chile" emoji 🇨🇱.
-func FlagChile(v ...Variant) string { return Lookup("flag: Chile", v...) }
+func FlagChile(v ...Variant) string { return styled(577, v) }
 
 // FlagCameroon returns the "flag: Cameroon" emoji 🇨🇲.
-func FlagCameroon(v ...Variant) string { return Lookup("flag: Cameroon", v...) }
+func FlagCameroon(v ...Variant) string { return styled(568, v) }
 
 // FlagChina returns the "flag: China" emoji 🇨🇳.
-func FlagChina(v ...Variant) string { return Lookup("flag: China", v...) }
+func FlagChina(v ...Variant) string { return styled(578, v) }
 
 // FlagColombia returns the "flag: Colombia" emoji 🇨🇴.
-func FlagColombia(v ...Variant) string { return Lookup("flag: Colombia", v...) }
+func FlagColombia(v ...Variant) string { return styled(582, v) }
 
-// FlagClippertonIsland returns the "flag: Clipperton Island" emoji 🇨🇵.
-func FlagClippertonIsland(v ...Variant) string { return Lookup("flag: Clipperton Island", v...) }
+// FlagClippertonIsland returns the "flag: Clipperton Island" emoji
+// 🇨🇵.
+func FlagClippertonIsland(v ...Variant) string { return styled(580, v) }
 
 // FlagSark returns the "flag: Sark" emoji 🇨🇶.
-func FlagSark(v ...Variant) string { return Lookup("flag: Sark", v...) }
+func FlagSark(v ...Variant) string { return styled(723, v) }
 
 // FlagCostaRica returns the "flag: Costa Rica" emoji 🇨🇷.
-func FlagCostaRica(v ...Variant) string { return Lookup("flag: Costa Rica", v...) }
+func FlagCostaRica(v ...Variant) string { return styled(587, v) }
 
 // FlagCuba returns the "flag: Cuba" emoji 🇨🇺.
-func FlagCuba(v ...Variant) string { return Lookup("flag: Cuba", v...) }
+func FlagCuba(v ...Variant) string { return styled(589, v) }
 
 // FlagCapeVerde returns the "flag: Cape Verde" emoji 🇨🇻.
-func FlagCapeVerde(v ...Variant) string { return Lookup("flag: Cape Verde", v...) }
+func FlagCapeVerde(v ...Variant) string { return styled(571, v) }
 
 // FlagCuracao returns the "flag: Curaçao" emoji 🇨🇼.
-func FlagCuracao(v ...Variant) string { return Lookup("flag: Curaçao", v...) }
+func FlagCuracao(v ...Variant) string { return styled(590, v) }
 
 // FlagChristmasIsland returns the "flag: Christmas Island" emoji 🇨🇽.
-func FlagChristmasIsland(v ...Variant) string { return Lookup("flag: Christmas Island", v...) }
+func FlagChristmasIsland(v ...Variant) string { return styled(579, v) }
 
 // FlagCyprus returns the "flag: Cyprus" emoji 🇨🇾.
-func FlagCyprus(v ...Variant) string { return Lookup("flag: Cyprus", v...) }
+func FlagCyprus(v ...Variant) string { return styled(591, v) }
 
 // FlagCzechia returns the "flag: Czechia" emoji 🇨🇿.
-func FlagCzechia(v ...Variant) string { return Lookup("flag: Czechia", v...) }
+func FlagCzechia(v ...Variant) string { return styled(592, v) }
 
 // FlagGermany returns the "flag: Germany" emoji 🇩🇪.
-func FlagGermany(v ...Variant) string { return Lookup("flag: Germany", v...) }
+func FlagGermany(v ...Variant) string { return styled(620, v) }
 
 // FlagDiegoGarcia returns the "flag: Diego Garcia" emoji 🇩🇬.
-func FlagDiegoGarcia(v ...Variant) string { return Lookup("flag: Diego Garcia", v...) }
+func FlagDiegoGarcia(v ...Variant) string { return styled(595, v) }
 
 // FlagDjibouti returns the "flag: Djibouti" emoji 🇩🇯.
-func FlagDjibouti(v ...Variant) string { return Lookup("flag: Djibouti", v...) }
+func FlagDjibouti(v ...Variant) string { return styled(596, v) }
 
 // FlagDenmark returns the "flag: Denmark" emoji 🇩🇰.
-func FlagDenmark(v ...Variant) string { return Lookup("flag: Denmark", v...) }
+func FlagDenmark(v ...Variant) string { return styled(594, v) }
 
 // FlagDominica returns the "flag: Dominica" emoji 🇩🇲.
-func FlagDominica(v ...Variant) string { return Lookup("flag: Dominica", v...) }
+func FlagDominica(v ...Variant) string { return styled(597, v) }
 
-// FlagDominicanRepublic returns the "flag: Dominican Republic" emoji 🇩🇴.
-func FlagDominicanRepublic(v ...Variant) string { return Lookup("flag: Dominican Republic", v...) }
+// FlagDominicanRepublic returns the "flag: Dominican Republic" emoji
+// 🇩🇴.
+func FlagDominicanRepublic(v ...Variant) string { return styled(598, v) }
 
 // FlagAlgeria returns the "flag: Algeria" emoji 🇩🇿.
-func FlagAlgeria(v ...Variant) string { return Lookup("flag: Algeria", v...) }
+func FlagAlgeria(v ...Variant) string { return styled(532, v) }
 
 // FlagCeutaAndMelilla returns the "flag: Ceuta & Melilla" emoji 🇪🇦.
-func FlagCeutaAndMelilla(v ...Variant) string { return Lookup("flag: Ceuta & Melilla", v...) }
+func FlagCeutaAndMelilla(v ...Variant) string { return styled(575, v) }
 
 // FlagEcuador returns the "flag: Ecuador" emoji 🇪🇨.
-func FlagEcuador(v ...Variant) string { return Lookup("flag: Ecuador", v...) }
+func FlagEcuador(v ...Variant) string { return styled(599, v) }
 
 // FlagEstonia returns the "flag: Estonia" emoji 🇪🇪.
-func FlagEstonia(v ...Variant) string { return Lookup("flag: Estonia", v...) }
+func FlagEstonia(v ...Variant) string { return styled(605, v) }
 
 // FlagEgypt returns the "flag: Egypt" emoji 🇪🇬.
-func FlagEgypt(v ...Variant) string { return Lookup("flag: Egypt", v...) }
+func FlagEgypt(v ...Variant) string { return styled(600, v) }
 
 // FlagWesternSahara returns the "flag: Western Sahara" emoji 🇪🇭.
-func FlagWesternSahara(v ...Variant) string { return Lookup("flag: Western Sahara", v...) }
+func FlagWesternSahara(v ...Variant) string { return styled(787, v) }
 
 // FlagEritrea returns the "flag: Eritrea" emoji 🇪🇷.
-func FlagEritrea(v ...Variant) string { return Lookup("flag: Eritrea", v...) }
+func FlagEritrea(v ...Variant) string { return styled(604, v) }
 
 // FlagSpain returns the "flag: Spain" emoji 🇪🇸.
-func FlagSpain(v ...Variant) string { return Lookup("flag: Spain", v...) }
+func FlagSpain(v ...Variant) string { return styled(740, v) }
 
 // FlagEthiopia returns the "flag: Ethiopia" emoji 🇪🇹.
-func FlagEthiopia(v ...Variant) string { return Lookup("flag: Ethiopia", v...) }
+func FlagEthiopia(v ...Variant) string { return styled(607, v) }
 
 // FlagEuropeanUnion returns the "flag: European Union" emoji 🇪🇺.
-func FlagEuropeanUnion(v ...Variant) string { return Lookup("flag: European Union", v...) }
+func FlagEuropeanUnion(v ...Variant) string { return styled(608, v) }
 
 // FlagFinland returns the "flag: Finland" emoji 🇫🇮.
-func FlagFinland(v ...Variant) string { return Lookup("flag: Finland", v...) }
+func FlagFinland(v ...Variant) string { return styled(612, v) }
 
 // FlagFiji returns the "flag: Fiji" emoji 🇫🇯.
-func FlagFiji(v ...Variant) string { return Lookup("flag: Fiji", v...) }
+func FlagFiji(v ...Variant) string { return styled(611, v) }
 
 // FlagFalklandIslands returns the "flag: Falkland Islands" emoji 🇫🇰.
-func FlagFalklandIslands(v ...Variant) string { return Lookup("flag: Falkland Islands", v...) }
+func FlagFalklandIslands(v ...Variant) string { return styled(609, v) }
 
 // FlagMicronesia returns the "flag: Micronesia" emoji 🇫🇲.
-func FlagMicronesia(v ...Variant) string { return Lookup("flag: Micronesia", v...) }
+func FlagMicronesia(v ...Variant) string { return styled(679, v) }
 
 // FlagFaroeIslands returns the "flag: Faroe Islands" emoji 🇫🇴.
-func FlagFaroeIslands(v ...Variant) string { return Lookup("flag: Faroe Islands", v...) }
+func FlagFaroeIslands(v ...Variant) string { return styled(610, v) }
 
 // FlagFrance returns the "flag: France" emoji 🇫🇷.
-func FlagFrance(v ...Variant) string { return Lookup("flag: France", v...) }
+func FlagFrance(v ...Variant) string { return styled(613, v) }
 
 // FlagGabon returns the "flag: Gabon" emoji 🇬🇦.
-func FlagGabon(v ...Variant) string { return Lookup("flag: Gabon", v...) }
+func FlagGabon(v ...Variant) string { return styled(617, v) }
 
 // FlagUnitedKingdom returns the "flag: United Kingdom" emoji 🇬🇧.
-func FlagUnitedKingdom(v ...Variant) string { return Lookup("flag: United Kingdom", v...) }
+func FlagUnitedKingdom(v ...Variant) string { return styled(776, v) }
 
 // FlagGrenada returns the "flag: Grenada" emoji 🇬🇩.
-func FlagGrenada(v ...Variant) string { return Lookup("flag: Grenada", v...) }
+func FlagGrenada(v ...Variant) string { return styled(625, v) }
 
 // FlagGeorgia returns the "flag: Georgia" emoji 🇬🇪.
-func FlagGeorgia(v ...Variant) string { return Lookup("flag: Georgia", v...) }
+func FlagGeorgia(v ...Variant) string { return styled(619, v) }
 
 // FlagFrenchGuiana returns the "flag: French Guiana" emoji 🇬🇫.
-func FlagFrenchGuiana(v ...Variant) string { return Lookup("flag: French Guiana", v...) }
+func FlagFrenchGuiana(v ...Variant) string { return styled(614, v) }
 
 // FlagGuernsey returns the "flag: Guernsey" emoji 🇬🇬.
-func FlagGuernsey(v ...Variant) string { return Lookup("flag: Guernsey", v...) }
+func FlagGuernsey(v ...Variant) string { return styled(629, v) }
 
 // FlagGhana returns the "flag: Ghana" emoji 🇬🇭.
-func FlagGhana(v ...Variant) string { return Lookup("flag: Ghana", v...) }
+func FlagGhana(v ...Variant) string { return styled(621, v) }
 
 // FlagGibraltar returns the "flag: Gibraltar" emoji 🇬🇮.
-func FlagGibraltar(v ...Variant) string { return Lookup("flag: Gibraltar", v...) }
+func FlagGibraltar(v ...Variant) string { return styled(622, v) }
 
 // FlagGreenland returns the "flag: Greenland" emoji 🇬🇱.
-func FlagGreenland(v ...Variant) string { return Lookup("flag: Greenland", v...) }
+func FlagGreenland(v ...Variant) string { return styled(624, v) }
 
 // FlagGambia returns the "flag: Gambia" emoji 🇬🇲.
-func FlagGambia(v ...Variant) string { return Lookup("flag: Gambia", v...) }
+func FlagGambia(v ...Variant) string { return styled(618, v) }
 
 // FlagGuinea returns the "flag: Guinea" emoji 🇬🇳.
-func FlagGuinea(v ...Variant) string { return Lookup("flag: Guinea", v...) }
+func FlagGuinea(v ...Variant) string { return styled(630, v) }
 
 // FlagGuadeloupe returns the "flag: Guadeloupe" emoji 🇬🇵.
-func FlagGuadeloupe(v ...Variant) string { return Lookup("flag: Guadeloupe", v...) }
+func FlagGuadeloupe(v ...Variant) string { return styled(626, v) }
 
-// FlagEquatorialGuinea returns the "flag: Equatorial Guinea" emoji 🇬🇶.
-func FlagEquatorialGuinea(v ...Variant) string { return Lookup("flag: Equatorial Guinea", v...) }
+// FlagEquatorialGuinea returns the "flag: Equatorial Guinea" emoji
+// 🇬🇶.
+func FlagEquatorialGuinea(v ...Variant) string { return styled(603, v) }
 
 // FlagGreece returns the "flag: Greece" emoji 🇬🇷.
-func FlagGreece(v ...Variant) string { return Lookup("flag: Greece", v...) }
+func FlagGreece(v ...Variant) string { return styled(623, v) }
 
-// FlagSouthGeorgiaAndSouthSandwichIslands returns the "flag: South Georgia & South Sandwich Islands" emoji 🇬🇸.
-func FlagSouthGeorgiaAndSouthSandwichIslands(v ...Variant) string {
-	return Lookup("flag: South Georgia & South Sandwich Islands", v...)
-}
+// FlagSouthGeorgiaAndSouthSandwichIslands returns the "flag: South Georgia
+// & South Sandwich Islands" emoji 🇬🇸.
+func FlagSouthGeorgiaAndSouthSandwichIslands(v ...Variant) string { return styled(737, v) }
 
 // FlagGuatemala returns the "flag: Guatemala" emoji 🇬🇹.
-func FlagGuatemala(v ...Variant) string { return Lookup("flag: Guatemala", v...) }
+func FlagGuatemala(v ...Variant) string { return styled(628, v) }
 
 // FlagGuam returns the "flag: Guam" emoji 🇬🇺.
-func FlagGuam(v ...Variant) string { return Lookup("flag: Guam", v...) }
+func FlagGuam(v ...Variant) string { return styled(627, v) }
 
 // FlagGuineaBissau returns the "flag: Guinea-Bissau" emoji 🇬🇼.
-func FlagGuineaBissau(v ...Variant) string { return Lookup("flag: Guinea-Bissau", v...) }
+func FlagGuineaBissau(v ...Variant) string { return styled(631, v) }
 
 // FlagGuyana returns the "flag: Guyana" emoji 🇬🇾.
-func FlagGuyana(v ...Variant) string { return Lookup("flag: Guyana", v...) }
+func FlagGuyana(v ...Variant) string { return styled(632, v) }
 
-// FlagHongKongSARChina returns the "flag: Hong Kong SAR China" emoji 🇭🇰.
-func FlagHongKongSARChina(v ...Variant) string { return Lookup("flag: Hong Kong SAR China", v...) }
+// FlagHongKongSARChina returns the "flag: Hong Kong SAR China" emoji
+// 🇭🇰.
+func FlagHongKongSARChina(v ...Variant) string { return styled(636, v) }
 
-// FlagHeardAndMcDonaldIslands returns the "flag: Heard & McDonald Islands" emoji 🇭🇲.
-func FlagHeardAndMcDonaldIslands(v ...Variant) string {
-	return Lookup("flag: Heard & McDonald Islands", v...)
-}
+// FlagHeardAndMcDonaldIslands returns the "flag: Heard & McDonald Islands"
+// emoji 🇭🇲.
+func FlagHeardAndMcDonaldIslands(v ...Variant) string { return styled(634, v) }
 
 // FlagHonduras returns the "flag: Honduras" emoji 🇭🇳.
-func FlagHonduras(v ...Variant) string { return Lookup("flag: Honduras", v...) }
+func FlagHonduras(v ...Variant) string { return styled(635, v) }
 
 // FlagCroatia returns the "flag: Croatia" emoji 🇭🇷.
-func FlagCroatia(v ...Variant) string { return Lookup("flag: Croatia", v...) }
+func FlagCroatia(v ...Variant) string { return styled(588, v) }
 
 // FlagHaiti returns the "flag: Haiti" emoji 🇭🇹.
-func FlagHaiti(v ...Variant) string { return Lookup("flag: Haiti", v...) }
+func FlagHaiti(v ...Variant) string { return styled(633, v) }
 
 // FlagHungary returns the "flag: Hungary" emoji 🇭🇺.
-func FlagHungary(v ...Variant) string { return Lookup("flag: Hungary", v...) }
+func FlagHungary(v ...Variant) string { return styled(637, v) }
 
 // FlagCanaryIslands returns the "flag: Canary Islands" emoji 🇮🇨.
-func FlagCanaryIslands(v ...Variant) string { return Lookup("flag: Canary Islands", v...) }
+func FlagCanaryIslands(v ...Variant) string { return styled(570, v) }
 
 // FlagIndonesia returns the "flag: Indonesia" emoji 🇮🇩.
-func FlagIndonesia(v ...Variant) string { return Lookup("flag: Indonesia", v...) }
+func FlagIndonesia(v ...Variant) string { return styled(640, v) }
 
 // FlagIreland returns the "flag: Ireland" emoji 🇮🇪.
-func FlagIreland(v ...Variant) string { return Lookup("flag: Ireland", v...) }
+func FlagIreland(v ...Variant) string { return styled(643, v) }
 
 // FlagIsrael returns the "flag: Israel" emoji 🇮🇱.
-func FlagIsrael(v ...Variant) string { return Lookup("flag: Israel", v...) }
+func FlagIsrael(v ...Variant) string { return styled(645, v) }
 
 // FlagIsleOfMan returns the "flag: Isle of Man" emoji 🇮🇲.
-func FlagIsleOfMan(v ...Variant) string { return Lookup("flag: Isle of Man", v...) }
+func FlagIsleOfMan(v ...Variant) string { return styled(644, v) }
 
 // FlagIndia returns the "flag: India" emoji 🇮🇳.
-func FlagIndia(v ...Variant) string { return Lookup("flag: India", v...) }
+func FlagIndia(v ...Variant) string { return styled(639, v) }
 
-// FlagBritishIndianOceanTerritory returns the "flag: British Indian Ocean Territory" emoji 🇮🇴.
-func FlagBritishIndianOceanTerritory(v ...Variant) string {
-	return Lookup("flag: British Indian Ocean Territory", v...)
-}
+// FlagBritishIndianOceanTerritory returns the "flag: British Indian Ocean
+// Territory" emoji 🇮🇴.
+func FlagBritishIndianOceanTerritory(v ...Variant) string { return styled(561, v) }
 
 // FlagIraq returns the "flag: Iraq" emoji 🇮🇶.
-func FlagIraq(v ...Variant) string { return Lookup("flag: Iraq", v...) }
+func FlagIraq(v ...Variant) string { return styled(642, v) }
 
 // FlagIran returns the "flag: Iran" emoji 🇮🇷.
-func FlagIran(v ...Variant) string { return Lookup("flag: Iran", v...) }
+func FlagIran(v ...Variant) string { return styled(641, v) }
 
 // FlagIceland returns the "flag: Iceland" emoji 🇮🇸.
-func FlagIceland(v ...Variant) string { return Lookup("flag: Iceland", v...) }
+func FlagIceland(v ...Variant) string { return styled(638, v) }
 
 // FlagItaly returns the "flag: Italy" emoji 🇮🇹.
-func FlagItaly(v ...Variant) string { return Lookup("flag: Italy", v...) }
+func FlagItaly(v ...Variant) string { return styled(646, v) }
 
 // FlagJersey returns the "flag: Jersey" emoji 🇯🇪.
-func FlagJersey(v ...Variant) string { return Lookup("flag: Jersey", v...) }
+func FlagJersey(v ...Variant) string { return styled(649, v) }
 
 // FlagJamaica returns the "flag: Jamaica" emoji 🇯🇲.
-func FlagJamaica(v ...Variant) string { return Lookup("flag: Jamaica", v...) }
+func FlagJamaica(v ...Variant) string { return styled(647, v) }
 
 // FlagJordan returns the "flag: Jordan" emoji 🇯🇴.
-func FlagJordan(v ...Variant) string { return Lookup("flag: Jordan", v...) }
+func FlagJordan(v ...Variant) string { return styled(650, v) }
 
 // FlagJapan returns the "flag: Japan" emoji 🇯🇵.
-func FlagJapan(v ...Variant) string { return Lookup("flag: Japan", v...) }
+func FlagJapan(v ...Variant) string { return styled(648, v) }
 
 // FlagKenya returns the "flag: Kenya" emoji 🇰🇪.
-func FlagKenya(v ...Variant) string { return Lookup("flag: Kenya", v...) }
+func FlagKenya(v ...Variant) string { return styled(652, v) }
 
 // FlagKyrgyzstan returns the "flag: Kyrgyzstan" emoji 🇰🇬.
-func FlagKyrgyzstan(v ...Variant) string { return Lookup("flag: Kyrgyzstan", v...) }
+func FlagKyrgyzstan(v ...Variant) string { return styled(656, v) }
 
 // FlagCambodia returns the "flag: Cambodia" emoji 🇰🇭.
-func FlagCambodia(v ...Variant) string { return Lookup("flag: Cambodia", v...) }
+func FlagCambodia(v ...Variant) string { return styled(567, v) }
 
 // FlagKiribati returns the "flag: Kiribati" emoji 🇰🇮.
-func FlagKiribati(v ...Variant) string { return Lookup("flag: Kiribati", v...) }
+func FlagKiribati(v ...Variant) string { return styled(653, v) }
 
 // FlagComoros returns the "flag: Comoros" emoji 🇰🇲.
-func FlagComoros(v ...Variant) string { return Lookup("flag: Comoros", v...) }
+func FlagComoros(v ...Variant) string { return styled(583, v) }
 
-// FlagStKittsAndNevis returns the "flag: St. Kitts & Nevis" emoji 🇰🇳.
-func FlagStKittsAndNevis(v ...Variant) string { return Lookup("flag: St. Kitts & Nevis", v...) }
+// FlagStKittsAndNevis returns the "flag: St. Kitts & Nevis" emoji
+// 🇰🇳.
+func FlagStKittsAndNevis(v ...Variant) string { return styled(744, v) }
 
 // FlagNorthKorea returns the "flag: North Korea" emoji 🇰🇵.
-func FlagNorthKorea(v ...Variant) string { return Lookup("flag: North Korea", v...) }
+func FlagNorthKorea(v ...Variant) string { return styled(699, v) }
 
 // FlagSouthKorea returns the "flag: South Korea" emoji 🇰🇷.
-func FlagSouthKorea(v ...Variant) string { return Lookup("flag: South Korea", v...) }
+func FlagSouthKorea(v ...Variant) string { return styled(738, v) }
 
 // FlagKuwait returns the "flag: Kuwait" emoji 🇰🇼.
-func FlagKuwait(v ...Variant) string { return Lookup("flag: Kuwait", v...) }
+func FlagKuwait(v ...Variant) string { return styled(655, v) }
 
 // FlagCaymanIslands returns the "flag: Cayman Islands" emoji 🇰🇾.
-func FlagCaymanIslands(v ...Variant) string { return Lookup("flag: Cayman Islands", v...) }
+func FlagCaymanIslands(v ...Variant) string { return styled(573, v) }
 
 // FlagKazakhstan returns the "flag: Kazakhstan" emoji 🇰🇿.
-func FlagKazakhstan(v ...Variant) string { return Lookup("flag: Kazakhstan", v...) }
+func FlagKazakhstan(v ...Variant) string { return styled(651, v) }
 
 // FlagLaos returns the "flag: Laos" emoji 🇱🇦.
-func FlagLaos(v ...Variant) string { return Lookup("flag: Laos", v...) }
+func FlagLaos(v ...Variant) string { return styled(657, v) }
 
 // FlagLebanon returns the "flag: Lebanon" emoji 🇱🇧.
-func FlagLebanon(v ...Variant) string { return Lookup("flag: Lebanon", v...) }
+func FlagLebanon(v ...Variant) string { return styled(659, v) }
 
 // FlagStLucia returns the "flag: St. Lucia" emoji 🇱🇨.
-func FlagStLucia(v ...Variant) string { return Lookup("flag: St. Lucia", v...) }
+func FlagStLucia(v ...Variant) string { return styled(745, v) }
 
 // FlagLiechtenstein returns the "flag: Liechtenstein" emoji 🇱🇮.
-func FlagLiechtenstein(v ...Variant) string { return Lookup("flag: Liechtenstein", v...) }
+func FlagLiechtenstein(v ...Variant) string { return styled(663, v) }
 
 // FlagSriLanka returns the "flag: Sri Lanka" emoji 🇱🇰.
-func FlagSriLanka(v ...Variant) string { return Lookup("flag: Sri Lanka", v...) }
+func FlagSriLanka(v ...Variant) string { return styled(741, v) }
 
 // FlagLiberia returns the "flag: Liberia" emoji 🇱🇷.
-func FlagLiberia(v ...Variant) string { return Lookup("flag: Liberia", v...) }
+func FlagLiberia(v ...Variant) string { return styled(661, v) }
 
 // FlagLesotho returns the "flag: Lesotho" emoji 🇱🇸.
-func FlagLesotho(v ...Variant) string { return Lookup("flag: Lesotho", v...) }
+func FlagLesotho(v ...Variant) string { return styled(660, v) }
 
 // FlagLithuania returns the "flag: Lithuania" emoji 🇱🇹.
-func FlagLithuania(v ...Variant) string { return Lookup("flag: Lithuania", v...) }
+func FlagLithuania(v ...Variant) string { return styled(664, v) }
 
 // FlagLuxembourg returns the "flag: Luxembourg" emoji 🇱🇺.
-func FlagLuxembourg(v ...Variant) string { return Lookup("flag: Luxembourg", v...) }
+func FlagLuxembourg(v ...Variant) string { return styled(665, v) }
 
 // FlagLatvia returns the "flag: Latvia" emoji 🇱🇻.
-func FlagLatvia(v ...Variant) string { return Lookup("flag: Latvia", v...) }
+func FlagLatvia(v ...Variant) string { return styled(658, v) }
 
 // FlagLibya returns the "flag: Libya" emoji 🇱🇾.
-func FlagLibya(v ...Variant) string { return Lookup("flag: Libya", v...) }
+func FlagLibya(v ...Variant) string { return styled(662, v) }
 
 // FlagMorocco returns the "flag: Morocco" emoji 🇲🇦.
-func FlagMorocco(v ...Variant) string { return Lookup("flag: Morocco", v...) }
+func FlagMorocco(v ...Variant) string { return styled(685, v) }
 
 // FlagMonaco returns the "flag: Monaco" emoji 🇲🇨.
-func FlagMonaco(v ...Variant) string { return Lookup("flag: Monaco", v...) }
+func FlagMonaco(v ...Variant) string { return styled(681, v) }
 
 // FlagMoldova returns the "flag: Moldova" emoji 🇲🇩.
-func FlagMoldova(v ...Variant) string { return Lookup("flag: Moldova", v...) }
+func FlagMoldova(v ...Variant) string { return styled(680, v) }
 
 // FlagMontenegro returns the "flag: Montenegro" emoji 🇲🇪.
-func FlagMontenegro(v ...Variant) string { return Lookup("flag: Montenegro", v...) }
+func FlagMontenegro(v ...Variant) string { return styled(683, v) }
 
 // FlagStMartin returns the "flag: St. Martin" emoji 🇲🇫.
-func FlagStMartin(v ...Variant) string { return Lookup("flag: St. Martin", v...) }
+func FlagStMartin(v ...Variant) string { return styled(746, v) }
 
 // FlagMadagascar returns the "flag: Madagascar" emoji 🇲🇬.
-func FlagMadagascar(v ...Variant) string { return Lookup("flag: Madagascar", v...) }
+func FlagMadagascar(v ...Variant) string { return styled(667, v) }
 
 // FlagMarshallIslands returns the "flag: Marshall Islands" emoji 🇲🇭.
-func FlagMarshallIslands(v ...Variant) string { return Lookup("flag: Marshall Islands", v...) }
+func FlagMarshallIslands(v ...Variant) string { return styled(673, v) }
 
 // FlagNorthMacedonia returns the "flag: North Macedonia" emoji 🇲🇰.
-func FlagNorthMacedonia(v ...Variant) string { return Lookup("flag: North Macedonia", v...) }
+func FlagNorthMacedonia(v ...Variant) string { return styled(700, v) }
 
 // FlagMali returns the "flag: Mali" emoji 🇲🇱.
-func FlagMali(v ...Variant) string { return Lookup("flag: Mali", v...) }
+func FlagMali(v ...Variant) string { return styled(671, v) }
 
 // FlagMyanmarBurma returns the "flag: Myanmar (Burma)" emoji 🇲🇲.
-func FlagMyanmarBurma(v ...Variant) string { return Lookup("flag: Myanmar (Burma)", v...) }
+func FlagMyanmarBurma(v ...Variant) string { return styled(687, v) }
 
 // FlagMongolia returns the "flag: Mongolia" emoji 🇲🇳.
-func FlagMongolia(v ...Variant) string { return Lookup("flag: Mongolia", v...) }
+func FlagMongolia(v ...Variant) string { return styled(682, v) }
 
 // FlagMacaoSARChina returns the "flag: Macao SAR China" emoji 🇲🇴.
-func FlagMacaoSARChina(v ...Variant) string { return Lookup("flag: Macao SAR China", v...) }
+func FlagMacaoSARChina(v ...Variant) string { return styled(666, v) }
 
-// FlagNorthernMarianaIslands returns the "flag: Northern Mariana Islands" emoji 🇲🇵.
-func FlagNorthernMarianaIslands(v ...Variant) string {
-	return Lookup("flag: Northern Mariana Islands", v...)
-}
+// FlagNorthernMarianaIslands returns the "flag: Northern Mariana Islands"
+// emoji 🇲🇵.
+func FlagNorthernMarianaIslands(v ...Variant) string { return styled(701, v) }
 
 // FlagMartinique returns the "flag: Martinique" emoji 🇲🇶.
-func FlagMartinique(v ...Variant) string { return Lookup("flag: Martinique", v...) }
+func FlagMartinique(v ...Variant) string { return styled(674, v) }
 
 // FlagMauritania returns the "flag: Mauritania" emoji 🇲🇷.
-func FlagMauritania(v ...Variant) string { return Lookup("flag: Mauritania", v...) }
+func FlagMauritania(v ...Variant) string { return styled(675, v) }
 
 // FlagMontserrat returns the "flag: Montserrat" emoji 🇲🇸.
-func FlagMontserrat(v ...Variant) string { return Lookup("flag: Montserrat", v...) }
+func FlagMontserrat(v ...Variant) string { return styled(684, v) }
 
 // FlagMalta returns the "flag: Malta" emoji 🇲🇹.
-func FlagMalta(v ...Variant) string { return Lookup("flag: Malta", v...) }
+func FlagMalta(v ...Variant) string { return styled(672, v) }
 
 // FlagMauritius returns the "flag: Mauritius" emoji 🇲🇺.
-func FlagMauritius(v ...Variant) string { return Lookup("flag: Mauritius", v...) }
+func FlagMauritius(v ...Variant) string { return styled(676, v) }
 
 // FlagMaldives returns the "flag: Maldives" emoji 🇲🇻.
-func FlagMaldives(v ...Variant) string { return Lookup("flag: Maldives", v...) }
+func FlagMaldives(v ...Variant) string { return styled(670, v) }
 
 // FlagMalawi returns the "flag: Malawi" emoji 🇲🇼.
-func FlagMalawi(v ...Variant) string { return Lookup("flag: Malawi", v...) }
+func FlagMalawi(v ...Variant) string { return styled(668, v) }
 
 // FlagMexico returns the "flag: Mexico" emoji 🇲🇽.
-func FlagMexico(v ...Variant) string { return Lookup("flag: Mexico", v...) }
+func FlagMexico(v ...Variant) string { return styled(678, v) }
 
 // FlagMalaysia returns the "flag: Malaysia" emoji 🇲🇾.
-func FlagMalaysia(v ...Variant) string { return Lookup("flag: Malaysia", v...) }
+func FlagMalaysia(v ...Variant) string { return styled(669, v) }
 
 // FlagMozambique returns the "flag: Mozambique" emoji 🇲🇿.
-func FlagMozambique(v ...Variant) string { return Lookup("flag: Mozambique", v...) }
+func FlagMozambique(v ...Variant) string { return styled(686, v) }
 
 // FlagNamibia returns the "flag: Namibia" emoji 🇳🇦.
-func FlagNamibia(v ...Variant) string { return Lookup("flag: Namibia", v...) }
+func FlagNamibia(v ...Variant) string { return styled(688, v) }
 
 // FlagNewCaledonia returns the "flag: New Caledonia" emoji 🇳🇨.
-func FlagNewCaledonia(v ...Variant) string { return Lookup("flag: New Caledonia", v...) }
+func FlagNewCaledonia(v ...Variant) string { return styled(692, v) }
 
 // FlagNiger returns the "flag: Niger" emoji 🇳🇪.
-func FlagNiger(v ...Variant) string { return Lookup("flag: Niger", v...) }
+func FlagNiger(v ...Variant) string { return styled(695, v) }
 
 // FlagNorfolkIsland returns the "flag: Norfolk Island" emoji 🇳🇫.
-func FlagNorfolkIsland(v ...Variant) string { return Lookup("flag: Norfolk Island", v...) }
+func FlagNorfolkIsland(v ...Variant) string { return styled(698, v) }
 
 // FlagNigeria returns the "flag: Nigeria" emoji 🇳🇬.
-func FlagNigeria(v ...Variant) string { return Lookup("flag: Nigeria", v...) }
+func FlagNigeria(v ...Variant) string { return styled(696, v) }
 
 // FlagNicaragua returns the "flag: Nicaragua" emoji 🇳🇮.
-func FlagNicaragua(v ...Variant) string { return Lookup("flag: Nicaragua", v...) }
+func FlagNicaragua(v ...Variant) string { return styled(694, v) }
 
 // FlagNetherlands returns the "flag: Netherlands" emoji 🇳🇱.
-func FlagNetherlands(v ...Variant) string { return Lookup("flag: Netherlands", v...) }
+func FlagNetherlands(v ...Variant) string { return styled(691, v) }
 
 // FlagNorway returns the "flag: Norway" emoji 🇳🇴.
-func FlagNorway(v ...Variant) string { return Lookup("flag: Norway", v...) }
+func FlagNorway(v ...Variant) string { return styled(702, v) }
 
 // FlagNepal returns the "flag: Nepal" emoji 🇳🇵.
-func FlagNepal(v ...Variant) string { return Lookup("flag: Nepal", v...) }
+func FlagNepal(v ...Variant) string { return styled(690, v) }
 
 // FlagNauru returns the "flag: Nauru" emoji 🇳🇷.
-func FlagNauru(v ...Variant) string { return Lookup("flag: Nauru", v...) }
+func FlagNauru(v ...Variant) string { return styled(689, v) }
 
 // FlagNiue returns the "flag: Niue" emoji 🇳🇺.
-func FlagNiue(v ...Variant) string { return Lookup("flag: Niue", v...) }
+func FlagNiue(v ...Variant) string { return styled(697, v) }
 
 // FlagNewZealand returns the "flag: New Zealand" emoji 🇳🇿.
-func FlagNewZealand(v ...Variant) string { return Lookup("flag: New Zealand", v...) }
+func FlagNewZealand(v ...Variant) string { return styled(693, v) }
 
 // FlagOman returns the "flag: Oman" emoji 🇴🇲.
-func FlagOman(v ...Variant) string { return Lookup("flag: Oman", v...) }
+func FlagOman(v ...Variant) string { return styled(703, v) }
 
 // FlagPanama returns the "flag: Panama" emoji 🇵🇦.
-func FlagPanama(v ...Variant) string { return Lookup("flag: Panama", v...) }
+func FlagPanama(v ...Variant) string { return styled(707, v) }
 
 // FlagPeru returns the "flag: Peru" emoji 🇵🇪.
-func FlagPeru(v ...Variant) string { return Lookup("flag: Peru", v...) }
+func FlagPeru(v ...Variant) string { return styled(710, v) }
 
 // FlagFrenchPolynesia returns the "flag: French Polynesia" emoji 🇵🇫.
-func FlagFrenchPolynesia(v ...Variant) string { return Lookup("flag: French Polynesia", v...) }
+func FlagFrenchPolynesia(v ...Variant) string { return styled(615, v) }
 
 // FlagPapuaNewGuinea returns the "flag: Papua New Guinea" emoji 🇵🇬.
-func FlagPapuaNewGuinea(v ...Variant) string { return Lookup("flag: Papua New Guinea", v...) }
+func FlagPapuaNewGuinea(v ...Variant) string { return styled(708, v) }
 
 // FlagPhilippines returns the "flag: Philippines" emoji 🇵🇭.
-func FlagPhilippines(v ...Variant) string { return Lookup("flag: Philippines", v...) }
+func FlagPhilippines(v ...Variant) string { return styled(711, v) }
 
 // FlagPakistan returns the "flag: Pakistan" emoji 🇵🇰.
-func FlagPakistan(v ...Variant) string { return Lookup("flag: Pakistan", v...) }
+func FlagPakistan(v ...Variant) string { return styled(704, v) }
 
 // FlagPoland returns the "flag: Poland" emoji 🇵🇱.
-func FlagPoland(v ...Variant) string { return Lookup("flag: Poland", v...) }
+func FlagPoland(v ...Variant) string { return styled(713, v) }
 
-// FlagStPierreAndMiquelon returns the "flag: St. Pierre & Miquelon" emoji 🇵🇲.
-func FlagStPierreAndMiquelon(v ...Variant) string { return Lookup("flag: St. Pierre & Miquelon", v...) }
+// FlagStPierreAndMiquelon returns the "flag: St. Pierre & Miquelon" emoji
+// 🇵🇲.
+func FlagStPierreAndMiquelon(v ...Variant) string { return styled(747, v) }
 
 // FlagPitcairnIslands returns the "flag: Pitcairn Islands" emoji 🇵🇳.
-func FlagPitcairnIslands(v ...Variant) string { return Lookup("flag: Pitcairn Islands", v...) }
+func FlagPitcairnIslands(v ...Variant) string { return styled(712, v) }
 
 // FlagPuertoRico returns the "flag: Puerto Rico" emoji 🇵🇷.
-func FlagPuertoRico(v ...Variant) string { return Lookup("flag: Puerto Rico", v...) }
+func FlagPuertoRico(v ...Variant) string { return styled(715, v) }
 
-// FlagPalestinianTerritories returns the "flag: Palestinian Territories" emoji 🇵🇸.
-func FlagPalestinianTerritories(v ...Variant) string {
-	return Lookup("flag: Palestinian Territories", v...)
-}
+// FlagPalestinianTerritories returns the "flag: Palestinian Territories"
+// emoji 🇵🇸.
+func FlagPalestinianTerritories(v ...Variant) string { return styled(706, v) }
 
 // FlagPortugal returns the "flag: Portugal" emoji 🇵🇹.
-func FlagPortugal(v ...Variant) string { return Lookup("flag: Portugal", v...) }
+func FlagPortugal(v ...Variant) string { return styled(714, v) }
 
 // FlagPalau returns the "flag: Palau" emoji 🇵🇼.
-func FlagPalau(v ...Variant) string { return Lookup("flag: Palau", v...) }
+func FlagPalau(v ...Variant) string { return styled(705, v) }
 
 // FlagParaguay returns the "flag: Paraguay" emoji 🇵🇾.
-func FlagParaguay(v ...Variant) string { return Lookup("flag: Paraguay", v...) }
+func FlagParaguay(v ...Variant) string { return styled(709, v) }
 
 // FlagQatar returns the "flag: Qatar" emoji 🇶🇦.
-func FlagQatar(v ...Variant) string { return Lookup("flag: Qatar", v...) }
+func FlagQatar(v ...Variant) string { return styled(716, v) }
 
 // FlagReunion returns the "flag: Réunion" emoji 🇷🇪.
-func FlagReunion(v ...Variant) string { return Lookup("flag: Réunion", v...) }
+func FlagReunion(v ...Variant) string { return styled(720, v) }
 
 // FlagRomania returns the "flag: Romania" emoji 🇷🇴.
-func FlagRomania(v ...Variant) string { return Lookup("flag: Romania", v...) }
+func FlagRomania(v ...Variant) string { return styled(717, v) }
 
 // FlagSerbia returns the "flag: Serbia" emoji 🇷🇸.
-func FlagSerbia(v ...Variant) string { return Lookup("flag: Serbia", v...) }
+func FlagSerbia(v ...Variant) string { return styled(727, v) }
 
 // FlagRussia returns the "flag: Russia" emoji 🇷🇺.
-func FlagRussia(v ...Variant) string { return Lookup("flag: Russia", v...) }
+func FlagRussia(v ...Variant) string { return styled(718, v) }
 
 // FlagRwanda returns the "flag: Rwanda" emoji 🇷🇼.
-func FlagRwanda(v ...Variant) string { return Lookup("flag: Rwanda", v...) }
+func FlagRwanda(v ...Variant) string { return styled(719, v) }
 
 // FlagSaudiArabia returns the "flag: Saudi Arabia" emoji 🇸🇦.
-func FlagSaudiArabia(v ...Variant) string { return Lookup("flag: Saudi Arabia", v...) }
+func FlagSaudiArabia(v ...Variant) string { return styled(724, v) }
 
 // FlagSolomonIslands returns the "flag: Solomon Islands" emoji 🇸🇧.
-func FlagSolomonIslands(v ...Variant) string { return Lookup("flag: Solomon Islands", v...) }
+func FlagSolomonIslands(v ...Variant) string { return styled(734, v) }
 
 // FlagSeychelles returns the "flag: Seychelles" emoji 🇸🇨.
-func FlagSeychelles(v ...Variant) string { return Lookup("flag: Seychelles", v...) }
+func FlagSeychelles(v ...Variant) string { return styled(728, v) }
 
 // FlagSudan returns the "flag: Sudan" emoji 🇸🇩.
-func FlagSudan(v ...Variant) string { return Lookup("flag: Sudan", v...) }
+func FlagSudan(v ...Variant) string { return styled(749, v) }
 
 // FlagSweden returns the "flag: Sweden" emoji 🇸🇪.
-func FlagSweden(v ...Variant) string { return Lookup("flag: Sweden", v...) }
+func FlagSweden(v ...Variant) string { return styled(752, v) }
 
 // FlagSingapore returns the "flag: Singapore" emoji 🇸🇬.
-func FlagSingapore(v ...Variant) string { return Lookup("flag: Singapore", v...) }
+func FlagSingapore(v ...Variant) string { return styled(730, v) }
 
 // FlagStHelena returns the "flag: St. Helena" emoji 🇸🇭.
-func FlagStHelena(v ...Variant) string { return Lookup("flag: St. Helena", v...) }
+func FlagStHelena(v ...Variant) string { return styled(743, v) }
 
 // FlagSlovenia returns the "flag: Slovenia" emoji 🇸🇮.
-func FlagSlovenia(v ...Variant) string { return Lookup("flag: Slovenia", v...) }
+func FlagSlovenia(v ...Variant) string { return styled(733, v) }
 
-// FlagSvalbardAndJanMayen returns the "flag: Svalbard & Jan Mayen" emoji 🇸🇯.
-func FlagSvalbardAndJanMayen(v ...Variant) string { return Lookup("flag: Svalbard & Jan Mayen", v...) }
+// FlagSvalbardAndJanMayen returns the "flag: Svalbard & Jan Mayen" emoji
+// 🇸🇯.
+func FlagSvalbardAndJanMayen(v ...Variant) string { return styled(751, v) }
 
 // FlagSlovakia returns the "flag: Slovakia" emoji 🇸🇰.
-func FlagSlovakia(v ...Variant) string { return Lookup("flag: Slovakia", v...) }
+func FlagSlovakia(v ...Variant) string { return styled(732, v) }
 
 // FlagSierraLeone returns the "flag: Sierra Leone" emoji 🇸🇱.
-func FlagSierraLeone(v ...Variant) string { return Lookup("flag: Sierra Leone", v...) }
+func FlagSierraLeone(v ...Variant) string { return styled(729, v) }
 
 // FlagSanMarino returns the "flag: San Marino" emoji 🇸🇲.
-func FlagSanMarino(v ...Variant) string { return Lookup("flag: San Marino", v...) }
+func FlagSanMarino(v ...Variant) string { return styled(722, v) }
 
 // FlagSenegal returns the "flag: Senegal" emoji 🇸🇳.
-func FlagSenegal(v ...Variant) string { return Lookup("flag: Senegal", v...) }
+func FlagSenegal(v ...Variant) string { return styled(726, v) }
 
 // FlagSomalia returns the "flag: Somalia" emoji 🇸🇴.
-func FlagSomalia(v ...Variant) string { return Lookup("flag: Somalia", v...) }
+func FlagSomalia(v ...Variant) string { return styled(735, v) }
 
 // FlagSuriname returns the "flag: Suriname" emoji 🇸🇷.
-func FlagSuriname(v ...Variant) string { return Lookup("flag: Suriname", v...) }
+func FlagSuriname(v ...Variant) string { return styled(750, v) }
 
 // FlagSouthSudan returns the "flag: South Sudan" emoji 🇸🇸.
-func FlagSouthSudan(v ...Variant) string { return Lookup("flag: South Sudan", v...) }
+func FlagSouthSudan(v ...Variant) string { return styled(739, v) }
 
-// FlagSaoTomeAndPrincipe returns the "flag: São Tomé & Príncipe" emoji 🇸🇹.
-func FlagSaoTomeAndPrincipe(v ...Variant) string { return Lookup("flag: São Tomé & Príncipe", v...) }
+// FlagSaoTomeAndPrincipe returns the "flag: São Tomé & Príncipe" emoji
+// 🇸🇹.
+func FlagSaoTomeAndPrincipe(v ...Variant) string { return styled(755, v) }
 
 // FlagElSalvador returns the "flag: El Salvador" emoji 🇸🇻.
-func FlagElSalvador(v ...Variant) string { return Lookup("flag: El Salvador", v...) }
+func FlagElSalvador(v ...Variant) string { return styled(601, v) }
 
 // FlagSintMaarten returns the "flag: Sint Maarten" emoji 🇸🇽.
-func FlagSintMaarten(v ...Variant) string { return Lookup("flag: Sint Maarten", v...) }
+func FlagSintMaarten(v ...Variant) string { return styled(731, v) }
 
 // FlagSyria returns the "flag: Syria" emoji 🇸🇾.
-func FlagSyria(v ...Variant) string { return Lookup("flag: Syria", v...) }
+func FlagSyria(v ...Variant) string { return styled(754, v) }
 
 // FlagEswatini returns the "flag: Eswatini" emoji 🇸🇿.
-func FlagEswatini(v ...Variant) string { return Lookup("flag: Eswatini", v...) }
+func FlagEswatini(v ...Variant) string { return styled(606, v) }
 
 // FlagTristanDaCunha returns the "flag: Tristan da Cunha" emoji 🇹🇦.
-func FlagTristanDaCunha(v ...Variant) string { return Lookup("flag: Tristan da Cunha", v...) }
+func FlagTristanDaCunha(v ...Variant) string { return styled(765, v) }
 
-// FlagTurksAndCaicosIslands returns the "flag: Turks & Caicos Islands" emoji 🇹🇨.
-func FlagTurksAndCaicosIslands(v ...Variant) string {
-	return Lookup("flag: Turks & Caicos Islands", v...)
-}
+// FlagTurksAndCaicosIslands returns the "flag: Turks & Caicos Islands"
+// emoji 🇹🇨.
+func FlagTurksAndCaicosIslands(v ...Variant) string { return styled(768, v) }
 
 // FlagChad returns the "flag: Chad" emoji 🇹🇩.
-func FlagChad(v ...Variant) string { return Lookup("flag: Chad", v...) }
+func FlagChad(v ...Variant) string { return styled(576, v) }
 
-// FlagFrenchSouthernTerritories returns the "flag: French Southern Territories" emoji 🇹🇫.
-func FlagFrenchSouthernTerritories(v ...Variant) string {
-	return Lookup("flag: French Southern Territories", v...)
-}
+// FlagFrenchSouthernTerritories returns the "flag: French Southern
+// Territories" emoji 🇹🇫.
+func FlagFrenchSouthernTerritories(v ...Variant) string { return styled(616, v) }
 
 // FlagTogo returns the "flag: Togo" emoji 🇹🇬.
-func FlagTogo(v ...Variant) string { return Lookup("flag: Togo", v...) }
+func FlagTogo(v ...Variant) string { return styled(761, v) }
 
 // FlagThailand returns the "flag: Thailand" emoji 🇹🇭.
-func FlagThailand(v ...Variant) string { return Lookup("flag: Thailand", v...) }
+func FlagThailand(v ...Variant) string { return styled(759, v) }
 
 // FlagTajikistan returns the "flag: Tajikistan" emoji 🇹🇯.
-func FlagTajikistan(v ...Variant) string { return Lookup("flag: Tajikistan", v...) }
+func FlagTajikistan(v ...Variant) string { return styled(757, v) }
 
 // FlagTokelau returns the "flag: Tokelau" emoji 🇹🇰.
-func FlagTokelau(v ...Variant) string { return Lookup("flag: Tokelau", v...) }
+func FlagTokelau(v ...Variant) string { return styled(762, v) }
 
 // FlagTimorLeste returns the "flag: Timor-Leste" emoji 🇹🇱.
-func FlagTimorLeste(v ...Variant) string { return Lookup("flag: Timor-Leste", v...) }
+func FlagTimorLeste(v ...Variant) string { return styled(760, v) }
 
 // FlagTurkmenistan returns the "flag: Turkmenistan" emoji 🇹🇲.
-func FlagTurkmenistan(v ...Variant) string { return Lookup("flag: Turkmenistan", v...) }
+func FlagTurkmenistan(v ...Variant) string { return styled(767, v) }
 
 // FlagTunisia returns the "flag: Tunisia" emoji 🇹🇳.
-func FlagTunisia(v ...Variant) string { return Lookup("flag: Tunisia", v...) }
+func FlagTunisia(v ...Variant) string { return styled(766, v) }
 
 // FlagTonga returns the "flag: Tonga" emoji 🇹🇴.
-func FlagTonga(v ...Variant) string { return Lookup("flag: Tonga", v...) }
+func FlagTonga(v ...Variant) string { return styled(763, v) }
 
 // FlagTurkiye returns the "flag: Türkiye" emoji 🇹🇷.
-func FlagTurkiye(v ...Variant) string { return Lookup("flag: Türkiye", v...) }
+func FlagTurkiye(v ...Variant) string { return styled(770, v) }
 
-// FlagTrinidadAndTobago returns the "flag: Trinidad & Tobago" emoji 🇹🇹.
-func FlagTrinidadAndTobago(v ...Variant) string { return Lookup("flag: Trinidad & Tobago", v...) }
+// FlagTrinidadAndTobago returns the "flag: Trinidad & Tobago" emoji
+// 🇹🇹.
+func FlagTrinidadAndTobago(v ...Variant) string { return styled(764, v) }
 
 // FlagTuvalu returns the "flag: Tuvalu" emoji 🇹🇻.
-func FlagTuvalu(v ...Variant) string { return Lookup("flag: Tuvalu", v...) }
+func FlagTuvalu(v ...Variant) string { return styled(769, v) }
 
 // FlagTaiwan returns the "flag: Taiwan" emoji 🇹🇼.
-func FlagTaiwan(v ...Variant) string { return Lookup("flag: Taiwan", v...) }
+func FlagTaiwan(v ...Variant) string { return styled(756, v) }
 
 // FlagTanzania returns the "flag: Tanzania" emoji 🇹🇿.
-func FlagTanzania(v ...Variant) string { return Lookup("flag: Tanzania", v...) }
+func FlagTanzania(v ...Variant) string { return styled(758, v) }
 
 // FlagUkraine returns the "flag: Ukraine" emoji 🇺🇦.
-func FlagUkraine(v ...Variant) string { return Lookup("flag: Ukraine", v...) }
+func FlagUkraine(v ...Variant) string { return styled(774, v) }
 
 // FlagUganda returns the "flag: Uganda" emoji 🇺🇬.
-func FlagUganda(v ...Variant) string { return Lookup("flag: Uganda", v...) }
+func FlagUganda(v ...Variant) string { return styled(773, v) }
 
-// FlagUSOutlyingIslands returns the "flag: U.S. Outlying Islands" emoji 🇺🇲.
-func FlagUSOutlyingIslands(v ...Variant) string { return Lookup("flag: U.S. Outlying Islands", v...) }
+// FlagUSOutlyingIslands returns the "flag: U.S. Outlying Islands" emoji
+// 🇺🇲.
+func FlagUSOutlyingIslands(v ...Variant) string { return styled(771, v) }
 
 // FlagUnitedNations returns the "flag: United Nations" emoji 🇺🇳.
-func FlagUnitedNations(v ...Variant) string { return Lookup("flag: United Nations", v...) }
+func FlagUnitedNations(v ...Variant) string { return styled(777, v) }
 
 // FlagUnitedStates returns the "flag: United States" emoji 🇺🇸.
-func FlagUnitedStates(v ...Variant) string { return Lookup("flag: United States", v...) }
+func FlagUnitedStates(v ...Variant) string { return styled(778, v) }
 
 // FlagUruguay returns the "flag: Uruguay" emoji 🇺🇾.
-func FlagUruguay(v ...Variant) string { return Lookup("flag: Uruguay", v...) }
+func FlagUruguay(v ...Variant) string { return styled(779, v) }
 
 // FlagUzbekistan returns the "flag: Uzbekistan" emoji 🇺🇿.
-func FlagUzbekistan(v ...Variant) string { return Lookup("flag: Uzbekistan", v...) }
+func FlagUzbekistan(v ...Variant) string { return styled(780, v) }
 
 // FlagVaticanCity returns the "flag: Vatican City" emoji 🇻🇦.
-func FlagVaticanCity(v ...Variant) string { return Lookup("flag: Vatican City", v...) }
+func FlagVaticanCity(v ...Variant) string { return styled(782, v) }
 
-// FlagStVincentAndGrenadines returns the "flag: St. Vincent & Grenadines" emoji 🇻🇨.
-func FlagStVincentAndGrenadines(v ...Variant) string {
-	return Lookup("flag: St. Vincent & Grenadines", v...)
-}
+// FlagStVincentAndGrenadines returns the "flag: St. Vincent & Grenadines"
+// emoji 🇻🇨.
+func FlagStVincentAndGrenadines(v ...Variant) string { return styled(748, v) }
 
 // FlagVenezuela returns the "flag: Venezuela" emoji 🇻🇪.
-func FlagVenezuela(v ...Variant) string { return Lookup("flag: Venezuela", v...) }
+func FlagVenezuela(v ...Variant) string { return styled(783, v) }
 
-// FlagBritishVirginIslands returns the "flag: British Virgin Islands" emoji 🇻🇬.
-func FlagBritishVirginIslands(v ...Variant) string {
-	return Lookup("flag: British Virgin Islands", v...)
-}
+// FlagBritishVirginIslands returns the "flag: British Virgin Islands"
+// emoji 🇻🇬.
+func FlagBritishVirginIslands(v ...Variant) string { return styled(562, v) }
 
-// FlagUSVirginIslands returns the "flag: U.S. Virgin Islands" emoji 🇻🇮.
-func FlagUSVirginIslands(v ...Variant) string { return Lookup("flag: U.S. Virgin Islands", v...) }
+// FlagUSVirginIslands returns the "flag: U.S. Virgin Islands" emoji
+// 🇻🇮.
+func FlagUSVirginIslands(v ...Variant) string { return styled(772, v) }
 
 // FlagVietnam returns the "flag: Vietnam" emoji 🇻🇳.
-func FlagVietnam(v ...Variant) string { return Lookup("flag: Vietnam", v...) }
+func FlagVietnam(v ...Variant) string { return styled(784, v) }
 
 // FlagVanuatu returns the "flag: Vanuatu" emoji 🇻🇺.
-func FlagVanuatu(v ...Variant) string { return Lookup("flag: Vanuatu", v...) }
+func FlagVanuatu(v ...Variant) string { return styled(781, v) }
 
 // FlagWallisAndFutuna returns the "flag: Wallis & Futuna" emoji 🇼🇫.
-func FlagWallisAndFutuna(v ...Variant) string { return Lookup("flag: Wallis & Futuna", v...) }
+func FlagWallisAndFutuna(v ...Variant) string { return styled(786, v) }
 
 // FlagSamoa returns the "flag: Samoa" emoji 🇼🇸.
-func FlagSamoa(v ...Variant) string { return Lookup("flag: Samoa", v...) }
+func FlagSamoa(v ...Variant) string { return styled(721, v) }
 
 // FlagKosovo returns the "flag: Kosovo" emoji 🇽🇰.
-func FlagKosovo(v ...Variant) string { return Lookup("flag: Kosovo", v...) }
+func FlagKosovo(v ...Variant) string { return styled(654, v) }
 
 // FlagYemen returns the "flag: Yemen" emoji 🇾🇪.
-func FlagYemen(v ...Variant) string { return Lookup("flag: Yemen", v...) }
+func FlagYemen(v ...Variant) string { return styled(788, v) }
 
 // FlagMayotte returns the "flag: Mayotte" emoji 🇾🇹.
-func FlagMayotte(v ...Variant) string { return Lookup("flag: Mayotte", v...) }
+func FlagMayotte(v ...Variant) string { return styled(677, v) }
 
 // FlagSouthAfrica returns the "flag: South Africa" emoji 🇿🇦.
-func FlagSouthAfrica(v ...Variant) string { return Lookup("flag: South Africa", v...) }
+func FlagSouthAfrica(v ...Variant) string { return styled(736, v) }
 
 // FlagZambia returns the "flag: Zambia" emoji 🇿🇲.
-func FlagZambia(v ...Variant) string { return Lookup("flag: Zambia", v...) }
+func FlagZambia(v ...Variant) string { return styled(789, v) }
 
 // FlagZimbabwe returns the "flag: Zimbabwe" emoji 🇿🇼.
-func FlagZimbabwe(v ...Variant) string { return Lookup("flag: Zimbabwe", v...) }
+func FlagZimbabwe(v ...Variant) string { return styled(790, v) }
 
-// FlagEngland returns the "flag: England" emoji 🏴󠁧󠁢󠁥󠁮󠁧󠁿.
-func FlagEngland(v ...Variant) string { return Lookup("flag: England", v...) }
+// FlagEngland returns the "flag: England" emoji
+// 🏴󠁧󠁢󠁥󠁮󠁧󠁿.
+func FlagEngland(v ...Variant) string { return styled(602, v) }
 
-// FlagScotland returns the "flag: Scotland" emoji 🏴󠁧󠁢󠁳󠁣󠁴󠁿.
-func FlagScotland(v ...Variant) string { return Lookup("flag: Scotland", v...) }
+// FlagScotland returns the "flag: Scotland" emoji
+// 🏴󠁧󠁢󠁳󠁣󠁴󠁿.
+func FlagScotland(v ...Variant) string { return styled(725, v) }
 
 // FlagWales returns the "flag: Wales" emoji 🏴󠁧󠁢󠁷󠁬󠁳󠁿.
-func FlagWales(v ...Variant) string { return Lookup("flag: Wales", v...) }
+func FlagWales(v ...Variant) string { return styled(785, v) }
