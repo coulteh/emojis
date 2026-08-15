@@ -35,9 +35,33 @@ var (
 	}
 )
 
+// PersonWords are the tokens that name the figures in an emoji rather than
+// restyle one. They are not modifiers — "family: man, boy" is a different
+// emoji from "family: man, girl", not a variant of it — so they become part of
+// the generated function name.
+//
+// They are listed only so that Build can tell a known non-modifier from a
+// styling Unicode has newly invented. See unrecognisedTokens.
+var PersonWords = []string{"man", "woman", "person", "boy", "girl", "adult", "child"}
+
 // Variants is every modifier, skin tones first.
 func Variants() []VariantDef {
 	return append(append([]VariantDef{}, SkinTones...), HairStyles...)
+}
+
+// namesAFigure reports whether a token is one of the words Unicode uses to
+// name the figures in an emoji.
+//
+// It is only ever asked about tokens that are not modifiers, since split has
+// already taken those out, so this is the whole of what the generator expects
+// to find after the colon besides a flag or a keycap.
+func namesAFigure(token string) bool {
+	for _, w := range PersonWords {
+		if w == token {
+			return true
+		}
+	}
+	return false
 }
 
 // variantIdent returns the Go identifier for a CLDR token, and whether the

@@ -3,6 +3,7 @@ package generator
 import (
 	"fmt"
 	"log/slog"
+	"sort"
 	"strings"
 )
 
@@ -51,11 +52,21 @@ func Build(ds *Dataset) (*Model, error) {
 	byName := make(map[string]*Base, len(ds.Emojis))
 	groups := make(map[string]*Group)
 	idents := newIdentSet()
+	unknown := make(map[string]map[string]bool)
 
 	for _, e := range ds.Emojis {
-		name, variants, err := split(e.Name)
+		name, variants, rest, err := split(e.Name)
 		if err != nil {
 			return nil, err
+		}
+		for _, tok := range rest {
+			if namesAFigure(tok) {
+				continue
+			}
+			if unknown[tok] == nil {
+				unknown[tok] = make(map[string]bool)
+			}
+			unknown[tok][name] = true
 		}
 
 		base, ok := byName[name]
@@ -101,7 +112,43 @@ func Build(ds *Dataset) (*Model, error) {
 	slog.Info("built functions",
 		"functions", len(m.Bases), "groups", len(m.Groups),
 		"take_variants", withVariants, "modified_forms", forms)
+	reportUnrecognisedTokens(unknown)
 	return m, nil
+}
+
+// sharedTokenBases is how many emoji have to share an unrecognised token
+// before it is reported as a styling rather than a one-off.
+//
+// A flag or a keycap qualifier belongs to a single emoji: every flag is named
+// "flag: somewhere", so the country appears under one name. A styling is the
+// opposite, since it applies across many emoji: the six hair styles Unicode
+// added in emoji 12.0 each turned up under man, woman and person at once. Two
+// is comfortably between the two: across every published release, no
+// unrecognised token has ever appeared under more than one name.
+const sharedTokenBases = 2
+
+// reportUnrecognisedTokens warns about a qualifier that looks like a styling
+// the generator does not know about.
+//
+// A token it has no modifier for silently becomes part of a function name, so
+// a release that invents one would quietly turn what should be a Variant into
+// hundreds of separate functions. That is what happened in emoji 12.0, where
+// "blond hair" arrived alongside the rest of the hair styles.
+func reportUnrecognisedTokens(unknown map[string]map[string]bool) {
+	var shared []string
+	for tok, names := range unknown {
+		if len(names) >= sharedTokenBases {
+			shared = append(shared, tok)
+		}
+	}
+	if len(shared) == 0 {
+		return
+	}
+	sort.Strings(shared)
+	for _, tok := range shared {
+		slog.Warn("unrecognised qualifier shared by several emoji; if it is a styling, add it to SkinTones or HairStyles, otherwise it becomes part of the function name",
+			"token", tok, "emoji", len(unknown[tok]))
+	}
 }
 
 // split separates a CLDR name into the name of the function that will return it
@@ -112,13 +159,16 @@ func Build(ds *Dataset) (*Model, error) {
 //	"person: medium skin tone, red hair"   -> "person",         [MediumSkinTone, RedHair]
 //	"kiss: woman, man, light skin tone"    -> "kiss: woman, man", [LightSkinTone]
 //	"family: man, boy"                     -> "family: man, boy", []
-func split(cldr string) (string, []string, error) {
+//
+// The third return is the tokens that were not modifiers and so ended up in
+// the name, which Build inspects for stylings Unicode has newly invented.
+func split(cldr string) (string, []string, []string, error) {
 	head, tail, ok := strings.Cut(cldr, ":")
 	if !ok {
-		return cldr, nil, nil
+		return cldr, nil, nil, nil
 	}
 	if strings.Contains(tail, ":") {
-		return "", nil, fmt.Errorf("emoji name %q has more than one %q separator", cldr, ":")
+		return "", nil, nil, fmt.Errorf("emoji name %q has more than one %q separator", cldr, ":")
 	}
 
 	var variants, rest []string
@@ -131,7 +181,7 @@ func split(cldr string) (string, []string, error) {
 		rest = append(rest, tok)
 	}
 	if len(variants) > maxVariants {
-		return "", nil, fmt.Errorf("emoji name %q carries %d modifiers, more than the supported %d",
+		return "", nil, nil, fmt.Errorf("emoji name %q carries %d modifiers, more than the supported %d",
 			cldr, len(variants), maxVariants)
 	}
 
@@ -139,7 +189,7 @@ func split(cldr string) (string, []string, error) {
 	if len(rest) > 0 {
 		name += ": " + strings.Join(rest, ", ")
 	}
-	return name, variants, nil
+	return name, variants, rest, nil
 }
 
 func find(forms []Form, variants []string) *Form {

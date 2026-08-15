@@ -2,8 +2,11 @@ package generator
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"log/slog"
+	"os"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -129,7 +132,7 @@ func TestSplit(t *testing.T) {
 			[]string{"LightSkinTone", "DarkSkinTone"}},
 	}
 	for _, tt := range tests {
-		name, variants, err := split(tt.cldr)
+		name, variants, _, err := split(tt.cldr)
 		if err != nil {
 			t.Errorf("split(%q): %v", tt.cldr, err)
 			continue
@@ -159,7 +162,7 @@ func TestSplitRejectsMalformedNames(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
-		_, _, err := split(tt.cldr)
+		_, _, _, err := split(tt.cldr)
 		if err == nil {
 			t.Errorf("%s: split(%q) succeeded, want an error", tt.name, tt.cldr)
 			continue
@@ -636,5 +639,199 @@ func TestQuoteEscapesInvisibleRunes(t *testing.T) {
 	// Runes that do have a glyph stay legible rather than being escaped.
 	if got, want := quote("\U0001F44D\U0001F3FF"), `"👍🏿"`; got != want {
 		t.Errorf("quote of a skin-toned emoji = %s, want %s", got, want)
+	}
+}
+
+// A qualifier the generator has no modifier for silently becomes part of a
+// function name. That is fine for a flag or a keycap, which belong to one
+// emoji each, but a styling applies across many: emoji 12.0 introduced six
+// hair styles at once, each turning up under man, woman and person.
+func TestBuildWarnsAboutUnrecognisedStylings(t *testing.T) {
+	const data = "# Version: 18.0\n# group: People & Body\n" +
+		// A styling Unicode has not invented yet, shared by three emoji.
+		"1F9D1 200D 1F9B0 ; fully-qualified # \U0001F9D1‍\U0001F9B0 E1.0 person: teal hair\n" +
+		"1F468 200D 1F9B0 ; fully-qualified # \U0001F468‍\U0001F9B0 E1.0 man: teal hair\n" +
+		"1F469 200D 1F9B0 ; fully-qualified # \U0001F469‍\U0001F9B0 E1.0 woman: teal hair\n" +
+		// A flag qualifier belongs to one emoji and must stay quiet.
+		"1F1FA 1F1F8 ; fully-qualified # \U0001F1FA\U0001F1F8 E2.0 flag: United States\n" +
+		"1F1EC 1F1E7 ; fully-qualified # \U0001F1EC\U0001F1E7 E2.0 flag: United Kingdom\n" +
+		// "man" names a figure under two different emoji. It is shared exactly
+		// the way a styling is, and is only quiet because PersonWords says so.
+		"1F468 200D 1F466 ; fully-qualified # \U0001F468‍\U0001F466 E4.0 family: man, boy\n" +
+		"1F468 200D 2764 FE0F 200D 1F48B 200D 1F468 ; fully-qualified # \U0001F468‍❤️‍\U0001F48B‍\U0001F468 E2.0 kiss: man, man\n"
+
+	var logged bytes.Buffer
+	slog.SetDefault(slog.New(slog.NewTextHandler(&logged, nil)))
+	defer slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
+
+	ds, err := Parse(strings.NewReader(data), "sample")
+	if err != nil {
+		t.Fatalf("Parse: %v", err)
+	}
+	if _, err := Build(ds); err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+
+	out := logged.String()
+	if !strings.Contains(out, `token="teal hair"`) {
+		t.Errorf("a styling shared by three emoji went unreported:\n%s", out)
+	}
+	// Each country belongs to one emoji, so no flag is shared.
+	if strings.Contains(out, "United States") || strings.Contains(out, "United Kingdom") {
+		t.Errorf("a flag qualifier was reported as a styling:\n%s", out)
+	}
+	if strings.Contains(out, `token=man`) {
+		t.Errorf("a word naming a figure was reported as a styling:\n%s", out)
+	}
+}
+
+// The real data must not trip the warning, or it is noise rather than signal.
+func TestSampleDataHasNoUnrecognisedStylings(t *testing.T) {
+	var logged bytes.Buffer
+	slog.SetDefault(slog.New(slog.NewTextHandler(&logged, nil)))
+	defer slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
+
+	if _, err := Build(parseSample(t)); err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+	if strings.Contains(logged.String(), "unrecognised qualifier") {
+		t.Errorf("the sample data tripped the styling warning:\n%s", logged.String())
+	}
+}
+
+func TestWriteFilesOnlyWritesWhatChanged(t *testing.T) {
+	dir := t.TempDir()
+	files := []file{
+		{Name: "a_gen.go", Contents: []byte("package emojis // a\n")},
+		{Name: "b_gen.go", Contents: []byte("package emojis // b\n")},
+	}
+
+	changed, err := writeFiles(dir, files)
+	if err != nil {
+		t.Fatalf("writeFiles: %v", err)
+	}
+	if changed != 2 {
+		t.Errorf("first run changed %d files, want 2", changed)
+	}
+
+	// Nothing has moved, so a second run must write nothing.
+	changed, err = writeFiles(dir, files)
+	if err != nil {
+		t.Fatalf("writeFiles: %v", err)
+	}
+	if changed != 0 {
+		t.Errorf("second run changed %d files, want 0", changed)
+	}
+
+	files[1].Contents = []byte("package emojis // b, revised\n")
+	changed, err = writeFiles(dir, files)
+	if err != nil {
+		t.Fatalf("writeFiles: %v", err)
+	}
+	if changed != 1 {
+		t.Errorf("changed %d files after editing one, want 1", changed)
+	}
+	got, err := os.ReadFile(filepath.Join(dir, "b_gen.go"))
+	if err != nil || string(got) != string(files[1].Contents) {
+		t.Errorf("b_gen.go = %q, %v; want the revised contents", got, err)
+	}
+}
+
+func TestChangedFunctions(t *testing.T) {
+	m, err := Build(parseSample(t))
+	if err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+
+	// Generated from the same data: nothing moved.
+	files, err := render(m, "emojis")
+	if err != nil {
+		t.Fatalf("render: %v", err)
+	}
+	current := files[2].Contents
+	if added, removed := changedFunctions(current, m); len(added) > 0 || len(removed) > 0 {
+		t.Errorf("regenerating unchanged data reported added=%v removed=%v", added, removed)
+	}
+
+	// A previous file naming one emoji this release does not, and missing
+	// several it does.
+	previous := []byte("package emojis\n\nfunc ThumbsUp(v ...Variant) string { return \"\" }\n" +
+		"func RetiredEmoji() string { return \"\" }\n")
+	added, removed := changedFunctions(previous, m)
+	if len(added) != len(m.Bases)-1 {
+		t.Errorf("added %d functions, want %d", len(added), len(m.Bases)-1)
+	}
+	if len(removed) != 1 || removed[0] != "RetiredEmoji" {
+		t.Errorf("removed = %v, want [RetiredEmoji]", removed)
+	}
+	// Sorted, so a report reads the same way twice.
+	for i := 1; i < len(added); i++ {
+		if added[i-1] >= added[i] {
+			t.Fatalf("added is not sorted: %q before %q", added[i-1], added[i])
+		}
+	}
+}
+
+func TestSummarise(t *testing.T) {
+	short := []string{"Tent", "Fountain"}
+	if got, want := summarise(short), "Tent, Fountain"; got != want {
+		t.Errorf("summarise(%v) = %q, want %q", short, got, want)
+	}
+
+	long := make([]string, listedNames+5)
+	for i := range long {
+		long[i] = fmt.Sprintf("Emoji%02d", i)
+	}
+	got := summarise(long)
+	if !strings.HasSuffix(got, "and 5 more") {
+		t.Errorf("summarise of %d names = %q, want it to summarise the tail", len(long), got)
+	}
+	if strings.Count(got, ",") != listedNames-1 {
+		t.Errorf("summarise listed %d names, want %d", strings.Count(got, ",")+1, listedNames)
+	}
+}
+
+func TestReportFunctionChanges(t *testing.T) {
+	m, err := Build(parseSample(t))
+	if err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+
+	capture := func(previous string) string {
+		t.Helper()
+		dir := t.TempDir()
+		if previous != "" {
+			if err := os.WriteFile(filepath.Join(dir, emojiFile), []byte(previous), 0o644); err != nil {
+				t.Fatal(err)
+			}
+		}
+		var logged bytes.Buffer
+		slog.SetDefault(slog.New(slog.NewTextHandler(&logged, &slog.HandlerOptions{Level: slog.LevelDebug})))
+		defer slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
+		reportFunctionChanges(dir, m)
+		return logged.String()
+	}
+
+	// Nothing to compare against on a first run.
+	if got := capture(""); !strings.Contains(got, "nothing to compare against") {
+		t.Errorf("a missing previous file was not reported:\n%s", got)
+	}
+
+	// The file it is about to write: no emoji moved.
+	files, err := render(m, "emojis")
+	if err != nil {
+		t.Fatalf("render: %v", err)
+	}
+	if got := capture(string(files[2].Contents)); !strings.Contains(got, "same emoji as last time") {
+		t.Errorf("an unchanged release was not reported:\n%s", got)
+	}
+
+	// A previous release with one emoji this one drops, and missing the rest.
+	got := capture("package emojis\n\nfunc RetiredEmoji() string { return \"\" }\n")
+	if !strings.Contains(got, "emoji added") {
+		t.Errorf("new emoji were not reported:\n%s", got)
+	}
+	if !strings.Contains(got, "level=WARN") || !strings.Contains(got, "RetiredEmoji") {
+		t.Errorf("a removed function was not warned about:\n%s", got)
 	}
 }
