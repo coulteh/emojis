@@ -53,18 +53,23 @@ type identSet struct {
 
 func newIdentSet() *identSet { return &identSet{taken: make(map[string]string)} }
 
-// add returns a unique identifier for name, suffixing a counter in the
-// (currently unreached) event that two names reduce to the same identifier.
+// add returns a unique identifier for name, suffixing a counter in the event
+// that two names reduce to the same identifier. Unicode has done this: in
+// emoji 5.0 the bird was "turkey" and the flag "Turkey", which differ only in
+// the case that ident normalises away.
 func (s *identSet) add(name string) string {
 	base := ident(name)
 	candidate := base
 	for i := 2; ; i++ {
-		if owner, clash := s.taken[candidate]; !clash {
-			s.taken[candidate] = name
+		if _, clash := s.taken[candidate]; !clash {
 			if candidate != base {
+				// s.taken[base] is whoever holds the identifier this name
+				// wanted, which is the useful half of the collision.
 				slog.Warn("identifier collision",
-					"identifier", base, "name", name, "claimed_by", owner, "using", candidate)
+					"identifier", base, "name", name,
+					"claimed_by", s.taken[base], "using", candidate)
 			}
+			s.taken[candidate] = name
 			return candidate
 		}
 		candidate = base + strconv.Itoa(i)

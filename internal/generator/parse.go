@@ -26,8 +26,10 @@ type Dataset struct {
 }
 
 var (
-	// "😀 E1.0 grinning face"
-	commentRe  = regexp.MustCompile(`^(\S+)\s+E\d+(?:\.\d+)?\s+(.+)$`)
+	// "😀 E1.0 grinning face", or "😀 grinning face" without the emoji version,
+	// which Unicode only started stamping on each line in emoji 12.1. Nothing
+	// here reads that field, so it is optional rather than required.
+	commentRe  = regexp.MustCompile(`^(\S+)\s+(?:E\d+(?:\.\d+)?\s+)?(.+)$`)
 	versionRe  = regexp.MustCompile(`^#\s*Version:\s*(\S+)`)
 	groupRe    = regexp.MustCompile(`^#\s*group:\s*(.+)$`)
 	subgroupRe = regexp.MustCompile(`^#\s*subgroup:\s*(.+)$`)

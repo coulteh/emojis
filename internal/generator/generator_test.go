@@ -1,6 +1,7 @@
 package generator
 
 import (
+	"bytes"
 	"io"
 	"log/slog"
 	"regexp"
@@ -64,8 +65,13 @@ func TestIdent(t *testing.T) {
 }
 
 func TestIdentSetDisambiguates(t *testing.T) {
+	var logged bytes.Buffer
+	slog.SetDefault(slog.New(slog.NewTextHandler(&logged, nil)))
+	defer slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
+
 	s := newIdentSet()
-	// Two names that reduce to the same identifier.
+	// Two names that reduce to the same identifier, as "turkey" and "Turkey"
+	// did in emoji 5.0.
 	if got := s.add("red heart"); got != "RedHeart" {
 		t.Fatalf("first add = %q, want RedHeart", got)
 	}
@@ -74,6 +80,15 @@ func TestIdentSetDisambiguates(t *testing.T) {
 	}
 	if got := s.add("red -heart-"); got != "RedHeart3" {
 		t.Errorf("second colliding add = %q, want RedHeart3", got)
+	}
+
+	// The warning has to name whoever holds the identifier that was wanted,
+	// or it says nothing useful about the collision.
+	if !strings.Contains(logged.String(), `claimed_by="red heart"`) {
+		t.Errorf("collision warning does not name the holder:\n%s", logged.String())
+	}
+	if strings.Contains(logged.String(), `claimed_by=""`) {
+		t.Errorf("collision warning reports an empty holder:\n%s", logged.String())
 	}
 }
 
@@ -174,6 +189,28 @@ func TestParse(t *testing.T) {
 	}
 	if last := ds.Emojis[len(ds.Emojis)-1]; last.Group != "People & Body" || last.Subgroup != "family" {
 		t.Errorf("last emoji group = %q/%q", last.Group, last.Subgroup)
+	}
+}
+
+// Unicode added the emoji version to each line in 12.1; rows from before that
+// carry only the emoji and its name.
+func TestParseWithoutEmojiVersion(t *testing.T) {
+	const old = "# Version: 11.0\n# group: Smileys & Emotion\n" +
+		"1F600 ; fully-qualified # \U0001F600 grinning face\n" +
+		"1F44D 1F3FF ; fully-qualified # \U0001F44D\U0001F3FF thumbs up: dark skin tone\n"
+
+	ds, err := Parse(strings.NewReader(old), "sample")
+	if err != nil {
+		t.Fatalf("Parse: %v", err)
+	}
+	if len(ds.Emojis) != 2 {
+		t.Fatalf("parsed %d emoji, want 2", len(ds.Emojis))
+	}
+	if got := ds.Emojis[0].Name; got != "grinning face" {
+		t.Errorf("name = %q, want %q", got, "grinning face")
+	}
+	if got := ds.Emojis[1].Name; got != "thumbs up: dark skin tone" {
+		t.Errorf("name = %q, want %q", got, "thumbs up: dark skin tone")
 	}
 }
 
