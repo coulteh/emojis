@@ -6,30 +6,22 @@ import (
 	"fmt"
 	"log/slog"
 	"os"
-	"path/filepath"
 )
 
-// Config controls a run of the generator.
-type Config struct {
-	Source  string // URL or file path of emoji-test.txt
-	OutDir  string // directory to write the generated files into
-	Package string // package clause for the generated files
-}
+// pkg is the package clause the generated files carry.
+const pkg = "emojis"
 
-// DefaultConfig generates the emojis package at the module root.
-func DefaultConfig() Config {
-	return Config{Source: DefaultSource, OutDir: ".", Package: "emojis"}
-}
-
-// Generate fetches the emoji data and writes the generated package.
-func Generate(cfg Config) error {
-	src, err := open(cfg.Source)
+// Generate fetches the emoji data and writes the generated package into the
+// working directory. Under "go generate" that is the directory holding the
+// directive, which is the module root: where the emojis package lives.
+func Generate() error {
+	src, err := fetch()
 	if err != nil {
 		return err
 	}
 	defer src.Close()
 
-	ds, err := Parse(src, cfg.Source)
+	ds, err := Parse(src, SourceURL)
 	if err != nil {
 		return err
 	}
@@ -39,20 +31,16 @@ func Generate(cfg Config) error {
 		return err
 	}
 
-	files, err := render(model, cfg.Package)
+	files, err := render(model, pkg)
 	if err != nil {
 		return err
 	}
 
-	if err := os.MkdirAll(cfg.OutDir, 0o755); err != nil {
-		return fmt.Errorf("create %s: %w", cfg.OutDir, err)
-	}
 	for _, f := range files {
-		path := filepath.Join(cfg.OutDir, f.Name)
-		if err := os.WriteFile(path, f.Contents, 0o644); err != nil {
-			return fmt.Errorf("write %s: %w", path, err)
+		if err := os.WriteFile(f.Name, f.Contents, 0o644); err != nil {
+			return fmt.Errorf("write %s: %w", f.Name, err)
 		}
-		slog.Info("wrote file", "path", path, "bytes", len(f.Contents))
+		slog.Info("wrote file", "path", f.Name, "bytes", len(f.Contents))
 	}
 	return nil
 }

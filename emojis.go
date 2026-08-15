@@ -19,7 +19,7 @@ package emojis
 
 import "sort"
 
-//go:generate go run ./internal --out .
+//go:generate go run ./internal
 
 // A Variant is a styling an emoji can be asked for: one of the five skin
 // tones, or one of the hair styles.
