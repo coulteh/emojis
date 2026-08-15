@@ -1,0 +1,39 @@
+{{template "header" .}}
+
+// emojiBlob holds every emoji in the package, packed into one string so the
+// binary carries a single string constant rather than thousands. An emoji that
+// appears inside another is stored once: every skin tone form contains the
+// emoji it is a form of.
+const emojiBlob = {{.EmojiBlob}}
+
+// nameBlob holds every emoji name the same way.
+const nameBlob = {{.NameBlob}}
+
+// baseNames has one row per emoji, sorted by name so Lookup can binary search
+// it. baseEmoji gives the unmodified emoji for the row at the same index; a
+// zero-length span means Unicode defines that emoji only in modified forms.
+//
+// These are arrays of integers rather than a map, so the compiler writes them
+// into the binary and the program reads them straight from there. A map would
+// have to be allocated and filled on the heap at package init, by every program
+// that imports this package, whether or not it ever looked anything up.
+var baseNames = [{{len .Bases}}]span{
+{{range .Bases}}	{ {{.Name.Off}}, {{.Name.End}} }, // {{.Comment}}
+{{end}}}
+
+var baseEmoji = [{{len .Bases}}]span{
+{{range .Bases}}	{ {{.Plain.Off}}, {{.Plain.End}} },
+{{end}}}
+
+// styledKeys holds one key per modified emoji, sorted, for binary search. Each
+// packs a row of baseTable with the variants that select the form:
+//
+//	row<<16 | first<<8 | second
+var styledKeys = [{{len .Styled}}]uint32{
+{{range .Styled}}	{{.Key}}, // {{.Comment}}
+{{end}}}
+
+// styledEmoji gives the emoji for the key at the same index in styledKeys.
+var styledEmoji = [{{len .Styled}}]span{
+{{range .Styled}}	{ {{.Emoji.Off}}, {{.Emoji.End}} },
+{{end}}}

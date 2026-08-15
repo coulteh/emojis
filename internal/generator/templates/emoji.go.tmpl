@@ -1,0 +1,8 @@
+{{template "header" .}}
+{{range .Groups}}
+// {{.Name}}
+{{range .Bases}}
+{{range .Doc}}// {{.}}
+{{end}}{{if .Variants}}func {{.Ident}}(v ...Variant) string { return styled({{.Index}}, v) }
+{{else}}func {{.Ident}}() string { return emojiBlob[{{.Plain.Off}}:{{.Plain.End}}] }
+{{end}}{{end}}{{end}}
