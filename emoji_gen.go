@@ -8,541 +8,541 @@ package emojis
 // Smileys & Emotion
 
 // GrinningFace returns the "grinning face" emoji 😀.
-func GrinningFace(v ...Variant) string { return styled(867, v) }
+func GrinningFace() string { return emojiBlob[37785:37789] }
 
 // GrinningFaceWithBigEyes returns the "grinning face with big eyes" emoji
 // 😃.
-func GrinningFaceWithBigEyes(v ...Variant) string { return styled(868, v) }
+func GrinningFaceWithBigEyes() string { return emojiBlob[37797:37801] }
 
 // GrinningFaceWithSmilingEyes returns the "grinning face with smiling
 // eyes" emoji 😄.
-func GrinningFaceWithSmilingEyes(v ...Variant) string { return styled(869, v) }
+func GrinningFaceWithSmilingEyes() string { return emojiBlob[37801:37805] }
 
 // BeamingFaceWithSmilingEyes returns the "beaming face with smiling eyes"
 // emoji 😁.
-func BeamingFaceWithSmilingEyes(v ...Variant) string { return styled(134, v) }
+func BeamingFaceWithSmilingEyes() string { return emojiBlob[37789:37793] }
 
 // GrinningSquintingFace returns the "grinning squinting face" emoji 😆.
-func GrinningSquintingFace(v ...Variant) string { return styled(871, v) }
+func GrinningSquintingFace() string { return emojiBlob[37809:37813] }
 
 // GrinningFaceWithSweat returns the "grinning face with sweat" emoji 😅.
-func GrinningFaceWithSweat(v ...Variant) string { return styled(870, v) }
+func GrinningFaceWithSweat() string { return emojiBlob[37805:37809] }
 
 // RollingOnTheFloorLaughing returns the "rolling on the floor laughing"
 // emoji 🤣.
-func RollingOnTheFloorLaughing(v ...Variant) string { return styled(1492, v) }
+func RollingOnTheFloorLaughing() string { return emojiBlob[38493:38497] }
 
 // FaceWithTearsOfJoy returns the "face with tears of joy" emoji 😂.
-func FaceWithTearsOfJoy(v ...Variant) string { return styled(459, v) }
+func FaceWithTearsOfJoy() string { return emojiBlob[37793:37797] }
 
 // SlightlySmilingFace returns the "slightly smiling face" emoji 🙂.
-func SlightlySmilingFace(v ...Variant) string { return styled(1563, v) }
+func SlightlySmilingFace() string { return emojiBlob[28045:28049] }
 
 // UpsideDownFace returns the "upside-down face" emoji 🙃.
-func UpsideDownFace(v ...Variant) string { return styled(1737, v) }
+func UpsideDownFace() string { return emojiBlob[38037:38041] }
 
 // MeltingFace returns the "melting face" emoji 🫠.
-func MeltingFace(v ...Variant) string { return styled(1153, v) }
+func MeltingFace() string { return emojiBlob[39561:39565] }
 
 // WinkingFace returns the "winking face" emoji 😉.
-func WinkingFace(v ...Variant) string { return styled(1790, v) }
+func WinkingFace() string { return emojiBlob[37821:37825] }
 
 // SmilingFaceWithSmilingEyes returns the "smiling face with smiling eyes"
 // emoji 😊.
-func SmilingFaceWithSmilingEyes(v ...Variant) string { return styled(1576, v) }
+func SmilingFaceWithSmilingEyes() string { return emojiBlob[37825:37829] }
 
 // SmilingFaceWithHalo returns the "smiling face with halo" emoji 😇.
-func SmilingFaceWithHalo(v ...Variant) string { return styled(1571, v) }
+func SmilingFaceWithHalo() string { return emojiBlob[37813:37817] }
 
 // SmilingFaceWithHearts returns the "smiling face with hearts" emoji 🥰.
-func SmilingFaceWithHearts(v ...Variant) string { return styled(1573, v) }
+func SmilingFaceWithHearts() string { return emojiBlob[38737:38741] }
 
 // SmilingFaceWithHeartEyes returns the "smiling face with heart-eyes"
 // emoji 😍.
-func SmilingFaceWithHeartEyes(v ...Variant) string { return styled(1572, v) }
+func SmilingFaceWithHeartEyes() string { return emojiBlob[37837:37841] }
 
 // StarStruck returns the "star-struck" emoji 🤩.
-func StarStruck(v ...Variant) string { return styled(1623, v) }
+func StarStruck() string { return emojiBlob[38513:38517] }
 
 // FaceBlowingAKiss returns the "face blowing a kiss" emoji 😘.
-func FaceBlowingAKiss(v ...Variant) string { return styled(437, v) }
+func FaceBlowingAKiss() string { return emojiBlob[37881:37885] }
 
 // KissingFace returns the "kissing face" emoji 😗.
-func KissingFace(v ...Variant) string { return styled(990, v) }
+func KissingFace() string { return emojiBlob[37877:37881] }
 
 // SmilingFace returns the "smiling face" emoji ☺️.
-func SmilingFace(v ...Variant) string { return styled(1570, v) }
+func SmilingFace() string { return emojiBlob[35463:35469] }
 
 // KissingFaceWithClosedEyes returns the "kissing face with closed eyes"
 // emoji 😚.
-func KissingFaceWithClosedEyes(v ...Variant) string { return styled(991, v) }
+func KissingFaceWithClosedEyes() string { return emojiBlob[37889:37893] }
 
 // KissingFaceWithSmilingEyes returns the "kissing face with smiling eyes"
 // emoji 😙.
-func KissingFaceWithSmilingEyes(v ...Variant) string { return styled(992, v) }
+func KissingFaceWithSmilingEyes() string { return emojiBlob[37885:37889] }
 
 // SmilingFaceWithTear returns the "smiling face with tear" emoji 🥲.
-func SmilingFaceWithTear(v ...Variant) string { return styled(1578, v) }
+func SmilingFaceWithTear() string { return emojiBlob[38745:38749] }
 
 // FaceSavoringFood returns the "face savoring food" emoji 😋.
-func FaceSavoringFood(v ...Variant) string { return styled(441, v) }
+func FaceSavoringFood() string { return emojiBlob[37829:37833] }
 
 // FaceWithTongue returns the "face with tongue" emoji 😛.
-func FaceWithTongue(v ...Variant) string { return styled(461, v) }
+func FaceWithTongue() string { return emojiBlob[37893:37897] }
 
 // WinkingFaceWithTongue returns the "winking face with tongue" emoji 😜.
-func WinkingFaceWithTongue(v ...Variant) string { return styled(1791, v) }
+func WinkingFaceWithTongue() string { return emojiBlob[37897:37901] }
 
 // ZanyFace returns the "zany face" emoji 🤪.
-func ZanyFace(v ...Variant) string { return styled(1894, v) }
+func ZanyFace() string { return emojiBlob[38517:38521] }
 
 // SquintingFaceWithTongue returns the "squinting face with tongue" emoji
 // 😝.
-func SquintingFaceWithTongue(v ...Variant) string { return styled(1618, v) }
+func SquintingFaceWithTongue() string { return emojiBlob[37901:37905] }
 
 // MoneyMouthFace returns the "money-mouth face" emoji 🤑.
-func MoneyMouthFace(v ...Variant) string { return styled(1182, v) }
+func MoneyMouthFace() string { return emojiBlob[38453:38457] }
 
 // SmilingFaceWithOpenHands returns the "smiling face with open hands"
 // emoji 🤗.
-func SmilingFaceWithOpenHands(v ...Variant) string { return styled(1575, v) }
+func SmilingFaceWithOpenHands() string { return emojiBlob[38477:38481] }
 
 // FaceWithHandOverMouth returns the "face with hand over mouth" emoji
 // 🤭.
-func FaceWithHandOverMouth(v ...Variant) string { return styled(447, v) }
+func FaceWithHandOverMouth() string { return emojiBlob[38529:38533] }
 
 // FaceWithOpenEyesAndHandOverMouth returns the "face with open eyes and
 // hand over mouth" emoji 🫢.
-func FaceWithOpenEyesAndHandOverMouth(v ...Variant) string { return styled(451, v) }
+func FaceWithOpenEyesAndHandOverMouth() string { return emojiBlob[39569:39573] }
 
 // FaceWithPeekingEye returns the "face with peeking eye" emoji 🫣.
-func FaceWithPeekingEye(v ...Variant) string { return styled(453, v) }
+func FaceWithPeekingEye() string { return emojiBlob[39573:39577] }
 
 // ShushingFace returns the "shushing face" emoji 🤫.
-func ShushingFace(v ...Variant) string { return styled(1548, v) }
+func ShushingFace() string { return emojiBlob[38521:38525] }
 
 // ThinkingFace returns the "thinking face" emoji 🤔.
-func ThinkingFace(v ...Variant) string { return styled(1677, v) }
+func ThinkingFace() string { return emojiBlob[38465:38469] }
 
 // SalutingFace returns the "saluting face" emoji 🫡.
-func SalutingFace(v ...Variant) string { return styled(1507, v) }
+func SalutingFace() string { return emojiBlob[39565:39569] }
 
 // ZipperMouthFace returns the "zipper-mouth face" emoji 🤐.
-func ZipperMouthFace(v ...Variant) string { return styled(1896, v) }
+func ZipperMouthFace() string { return emojiBlob[38449:38453] }
 
 // FaceWithRaisedEyebrow returns the "face with raised eyebrow" emoji 🤨.
-func FaceWithRaisedEyebrow(v ...Variant) string { return styled(454, v) }
+func FaceWithRaisedEyebrow() string { return emojiBlob[38509:38513] }
 
 // NeutralFace returns the "neutral face" emoji 😐.
-func NeutralFace(v ...Variant) string { return styled(1221, v) }
+func NeutralFace() string { return emojiBlob[37849:37853] }
 
 // ExpressionlessFace returns the "expressionless face" emoji 😑.
-func ExpressionlessFace(v ...Variant) string { return styled(433, v) }
+func ExpressionlessFace() string { return emojiBlob[37853:37857] }
 
 // FaceWithoutMouth returns the "face without mouth" emoji 😶.
-func FaceWithoutMouth(v ...Variant) string { return styled(462, v) }
+func FaceWithoutMouth() string { return emojiBlob[27563:27567] }
 
 // DottedLineFace returns the "dotted line face" emoji 🫥.
-func DottedLineFace(v ...Variant) string { return styled(385, v) }
+func DottedLineFace() string { return emojiBlob[39581:39585] }
 
 // FaceInClouds returns the "face in clouds" emoji 😶‍🌫️.
-func FaceInClouds(v ...Variant) string { return styled(440, v) }
+func FaceInClouds() string { return emojiBlob[27563:27577] }
 
 // SmirkingFace returns the "smirking face" emoji 😏.
-func SmirkingFace(v ...Variant) string { return styled(1579, v) }
+func SmirkingFace() string { return emojiBlob[37845:37849] }
 
 // UnamusedFace returns the "unamused face" emoji 😒.
-func UnamusedFace(v ...Variant) string { return styled(1730, v) }
+func UnamusedFace() string { return emojiBlob[37857:37861] }
 
 // FaceWithRollingEyes returns the "face with rolling eyes" emoji 🙄.
-func FaceWithRollingEyes(v ...Variant) string { return styled(455, v) }
+func FaceWithRollingEyes() string { return emojiBlob[38041:38045] }
 
 // GrimacingFace returns the "grimacing face" emoji 😬.
-func GrimacingFace(v ...Variant) string { return styled(864, v) }
+func GrimacingFace() string { return emojiBlob[37961:37965] }
 
 // FaceExhaling returns the "face exhaling" emoji 😮‍💨.
-func FaceExhaling(v ...Variant) string { return styled(438, v) }
+func FaceExhaling() string { return emojiBlob[29408:29419] }
 
 // LyingFace returns the "lying face" emoji 🤥.
-func LyingFace(v ...Variant) string { return styled(1055, v) }
+func LyingFace() string { return emojiBlob[38501:38505] }
 
 // ShakingFace returns the "shaking face" emoji 🫨.
-func ShakingFace(v ...Variant) string { return styled(1530, v) }
+func ShakingFace() string { return emojiBlob[39593:39597] }
 
 // HeadShakingHorizontally returns the "head shaking horizontally" emoji
 // 🙂‍↔️.
-func HeadShakingHorizontally(v ...Variant) string { return styled(890, v) }
+func HeadShakingHorizontally() string { return emojiBlob[28045:28058] }
 
 // HeadShakingVertically returns the "head shaking vertically" emoji
 // 🙂‍↕️.
-func HeadShakingVertically(v ...Variant) string { return styled(891, v) }
+func HeadShakingVertically() string { return emojiBlob[28058:28071] }
 
 // RelievedFace returns the "relieved face" emoji 😌.
-func RelievedFace(v ...Variant) string { return styled(1461, v) }
+func RelievedFace() string { return emojiBlob[37833:37837] }
 
 // PensiveFace returns the "pensive face" emoji 😔.
-func PensiveFace(v ...Variant) string { return styled(1311, v) }
+func PensiveFace() string { return emojiBlob[37865:37869] }
 
 // SleepyFace returns the "sleepy face" emoji 😪.
-func SleepyFace(v ...Variant) string { return styled(1561, v) }
+func SleepyFace() string { return emojiBlob[37953:37957] }
 
 // DroolingFace returns the "drooling face" emoji 🤤.
-func DroolingFace(v ...Variant) string { return styled(399, v) }
+func DroolingFace() string { return emojiBlob[38497:38501] }
 
 // SleepingFace returns the "sleeping face" emoji 😴.
-func SleepingFace(v ...Variant) string { return styled(1560, v) }
+func SleepingFace() string { return emojiBlob[37989:37993] }
 
 // FaceWithBagsUnderEyes returns the "face with bags under eyes" emoji
 // 🫩.
-func FaceWithBagsUnderEyes(v ...Variant) string { return styled(444, v) }
+func FaceWithBagsUnderEyes() string { return emojiBlob[39597:39601] }
 
 // FaceWithMedicalMask returns the "face with medical mask" emoji 😷.
-func FaceWithMedicalMask(v ...Variant) string { return styled(449, v) }
+func FaceWithMedicalMask() string { return emojiBlob[37993:37997] }
 
 // FaceWithThermometer returns the "face with thermometer" emoji 🤒.
-func FaceWithThermometer(v ...Variant) string { return styled(460, v) }
+func FaceWithThermometer() string { return emojiBlob[38457:38461] }
 
 // FaceWithHeadBandage returns the "face with head-bandage" emoji 🤕.
-func FaceWithHeadBandage(v ...Variant) string { return styled(448, v) }
+func FaceWithHeadBandage() string { return emojiBlob[38469:38473] }
 
 // NauseatedFace returns the "nauseated face" emoji 🤢.
-func NauseatedFace(v ...Variant) string { return styled(1215, v) }
+func NauseatedFace() string { return emojiBlob[38489:38493] }
 
 // FaceVomiting returns the "face vomiting" emoji 🤮.
-func FaceVomiting(v ...Variant) string { return styled(443, v) }
+func FaceVomiting() string { return emojiBlob[38533:38537] }
 
 // SneezingFace returns the "sneezing face" emoji 🤧.
-func SneezingFace(v ...Variant) string { return styled(1582, v) }
+func SneezingFace() string { return emojiBlob[38505:38509] }
 
 // HotFace returns the "hot face" emoji 🥵.
-func HotFace(v ...Variant) string { return styled(927, v) }
+func HotFace() string { return emojiBlob[38757:38761] }
 
 // ColdFace returns the "cold face" emoji 🥶.
-func ColdFace(v ...Variant) string { return styled(294, v) }
+func ColdFace() string { return emojiBlob[38761:38765] }
 
 // WoozyFace returns the "woozy face" emoji 🥴.
-func WoozyFace(v ...Variant) string { return styled(1878, v) }
+func WoozyFace() string { return emojiBlob[38753:38757] }
 
 // FaceWithCrossedOutEyes returns the "face with crossed-out eyes" emoji
 // 😵.
-func FaceWithCrossedOutEyes(v ...Variant) string { return styled(445, v) }
+func FaceWithCrossedOutEyes() string { return emojiBlob[29419:29423] }
 
 // FaceWithSpiralEyes returns the "face with spiral eyes" emoji
 // 😵‍💫.
-func FaceWithSpiralEyes(v ...Variant) string { return styled(456, v) }
+func FaceWithSpiralEyes() string { return emojiBlob[29419:29430] }
 
 // ExplodingHead returns the "exploding head" emoji 🤯.
-func ExplodingHead(v ...Variant) string { return styled(432, v) }
+func ExplodingHead() string { return emojiBlob[38537:38541] }
 
 // CowboyHatFace returns the "cowboy hat face" emoji 🤠.
-func CowboyHatFace(v ...Variant) string { return styled(322, v) }
+func CowboyHatFace() string { return emojiBlob[38481:38485] }
 
 // PartyingFace returns the "partying face" emoji 🥳.
-func PartyingFace(v ...Variant) string { return styled(1297, v) }
+func PartyingFace() string { return emojiBlob[38749:38753] }
 
 // DisguisedFace returns the "disguised face" emoji 🥸.
-func DisguisedFace(v ...Variant) string { return styled(371, v) }
+func DisguisedFace() string { return emojiBlob[38765:38769] }
 
 // SmilingFaceWithSunglasses returns the "smiling face with sunglasses"
 // emoji 😎.
-func SmilingFaceWithSunglasses(v ...Variant) string { return styled(1577, v) }
+func SmilingFaceWithSunglasses() string { return emojiBlob[37841:37845] }
 
 // NerdFace returns the "nerd face" emoji 🤓.
-func NerdFace(v ...Variant) string { return styled(1218, v) }
+func NerdFace() string { return emojiBlob[38461:38465] }
 
 // FaceWithMonocle returns the "face with monocle" emoji 🧐.
-func FaceWithMonocle(v ...Variant) string { return styled(450, v) }
+func FaceWithMonocle() string { return emojiBlob[39053:39057] }
 
 // ConfusedFace returns the "confused face" emoji 😕.
-func ConfusedFace(v ...Variant) string { return styled(302, v) }
+func ConfusedFace() string { return emojiBlob[37869:37873] }
 
 // FaceWithDiagonalMouth returns the "face with diagonal mouth" emoji 🫤.
-func FaceWithDiagonalMouth(v ...Variant) string { return styled(446, v) }
+func FaceWithDiagonalMouth() string { return emojiBlob[39577:39581] }
 
 // WorriedFace returns the "worried face" emoji 😟.
-func WorriedFace(v ...Variant) string { return styled(1881, v) }
+func WorriedFace() string { return emojiBlob[37909:37913] }
 
 // SlightlyFrowningFace returns the "slightly frowning face" emoji 🙁.
-func SlightlyFrowningFace(v ...Variant) string { return styled(1562, v) }
+func SlightlyFrowningFace() string { return emojiBlob[38033:38037] }
 
 // FrowningFace returns the "frowning face" emoji ☹️.
-func FrowningFace(v ...Variant) string { return styled(826, v) }
+func FrowningFace() string { return emojiBlob[35457:35463] }
 
 // FaceWithOpenMouth returns the "face with open mouth" emoji 😮.
-func FaceWithOpenMouth(v ...Variant) string { return styled(452, v) }
+func FaceWithOpenMouth() string { return emojiBlob[29408:29412] }
 
 // HushedFace returns the "hushed face" emoji 😯.
-func HushedFace(v ...Variant) string { return styled(937, v) }
+func HushedFace() string { return emojiBlob[37969:37973] }
 
 // AstonishedFace returns the "astonished face" emoji 😲.
-func AstonishedFace(v ...Variant) string { return styled(94, v) }
+func AstonishedFace() string { return emojiBlob[37981:37985] }
 
 // FlushedFace returns the "flushed face" emoji 😳.
-func FlushedFace(v ...Variant) string { return styled(800, v) }
+func FlushedFace() string { return emojiBlob[37985:37989] }
 
 // DistortedFace returns the "distorted face" emoji 🫪.
-func DistortedFace(v ...Variant) string { return styled(372, v) }
+func DistortedFace() string { return emojiBlob[39601:39605] }
 
 // PleadingFace returns the "pleading face" emoji 🥺.
-func PleadingFace(v ...Variant) string { return styled(1393, v) }
+func PleadingFace() string { return emojiBlob[38773:38777] }
 
 // FaceHoldingBackTears returns the "face holding back tears" emoji 🥹.
-func FaceHoldingBackTears(v ...Variant) string { return styled(439, v) }
+func FaceHoldingBackTears() string { return emojiBlob[38769:38773] }
 
 // FrowningFaceWithOpenMouth returns the "frowning face with open mouth"
 // emoji 😦.
-func FrowningFaceWithOpenMouth(v ...Variant) string { return styled(827, v) }
+func FrowningFaceWithOpenMouth() string { return emojiBlob[37937:37941] }
 
 // AnguishedFace returns the "anguished face" emoji 😧.
-func AnguishedFace(v ...Variant) string { return styled(87, v) }
+func AnguishedFace() string { return emojiBlob[37941:37945] }
 
 // FearfulFace returns the "fearful face" emoji 😨.
-func FearfulFace(v ...Variant) string { return styled(504, v) }
+func FearfulFace() string { return emojiBlob[37945:37949] }
 
 // AnxiousFaceWithSweat returns the "anxious face with sweat" emoji 😰.
-func AnxiousFaceWithSweat(v ...Variant) string { return styled(90, v) }
+func AnxiousFaceWithSweat() string { return emojiBlob[37973:37977] }
 
 // SadButRelievedFace returns the "sad but relieved face" emoji 😥.
-func SadButRelievedFace(v ...Variant) string { return styled(1501, v) }
+func SadButRelievedFace() string { return emojiBlob[37933:37937] }
 
 // CryingFace returns the "crying face" emoji 😢.
-func CryingFace(v ...Variant) string { return styled(339, v) }
+func CryingFace() string { return emojiBlob[37921:37925] }
 
 // LoudlyCryingFace returns the "loudly crying face" emoji 😭.
-func LoudlyCryingFace(v ...Variant) string { return styled(1047, v) }
+func LoudlyCryingFace() string { return emojiBlob[37965:37969] }
 
 // FaceScreamingInFear returns the "face screaming in fear" emoji 😱.
-func FaceScreamingInFear(v ...Variant) string { return styled(442, v) }
+func FaceScreamingInFear() string { return emojiBlob[37977:37981] }
 
 // ConfoundedFace returns the "confounded face" emoji 😖.
-func ConfoundedFace(v ...Variant) string { return styled(301, v) }
+func ConfoundedFace() string { return emojiBlob[37873:37877] }
 
 // PerseveringFace returns the "persevering face" emoji 😣.
-func PerseveringFace(v ...Variant) string { return styled(1317, v) }
+func PerseveringFace() string { return emojiBlob[37925:37929] }
 
 // DisappointedFace returns the "disappointed face" emoji 😞.
-func DisappointedFace(v ...Variant) string { return styled(370, v) }
+func DisappointedFace() string { return emojiBlob[37905:37909] }
 
 // DowncastFaceWithSweat returns the "downcast face with sweat" emoji 😓.
-func DowncastFaceWithSweat(v ...Variant) string { return styled(394, v) }
+func DowncastFaceWithSweat() string { return emojiBlob[37861:37865] }
 
 // WearyFace returns the "weary face" emoji 😩.
-func WearyFace(v ...Variant) string { return styled(1766, v) }
+func WearyFace() string { return emojiBlob[37949:37953] }
 
 // TiredFace returns the "tired face" emoji 😫.
-func TiredFace(v ...Variant) string { return styled(1689, v) }
+func TiredFace() string { return emojiBlob[37957:37961] }
 
 // YawningFace returns the "yawning face" emoji 🥱.
-func YawningFace(v ...Variant) string { return styled(1887, v) }
+func YawningFace() string { return emojiBlob[38741:38745] }
 
 // FaceWithSteamFromNose returns the "face with steam from nose" emoji
 // 😤.
-func FaceWithSteamFromNose(v ...Variant) string { return styled(457, v) }
+func FaceWithSteamFromNose() string { return emojiBlob[37929:37933] }
 
 // EnragedFace returns the "enraged face" emoji 😡.
-func EnragedFace(v ...Variant) string { return styled(425, v) }
+func EnragedFace() string { return emojiBlob[37917:37921] }
 
 // AngryFace returns the "angry face" emoji 😠.
-func AngryFace(v ...Variant) string { return styled(85, v) }
+func AngryFace() string { return emojiBlob[37913:37917] }
 
 // FaceWithSymbolsOnMouth returns the "face with symbols on mouth" emoji
 // 🤬.
-func FaceWithSymbolsOnMouth(v ...Variant) string { return styled(458, v) }
+func FaceWithSymbolsOnMouth() string { return emojiBlob[38525:38529] }
 
 // SmilingFaceWithHorns returns the "smiling face with horns" emoji 😈.
-func SmilingFaceWithHorns(v ...Variant) string { return styled(1574, v) }
+func SmilingFaceWithHorns() string { return emojiBlob[37817:37821] }
 
 // AngryFaceWithHorns returns the "angry face with horns" emoji 👿.
-func AngryFaceWithHorns(v ...Variant) string { return styled(86, v) }
+func AngryFaceWithHorns() string { return emojiBlob[36965:36969] }
 
 // Skull returns the "skull" emoji 💀.
-func Skull(v ...Variant) string { return styled(1556, v) }
+func Skull() string { return emojiBlob[36969:36973] }
 
 // SkullAndCrossbones returns the "skull and crossbones" emoji ☠️.
-func SkullAndCrossbones(v ...Variant) string { return styled(1557, v) }
+func SkullAndCrossbones() string { return emojiBlob[27688:27694] }
 
 // PileOfPoo returns the "pile of poo" emoji 💩.
-func PileOfPoo(v ...Variant) string { return styled(1376, v) }
+func PileOfPoo() string { return emojiBlob[37089:37093] }
 
 // ClownFace returns the "clown face" emoji 🤡.
-func ClownFace(v ...Variant) string { return styled(285, v) }
+func ClownFace() string { return emojiBlob[38485:38489] }
 
 // Ogre returns the "ogre" emoji 👹.
-func Ogre(v ...Variant) string { return styled(1246, v) }
+func Ogre() string { return emojiBlob[36945:36949] }
 
 // Goblin returns the "goblin" emoji 👺.
-func Goblin(v ...Variant) string { return styled(851, v) }
+func Goblin() string { return emojiBlob[36949:36953] }
 
 // Ghost returns the "ghost" emoji 👻.
-func Ghost(v ...Variant) string { return styled(837, v) }
+func Ghost() string { return emojiBlob[36953:36957] }
 
 // Alien returns the "alien" emoji 👽.
-func Alien(v ...Variant) string { return styled(77, v) }
+func Alien() string { return emojiBlob[36957:36961] }
 
 // AlienMonster returns the "alien monster" emoji 👾.
-func AlienMonster(v ...Variant) string { return styled(78, v) }
+func AlienMonster() string { return emojiBlob[36961:36965] }
 
 // Robot returns the "robot" emoji 🤖.
-func Robot(v ...Variant) string { return styled(1485, v) }
+func Robot() string { return emojiBlob[38473:38477] }
 
 // GrinningCat returns the "grinning cat" emoji 😺.
-func GrinningCat(v ...Variant) string { return styled(865, v) }
+func GrinningCat() string { return emojiBlob[38005:38009] }
 
 // GrinningCatWithSmilingEyes returns the "grinning cat with smiling eyes"
 // emoji 😸.
-func GrinningCatWithSmilingEyes(v ...Variant) string { return styled(866, v) }
+func GrinningCatWithSmilingEyes() string { return emojiBlob[37997:38001] }
 
 // CatWithTearsOfJoy returns the "cat with tears of joy" emoji 😹.
-func CatWithTearsOfJoy(v ...Variant) string { return styled(239, v) }
+func CatWithTearsOfJoy() string { return emojiBlob[38001:38005] }
 
 // SmilingCatWithHeartEyes returns the "smiling cat with heart-eyes" emoji
 // 😻.
-func SmilingCatWithHeartEyes(v ...Variant) string { return styled(1569, v) }
+func SmilingCatWithHeartEyes() string { return emojiBlob[38009:38013] }
 
 // CatWithWrySmile returns the "cat with wry smile" emoji 😼.
-func CatWithWrySmile(v ...Variant) string { return styled(240, v) }
+func CatWithWrySmile() string { return emojiBlob[38013:38017] }
 
 // KissingCat returns the "kissing cat" emoji 😽.
-func KissingCat(v ...Variant) string { return styled(989, v) }
+func KissingCat() string { return emojiBlob[38017:38021] }
 
 // WearyCat returns the "weary cat" emoji 🙀.
-func WearyCat(v ...Variant) string { return styled(1765, v) }
+func WearyCat() string { return emojiBlob[38029:38033] }
 
 // CryingCat returns the "crying cat" emoji 😿.
-func CryingCat(v ...Variant) string { return styled(338, v) }
+func CryingCat() string { return emojiBlob[38025:38029] }
 
 // PoutingCat returns the "pouting cat" emoji 😾.
-func PoutingCat(v ...Variant) string { return styled(1413, v) }
+func PoutingCat() string { return emojiBlob[38021:38025] }
 
 // SeeNoEvilMonkey returns the "see-no-evil monkey" emoji 🙈.
-func SeeNoEvilMonkey(v ...Variant) string { return styled(1523, v) }
+func SeeNoEvilMonkey() string { return emojiBlob[38045:38049] }
 
 // HearNoEvilMonkey returns the "hear-no-evil monkey" emoji 🙉.
-func HearNoEvilMonkey(v ...Variant) string { return styled(895, v) }
+func HearNoEvilMonkey() string { return emojiBlob[38049:38053] }
 
 // SpeakNoEvilMonkey returns the "speak-no-evil monkey" emoji 🙊.
-func SpeakNoEvilMonkey(v ...Variant) string { return styled(1599, v) }
+func SpeakNoEvilMonkey() string { return emojiBlob[38053:38057] }
 
 // LoveLetter returns the "love letter" emoji 💌.
-func LoveLetter(v ...Variant) string { return styled(1050, v) }
+func LoveLetter() string { return emojiBlob[36989:36993] }
 
 // HeartWithArrow returns the "heart with arrow" emoji 💘.
-func HeartWithArrow(v ...Variant) string { return styled(901, v) }
+func HeartWithArrow() string { return emojiBlob[37029:37033] }
 
 // HeartWithRibbon returns the "heart with ribbon" emoji 💝.
-func HeartWithRibbon(v ...Variant) string { return styled(902, v) }
+func HeartWithRibbon() string { return emojiBlob[37049:37053] }
 
 // SparklingHeart returns the "sparkling heart" emoji 💖.
-func SparklingHeart(v ...Variant) string { return styled(1598, v) }
+func SparklingHeart() string { return emojiBlob[37021:37025] }
 
 // GrowingHeart returns the "growing heart" emoji 💗.
-func GrowingHeart(v ...Variant) string { return styled(872, v) }
+func GrowingHeart() string { return emojiBlob[37025:37029] }
 
 // BeatingHeart returns the "beating heart" emoji 💓.
-func BeatingHeart(v ...Variant) string { return styled(137, v) }
+func BeatingHeart() string { return emojiBlob[37009:37013] }
 
 // RevolvingHearts returns the "revolving hearts" emoji 💞.
-func RevolvingHearts(v ...Variant) string { return styled(1468, v) }
+func RevolvingHearts() string { return emojiBlob[37053:37057] }
 
 // TwoHearts returns the "two hearts" emoji 💕.
-func TwoHearts(v ...Variant) string { return styled(1723, v) }
+func TwoHearts() string { return emojiBlob[37017:37021] }
 
 // HeartDecoration returns the "heart decoration" emoji 💟.
-func HeartDecoration(v ...Variant) string { return styled(896, v) }
+func HeartDecoration() string { return emojiBlob[37057:37061] }
 
 // HeartExclamation returns the "heart exclamation" emoji ❣️.
-func HeartExclamation(v ...Variant) string { return styled(897, v) }
+func HeartExclamation() string { return emojiBlob[35703:35709] }
 
 // BrokenHeart returns the "broken heart" emoji 💔.
-func BrokenHeart(v ...Variant) string { return styled(198, v) }
+func BrokenHeart() string { return emojiBlob[37013:37017] }
 
 // HeartOnFire returns the "heart on fire" emoji ❤️‍🔥.
-func HeartOnFire(v ...Variant) string { return styled(899, v) }
+func HeartOnFire() string { return emojiBlob[27590:27603] }
 
 // MendingHeart returns the "mending heart" emoji ❤️‍🩹.
-func MendingHeart(v ...Variant) string { return styled(1158, v) }
+func MendingHeart() string { return emojiBlob[27603:27616] }
 
 // RedHeart returns the "red heart" emoji ❤️.
-func RedHeart(v ...Variant) string { return styled(1454, v) }
+func RedHeart() string { return emojiBlob[11:17] }
 
 // PinkHeart returns the "pink heart" emoji 🩷.
-func PinkHeart(v ...Variant) string { return styled(1384, v) }
+func PinkHeart() string { return emojiBlob[39209:39213] }
 
 // OrangeHeart returns the "orange heart" emoji 🧡.
-func OrangeHeart(v ...Variant) string { return styled(1271, v) }
+func OrangeHeart() string { return emojiBlob[39061:39065] }
 
 // YellowHeart returns the "yellow heart" emoji 💛.
-func YellowHeart(v ...Variant) string { return styled(1889, v) }
+func YellowHeart() string { return emojiBlob[37041:37045] }
 
 // GreenHeart returns the "green heart" emoji 💚.
-func GreenHeart(v ...Variant) string { return styled(860, v) }
+func GreenHeart() string { return emojiBlob[37037:37041] }
 
 // BlueHeart returns the "blue heart" emoji 💙.
-func BlueHeart(v ...Variant) string { return styled(171, v) }
+func BlueHeart() string { return emojiBlob[37033:37037] }
 
 // LightBlueHeart returns the "light blue heart" emoji 🩵.
-func LightBlueHeart(v ...Variant) string { return styled(1027, v) }
+func LightBlueHeart() string { return emojiBlob[39201:39205] }
 
 // PurpleHeart returns the "purple heart" emoji 💜.
-func PurpleHeart(v ...Variant) string { return styled(1424, v) }
+func PurpleHeart() string { return emojiBlob[37045:37049] }
 
 // BrownHeart returns the "brown heart" emoji 🤎.
-func BrownHeart(v ...Variant) string { return styled(201, v) }
+func BrownHeart() string { return emojiBlob[38445:38449] }
 
 // BlackHeart returns the "black heart" emoji 🖤.
-func BlackHeart(v ...Variant) string { return styled(160, v) }
+func BlackHeart() string { return emojiBlob[37761:37765] }
 
 // GreyHeart returns the "grey heart" emoji 🩶.
-func GreyHeart(v ...Variant) string { return styled(863, v) }
+func GreyHeart() string { return emojiBlob[39205:39209] }
 
 // WhiteHeart returns the "white heart" emoji 🤍.
-func WhiteHeart(v ...Variant) string { return styled(1777, v) }
+func WhiteHeart() string { return emojiBlob[38441:38445] }
 
 // KissMark returns the "kiss mark" emoji 💋.
-func KissMark(v ...Variant) string { return styled(984, v) }
+func KissMark() string { return emojiBlob[20:24] }
 
 // HundredPoints returns the "hundred points" emoji 💯.
-func HundredPoints(v ...Variant) string { return styled(936, v) }
+func HundredPoints() string { return emojiBlob[37105:37109] }
 
 // AngerSymbol returns the "anger symbol" emoji 💢.
-func AngerSymbol(v ...Variant) string { return styled(84, v) }
+func AngerSymbol() string { return emojiBlob[37069:37073] }
 
 // FightCloud returns the "fight cloud" emoji 🫯.
-func FightCloud(v ...Variant) string { return styled(510, v) }
+func FightCloud() string { return emojiBlob[6629:6633] }
 
 // Collision returns the "collision" emoji 💥.
-func Collision(v ...Variant) string { return styled(295, v) }
+func Collision() string { return emojiBlob[27586:27590] }
 
 // Dizzy returns the "dizzy" emoji 💫.
-func Dizzy(v ...Variant) string { return styled(376, v) }
+func Dizzy() string { return emojiBlob[29426:29430] }
 
 // SweatDroplets returns the "sweat droplets" emoji 💦.
-func SweatDroplets(v ...Variant) string { return styled(1651, v) }
+func SweatDroplets() string { return emojiBlob[37081:37085] }
 
 // DashingAway returns the "dashing away" emoji 💨.
-func DashingAway(v ...Variant) string { return styled(354, v) }
+func DashingAway() string { return emojiBlob[29415:29419] }
 
 // Hole returns the "hole" emoji 🕳️.
-func Hole(v ...Variant) string { return styled(915, v) }
+func Hole() string { return emojiBlob[34891:34898] }
 
 // SpeechBalloon returns the "speech balloon" emoji 💬.
-func SpeechBalloon(v ...Variant) string { return styled(1604, v) }
+func SpeechBalloon() string { return emojiBlob[37093:37097] }
 
 // EyeInSpeechBubble returns the "eye in speech bubble" emoji
 // 👁️‍🗨️.
-func EyeInSpeechBubble(v ...Variant) string { return styled(435, v) }
+func EyeInSpeechBubble() string { return emojiBlob[15125:15142] }
 
 // LeftSpeechBubble returns the "left speech bubble" emoji 🗨️.
-func LeftSpeechBubble(v ...Variant) string { return styled(1018, v) }
+func LeftSpeechBubble() string { return emojiBlob[15135:15142] }
 
 // RightAngerBubble returns the "right anger bubble" emoji 🗯️.
-func RightAngerBubble(v ...Variant) string { return styled(1473, v) }
+func RightAngerBubble() string { return emojiBlob[35087:35094] }
 
 // ThoughtBalloon returns the "thought balloon" emoji 💭.
-func ThoughtBalloon(v ...Variant) string { return styled(1679, v) }
+func ThoughtBalloon() string { return emojiBlob[37097:37101] }
 
 // ZZZ returns the "ZZZ" emoji 💤.
-func ZZZ(v ...Variant) string { return styled(66, v) }
+func ZZZ() string { return emojiBlob[37077:37081] }
 
 // People & Body
 
@@ -907,10 +907,10 @@ func Selfie(v ...Variant) string { return styled(1525, v) }
 func FlexedBiceps(v ...Variant) string { return styled(797, v) }
 
 // MechanicalArm returns the "mechanical arm" emoji 🦾.
-func MechanicalArm(v ...Variant) string { return styled(1148, v) }
+func MechanicalArm() string { return emojiBlob[38993:38997] }
 
 // MechanicalLeg returns the "mechanical leg" emoji 🦿.
-func MechanicalLeg(v ...Variant) string { return styled(1149, v) }
+func MechanicalLeg() string { return emojiBlob[38997:39001] }
 
 // Leg returns the "leg" emoji 🦵.
 //
@@ -953,34 +953,34 @@ func EarWithHearingAid(v ...Variant) string { return styled(410, v) }
 func Nose(v ...Variant) string { return styled(1238, v) }
 
 // Brain returns the "brain" emoji 🧠.
-func Brain(v ...Variant) string { return styled(188, v) }
+func Brain() string { return emojiBlob[39057:39061] }
 
 // AnatomicalHeart returns the "anatomical heart" emoji 🫀.
-func AnatomicalHeart(v ...Variant) string { return styled(82, v) }
+func AnatomicalHeart() string { return emojiBlob[39473:39477] }
 
 // Lungs returns the "lungs" emoji 🫁.
-func Lungs(v ...Variant) string { return styled(1054, v) }
+func Lungs() string { return emojiBlob[39477:39481] }
 
 // Tooth returns the "tooth" emoji 🦷.
-func Tooth(v ...Variant) string { return styled(1694, v) }
+func Tooth() string { return emojiBlob[38989:38993] }
 
 // Bone returns the "bone" emoji 🦴.
-func Bone(v ...Variant) string { return styled(176, v) }
+func Bone() string { return emojiBlob[38985:38989] }
 
 // Eyes returns the "eyes" emoji 👀.
-func Eyes(v ...Variant) string { return styled(436, v) }
+func Eyes() string { return emojiBlob[36845:36849] }
 
 // Eye returns the "eye" emoji 👁️.
-func Eye(v ...Variant) string { return styled(434, v) }
+func Eye() string { return emojiBlob[15125:15132] }
 
 // Tongue returns the "tongue" emoji 👅.
-func Tongue(v ...Variant) string { return styled(1692, v) }
+func Tongue() string { return emojiBlob[36853:36857] }
 
 // Mouth returns the "mouth" emoji 👄.
-func Mouth(v ...Variant) string { return styled(1203, v) }
+func Mouth() string { return emojiBlob[36849:36853] }
 
 // BitingLip returns the "biting lip" emoji 🫦.
-func BitingLip(v ...Variant) string { return styled(155, v) }
+func BitingLip() string { return emojiBlob[39585:39589] }
 
 // Baby returns the "baby" emoji 👶.
 //
@@ -2169,28 +2169,28 @@ func ManElf(v ...Variant) string { return styled(1076, v) }
 func WomanElf(v ...Variant) string { return styled(1807, v) }
 
 // Genie returns the "genie" emoji 🧞.
-func Genie(v ...Variant) string { return styled(836, v) }
+func Genie() string { return emojiBlob[28916:28920] }
 
 // ManGenie returns the "man genie" emoji 🧞‍♂️.
-func ManGenie(v ...Variant) string { return styled(1084, v) }
+func ManGenie() string { return emojiBlob[28929:28942] }
 
 // WomanGenie returns the "woman genie" emoji 🧞‍♀️.
-func WomanGenie(v ...Variant) string { return styled(1815, v) }
+func WomanGenie() string { return emojiBlob[28916:28929] }
 
 // Zombie returns the "zombie" emoji 🧟.
-func Zombie(v ...Variant) string { return styled(1897, v) }
+func Zombie() string { return emojiBlob[28942:28946] }
 
 // ManZombie returns the "man zombie" emoji 🧟‍♂️.
-func ManZombie(v ...Variant) string { return styled(1136, v) }
+func ManZombie() string { return emojiBlob[28955:28968] }
 
 // WomanZombie returns the "woman zombie" emoji 🧟‍♀️.
-func WomanZombie(v ...Variant) string { return styled(1868, v) }
+func WomanZombie() string { return emojiBlob[28942:28955] }
 
 // Troll returns the "troll" emoji 🧌.
-func Troll(v ...Variant) string { return styled(1710, v) }
+func Troll() string { return emojiBlob[39049:39053] }
 
 // HairyCreature returns the "hairy creature" emoji 🫈.
-func HairyCreature(v ...Variant) string { return styled(877, v) }
+func HairyCreature() string { return emojiBlob[39489:39493] }
 
 // PersonGettingMassage returns the "person getting massage" emoji 💆.
 //
@@ -2691,7 +2691,7 @@ func ManClimbing(v ...Variant) string { return styled(1071, v) }
 func WomanClimbing(v ...Variant) string { return styled(1802, v) }
 
 // PersonFencing returns the "person fencing" emoji 🤺.
-func PersonFencing(v ...Variant) string { return styled(1326, v) }
+func PersonFencing() string { return emojiBlob[38541:38545] }
 
 // HorseRacing returns the "horse racing" emoji 🏇.
 //
@@ -2702,7 +2702,7 @@ func PersonFencing(v ...Variant) string { return styled(1326, v) }
 func HorseRacing(v ...Variant) string { return styled(923, v) }
 
 // Skier returns the "skier" emoji ⛷️.
-func Skier(v ...Variant) string { return styled(1554, v) }
+func Skier() string { return emojiBlob[35613:35619] }
 
 // Snowboarder returns the "snowboarder" emoji 🏂.
 //
@@ -3212,4280 +3212,4280 @@ func CoupleWithHeartWomanWoman(v ...Variant) string { return styled(319, v) }
 
 // FamilyManWomanBoy returns the "family: man, woman, boy" emoji
 // 👨‍👩‍👦.
-func FamilyManWomanBoy(v ...Variant) string { return styled(483, v) }
+func FamilyManWomanBoy() string { return emojiBlob[12335:12353] }
 
 // FamilyManWomanGirl returns the "family: man, woman, girl" emoji
 // 👨‍👩‍👧.
-func FamilyManWomanGirl(v ...Variant) string { return styled(485, v) }
+func FamilyManWomanGirl() string { return emojiBlob[12360:12378] }
 
 // FamilyManWomanGirlBoy returns the "family: man, woman, girl, boy" emoji
 // 👨‍👩‍👧‍👦.
-func FamilyManWomanGirlBoy(v ...Variant) string { return styled(486, v) }
+func FamilyManWomanGirlBoy() string { return emojiBlob[12360:12385] }
 
 // FamilyManWomanBoyBoy returns the "family: man, woman, boy, boy" emoji
 // 👨‍👩‍👦‍👦.
-func FamilyManWomanBoyBoy(v ...Variant) string { return styled(484, v) }
+func FamilyManWomanBoyBoy() string { return emojiBlob[12335:12360] }
 
 // FamilyManWomanGirlGirl returns the "family: man, woman, girl, girl"
 // emoji 👨‍👩‍👧‍👧.
-func FamilyManWomanGirlGirl(v ...Variant) string { return styled(487, v) }
+func FamilyManWomanGirlGirl() string { return emojiBlob[12385:12410] }
 
 // FamilyManManBoy returns the "family: man, man, boy" emoji
 // 👨‍👨‍👦.
-func FamilyManManBoy(v ...Variant) string { return styled(478, v) }
+func FamilyManManBoy() string { return emojiBlob[12260:12278] }
 
 // FamilyManManGirl returns the "family: man, man, girl" emoji
 // 👨‍👨‍👧.
-func FamilyManManGirl(v ...Variant) string { return styled(480, v) }
+func FamilyManManGirl() string { return emojiBlob[12285:12303] }
 
 // FamilyManManGirlBoy returns the "family: man, man, girl, boy" emoji
 // 👨‍👨‍👧‍👦.
-func FamilyManManGirlBoy(v ...Variant) string { return styled(481, v) }
+func FamilyManManGirlBoy() string { return emojiBlob[12285:12310] }
 
 // FamilyManManBoyBoy returns the "family: man, man, boy, boy" emoji
 // 👨‍👨‍👦‍👦.
-func FamilyManManBoyBoy(v ...Variant) string { return styled(479, v) }
+func FamilyManManBoyBoy() string { return emojiBlob[12260:12285] }
 
 // FamilyManManGirlGirl returns the "family: man, man, girl, girl" emoji
 // 👨‍👨‍👧‍👧.
-func FamilyManManGirlGirl(v ...Variant) string { return styled(482, v) }
+func FamilyManManGirlGirl() string { return emojiBlob[12310:12335] }
 
 // FamilyWomanWomanBoy returns the "family: woman, woman, boy" emoji
 // 👩‍👩‍👦.
-func FamilyWomanWomanBoy(v ...Variant) string { return styled(493, v) }
+func FamilyWomanWomanBoy() string { return emojiBlob[12410:12428] }
 
 // FamilyWomanWomanGirl returns the "family: woman, woman, girl" emoji
 // 👩‍👩‍👧.
-func FamilyWomanWomanGirl(v ...Variant) string { return styled(495, v) }
+func FamilyWomanWomanGirl() string { return emojiBlob[12435:12453] }
 
 // FamilyWomanWomanGirlBoy returns the "family: woman, woman, girl, boy"
 // emoji 👩‍👩‍👧‍👦.
-func FamilyWomanWomanGirlBoy(v ...Variant) string { return styled(496, v) }
+func FamilyWomanWomanGirlBoy() string { return emojiBlob[12435:12460] }
 
 // FamilyWomanWomanBoyBoy returns the "family: woman, woman, boy, boy"
 // emoji 👩‍👩‍👦‍👦.
-func FamilyWomanWomanBoyBoy(v ...Variant) string { return styled(494, v) }
+func FamilyWomanWomanBoyBoy() string { return emojiBlob[12410:12435] }
 
 // FamilyWomanWomanGirlGirl returns the "family: woman, woman, girl, girl"
 // emoji 👩‍👩‍👧‍👧.
-func FamilyWomanWomanGirlGirl(v ...Variant) string { return styled(497, v) }
+func FamilyWomanWomanGirlGirl() string { return emojiBlob[12460:12485] }
 
 // FamilyManBoy returns the "family: man, boy" emoji 👨‍👦.
-func FamilyManBoy(v ...Variant) string { return styled(473, v) }
+func FamilyManBoy() string { return emojiBlob[12267:12278] }
 
 // FamilyManBoyBoy returns the "family: man, boy, boy" emoji
 // 👨‍👦‍👦.
-func FamilyManBoyBoy(v ...Variant) string { return styled(474, v) }
+func FamilyManBoyBoy() string { return emojiBlob[12267:12285] }
 
 // FamilyManGirl returns the "family: man, girl" emoji 👨‍👧.
-func FamilyManGirl(v ...Variant) string { return styled(475, v) }
+func FamilyManGirl() string { return emojiBlob[12292:12303] }
 
 // FamilyManGirlBoy returns the "family: man, girl, boy" emoji
 // 👨‍👧‍👦.
-func FamilyManGirlBoy(v ...Variant) string { return styled(476, v) }
+func FamilyManGirlBoy() string { return emojiBlob[12292:12310] }
 
 // FamilyManGirlGirl returns the "family: man, girl, girl" emoji
 // 👨‍👧‍👧.
-func FamilyManGirlGirl(v ...Variant) string { return styled(477, v) }
+func FamilyManGirlGirl() string { return emojiBlob[12317:12335] }
 
 // FamilyWomanBoy returns the "family: woman, boy" emoji 👩‍👦.
-func FamilyWomanBoy(v ...Variant) string { return styled(488, v) }
+func FamilyWomanBoy() string { return emojiBlob[12342:12353] }
 
 // FamilyWomanBoyBoy returns the "family: woman, boy, boy" emoji
 // 👩‍👦‍👦.
-func FamilyWomanBoyBoy(v ...Variant) string { return styled(489, v) }
+func FamilyWomanBoyBoy() string { return emojiBlob[12342:12360] }
 
 // FamilyWomanGirl returns the "family: woman, girl" emoji 👩‍👧.
-func FamilyWomanGirl(v ...Variant) string { return styled(490, v) }
+func FamilyWomanGirl() string { return emojiBlob[12367:12378] }
 
 // FamilyWomanGirlBoy returns the "family: woman, girl, boy" emoji
 // 👩‍👧‍👦.
-func FamilyWomanGirlBoy(v ...Variant) string { return styled(491, v) }
+func FamilyWomanGirlBoy() string { return emojiBlob[12367:12385] }
 
 // FamilyWomanGirlGirl returns the "family: woman, girl, girl" emoji
 // 👩‍👧‍👧.
-func FamilyWomanGirlGirl(v ...Variant) string { return styled(492, v) }
+func FamilyWomanGirlGirl() string { return emojiBlob[12392:12410] }
 
 // SpeakingHead returns the "speaking head" emoji 🗣️.
-func SpeakingHead(v ...Variant) string { return styled(1603, v) }
+func SpeakingHead() string { return emojiBlob[35080:35087] }
 
 // BustInSilhouette returns the "bust in silhouette" emoji 👤.
-func BustInSilhouette(v ...Variant) string { return styled(214, v) }
+func BustInSilhouette() string { return emojiBlob[36933:36937] }
 
 // BustsInSilhouette returns the "busts in silhouette" emoji 👥.
-func BustsInSilhouette(v ...Variant) string { return styled(215, v) }
+func BustsInSilhouette() string { return emojiBlob[36937:36941] }
 
 // PeopleHugging returns the "people hugging" emoji 🫂.
-func PeopleHugging(v ...Variant) string { return styled(1313, v) }
+func PeopleHugging() string { return emojiBlob[39481:39485] }
 
 // Family returns the "family" emoji 👪.
-func Family(v ...Variant) string { return styled(468, v) }
+func Family() string { return emojiBlob[36941:36945] }
 
 // FamilyAdultAdultChild returns the "family: adult, adult, child" emoji
 // 🧑‍🧑‍🧒.
-func FamilyAdultAdultChild(v ...Variant) string { return styled(469, v) }
+func FamilyAdultAdultChild() string { return emojiBlob[12485:12503] }
 
 // FamilyAdultAdultChildChild returns the "family: adult, adult, child,
 // child" emoji 🧑‍🧑‍🧒‍🧒.
-func FamilyAdultAdultChildChild(v ...Variant) string { return styled(470, v) }
+func FamilyAdultAdultChildChild() string { return emojiBlob[12485:12510] }
 
 // FamilyAdultChild returns the "family: adult, child" emoji 🧑‍🧒.
-func FamilyAdultChild(v ...Variant) string { return styled(471, v) }
+func FamilyAdultChild() string { return emojiBlob[12492:12503] }
 
 // FamilyAdultChildChild returns the "family: adult, child, child" emoji
 // 🧑‍🧒‍🧒.
-func FamilyAdultChildChild(v ...Variant) string { return styled(472, v) }
+func FamilyAdultChildChild() string { return emojiBlob[12492:12510] }
 
 // Footprints returns the "footprints" emoji 👣.
-func Footprints(v ...Variant) string { return styled(811, v) }
+func Footprints() string { return emojiBlob[36929:36933] }
 
 // Fingerprint returns the "fingerprint" emoji 🫆.
-func Fingerprint(v ...Variant) string { return styled(515, v) }
+func Fingerprint() string { return emojiBlob[39485:39489] }
 
 // Animals & Nature
 
 // MonkeyFace returns the "monkey face" emoji 🐵.
-func MonkeyFace(v ...Variant) string { return styled(1184, v) }
+func MonkeyFace() string { return emojiBlob[36809:36813] }
 
 // Monkey returns the "monkey" emoji 🐒.
-func Monkey(v ...Variant) string { return styled(1183, v) }
+func Monkey() string { return emojiBlob[36681:36685] }
 
 // Gorilla returns the "gorilla" emoji 🦍.
-func Gorilla(v ...Variant) string { return styled(854, v) }
+func Gorilla() string { return emojiBlob[38849:38853] }
 
 // Orangutan returns the "orangutan" emoji 🦧.
-func Orangutan(v ...Variant) string { return styled(1273, v) }
+func Orangutan() string { return emojiBlob[38953:38957] }
 
 // DogFace returns the "dog face" emoji 🐶.
-func DogFace(v ...Variant) string { return styled(380, v) }
+func DogFace() string { return emojiBlob[36813:36817] }
 
 // Dog returns the "dog" emoji 🐕.
-func Dog(v ...Variant) string { return styled(379, v) }
+func Dog() string { return emojiBlob[28990:28994] }
 
 // GuideDog returns the "guide dog" emoji 🦮.
-func GuideDog(v ...Variant) string { return styled(874, v) }
+func GuideDog() string { return emojiBlob[38981:38985] }
 
 // ServiceDog returns the "service dog" emoji 🐕‍🦺.
-func ServiceDog(v ...Variant) string { return styled(1526, v) }
+func ServiceDog() string { return emojiBlob[28990:29001] }
 
 // Poodle returns the "poodle" emoji 🐩.
-func Poodle(v ...Variant) string { return styled(1400, v) }
+func Poodle() string { return emojiBlob[36765:36769] }
 
 // Wolf returns the "wolf" emoji 🐺.
-func Wolf(v ...Variant) string { return styled(1793, v) }
+func Wolf() string { return emojiBlob[36829:36833] }
 
 // Fox returns the "fox" emoji 🦊.
-func Fox(v ...Variant) string { return styled(820, v) }
+func Fox() string { return emojiBlob[38837:38841] }
 
 // Raccoon returns the "raccoon" emoji 🦝.
-func Raccoon(v ...Variant) string { return styled(1431, v) }
+func Raccoon() string { return emojiBlob[38913:38917] }
 
 // CatFace returns the "cat face" emoji 🐱.
-func CatFace(v ...Variant) string { return styled(238, v) }
+func CatFace() string { return emojiBlob[36793:36797] }
 
 // Cat returns the "cat" emoji 🐈.
-func Cat(v ...Variant) string { return styled(237, v) }
+func Cat() string { return emojiBlob[29650:29654] }
 
 // BlackCat returns the "black cat" emoji 🐈‍⬛.
-func BlackCat(v ...Variant) string { return styled(157, v) }
+func BlackCat() string { return emojiBlob[29650:29660] }
 
 // Lion returns the "lion" emoji 🦁.
-func Lion(v ...Variant) string { return styled(1033, v) }
+func Lion() string { return emojiBlob[38801:38805] }
 
 // TigerFace returns the "tiger face" emoji 🐯.
-func TigerFace(v ...Variant) string { return styled(1687, v) }
+func TigerFace() string { return emojiBlob[36789:36793] }
 
 // Tiger returns the "tiger" emoji 🐅.
-func Tiger(v ...Variant) string { return styled(1686, v) }
+func Tiger() string { return emojiBlob[36633:36637] }
 
 // Leopard returns the "leopard" emoji 🐆.
-func Leopard(v ...Variant) string { return styled(1025, v) }
+func Leopard() string { return emojiBlob[36637:36641] }
 
 // HorseFace returns the "horse face" emoji 🐴.
-func HorseFace(v ...Variant) string { return styled(922, v) }
+func HorseFace() string { return emojiBlob[36805:36809] }
 
 // Moose returns the "moose" emoji 🫎.
-func Moose(v ...Variant) string { return styled(1188, v) }
+func Moose() string { return emojiBlob[39497:39501] }
 
 // Donkey returns the "donkey" emoji 🫏.
-func Donkey(v ...Variant) string { return styled(383, v) }
+func Donkey() string { return emojiBlob[39501:39505] }
 
 // Horse returns the "horse" emoji 🐎.
-func Horse(v ...Variant) string { return styled(921, v) }
+func Horse() string { return emojiBlob[36665:36669] }
 
 // Unicorn returns the "unicorn" emoji 🦄.
-func Unicorn(v ...Variant) string { return styled(1731, v) }
+func Unicorn() string { return emojiBlob[38813:38817] }
 
 // Zebra returns the "zebra" emoji 🦓.
-func Zebra(v ...Variant) string { return styled(1895, v) }
+func Zebra() string { return emojiBlob[38873:38877] }
 
 // Deer returns the "deer" emoji 🦌.
-func Deer(v ...Variant) string { return styled(359, v) }
+func Deer() string { return emojiBlob[38845:38849] }
 
 // Bison returns the "bison" emoji 🦬.
-func Bison(v ...Variant) string { return styled(154, v) }
+func Bison() string { return emojiBlob[38973:38977] }
 
 // CowFace returns the "cow face" emoji 🐮.
-func CowFace(v ...Variant) string { return styled(321, v) }
+func CowFace() string { return emojiBlob[36785:36789] }
 
 // Ox returns the "ox" emoji 🐂.
-func Ox(v ...Variant) string { return styled(1279, v) }
+func Ox() string { return emojiBlob[36621:36625] }
 
 // WaterBuffalo returns the "water buffalo" emoji 🐃.
-func WaterBuffalo(v ...Variant) string { return styled(1756, v) }
+func WaterBuffalo() string { return emojiBlob[36625:36629] }
 
 // Cow returns the "cow" emoji 🐄.
-func Cow(v ...Variant) string { return styled(320, v) }
+func Cow() string { return emojiBlob[36629:36633] }
 
 // PigFace returns the "pig face" emoji 🐷.
-func PigFace(v ...Variant) string { return styled(1374, v) }
+func PigFace() string { return emojiBlob[36817:36821] }
 
 // Pig returns the "pig" emoji 🐖.
-func Pig(v ...Variant) string { return styled(1373, v) }
+func Pig() string { return emojiBlob[36693:36697] }
 
 // Boar returns the "boar" emoji 🐗.
-func Boar(v ...Variant) string { return styled(174, v) }
+func Boar() string { return emojiBlob[36697:36701] }
 
 // PigNose returns the "pig nose" emoji 🐽.
-func PigNose(v ...Variant) string { return styled(1375, v) }
+func PigNose() string { return emojiBlob[36837:36841] }
 
 // Ram returns the "ram" emoji 🐏.
-func Ram(v ...Variant) string { return styled(1444, v) }
+func Ram() string { return emojiBlob[36669:36673] }
 
 // Ewe returns the "ewe" emoji 🐑.
-func Ewe(v ...Variant) string { return styled(430, v) }
+func Ewe() string { return emojiBlob[36677:36681] }
 
 // Goat returns the "goat" emoji 🐐.
-func Goat(v ...Variant) string { return styled(850, v) }
+func Goat() string { return emojiBlob[36673:36677] }
 
 // Camel returns the "camel" emoji 🐪.
-func Camel(v ...Variant) string { return styled(221, v) }
+func Camel() string { return emojiBlob[36769:36773] }
 
 // TwoHumpCamel returns the "two-hump camel" emoji 🐫.
-func TwoHumpCamel(v ...Variant) string { return styled(1725, v) }
+func TwoHumpCamel() string { return emojiBlob[36773:36777] }
 
 // Llama returns the "llama" emoji 🦙.
-func Llama(v ...Variant) string { return styled(1037, v) }
+func Llama() string { return emojiBlob[38897:38901] }
 
 // Giraffe returns the "giraffe" emoji 🦒.
-func Giraffe(v ...Variant) string { return styled(839, v) }
+func Giraffe() string { return emojiBlob[38869:38873] }
 
 // Elephant returns the "elephant" emoji 🐘.
-func Elephant(v ...Variant) string { return styled(419, v) }
+func Elephant() string { return emojiBlob[36701:36705] }
 
 // Mammoth returns the "mammoth" emoji 🦣.
-func Mammoth(v ...Variant) string { return styled(1063, v) }
+func Mammoth() string { return emojiBlob[38937:38941] }
 
 // Rhinoceros returns the "rhinoceros" emoji 🦏.
-func Rhinoceros(v ...Variant) string { return styled(1469, v) }
+func Rhinoceros() string { return emojiBlob[38857:38861] }
 
 // Hippopotamus returns the "hippopotamus" emoji 🦛.
-func Hippopotamus(v ...Variant) string { return styled(914, v) }
+func Hippopotamus() string { return emojiBlob[38905:38909] }
 
 // MouseFace returns the "mouse face" emoji 🐭.
-func MouseFace(v ...Variant) string { return styled(1201, v) }
+func MouseFace() string { return emojiBlob[36781:36785] }
 
 // Mouse returns the "mouse" emoji 🐁.
-func Mouse(v ...Variant) string { return styled(1200, v) }
+func Mouse() string { return emojiBlob[36617:36621] }
 
 // Rat returns the "rat" emoji 🐀.
-func Rat(v ...Variant) string { return styled(1445, v) }
+func Rat() string { return emojiBlob[36613:36617] }
 
 // Hamster returns the "hamster" emoji 🐹.
-func Hamster(v ...Variant) string { return styled(883, v) }
+func Hamster() string { return emojiBlob[36825:36829] }
 
 // RabbitFace returns the "rabbit face" emoji 🐰.
-func RabbitFace(v ...Variant) string { return styled(1430, v) }
+func RabbitFace() string { return emojiBlob[6421:6425] }
 
 // Rabbit returns the "rabbit" emoji 🐇.
-func Rabbit(v ...Variant) string { return styled(1429, v) }
+func Rabbit() string { return emojiBlob[36641:36645] }
 
 // Chipmunk returns the "chipmunk" emoji 🐿️.
-func Chipmunk(v ...Variant) string { return styled(258, v) }
+func Chipmunk() string { return emojiBlob[34849:34856] }
 
 // Beaver returns the "beaver" emoji 🦫.
-func Beaver(v ...Variant) string { return styled(138, v) }
+func Beaver() string { return emojiBlob[38969:38973] }
 
 // Hedgehog returns the "hedgehog" emoji 🦔.
-func Hedgehog(v ...Variant) string { return styled(905, v) }
+func Hedgehog() string { return emojiBlob[38877:38881] }
 
 // Bat returns the "bat" emoji 🦇.
-func Bat(v ...Variant) string { return styled(130, v) }
+func Bat() string { return emojiBlob[38825:38829] }
 
 // Bear returns the "bear" emoji 🐻.
-func Bear(v ...Variant) string { return styled(136, v) }
+func Bear() string { return emojiBlob[27694:27698] }
 
 // PolarBear returns the "polar bear" emoji 🐻‍❄️.
-func PolarBear(v ...Variant) string { return styled(1396, v) }
+func PolarBear() string { return emojiBlob[27694:27707] }
 
 // Koala returns the "koala" emoji 🐨.
-func Koala(v ...Variant) string { return styled(997, v) }
+func Koala() string { return emojiBlob[36761:36765] }
 
 // Panda returns the "panda" emoji 🐼.
-func Panda(v ...Variant) string { return styled(1291, v) }
+func Panda() string { return emojiBlob[36833:36837] }
 
 // Sloth returns the "sloth" emoji 🦥.
-func Sloth(v ...Variant) string { return styled(1565, v) }
+func Sloth() string { return emojiBlob[38945:38949] }
 
 // Otter returns the "otter" emoji 🦦.
-func Otter(v ...Variant) string { return styled(1276, v) }
+func Otter() string { return emojiBlob[38949:38953] }
 
 // Skunk returns the "skunk" emoji 🦨.
-func Skunk(v ...Variant) string { return styled(1558, v) }
+func Skunk() string { return emojiBlob[38957:38961] }
 
 // Kangaroo returns the "kangaroo" emoji 🦘.
-func Kangaroo(v ...Variant) string { return styled(964, v) }
+func Kangaroo() string { return emojiBlob[38893:38897] }
 
 // Badger returns the "badger" emoji 🦡.
-func Badger(v ...Variant) string { return styled(112, v) }
+func Badger() string { return emojiBlob[38929:38933] }
 
 // PawPrints returns the "paw prints" emoji 🐾.
-func PawPrints(v ...Variant) string { return styled(1301, v) }
+func PawPrints() string { return emojiBlob[36841:36845] }
 
 // Turkey returns the "turkey" emoji 🦃.
-func Turkey(v ...Variant) string { return styled(1719, v) }
+func Turkey() string { return emojiBlob[38809:38813] }
 
 // Chicken returns the "chicken" emoji 🐔.
-func Chicken(v ...Variant) string { return styled(255, v) }
+func Chicken() string { return emojiBlob[36689:36693] }
 
 // Rooster returns the "rooster" emoji 🐓.
-func Rooster(v ...Variant) string { return styled(1493, v) }
+func Rooster() string { return emojiBlob[36685:36689] }
 
 // HatchingChick returns the "hatching chick" emoji 🐣.
-func HatchingChick(v ...Variant) string { return styled(889, v) }
+func HatchingChick() string { return emojiBlob[36745:36749] }
 
 // BabyChick returns the "baby chick" emoji 🐤.
-func BabyChick(v ...Variant) string { return styled(104, v) }
+func BabyChick() string { return emojiBlob[36749:36753] }
 
 // FrontFacingBabyChick returns the "front-facing baby chick" emoji 🐥.
-func FrontFacingBabyChick(v ...Variant) string { return styled(825, v) }
+func FrontFacingBabyChick() string { return emojiBlob[36753:36757] }
 
 // Bird returns the "bird" emoji 🐦.
-func Bird(v ...Variant) string { return styled(152, v) }
+func Bird() string { return emojiBlob[29001:29005] }
 
 // Penguin returns the "penguin" emoji 🐧.
-func Penguin(v ...Variant) string { return styled(1310, v) }
+func Penguin() string { return emojiBlob[36757:36761] }
 
 // Dove returns the "dove" emoji 🕊️.
-func Dove(v ...Variant) string { return styled(390, v) }
+func Dove() string { return emojiBlob[34870:34877] }
 
 // Eagle returns the "eagle" emoji 🦅.
-func Eagle(v ...Variant) string { return styled(407, v) }
+func Eagle() string { return emojiBlob[38817:38821] }
 
 // Duck returns the "duck" emoji 🦆.
-func Duck(v ...Variant) string { return styled(403, v) }
+func Duck() string { return emojiBlob[38821:38825] }
 
 // Swan returns the "swan" emoji 🦢.
-func Swan(v ...Variant) string { return styled(1650, v) }
+func Swan() string { return emojiBlob[38933:38937] }
 
 // Owl returns the "owl" emoji 🦉.
-func Owl(v ...Variant) string { return styled(1278, v) }
+func Owl() string { return emojiBlob[38833:38837] }
 
 // Dodo returns the "dodo" emoji 🦤.
-func Dodo(v ...Variant) string { return styled(378, v) }
+func Dodo() string { return emojiBlob[38941:38945] }
 
 // Feather returns the "feather" emoji 🪶.
-func Feather(v ...Variant) string { return styled(505, v) }
+func Feather() string { return emojiBlob[39433:39437] }
 
 // Flamingo returns the "flamingo" emoji 🦩.
-func Flamingo(v ...Variant) string { return styled(792, v) }
+func Flamingo() string { return emojiBlob[38961:38965] }
 
 // Peacock returns the "peacock" emoji 🦚.
-func Peacock(v ...Variant) string { return styled(1305, v) }
+func Peacock() string { return emojiBlob[38901:38905] }
 
 // Parrot returns the "parrot" emoji 🦜.
-func Parrot(v ...Variant) string { return styled(1294, v) }
+func Parrot() string { return emojiBlob[38909:38913] }
 
 // Wing returns the "wing" emoji 🪽.
-func Wing(v ...Variant) string { return styled(1789, v) }
+func Wing() string { return emojiBlob[39461:39465] }
 
 // BlackBird returns the "black bird" emoji 🐦‍⬛.
-func BlackBird(v ...Variant) string { return styled(156, v) }
+func BlackBird() string { return emojiBlob[29660:29670] }
 
 // Goose returns the "goose" emoji 🪿.
-func Goose(v ...Variant) string { return styled(853, v) }
+func Goose() string { return emojiBlob[39469:39473] }
 
 // Phoenix returns the "phoenix" emoji 🐦‍🔥.
-func Phoenix(v ...Variant) string { return styled(1369, v) }
+func Phoenix() string { return emojiBlob[29001:29012] }
 
 // Frog returns the "frog" emoji 🐸.
-func Frog(v ...Variant) string { return styled(824, v) }
+func Frog() string { return emojiBlob[36821:36825] }
 
 // Crocodile returns the "crocodile" emoji 🐊.
-func Crocodile(v ...Variant) string { return styled(329, v) }
+func Crocodile() string { return emojiBlob[36649:36653] }
 
 // Turtle returns the "turtle" emoji 🐢.
-func Turtle(v ...Variant) string { return styled(1720, v) }
+func Turtle() string { return emojiBlob[36741:36745] }
 
 // Lizard returns the "lizard" emoji 🦎.
-func Lizard(v ...Variant) string { return styled(1036, v) }
+func Lizard() string { return emojiBlob[38853:38857] }
 
 // Snake returns the "snake" emoji 🐍.
-func Snake(v ...Variant) string { return styled(1581, v) }
+func Snake() string { return emojiBlob[36661:36665] }
 
 // DragonFace returns the "dragon face" emoji 🐲.
-func DragonFace(v ...Variant) string { return styled(397, v) }
+func DragonFace() string { return emojiBlob[36797:36801] }
 
 // Dragon returns the "dragon" emoji 🐉.
-func Dragon(v ...Variant) string { return styled(396, v) }
+func Dragon() string { return emojiBlob[36645:36649] }
 
 // Sauropod returns the "sauropod" emoji 🦕.
-func Sauropod(v ...Variant) string { return styled(1512, v) }
+func Sauropod() string { return emojiBlob[38881:38885] }
 
 // TRex returns the "T-Rex" emoji 🦖.
-func TRex(v ...Variant) string { return styled(59, v) }
+func TRex() string { return emojiBlob[38885:38889] }
 
 // SpoutingWhale returns the "spouting whale" emoji 🐳.
-func SpoutingWhale(v ...Variant) string { return styled(1616, v) }
+func SpoutingWhale() string { return emojiBlob[36801:36805] }
 
 // Whale returns the "whale" emoji 🐋.
-func Whale(v ...Variant) string { return styled(1768, v) }
+func Whale() string { return emojiBlob[36653:36657] }
 
 // Dolphin returns the "dolphin" emoji 🐬.
-func Dolphin(v ...Variant) string { return styled(382, v) }
+func Dolphin() string { return emojiBlob[36777:36781] }
 
 // Orca returns the "orca" emoji 🫍.
-func Orca(v ...Variant) string { return styled(1274, v) }
+func Orca() string { return emojiBlob[39493:39497] }
 
 // Seal returns the "seal" emoji 🦭.
-func Seal(v ...Variant) string { return styled(1521, v) }
+func Seal() string { return emojiBlob[38977:38981] }
 
 // Fish returns the "fish" emoji 🐟.
-func Fish(v ...Variant) string { return styled(524, v) }
+func Fish() string { return emojiBlob[36729:36733] }
 
 // TropicalFish returns the "tropical fish" emoji 🐠.
-func TropicalFish(v ...Variant) string { return styled(1715, v) }
+func TropicalFish() string { return emojiBlob[36733:36737] }
 
 // Blowfish returns the "blowfish" emoji 🐡.
-func Blowfish(v ...Variant) string { return styled(168, v) }
+func Blowfish() string { return emojiBlob[36737:36741] }
 
 // Shark returns the "shark" emoji 🦈.
-func Shark(v ...Variant) string { return styled(1533, v) }
+func Shark() string { return emojiBlob[38829:38833] }
 
 // Octopus returns the "octopus" emoji 🐙.
-func Octopus(v ...Variant) string { return styled(1242, v) }
+func Octopus() string { return emojiBlob[36705:36709] }
 
 // SpiralShell returns the "spiral shell" emoji 🐚.
-func SpiralShell(v ...Variant) string { return styled(1610, v) }
+func SpiralShell() string { return emojiBlob[36709:36713] }
 
 // Coral returns the "coral" emoji 🪸.
-func Coral(v ...Variant) string { return styled(312, v) }
+func Coral() string { return emojiBlob[39441:39445] }
 
 // Jellyfish returns the "jellyfish" emoji 🪼.
-func Jellyfish(v ...Variant) string { return styled(959, v) }
+func Jellyfish() string { return emojiBlob[39457:39461] }
 
 // Crab returns the "crab" emoji 🦀.
-func Crab(v ...Variant) string { return styled(323, v) }
+func Crab() string { return emojiBlob[38797:38801] }
 
 // Lobster returns the "lobster" emoji 🦞.
-func Lobster(v ...Variant) string { return styled(1038, v) }
+func Lobster() string { return emojiBlob[38917:38921] }
 
 // Shrimp returns the "shrimp" emoji 🦐.
-func Shrimp(v ...Variant) string { return styled(1546, v) }
+func Shrimp() string { return emojiBlob[38861:38865] }
 
 // Squid returns the "squid" emoji 🦑.
-func Squid(v ...Variant) string { return styled(1617, v) }
+func Squid() string { return emojiBlob[38865:38869] }
 
 // Oyster returns the "oyster" emoji 🦪.
-func Oyster(v ...Variant) string { return styled(1280, v) }
+func Oyster() string { return emojiBlob[38965:38969] }
 
 // Snail returns the "snail" emoji 🐌.
-func Snail(v ...Variant) string { return styled(1580, v) }
+func Snail() string { return emojiBlob[36657:36661] }
 
 // Butterfly returns the "butterfly" emoji 🦋.
-func Butterfly(v ...Variant) string { return styled(217, v) }
+func Butterfly() string { return emojiBlob[38841:38845] }
 
 // Bug returns the "bug" emoji 🐛.
-func Bug(v ...Variant) string { return styled(207, v) }
+func Bug() string { return emojiBlob[36713:36717] }
 
 // Ant returns the "ant" emoji 🐜.
-func Ant(v ...Variant) string { return styled(88, v) }
+func Ant() string { return emojiBlob[36717:36721] }
 
 // Honeybee returns the "honeybee" emoji 🐝.
-func Honeybee(v ...Variant) string { return styled(918, v) }
+func Honeybee() string { return emojiBlob[36721:36725] }
 
 // Beetle returns the "beetle" emoji 🪲.
-func Beetle(v ...Variant) string { return styled(141, v) }
+func Beetle() string { return emojiBlob[39417:39421] }
 
 // LadyBeetle returns the "lady beetle" emoji 🐞.
-func LadyBeetle(v ...Variant) string { return styled(1002, v) }
+func LadyBeetle() string { return emojiBlob[36725:36729] }
 
 // Cricket returns the "cricket" emoji 🦗.
-func Cricket(v ...Variant) string { return styled(327, v) }
+func Cricket() string { return emojiBlob[38889:38893] }
 
 // Cockroach returns the "cockroach" emoji 🪳.
-func Cockroach(v ...Variant) string { return styled(289, v) }
+func Cockroach() string { return emojiBlob[39421:39425] }
 
 // Spider returns the "spider" emoji 🕷️.
-func Spider(v ...Variant) string { return styled(1606, v) }
+func Spider() string { return emojiBlob[34912:34919] }
 
 // SpiderWeb returns the "spider web" emoji 🕸️.
-func SpiderWeb(v ...Variant) string { return styled(1607, v) }
+func SpiderWeb() string { return emojiBlob[34919:34926] }
 
 // Scorpion returns the "scorpion" emoji 🦂.
-func Scorpion(v ...Variant) string { return styled(1518, v) }
+func Scorpion() string { return emojiBlob[38805:38809] }
 
 // Mosquito returns the "mosquito" emoji 🦟.
-func Mosquito(v ...Variant) string { return styled(1190, v) }
+func Mosquito() string { return emojiBlob[38921:38925] }
 
 // Fly returns the "fly" emoji 🪰.
-func Fly(v ...Variant) string { return styled(802, v) }
+func Fly() string { return emojiBlob[39409:39413] }
 
 // Worm returns the "worm" emoji 🪱.
-func Worm(v ...Variant) string { return styled(1880, v) }
+func Worm() string { return emojiBlob[39413:39417] }
 
 // Microbe returns the "microbe" emoji 🦠.
-func Microbe(v ...Variant) string { return styled(1165, v) }
+func Microbe() string { return emojiBlob[38925:38929] }
 
 // Bouquet returns the "bouquet" emoji 💐.
-func Bouquet(v ...Variant) string { return styled(182, v) }
+func Bouquet() string { return emojiBlob[37001:37005] }
 
 // CherryBlossom returns the "cherry blossom" emoji 🌸.
-func CherryBlossom(v ...Variant) string { return styled(252, v) }
+func CherryBlossom() string { return emojiBlob[36045:36049] }
 
 // WhiteFlower returns the "white flower" emoji 💮.
-func WhiteFlower(v ...Variant) string { return styled(1776, v) }
+func WhiteFlower() string { return emojiBlob[37101:37105] }
 
 // Lotus returns the "lotus" emoji 🪷.
-func Lotus(v ...Variant) string { return styled(1046, v) }
+func Lotus() string { return emojiBlob[39437:39441] }
 
 // Rosette returns the "rosette" emoji 🏵️.
-func Rosette(v ...Variant) string { return styled(1496, v) }
+func Rosette() string { return emojiBlob[34835:34842] }
 
 // Rose returns the "rose" emoji 🌹.
-func Rose(v ...Variant) string { return styled(1495, v) }
+func Rose() string { return emojiBlob[36049:36053] }
 
 // WiltedFlower returns the "wilted flower" emoji 🥀.
-func WiltedFlower(v ...Variant) string { return styled(1784, v) }
+func WiltedFlower() string { return emojiBlob[38549:38553] }
 
 // Hibiscus returns the "hibiscus" emoji 🌺.
-func Hibiscus(v ...Variant) string { return styled(908, v) }
+func Hibiscus() string { return emojiBlob[36053:36057] }
 
 // Sunflower returns the "sunflower" emoji 🌻.
-func Sunflower(v ...Variant) string { return styled(1641, v) }
+func Sunflower() string { return emojiBlob[36057:36061] }
 
 // Blossom returns the "blossom" emoji 🌼.
-func Blossom(v ...Variant) string { return styled(167, v) }
+func Blossom() string { return emojiBlob[36061:36065] }
 
 // Tulip returns the "tulip" emoji 🌷.
-func Tulip(v ...Variant) string { return styled(1717, v) }
+func Tulip() string { return emojiBlob[36041:36045] }
 
 // Hyacinth returns the "hyacinth" emoji 🪻.
-func Hyacinth(v ...Variant) string { return styled(939, v) }
+func Hyacinth() string { return emojiBlob[39453:39457] }
 
 // Seedling returns the "seedling" emoji 🌱.
-func Seedling(v ...Variant) string { return styled(1524, v) }
+func Seedling() string { return emojiBlob[36021:36025] }
 
 // PottedPlant returns the "potted plant" emoji 🪴.
-func PottedPlant(v ...Variant) string { return styled(1409, v) }
+func PottedPlant() string { return emojiBlob[39425:39429] }
 
 // EvergreenTree returns the "evergreen tree" emoji 🌲.
-func EvergreenTree(v ...Variant) string { return styled(429, v) }
+func EvergreenTree() string { return emojiBlob[36025:36029] }
 
 // DeciduousTree returns the "deciduous tree" emoji 🌳.
-func DeciduousTree(v ...Variant) string { return styled(358, v) }
+func DeciduousTree() string { return emojiBlob[36029:36033] }
 
 // PalmTree returns the "palm tree" emoji 🌴.
-func PalmTree(v ...Variant) string { return styled(1287, v) }
+func PalmTree() string { return emojiBlob[36033:36037] }
 
 // Cactus returns the "cactus" emoji 🌵.
-func Cactus(v ...Variant) string { return styled(218, v) }
+func Cactus() string { return emojiBlob[36037:36041] }
 
 // SheafOfRice returns the "sheaf of rice" emoji 🌾.
-func SheafOfRice(v ...Variant) string { return styled(1535, v) }
+func SheafOfRice() string { return emojiBlob[23360:23364] }
 
 // Herb returns the "herb" emoji 🌿.
-func Herb(v ...Variant) string { return styled(907, v) }
+func Herb() string { return emojiBlob[36069:36073] }
 
 // Shamrock returns the "shamrock" emoji ☘️.
-func Shamrock(v ...Variant) string { return styled(1532, v) }
+func Shamrock() string { return emojiBlob[35403:35409] }
 
 // FourLeafClover returns the "four leaf clover" emoji 🍀.
-func FourLeafClover(v ...Variant) string { return styled(817, v) }
+func FourLeafClover() string { return emojiBlob[36073:36077] }
 
 // MapleLeaf returns the "maple leaf" emoji 🍁.
-func MapleLeaf(v ...Variant) string { return styled(1142, v) }
+func MapleLeaf() string { return emojiBlob[36077:36081] }
 
 // FallenLeaf returns the "fallen leaf" emoji 🍂.
-func FallenLeaf(v ...Variant) string { return styled(467, v) }
+func FallenLeaf() string { return emojiBlob[36081:36085] }
 
 // LeafFlutteringInWind returns the "leaf fluttering in wind" emoji 🍃.
-func LeafFlutteringInWind(v ...Variant) string { return styled(1011, v) }
+func LeafFlutteringInWind() string { return emojiBlob[36085:36089] }
 
 // EmptyNest returns the "empty nest" emoji 🪹.
-func EmptyNest(v ...Variant) string { return styled(424, v) }
+func EmptyNest() string { return emojiBlob[39445:39449] }
 
 // NestWithEggs returns the "nest with eggs" emoji 🪺.
-func NestWithEggs(v ...Variant) string { return styled(1219, v) }
+func NestWithEggs() string { return emojiBlob[39449:39453] }
 
 // Mushroom returns the "mushroom" emoji 🍄.
-func Mushroom(v ...Variant) string { return styled(1206, v) }
+func Mushroom() string { return emojiBlob[28968:28972] }
 
 // LeaflessTree returns the "leafless tree" emoji 🪾.
-func LeaflessTree(v ...Variant) string { return styled(1012, v) }
+func LeaflessTree() string { return emojiBlob[39465:39469] }
 
 // Food & Drink
 
 // Grapes returns the "grapes" emoji 🍇.
-func Grapes(v ...Variant) string { return styled(856, v) }
+func Grapes() string { return emojiBlob[36097:36101] }
 
 // Melon returns the "melon" emoji 🍈.
-func Melon(v ...Variant) string { return styled(1152, v) }
+func Melon() string { return emojiBlob[36101:36105] }
 
 // Watermelon returns the "watermelon" emoji 🍉.
-func Watermelon(v ...Variant) string { return styled(1760, v) }
+func Watermelon() string { return emojiBlob[36105:36109] }
 
 // Tangerine returns the "tangerine" emoji 🍊.
-func Tangerine(v ...Variant) string { return styled(1659, v) }
+func Tangerine() string { return emojiBlob[36109:36113] }
 
 // Lemon returns the "lemon" emoji 🍋.
-func Lemon(v ...Variant) string { return styled(1024, v) }
+func Lemon() string { return emojiBlob[28979:28983] }
 
 // Lime returns the "lime" emoji 🍋‍🟩.
-func Lime(v ...Variant) string { return styled(1030, v) }
+func Lime() string { return emojiBlob[28979:28990] }
 
 // Banana returns the "banana" emoji 🍌.
-func Banana(v ...Variant) string { return styled(122, v) }
+func Banana() string { return emojiBlob[36113:36117] }
 
 // Pineapple returns the "pineapple" emoji 🍍.
-func Pineapple(v ...Variant) string { return styled(1382, v) }
+func Pineapple() string { return emojiBlob[36117:36121] }
 
 // Mango returns the "mango" emoji 🥭.
-func Mango(v ...Variant) string { return styled(1137, v) }
+func Mango() string { return emojiBlob[38725:38729] }
 
 // RedApple returns the "red apple" emoji 🍎.
-func RedApple(v ...Variant) string { return styled(1450, v) }
+func RedApple() string { return emojiBlob[36121:36125] }
 
 // GreenApple returns the "green apple" emoji 🍏.
-func GreenApple(v ...Variant) string { return styled(857, v) }
+func GreenApple() string { return emojiBlob[36125:36129] }
 
 // Pear returns the "pear" emoji 🍐.
-func Pear(v ...Variant) string { return styled(1307, v) }
+func Pear() string { return emojiBlob[36129:36133] }
 
 // Peach returns the "peach" emoji 🍑.
-func Peach(v ...Variant) string { return styled(1304, v) }
+func Peach() string { return emojiBlob[36133:36137] }
 
 // Cherries returns the "cherries" emoji 🍒.
-func Cherries(v ...Variant) string { return styled(251, v) }
+func Cherries() string { return emojiBlob[36137:36141] }
 
 // Strawberry returns the "strawberry" emoji 🍓.
-func Strawberry(v ...Variant) string { return styled(1631, v) }
+func Strawberry() string { return emojiBlob[36141:36145] }
 
 // Blueberries returns the "blueberries" emoji 🫐.
-func Blueberries(v ...Variant) string { return styled(173, v) }
+func Blueberries() string { return emojiBlob[39505:39509] }
 
 // KiwiFruit returns the "kiwi fruit" emoji 🥝.
-func KiwiFruit(v ...Variant) string { return styled(995, v) }
+func KiwiFruit() string { return emojiBlob[38661:38665] }
 
 // Tomato returns the "tomato" emoji 🍅.
-func Tomato(v ...Variant) string { return styled(1691, v) }
+func Tomato() string { return emojiBlob[36089:36093] }
 
 // Olive returns the "olive" emoji 🫒.
-func Olive(v ...Variant) string { return styled(1252, v) }
+func Olive() string { return emojiBlob[39513:39517] }
 
 // Coconut returns the "coconut" emoji 🥥.
-func Coconut(v ...Variant) string { return styled(291, v) }
+func Coconut() string { return emojiBlob[38693:38697] }
 
 // Avocado returns the "avocado" emoji 🥑.
-func Avocado(v ...Variant) string { return styled(99, v) }
+func Avocado() string { return emojiBlob[38613:38617] }
 
 // Eggplant returns the "eggplant" emoji 🍆.
-func Eggplant(v ...Variant) string { return styled(412, v) }
+func Eggplant() string { return emojiBlob[36093:36097] }
 
 // Potato returns the "potato" emoji 🥔.
-func Potato(v ...Variant) string { return styled(1408, v) }
+func Potato() string { return emojiBlob[38625:38629] }
 
 // Carrot returns the "carrot" emoji 🥕.
-func Carrot(v ...Variant) string { return styled(235, v) }
+func Carrot() string { return emojiBlob[38629:38633] }
 
 // EarOfCorn returns the "ear of corn" emoji 🌽.
-func EarOfCorn(v ...Variant) string { return styled(409, v) }
+func EarOfCorn() string { return emojiBlob[36065:36069] }
 
 // HotPepper returns the "hot pepper" emoji 🌶️.
-func HotPepper(v ...Variant) string { return styled(928, v) }
+func HotPepper() string { return emojiBlob[34674:34681] }
 
 // BellPepper returns the "bell pepper" emoji 🫑.
-func BellPepper(v ...Variant) string { return styled(143, v) }
+func BellPepper() string { return emojiBlob[39509:39513] }
 
 // Cucumber returns the "cucumber" emoji 🥒.
-func Cucumber(v ...Variant) string { return styled(341, v) }
+func Cucumber() string { return emojiBlob[38617:38621] }
 
 // LeafyGreen returns the "leafy green" emoji 🥬.
-func LeafyGreen(v ...Variant) string { return styled(1013, v) }
+func LeafyGreen() string { return emojiBlob[38721:38725] }
 
 // Broccoli returns the "broccoli" emoji 🥦.
-func Broccoli(v ...Variant) string { return styled(196, v) }
+func Broccoli() string { return emojiBlob[38697:38701] }
 
 // Garlic returns the "garlic" emoji 🧄.
-func Garlic(v ...Variant) string { return styled(833, v) }
+func Garlic() string { return emojiBlob[39017:39021] }
 
 // Onion returns the "onion" emoji 🧅.
-func Onion(v ...Variant) string { return styled(1262, v) }
+func Onion() string { return emojiBlob[39021:39025] }
 
 // Peanuts returns the "peanuts" emoji 🥜.
-func Peanuts(v ...Variant) string { return styled(1306, v) }
+func Peanuts() string { return emojiBlob[38657:38661] }
 
 // Beans returns the "beans" emoji 🫘.
-func Beans(v ...Variant) string { return styled(135, v) }
+func Beans() string { return emojiBlob[39537:39541] }
 
 // Chestnut returns the "chestnut" emoji 🌰.
-func Chestnut(v ...Variant) string { return styled(254, v) }
+func Chestnut() string { return emojiBlob[36017:36021] }
 
 // GingerRoot returns the "ginger root" emoji 🫚.
-func GingerRoot(v ...Variant) string { return styled(838, v) }
+func GingerRoot() string { return emojiBlob[39545:39549] }
 
 // PeaPod returns the "pea pod" emoji 🫛.
-func PeaPod(v ...Variant) string { return styled(1302, v) }
+func PeaPod() string { return emojiBlob[39549:39553] }
 
 // BrownMushroom returns the "brown mushroom" emoji 🍄‍🟫.
-func BrownMushroom(v ...Variant) string { return styled(202, v) }
+func BrownMushroom() string { return emojiBlob[28968:28979] }
 
 // RootVegetable returns the "root vegetable" emoji 🫜.
-func RootVegetable(v ...Variant) string { return styled(1494, v) }
+func RootVegetable() string { return emojiBlob[39553:39557] }
 
 // Bread returns the "bread" emoji 🍞.
-func Bread(v ...Variant) string { return styled(189, v) }
+func Bread() string { return emojiBlob[36185:36189] }
 
 // Croissant returns the "croissant" emoji 🥐.
-func Croissant(v ...Variant) string { return styled(330, v) }
+func Croissant() string { return emojiBlob[38609:38613] }
 
 // BaguetteBread returns the "baguette bread" emoji 🥖.
-func BaguetteBread(v ...Variant) string { return styled(116, v) }
+func BaguetteBread() string { return emojiBlob[38633:38637] }
 
 // Flatbread returns the "flatbread" emoji 🫓.
-func Flatbread(v ...Variant) string { return styled(795, v) }
+func Flatbread() string { return emojiBlob[39517:39521] }
 
 // Pretzel returns the "pretzel" emoji 🥨.
-func Pretzel(v ...Variant) string { return styled(1418, v) }
+func Pretzel() string { return emojiBlob[38705:38709] }
 
 // Bagel returns the "bagel" emoji 🥯.
-func Bagel(v ...Variant) string { return styled(114, v) }
+func Bagel() string { return emojiBlob[38733:38737] }
 
 // Pancakes returns the "pancakes" emoji 🥞.
-func Pancakes(v ...Variant) string { return styled(1290, v) }
+func Pancakes() string { return emojiBlob[38665:38669] }
 
 // Waffle returns the "waffle" emoji 🧇.
-func Waffle(v ...Variant) string { return styled(1750, v) }
+func Waffle() string { return emojiBlob[39029:39033] }
 
 // CheeseWedge returns the "cheese wedge" emoji 🧀.
-func CheeseWedge(v ...Variant) string { return styled(249, v) }
+func CheeseWedge() string { return emojiBlob[39001:39005] }
 
 // MeatOnBone returns the "meat on bone" emoji 🍖.
-func MeatOnBone(v ...Variant) string { return styled(1146, v) }
+func MeatOnBone() string { return emojiBlob[36153:36157] }
 
 // PoultryLeg returns the "poultry leg" emoji 🍗.
-func PoultryLeg(v ...Variant) string { return styled(1410, v) }
+func PoultryLeg() string { return emojiBlob[36157:36161] }
 
 // CutOfMeat returns the "cut of meat" emoji 🥩.
-func CutOfMeat(v ...Variant) string { return styled(350, v) }
+func CutOfMeat() string { return emojiBlob[38709:38713] }
 
 // Bacon returns the "bacon" emoji 🥓.
-func Bacon(v ...Variant) string { return styled(111, v) }
+func Bacon() string { return emojiBlob[38621:38625] }
 
 // Hamburger returns the "hamburger" emoji 🍔.
-func Hamburger(v ...Variant) string { return styled(878, v) }
+func Hamburger() string { return emojiBlob[36145:36149] }
 
 // FrenchFries returns the "french fries" emoji 🍟.
-func FrenchFries(v ...Variant) string { return styled(822, v) }
+func FrenchFries() string { return emojiBlob[36189:36193] }
 
 // Pizza returns the "pizza" emoji 🍕.
-func Pizza(v ...Variant) string { return styled(1386, v) }
+func Pizza() string { return emojiBlob[36149:36153] }
 
 // HotDog returns the "hot dog" emoji 🌭.
-func HotDog(v ...Variant) string { return styled(926, v) }
+func HotDog() string { return emojiBlob[36005:36009] }
 
 // Sandwich returns the "sandwich" emoji 🥪.
-func Sandwich(v ...Variant) string { return styled(1508, v) }
+func Sandwich() string { return emojiBlob[38713:38717] }
 
 // Taco returns the "taco" emoji 🌮.
-func Taco(v ...Variant) string { return styled(1655, v) }
+func Taco() string { return emojiBlob[36009:36013] }
 
 // Burrito returns the "burrito" emoji 🌯.
-func Burrito(v ...Variant) string { return styled(211, v) }
+func Burrito() string { return emojiBlob[36013:36017] }
 
 // Tamale returns the "tamale" emoji 🫔.
-func Tamale(v ...Variant) string { return styled(1657, v) }
+func Tamale() string { return emojiBlob[39521:39525] }
 
 // StuffedFlatbread returns the "stuffed flatbread" emoji 🥙.
-func StuffedFlatbread(v ...Variant) string { return styled(1634, v) }
+func StuffedFlatbread() string { return emojiBlob[38645:38649] }
 
 // Falafel returns the "falafel" emoji 🧆.
-func Falafel(v ...Variant) string { return styled(466, v) }
+func Falafel() string { return emojiBlob[39025:39029] }
 
 // Egg returns the "egg" emoji 🥚.
-func Egg(v ...Variant) string { return styled(411, v) }
+func Egg() string { return emojiBlob[38649:38653] }
 
 // Cooking returns the "cooking" emoji 🍳.
-func Cooking(v ...Variant) string { return styled(310, v) }
+func Cooking() string { return emojiBlob[23375:23379] }
 
 // ShallowPanOfFood returns the "shallow pan of food" emoji 🥘.
-func ShallowPanOfFood(v ...Variant) string { return styled(1531, v) }
+func ShallowPanOfFood() string { return emojiBlob[38641:38645] }
 
 // PotOfFood returns the "pot of food" emoji 🍲.
-func PotOfFood(v ...Variant) string { return styled(1406, v) }
+func PotOfFood() string { return emojiBlob[36265:36269] }
 
 // Fondue returns the "fondue" emoji 🫕.
-func Fondue(v ...Variant) string { return styled(809, v) }
+func Fondue() string { return emojiBlob[39525:39529] }
 
 // BowlWithSpoon returns the "bowl with spoon" emoji 🥣.
-func BowlWithSpoon(v ...Variant) string { return styled(184, v) }
+func BowlWithSpoon() string { return emojiBlob[38685:38689] }
 
 // GreenSalad returns the "green salad" emoji 🥗.
-func GreenSalad(v ...Variant) string { return styled(861, v) }
+func GreenSalad() string { return emojiBlob[38637:38641] }
 
 // Popcorn returns the "popcorn" emoji 🍿.
-func Popcorn(v ...Variant) string { return styled(1402, v) }
+func Popcorn() string { return emojiBlob[36305:36309] }
 
 // Butter returns the "butter" emoji 🧈.
-func Butter(v ...Variant) string { return styled(216, v) }
+func Butter() string { return emojiBlob[39033:39037] }
 
 // Salt returns the "salt" emoji 🧂.
-func Salt(v ...Variant) string { return styled(1506, v) }
+func Salt() string { return emojiBlob[39009:39013] }
 
 // CannedFood returns the "canned food" emoji 🥫.
-func CannedFood(v ...Variant) string { return styled(227, v) }
+func CannedFood() string { return emojiBlob[38717:38721] }
 
 // BentoBox returns the "bento box" emoji 🍱.
-func BentoBox(v ...Variant) string { return styled(146, v) }
+func BentoBox() string { return emojiBlob[36261:36265] }
 
 // RiceCracker returns the "rice cracker" emoji 🍘.
-func RiceCracker(v ...Variant) string { return styled(1472, v) }
+func RiceCracker() string { return emojiBlob[36161:36165] }
 
 // RiceBall returns the "rice ball" emoji 🍙.
-func RiceBall(v ...Variant) string { return styled(1471, v) }
+func RiceBall() string { return emojiBlob[36165:36169] }
 
 // CookedRice returns the "cooked rice" emoji 🍚.
-func CookedRice(v ...Variant) string { return styled(308, v) }
+func CookedRice() string { return emojiBlob[36169:36173] }
 
 // CurryRice returns the "curry rice" emoji 🍛.
-func CurryRice(v ...Variant) string { return styled(347, v) }
+func CurryRice() string { return emojiBlob[36173:36177] }
 
 // SteamingBowl returns the "steaming bowl" emoji 🍜.
-func SteamingBowl(v ...Variant) string { return styled(1625, v) }
+func SteamingBowl() string { return emojiBlob[36177:36181] }
 
 // Spaghetti returns the "spaghetti" emoji 🍝.
-func Spaghetti(v ...Variant) string { return styled(1594, v) }
+func Spaghetti() string { return emojiBlob[36181:36185] }
 
 // RoastedSweetPotato returns the "roasted sweet potato" emoji 🍠.
-func RoastedSweetPotato(v ...Variant) string { return styled(1484, v) }
+func RoastedSweetPotato() string { return emojiBlob[36193:36197] }
 
 // Oden returns the "oden" emoji 🍢.
-func Oden(v ...Variant) string { return styled(1243, v) }
+func Oden() string { return emojiBlob[36201:36205] }
 
 // Sushi returns the "sushi" emoji 🍣.
-func Sushi(v ...Variant) string { return styled(1648, v) }
+func Sushi() string { return emojiBlob[36205:36209] }
 
 // FriedShrimp returns the "fried shrimp" emoji 🍤.
-func FriedShrimp(v ...Variant) string { return styled(823, v) }
+func FriedShrimp() string { return emojiBlob[36209:36213] }
 
 // FishCakeWithSwirl returns the "fish cake with swirl" emoji 🍥.
-func FishCakeWithSwirl(v ...Variant) string { return styled(525, v) }
+func FishCakeWithSwirl() string { return emojiBlob[36213:36217] }
 
 // MoonCake returns the "moon cake" emoji 🥮.
-func MoonCake(v ...Variant) string { return styled(1186, v) }
+func MoonCake() string { return emojiBlob[38729:38733] }
 
 // Dango returns the "dango" emoji 🍡.
-func Dango(v ...Variant) string { return styled(353, v) }
+func Dango() string { return emojiBlob[36197:36201] }
 
 // Dumpling returns the "dumpling" emoji 🥟.
-func Dumpling(v ...Variant) string { return styled(404, v) }
+func Dumpling() string { return emojiBlob[38669:38673] }
 
 // FortuneCookie returns the "fortune cookie" emoji 🥠.
-func FortuneCookie(v ...Variant) string { return styled(814, v) }
+func FortuneCookie() string { return emojiBlob[38673:38677] }
 
 // TakeoutBox returns the "takeout box" emoji 🥡.
-func TakeoutBox(v ...Variant) string { return styled(1656, v) }
+func TakeoutBox() string { return emojiBlob[38677:38681] }
 
 // SoftIceCream returns the "soft ice cream" emoji 🍦.
-func SoftIceCream(v ...Variant) string { return styled(1591, v) }
+func SoftIceCream() string { return emojiBlob[36217:36221] }
 
 // ShavedIce returns the "shaved ice" emoji 🍧.
-func ShavedIce(v ...Variant) string { return styled(1534, v) }
+func ShavedIce() string { return emojiBlob[36221:36225] }
 
 // IceCream returns the "ice cream" emoji 🍨.
-func IceCream(v ...Variant) string { return styled(941, v) }
+func IceCream() string { return emojiBlob[36225:36229] }
 
 // Doughnut returns the "doughnut" emoji 🍩.
-func Doughnut(v ...Variant) string { return styled(389, v) }
+func Doughnut() string { return emojiBlob[36229:36233] }
 
 // Cookie returns the "cookie" emoji 🍪.
-func Cookie(v ...Variant) string { return styled(309, v) }
+func Cookie() string { return emojiBlob[36233:36237] }
 
 // BirthdayCake returns the "birthday cake" emoji 🎂.
-func BirthdayCake(v ...Variant) string { return styled(153, v) }
+func BirthdayCake() string { return emojiBlob[36317:36321] }
 
 // Shortcake returns the "shortcake" emoji 🍰.
-func Shortcake(v ...Variant) string { return styled(1542, v) }
+func Shortcake() string { return emojiBlob[36257:36261] }
 
 // Cupcake returns the "cupcake" emoji 🧁.
-func Cupcake(v ...Variant) string { return styled(343, v) }
+func Cupcake() string { return emojiBlob[39005:39009] }
 
 // Pie returns the "pie" emoji 🥧.
-func Pie(v ...Variant) string { return styled(1372, v) }
+func Pie() string { return emojiBlob[38701:38705] }
 
 // ChocolateBar returns the "chocolate bar" emoji 🍫.
-func ChocolateBar(v ...Variant) string { return styled(259, v) }
+func ChocolateBar() string { return emojiBlob[36237:36241] }
 
 // Candy returns the "candy" emoji 🍬.
-func Candy(v ...Variant) string { return styled(226, v) }
+func Candy() string { return emojiBlob[36241:36245] }
 
 // Lollipop returns the "lollipop" emoji 🍭.
-func Lollipop(v ...Variant) string { return styled(1043, v) }
+func Lollipop() string { return emojiBlob[36245:36249] }
 
 // Custard returns the "custard" emoji 🍮.
-func Custard(v ...Variant) string { return styled(348, v) }
+func Custard() string { return emojiBlob[36249:36253] }
 
 // HoneyPot returns the "honey pot" emoji 🍯.
-func HoneyPot(v ...Variant) string { return styled(917, v) }
+func HoneyPot() string { return emojiBlob[36253:36257] }
 
 // BabyBottle returns the "baby bottle" emoji 🍼.
-func BabyBottle(v ...Variant) string { return styled(103, v) }
+func BabyBottle() string { return emojiBlob[23390:23394] }
 
 // GlassOfMilk returns the "glass of milk" emoji 🥛.
-func GlassOfMilk(v ...Variant) string { return styled(841, v) }
+func GlassOfMilk() string { return emojiBlob[38653:38657] }
 
 // HotBeverage returns the "hot beverage" emoji ☕.
-func HotBeverage(v ...Variant) string { return styled(925, v) }
+func HotBeverage() string { return emojiBlob[39638:39641] }
 
 // Teapot returns the "teapot" emoji 🫖.
-func Teapot(v ...Variant) string { return styled(1663, v) }
+func Teapot() string { return emojiBlob[39529:39533] }
 
 // TeacupWithoutHandle returns the "teacup without handle" emoji 🍵.
-func TeacupWithoutHandle(v ...Variant) string { return styled(1662, v) }
+func TeacupWithoutHandle() string { return emojiBlob[36273:36277] }
 
 // Sake returns the "sake" emoji 🍶.
-func Sake(v ...Variant) string { return styled(1505, v) }
+func Sake() string { return emojiBlob[36277:36281] }
 
 // BottleWithPoppingCork returns the "bottle with popping cork" emoji 🍾.
-func BottleWithPoppingCork(v ...Variant) string { return styled(181, v) }
+func BottleWithPoppingCork() string { return emojiBlob[36301:36305] }
 
 // WineGlass returns the "wine glass" emoji 🍷.
-func WineGlass(v ...Variant) string { return styled(1788, v) }
+func WineGlass() string { return emojiBlob[36281:36285] }
 
 // CocktailGlass returns the "cocktail glass" emoji 🍸.
-func CocktailGlass(v ...Variant) string { return styled(290, v) }
+func CocktailGlass() string { return emojiBlob[36285:36289] }
 
 // TropicalDrink returns the "tropical drink" emoji 🍹.
-func TropicalDrink(v ...Variant) string { return styled(1714, v) }
+func TropicalDrink() string { return emojiBlob[36289:36293] }
 
 // BeerMug returns the "beer mug" emoji 🍺.
-func BeerMug(v ...Variant) string { return styled(140, v) }
+func BeerMug() string { return emojiBlob[36293:36297] }
 
 // ClinkingBeerMugs returns the "clinking beer mugs" emoji 🍻.
-func ClinkingBeerMugs(v ...Variant) string { return styled(272, v) }
+func ClinkingBeerMugs() string { return emojiBlob[36297:36301] }
 
 // ClinkingGlasses returns the "clinking glasses" emoji 🥂.
-func ClinkingGlasses(v ...Variant) string { return styled(273, v) }
+func ClinkingGlasses() string { return emojiBlob[38557:38561] }
 
 // TumblerGlass returns the "tumbler glass" emoji 🥃.
-func TumblerGlass(v ...Variant) string { return styled(1718, v) }
+func TumblerGlass() string { return emojiBlob[38561:38565] }
 
 // PouringLiquid returns the "pouring liquid" emoji 🫗.
-func PouringLiquid(v ...Variant) string { return styled(1412, v) }
+func PouringLiquid() string { return emojiBlob[39533:39537] }
 
 // CupWithStraw returns the "cup with straw" emoji 🥤.
-func CupWithStraw(v ...Variant) string { return styled(342, v) }
+func CupWithStraw() string { return emojiBlob[38689:38693] }
 
 // BubbleTea returns the "bubble tea" emoji 🧋.
-func BubbleTea(v ...Variant) string { return styled(204, v) }
+func BubbleTea() string { return emojiBlob[39045:39049] }
 
 // BeverageBox returns the "beverage box" emoji 🧃.
-func BeverageBox(v ...Variant) string { return styled(147, v) }
+func BeverageBox() string { return emojiBlob[39013:39017] }
 
 // Mate returns the "mate" emoji 🧉.
-func Mate(v ...Variant) string { return styled(1145, v) }
+func Mate() string { return emojiBlob[39037:39041] }
 
 // Ice returns the "ice" emoji 🧊.
-func Ice(v ...Variant) string { return styled(940, v) }
+func Ice() string { return emojiBlob[39041:39045] }
 
 // Chopsticks returns the "chopsticks" emoji 🥢.
-func Chopsticks(v ...Variant) string { return styled(260, v) }
+func Chopsticks() string { return emojiBlob[38681:38685] }
 
 // ForkAndKnifeWithPlate returns the "fork and knife with plate" emoji
 // 🍽️.
-func ForkAndKnifeWithPlate(v ...Variant) string { return styled(813, v) }
+func ForkAndKnifeWithPlate() string { return emojiBlob[34681:34688] }
 
 // ForkAndKnife returns the "fork and knife" emoji 🍴.
-func ForkAndKnife(v ...Variant) string { return styled(812, v) }
+func ForkAndKnife() string { return emojiBlob[36269:36273] }
 
 // Spoon returns the "spoon" emoji 🥄.
-func Spoon(v ...Variant) string { return styled(1613, v) }
+func Spoon() string { return emojiBlob[38565:38569] }
 
 // KitchenKnife returns the "kitchen knife" emoji 🔪.
-func KitchenKnife(v ...Variant) string { return styled(993, v) }
+func KitchenKnife() string { return emojiBlob[37573:37577] }
 
 // Jar returns the "jar" emoji 🫙.
-func Jar(v ...Variant) string { return styled(957, v) }
+func Jar() string { return emojiBlob[39541:39545] }
 
 // Amphora returns the "amphora" emoji 🏺.
-func Amphora(v ...Variant) string { return styled(81, v) }
+func Amphora() string { return emojiBlob[36609:36613] }
 
 // Travel & Places
 
 // GlobeShowingEuropeAfrica returns the "globe showing Europe-Africa" emoji
 // 🌍.
-func GlobeShowingEuropeAfrica(v ...Variant) string { return styled(845, v) }
+func GlobeShowingEuropeAfrica() string { return emojiBlob[35925:35929] }
 
 // GlobeShowingAmericas returns the "globe showing Americas" emoji 🌎.
-func GlobeShowingAmericas(v ...Variant) string { return styled(843, v) }
+func GlobeShowingAmericas() string { return emojiBlob[35929:35933] }
 
 // GlobeShowingAsiaAustralia returns the "globe showing Asia-Australia"
 // emoji 🌏.
-func GlobeShowingAsiaAustralia(v ...Variant) string { return styled(844, v) }
+func GlobeShowingAsiaAustralia() string { return emojiBlob[35933:35937] }
 
 // GlobeWithMeridians returns the "globe with meridians" emoji 🌐.
-func GlobeWithMeridians(v ...Variant) string { return styled(846, v) }
+func GlobeWithMeridians() string { return emojiBlob[35937:35941] }
 
 // WorldMap returns the "world map" emoji 🗺️.
-func WorldMap(v ...Variant) string { return styled(1879, v) }
+func WorldMap() string { return emojiBlob[35101:35108] }
 
 // MapOfJapan returns the "map of Japan" emoji 🗾.
-func MapOfJapan(v ...Variant) string { return styled(1141, v) }
+func MapOfJapan() string { return emojiBlob[37777:37781] }
 
 // Compass returns the "compass" emoji 🧭.
-func Compass(v ...Variant) string { return styled(297, v) }
+func Compass() string { return emojiBlob[39109:39113] }
 
 // SnowCappedMountain returns the "snow-capped mountain" emoji 🏔️.
-func SnowCappedMountain(v ...Variant) string { return styled(1583, v) }
+func SnowCappedMountain() string { return emojiBlob[34751:34758] }
 
 // Mountain returns the "mountain" emoji ⛰️.
-func Mountain(v ...Variant) string { return styled(1197, v) }
+func Mountain() string { return emojiBlob[35595:35601] }
 
 // Landslide returns the "landslide" emoji 🛘.
-func Landslide(v ...Variant) string { return styled(1003, v) }
+func Landslide() string { return emojiBlob[38333:38337] }
 
 // Volcano returns the "volcano" emoji 🌋.
-func Volcano(v ...Variant) string { return styled(1747, v) }
+func Volcano() string { return emojiBlob[35917:35921] }
 
 // MountFuji returns the "mount fuji" emoji 🗻.
-func MountFuji(v ...Variant) string { return styled(1196, v) }
+func MountFuji() string { return emojiBlob[37765:37769] }
 
 // Camping returns the "camping" emoji 🏕️.
-func Camping(v ...Variant) string { return styled(224, v) }
+func Camping() string { return emojiBlob[34758:34765] }
 
 // BeachWithUmbrella returns the "beach with umbrella" emoji 🏖️.
-func BeachWithUmbrella(v ...Variant) string { return styled(133, v) }
+func BeachWithUmbrella() string { return emojiBlob[34765:34772] }
 
 // Desert returns the "desert" emoji 🏜️.
-func Desert(v ...Variant) string { return styled(363, v) }
+func Desert() string { return emojiBlob[34807:34814] }
 
 // DesertIsland returns the "desert island" emoji 🏝️.
-func DesertIsland(v ...Variant) string { return styled(364, v) }
+func DesertIsland() string { return emojiBlob[34814:34821] }
 
 // NationalPark returns the "national park" emoji 🏞️.
-func NationalPark(v ...Variant) string { return styled(1214, v) }
+func NationalPark() string { return emojiBlob[34821:34828] }
 
 // Stadium returns the "stadium" emoji 🏟️.
-func Stadium(v ...Variant) string { return styled(1619, v) }
+func Stadium() string { return emojiBlob[34828:34835] }
 
 // ClassicalBuilding returns the "classical building" emoji 🏛️.
-func ClassicalBuilding(v ...Variant) string { return styled(271, v) }
+func ClassicalBuilding() string { return emojiBlob[34800:34807] }
 
 // BuildingConstruction returns the "building construction" emoji 🏗️.
-func BuildingConstruction(v ...Variant) string { return styled(208, v) }
+func BuildingConstruction() string { return emojiBlob[34772:34779] }
 
 // Brick returns the "brick" emoji 🧱.
-func Brick(v ...Variant) string { return styled(191, v) }
+func Brick() string { return emojiBlob[39125:39129] }
 
 // Rock returns the "rock" emoji 🪨.
-func Rock(v ...Variant) string { return styled(1486, v) }
+func Rock() string { return emojiBlob[39377:39381] }
 
 // Wood returns the "wood" emoji 🪵.
-func Wood(v ...Variant) string { return styled(1877, v) }
+func Wood() string { return emojiBlob[39429:39433] }
 
 // Hut returns the "hut" emoji 🛖.
-func Hut(v ...Variant) string { return styled(938, v) }
+func Hut() string { return emojiBlob[38325:38329] }
 
 // Houses returns the "houses" emoji 🏘️.
-func Houses(v ...Variant) string { return styled(935, v) }
+func Houses() string { return emojiBlob[34779:34786] }
 
 // DerelictHouse returns the "derelict house" emoji 🏚️.
-func DerelictHouse(v ...Variant) string { return styled(362, v) }
+func DerelictHouse() string { return emojiBlob[34793:34800] }
 
 // House returns the "house" emoji 🏠.
-func House(v ...Variant) string { return styled(933, v) }
+func House() string { return emojiBlob[36541:36545] }
 
 // HouseWithGarden returns the "house with garden" emoji 🏡.
-func HouseWithGarden(v ...Variant) string { return styled(934, v) }
+func HouseWithGarden() string { return emojiBlob[36545:36549] }
 
 // OfficeBuilding returns the "office building" emoji 🏢.
-func OfficeBuilding(v ...Variant) string { return styled(1244, v) }
+func OfficeBuilding() string { return emojiBlob[36549:36553] }
 
 // JapanesePostOffice returns the "Japanese post office" emoji 🏣.
-func JapanesePostOffice(v ...Variant) string { return styled(21, v) }
+func JapanesePostOffice() string { return emojiBlob[36553:36557] }
 
 // PostOffice returns the "post office" emoji 🏤.
-func PostOffice(v ...Variant) string { return styled(1403, v) }
+func PostOffice() string { return emojiBlob[36557:36561] }
 
 // Hospital returns the "hospital" emoji 🏥.
-func Hospital(v ...Variant) string { return styled(924, v) }
+func Hospital() string { return emojiBlob[36561:36565] }
 
 // Bank returns the "bank" emoji 🏦.
-func Bank(v ...Variant) string { return styled(124, v) }
+func Bank() string { return emojiBlob[36565:36569] }
 
 // Hotel returns the "hotel" emoji 🏨.
-func Hotel(v ...Variant) string { return styled(930, v) }
+func Hotel() string { return emojiBlob[36573:36577] }
 
 // LoveHotel returns the "love hotel" emoji 🏩.
-func LoveHotel(v ...Variant) string { return styled(1049, v) }
+func LoveHotel() string { return emojiBlob[36577:36581] }
 
 // ConvenienceStore returns the "convenience store" emoji 🏪.
-func ConvenienceStore(v ...Variant) string { return styled(306, v) }
+func ConvenienceStore() string { return emojiBlob[36581:36585] }
 
 // School returns the "school" emoji 🏫.
-func School(v ...Variant) string { return styled(1515, v) }
+func School() string { return emojiBlob[23450:23454] }
 
 // DepartmentStore returns the "department store" emoji 🏬.
-func DepartmentStore(v ...Variant) string { return styled(361, v) }
+func DepartmentStore() string { return emojiBlob[36585:36589] }
 
 // Factory returns the "factory" emoji 🏭.
-func Factory(v ...Variant) string { return styled(463, v) }
+func Factory() string { return emojiBlob[23465:23469] }
 
 // JapaneseCastle returns the "Japanese castle" emoji 🏯.
-func JapaneseCastle(v ...Variant) string { return styled(19, v) }
+func JapaneseCastle() string { return emojiBlob[36593:36597] }
 
 // Castle returns the "castle" emoji 🏰.
-func Castle(v ...Variant) string { return styled(236, v) }
+func Castle() string { return emojiBlob[36597:36601] }
 
 // Wedding returns the "wedding" emoji 💒.
-func Wedding(v ...Variant) string { return styled(1767, v) }
+func Wedding() string { return emojiBlob[37005:37009] }
 
 // TokyoTower returns the "Tokyo tower" emoji 🗼.
-func TokyoTower(v ...Variant) string { return styled(62, v) }
+func TokyoTower() string { return emojiBlob[37769:37773] }
 
 // StatueOfLiberty returns the "Statue of Liberty" emoji 🗽.
-func StatueOfLiberty(v ...Variant) string { return styled(58, v) }
+func StatueOfLiberty() string { return emojiBlob[37773:37777] }
 
 // Church returns the "church" emoji ⛪.
-func Church(v ...Variant) string { return styled(261, v) }
+func Church() string { return emojiBlob[39710:39713] }
 
 // Mosque returns the "mosque" emoji 🕌.
-func Mosque(v ...Variant) string { return styled(1189, v) }
+func Mosque() string { return emojiBlob[37653:37657] }
 
 // HinduTemple returns the "hindu temple" emoji 🛕.
-func HinduTemple(v ...Variant) string { return styled(913, v) }
+func HinduTemple() string { return emojiBlob[38321:38325] }
 
 // Synagogue returns the "synagogue" emoji 🕍.
-func Synagogue(v ...Variant) string { return styled(1652, v) }
+func Synagogue() string { return emojiBlob[37657:37661] }
 
 // ShintoShrine returns the "shinto shrine" emoji ⛩️.
-func ShintoShrine(v ...Variant) string { return styled(1537, v) }
+func ShintoShrine() string { return emojiBlob[35589:35595] }
 
 // Kaaba returns the "kaaba" emoji 🕋.
-func Kaaba(v ...Variant) string { return styled(963, v) }
+func Kaaba() string { return emojiBlob[37649:37653] }
 
 // Fountain returns the "fountain" emoji ⛲.
-func Fountain(v ...Variant) string { return styled(815, v) }
+func Fountain() string { return emojiBlob[39713:39716] }
 
 // Tent returns the "tent" emoji ⛺.
-func Tent(v ...Variant) string { return styled(1674, v) }
+func Tent() string { return emojiBlob[39722:39725] }
 
 // Foggy returns the "foggy" emoji 🌁.
-func Foggy(v ...Variant) string { return styled(806, v) }
+func Foggy() string { return emojiBlob[35881:35885] }
 
 // NightWithStars returns the "night with stars" emoji 🌃.
-func NightWithStars(v ...Variant) string { return styled(1226, v) }
+func NightWithStars() string { return emojiBlob[35889:35893] }
 
 // Cityscape returns the "cityscape" emoji 🏙️.
-func Cityscape(v ...Variant) string { return styled(266, v) }
+func Cityscape() string { return emojiBlob[34786:34793] }
 
 // SunriseOverMountains returns the "sunrise over mountains" emoji 🌄.
-func SunriseOverMountains(v ...Variant) string { return styled(1644, v) }
+func SunriseOverMountains() string { return emojiBlob[35893:35897] }
 
 // Sunrise returns the "sunrise" emoji 🌅.
-func Sunrise(v ...Variant) string { return styled(1643, v) }
+func Sunrise() string { return emojiBlob[35897:35901] }
 
 // CityscapeAtDusk returns the "cityscape at dusk" emoji 🌆.
-func CityscapeAtDusk(v ...Variant) string { return styled(267, v) }
+func CityscapeAtDusk() string { return emojiBlob[35901:35905] }
 
 // Sunset returns the "sunset" emoji 🌇.
-func Sunset(v ...Variant) string { return styled(1645, v) }
+func Sunset() string { return emojiBlob[35905:35909] }
 
 // BridgeAtNight returns the "bridge at night" emoji 🌉.
-func BridgeAtNight(v ...Variant) string { return styled(192, v) }
+func BridgeAtNight() string { return emojiBlob[35909:35913] }
 
 // HotSprings returns the "hot springs" emoji ♨️.
-func HotSprings(v ...Variant) string { return styled(929, v) }
+func HotSprings() string { return emojiBlob[35499:35505] }
 
 // CarouselHorse returns the "carousel horse" emoji 🎠.
-func CarouselHorse(v ...Variant) string { return styled(232, v) }
+func CarouselHorse() string { return emojiBlob[36377:36381] }
 
 // PlaygroundSlide returns the "playground slide" emoji 🛝.
-func PlaygroundSlide(v ...Variant) string { return styled(1392, v) }
+func PlaygroundSlide() string { return emojiBlob[38341:38345] }
 
 // FerrisWheel returns the "ferris wheel" emoji 🎡.
-func FerrisWheel(v ...Variant) string { return styled(507, v) }
+func FerrisWheel() string { return emojiBlob[36381:36385] }
 
 // RollerCoaster returns the "roller coaster" emoji 🎢.
-func RollerCoaster(v ...Variant) string { return styled(1490, v) }
+func RollerCoaster() string { return emojiBlob[36385:36389] }
 
 // BarberPole returns the "barber pole" emoji 💈.
-func BarberPole(v ...Variant) string { return styled(126, v) }
+func BarberPole() string { return emojiBlob[36977:36981] }
 
 // CircusTent returns the "circus tent" emoji 🎪.
-func CircusTent(v ...Variant) string { return styled(265, v) }
+func CircusTent() string { return emojiBlob[36409:36413] }
 
 // Locomotive returns the "locomotive" emoji 🚂.
-func Locomotive(v ...Variant) string { return styled(1042, v) }
+func Locomotive() string { return emojiBlob[38061:38065] }
 
 // RailwayCar returns the "railway car" emoji 🚃.
-func RailwayCar(v ...Variant) string { return styled(1436, v) }
+func RailwayCar() string { return emojiBlob[38065:38069] }
 
 // HighSpeedTrain returns the "high-speed train" emoji 🚄.
-func HighSpeedTrain(v ...Variant) string { return styled(911, v) }
+func HighSpeedTrain() string { return emojiBlob[38069:38073] }
 
 // BulletTrain returns the "bullet train" emoji 🚅.
-func BulletTrain(v ...Variant) string { return styled(209, v) }
+func BulletTrain() string { return emojiBlob[38073:38077] }
 
 // Train returns the "train" emoji 🚆.
-func Train(v ...Variant) string { return styled(1701, v) }
+func Train() string { return emojiBlob[38077:38081] }
 
 // Metro returns the "metro" emoji 🚇.
-func Metro(v ...Variant) string { return styled(1164, v) }
+func Metro() string { return emojiBlob[38081:38085] }
 
 // LightRail returns the "light rail" emoji 🚈.
-func LightRail(v ...Variant) string { return styled(1029, v) }
+func LightRail() string { return emojiBlob[38085:38089] }
 
 // Station returns the "station" emoji 🚉.
-func Station(v ...Variant) string { return styled(1624, v) }
+func Station() string { return emojiBlob[38089:38093] }
 
 // Tram returns the "tram" emoji 🚊.
-func Tram(v ...Variant) string { return styled(1702, v) }
+func Tram() string { return emojiBlob[38093:38097] }
 
 // Monorail returns the "monorail" emoji 🚝.
-func Monorail(v ...Variant) string { return styled(1185, v) }
+func Monorail() string { return emojiBlob[38165:38169] }
 
 // MountainRailway returns the "mountain railway" emoji 🚞.
-func MountainRailway(v ...Variant) string { return styled(1199, v) }
+func MountainRailway() string { return emojiBlob[38169:38173] }
 
 // TramCar returns the "tram car" emoji 🚋.
-func TramCar(v ...Variant) string { return styled(1703, v) }
+func TramCar() string { return emojiBlob[38097:38101] }
 
 // Bus returns the "bus" emoji 🚌.
-func Bus(v ...Variant) string { return styled(212, v) }
+func Bus() string { return emojiBlob[38101:38105] }
 
 // OncomingBus returns the "oncoming bus" emoji 🚍.
-func OncomingBus(v ...Variant) string { return styled(1255, v) }
+func OncomingBus() string { return emojiBlob[38105:38109] }
 
 // Trolleybus returns the "trolleybus" emoji 🚎.
-func Trolleybus(v ...Variant) string { return styled(1711, v) }
+func Trolleybus() string { return emojiBlob[38109:38113] }
 
 // Minibus returns the "minibus" emoji 🚐.
-func Minibus(v ...Variant) string { return styled(1172, v) }
+func Minibus() string { return emojiBlob[38117:38121] }
 
 // Ambulance returns the "ambulance" emoji 🚑.
-func Ambulance(v ...Variant) string { return styled(79, v) }
+func Ambulance() string { return emojiBlob[38121:38125] }
 
 // FireEngine returns the "fire engine" emoji 🚒.
-func FireEngine(v ...Variant) string { return styled(517, v) }
+func FireEngine() string { return emojiBlob[23555:23559] }
 
 // PoliceCar returns the "police car" emoji 🚓.
-func PoliceCar(v ...Variant) string { return styled(1397, v) }
+func PoliceCar() string { return emojiBlob[38125:38129] }
 
 // OncomingPoliceCar returns the "oncoming police car" emoji 🚔.
-func OncomingPoliceCar(v ...Variant) string { return styled(1257, v) }
+func OncomingPoliceCar() string { return emojiBlob[38129:38133] }
 
 // Taxi returns the "taxi" emoji 🚕.
-func Taxi(v ...Variant) string { return styled(1660, v) }
+func Taxi() string { return emojiBlob[38133:38137] }
 
 // OncomingTaxi returns the "oncoming taxi" emoji 🚖.
-func OncomingTaxi(v ...Variant) string { return styled(1258, v) }
+func OncomingTaxi() string { return emojiBlob[38137:38141] }
 
 // Automobile returns the "automobile" emoji 🚗.
-func Automobile(v ...Variant) string { return styled(98, v) }
+func Automobile() string { return emojiBlob[38141:38145] }
 
 // OncomingAutomobile returns the "oncoming automobile" emoji 🚘.
-func OncomingAutomobile(v ...Variant) string { return styled(1254, v) }
+func OncomingAutomobile() string { return emojiBlob[38145:38149] }
 
 // SportUtilityVehicle returns the "sport utility vehicle" emoji 🚙.
-func SportUtilityVehicle(v ...Variant) string { return styled(1614, v) }
+func SportUtilityVehicle() string { return emojiBlob[38149:38153] }
 
 // PickupTruck returns the "pickup truck" emoji 🛻.
-func PickupTruck(v ...Variant) string { return styled(1371, v) }
+func PickupTruck() string { return emojiBlob[38389:38393] }
 
 // DeliveryTruck returns the "delivery truck" emoji 🚚.
-func DeliveryTruck(v ...Variant) string { return styled(360, v) }
+func DeliveryTruck() string { return emojiBlob[38153:38157] }
 
 // ArticulatedLorry returns the "articulated lorry" emoji 🚛.
-func ArticulatedLorry(v ...Variant) string { return styled(91, v) }
+func ArticulatedLorry() string { return emojiBlob[38157:38161] }
 
 // Tractor returns the "tractor" emoji 🚜.
-func Tractor(v ...Variant) string { return styled(1699, v) }
+func Tractor() string { return emojiBlob[38161:38165] }
 
 // RacingCar returns the "racing car" emoji 🏎️.
-func RacingCar(v ...Variant) string { return styled(1432, v) }
+func RacingCar() string { return emojiBlob[34744:34751] }
 
 // Motorcycle returns the "motorcycle" emoji 🏍️.
-func Motorcycle(v ...Variant) string { return styled(1193, v) }
+func Motorcycle() string { return emojiBlob[34737:34744] }
 
 // MotorScooter returns the "motor scooter" emoji 🛵.
-func MotorScooter(v ...Variant) string { return styled(1192, v) }
+func MotorScooter() string { return emojiBlob[38365:38369] }
 
 // ManualWheelchair returns the "manual wheelchair" emoji 🦽.
-func ManualWheelchair(v ...Variant) string { return styled(1139, v) }
+func ManualWheelchair() string { return emojiBlob[12569:12573] }
 
 // MotorizedWheelchair returns the "motorized wheelchair" emoji 🦼.
-func MotorizedWheelchair(v ...Variant) string { return styled(1194, v) }
+func MotorizedWheelchair() string { return emojiBlob[12545:12549] }
 
 // AutoRickshaw returns the "auto rickshaw" emoji 🛺.
-func AutoRickshaw(v ...Variant) string { return styled(97, v) }
+func AutoRickshaw() string { return emojiBlob[38385:38389] }
 
 // Bicycle returns the "bicycle" emoji 🚲.
-func Bicycle(v ...Variant) string { return styled(148, v) }
+func Bicycle() string { return emojiBlob[38245:38249] }
 
 // KickScooter returns the "kick scooter" emoji 🛴.
-func KickScooter(v ...Variant) string { return styled(981, v) }
+func KickScooter() string { return emojiBlob[38361:38365] }
 
 // Skateboard returns the "skateboard" emoji 🛹.
-func Skateboard(v ...Variant) string { return styled(1553, v) }
+func Skateboard() string { return emojiBlob[38381:38385] }
 
 // RollerSkate returns the "roller skate" emoji 🛼.
-func RollerSkate(v ...Variant) string { return styled(1491, v) }
+func RollerSkate() string { return emojiBlob[38393:38397] }
 
 // BusStop returns the "bus stop" emoji 🚏.
-func BusStop(v ...Variant) string { return styled(213, v) }
+func BusStop() string { return emojiBlob[38113:38117] }
 
 // Motorway returns the "motorway" emoji 🛣️.
-func Motorway(v ...Variant) string { return styled(1195, v) }
+func Motorway() string { return emojiBlob[35157:35164] }
 
 // RailwayTrack returns the "railway track" emoji 🛤️.
-func RailwayTrack(v ...Variant) string { return styled(1437, v) }
+func RailwayTrack() string { return emojiBlob[35164:35171] }
 
 // OilDrum returns the "oil drum" emoji 🛢️.
-func OilDrum(v ...Variant) string { return styled(1247, v) }
+func OilDrum() string { return emojiBlob[35150:35157] }
 
 // FuelPump returns the "fuel pump" emoji ⛽.
-func FuelPump(v ...Variant) string { return styled(828, v) }
+func FuelPump() string { return emojiBlob[39725:39728] }
 
 // Wheel returns the "wheel" emoji 🛞.
-func Wheel(v ...Variant) string { return styled(1769, v) }
+func Wheel() string { return emojiBlob[38345:38349] }
 
 // PoliceCarLight returns the "police car light" emoji 🚨.
-func PoliceCarLight(v ...Variant) string { return styled(1398, v) }
+func PoliceCarLight() string { return emojiBlob[38205:38209] }
 
 // HorizontalTrafficLight returns the "horizontal traffic light" emoji
 // 🚥.
-func HorizontalTrafficLight(v ...Variant) string { return styled(920, v) }
+func HorizontalTrafficLight() string { return emojiBlob[38193:38197] }
 
 // VerticalTrafficLight returns the "vertical traffic light" emoji 🚦.
-func VerticalTrafficLight(v ...Variant) string { return styled(1740, v) }
+func VerticalTrafficLight() string { return emojiBlob[38197:38201] }
 
 // StopSign returns the "stop sign" emoji 🛑.
-func StopSign(v ...Variant) string { return styled(1628, v) }
+func StopSign() string { return emojiBlob[38313:38317] }
 
 // Construction returns the "construction" emoji 🚧.
-func Construction(v ...Variant) string { return styled(303, v) }
+func Construction() string { return emojiBlob[38201:38205] }
 
 // Anchor returns the "anchor" emoji ⚓.
-func Anchor(v ...Variant) string { return styled(83, v) }
+func Anchor() string { return emojiBlob[39680:39683] }
 
 // RingBuoy returns the "ring buoy" emoji 🛟.
-func RingBuoy(v ...Variant) string { return styled(1482, v) }
+func RingBuoy() string { return emojiBlob[38349:38353] }
 
 // Sailboat returns the "sailboat" emoji ⛵.
-func Sailboat(v ...Variant) string { return styled(1504, v) }
+func Sailboat() string { return emojiBlob[39719:39722] }
 
 // Canoe returns the "canoe" emoji 🛶.
-func Canoe(v ...Variant) string { return styled(228, v) }
+func Canoe() string { return emojiBlob[38369:38373] }
 
 // Speedboat returns the "speedboat" emoji 🚤.
-func Speedboat(v ...Variant) string { return styled(1605, v) }
+func Speedboat() string { return emojiBlob[38189:38193] }
 
 // PassengerShip returns the "passenger ship" emoji 🛳️.
-func PassengerShip(v ...Variant) string { return styled(1298, v) }
+func PassengerShip() string { return emojiBlob[35192:35199] }
 
 // Ferry returns the "ferry" emoji ⛴️.
-func Ferry(v ...Variant) string { return styled(508, v) }
+func Ferry() string { return emojiBlob[35607:35613] }
 
 // MotorBoat returns the "motor boat" emoji 🛥️.
-func MotorBoat(v ...Variant) string { return styled(1191, v) }
+func MotorBoat() string { return emojiBlob[35171:35178] }
 
 // Ship returns the "ship" emoji 🚢.
-func Ship(v ...Variant) string { return styled(1538, v) }
+func Ship() string { return emojiBlob[38185:38189] }
 
 // Airplane returns the "airplane" emoji ✈️.
-func Airplane(v ...Variant) string { return styled(72, v) }
+func Airplane() string { return emojiBlob[15187:15193] }
 
 // SmallAirplane returns the "small airplane" emoji 🛩️.
-func SmallAirplane(v ...Variant) string { return styled(1566, v) }
+func SmallAirplane() string { return emojiBlob[35178:35185] }
 
 // AirplaneDeparture returns the "airplane departure" emoji 🛫.
-func AirplaneDeparture(v ...Variant) string { return styled(74, v) }
+func AirplaneDeparture() string { return emojiBlob[38353:38357] }
 
 // AirplaneArrival returns the "airplane arrival" emoji 🛬.
-func AirplaneArrival(v ...Variant) string { return styled(73, v) }
+func AirplaneArrival() string { return emojiBlob[38357:38361] }
 
 // Parachute returns the "parachute" emoji 🪂.
-func Parachute(v ...Variant) string { return styled(1293, v) }
+func Parachute() string { return emojiBlob[39237:39241] }
 
 // Seat returns the "seat" emoji 💺.
-func Seat(v ...Variant) string { return styled(1522, v) }
+func Seat() string { return emojiBlob[37149:37153] }
 
 // Helicopter returns the "helicopter" emoji 🚁.
-func Helicopter(v ...Variant) string { return styled(906, v) }
+func Helicopter() string { return emojiBlob[38057:38061] }
 
 // SuspensionRailway returns the "suspension railway" emoji 🚟.
-func SuspensionRailway(v ...Variant) string { return styled(1649, v) }
+func SuspensionRailway() string { return emojiBlob[38173:38177] }
 
 // MountainCableway returns the "mountain cableway" emoji 🚠.
-func MountainCableway(v ...Variant) string { return styled(1198, v) }
+func MountainCableway() string { return emojiBlob[38177:38181] }
 
 // AerialTramway returns the "aerial tramway" emoji 🚡.
-func AerialTramway(v ...Variant) string { return styled(71, v) }
+func AerialTramway() string { return emojiBlob[38181:38185] }
 
 // Satellite returns the "satellite" emoji 🛰️.
-func Satellite(v ...Variant) string { return styled(1510, v) }
+func Satellite() string { return emojiBlob[35185:35192] }
 
 // Rocket returns the "rocket" emoji 🚀.
-func Rocket(v ...Variant) string { return styled(1487, v) }
+func Rocket() string { return emojiBlob[23540:23544] }
 
 // FlyingSaucer returns the "flying saucer" emoji 🛸.
-func FlyingSaucer(v ...Variant) string { return styled(804, v) }
+func FlyingSaucer() string { return emojiBlob[38377:38381] }
 
 // BellhopBell returns the "bellhop bell" emoji 🛎️.
-func BellhopBell(v ...Variant) string { return styled(145, v) }
+func BellhopBell() string { return emojiBlob[35122:35129] }
 
 // Luggage returns the "luggage" emoji 🧳.
-func Luggage(v ...Variant) string { return styled(1053, v) }
+func Luggage() string { return emojiBlob[39133:39137] }
 
 // HourglassDone returns the "hourglass done" emoji ⌛.
-func HourglassDone(v ...Variant) string { return styled(931, v) }
+func HourglassDone() string { return emojiBlob[39608:39611] }
 
 // HourglassNotDone returns the "hourglass not done" emoji ⏳.
-func HourglassNotDone(v ...Variant) string { return styled(932, v) }
+func HourglassNotDone() string { return emojiBlob[39626:39629] }
 
 // Watch returns the "watch" emoji ⌚.
-func Watch(v ...Variant) string { return styled(1755, v) }
+func Watch() string { return emojiBlob[39605:39608] }
 
 // AlarmClock returns the "alarm clock" emoji ⏰.
-func AlarmClock(v ...Variant) string { return styled(75, v) }
+func AlarmClock() string { return emojiBlob[39623:39626] }
 
 // Stopwatch returns the "stopwatch" emoji ⏱️.
-func Stopwatch(v ...Variant) string { return styled(1629, v) }
+func Stopwatch() string { return emojiBlob[35289:35295] }
 
 // TimerClock returns the "timer clock" emoji ⏲️.
-func TimerClock(v ...Variant) string { return styled(1688, v) }
+func TimerClock() string { return emojiBlob[35295:35301] }
 
 // MantelpieceClock returns the "mantelpiece clock" emoji 🕰️.
-func MantelpieceClock(v ...Variant) string { return styled(1138, v) }
+func MantelpieceClock() string { return emojiBlob[34884:34891] }
 
 // TwelveOclock returns the "twelve o’clock" emoji 🕛.
-func TwelveOclock(v ...Variant) string { return styled(1721, v) }
+func TwelveOclock() string { return emojiBlob[37709:37713] }
 
 // TwelveThirty returns the "twelve-thirty" emoji 🕧.
-func TwelveThirty(v ...Variant) string { return styled(1722, v) }
+func TwelveThirty() string { return emojiBlob[37757:37761] }
 
 // OneOclock returns the "one o’clock" emoji 🕐.
-func OneOclock(v ...Variant) string { return styled(1259, v) }
+func OneOclock() string { return emojiBlob[37665:37669] }
 
 // OneThirty returns the "one-thirty" emoji 🕜.
-func OneThirty(v ...Variant) string { return styled(1261, v) }
+func OneThirty() string { return emojiBlob[37713:37717] }
 
 // TwoOclock returns the "two o’clock" emoji 🕑.
-func TwoOclock(v ...Variant) string { return styled(1724, v) }
+func TwoOclock() string { return emojiBlob[37669:37673] }
 
 // TwoThirty returns the "two-thirty" emoji 🕝.
-func TwoThirty(v ...Variant) string { return styled(1726, v) }
+func TwoThirty() string { return emojiBlob[37717:37721] }
 
 // ThreeOclock returns the "three o’clock" emoji 🕒.
-func ThreeOclock(v ...Variant) string { return styled(1681, v) }
+func ThreeOclock() string { return emojiBlob[37673:37677] }
 
 // ThreeThirty returns the "three-thirty" emoji 🕞.
-func ThreeThirty(v ...Variant) string { return styled(1682, v) }
+func ThreeThirty() string { return emojiBlob[37721:37725] }
 
 // FourOclock returns the "four o’clock" emoji 🕓.
-func FourOclock(v ...Variant) string { return styled(818, v) }
+func FourOclock() string { return emojiBlob[37677:37681] }
 
 // FourThirty returns the "four-thirty" emoji 🕟.
-func FourThirty(v ...Variant) string { return styled(819, v) }
+func FourThirty() string { return emojiBlob[37725:37729] }
 
 // FiveOclock returns the "five o’clock" emoji 🕔.
-func FiveOclock(v ...Variant) string { return styled(527, v) }
+func FiveOclock() string { return emojiBlob[37681:37685] }
 
 // FiveThirty returns the "five-thirty" emoji 🕠.
-func FiveThirty(v ...Variant) string { return styled(528, v) }
+func FiveThirty() string { return emojiBlob[37729:37733] }
 
 // SixOclock returns the "six o’clock" emoji 🕕.
-func SixOclock(v ...Variant) string { return styled(1551, v) }
+func SixOclock() string { return emojiBlob[37685:37689] }
 
 // SixThirty returns the "six-thirty" emoji 🕡.
-func SixThirty(v ...Variant) string { return styled(1552, v) }
+func SixThirty() string { return emojiBlob[37733:37737] }
 
 // SevenOclock returns the "seven o’clock" emoji 🕖.
-func SevenOclock(v ...Variant) string { return styled(1527, v) }
+func SevenOclock() string { return emojiBlob[37689:37693] }
 
 // SevenThirty returns the "seven-thirty" emoji 🕢.
-func SevenThirty(v ...Variant) string { return styled(1528, v) }
+func SevenThirty() string { return emojiBlob[37737:37741] }
 
 // EightOclock returns the "eight o’clock" emoji 🕗.
-func EightOclock(v ...Variant) string { return styled(413, v) }
+func EightOclock() string { return emojiBlob[37693:37697] }
 
 // EightThirty returns the "eight-thirty" emoji 🕣.
-func EightThirty(v ...Variant) string { return styled(416, v) }
+func EightThirty() string { return emojiBlob[37741:37745] }
 
 // NineOclock returns the "nine o’clock" emoji 🕘.
-func NineOclock(v ...Variant) string { return styled(1227, v) }
+func NineOclock() string { return emojiBlob[37697:37701] }
 
 // NineThirty returns the "nine-thirty" emoji 🕤.
-func NineThirty(v ...Variant) string { return styled(1228, v) }
+func NineThirty() string { return emojiBlob[37745:37749] }
 
 // TenOclock returns the "ten o’clock" emoji 🕙.
-func TenOclock(v ...Variant) string { return styled(1671, v) }
+func TenOclock() string { return emojiBlob[37701:37705] }
 
 // TenThirty returns the "ten-thirty" emoji 🕥.
-func TenThirty(v ...Variant) string { return styled(1672, v) }
+func TenThirty() string { return emojiBlob[37749:37753] }
 
 // ElevenOclock returns the "eleven o’clock" emoji 🕚.
-func ElevenOclock(v ...Variant) string { return styled(421, v) }
+func ElevenOclock() string { return emojiBlob[37705:37709] }
 
 // ElevenThirty returns the "eleven-thirty" emoji 🕦.
-func ElevenThirty(v ...Variant) string { return styled(422, v) }
+func ElevenThirty() string { return emojiBlob[37753:37757] }
 
 // NewMoon returns the "new moon" emoji 🌑.
-func NewMoon(v ...Variant) string { return styled(1222, v) }
+func NewMoon() string { return emojiBlob[35941:35945] }
 
 // WaxingCrescentMoon returns the "waxing crescent moon" emoji 🌒.
-func WaxingCrescentMoon(v ...Variant) string { return styled(1763, v) }
+func WaxingCrescentMoon() string { return emojiBlob[35945:35949] }
 
 // FirstQuarterMoon returns the "first quarter moon" emoji 🌓.
-func FirstQuarterMoon(v ...Variant) string { return styled(522, v) }
+func FirstQuarterMoon() string { return emojiBlob[35949:35953] }
 
 // WaxingGibbousMoon returns the "waxing gibbous moon" emoji 🌔.
-func WaxingGibbousMoon(v ...Variant) string { return styled(1764, v) }
+func WaxingGibbousMoon() string { return emojiBlob[35953:35957] }
 
 // FullMoon returns the "full moon" emoji 🌕.
-func FullMoon(v ...Variant) string { return styled(829, v) }
+func FullMoon() string { return emojiBlob[35957:35961] }
 
 // WaningGibbousMoon returns the "waning gibbous moon" emoji 🌖.
-func WaningGibbousMoon(v ...Variant) string { return styled(1752, v) }
+func WaningGibbousMoon() string { return emojiBlob[35961:35965] }
 
 // LastQuarterMoon returns the "last quarter moon" emoji 🌗.
-func LastQuarterMoon(v ...Variant) string { return styled(1007, v) }
+func LastQuarterMoon() string { return emojiBlob[35965:35969] }
 
 // WaningCrescentMoon returns the "waning crescent moon" emoji 🌘.
-func WaningCrescentMoon(v ...Variant) string { return styled(1751, v) }
+func WaningCrescentMoon() string { return emojiBlob[35969:35973] }
 
 // CrescentMoon returns the "crescent moon" emoji 🌙.
-func CrescentMoon(v ...Variant) string { return styled(326, v) }
+func CrescentMoon() string { return emojiBlob[35973:35977] }
 
 // NewMoonFace returns the "new moon face" emoji 🌚.
-func NewMoonFace(v ...Variant) string { return styled(1223, v) }
+func NewMoonFace() string { return emojiBlob[35977:35981] }
 
 // FirstQuarterMoonFace returns the "first quarter moon face" emoji 🌛.
-func FirstQuarterMoonFace(v ...Variant) string { return styled(523, v) }
+func FirstQuarterMoonFace() string { return emojiBlob[35981:35985] }
 
 // LastQuarterMoonFace returns the "last quarter moon face" emoji 🌜.
-func LastQuarterMoonFace(v ...Variant) string { return styled(1008, v) }
+func LastQuarterMoonFace() string { return emojiBlob[35985:35989] }
 
 // Thermometer returns the "thermometer" emoji 🌡️.
-func Thermometer(v ...Variant) string { return styled(1676, v) }
+func Thermometer() string { return emojiBlob[34611:34618] }
 
 // Sun returns the "sun" emoji ☀️.
-func Sun(v ...Variant) string { return styled(1635, v) }
+func Sun() string { return emojiBlob[35361:35367] }
 
 // FullMoonFace returns the "full moon face" emoji 🌝.
-func FullMoonFace(v ...Variant) string { return styled(830, v) }
+func FullMoonFace() string { return emojiBlob[35989:35993] }
 
 // SunWithFace returns the "sun with face" emoji 🌞.
-func SunWithFace(v ...Variant) string { return styled(1640, v) }
+func SunWithFace() string { return emojiBlob[35993:35997] }
 
 // RingedPlanet returns the "ringed planet" emoji 🪐.
-func RingedPlanet(v ...Variant) string { return styled(1483, v) }
+func RingedPlanet() string { return emojiBlob[39281:39285] }
 
 // Star returns the "star" emoji ⭐.
-func Star(v ...Variant) string { return styled(1620, v) }
+func Star() string { return emojiBlob[39770:39773] }
 
 // GlowingStar returns the "glowing star" emoji 🌟.
-func GlowingStar(v ...Variant) string { return styled(848, v) }
+func GlowingStar() string { return emojiBlob[35997:36001] }
 
 // ShootingStar returns the "shooting star" emoji 🌠.
-func ShootingStar(v ...Variant) string { return styled(1539, v) }
+func ShootingStar() string { return emojiBlob[36001:36005] }
 
 // MilkyWay returns the "milky way" emoji 🌌.
-func MilkyWay(v ...Variant) string { return styled(1171, v) }
+func MilkyWay() string { return emojiBlob[35921:35925] }
 
 // Cloud returns the "cloud" emoji ☁️.
-func Cloud(v ...Variant) string { return styled(280, v) }
+func Cloud() string { return emojiBlob[35367:35373] }
 
 // SunBehindCloud returns the "sun behind cloud" emoji ⛅.
-func SunBehindCloud(v ...Variant) string { return styled(1636, v) }
+func SunBehindCloud() string { return emojiBlob[39701:39704] }
 
 // CloudWithLightningAndRain returns the "cloud with lightning and rain"
 // emoji ⛈️.
-func CloudWithLightningAndRain(v ...Variant) string { return styled(282, v) }
+func CloudWithLightningAndRain() string { return emojiBlob[35571:35577] }
 
 // SunBehindSmallCloud returns the "sun behind small cloud" emoji 🌤️.
-func SunBehindSmallCloud(v ...Variant) string { return styled(1639, v) }
+func SunBehindSmallCloud() string { return emojiBlob[34618:34625] }
 
 // SunBehindLargeCloud returns the "sun behind large cloud" emoji 🌥️.
-func SunBehindLargeCloud(v ...Variant) string { return styled(1637, v) }
+func SunBehindLargeCloud() string { return emojiBlob[34625:34632] }
 
 // SunBehindRainCloud returns the "sun behind rain cloud" emoji 🌦️.
-func SunBehindRainCloud(v ...Variant) string { return styled(1638, v) }
+func SunBehindRainCloud() string { return emojiBlob[34632:34639] }
 
 // CloudWithRain returns the "cloud with rain" emoji 🌧️.
-func CloudWithRain(v ...Variant) string { return styled(283, v) }
+func CloudWithRain() string { return emojiBlob[34639:34646] }
 
 // CloudWithSnow returns the "cloud with snow" emoji 🌨️.
-func CloudWithSnow(v ...Variant) string { return styled(284, v) }
+func CloudWithSnow() string { return emojiBlob[34646:34653] }
 
 // CloudWithLightning returns the "cloud with lightning" emoji 🌩️.
-func CloudWithLightning(v ...Variant) string { return styled(281, v) }
+func CloudWithLightning() string { return emojiBlob[34653:34660] }
 
 // Tornado returns the "tornado" emoji 🌪️.
-func Tornado(v ...Variant) string { return styled(1697, v) }
+func Tornado() string { return emojiBlob[34660:34667] }
 
 // Fog returns the "fog" emoji 🌫️.
-func Fog(v ...Variant) string { return styled(805, v) }
+func Fog() string { return emojiBlob[27570:27577] }
 
 // WindFace returns the "wind face" emoji 🌬️.
-func WindFace(v ...Variant) string { return styled(1786, v) }
+func WindFace() string { return emojiBlob[34667:34674] }
 
 // Cyclone returns the "cyclone" emoji 🌀.
-func Cyclone(v ...Variant) string { return styled(351, v) }
+func Cyclone() string { return emojiBlob[35877:35881] }
 
 // Rainbow returns the "rainbow" emoji 🌈.
-func Rainbow(v ...Variant) string { return styled(1438, v) }
+func Rainbow() string { return emojiBlob[27559:27563] }
 
 // ClosedUmbrella returns the "closed umbrella" emoji 🌂.
-func ClosedUmbrella(v ...Variant) string { return styled(279, v) }
+func ClosedUmbrella() string { return emojiBlob[35885:35889] }
 
 // Umbrella returns the "umbrella" emoji ☂️.
-func Umbrella(v ...Variant) string { return styled(1727, v) }
+func Umbrella() string { return emojiBlob[35373:35379] }
 
 // UmbrellaWithRainDrops returns the "umbrella with rain drops" emoji ☔.
-func UmbrellaWithRainDrops(v ...Variant) string { return styled(1729, v) }
+func UmbrellaWithRainDrops() string { return emojiBlob[39635:39638] }
 
 // UmbrellaOnGround returns the "umbrella on ground" emoji ⛱️.
-func UmbrellaOnGround(v ...Variant) string { return styled(1728, v) }
+func UmbrellaOnGround() string { return emojiBlob[35601:35607] }
 
 // HighVoltage returns the "high voltage" emoji ⚡.
-func HighVoltage(v ...Variant) string { return styled(909, v) }
+func HighVoltage() string { return emojiBlob[39683:39686] }
 
 // Snowflake returns the "snowflake" emoji ❄️.
-func Snowflake(v ...Variant) string { return styled(1585, v) }
+func Snowflake() string { return emojiBlob[27701:27707] }
 
 // Snowman returns the "snowman" emoji ☃️.
-func Snowman(v ...Variant) string { return styled(1586, v) }
+func Snowman() string { return emojiBlob[35379:35385] }
 
 // SnowmanWithoutSnow returns the "snowman without snow" emoji ⛄.
-func SnowmanWithoutSnow(v ...Variant) string { return styled(1587, v) }
+func SnowmanWithoutSnow() string { return emojiBlob[39698:39701] }
 
 // Comet returns the "comet" emoji ☄️.
-func Comet(v ...Variant) string { return styled(296, v) }
+func Comet() string { return emojiBlob[35385:35391] }
 
 // Fire returns the "fire" emoji 🔥.
-func Fire(v ...Variant) string { return styled(516, v) }
+func Fire() string { return emojiBlob[27599:27603] }
 
 // Droplet returns the "droplet" emoji 💧.
-func Droplet(v ...Variant) string { return styled(401, v) }
+func Droplet() string { return emojiBlob[37085:37089] }
 
 // WaterWave returns the "water wave" emoji 🌊.
-func WaterWave(v ...Variant) string { return styled(1759, v) }
+func WaterWave() string { return emojiBlob[35913:35917] }
 
 // Activities
 
 // JackOLantern returns the "jack-o-lantern" emoji 🎃.
-func JackOLantern(v ...Variant) string { return styled(956, v) }
+func JackOLantern() string { return emojiBlob[36321:36325] }
 
 // ChristmasTree returns the "Christmas tree" emoji 🎄.
-func ChristmasTree(v ...Variant) string { return styled(14, v) }
+func ChristmasTree() string { return emojiBlob[26105:26109] }
 
 // Fireworks returns the "fireworks" emoji 🎆.
-func Fireworks(v ...Variant) string { return styled(521, v) }
+func Fireworks() string { return emojiBlob[36325:36329] }
 
 // Sparkler returns the "sparkler" emoji 🎇.
-func Sparkler(v ...Variant) string { return styled(1596, v) }
+func Sparkler() string { return emojiBlob[36329:36333] }
 
 // Firecracker returns the "firecracker" emoji 🧨.
-func Firecracker(v ...Variant) string { return styled(519, v) }
+func Firecracker() string { return emojiBlob[39089:39093] }
 
 // Sparkles returns the "sparkles" emoji ✨.
-func Sparkles(v ...Variant) string { return styled(1597, v) }
+func Sparkles() string { return emojiBlob[39731:39734] }
 
 // Balloon returns the "balloon" emoji 🎈.
-func Balloon(v ...Variant) string { return styled(120, v) }
+func Balloon() string { return emojiBlob[36333:36337] }
 
 // PartyPopper returns the "party popper" emoji 🎉.
-func PartyPopper(v ...Variant) string { return styled(1296, v) }
+func PartyPopper() string { return emojiBlob[36337:36341] }
 
 // ConfettiBall returns the "confetti ball" emoji 🎊.
-func ConfettiBall(v ...Variant) string { return styled(300, v) }
+func ConfettiBall() string { return emojiBlob[36341:36345] }
 
 // TanabataTree returns the "tanabata tree" emoji 🎋.
-func TanabataTree(v ...Variant) string { return styled(1658, v) }
+func TanabataTree() string { return emojiBlob[36345:36349] }
 
 // PineDecoration returns the "pine decoration" emoji 🎍.
-func PineDecoration(v ...Variant) string { return styled(1381, v) }
+func PineDecoration() string { return emojiBlob[36353:36357] }
 
 // JapaneseDolls returns the "Japanese dolls" emoji 🎎.
-func JapaneseDolls(v ...Variant) string { return styled(20, v) }
+func JapaneseDolls() string { return emojiBlob[36357:36361] }
 
 // CarpStreamer returns the "carp streamer" emoji 🎏.
-func CarpStreamer(v ...Variant) string { return styled(233, v) }
+func CarpStreamer() string { return emojiBlob[36361:36365] }
 
 // WindChime returns the "wind chime" emoji 🎐.
-func WindChime(v ...Variant) string { return styled(1785, v) }
+func WindChime() string { return emojiBlob[36365:36369] }
 
 // MoonViewingCeremony returns the "moon viewing ceremony" emoji 🎑.
-func MoonViewingCeremony(v ...Variant) string { return styled(1187, v) }
+func MoonViewingCeremony() string { return emojiBlob[36369:36373] }
 
 // RedEnvelope returns the "red envelope" emoji 🧧.
-func RedEnvelope(v ...Variant) string { return styled(1452, v) }
+func RedEnvelope() string { return emojiBlob[39085:39089] }
 
 // Ribbon returns the "ribbon" emoji 🎀.
-func Ribbon(v ...Variant) string { return styled(1470, v) }
+func Ribbon() string { return emojiBlob[36309:36313] }
 
 // WrappedGift returns the "wrapped gift" emoji 🎁.
-func WrappedGift(v ...Variant) string { return styled(1882, v) }
+func WrappedGift() string { return emojiBlob[36313:36317] }
 
 // ReminderRibbon returns the "reminder ribbon" emoji 🎗️.
-func ReminderRibbon(v ...Variant) string { return styled(1462, v) }
+func ReminderRibbon() string { return emojiBlob[34695:34702] }
 
 // AdmissionTickets returns the "admission tickets" emoji 🎟️.
-func AdmissionTickets(v ...Variant) string { return styled(70, v) }
+func AdmissionTickets() string { return emojiBlob[34730:34737] }
 
 // Ticket returns the "ticket" emoji 🎫.
-func Ticket(v ...Variant) string { return styled(1685, v) }
+func Ticket() string { return emojiBlob[36413:36417] }
 
 // MilitaryMedal returns the "military medal" emoji 🎖️.
-func MilitaryMedal(v ...Variant) string { return styled(1170, v) }
+func MilitaryMedal() string { return emojiBlob[34688:34695] }
 
 // Trophy returns the "trophy" emoji 🏆.
-func Trophy(v ...Variant) string { return styled(1713, v) }
+func Trophy() string { return emojiBlob[36509:36513] }
 
 // SportsMedal returns the "sports medal" emoji 🏅.
-func SportsMedal(v ...Variant) string { return styled(1615, v) }
+func SportsMedal() string { return emojiBlob[36505:36509] }
 
 // FirstPlaceMedal returns the "1st place medal" emoji 🥇.
-func FirstPlaceMedal(v ...Variant) string { return styled(0, v) }
+func FirstPlaceMedal() string { return emojiBlob[38573:38577] }
 
 // SecondPlaceMedal returns the "2nd place medal" emoji 🥈.
-func SecondPlaceMedal(v ...Variant) string { return styled(1, v) }
+func SecondPlaceMedal() string { return emojiBlob[38577:38581] }
 
 // ThirdPlaceMedal returns the "3rd place medal" emoji 🥉.
-func ThirdPlaceMedal(v ...Variant) string { return styled(2, v) }
+func ThirdPlaceMedal() string { return emojiBlob[38581:38585] }
 
 // SoccerBall returns the "soccer ball" emoji ⚽.
-func SoccerBall(v ...Variant) string { return styled(1589, v) }
+func SoccerBall() string { return emojiBlob[39692:39695] }
 
 // Baseball returns the "baseball" emoji ⚾.
-func Baseball(v ...Variant) string { return styled(127, v) }
+func Baseball() string { return emojiBlob[39695:39698] }
 
 // Softball returns the "softball" emoji 🥎.
-func Softball(v ...Variant) string { return styled(1592, v) }
+func Softball() string { return emojiBlob[38601:38605] }
 
 // Basketball returns the "basketball" emoji 🏀.
-func Basketball(v ...Variant) string { return styled(129, v) }
+func Basketball() string { return emojiBlob[36497:36501] }
 
 // Volleyball returns the "volleyball" emoji 🏐.
-func Volleyball(v ...Variant) string { return styled(1748, v) }
+func Volleyball() string { return emojiBlob[36525:36529] }
 
 // AmericanFootball returns the "american football" emoji 🏈.
-func AmericanFootball(v ...Variant) string { return styled(80, v) }
+func AmericanFootball() string { return emojiBlob[36513:36517] }
 
 // RugbyFootball returns the "rugby football" emoji 🏉.
-func RugbyFootball(v ...Variant) string { return styled(1498, v) }
+func RugbyFootball() string { return emojiBlob[36517:36521] }
 
 // Tennis returns the "tennis" emoji 🎾.
-func Tennis(v ...Variant) string { return styled(1673, v) }
+func Tennis() string { return emojiBlob[36489:36493] }
 
 // FlyingDisc returns the "flying disc" emoji 🥏.
-func FlyingDisc(v ...Variant) string { return styled(803, v) }
+func FlyingDisc() string { return emojiBlob[38605:38609] }
 
 // Bowling returns the "bowling" emoji 🎳.
-func Bowling(v ...Variant) string { return styled(185, v) }
+func Bowling() string { return emojiBlob[36445:36449] }
 
 // CricketGame returns the "cricket game" emoji 🏏.
-func CricketGame(v ...Variant) string { return styled(328, v) }
+func CricketGame() string { return emojiBlob[36521:36525] }
 
 // FieldHockey returns the "field hockey" emoji 🏑.
-func FieldHockey(v ...Variant) string { return styled(509, v) }
+func FieldHockey() string { return emojiBlob[36529:36533] }
 
 // IceHockey returns the "ice hockey" emoji 🏒.
-func IceHockey(v ...Variant) string { return styled(942, v) }
+func IceHockey() string { return emojiBlob[36533:36537] }
 
 // Lacrosse returns the "lacrosse" emoji 🥍.
-func Lacrosse(v ...Variant) string { return styled(1000, v) }
+func Lacrosse() string { return emojiBlob[38597:38601] }
 
 // PingPong returns the "ping pong" emoji 🏓.
-func PingPong(v ...Variant) string { return styled(1383, v) }
+func PingPong() string { return emojiBlob[36537:36541] }
 
 // Badminton returns the "badminton" emoji 🏸.
-func Badminton(v ...Variant) string { return styled(113, v) }
+func Badminton() string { return emojiBlob[36601:36605] }
 
 // BoxingGlove returns the "boxing glove" emoji 🥊.
-func BoxingGlove(v ...Variant) string { return styled(186, v) }
+func BoxingGlove() string { return emojiBlob[38585:38589] }
 
 // MartialArtsUniform returns the "martial arts uniform" emoji 🥋.
-func MartialArtsUniform(v ...Variant) string { return styled(1144, v) }
+func MartialArtsUniform() string { return emojiBlob[38589:38593] }
 
 // GoalNet returns the "goal net" emoji 🥅.
-func GoalNet(v ...Variant) string { return styled(849, v) }
+func GoalNet() string { return emojiBlob[38569:38573] }
 
 // FlagInHole returns the "flag in hole" emoji ⛳.
-func FlagInHole(v ...Variant) string { return styled(529, v) }
+func FlagInHole() string { return emojiBlob[39716:39719] }
 
 // IceSkate returns the "ice skate" emoji ⛸️.
-func IceSkate(v ...Variant) string { return styled(943, v) }
+func IceSkate() string { return emojiBlob[35619:35625] }
 
 // FishingPole returns the "fishing pole" emoji 🎣.
-func FishingPole(v ...Variant) string { return styled(526, v) }
+func FishingPole() string { return emojiBlob[36389:36393] }
 
 // DivingMask returns the "diving mask" emoji 🤿.
-func DivingMask(v ...Variant) string { return styled(374, v) }
+func DivingMask() string { return emojiBlob[38545:38549] }
 
 // RunningShirt returns the "running shirt" emoji 🎽.
-func RunningShirt(v ...Variant) string { return styled(1499, v) }
+func RunningShirt() string { return emojiBlob[36485:36489] }
 
 // Skis returns the "skis" emoji 🎿.
-func Skis(v ...Variant) string { return styled(1555, v) }
+func Skis() string { return emojiBlob[36493:36497] }
 
 // Sled returns the "sled" emoji 🛷.
-func Sled(v ...Variant) string { return styled(1559, v) }
+func Sled() string { return emojiBlob[38373:38377] }
 
 // CurlingStone returns the "curling stone" emoji 🥌.
-func CurlingStone(v ...Variant) string { return styled(344, v) }
+func CurlingStone() string { return emojiBlob[38593:38597] }
 
 // Bullseye returns the "bullseye" emoji 🎯.
-func Bullseye(v ...Variant) string { return styled(210, v) }
+func Bullseye() string { return emojiBlob[36429:36433] }
 
 // YoYo returns the "yo-yo" emoji 🪀.
-func YoYo(v ...Variant) string { return styled(1893, v) }
+func YoYo() string { return emojiBlob[39229:39233] }
 
 // Kite returns the "kite" emoji 🪁.
-func Kite(v ...Variant) string { return styled(994, v) }
+func Kite() string { return emojiBlob[39233:39237] }
 
 // WaterPistol returns the "water pistol" emoji 🔫.
-func WaterPistol(v ...Variant) string { return styled(1758, v) }
+func WaterPistol() string { return emojiBlob[37577:37581] }
 
 // Pool8Ball returns the "pool 8 ball" emoji 🎱.
-func Pool8Ball(v ...Variant) string { return styled(1401, v) }
+func Pool8Ball() string { return emojiBlob[36437:36441] }
 
 // CrystalBall returns the "crystal ball" emoji 🔮.
-func CrystalBall(v ...Variant) string { return styled(340, v) }
+func CrystalBall() string { return emojiBlob[37585:37589] }
 
 // MagicWand returns the "magic wand" emoji 🪄.
-func MagicWand(v ...Variant) string { return styled(1057, v) }
+func MagicWand() string { return emojiBlob[39245:39249] }
 
 // VideoGame returns the "video game" emoji 🎮.
-func VideoGame(v ...Variant) string { return styled(1744, v) }
+func VideoGame() string { return emojiBlob[36425:36429] }
 
 // Joystick returns the "joystick" emoji 🕹️.
-func Joystick(v ...Variant) string { return styled(961, v) }
+func Joystick() string { return emojiBlob[34926:34933] }
 
 // SlotMachine returns the "slot machine" emoji 🎰.
-func SlotMachine(v ...Variant) string { return styled(1564, v) }
+func SlotMachine() string { return emojiBlob[36433:36437] }
 
 // GameDie returns the "game die" emoji 🎲.
-func GameDie(v ...Variant) string { return styled(832, v) }
+func GameDie() string { return emojiBlob[36441:36445] }
 
 // PuzzlePiece returns the "puzzle piece" emoji 🧩.
-func PuzzlePiece(v ...Variant) string { return styled(1428, v) }
+func PuzzlePiece() string { return emojiBlob[39093:39097] }
 
 // TeddyBear returns the "teddy bear" emoji 🧸.
-func TeddyBear(v ...Variant) string { return styled(1666, v) }
+func TeddyBear() string { return emojiBlob[39153:39157] }
 
 // Pinata returns the "piñata" emoji 🪅.
-func Pinata(v ...Variant) string { return styled(1387, v) }
+func Pinata() string { return emojiBlob[39249:39253] }
 
 // MirrorBall returns the "mirror ball" emoji 🪩.
-func MirrorBall(v ...Variant) string { return styled(1175, v) }
+func MirrorBall() string { return emojiBlob[39381:39385] }
 
 // NestingDolls returns the "nesting dolls" emoji 🪆.
-func NestingDolls(v ...Variant) string { return styled(1220, v) }
+func NestingDolls() string { return emojiBlob[39253:39257] }
 
 // SpadeSuit returns the "spade suit" emoji ♠️.
-func SpadeSuit(v ...Variant) string { return styled(1593, v) }
+func SpadeSuit() string { return emojiBlob[35475:35481] }
 
 // HeartSuit returns the "heart suit" emoji ♥️.
-func HeartSuit(v ...Variant) string { return styled(900, v) }
+func HeartSuit() string { return emojiBlob[35487:35493] }
 
 // DiamondSuit returns the "diamond suit" emoji ♦️.
-func DiamondSuit(v ...Variant) string { return styled(367, v) }
+func DiamondSuit() string { return emojiBlob[35493:35499] }
 
 // ClubSuit returns the "club suit" emoji ♣️.
-func ClubSuit(v ...Variant) string { return styled(286, v) }
+func ClubSuit() string { return emojiBlob[35481:35487] }
 
 // ChessPawn returns the "chess pawn" emoji ♟️.
-func ChessPawn(v ...Variant) string { return styled(253, v) }
+func ChessPawn() string { return emojiBlob[35469:35475] }
 
 // Joker returns the "joker" emoji 🃏.
-func Joker(v ...Variant) string { return styled(960, v) }
+func Joker() string { return emojiBlob[35777:35781] }
 
 // MahjongRedDragon returns the "mahjong red dragon" emoji 🀄.
-func MahjongRedDragon(v ...Variant) string { return styled(1061, v) }
+func MahjongRedDragon() string { return emojiBlob[35773:35777] }
 
 // FlowerPlayingCards returns the "flower playing cards" emoji 🎴.
-func FlowerPlayingCards(v ...Variant) string { return styled(799, v) }
+func FlowerPlayingCards() string { return emojiBlob[36449:36453] }
 
 // PerformingArts returns the "performing arts" emoji 🎭.
-func PerformingArts(v ...Variant) string { return styled(1316, v) }
+func PerformingArts() string { return emojiBlob[36421:36425] }
 
 // FramedPicture returns the "framed picture" emoji 🖼️.
-func FramedPicture(v ...Variant) string { return styled(821, v) }
+func FramedPicture() string { return emojiBlob[35003:35010] }
 
 // ArtistPalette returns the "artist palette" emoji 🎨.
-func ArtistPalette(v ...Variant) string { return styled(93, v) }
+func ArtistPalette() string { return emojiBlob[23435:23439] }
 
 // Thread returns the "thread" emoji 🧵.
-func Thread(v ...Variant) string { return styled(1680, v) }
+func Thread() string { return emojiBlob[39141:39145] }
 
 // SewingNeedle returns the "sewing needle" emoji 🪡.
-func SewingNeedle(v ...Variant) string { return styled(1529, v) }
+func SewingNeedle() string { return emojiBlob[39349:39353] }
 
 // Yarn returns the "yarn" emoji 🧶.
-func Yarn(v ...Variant) string { return styled(1886, v) }
+func Yarn() string { return emojiBlob[39145:39149] }
 
 // Knot returns the "knot" emoji 🪢.
-func Knot(v ...Variant) string { return styled(996, v) }
+func Knot() string { return emojiBlob[39353:39357] }
 
 // Objects
 
 // Glasses returns the "glasses" emoji 👓.
-func Glasses(v ...Variant) string { return styled(842, v) }
+func Glasses() string { return emojiBlob[36865:36869] }
 
 // Sunglasses returns the "sunglasses" emoji 🕶️.
-func Sunglasses(v ...Variant) string { return styled(1642, v) }
+func Sunglasses() string { return emojiBlob[34905:34912] }
 
 // Goggles returns the "goggles" emoji 🥽.
-func Goggles(v ...Variant) string { return styled(852, v) }
+func Goggles() string { return emojiBlob[38785:38789] }
 
 // LabCoat returns the "lab coat" emoji 🥼.
-func LabCoat(v ...Variant) string { return styled(998, v) }
+func LabCoat() string { return emojiBlob[38781:38785] }
 
 // SafetyVest returns the "safety vest" emoji 🦺.
-func SafetyVest(v ...Variant) string { return styled(1503, v) }
+func SafetyVest() string { return emojiBlob[28997:29001] }
 
 // Necktie returns the "necktie" emoji 👔.
-func Necktie(v ...Variant) string { return styled(1217, v) }
+func Necktie() string { return emojiBlob[36869:36873] }
 
 // TShirt returns the "t-shirt" emoji 👕.
-func TShirt(v ...Variant) string { return styled(1654, v) }
+func TShirt() string { return emojiBlob[36873:36877] }
 
 // Jeans returns the "jeans" emoji 👖.
-func Jeans(v ...Variant) string { return styled(958, v) }
+func Jeans() string { return emojiBlob[36877:36881] }
 
 // Scarf returns the "scarf" emoji 🧣.
-func Scarf(v ...Variant) string { return styled(1514, v) }
+func Scarf() string { return emojiBlob[39069:39073] }
 
 // Gloves returns the "gloves" emoji 🧤.
-func Gloves(v ...Variant) string { return styled(847, v) }
+func Gloves() string { return emojiBlob[39073:39077] }
 
 // Coat returns the "coat" emoji 🧥.
-func Coat(v ...Variant) string { return styled(288, v) }
+func Coat() string { return emojiBlob[39077:39081] }
 
 // Socks returns the "socks" emoji 🧦.
-func Socks(v ...Variant) string { return styled(1590, v) }
+func Socks() string { return emojiBlob[39081:39085] }
 
 // Dress returns the "dress" emoji 👗.
-func Dress(v ...Variant) string { return styled(398, v) }
+func Dress() string { return emojiBlob[36881:36885] }
 
 // Kimono returns the "kimono" emoji 👘.
-func Kimono(v ...Variant) string { return styled(982, v) }
+func Kimono() string { return emojiBlob[36885:36889] }
 
 // Sari returns the "sari" emoji 🥻.
-func Sari(v ...Variant) string { return styled(1509, v) }
+func Sari() string { return emojiBlob[38777:38781] }
 
 // OnePieceSwimsuit returns the "one-piece swimsuit" emoji 🩱.
-func OnePieceSwimsuit(v ...Variant) string { return styled(1260, v) }
+func OnePieceSwimsuit() string { return emojiBlob[39185:39189] }
 
 // Briefs returns the "briefs" emoji 🩲.
-func Briefs(v ...Variant) string { return styled(194, v) }
+func Briefs() string { return emojiBlob[39189:39193] }
 
 // Shorts returns the "shorts" emoji 🩳.
-func Shorts(v ...Variant) string { return styled(1543, v) }
+func Shorts() string { return emojiBlob[39193:39197] }
 
 // Bikini returns the "bikini" emoji 👙.
-func Bikini(v ...Variant) string { return styled(149, v) }
+func Bikini() string { return emojiBlob[36889:36893] }
 
 // WomansClothes returns the "woman’s clothes" emoji 👚.
-func WomansClothes(v ...Variant) string { return styled(1870, v) }
+func WomansClothes() string { return emojiBlob[36893:36897] }
 
 // FoldingHandFan returns the "folding hand fan" emoji 🪭.
-func FoldingHandFan(v ...Variant) string { return styled(808, v) }
+func FoldingHandFan() string { return emojiBlob[39397:39401] }
 
 // Purse returns the "purse" emoji 👛.
-func Purse(v ...Variant) string { return styled(1426, v) }
+func Purse() string { return emojiBlob[36897:36901] }
 
 // Handbag returns the "handbag" emoji 👜.
-func Handbag(v ...Variant) string { return styled(886, v) }
+func Handbag() string { return emojiBlob[36901:36905] }
 
 // ClutchBag returns the "clutch bag" emoji 👝.
-func ClutchBag(v ...Variant) string { return styled(287, v) }
+func ClutchBag() string { return emojiBlob[36905:36909] }
 
 // ShoppingBags returns the "shopping bags" emoji 🛍️.
-func ShoppingBags(v ...Variant) string { return styled(1540, v) }
+func ShoppingBags() string { return emojiBlob[35115:35122] }
 
 // Backpack returns the "backpack" emoji 🎒.
-func Backpack(v ...Variant) string { return styled(110, v) }
+func Backpack() string { return emojiBlob[36373:36377] }
 
 // ThongSandal returns the "thong sandal" emoji 🩴.
-func ThongSandal(v ...Variant) string { return styled(1678, v) }
+func ThongSandal() string { return emojiBlob[39197:39201] }
 
 // MansShoe returns the "man’s shoe" emoji 👞.
-func MansShoe(v ...Variant) string { return styled(1140, v) }
+func MansShoe() string { return emojiBlob[36909:36913] }
 
 // RunningShoe returns the "running shoe" emoji 👟.
-func RunningShoe(v ...Variant) string { return styled(1500, v) }
+func RunningShoe() string { return emojiBlob[36913:36917] }
 
 // HikingBoot returns the "hiking boot" emoji 🥾.
-func HikingBoot(v ...Variant) string { return styled(912, v) }
+func HikingBoot() string { return emojiBlob[38789:38793] }
 
 // FlatShoe returns the "flat shoe" emoji 🥿.
-func FlatShoe(v ...Variant) string { return styled(794, v) }
+func FlatShoe() string { return emojiBlob[38793:38797] }
 
 // HighHeeledShoe returns the "high-heeled shoe" emoji 👠.
-func HighHeeledShoe(v ...Variant) string { return styled(910, v) }
+func HighHeeledShoe() string { return emojiBlob[36917:36921] }
 
 // WomansSandal returns the "woman’s sandal" emoji 👡.
-func WomansSandal(v ...Variant) string { return styled(1872, v) }
+func WomansSandal() string { return emojiBlob[36921:36925] }
 
 // BalletShoes returns the "ballet shoes" emoji 🩰.
-func BalletShoes(v ...Variant) string { return styled(119, v) }
+func BalletShoes() string { return emojiBlob[26345:26349] }
 
 // WomansBoot returns the "woman’s boot" emoji 👢.
-func WomansBoot(v ...Variant) string { return styled(1869, v) }
+func WomansBoot() string { return emojiBlob[36925:36929] }
 
 // HairPick returns the "hair pick" emoji 🪮.
-func HairPick(v ...Variant) string { return styled(876, v) }
+func HairPick() string { return emojiBlob[39401:39405] }
 
 // Crown returns the "crown" emoji 👑.
-func Crown(v ...Variant) string { return styled(336, v) }
+func Crown() string { return emojiBlob[36857:36861] }
 
 // WomansHat returns the "woman’s hat" emoji 👒.
-func WomansHat(v ...Variant) string { return styled(1871, v) }
+func WomansHat() string { return emojiBlob[36861:36865] }
 
 // TopHat returns the "top hat" emoji 🎩.
-func TopHat(v ...Variant) string { return styled(1696, v) }
+func TopHat() string { return emojiBlob[36405:36409] }
 
 // GraduationCap returns the "graduation cap" emoji 🎓.
-func GraduationCap(v ...Variant) string { return styled(855, v) }
+func GraduationCap() string { return emojiBlob[23405:23409] }
 
 // BilledCap returns the "billed cap" emoji 🧢.
-func BilledCap(v ...Variant) string { return styled(150, v) }
+func BilledCap() string { return emojiBlob[39065:39069] }
 
 // MilitaryHelmet returns the "military helmet" emoji 🪖.
-func MilitaryHelmet(v ...Variant) string { return styled(1169, v) }
+func MilitaryHelmet() string { return emojiBlob[39305:39309] }
 
 // RescueWorkersHelmet returns the "rescue worker’s helmet" emoji ⛑️.
-func RescueWorkersHelmet(v ...Variant) string { return styled(1465, v) }
+func RescueWorkersHelmet() string { return emojiBlob[35583:35589] }
 
 // PrayerBeads returns the "prayer beads" emoji 📿.
-func PrayerBeads(v ...Variant) string { return styled(1414, v) }
+func PrayerBeads() string { return emojiBlob[37409:37413] }
 
 // Lipstick returns the "lipstick" emoji 💄.
-func Lipstick(v ...Variant) string { return styled(1034, v) }
+func Lipstick() string { return emojiBlob[36973:36977] }
 
 // Ring returns the "ring" emoji 💍.
-func Ring(v ...Variant) string { return styled(1481, v) }
+func Ring() string { return emojiBlob[36993:36997] }
 
 // GemStone returns the "gem stone" emoji 💎.
-func GemStone(v ...Variant) string { return styled(835, v) }
+func GemStone() string { return emojiBlob[36997:37001] }
 
 // MutedSpeaker returns the "muted speaker" emoji 🔇.
-func MutedSpeaker(v ...Variant) string { return styled(1211, v) }
+func MutedSpeaker() string { return emojiBlob[37441:37445] }
 
 // SpeakerLowVolume returns the "speaker low volume" emoji 🔈.
-func SpeakerLowVolume(v ...Variant) string { return styled(1601, v) }
+func SpeakerLowVolume() string { return emojiBlob[37445:37449] }
 
 // SpeakerMediumVolume returns the "speaker medium volume" emoji 🔉.
-func SpeakerMediumVolume(v ...Variant) string { return styled(1602, v) }
+func SpeakerMediumVolume() string { return emojiBlob[37449:37453] }
 
 // SpeakerHighVolume returns the "speaker high volume" emoji 🔊.
-func SpeakerHighVolume(v ...Variant) string { return styled(1600, v) }
+func SpeakerHighVolume() string { return emojiBlob[37453:37457] }
 
 // Loudspeaker returns the "loudspeaker" emoji 📢.
-func Loudspeaker(v ...Variant) string { return styled(1048, v) }
+func Loudspeaker() string { return emojiBlob[37301:37305] }
 
 // Megaphone returns the "megaphone" emoji 📣.
-func Megaphone(v ...Variant) string { return styled(1151, v) }
+func Megaphone() string { return emojiBlob[37305:37309] }
 
 // PostalHorn returns the "postal horn" emoji 📯.
-func PostalHorn(v ...Variant) string { return styled(1404, v) }
+func PostalHorn() string { return emojiBlob[37353:37357] }
 
 // Bell returns the "bell" emoji 🔔.
-func Bell(v ...Variant) string { return styled(142, v) }
+func Bell() string { return emojiBlob[37493:37497] }
 
 // BellWithSlash returns the "bell with slash" emoji 🔕.
-func BellWithSlash(v ...Variant) string { return styled(144, v) }
+func BellWithSlash() string { return emojiBlob[37497:37501] }
 
 // MusicalScore returns the "musical score" emoji 🎼.
-func MusicalScore(v ...Variant) string { return styled(1210, v) }
+func MusicalScore() string { return emojiBlob[36481:36485] }
 
 // MusicalNote returns the "musical note" emoji 🎵.
-func MusicalNote(v ...Variant) string { return styled(1208, v) }
+func MusicalNote() string { return emojiBlob[36453:36457] }
 
 // MusicalNotes returns the "musical notes" emoji 🎶.
-func MusicalNotes(v ...Variant) string { return styled(1209, v) }
+func MusicalNotes() string { return emojiBlob[36457:36461] }
 
 // StudioMicrophone returns the "studio microphone" emoji 🎙️.
-func StudioMicrophone(v ...Variant) string { return styled(1633, v) }
+func StudioMicrophone() string { return emojiBlob[34702:34709] }
 
 // LevelSlider returns the "level slider" emoji 🎚️.
-func LevelSlider(v ...Variant) string { return styled(1026, v) }
+func LevelSlider() string { return emojiBlob[34709:34716] }
 
 // ControlKnobs returns the "control knobs" emoji 🎛️.
-func ControlKnobs(v ...Variant) string { return styled(305, v) }
+func ControlKnobs() string { return emojiBlob[34716:34723] }
 
 // Microphone returns the "microphone" emoji 🎤.
-func Microphone(v ...Variant) string { return styled(1166, v) }
+func Microphone() string { return emojiBlob[23420:23424] }
 
 // Headphone returns the "headphone" emoji 🎧.
-func Headphone(v ...Variant) string { return styled(892, v) }
+func Headphone() string { return emojiBlob[36401:36405] }
 
 // Radio returns the "radio" emoji 📻.
-func Radio(v ...Variant) string { return styled(1433, v) }
+func Radio() string { return emojiBlob[37401:37405] }
 
 // Saxophone returns the "saxophone" emoji 🎷.
-func Saxophone(v ...Variant) string { return styled(1513, v) }
+func Saxophone() string { return emojiBlob[36461:36465] }
 
 // Trumpet returns the "trumpet" emoji 🎺.
-func Trumpet(v ...Variant) string { return styled(1716, v) }
+func Trumpet() string { return emojiBlob[36473:36477] }
 
 // Trombone returns the "trombone" emoji 🪊.
-func Trombone(v ...Variant) string { return styled(1712, v) }
+func Trombone() string { return emojiBlob[39269:39273] }
 
 // Accordion returns the "accordion" emoji 🪗.
-func Accordion(v ...Variant) string { return styled(68, v) }
+func Accordion() string { return emojiBlob[39309:39313] }
 
 // Guitar returns the "guitar" emoji 🎸.
-func Guitar(v ...Variant) string { return styled(875, v) }
+func Guitar() string { return emojiBlob[36465:36469] }
 
 // MusicalKeyboard returns the "musical keyboard" emoji 🎹.
-func MusicalKeyboard(v ...Variant) string { return styled(1207, v) }
+func MusicalKeyboard() string { return emojiBlob[36469:36473] }
 
 // Violin returns the "violin" emoji 🎻.
-func Violin(v ...Variant) string { return styled(1746, v) }
+func Violin() string { return emojiBlob[36477:36481] }
 
 // Banjo returns the "banjo" emoji 🪕.
-func Banjo(v ...Variant) string { return styled(123, v) }
+func Banjo() string { return emojiBlob[39301:39305] }
 
 // Drum returns the "drum" emoji 🥁.
-func Drum(v ...Variant) string { return styled(402, v) }
+func Drum() string { return emojiBlob[38553:38557] }
 
 // LongDrum returns the "long drum" emoji 🪘.
-func LongDrum(v ...Variant) string { return styled(1044, v) }
+func LongDrum() string { return emojiBlob[39313:39317] }
 
 // Maracas returns the "maracas" emoji 🪇.
-func Maracas(v ...Variant) string { return styled(1143, v) }
+func Maracas() string { return emojiBlob[39257:39261] }
 
 // Flute returns the "flute" emoji 🪈.
-func Flute(v ...Variant) string { return styled(801, v) }
+func Flute() string { return emojiBlob[39261:39265] }
 
 // Harp returns the "harp" emoji 🪉.
-func Harp(v ...Variant) string { return styled(888, v) }
+func Harp() string { return emojiBlob[39265:39269] }
 
 // MobilePhone returns the "mobile phone" emoji 📱.
-func MobilePhone(v ...Variant) string { return styled(1177, v) }
+func MobilePhone() string { return emojiBlob[37361:37365] }
 
 // MobilePhoneWithArrow returns the "mobile phone with arrow" emoji 📲.
-func MobilePhoneWithArrow(v ...Variant) string { return styled(1179, v) }
+func MobilePhoneWithArrow() string { return emojiBlob[37365:37369] }
 
 // Telephone returns the "telephone" emoji ☎️.
-func Telephone(v ...Variant) string { return styled(1667, v) }
+func Telephone() string { return emojiBlob[35391:35397] }
 
 // TelephoneReceiver returns the "telephone receiver" emoji 📞.
-func TelephoneReceiver(v ...Variant) string { return styled(1668, v) }
+func TelephoneReceiver() string { return emojiBlob[37285:37289] }
 
 // Pager returns the "pager" emoji 📟.
-func Pager(v ...Variant) string { return styled(1284, v) }
+func Pager() string { return emojiBlob[37289:37293] }
 
 // FaxMachine returns the "fax machine" emoji 📠.
-func FaxMachine(v ...Variant) string { return styled(503, v) }
+func FaxMachine() string { return emojiBlob[37293:37297] }
 
 // Battery returns the "battery" emoji 🔋.
-func Battery(v ...Variant) string { return styled(132, v) }
+func Battery() string { return emojiBlob[37457:37461] }
 
 // LowBattery returns the "low battery" emoji 🪫.
-func LowBattery(v ...Variant) string { return styled(1052, v) }
+func LowBattery() string { return emojiBlob[39389:39393] }
 
 // ElectricPlug returns the "electric plug" emoji 🔌.
-func ElectricPlug(v ...Variant) string { return styled(418, v) }
+func ElectricPlug() string { return emojiBlob[37461:37465] }
 
 // Laptop returns the "laptop" emoji 💻.
-func Laptop(v ...Variant) string { return styled(1004, v) }
+func Laptop() string { return emojiBlob[23480:23484] }
 
 // DesktopComputer returns the "desktop computer" emoji 🖥️.
-func DesktopComputer(v ...Variant) string { return styled(365, v) }
+func DesktopComputer() string { return emojiBlob[34975:34982] }
 
 // Printer returns the "printer" emoji 🖨️.
-func Printer(v ...Variant) string { return styled(1421, v) }
+func Printer() string { return emojiBlob[34982:34989] }
 
 // Keyboard returns the "keyboard" emoji ⌨️.
-func Keyboard(v ...Variant) string { return styled(966, v) }
+func Keyboard() string { return emojiBlob[35259:35265] }
 
 // ComputerMouse returns the "computer mouse" emoji 🖱️.
-func ComputerMouse(v ...Variant) string { return styled(299, v) }
+func ComputerMouse() string { return emojiBlob[34989:34996] }
 
 // Trackball returns the "trackball" emoji 🖲️.
-func Trackball(v ...Variant) string { return styled(1698, v) }
+func Trackball() string { return emojiBlob[34996:35003] }
 
 // ComputerDisk returns the "computer disk" emoji 💽.
-func ComputerDisk(v ...Variant) string { return styled(298, v) }
+func ComputerDisk() string { return emojiBlob[37153:37157] }
 
 // FloppyDisk returns the "floppy disk" emoji 💾.
-func FloppyDisk(v ...Variant) string { return styled(798, v) }
+func FloppyDisk() string { return emojiBlob[37157:37161] }
 
 // OpticalDisk returns the "optical disk" emoji 💿.
-func OpticalDisk(v ...Variant) string { return styled(1268, v) }
+func OpticalDisk() string { return emojiBlob[37161:37165] }
 
 // Dvd returns the "dvd" emoji 📀.
-func Dvd(v ...Variant) string { return styled(405, v) }
+func Dvd() string { return emojiBlob[37165:37169] }
 
 // Abacus returns the "abacus" emoji 🧮.
-func Abacus(v ...Variant) string { return styled(67, v) }
+func Abacus() string { return emojiBlob[39113:39117] }
 
 // MovieCamera returns the "movie camera" emoji 🎥.
-func MovieCamera(v ...Variant) string { return styled(1204, v) }
+func MovieCamera() string { return emojiBlob[36393:36397] }
 
 // FilmFrames returns the "film frames" emoji 🎞️.
-func FilmFrames(v ...Variant) string { return styled(513, v) }
+func FilmFrames() string { return emojiBlob[34723:34730] }
 
 // FilmProjector returns the "film projector" emoji 📽️.
-func FilmProjector(v ...Variant) string { return styled(514, v) }
+func FilmProjector() string { return emojiBlob[34856:34863] }
 
 // ClapperBoard returns the "clapper board" emoji 🎬.
-func ClapperBoard(v ...Variant) string { return styled(269, v) }
+func ClapperBoard() string { return emojiBlob[36417:36421] }
 
 // Television returns the "television" emoji 📺.
-func Television(v ...Variant) string { return styled(1670, v) }
+func Television() string { return emojiBlob[37397:37401] }
 
 // Camera returns the "camera" emoji 📷.
-func Camera(v ...Variant) string { return styled(222, v) }
+func Camera() string { return emojiBlob[37385:37389] }
 
 // CameraWithFlash returns the "camera with flash" emoji 📸.
-func CameraWithFlash(v ...Variant) string { return styled(223, v) }
+func CameraWithFlash() string { return emojiBlob[37389:37393] }
 
 // VideoCamera returns the "video camera" emoji 📹.
-func VideoCamera(v ...Variant) string { return styled(1743, v) }
+func VideoCamera() string { return emojiBlob[37393:37397] }
 
 // Videocassette returns the "videocassette" emoji 📼.
-func Videocassette(v ...Variant) string { return styled(1745, v) }
+func Videocassette() string { return emojiBlob[37405:37409] }
 
 // MagnifyingGlassTiltedLeft returns the "magnifying glass tilted left"
 // emoji 🔍.
-func MagnifyingGlassTiltedLeft(v ...Variant) string { return styled(1059, v) }
+func MagnifyingGlassTiltedLeft() string { return emojiBlob[37465:37469] }
 
 // MagnifyingGlassTiltedRight returns the "magnifying glass tilted right"
 // emoji 🔎.
-func MagnifyingGlassTiltedRight(v ...Variant) string { return styled(1060, v) }
+func MagnifyingGlassTiltedRight() string { return emojiBlob[37469:37473] }
 
 // Candle returns the "candle" emoji 🕯️.
-func Candle(v ...Variant) string { return styled(225, v) }
+func Candle() string { return emojiBlob[34877:34884] }
 
 // LightBulb returns the "light bulb" emoji 💡.
-func LightBulb(v ...Variant) string { return styled(1028, v) }
+func LightBulb() string { return emojiBlob[37065:37069] }
 
 // Flashlight returns the "flashlight" emoji 🔦.
-func Flashlight(v ...Variant) string { return styled(793, v) }
+func Flashlight() string { return emojiBlob[37561:37565] }
 
 // RedPaperLantern returns the "red paper lantern" emoji 🏮.
-func RedPaperLantern(v ...Variant) string { return styled(1455, v) }
+func RedPaperLantern() string { return emojiBlob[36589:36593] }
 
 // DiyaLamp returns the "diya lamp" emoji 🪔.
-func DiyaLamp(v ...Variant) string { return styled(375, v) }
+func DiyaLamp() string { return emojiBlob[39297:39301] }
 
 // NotebookWithDecorativeCover returns the "notebook with decorative cover"
 // emoji 📔.
-func NotebookWithDecorativeCover(v ...Variant) string { return styled(1240, v) }
+func NotebookWithDecorativeCover() string { return emojiBlob[37245:37249] }
 
 // ClosedBook returns the "closed book" emoji 📕.
-func ClosedBook(v ...Variant) string { return styled(276, v) }
+func ClosedBook() string { return emojiBlob[37249:37253] }
 
 // OpenBook returns the "open book" emoji 📖.
-func OpenBook(v ...Variant) string { return styled(1263, v) }
+func OpenBook() string { return emojiBlob[37253:37257] }
 
 // GreenBook returns the "green book" emoji 📗.
-func GreenBook(v ...Variant) string { return styled(858, v) }
+func GreenBook() string { return emojiBlob[37257:37261] }
 
 // BlueBook returns the "blue book" emoji 📘.
-func BlueBook(v ...Variant) string { return styled(169, v) }
+func BlueBook() string { return emojiBlob[37261:37265] }
 
 // OrangeBook returns the "orange book" emoji 📙.
-func OrangeBook(v ...Variant) string { return styled(1269, v) }
+func OrangeBook() string { return emojiBlob[37265:37269] }
 
 // Books returns the "books" emoji 📚.
-func Books(v ...Variant) string { return styled(179, v) }
+func Books() string { return emojiBlob[37269:37273] }
 
 // Notebook returns the "notebook" emoji 📓.
-func Notebook(v ...Variant) string { return styled(1239, v) }
+func Notebook() string { return emojiBlob[37241:37245] }
 
 // Ledger returns the "ledger" emoji 📒.
-func Ledger(v ...Variant) string { return styled(1014, v) }
+func Ledger() string { return emojiBlob[37237:37241] }
 
 // PageWithCurl returns the "page with curl" emoji 📃.
-func PageWithCurl(v ...Variant) string { return styled(1283, v) }
+func PageWithCurl() string { return emojiBlob[37177:37181] }
 
 // Scroll returns the "scroll" emoji 📜.
-func Scroll(v ...Variant) string { return styled(1520, v) }
+func Scroll() string { return emojiBlob[37277:37281] }
 
 // PageFacingUp returns the "page facing up" emoji 📄.
-func PageFacingUp(v ...Variant) string { return styled(1282, v) }
+func PageFacingUp() string { return emojiBlob[37181:37185] }
 
 // Newspaper returns the "newspaper" emoji 📰.
-func Newspaper(v ...Variant) string { return styled(1224, v) }
+func Newspaper() string { return emojiBlob[37357:37361] }
 
 // RolledUpNewspaper returns the "rolled-up newspaper" emoji 🗞️.
-func RolledUpNewspaper(v ...Variant) string { return styled(1489, v) }
+func RolledUpNewspaper() string { return emojiBlob[35066:35073] }
 
 // BookmarkTabs returns the "bookmark tabs" emoji 📑.
-func BookmarkTabs(v ...Variant) string { return styled(178, v) }
+func BookmarkTabs() string { return emojiBlob[37233:37237] }
 
 // Bookmark returns the "bookmark" emoji 🔖.
-func Bookmark(v ...Variant) string { return styled(177, v) }
+func Bookmark() string { return emojiBlob[37501:37505] }
 
 // Label returns the "label" emoji 🏷️.
-func Label(v ...Variant) string { return styled(999, v) }
+func Label() string { return emojiBlob[34842:34849] }
 
 // Coin returns the "coin" emoji 🪙.
-func Coin(v ...Variant) string { return styled(293, v) }
+func Coin() string { return emojiBlob[39317:39321] }
 
 // MoneyBag returns the "money bag" emoji 💰.
-func MoneyBag(v ...Variant) string { return styled(1180, v) }
+func MoneyBag() string { return emojiBlob[37109:37113] }
 
 // TreasureChest returns the "treasure chest" emoji 🪎.
-func TreasureChest(v ...Variant) string { return styled(1706, v) }
+func TreasureChest() string { return emojiBlob[39273:39277] }
 
 // YenBanknote returns the "yen banknote" emoji 💴.
-func YenBanknote(v ...Variant) string { return styled(1891, v) }
+func YenBanknote() string { return emojiBlob[37125:37129] }
 
 // DollarBanknote returns the "dollar banknote" emoji 💵.
-func DollarBanknote(v ...Variant) string { return styled(381, v) }
+func DollarBanknote() string { return emojiBlob[37129:37133] }
 
 // EuroBanknote returns the "euro banknote" emoji 💶.
-func EuroBanknote(v ...Variant) string { return styled(428, v) }
+func EuroBanknote() string { return emojiBlob[37133:37137] }
 
 // PoundBanknote returns the "pound banknote" emoji 💷.
-func PoundBanknote(v ...Variant) string { return styled(1411, v) }
+func PoundBanknote() string { return emojiBlob[37137:37141] }
 
 // MoneyWithWings returns the "money with wings" emoji 💸.
-func MoneyWithWings(v ...Variant) string { return styled(1181, v) }
+func MoneyWithWings() string { return emojiBlob[37141:37145] }
 
 // CreditCard returns the "credit card" emoji 💳.
-func CreditCard(v ...Variant) string { return styled(325, v) }
+func CreditCard() string { return emojiBlob[37121:37125] }
 
 // Receipt returns the "receipt" emoji 🧾.
-func Receipt(v ...Variant) string { return styled(1447, v) }
+func Receipt() string { return emojiBlob[39177:39181] }
 
 // ChartIncreasingWithYen returns the "chart increasing with yen" emoji
 // 💹.
-func ChartIncreasingWithYen(v ...Variant) string { return styled(245, v) }
+func ChartIncreasingWithYen() string { return emojiBlob[37145:37149] }
 
 // Envelope returns the "envelope" emoji ✉️.
-func Envelope(v ...Variant) string { return styled(426, v) }
+func Envelope() string { return emojiBlob[35631:35637] }
 
 // EMail returns the "e-mail" emoji 📧.
-func EMail(v ...Variant) string { return styled(406, v) }
+func EMail() string { return emojiBlob[37321:37325] }
 
 // IncomingEnvelope returns the "incoming envelope" emoji 📨.
-func IncomingEnvelope(v ...Variant) string { return styled(946, v) }
+func IncomingEnvelope() string { return emojiBlob[37325:37329] }
 
 // EnvelopeWithArrow returns the "envelope with arrow" emoji 📩.
-func EnvelopeWithArrow(v ...Variant) string { return styled(427, v) }
+func EnvelopeWithArrow() string { return emojiBlob[37329:37333] }
 
 // OutboxTray returns the "outbox tray" emoji 📤.
-func OutboxTray(v ...Variant) string { return styled(1277, v) }
+func OutboxTray() string { return emojiBlob[37309:37313] }
 
 // InboxTray returns the "inbox tray" emoji 📥.
-func InboxTray(v ...Variant) string { return styled(945, v) }
+func InboxTray() string { return emojiBlob[37313:37317] }
 
 // Package returns the "package" emoji 📦.
-func Package(v ...Variant) string { return styled(1281, v) }
+func Package() string { return emojiBlob[37317:37321] }
 
 // ClosedMailboxWithRaisedFlag returns the "closed mailbox with raised
 // flag" emoji 📫.
-func ClosedMailboxWithRaisedFlag(v ...Variant) string { return styled(278, v) }
+func ClosedMailboxWithRaisedFlag() string { return emojiBlob[37337:37341] }
 
 // ClosedMailboxWithLoweredFlag returns the "closed mailbox with lowered
 // flag" emoji 📪.
-func ClosedMailboxWithLoweredFlag(v ...Variant) string { return styled(277, v) }
+func ClosedMailboxWithLoweredFlag() string { return emojiBlob[37333:37337] }
 
 // OpenMailboxWithRaisedFlag returns the "open mailbox with raised flag"
 // emoji 📬.
-func OpenMailboxWithRaisedFlag(v ...Variant) string { return styled(1267, v) }
+func OpenMailboxWithRaisedFlag() string { return emojiBlob[37341:37345] }
 
 // OpenMailboxWithLoweredFlag returns the "open mailbox with lowered flag"
 // emoji 📭.
-func OpenMailboxWithLoweredFlag(v ...Variant) string { return styled(1266, v) }
+func OpenMailboxWithLoweredFlag() string { return emojiBlob[37345:37349] }
 
 // Postbox returns the "postbox" emoji 📮.
-func Postbox(v ...Variant) string { return styled(1405, v) }
+func Postbox() string { return emojiBlob[37349:37353] }
 
 // BallotBoxWithBallot returns the "ballot box with ballot" emoji 🗳️.
-func BallotBoxWithBallot(v ...Variant) string { return styled(121, v) }
+func BallotBoxWithBallot() string { return emojiBlob[35094:35101] }
 
 // Pencil returns the "pencil" emoji ✏️.
-func Pencil(v ...Variant) string { return styled(1309, v) }
+func Pencil() string { return emojiBlob[35649:35655] }
 
 // BlackNib returns the "black nib" emoji ✒️.
-func BlackNib(v ...Variant) string { return styled(164, v) }
+func BlackNib() string { return emojiBlob[35655:35661] }
 
 // FountainPen returns the "fountain pen" emoji 🖋️.
-func FountainPen(v ...Variant) string { return styled(816, v) }
+func FountainPen() string { return emojiBlob[34947:34954] }
 
 // Pen returns the "pen" emoji 🖊️.
-func Pen(v ...Variant) string { return styled(1308, v) }
+func Pen() string { return emojiBlob[34940:34947] }
 
 // Paintbrush returns the "paintbrush" emoji 🖌️.
-func Paintbrush(v ...Variant) string { return styled(1285, v) }
+func Paintbrush() string { return emojiBlob[34954:34961] }
 
 // Crayon returns the "crayon" emoji 🖍️.
-func Crayon(v ...Variant) string { return styled(324, v) }
+func Crayon() string { return emojiBlob[34961:34968] }
 
 // Memo returns the "memo" emoji 📝.
-func Memo(v ...Variant) string { return styled(1154, v) }
+func Memo() string { return emojiBlob[37281:37285] }
 
 // Briefcase returns the "briefcase" emoji 💼.
-func Briefcase(v ...Variant) string { return styled(193, v) }
+func Briefcase() string { return emojiBlob[23495:23499] }
 
 // FileFolder returns the "file folder" emoji 📁.
-func FileFolder(v ...Variant) string { return styled(512, v) }
+func FileFolder() string { return emojiBlob[37169:37173] }
 
 // OpenFileFolder returns the "open file folder" emoji 📂.
-func OpenFileFolder(v ...Variant) string { return styled(1264, v) }
+func OpenFileFolder() string { return emojiBlob[37173:37177] }
 
 // CardIndexDividers returns the "card index dividers" emoji 🗂️.
-func CardIndexDividers(v ...Variant) string { return styled(231, v) }
+func CardIndexDividers() string { return emojiBlob[35010:35017] }
 
 // Calendar returns the "calendar" emoji 📅.
-func Calendar(v ...Variant) string { return styled(219, v) }
+func Calendar() string { return emojiBlob[37185:37189] }
 
 // TearOffCalendar returns the "tear-off calendar" emoji 📆.
-func TearOffCalendar(v ...Variant) string { return styled(1664, v) }
+func TearOffCalendar() string { return emojiBlob[37189:37193] }
 
 // SpiralNotepad returns the "spiral notepad" emoji 🗒️.
-func SpiralNotepad(v ...Variant) string { return styled(1609, v) }
+func SpiralNotepad() string { return emojiBlob[35038:35045] }
 
 // SpiralCalendar returns the "spiral calendar" emoji 🗓️.
-func SpiralCalendar(v ...Variant) string { return styled(1608, v) }
+func SpiralCalendar() string { return emojiBlob[35045:35052] }
 
 // CardIndex returns the "card index" emoji 📇.
-func CardIndex(v ...Variant) string { return styled(230, v) }
+func CardIndex() string { return emojiBlob[37193:37197] }
 
 // ChartIncreasing returns the "chart increasing" emoji 📈.
-func ChartIncreasing(v ...Variant) string { return styled(244, v) }
+func ChartIncreasing() string { return emojiBlob[37197:37201] }
 
 // ChartDecreasing returns the "chart decreasing" emoji 📉.
-func ChartDecreasing(v ...Variant) string { return styled(243, v) }
+func ChartDecreasing() string { return emojiBlob[37201:37205] }
 
 // BarChart returns the "bar chart" emoji 📊.
-func BarChart(v ...Variant) string { return styled(125, v) }
+func BarChart() string { return emojiBlob[37205:37209] }
 
 // Clipboard returns the "clipboard" emoji 📋.
-func Clipboard(v ...Variant) string { return styled(274, v) }
+func Clipboard() string { return emojiBlob[37209:37213] }
 
 // Pushpin returns the "pushpin" emoji 📌.
-func Pushpin(v ...Variant) string { return styled(1427, v) }
+func Pushpin() string { return emojiBlob[37213:37217] }
 
 // RoundPushpin returns the "round pushpin" emoji 📍.
-func RoundPushpin(v ...Variant) string { return styled(1497, v) }
+func RoundPushpin() string { return emojiBlob[37217:37221] }
 
 // Paperclip returns the "paperclip" emoji 📎.
-func Paperclip(v ...Variant) string { return styled(1292, v) }
+func Paperclip() string { return emojiBlob[37221:37225] }
 
 // LinkedPaperclips returns the "linked paperclips" emoji 🖇️.
-func LinkedPaperclips(v ...Variant) string { return styled(1032, v) }
+func LinkedPaperclips() string { return emojiBlob[34933:34940] }
 
 // StraightRuler returns the "straight ruler" emoji 📏.
-func StraightRuler(v ...Variant) string { return styled(1630, v) }
+func StraightRuler() string { return emojiBlob[37225:37229] }
 
 // TriangularRuler returns the "triangular ruler" emoji 📐.
-func TriangularRuler(v ...Variant) string { return styled(1708, v) }
+func TriangularRuler() string { return emojiBlob[37229:37233] }
 
 // Scissors returns the "scissors" emoji ✂️.
-func Scissors(v ...Variant) string { return styled(1517, v) }
+func Scissors() string { return emojiBlob[35625:35631] }
 
 // CardFileBox returns the "card file box" emoji 🗃️.
-func CardFileBox(v ...Variant) string { return styled(229, v) }
+func CardFileBox() string { return emojiBlob[35017:35024] }
 
 // FileCabinet returns the "file cabinet" emoji 🗄️.
-func FileCabinet(v ...Variant) string { return styled(511, v) }
+func FileCabinet() string { return emojiBlob[35024:35031] }
 
 // Wastebasket returns the "wastebasket" emoji 🗑️.
-func Wastebasket(v ...Variant) string { return styled(1754, v) }
+func Wastebasket() string { return emojiBlob[35031:35038] }
 
 // Locked returns the "locked" emoji 🔒.
-func Locked(v ...Variant) string { return styled(1039, v) }
+func Locked() string { return emojiBlob[37485:37489] }
 
 // Unlocked returns the "unlocked" emoji 🔓.
-func Unlocked(v ...Variant) string { return styled(1732, v) }
+func Unlocked() string { return emojiBlob[37489:37493] }
 
 // LockedWithPen returns the "locked with pen" emoji 🔏.
-func LockedWithPen(v ...Variant) string { return styled(1041, v) }
+func LockedWithPen() string { return emojiBlob[37473:37477] }
 
 // LockedWithKey returns the "locked with key" emoji 🔐.
-func LockedWithKey(v ...Variant) string { return styled(1040, v) }
+func LockedWithKey() string { return emojiBlob[37477:37481] }
 
 // Key returns the "key" emoji 🔑.
-func Key(v ...Variant) string { return styled(965, v) }
+func Key() string { return emojiBlob[37481:37485] }
 
 // OldKey returns the "old key" emoji 🗝️.
-func OldKey(v ...Variant) string { return styled(1248, v) }
+func OldKey() string { return emojiBlob[35059:35066] }
 
 // Hammer returns the "hammer" emoji 🔨.
-func Hammer(v ...Variant) string { return styled(879, v) }
+func Hammer() string { return emojiBlob[37565:37569] }
 
 // Axe returns the "axe" emoji 🪓.
-func Axe(v ...Variant) string { return styled(100, v) }
+func Axe() string { return emojiBlob[39293:39297] }
 
 // Pick returns the "pick" emoji ⛏️.
-func Pick(v ...Variant) string { return styled(1370, v) }
+func Pick() string { return emojiBlob[35577:35583] }
 
 // HammerAndPick returns the "hammer and pick" emoji ⚒️.
-func HammerAndPick(v ...Variant) string { return styled(880, v) }
+func HammerAndPick() string { return emojiBlob[35517:35523] }
 
 // HammerAndWrench returns the "hammer and wrench" emoji 🛠️.
-func HammerAndWrench(v ...Variant) string { return styled(881, v) }
+func HammerAndWrench() string { return emojiBlob[35136:35143] }
 
 // Dagger returns the "dagger" emoji 🗡️.
-func Dagger(v ...Variant) string { return styled(352, v) }
+func Dagger() string { return emojiBlob[35073:35080] }
 
 // CrossedSwords returns the "crossed swords" emoji ⚔️.
-func CrossedSwords(v ...Variant) string { return styled(335, v) }
+func CrossedSwords() string { return emojiBlob[35523:35529] }
 
 // Bomb returns the "bomb" emoji 💣.
-func Bomb(v ...Variant) string { return styled(175, v) }
+func Bomb() string { return emojiBlob[37073:37077] }
 
 // Boomerang returns the "boomerang" emoji 🪃.
-func Boomerang(v ...Variant) string { return styled(180, v) }
+func Boomerang() string { return emojiBlob[39241:39245] }
 
 // BowAndArrow returns the "bow and arrow" emoji 🏹.
-func BowAndArrow(v ...Variant) string { return styled(183, v) }
+func BowAndArrow() string { return emojiBlob[36605:36609] }
 
 // Shield returns the "shield" emoji 🛡️.
-func Shield(v ...Variant) string { return styled(1536, v) }
+func Shield() string { return emojiBlob[35143:35150] }
 
 // CarpentrySaw returns the "carpentry saw" emoji 🪚.
-func CarpentrySaw(v ...Variant) string { return styled(234, v) }
+func CarpentrySaw() string { return emojiBlob[39321:39325] }
 
 // Wrench returns the "wrench" emoji 🔧.
-func Wrench(v ...Variant) string { return styled(1883, v) }
+func Wrench() string { return emojiBlob[23510:23514] }
 
 // Screwdriver returns the "screwdriver" emoji 🪛.
-func Screwdriver(v ...Variant) string { return styled(1519, v) }
+func Screwdriver() string { return emojiBlob[39325:39329] }
 
 // NutAndBolt returns the "nut and bolt" emoji 🔩.
-func NutAndBolt(v ...Variant) string { return styled(1241, v) }
+func NutAndBolt() string { return emojiBlob[37569:37573] }
 
 // Gear returns the "gear" emoji ⚙️.
-func Gear(v ...Variant) string { return styled(834, v) }
+func Gear() string { return emojiBlob[35535:35541] }
 
 // Clamp returns the "clamp" emoji 🗜️.
-func Clamp(v ...Variant) string { return styled(268, v) }
+func Clamp() string { return emojiBlob[35052:35059] }
 
 // BalanceScale returns the "balance scale" emoji ⚖️.
-func BalanceScale(v ...Variant) string { return styled(117, v) }
+func BalanceScale() string { return emojiBlob[15170:15176] }
 
 // WhiteCane returns the "white cane" emoji 🦯.
-func WhiteCane(v ...Variant) string { return styled(1772, v) }
+func WhiteCane() string { return emojiBlob[12521:12525] }
 
 // Link returns the "link" emoji 🔗.
-func Link(v ...Variant) string { return styled(1031, v) }
+func Link() string { return emojiBlob[37505:37509] }
 
 // BrokenChain returns the "broken chain" emoji ⛓️‍💥.
-func BrokenChain(v ...Variant) string { return styled(197, v) }
+func BrokenChain() string { return emojiBlob[27577:27590] }
 
 // Chains returns the "chains" emoji ⛓️.
-func Chains(v ...Variant) string { return styled(241, v) }
+func Chains() string { return emojiBlob[27577:27583] }
 
 // Hook returns the "hook" emoji 🪝.
-func Hook(v ...Variant) string { return styled(919, v) }
+func Hook() string { return emojiBlob[39333:39337] }
 
 // Toolbox returns the "toolbox" emoji 🧰.
-func Toolbox(v ...Variant) string { return styled(1693, v) }
+func Toolbox() string { return emojiBlob[39121:39125] }
 
 // Magnet returns the "magnet" emoji 🧲.
-func Magnet(v ...Variant) string { return styled(1058, v) }
+func Magnet() string { return emojiBlob[39129:39133] }
 
 // Ladder returns the "ladder" emoji 🪜.
-func Ladder(v ...Variant) string { return styled(1001, v) }
+func Ladder() string { return emojiBlob[39329:39333] }
 
 // Shovel returns the "shovel" emoji 🪏.
-func Shovel(v ...Variant) string { return styled(1544, v) }
+func Shovel() string { return emojiBlob[39277:39281] }
 
 // Alembic returns the "alembic" emoji ⚗️.
-func Alembic(v ...Variant) string { return styled(76, v) }
+func Alembic() string { return emojiBlob[35529:35535] }
 
 // TestTube returns the "test tube" emoji 🧪.
-func TestTube(v ...Variant) string { return styled(1675, v) }
+func TestTube() string { return emojiBlob[39097:39101] }
 
 // PetriDish returns the "petri dish" emoji 🧫.
-func PetriDish(v ...Variant) string { return styled(1368, v) }
+func PetriDish() string { return emojiBlob[39101:39105] }
 
 // Dna returns the "dna" emoji 🧬.
-func Dna(v ...Variant) string { return styled(377, v) }
+func Dna() string { return emojiBlob[39105:39109] }
 
 // Microscope returns the "microscope" emoji 🔬.
-func Microscope(v ...Variant) string { return styled(1167, v) }
+func Microscope() string { return emojiBlob[23525:23529] }
 
 // Telescope returns the "telescope" emoji 🔭.
-func Telescope(v ...Variant) string { return styled(1669, v) }
+func Telescope() string { return emojiBlob[37581:37585] }
 
 // SatelliteAntenna returns the "satellite antenna" emoji 📡.
-func SatelliteAntenna(v ...Variant) string { return styled(1511, v) }
+func SatelliteAntenna() string { return emojiBlob[37297:37301] }
 
 // Syringe returns the "syringe" emoji 💉.
-func Syringe(v ...Variant) string { return styled(1653, v) }
+func Syringe() string { return emojiBlob[36981:36985] }
 
 // DropOfBlood returns the "drop of blood" emoji 🩸.
-func DropOfBlood(v ...Variant) string { return styled(400, v) }
+func DropOfBlood() string { return emojiBlob[39213:39217] }
 
 // Pill returns the "pill" emoji 💊.
-func Pill(v ...Variant) string { return styled(1377, v) }
+func Pill() string { return emojiBlob[36985:36989] }
 
 // AdhesiveBandage returns the "adhesive bandage" emoji 🩹.
-func AdhesiveBandage(v ...Variant) string { return styled(69, v) }
+func AdhesiveBandage() string { return emojiBlob[27612:27616] }
 
 // Crutch returns the "crutch" emoji 🩼.
-func Crutch(v ...Variant) string { return styled(337, v) }
+func Crutch() string { return emojiBlob[39225:39229] }
 
 // Stethoscope returns the "stethoscope" emoji 🩺.
-func Stethoscope(v ...Variant) string { return styled(1626, v) }
+func Stethoscope() string { return emojiBlob[39217:39221] }
 
 // XRay returns the "x-ray" emoji 🩻.
-func XRay(v ...Variant) string { return styled(1885, v) }
+func XRay() string { return emojiBlob[39221:39225] }
 
 // Door returns the "door" emoji 🚪.
-func Door(v ...Variant) string { return styled(384, v) }
+func Door() string { return emojiBlob[38213:38217] }
 
 // Elevator returns the "elevator" emoji 🛗.
-func Elevator(v ...Variant) string { return styled(420, v) }
+func Elevator() string { return emojiBlob[38329:38333] }
 
 // Mirror returns the "mirror" emoji 🪞.
-func Mirror(v ...Variant) string { return styled(1174, v) }
+func Mirror() string { return emojiBlob[39337:39341] }
 
 // Window returns the "window" emoji 🪟.
-func Window(v ...Variant) string { return styled(1787, v) }
+func Window() string { return emojiBlob[39341:39345] }
 
 // Bed returns the "bed" emoji 🛏️.
-func Bed(v ...Variant) string { return styled(139, v) }
+func Bed() string { return emojiBlob[35129:35136] }
 
 // CouchAndLamp returns the "couch and lamp" emoji 🛋️.
-func CouchAndLamp(v ...Variant) string { return styled(313, v) }
+func CouchAndLamp() string { return emojiBlob[35108:35115] }
 
 // Chair returns the "chair" emoji 🪑.
-func Chair(v ...Variant) string { return styled(242, v) }
+func Chair() string { return emojiBlob[39285:39289] }
 
 // Toilet returns the "toilet" emoji 🚽.
-func Toilet(v ...Variant) string { return styled(1690, v) }
+func Toilet() string { return emojiBlob[38277:38281] }
 
 // Plunger returns the "plunger" emoji 🪠.
-func Plunger(v ...Variant) string { return styled(1394, v) }
+func Plunger() string { return emojiBlob[39345:39349] }
 
 // Shower returns the "shower" emoji 🚿.
-func Shower(v ...Variant) string { return styled(1545, v) }
+func Shower() string { return emojiBlob[38285:38289] }
 
 // Bathtub returns the "bathtub" emoji 🛁.
-func Bathtub(v ...Variant) string { return styled(131, v) }
+func Bathtub() string { return emojiBlob[38289:38293] }
 
 // MouseTrap returns the "mouse trap" emoji 🪤.
-func MouseTrap(v ...Variant) string { return styled(1202, v) }
+func MouseTrap() string { return emojiBlob[39361:39365] }
 
 // Razor returns the "razor" emoji 🪒.
-func Razor(v ...Variant) string { return styled(1446, v) }
+func Razor() string { return emojiBlob[39289:39293] }
 
 // LotionBottle returns the "lotion bottle" emoji 🧴.
-func LotionBottle(v ...Variant) string { return styled(1045, v) }
+func LotionBottle() string { return emojiBlob[39137:39141] }
 
 // SafetyPin returns the "safety pin" emoji 🧷.
-func SafetyPin(v ...Variant) string { return styled(1502, v) }
+func SafetyPin() string { return emojiBlob[39149:39153] }
 
 // Broom returns the "broom" emoji 🧹.
-func Broom(v ...Variant) string { return styled(199, v) }
+func Broom() string { return emojiBlob[39157:39161] }
 
 // Basket returns the "basket" emoji 🧺.
-func Basket(v ...Variant) string { return styled(128, v) }
+func Basket() string { return emojiBlob[39161:39165] }
 
 // RollOfPaper returns the "roll of paper" emoji 🧻.
-func RollOfPaper(v ...Variant) string { return styled(1488, v) }
+func RollOfPaper() string { return emojiBlob[39165:39169] }
 
 // Bucket returns the "bucket" emoji 🪣.
-func Bucket(v ...Variant) string { return styled(206, v) }
+func Bucket() string { return emojiBlob[39357:39361] }
 
 // Soap returns the "soap" emoji 🧼.
-func Soap(v ...Variant) string { return styled(1588, v) }
+func Soap() string { return emojiBlob[39169:39173] }
 
 // Bubbles returns the "bubbles" emoji 🫧.
-func Bubbles(v ...Variant) string { return styled(205, v) }
+func Bubbles() string { return emojiBlob[39589:39593] }
 
 // Toothbrush returns the "toothbrush" emoji 🪥.
-func Toothbrush(v ...Variant) string { return styled(1695, v) }
+func Toothbrush() string { return emojiBlob[39365:39369] }
 
 // Sponge returns the "sponge" emoji 🧽.
-func Sponge(v ...Variant) string { return styled(1612, v) }
+func Sponge() string { return emojiBlob[39173:39177] }
 
 // FireExtinguisher returns the "fire extinguisher" emoji 🧯.
-func FireExtinguisher(v ...Variant) string { return styled(518, v) }
+func FireExtinguisher() string { return emojiBlob[39117:39121] }
 
 // ShoppingCart returns the "shopping cart" emoji 🛒.
-func ShoppingCart(v ...Variant) string { return styled(1541, v) }
+func ShoppingCart() string { return emojiBlob[38317:38321] }
 
 // Cigarette returns the "cigarette" emoji 🚬.
-func Cigarette(v ...Variant) string { return styled(262, v) }
+func Cigarette() string { return emojiBlob[38221:38225] }
 
 // Coffin returns the "coffin" emoji ⚰️.
-func Coffin(v ...Variant) string { return styled(292, v) }
+func Coffin() string { return emojiBlob[35559:35565] }
 
 // Headstone returns the "headstone" emoji 🪦.
-func Headstone(v ...Variant) string { return styled(893, v) }
+func Headstone() string { return emojiBlob[39369:39373] }
 
 // FuneralUrn returns the "funeral urn" emoji ⚱️.
-func FuneralUrn(v ...Variant) string { return styled(831, v) }
+func FuneralUrn() string { return emojiBlob[35565:35571] }
 
 // NazarAmulet returns the "nazar amulet" emoji 🧿.
-func NazarAmulet(v ...Variant) string { return styled(1216, v) }
+func NazarAmulet() string { return emojiBlob[39181:39185] }
 
 // Hamsa returns the "hamsa" emoji 🪬.
-func Hamsa(v ...Variant) string { return styled(882, v) }
+func Hamsa() string { return emojiBlob[39393:39397] }
 
 // Moai returns the "moai" emoji 🗿.
-func Moai(v ...Variant) string { return styled(1176, v) }
+func Moai() string { return emojiBlob[37781:37785] }
 
 // Placard returns the "placard" emoji 🪧.
-func Placard(v ...Variant) string { return styled(1388, v) }
+func Placard() string { return emojiBlob[39373:39377] }
 
 // IdentificationCard returns the "identification card" emoji 🪪.
-func IdentificationCard(v ...Variant) string { return styled(944, v) }
+func IdentificationCard() string { return emojiBlob[39385:39389] }
 
 // Symbols
 
 // ATMSign returns the "ATM sign" emoji 🏧.
-func ATMSign(v ...Variant) string { return styled(5, v) }
+func ATMSign() string { return emojiBlob[36569:36573] }
 
 // LitterInBinSign returns the "litter in bin sign" emoji 🚮.
-func LitterInBinSign(v ...Variant) string { return styled(1035, v) }
+func LitterInBinSign() string { return emojiBlob[38229:38233] }
 
 // PotableWater returns the "potable water" emoji 🚰.
-func PotableWater(v ...Variant) string { return styled(1407, v) }
+func PotableWater() string { return emojiBlob[38237:38241] }
 
 // WheelchairSymbol returns the "wheelchair symbol" emoji ♿.
-func WheelchairSymbol(v ...Variant) string { return styled(1771, v) }
+func WheelchairSymbol() string { return emojiBlob[39677:39680] }
 
 // MensRoom returns the "men’s room" emoji 🚹.
-func MensRoom(v ...Variant) string { return styled(1160, v) }
+func MensRoom() string { return emojiBlob[38261:38265] }
 
 // WomensRoom returns the "women’s room" emoji 🚺.
-func WomensRoom(v ...Variant) string { return styled(1876, v) }
+func WomensRoom() string { return emojiBlob[38265:38269] }
 
 // Restroom returns the "restroom" emoji 🚻.
-func Restroom(v ...Variant) string { return styled(1466, v) }
+func Restroom() string { return emojiBlob[38269:38273] }
 
 // BabySymbol returns the "baby symbol" emoji 🚼.
-func BabySymbol(v ...Variant) string { return styled(105, v) }
+func BabySymbol() string { return emojiBlob[38273:38277] }
 
 // WaterCloset returns the "water closet" emoji 🚾.
-func WaterCloset(v ...Variant) string { return styled(1757, v) }
+func WaterCloset() string { return emojiBlob[38281:38285] }
 
 // PassportControl returns the "passport control" emoji 🛂.
-func PassportControl(v ...Variant) string { return styled(1299, v) }
+func PassportControl() string { return emojiBlob[38293:38297] }
 
 // Customs returns the "customs" emoji 🛃.
-func Customs(v ...Variant) string { return styled(349, v) }
+func Customs() string { return emojiBlob[38297:38301] }
 
 // BaggageClaim returns the "baggage claim" emoji 🛄.
-func BaggageClaim(v ...Variant) string { return styled(115, v) }
+func BaggageClaim() string { return emojiBlob[38301:38305] }
 
 // LeftLuggage returns the "left luggage" emoji 🛅.
-func LeftLuggage(v ...Variant) string { return styled(1017, v) }
+func LeftLuggage() string { return emojiBlob[38305:38309] }
 
 // Warning returns the "warning" emoji ⚠️.
-func Warning(v ...Variant) string { return styled(1753, v) }
+func Warning() string { return emojiBlob[35553:35559] }
 
 // ChildrenCrossing returns the "children crossing" emoji 🚸.
-func ChildrenCrossing(v ...Variant) string { return styled(257, v) }
+func ChildrenCrossing() string { return emojiBlob[38257:38261] }
 
 // NoEntry returns the "no entry" emoji ⛔.
-func NoEntry(v ...Variant) string { return styled(1231, v) }
+func NoEntry() string { return emojiBlob[39707:39710] }
 
 // Prohibited returns the "prohibited" emoji 🚫.
-func Prohibited(v ...Variant) string { return styled(1422, v) }
+func Prohibited() string { return emojiBlob[38217:38221] }
 
 // NoBicycles returns the "no bicycles" emoji 🚳.
-func NoBicycles(v ...Variant) string { return styled(1230, v) }
+func NoBicycles() string { return emojiBlob[38249:38253] }
 
 // NoSmoking returns the "no smoking" emoji 🚭.
-func NoSmoking(v ...Variant) string { return styled(1236, v) }
+func NoSmoking() string { return emojiBlob[38225:38229] }
 
 // NoLittering returns the "no littering" emoji 🚯.
-func NoLittering(v ...Variant) string { return styled(1232, v) }
+func NoLittering() string { return emojiBlob[38233:38237] }
 
 // NonPotableWater returns the "non-potable water" emoji 🚱.
-func NonPotableWater(v ...Variant) string { return styled(1237, v) }
+func NonPotableWater() string { return emojiBlob[38241:38245] }
 
 // NoPedestrians returns the "no pedestrians" emoji 🚷.
-func NoPedestrians(v ...Variant) string { return styled(1235, v) }
+func NoPedestrians() string { return emojiBlob[38253:38257] }
 
 // NoMobilePhones returns the "no mobile phones" emoji 📵.
-func NoMobilePhones(v ...Variant) string { return styled(1233, v) }
+func NoMobilePhones() string { return emojiBlob[37377:37381] }
 
 // NoOneUnderEighteen returns the "no one under eighteen" emoji 🔞.
-func NoOneUnderEighteen(v ...Variant) string { return styled(1234, v) }
+func NoOneUnderEighteen() string { return emojiBlob[37533:37537] }
 
 // Radioactive returns the "radioactive" emoji ☢️.
-func Radioactive(v ...Variant) string { return styled(1435, v) }
+func Radioactive() string { return emojiBlob[35415:35421] }
 
 // Biohazard returns the "biohazard" emoji ☣️.
-func Biohazard(v ...Variant) string { return styled(151, v) }
+func Biohazard() string { return emojiBlob[35421:35427] }
 
 // UpArrow returns the "up arrow" emoji ⬆️.
-func UpArrow(v ...Variant) string { return styled(1733, v) }
+func UpArrow() string { return emojiBlob[35727:35733] }
 
 // UpRightArrow returns the "up-right arrow" emoji ↗️.
-func UpRightArrow(v ...Variant) string { return styled(1736, v) }
+func UpRightArrow() string { return emojiBlob[35229:35235] }
 
 // RightArrow returns the "right arrow" emoji ➡️.
-func RightArrow(v ...Variant) string { return styled(1474, v) }
+func RightArrow() string { return emojiBlob[6170:6176] }
 
 // DownRightArrow returns the "down-right arrow" emoji ↘️.
-func DownRightArrow(v ...Variant) string { return styled(393, v) }
+func DownRightArrow() string { return emojiBlob[35235:35241] }
 
 // DownArrow returns the "down arrow" emoji ⬇️.
-func DownArrow(v ...Variant) string { return styled(391, v) }
+func DownArrow() string { return emojiBlob[35733:35739] }
 
 // DownLeftArrow returns the "down-left arrow" emoji ↙️.
-func DownLeftArrow(v ...Variant) string { return styled(392, v) }
+func DownLeftArrow() string { return emojiBlob[35241:35247] }
 
 // LeftArrow returns the "left arrow" emoji ⬅️.
-func LeftArrow(v ...Variant) string { return styled(1015, v) }
+func LeftArrow() string { return emojiBlob[35721:35727] }
 
 // UpLeftArrow returns the "up-left arrow" emoji ↖️.
-func UpLeftArrow(v ...Variant) string { return styled(1735, v) }
+func UpLeftArrow() string { return emojiBlob[35223:35229] }
 
 // UpDownArrow returns the "up-down arrow" emoji ↕️.
-func UpDownArrow(v ...Variant) string { return styled(1734, v) }
+func UpDownArrow() string { return emojiBlob[28065:28071] }
 
 // LeftRightArrow returns the "left-right arrow" emoji ↔️.
-func LeftRightArrow(v ...Variant) string { return styled(1020, v) }
+func LeftRightArrow() string { return emojiBlob[28052:28058] }
 
 // RightArrowCurvingLeft returns the "right arrow curving left" emoji
 // ↩️.
-func RightArrowCurvingLeft(v ...Variant) string { return styled(1476, v) }
+func RightArrowCurvingLeft() string { return emojiBlob[35247:35253] }
 
 // LeftArrowCurvingRight returns the "left arrow curving right" emoji
 // ↪️.
-func LeftArrowCurvingRight(v ...Variant) string { return styled(1016, v) }
+func LeftArrowCurvingRight() string { return emojiBlob[35253:35259] }
 
 // RightArrowCurvingUp returns the "right arrow curving up" emoji ⤴️.
-func RightArrowCurvingUp(v ...Variant) string { return styled(1477, v) }
+func RightArrowCurvingUp() string { return emojiBlob[35709:35715] }
 
 // RightArrowCurvingDown returns the "right arrow curving down" emoji
 // ⤵️.
-func RightArrowCurvingDown(v ...Variant) string { return styled(1475, v) }
+func RightArrowCurvingDown() string { return emojiBlob[35715:35721] }
 
 // ClockwiseVerticalArrows returns the "clockwise vertical arrows" emoji
 // 🔃.
-func ClockwiseVerticalArrows(v ...Variant) string { return styled(275, v) }
+func ClockwiseVerticalArrows() string { return emojiBlob[37425:37429] }
 
 // CounterclockwiseArrowsButton returns the "counterclockwise arrows
 // button" emoji 🔄.
-func CounterclockwiseArrowsButton(v ...Variant) string { return styled(314, v) }
+func CounterclockwiseArrowsButton() string { return emojiBlob[37429:37433] }
 
 // BACKArrow returns the "BACK arrow" emoji 🔙.
-func BACKArrow(v ...Variant) string { return styled(9, v) }
+func BACKArrow() string { return emojiBlob[37513:37517] }
 
 // ENDArrow returns the "END arrow" emoji 🔚.
-func ENDArrow(v ...Variant) string { return styled(15, v) }
+func ENDArrow() string { return emojiBlob[37517:37521] }
 
 // ONArrow returns the "ON! arrow" emoji 🔛.
-func ONArrow(v ...Variant) string { return styled(49, v) }
+func ONArrow() string { return emojiBlob[37521:37525] }
 
 // SOONArrow returns the "SOON arrow" emoji 🔜.
-func SOONArrow(v ...Variant) string { return styled(53, v) }
+func SOONArrow() string { return emojiBlob[37525:37529] }
 
 // TOPArrow returns the "TOP arrow" emoji 🔝.
-func TOPArrow(v ...Variant) string { return styled(60, v) }
+func TOPArrow() string { return emojiBlob[37529:37533] }
 
 // PlaceOfWorship returns the "place of worship" emoji 🛐.
-func PlaceOfWorship(v ...Variant) string { return styled(1389, v) }
+func PlaceOfWorship() string { return emojiBlob[38309:38313] }
 
 // AtomSymbol returns the "atom symbol" emoji ⚛️.
-func AtomSymbol(v ...Variant) string { return styled(96, v) }
+func AtomSymbol() string { return emojiBlob[35541:35547] }
 
 // Om returns the "om" emoji 🕉️.
-func Om(v ...Variant) string { return styled(1253, v) }
+func Om() string { return emojiBlob[34863:34870] }
 
 // StarOfDavid returns the "star of David" emoji ✡️.
-func StarOfDavid(v ...Variant) string { return styled(1622, v) }
+func StarOfDavid() string { return emojiBlob[35679:35685] }
 
 // WheelOfDharma returns the "wheel of dharma" emoji ☸️.
-func WheelOfDharma(v ...Variant) string { return styled(1770, v) }
+func WheelOfDharma() string { return emojiBlob[35451:35457] }
 
 // YinYang returns the "yin yang" emoji ☯️.
-func YinYang(v ...Variant) string { return styled(1892, v) }
+func YinYang() string { return emojiBlob[35445:35451] }
 
 // LatinCross returns the "latin cross" emoji ✝️.
-func LatinCross(v ...Variant) string { return styled(1010, v) }
+func LatinCross() string { return emojiBlob[35673:35679] }
 
 // OrthodoxCross returns the "orthodox cross" emoji ☦️.
-func OrthodoxCross(v ...Variant) string { return styled(1275, v) }
+func OrthodoxCross() string { return emojiBlob[35427:35433] }
 
 // StarAndCrescent returns the "star and crescent" emoji ☪️.
-func StarAndCrescent(v ...Variant) string { return styled(1621, v) }
+func StarAndCrescent() string { return emojiBlob[35433:35439] }
 
 // PeaceSymbol returns the "peace symbol" emoji ☮️.
-func PeaceSymbol(v ...Variant) string { return styled(1303, v) }
+func PeaceSymbol() string { return emojiBlob[35439:35445] }
 
 // Menorah returns the "menorah" emoji 🕎.
-func Menorah(v ...Variant) string { return styled(1159, v) }
+func Menorah() string { return emojiBlob[37661:37665] }
 
 // DottedSixPointedStar returns the "dotted six-pointed star" emoji 🔯.
-func DottedSixPointedStar(v ...Variant) string { return styled(386, v) }
+func DottedSixPointedStar() string { return emojiBlob[37589:37593] }
 
 // Khanda returns the "khanda" emoji 🪯.
-func Khanda(v ...Variant) string { return styled(980, v) }
+func Khanda() string { return emojiBlob[39405:39409] }
 
 // Aries returns the "Aries" emoji ♈.
-func Aries(v ...Variant) string { return styled(7, v) }
+func Aries() string { return emojiBlob[39641:39644] }
 
 // Taurus returns the "Taurus" emoji ♉.
-func Taurus(v ...Variant) string { return styled(61, v) }
+func Taurus() string { return emojiBlob[39644:39647] }
 
 // Gemini returns the "Gemini" emoji ♊.
-func Gemini(v ...Variant) string { return styled(17, v) }
+func Gemini() string { return emojiBlob[39647:39650] }
 
 // Cancer returns the "Cancer" emoji ♋.
-func Cancer(v ...Variant) string { return styled(12, v) }
+func Cancer() string { return emojiBlob[39650:39653] }
 
 // Leo returns the "Leo" emoji ♌.
-func Leo(v ...Variant) string { return styled(40, v) }
+func Leo() string { return emojiBlob[39653:39656] }
 
 // Virgo returns the "Virgo" emoji ♍.
-func Virgo(v ...Variant) string { return styled(65, v) }
+func Virgo() string { return emojiBlob[39656:39659] }
 
 // Libra returns the "Libra" emoji ♎.
-func Libra(v ...Variant) string { return styled(41, v) }
+func Libra() string { return emojiBlob[39659:39662] }
 
 // Scorpio returns the "Scorpio" emoji ♏.
-func Scorpio(v ...Variant) string { return styled(57, v) }
+func Scorpio() string { return emojiBlob[39662:39665] }
 
 // Sagittarius returns the "Sagittarius" emoji ♐.
-func Sagittarius(v ...Variant) string { return styled(55, v) }
+func Sagittarius() string { return emojiBlob[39665:39668] }
 
 // Capricorn returns the "Capricorn" emoji ♑.
-func Capricorn(v ...Variant) string { return styled(13, v) }
+func Capricorn() string { return emojiBlob[39668:39671] }
 
 // Aquarius returns the "Aquarius" emoji ♒.
-func Aquarius(v ...Variant) string { return styled(6, v) }
+func Aquarius() string { return emojiBlob[39671:39674] }
 
 // Pisces returns the "Pisces" emoji ♓.
-func Pisces(v ...Variant) string { return styled(52, v) }
+func Pisces() string { return emojiBlob[39674:39677] }
 
 // Ophiuchus returns the "Ophiuchus" emoji ⛎.
-func Ophiuchus(v ...Variant) string { return styled(50, v) }
+func Ophiuchus() string { return emojiBlob[39704:39707] }
 
 // ShuffleTracksButton returns the "shuffle tracks button" emoji 🔀.
-func ShuffleTracksButton(v ...Variant) string { return styled(1547, v) }
+func ShuffleTracksButton() string { return emojiBlob[37413:37417] }
 
 // RepeatButton returns the "repeat button" emoji 🔁.
-func RepeatButton(v ...Variant) string { return styled(1463, v) }
+func RepeatButton() string { return emojiBlob[37417:37421] }
 
 // RepeatSingleButton returns the "repeat single button" emoji 🔂.
-func RepeatSingleButton(v ...Variant) string { return styled(1464, v) }
+func RepeatSingleButton() string { return emojiBlob[37421:37425] }
 
 // PlayButton returns the "play button" emoji ▶️.
-func PlayButton(v ...Variant) string { return styled(1390, v) }
+func PlayButton() string { return emojiBlob[35337:35343] }
 
 // FastForwardButton returns the "fast-forward button" emoji ⏩.
-func FastForwardButton(v ...Variant) string { return styled(502, v) }
+func FastForwardButton() string { return emojiBlob[39611:39614] }
 
 // NextTrackButton returns the "next track button" emoji ⏭️.
-func NextTrackButton(v ...Variant) string { return styled(1225, v) }
+func NextTrackButton() string { return emojiBlob[35271:35277] }
 
 // PlayOrPauseButton returns the "play or pause button" emoji ⏯️.
-func PlayOrPauseButton(v ...Variant) string { return styled(1391, v) }
+func PlayOrPauseButton() string { return emojiBlob[35283:35289] }
 
 // ReverseButton returns the "reverse button" emoji ◀️.
-func ReverseButton(v ...Variant) string { return styled(1467, v) }
+func ReverseButton() string { return emojiBlob[35343:35349] }
 
 // FastReverseButton returns the "fast reverse button" emoji ⏪.
-func FastReverseButton(v ...Variant) string { return styled(500, v) }
+func FastReverseButton() string { return emojiBlob[39614:39617] }
 
 // LastTrackButton returns the "last track button" emoji ⏮️.
-func LastTrackButton(v ...Variant) string { return styled(1009, v) }
+func LastTrackButton() string { return emojiBlob[35277:35283] }
 
 // UpwardsButton returns the "upwards button" emoji 🔼.
-func UpwardsButton(v ...Variant) string { return styled(1738, v) }
+func UpwardsButton() string { return emojiBlob[37641:37645] }
 
 // FastUpButton returns the "fast up button" emoji ⏫.
-func FastUpButton(v ...Variant) string { return styled(501, v) }
+func FastUpButton() string { return emojiBlob[39617:39620] }
 
 // DownwardsButton returns the "downwards button" emoji 🔽.
-func DownwardsButton(v ...Variant) string { return styled(395, v) }
+func DownwardsButton() string { return emojiBlob[37645:37649] }
 
 // FastDownButton returns the "fast down button" emoji ⏬.
-func FastDownButton(v ...Variant) string { return styled(499, v) }
+func FastDownButton() string { return emojiBlob[39620:39623] }
 
 // PauseButton returns the "pause button" emoji ⏸️.
-func PauseButton(v ...Variant) string { return styled(1300, v) }
+func PauseButton() string { return emojiBlob[35301:35307] }
 
 // StopButton returns the "stop button" emoji ⏹️.
-func StopButton(v ...Variant) string { return styled(1627, v) }
+func StopButton() string { return emojiBlob[35307:35313] }
 
 // RecordButton returns the "record button" emoji ⏺️.
-func RecordButton(v ...Variant) string { return styled(1448, v) }
+func RecordButton() string { return emojiBlob[35313:35319] }
 
 // EjectButton returns the "eject button" emoji ⏏️.
-func EjectButton(v ...Variant) string { return styled(417, v) }
+func EjectButton() string { return emojiBlob[35265:35271] }
 
 // Cinema returns the "cinema" emoji 🎦.
-func Cinema(v ...Variant) string { return styled(263, v) }
+func Cinema() string { return emojiBlob[36397:36401] }
 
 // DimButton returns the "dim button" emoji 🔅.
-func DimButton(v ...Variant) string { return styled(369, v) }
+func DimButton() string { return emojiBlob[37433:37437] }
 
 // BrightButton returns the "bright button" emoji 🔆.
-func BrightButton(v ...Variant) string { return styled(195, v) }
+func BrightButton() string { return emojiBlob[37437:37441] }
 
 // AntennaBars returns the "antenna bars" emoji 📶.
-func AntennaBars(v ...Variant) string { return styled(89, v) }
+func AntennaBars() string { return emojiBlob[37381:37385] }
 
 // Wireless returns the "wireless" emoji 🛜.
-func Wireless(v ...Variant) string { return styled(1792, v) }
+func Wireless() string { return emojiBlob[38337:38341] }
 
 // VibrationMode returns the "vibration mode" emoji 📳.
-func VibrationMode(v ...Variant) string { return styled(1741, v) }
+func VibrationMode() string { return emojiBlob[37369:37373] }
 
 // MobilePhoneOff returns the "mobile phone off" emoji 📴.
-func MobilePhoneOff(v ...Variant) string { return styled(1178, v) }
+func MobilePhoneOff() string { return emojiBlob[37373:37377] }
 
 // FemaleSign returns the "female sign" emoji ♀️.
-func FemaleSign(v ...Variant) string { return styled(506, v) }
+func FemaleSign() string { return emojiBlob[6161:6167] }
 
 // MaleSign returns the "male sign" emoji ♂️.
-func MaleSign(v ...Variant) string { return styled(1062, v) }
+func MaleSign() string { return emojiBlob[6187:6193] }
 
 // TransgenderSymbol returns the "transgender symbol" emoji ⚧️.
-func TransgenderSymbol(v ...Variant) string { return styled(1705, v) }
+func TransgenderSymbol() string { return emojiBlob[23281:23287] }
 
 // Multiply returns the "multiply" emoji ✖️.
-func Multiply(v ...Variant) string { return styled(1205, v) }
+func Multiply() string { return emojiBlob[35667:35673] }
 
 // Plus returns the "plus" emoji ➕.
-func Plus(v ...Variant) string { return styled(1395, v) }
+func Plus() string { return emojiBlob[39752:39755] }
 
 // Minus returns the "minus" emoji ➖.
-func Minus(v ...Variant) string { return styled(1173, v) }
+func Minus() string { return emojiBlob[39755:39758] }
 
 // Divide returns the "divide" emoji ➗.
-func Divide(v ...Variant) string { return styled(373, v) }
+func Divide() string { return emojiBlob[39758:39761] }
 
 // HeavyEqualsSign returns the "heavy equals sign" emoji 🟰.
-func HeavyEqualsSign(v ...Variant) string { return styled(904, v) }
+func HeavyEqualsSign() string { return emojiBlob[38437:38441] }
 
 // Infinity returns the "infinity" emoji ♾️.
-func Infinity(v ...Variant) string { return styled(949, v) }
+func Infinity() string { return emojiBlob[35511:35517] }
 
 // DoubleExclamationMark returns the "double exclamation mark" emoji
 // ‼️.
-func DoubleExclamationMark(v ...Variant) string { return styled(388, v) }
+func DoubleExclamationMark() string { return emojiBlob[35199:35205] }
 
 // ExclamationQuestionMark returns the "exclamation question mark" emoji
 // ⁉️.
-func ExclamationQuestionMark(v ...Variant) string { return styled(431, v) }
+func ExclamationQuestionMark() string { return emojiBlob[35205:35211] }
 
 // RedQuestionMark returns the "red question mark" emoji ❓.
-func RedQuestionMark(v ...Variant) string { return styled(1456, v) }
+func RedQuestionMark() string { return emojiBlob[39740:39743] }
 
 // WhiteQuestionMark returns the "white question mark" emoji ❔.
-func WhiteQuestionMark(v ...Variant) string { return styled(1781, v) }
+func WhiteQuestionMark() string { return emojiBlob[39743:39746] }
 
 // WhiteExclamationMark returns the "white exclamation mark" emoji ❕.
-func WhiteExclamationMark(v ...Variant) string { return styled(1774, v) }
+func WhiteExclamationMark() string { return emojiBlob[39746:39749] }
 
 // RedExclamationMark returns the "red exclamation mark" emoji ❗.
-func RedExclamationMark(v ...Variant) string { return styled(1453, v) }
+func RedExclamationMark() string { return emojiBlob[39749:39752] }
 
 // WavyDash returns the "wavy dash" emoji 〰️.
-func WavyDash(v ...Variant) string { return styled(1762, v) }
+func WavyDash() string { return emojiBlob[35739:35745] }
 
 // CurrencyExchange returns the "currency exchange" emoji 💱.
-func CurrencyExchange(v ...Variant) string { return styled(346, v) }
+func CurrencyExchange() string { return emojiBlob[37113:37117] }
 
 // HeavyDollarSign returns the "heavy dollar sign" emoji 💲.
-func HeavyDollarSign(v ...Variant) string { return styled(903, v) }
+func HeavyDollarSign() string { return emojiBlob[37117:37121] }
 
 // MedicalSymbol returns the "medical symbol" emoji ⚕️.
-func MedicalSymbol(v ...Variant) string { return styled(1150, v) }
+func MedicalSymbol() string { return emojiBlob[15153:15159] }
 
 // RecyclingSymbol returns the "recycling symbol" emoji ♻️.
-func RecyclingSymbol(v ...Variant) string { return styled(1449, v) }
+func RecyclingSymbol() string { return emojiBlob[35505:35511] }
 
 // FleurDeLis returns the "fleur-de-lis" emoji ⚜️.
-func FleurDeLis(v ...Variant) string { return styled(796, v) }
+func FleurDeLis() string { return emojiBlob[35547:35553] }
 
 // TridentEmblem returns the "trident emblem" emoji 🔱.
-func TridentEmblem(v ...Variant) string { return styled(1709, v) }
+func TridentEmblem() string { return emojiBlob[37597:37601] }
 
 // NameBadge returns the "name badge" emoji 📛.
-func NameBadge(v ...Variant) string { return styled(1213, v) }
+func NameBadge() string { return emojiBlob[37273:37277] }
 
 // JapaneseSymbolForBeginner returns the "Japanese symbol for beginner"
 // emoji 🔰.
-func JapaneseSymbolForBeginner(v ...Variant) string { return styled(22, v) }
+func JapaneseSymbolForBeginner() string { return emojiBlob[37593:37597] }
 
 // HollowRedCircle returns the "hollow red circle" emoji ⭕.
-func HollowRedCircle(v ...Variant) string { return styled(916, v) }
+func HollowRedCircle() string { return emojiBlob[39773:39776] }
 
 // CheckMarkButton returns the "check mark button" emoji ✅.
-func CheckMarkButton(v ...Variant) string { return styled(248, v) }
+func CheckMarkButton() string { return emojiBlob[39728:39731] }
 
 // CheckBoxWithCheck returns the "check box with check" emoji ☑️.
-func CheckBoxWithCheck(v ...Variant) string { return styled(246, v) }
+func CheckBoxWithCheck() string { return emojiBlob[35397:35403] }
 
 // CheckMark returns the "check mark" emoji ✔️.
-func CheckMark(v ...Variant) string { return styled(247, v) }
+func CheckMark() string { return emojiBlob[35661:35667] }
 
 // CrossMark returns the "cross mark" emoji ❌.
-func CrossMark(v ...Variant) string { return styled(331, v) }
+func CrossMark() string { return emojiBlob[39734:39737] }
 
 // CrossMarkButton returns the "cross mark button" emoji ❎.
-func CrossMarkButton(v ...Variant) string { return styled(332, v) }
+func CrossMarkButton() string { return emojiBlob[39737:39740] }
 
 // CurlyLoop returns the "curly loop" emoji ➰.
-func CurlyLoop(v ...Variant) string { return styled(345, v) }
+func CurlyLoop() string { return emojiBlob[39761:39764] }
 
 // DoubleCurlyLoop returns the "double curly loop" emoji ➿.
-func DoubleCurlyLoop(v ...Variant) string { return styled(387, v) }
+func DoubleCurlyLoop() string { return emojiBlob[39764:39767] }
 
 // PartAlternationMark returns the "part alternation mark" emoji 〽️.
-func PartAlternationMark(v ...Variant) string { return styled(1295, v) }
+func PartAlternationMark() string { return emojiBlob[35745:35751] }
 
 // EightSpokedAsterisk returns the "eight-spoked asterisk" emoji ✳️.
-func EightSpokedAsterisk(v ...Variant) string { return styled(415, v) }
+func EightSpokedAsterisk() string { return emojiBlob[35685:35691] }
 
 // EightPointedStar returns the "eight-pointed star" emoji ✴️.
-func EightPointedStar(v ...Variant) string { return styled(414, v) }
+func EightPointedStar() string { return emojiBlob[35691:35697] }
 
 // Sparkle returns the "sparkle" emoji ❇️.
-func Sparkle(v ...Variant) string { return styled(1595, v) }
+func Sparkle() string { return emojiBlob[35697:35703] }
 
 // Copyright returns the "copyright" emoji ©️.
-func Copyright(v ...Variant) string { return styled(311, v) }
+func Copyright() string { return emojiBlob[35763:35768] }
 
 // Registered returns the "registered" emoji ®️.
-func Registered(v ...Variant) string { return styled(1460, v) }
+func Registered() string { return emojiBlob[35768:35773] }
 
 // TradeMark returns the "trade mark" emoji ™️.
-func TradeMark(v ...Variant) string { return styled(1700, v) }
+func TradeMark() string { return emojiBlob[35211:35217] }
 
 // Splatter returns the "splatter" emoji 🫟.
-func Splatter(v ...Variant) string { return styled(1611, v) }
+func Splatter() string { return emojiBlob[39557:39561] }
 
 // KeycapHash returns the "keycap: #" emoji #️⃣.
-func KeycapHash(v ...Variant) string { return styled(967, v) }
+func KeycapHash() string { return emojiBlob[34310:34317] }
 
 // KeycapAsterisk returns the "keycap: *" emoji *️⃣.
-func KeycapAsterisk(v ...Variant) string { return styled(968, v) }
+func KeycapAsterisk() string { return emojiBlob[34317:34324] }
 
 // Keycap0 returns the "keycap: 0" emoji 0️⃣.
-func Keycap0(v ...Variant) string { return styled(969, v) }
+func Keycap0() string { return emojiBlob[34324:34331] }
 
 // Keycap1 returns the "keycap: 1" emoji 1️⃣.
-func Keycap1(v ...Variant) string { return styled(970, v) }
+func Keycap1() string { return emojiBlob[34331:34338] }
 
 // Keycap2 returns the "keycap: 2" emoji 2️⃣.
-func Keycap2(v ...Variant) string { return styled(972, v) }
+func Keycap2() string { return emojiBlob[34338:34345] }
 
 // Keycap3 returns the "keycap: 3" emoji 3️⃣.
-func Keycap3(v ...Variant) string { return styled(973, v) }
+func Keycap3() string { return emojiBlob[34345:34352] }
 
 // Keycap4 returns the "keycap: 4" emoji 4️⃣.
-func Keycap4(v ...Variant) string { return styled(974, v) }
+func Keycap4() string { return emojiBlob[34352:34359] }
 
 // Keycap5 returns the "keycap: 5" emoji 5️⃣.
-func Keycap5(v ...Variant) string { return styled(975, v) }
+func Keycap5() string { return emojiBlob[34359:34366] }
 
 // Keycap6 returns the "keycap: 6" emoji 6️⃣.
-func Keycap6(v ...Variant) string { return styled(976, v) }
+func Keycap6() string { return emojiBlob[34366:34373] }
 
 // Keycap7 returns the "keycap: 7" emoji 7️⃣.
-func Keycap7(v ...Variant) string { return styled(977, v) }
+func Keycap7() string { return emojiBlob[34373:34380] }
 
 // Keycap8 returns the "keycap: 8" emoji 8️⃣.
-func Keycap8(v ...Variant) string { return styled(978, v) }
+func Keycap8() string { return emojiBlob[34380:34387] }
 
 // Keycap9 returns the "keycap: 9" emoji 9️⃣.
-func Keycap9(v ...Variant) string { return styled(979, v) }
+func Keycap9() string { return emojiBlob[34387:34394] }
 
 // Keycap10 returns the "keycap: 10" emoji 🔟.
-func Keycap10(v ...Variant) string { return styled(971, v) }
+func Keycap10() string { return emojiBlob[37537:37541] }
 
 // InputLatinUppercase returns the "input latin uppercase" emoji 🔠.
-func InputLatinUppercase(v ...Variant) string { return styled(953, v) }
+func InputLatinUppercase() string { return emojiBlob[37541:37545] }
 
 // InputLatinLowercase returns the "input latin lowercase" emoji 🔡.
-func InputLatinLowercase(v ...Variant) string { return styled(952, v) }
+func InputLatinLowercase() string { return emojiBlob[37545:37549] }
 
 // InputNumbers returns the "input numbers" emoji 🔢.
-func InputNumbers(v ...Variant) string { return styled(954, v) }
+func InputNumbers() string { return emojiBlob[37549:37553] }
 
 // InputSymbols returns the "input symbols" emoji 🔣.
-func InputSymbols(v ...Variant) string { return styled(955, v) }
+func InputSymbols() string { return emojiBlob[37553:37557] }
 
 // InputLatinLetters returns the "input latin letters" emoji 🔤.
-func InputLatinLetters(v ...Variant) string { return styled(951, v) }
+func InputLatinLetters() string { return emojiBlob[37557:37561] }
 
 // AButtonBloodType returns the "A button (blood type)" emoji 🅰️.
-func AButtonBloodType(v ...Variant) string { return styled(3, v) }
+func AButtonBloodType() string { return emojiBlob[34569:34576] }
 
 // ABButtonBloodType returns the "AB button (blood type)" emoji 🆎.
-func ABButtonBloodType(v ...Variant) string { return styled(4, v) }
+func ABButtonBloodType() string { return emojiBlob[35781:35785] }
 
 // BButtonBloodType returns the "B button (blood type)" emoji 🅱️.
-func BButtonBloodType(v ...Variant) string { return styled(8, v) }
+func BButtonBloodType() string { return emojiBlob[34576:34583] }
 
 // CLButton returns the "CL button" emoji 🆑.
-func CLButton(v ...Variant) string { return styled(10, v) }
+func CLButton() string { return emojiBlob[35785:35789] }
 
 // COOLButton returns the "COOL button" emoji 🆒.
-func COOLButton(v ...Variant) string { return styled(11, v) }
+func COOLButton() string { return emojiBlob[35789:35793] }
 
 // FREEButton returns the "FREE button" emoji 🆓.
-func FREEButton(v ...Variant) string { return styled(16, v) }
+func FREEButton() string { return emojiBlob[35793:35797] }
 
 // Information returns the "information" emoji ℹ️.
-func Information(v ...Variant) string { return styled(950, v) }
+func Information() string { return emojiBlob[35217:35223] }
 
 // IDButton returns the "ID button" emoji 🆔.
-func IDButton(v ...Variant) string { return styled(18, v) }
+func IDButton() string { return emojiBlob[35797:35801] }
 
 // CircledM returns the "circled M" emoji Ⓜ️.
-func CircledM(v ...Variant) string { return styled(264, v) }
+func CircledM() string { return emojiBlob[35319:35325] }
 
 // NEWButton returns the "NEW button" emoji 🆕.
-func NEWButton(v ...Variant) string { return styled(44, v) }
+func NEWButton() string { return emojiBlob[35801:35805] }
 
 // NGButton returns the "NG button" emoji 🆖.
-func NGButton(v ...Variant) string { return styled(45, v) }
+func NGButton() string { return emojiBlob[35805:35809] }
 
 // OButtonBloodType returns the "O button (blood type)" emoji 🅾️.
-func OButtonBloodType(v ...Variant) string { return styled(46, v) }
+func OButtonBloodType() string { return emojiBlob[34583:34590] }
 
 // OKButton returns the "OK button" emoji 🆗.
-func OKButton(v ...Variant) string { return styled(47, v) }
+func OKButton() string { return emojiBlob[35809:35813] }
 
 // PButton returns the "P button" emoji 🅿️.
-func PButton(v ...Variant) string { return styled(51, v) }
+func PButton() string { return emojiBlob[34590:34597] }
 
 // SOSButton returns the "SOS button" emoji 🆘.
-func SOSButton(v ...Variant) string { return styled(54, v) }
+func SOSButton() string { return emojiBlob[35813:35817] }
 
 // UPButton returns the "UP! button" emoji 🆙.
-func UPButton(v ...Variant) string { return styled(63, v) }
+func UPButton() string { return emojiBlob[35817:35821] }
 
 // VSButton returns the "VS button" emoji 🆚.
-func VSButton(v ...Variant) string { return styled(64, v) }
+func VSButton() string { return emojiBlob[35821:35825] }
 
 // JapaneseHereButton returns the "Japanese “here” button" emoji 🈁.
-func JapaneseHereButton(v ...Variant) string { return styled(29, v) }
+func JapaneseHereButton() string { return emojiBlob[35825:35829] }
 
 // JapaneseServiceChargeButton returns the "Japanese “service charge”
 // button" emoji 🈂️.
-func JapaneseServiceChargeButton(v ...Variant) string { return styled(38, v) }
+func JapaneseServiceChargeButton() string { return emojiBlob[34597:34604] }
 
 // JapaneseMonthlyAmountButton returns the "Japanese “monthly amount”
 // button" emoji 🈷️.
-func JapaneseMonthlyAmountButton(v ...Variant) string { return styled(30, v) }
+func JapaneseMonthlyAmountButton() string { return emojiBlob[34604:34611] }
 
 // JapaneseNotFreeOfChargeButton returns the "Japanese “not free of
 // charge” button" emoji 🈶.
-func JapaneseNotFreeOfChargeButton(v ...Variant) string { return styled(32, v) }
+func JapaneseNotFreeOfChargeButton() string { return emojiBlob[35853:35857] }
 
 // JapaneseReservedButton returns the "Japanese “reserved” button"
 // emoji 🈯.
-func JapaneseReservedButton(v ...Variant) string { return styled(36, v) }
+func JapaneseReservedButton() string { return emojiBlob[35833:35837] }
 
 // JapaneseBargainButton returns the "Japanese “bargain” button" emoji
 // 🉐.
-func JapaneseBargainButton(v ...Variant) string { return styled(25, v) }
+func JapaneseBargainButton() string { return emojiBlob[35869:35873] }
 
 // JapaneseDiscountButton returns the "Japanese “discount” button"
 // emoji 🈹.
-func JapaneseDiscountButton(v ...Variant) string { return styled(27, v) }
+func JapaneseDiscountButton() string { return emojiBlob[35861:35865] }
 
 // JapaneseFreeOfChargeButton returns the "Japanese “free of charge”
 // button" emoji 🈚.
-func JapaneseFreeOfChargeButton(v ...Variant) string { return styled(28, v) }
+func JapaneseFreeOfChargeButton() string { return emojiBlob[35829:35833] }
 
 // JapaneseProhibitedButton returns the "Japanese “prohibited” button"
 // emoji 🈲.
-func JapaneseProhibitedButton(v ...Variant) string { return styled(35, v) }
+func JapaneseProhibitedButton() string { return emojiBlob[35837:35841] }
 
 // JapaneseAcceptableButton returns the "Japanese “acceptable” button"
 // emoji 🉑.
-func JapaneseAcceptableButton(v ...Variant) string { return styled(23, v) }
+func JapaneseAcceptableButton() string { return emojiBlob[35873:35877] }
 
 // JapaneseApplicationButton returns the "Japanese “application”
 // button" emoji 🈸.
-func JapaneseApplicationButton(v ...Variant) string { return styled(24, v) }
+func JapaneseApplicationButton() string { return emojiBlob[35857:35861] }
 
 // JapanesePassingGradeButton returns the "Japanese “passing grade”
 // button" emoji 🈴.
-func JapanesePassingGradeButton(v ...Variant) string { return styled(34, v) }
+func JapanesePassingGradeButton() string { return emojiBlob[35845:35849] }
 
 // JapaneseVacancyButton returns the "Japanese “vacancy” button" emoji
 // 🈳.
-func JapaneseVacancyButton(v ...Variant) string { return styled(39, v) }
+func JapaneseVacancyButton() string { return emojiBlob[35841:35845] }
 
 // JapaneseCongratulationsButton returns the "Japanese
 // “congratulations” button" emoji ㊗️.
-func JapaneseCongratulationsButton(v ...Variant) string { return styled(26, v) }
+func JapaneseCongratulationsButton() string { return emojiBlob[35751:35757] }
 
 // JapaneseSecretButton returns the "Japanese “secret” button" emoji
 // ㊙️.
-func JapaneseSecretButton(v ...Variant) string { return styled(37, v) }
+func JapaneseSecretButton() string { return emojiBlob[35757:35763] }
 
 // JapaneseOpenForBusinessButton returns the "Japanese “open for
 // business” button" emoji 🈺.
-func JapaneseOpenForBusinessButton(v ...Variant) string { return styled(33, v) }
+func JapaneseOpenForBusinessButton() string { return emojiBlob[35865:35869] }
 
 // JapaneseNoVacancyButton returns the "Japanese “no vacancy” button"
 // emoji 🈵.
-func JapaneseNoVacancyButton(v ...Variant) string { return styled(31, v) }
+func JapaneseNoVacancyButton() string { return emojiBlob[35849:35853] }
 
 // RedCircle returns the "red circle" emoji 🔴.
-func RedCircle(v ...Variant) string { return styled(1451, v) }
+func RedCircle() string { return emojiBlob[37609:37613] }
 
 // OrangeCircle returns the "orange circle" emoji 🟠.
-func OrangeCircle(v ...Variant) string { return styled(1270, v) }
+func OrangeCircle() string { return emojiBlob[38397:38401] }
 
 // YellowCircle returns the "yellow circle" emoji 🟡.
-func YellowCircle(v ...Variant) string { return styled(1888, v) }
+func YellowCircle() string { return emojiBlob[38401:38405] }
 
 // GreenCircle returns the "green circle" emoji 🟢.
-func GreenCircle(v ...Variant) string { return styled(859, v) }
+func GreenCircle() string { return emojiBlob[38405:38409] }
 
 // BlueCircle returns the "blue circle" emoji 🔵.
-func BlueCircle(v ...Variant) string { return styled(170, v) }
+func BlueCircle() string { return emojiBlob[37613:37617] }
 
 // PurpleCircle returns the "purple circle" emoji 🟣.
-func PurpleCircle(v ...Variant) string { return styled(1423, v) }
+func PurpleCircle() string { return emojiBlob[38409:38413] }
 
 // BrownCircle returns the "brown circle" emoji 🟤.
-func BrownCircle(v ...Variant) string { return styled(200, v) }
+func BrownCircle() string { return emojiBlob[38413:38417] }
 
 // BlackCircle returns the "black circle" emoji ⚫.
-func BlackCircle(v ...Variant) string { return styled(158, v) }
+func BlackCircle() string { return emojiBlob[39689:39692] }
 
 // WhiteCircle returns the "white circle" emoji ⚪.
-func WhiteCircle(v ...Variant) string { return styled(1773, v) }
+func WhiteCircle() string { return emojiBlob[39686:39689] }
 
 // RedSquare returns the "red square" emoji 🟥.
-func RedSquare(v ...Variant) string { return styled(1457, v) }
+func RedSquare() string { return emojiBlob[38417:38421] }
 
 // OrangeSquare returns the "orange square" emoji 🟧.
-func OrangeSquare(v ...Variant) string { return styled(1272, v) }
+func OrangeSquare() string { return emojiBlob[38425:38429] }
 
 // YellowSquare returns the "yellow square" emoji 🟨.
-func YellowSquare(v ...Variant) string { return styled(1890, v) }
+func YellowSquare() string { return emojiBlob[38429:38433] }
 
 // GreenSquare returns the "green square" emoji 🟩.
-func GreenSquare(v ...Variant) string { return styled(862, v) }
+func GreenSquare() string { return emojiBlob[28986:28990] }
 
 // BlueSquare returns the "blue square" emoji 🟦.
-func BlueSquare(v ...Variant) string { return styled(172, v) }
+func BlueSquare() string { return emojiBlob[38421:38425] }
 
 // PurpleSquare returns the "purple square" emoji 🟪.
-func PurpleSquare(v ...Variant) string { return styled(1425, v) }
+func PurpleSquare() string { return emojiBlob[38433:38437] }
 
 // BrownSquare returns the "brown square" emoji 🟫.
-func BrownSquare(v ...Variant) string { return styled(203, v) }
+func BrownSquare() string { return emojiBlob[28975:28979] }
 
 // BlackLargeSquare returns the "black large square" emoji ⬛.
-func BlackLargeSquare(v ...Variant) string { return styled(161, v) }
+func BlackLargeSquare() string { return emojiBlob[29657:29660] }
 
 // WhiteLargeSquare returns the "white large square" emoji ⬜.
-func WhiteLargeSquare(v ...Variant) string { return styled(1778, v) }
+func WhiteLargeSquare() string { return emojiBlob[39767:39770] }
 
 // BlackMediumSquare returns the "black medium square" emoji ◼️.
-func BlackMediumSquare(v ...Variant) string { return styled(162, v) }
+func BlackMediumSquare() string { return emojiBlob[35355:35361] }
 
 // WhiteMediumSquare returns the "white medium square" emoji ◻️.
-func WhiteMediumSquare(v ...Variant) string { return styled(1779, v) }
+func WhiteMediumSquare() string { return emojiBlob[35349:35355] }
 
 // BlackMediumSmallSquare returns the "black medium-small square" emoji
 // ◾.
-func BlackMediumSmallSquare(v ...Variant) string { return styled(163, v) }
+func BlackMediumSmallSquare() string { return emojiBlob[39632:39635] }
 
 // WhiteMediumSmallSquare returns the "white medium-small square" emoji
 // ◽.
-func WhiteMediumSmallSquare(v ...Variant) string { return styled(1780, v) }
+func WhiteMediumSmallSquare() string { return emojiBlob[39629:39632] }
 
 // BlackSmallSquare returns the "black small square" emoji ▪️.
-func BlackSmallSquare(v ...Variant) string { return styled(165, v) }
+func BlackSmallSquare() string { return emojiBlob[35325:35331] }
 
 // WhiteSmallSquare returns the "white small square" emoji ▫️.
-func WhiteSmallSquare(v ...Variant) string { return styled(1782, v) }
+func WhiteSmallSquare() string { return emojiBlob[35331:35337] }
 
 // LargeOrangeDiamond returns the "large orange diamond" emoji 🔶.
-func LargeOrangeDiamond(v ...Variant) string { return styled(1006, v) }
+func LargeOrangeDiamond() string { return emojiBlob[37617:37621] }
 
 // LargeBlueDiamond returns the "large blue diamond" emoji 🔷.
-func LargeBlueDiamond(v ...Variant) string { return styled(1005, v) }
+func LargeBlueDiamond() string { return emojiBlob[37621:37625] }
 
 // SmallOrangeDiamond returns the "small orange diamond" emoji 🔸.
-func SmallOrangeDiamond(v ...Variant) string { return styled(1568, v) }
+func SmallOrangeDiamond() string { return emojiBlob[37625:37629] }
 
 // SmallBlueDiamond returns the "small blue diamond" emoji 🔹.
-func SmallBlueDiamond(v ...Variant) string { return styled(1567, v) }
+func SmallBlueDiamond() string { return emojiBlob[37629:37633] }
 
 // RedTrianglePointedUp returns the "red triangle pointed up" emoji 🔺.
-func RedTrianglePointedUp(v ...Variant) string { return styled(1459, v) }
+func RedTrianglePointedUp() string { return emojiBlob[37633:37637] }
 
 // RedTrianglePointedDown returns the "red triangle pointed down" emoji
 // 🔻.
-func RedTrianglePointedDown(v ...Variant) string { return styled(1458, v) }
+func RedTrianglePointedDown() string { return emojiBlob[37637:37641] }
 
 // DiamondWithADot returns the "diamond with a dot" emoji 💠.
-func DiamondWithADot(v ...Variant) string { return styled(368, v) }
+func DiamondWithADot() string { return emojiBlob[37061:37065] }
 
 // RadioButton returns the "radio button" emoji 🔘.
-func RadioButton(v ...Variant) string { return styled(1434, v) }
+func RadioButton() string { return emojiBlob[37509:37513] }
 
 // WhiteSquareButton returns the "white square button" emoji 🔳.
-func WhiteSquareButton(v ...Variant) string { return styled(1783, v) }
+func WhiteSquareButton() string { return emojiBlob[37605:37609] }
 
 // BlackSquareButton returns the "black square button" emoji 🔲.
-func BlackSquareButton(v ...Variant) string { return styled(166, v) }
+func BlackSquareButton() string { return emojiBlob[37601:37605] }
 
 // Flags
 
 // ChequeredFlag returns the "chequered flag" emoji 🏁.
-func ChequeredFlag(v ...Variant) string { return styled(250, v) }
+func ChequeredFlag() string { return emojiBlob[36501:36505] }
 
 // TriangularFlag returns the "triangular flag" emoji 🚩.
-func TriangularFlag(v ...Variant) string { return styled(1707, v) }
+func TriangularFlag() string { return emojiBlob[38209:38213] }
 
 // CrossedFlags returns the "crossed flags" emoji 🎌.
-func CrossedFlags(v ...Variant) string { return styled(334, v) }
+func CrossedFlags() string { return emojiBlob[36349:36353] }
 
 // BlackFlag returns the "black flag" emoji 🏴.
-func BlackFlag(v ...Variant) string { return styled(159, v) }
+func BlackFlag() string { return emojiBlob[3325:3329] }
 
 // WhiteFlag returns the "white flag" emoji 🏳️.
-func WhiteFlag(v ...Variant) string { return styled(1775, v) }
+func WhiteFlag() string { return emojiBlob[23271:23278] }
 
 // RainbowFlag returns the "rainbow flag" emoji 🏳️‍🌈.
-func RainbowFlag(v ...Variant) string { return styled(1439, v) }
+func RainbowFlag() string { return emojiBlob[27549:27563] }
 
 // TransgenderFlag returns the "transgender flag" emoji 🏳️‍⚧️.
-func TransgenderFlag(v ...Variant) string { return styled(1704, v) }
+func TransgenderFlag() string { return emojiBlob[23271:23287] }
 
 // PirateFlag returns the "pirate flag" emoji 🏴‍☠️.
-func PirateFlag(v ...Variant) string { return styled(1385, v) }
+func PirateFlag() string { return emojiBlob[27681:27694] }
 
 // FlagAscensionIsland returns the "flag: Ascension Island" emoji 🇦🇨.
-func FlagAscensionIsland(v ...Variant) string { return styled(542, v) }
+func FlagAscensionIsland() string { return emojiBlob[29670:29678] }
 
 // FlagAndorra returns the "flag: Andorra" emoji 🇦🇩.
-func FlagAndorra(v ...Variant) string { return styled(534, v) }
+func FlagAndorra() string { return emojiBlob[29678:29686] }
 
 // FlagUnitedArabEmirates returns the "flag: United Arab Emirates" emoji
 // 🇦🇪.
-func FlagUnitedArabEmirates(v ...Variant) string { return styled(775, v) }
+func FlagUnitedArabEmirates() string { return emojiBlob[29686:29694] }
 
 // FlagAfghanistan returns the "flag: Afghanistan" emoji 🇦🇫.
-func FlagAfghanistan(v ...Variant) string { return styled(530, v) }
+func FlagAfghanistan() string { return emojiBlob[29694:29702] }
 
 // FlagAntiguaAndBarbuda returns the "flag: Antigua & Barbuda" emoji
 // 🇦🇬.
-func FlagAntiguaAndBarbuda(v ...Variant) string { return styled(538, v) }
+func FlagAntiguaAndBarbuda() string { return emojiBlob[29702:29710] }
 
 // FlagAnguilla returns the "flag: Anguilla" emoji 🇦🇮.
-func FlagAnguilla(v ...Variant) string { return styled(536, v) }
+func FlagAnguilla() string { return emojiBlob[29710:29718] }
 
 // FlagAlbania returns the "flag: Albania" emoji 🇦🇱.
-func FlagAlbania(v ...Variant) string { return styled(531, v) }
+func FlagAlbania() string { return emojiBlob[29718:29726] }
 
 // FlagArmenia returns the "flag: Armenia" emoji 🇦🇲.
-func FlagArmenia(v ...Variant) string { return styled(540, v) }
+func FlagArmenia() string { return emojiBlob[29726:29734] }
 
 // FlagAngola returns the "flag: Angola" emoji 🇦🇴.
-func FlagAngola(v ...Variant) string { return styled(535, v) }
+func FlagAngola() string { return emojiBlob[29734:29742] }
 
 // FlagAntarctica returns the "flag: Antarctica" emoji 🇦🇶.
-func FlagAntarctica(v ...Variant) string { return styled(537, v) }
+func FlagAntarctica() string { return emojiBlob[29742:29750] }
 
 // FlagArgentina returns the "flag: Argentina" emoji 🇦🇷.
-func FlagArgentina(v ...Variant) string { return styled(539, v) }
+func FlagArgentina() string { return emojiBlob[29750:29758] }
 
 // FlagAmericanSamoa returns the "flag: American Samoa" emoji 🇦🇸.
-func FlagAmericanSamoa(v ...Variant) string { return styled(533, v) }
+func FlagAmericanSamoa() string { return emojiBlob[29758:29766] }
 
 // FlagAustria returns the "flag: Austria" emoji 🇦🇹.
-func FlagAustria(v ...Variant) string { return styled(544, v) }
+func FlagAustria() string { return emojiBlob[29766:29774] }
 
 // FlagAustralia returns the "flag: Australia" emoji 🇦🇺.
-func FlagAustralia(v ...Variant) string { return styled(543, v) }
+func FlagAustralia() string { return emojiBlob[29774:29782] }
 
 // FlagAruba returns the "flag: Aruba" emoji 🇦🇼.
-func FlagAruba(v ...Variant) string { return styled(541, v) }
+func FlagAruba() string { return emojiBlob[29782:29790] }
 
 // FlagAlandIslands returns the "flag: Åland Islands" emoji 🇦🇽.
-func FlagAlandIslands(v ...Variant) string { return styled(791, v) }
+func FlagAlandIslands() string { return emojiBlob[29790:29798] }
 
 // FlagAzerbaijan returns the "flag: Azerbaijan" emoji 🇦🇿.
-func FlagAzerbaijan(v ...Variant) string { return styled(545, v) }
+func FlagAzerbaijan() string { return emojiBlob[29798:29806] }
 
 // FlagBosniaAndHerzegovina returns the "flag: Bosnia & Herzegovina" emoji
 // 🇧🇦.
-func FlagBosniaAndHerzegovina(v ...Variant) string { return styled(557, v) }
+func FlagBosniaAndHerzegovina() string { return emojiBlob[29806:29814] }
 
 // FlagBarbados returns the "flag: Barbados" emoji 🇧🇧.
-func FlagBarbados(v ...Variant) string { return styled(549, v) }
+func FlagBarbados() string { return emojiBlob[29814:29822] }
 
 // FlagBangladesh returns the "flag: Bangladesh" emoji 🇧🇩.
-func FlagBangladesh(v ...Variant) string { return styled(548, v) }
+func FlagBangladesh() string { return emojiBlob[29822:29830] }
 
 // FlagBelgium returns the "flag: Belgium" emoji 🇧🇪.
-func FlagBelgium(v ...Variant) string { return styled(551, v) }
+func FlagBelgium() string { return emojiBlob[29830:29838] }
 
 // FlagBurkinaFaso returns the "flag: Burkina Faso" emoji 🇧🇫.
-func FlagBurkinaFaso(v ...Variant) string { return styled(565, v) }
+func FlagBurkinaFaso() string { return emojiBlob[29838:29846] }
 
 // FlagBulgaria returns the "flag: Bulgaria" emoji 🇧🇬.
-func FlagBulgaria(v ...Variant) string { return styled(564, v) }
+func FlagBulgaria() string { return emojiBlob[29846:29854] }
 
 // FlagBahrain returns the "flag: Bahrain" emoji 🇧🇭.
-func FlagBahrain(v ...Variant) string { return styled(547, v) }
+func FlagBahrain() string { return emojiBlob[29854:29862] }
 
 // FlagBurundi returns the "flag: Burundi" emoji 🇧🇮.
-func FlagBurundi(v ...Variant) string { return styled(566, v) }
+func FlagBurundi() string { return emojiBlob[29862:29870] }
 
 // FlagBenin returns the "flag: Benin" emoji 🇧🇯.
-func FlagBenin(v ...Variant) string { return styled(553, v) }
+func FlagBenin() string { return emojiBlob[29870:29878] }
 
 // FlagStBarthelemy returns the "flag: St. Barthélemy" emoji 🇧🇱.
-func FlagStBarthelemy(v ...Variant) string { return styled(742, v) }
+func FlagStBarthelemy() string { return emojiBlob[29878:29886] }
 
 // FlagBermuda returns the "flag: Bermuda" emoji 🇧🇲.
-func FlagBermuda(v ...Variant) string { return styled(554, v) }
+func FlagBermuda() string { return emojiBlob[29886:29894] }
 
 // FlagBrunei returns the "flag: Brunei" emoji 🇧🇳.
-func FlagBrunei(v ...Variant) string { return styled(563, v) }
+func FlagBrunei() string { return emojiBlob[29894:29902] }
 
 // FlagBolivia returns the "flag: Bolivia" emoji 🇧🇴.
-func FlagBolivia(v ...Variant) string { return styled(556, v) }
+func FlagBolivia() string { return emojiBlob[29902:29910] }
 
 // FlagCaribbeanNetherlands returns the "flag: Caribbean Netherlands" emoji
 // 🇧🇶.
-func FlagCaribbeanNetherlands(v ...Variant) string { return styled(572, v) }
+func FlagCaribbeanNetherlands() string { return emojiBlob[29910:29918] }
 
 // FlagBrazil returns the "flag: Brazil" emoji 🇧🇷.
-func FlagBrazil(v ...Variant) string { return styled(560, v) }
+func FlagBrazil() string { return emojiBlob[29918:29926] }
 
 // FlagBahamas returns the "flag: Bahamas" emoji 🇧🇸.
-func FlagBahamas(v ...Variant) string { return styled(546, v) }
+func FlagBahamas() string { return emojiBlob[29926:29934] }
 
 // FlagBhutan returns the "flag: Bhutan" emoji 🇧🇹.
-func FlagBhutan(v ...Variant) string { return styled(555, v) }
+func FlagBhutan() string { return emojiBlob[29934:29942] }
 
 // FlagBouvetIsland returns the "flag: Bouvet Island" emoji 🇧🇻.
-func FlagBouvetIsland(v ...Variant) string { return styled(559, v) }
+func FlagBouvetIsland() string { return emojiBlob[29942:29950] }
 
 // FlagBotswana returns the "flag: Botswana" emoji 🇧🇼.
-func FlagBotswana(v ...Variant) string { return styled(558, v) }
+func FlagBotswana() string { return emojiBlob[29950:29958] }
 
 // FlagBelarus returns the "flag: Belarus" emoji 🇧🇾.
-func FlagBelarus(v ...Variant) string { return styled(550, v) }
+func FlagBelarus() string { return emojiBlob[29958:29966] }
 
 // FlagBelize returns the "flag: Belize" emoji 🇧🇿.
-func FlagBelize(v ...Variant) string { return styled(552, v) }
+func FlagBelize() string { return emojiBlob[29966:29974] }
 
 // FlagCanada returns the "flag: Canada" emoji 🇨🇦.
-func FlagCanada(v ...Variant) string { return styled(569, v) }
+func FlagCanada() string { return emojiBlob[29674:29682] }
 
 // FlagCocosKeelingIslands returns the "flag: Cocos (Keeling) Islands"
 // emoji 🇨🇨.
-func FlagCocosKeelingIslands(v ...Variant) string { return styled(581, v) }
+func FlagCocosKeelingIslands() string { return emojiBlob[29974:29982] }
 
 // FlagCongoKinshasa returns the "flag: Congo - Kinshasa" emoji 🇨🇩.
-func FlagCongoKinshasa(v ...Variant) string { return styled(585, v) }
+func FlagCongoKinshasa() string { return emojiBlob[29982:29990] }
 
 // FlagCentralAfricanRepublic returns the "flag: Central African Republic"
 // emoji 🇨🇫.
-func FlagCentralAfricanRepublic(v ...Variant) string { return styled(574, v) }
+func FlagCentralAfricanRepublic() string { return emojiBlob[29990:29998] }
 
 // FlagCongoBrazzaville returns the "flag: Congo - Brazzaville" emoji
 // 🇨🇬.
-func FlagCongoBrazzaville(v ...Variant) string { return styled(584, v) }
+func FlagCongoBrazzaville() string { return emojiBlob[29998:30006] }
 
 // FlagSwitzerland returns the "flag: Switzerland" emoji 🇨🇭.
-func FlagSwitzerland(v ...Variant) string { return styled(753, v) }
+func FlagSwitzerland() string { return emojiBlob[30006:30014] }
 
 // FlagCoteDIvoire returns the "flag: Côte d’Ivoire" emoji 🇨🇮.
-func FlagCoteDIvoire(v ...Variant) string { return styled(593, v) }
+func FlagCoteDIvoire() string { return emojiBlob[30014:30022] }
 
 // FlagCookIslands returns the "flag: Cook Islands" emoji 🇨🇰.
-func FlagCookIslands(v ...Variant) string { return styled(586, v) }
+func FlagCookIslands() string { return emojiBlob[30022:30030] }
 
 // FlagChile returns the "flag: Chile" emoji 🇨🇱.
-func FlagChile(v ...Variant) string { return styled(577, v) }
+func FlagChile() string { return emojiBlob[30030:30038] }
 
 // FlagCameroon returns the "flag: Cameroon" emoji 🇨🇲.
-func FlagCameroon(v ...Variant) string { return styled(568, v) }
+func FlagCameroon() string { return emojiBlob[30038:30046] }
 
 // FlagChina returns the "flag: China" emoji 🇨🇳.
-func FlagChina(v ...Variant) string { return styled(578, v) }
+func FlagChina() string { return emojiBlob[30046:30054] }
 
 // FlagColombia returns the "flag: Colombia" emoji 🇨🇴.
-func FlagColombia(v ...Variant) string { return styled(582, v) }
+func FlagColombia() string { return emojiBlob[30054:30062] }
 
 // FlagClippertonIsland returns the "flag: Clipperton Island" emoji
 // 🇨🇵.
-func FlagClippertonIsland(v ...Variant) string { return styled(580, v) }
+func FlagClippertonIsland() string { return emojiBlob[30062:30070] }
 
 // FlagSark returns the "flag: Sark" emoji 🇨🇶.
-func FlagSark(v ...Variant) string { return styled(723, v) }
+func FlagSark() string { return emojiBlob[30070:30078] }
 
 // FlagCostaRica returns the "flag: Costa Rica" emoji 🇨🇷.
-func FlagCostaRica(v ...Variant) string { return styled(587, v) }
+func FlagCostaRica() string { return emojiBlob[30078:30086] }
 
 // FlagCuba returns the "flag: Cuba" emoji 🇨🇺.
-func FlagCuba(v ...Variant) string { return styled(589, v) }
+func FlagCuba() string { return emojiBlob[30086:30094] }
 
 // FlagCapeVerde returns the "flag: Cape Verde" emoji 🇨🇻.
-func FlagCapeVerde(v ...Variant) string { return styled(571, v) }
+func FlagCapeVerde() string { return emojiBlob[30094:30102] }
 
 // FlagCuracao returns the "flag: Curaçao" emoji 🇨🇼.
-func FlagCuracao(v ...Variant) string { return styled(590, v) }
+func FlagCuracao() string { return emojiBlob[30102:30110] }
 
 // FlagChristmasIsland returns the "flag: Christmas Island" emoji 🇨🇽.
-func FlagChristmasIsland(v ...Variant) string { return styled(579, v) }
+func FlagChristmasIsland() string { return emojiBlob[30110:30118] }
 
 // FlagCyprus returns the "flag: Cyprus" emoji 🇨🇾.
-func FlagCyprus(v ...Variant) string { return styled(591, v) }
+func FlagCyprus() string { return emojiBlob[30118:30126] }
 
 // FlagCzechia returns the "flag: Czechia" emoji 🇨🇿.
-func FlagCzechia(v ...Variant) string { return styled(592, v) }
+func FlagCzechia() string { return emojiBlob[30126:30134] }
 
 // FlagGermany returns the "flag: Germany" emoji 🇩🇪.
-func FlagGermany(v ...Variant) string { return styled(620, v) }
+func FlagGermany() string { return emojiBlob[30134:30142] }
 
 // FlagDiegoGarcia returns the "flag: Diego Garcia" emoji 🇩🇬.
-func FlagDiegoGarcia(v ...Variant) string { return styled(595, v) }
+func FlagDiegoGarcia() string { return emojiBlob[30142:30150] }
 
 // FlagDjibouti returns the "flag: Djibouti" emoji 🇩🇯.
-func FlagDjibouti(v ...Variant) string { return styled(596, v) }
+func FlagDjibouti() string { return emojiBlob[30150:30158] }
 
 // FlagDenmark returns the "flag: Denmark" emoji 🇩🇰.
-func FlagDenmark(v ...Variant) string { return styled(594, v) }
+func FlagDenmark() string { return emojiBlob[30158:30166] }
 
 // FlagDominica returns the "flag: Dominica" emoji 🇩🇲.
-func FlagDominica(v ...Variant) string { return styled(597, v) }
+func FlagDominica() string { return emojiBlob[30166:30174] }
 
 // FlagDominicanRepublic returns the "flag: Dominican Republic" emoji
 // 🇩🇴.
-func FlagDominicanRepublic(v ...Variant) string { return styled(598, v) }
+func FlagDominicanRepublic() string { return emojiBlob[30174:30182] }
 
 // FlagAlgeria returns the "flag: Algeria" emoji 🇩🇿.
-func FlagAlgeria(v ...Variant) string { return styled(532, v) }
+func FlagAlgeria() string { return emojiBlob[30182:30190] }
 
 // FlagCeutaAndMelilla returns the "flag: Ceuta & Melilla" emoji 🇪🇦.
-func FlagCeutaAndMelilla(v ...Variant) string { return styled(575, v) }
+func FlagCeutaAndMelilla() string { return emojiBlob[29690:29698] }
 
 // FlagEcuador returns the "flag: Ecuador" emoji 🇪🇨.
-func FlagEcuador(v ...Variant) string { return styled(599, v) }
+func FlagEcuador() string { return emojiBlob[30190:30198] }
 
 // FlagEstonia returns the "flag: Estonia" emoji 🇪🇪.
-func FlagEstonia(v ...Variant) string { return styled(605, v) }
+func FlagEstonia() string { return emojiBlob[30198:30206] }
 
 // FlagEgypt returns the "flag: Egypt" emoji 🇪🇬.
-func FlagEgypt(v ...Variant) string { return styled(600, v) }
+func FlagEgypt() string { return emojiBlob[30206:30214] }
 
 // FlagWesternSahara returns the "flag: Western Sahara" emoji 🇪🇭.
-func FlagWesternSahara(v ...Variant) string { return styled(787, v) }
+func FlagWesternSahara() string { return emojiBlob[30214:30222] }
 
 // FlagEritrea returns the "flag: Eritrea" emoji 🇪🇷.
-func FlagEritrea(v ...Variant) string { return styled(604, v) }
+func FlagEritrea() string { return emojiBlob[30222:30230] }
 
 // FlagSpain returns the "flag: Spain" emoji 🇪🇸.
-func FlagSpain(v ...Variant) string { return styled(740, v) }
+func FlagSpain() string { return emojiBlob[30230:30238] }
 
 // FlagEthiopia returns the "flag: Ethiopia" emoji 🇪🇹.
-func FlagEthiopia(v ...Variant) string { return styled(607, v) }
+func FlagEthiopia() string { return emojiBlob[30238:30246] }
 
 // FlagEuropeanUnion returns the "flag: European Union" emoji 🇪🇺.
-func FlagEuropeanUnion(v ...Variant) string { return styled(608, v) }
+func FlagEuropeanUnion() string { return emojiBlob[30246:30254] }
 
 // FlagFinland returns the "flag: Finland" emoji 🇫🇮.
-func FlagFinland(v ...Variant) string { return styled(612, v) }
+func FlagFinland() string { return emojiBlob[30254:30262] }
 
 // FlagFiji returns the "flag: Fiji" emoji 🇫🇯.
-func FlagFiji(v ...Variant) string { return styled(611, v) }
+func FlagFiji() string { return emojiBlob[30262:30270] }
 
 // FlagFalklandIslands returns the "flag: Falkland Islands" emoji 🇫🇰.
-func FlagFalklandIslands(v ...Variant) string { return styled(609, v) }
+func FlagFalklandIslands() string { return emojiBlob[30270:30278] }
 
 // FlagMicronesia returns the "flag: Micronesia" emoji 🇫🇲.
-func FlagMicronesia(v ...Variant) string { return styled(679, v) }
+func FlagMicronesia() string { return emojiBlob[30278:30286] }
 
 // FlagFaroeIslands returns the "flag: Faroe Islands" emoji 🇫🇴.
-func FlagFaroeIslands(v ...Variant) string { return styled(610, v) }
+func FlagFaroeIslands() string { return emojiBlob[30286:30294] }
 
 // FlagFrance returns the "flag: France" emoji 🇫🇷.
-func FlagFrance(v ...Variant) string { return styled(613, v) }
+func FlagFrance() string { return emojiBlob[30294:30302] }
 
 // FlagGabon returns the "flag: Gabon" emoji 🇬🇦.
-func FlagGabon(v ...Variant) string { return styled(617, v) }
+func FlagGabon() string { return emojiBlob[29706:29714] }
 
 // FlagUnitedKingdom returns the "flag: United Kingdom" emoji 🇬🇧.
-func FlagUnitedKingdom(v ...Variant) string { return styled(776, v) }
+func FlagUnitedKingdom() string { return emojiBlob[29850:29858] }
 
 // FlagGrenada returns the "flag: Grenada" emoji 🇬🇩.
-func FlagGrenada(v ...Variant) string { return styled(625, v) }
+func FlagGrenada() string { return emojiBlob[30146:30154] }
 
 // FlagGeorgia returns the "flag: Georgia" emoji 🇬🇪.
-func FlagGeorgia(v ...Variant) string { return styled(619, v) }
+func FlagGeorgia() string { return emojiBlob[30210:30218] }
 
 // FlagFrenchGuiana returns the "flag: French Guiana" emoji 🇬🇫.
-func FlagFrenchGuiana(v ...Variant) string { return styled(614, v) }
+func FlagFrenchGuiana() string { return emojiBlob[30302:30310] }
 
 // FlagGuernsey returns the "flag: Guernsey" emoji 🇬🇬.
-func FlagGuernsey(v ...Variant) string { return styled(629, v) }
+func FlagGuernsey() string { return emojiBlob[30310:30318] }
 
 // FlagGhana returns the "flag: Ghana" emoji 🇬🇭.
-func FlagGhana(v ...Variant) string { return styled(621, v) }
+func FlagGhana() string { return emojiBlob[30318:30326] }
 
 // FlagGibraltar returns the "flag: Gibraltar" emoji 🇬🇮.
-func FlagGibraltar(v ...Variant) string { return styled(622, v) }
+func FlagGibraltar() string { return emojiBlob[30326:30334] }
 
 // FlagGreenland returns the "flag: Greenland" emoji 🇬🇱.
-func FlagGreenland(v ...Variant) string { return styled(624, v) }
+func FlagGreenland() string { return emojiBlob[30334:30342] }
 
 // FlagGambia returns the "flag: Gambia" emoji 🇬🇲.
-func FlagGambia(v ...Variant) string { return styled(618, v) }
+func FlagGambia() string { return emojiBlob[30342:30350] }
 
 // FlagGuinea returns the "flag: Guinea" emoji 🇬🇳.
-func FlagGuinea(v ...Variant) string { return styled(630, v) }
+func FlagGuinea() string { return emojiBlob[30350:30358] }
 
 // FlagGuadeloupe returns the "flag: Guadeloupe" emoji 🇬🇵.
-func FlagGuadeloupe(v ...Variant) string { return styled(626, v) }
+func FlagGuadeloupe() string { return emojiBlob[30358:30366] }
 
 // FlagEquatorialGuinea returns the "flag: Equatorial Guinea" emoji
 // 🇬🇶.
-func FlagEquatorialGuinea(v ...Variant) string { return styled(603, v) }
+func FlagEquatorialGuinea() string { return emojiBlob[30366:30374] }
 
 // FlagGreece returns the "flag: Greece" emoji 🇬🇷.
-func FlagGreece(v ...Variant) string { return styled(623, v) }
+func FlagGreece() string { return emojiBlob[30374:30382] }
 
 // FlagSouthGeorgiaAndSouthSandwichIslands returns the "flag: South Georgia
 // & South Sandwich Islands" emoji 🇬🇸.
-func FlagSouthGeorgiaAndSouthSandwichIslands(v ...Variant) string { return styled(737, v) }
+func FlagSouthGeorgiaAndSouthSandwichIslands() string { return emojiBlob[30382:30390] }
 
 // FlagGuatemala returns the "flag: Guatemala" emoji 🇬🇹.
-func FlagGuatemala(v ...Variant) string { return styled(628, v) }
+func FlagGuatemala() string { return emojiBlob[30390:30398] }
 
 // FlagGuam returns the "flag: Guam" emoji 🇬🇺.
-func FlagGuam(v ...Variant) string { return styled(627, v) }
+func FlagGuam() string { return emojiBlob[30398:30406] }
 
 // FlagGuineaBissau returns the "flag: Guinea-Bissau" emoji 🇬🇼.
-func FlagGuineaBissau(v ...Variant) string { return styled(631, v) }
+func FlagGuineaBissau() string { return emojiBlob[30406:30414] }
 
 // FlagGuyana returns the "flag: Guyana" emoji 🇬🇾.
-func FlagGuyana(v ...Variant) string { return styled(632, v) }
+func FlagGuyana() string { return emojiBlob[30414:30422] }
 
 // FlagHongKongSARChina returns the "flag: Hong Kong SAR China" emoji
 // 🇭🇰.
-func FlagHongKongSARChina(v ...Variant) string { return styled(636, v) }
+func FlagHongKongSARChina() string { return emojiBlob[30422:30430] }
 
 // FlagHeardAndMcDonaldIslands returns the "flag: Heard & McDonald Islands"
 // emoji 🇭🇲.
-func FlagHeardAndMcDonaldIslands(v ...Variant) string { return styled(634, v) }
+func FlagHeardAndMcDonaldIslands() string { return emojiBlob[30430:30438] }
 
 // FlagHonduras returns the "flag: Honduras" emoji 🇭🇳.
-func FlagHonduras(v ...Variant) string { return styled(635, v) }
+func FlagHonduras() string { return emojiBlob[30438:30446] }
 
 // FlagCroatia returns the "flag: Croatia" emoji 🇭🇷.
-func FlagCroatia(v ...Variant) string { return styled(588, v) }
+func FlagCroatia() string { return emojiBlob[30446:30454] }
 
 // FlagHaiti returns the "flag: Haiti" emoji 🇭🇹.
-func FlagHaiti(v ...Variant) string { return styled(633, v) }
+func FlagHaiti() string { return emojiBlob[30454:30462] }
 
 // FlagHungary returns the "flag: Hungary" emoji 🇭🇺.
-func FlagHungary(v ...Variant) string { return styled(637, v) }
+func FlagHungary() string { return emojiBlob[30462:30470] }
 
 // FlagCanaryIslands returns the "flag: Canary Islands" emoji 🇮🇨.
-func FlagCanaryIslands(v ...Variant) string { return styled(570, v) }
+func FlagCanaryIslands() string { return emojiBlob[30018:30026] }
 
 // FlagIndonesia returns the "flag: Indonesia" emoji 🇮🇩.
-func FlagIndonesia(v ...Variant) string { return styled(640, v) }
+func FlagIndonesia() string { return emojiBlob[30470:30478] }
 
 // FlagIreland returns the "flag: Ireland" emoji 🇮🇪.
-func FlagIreland(v ...Variant) string { return styled(643, v) }
+func FlagIreland() string { return emojiBlob[30478:30486] }
 
 // FlagIsrael returns the "flag: Israel" emoji 🇮🇱.
-func FlagIsrael(v ...Variant) string { return styled(645, v) }
+func FlagIsrael() string { return emojiBlob[30486:30494] }
 
 // FlagIsleOfMan returns the "flag: Isle of Man" emoji 🇮🇲.
-func FlagIsleOfMan(v ...Variant) string { return styled(644, v) }
+func FlagIsleOfMan() string { return emojiBlob[30494:30502] }
 
 // FlagIndia returns the "flag: India" emoji 🇮🇳.
-func FlagIndia(v ...Variant) string { return styled(639, v) }
+func FlagIndia() string { return emojiBlob[30502:30510] }
 
 // FlagBritishIndianOceanTerritory returns the "flag: British Indian Ocean
 // Territory" emoji 🇮🇴.
-func FlagBritishIndianOceanTerritory(v ...Variant) string { return styled(561, v) }
+func FlagBritishIndianOceanTerritory() string { return emojiBlob[30510:30518] }
 
 // FlagIraq returns the "flag: Iraq" emoji 🇮🇶.
-func FlagIraq(v ...Variant) string { return styled(642, v) }
+func FlagIraq() string { return emojiBlob[30518:30526] }
 
 // FlagIran returns the "flag: Iran" emoji 🇮🇷.
-func FlagIran(v ...Variant) string { return styled(641, v) }
+func FlagIran() string { return emojiBlob[30526:30534] }
 
 // FlagIceland returns the "flag: Iceland" emoji 🇮🇸.
-func FlagIceland(v ...Variant) string { return styled(638, v) }
+func FlagIceland() string { return emojiBlob[30534:30542] }
 
 // FlagItaly returns the "flag: Italy" emoji 🇮🇹.
-func FlagItaly(v ...Variant) string { return styled(646, v) }
+func FlagItaly() string { return emojiBlob[30542:30550] }
 
 // FlagJersey returns the "flag: Jersey" emoji 🇯🇪.
-func FlagJersey(v ...Variant) string { return styled(649, v) }
+func FlagJersey() string { return emojiBlob[30550:30558] }
 
 // FlagJamaica returns the "flag: Jamaica" emoji 🇯🇲.
-func FlagJamaica(v ...Variant) string { return styled(647, v) }
+func FlagJamaica() string { return emojiBlob[30558:30566] }
 
 // FlagJordan returns the "flag: Jordan" emoji 🇯🇴.
-func FlagJordan(v ...Variant) string { return styled(650, v) }
+func FlagJordan() string { return emojiBlob[30566:30574] }
 
 // FlagJapan returns the "flag: Japan" emoji 🇯🇵.
-func FlagJapan(v ...Variant) string { return styled(648, v) }
+func FlagJapan() string { return emojiBlob[30574:30582] }
 
 // FlagKenya returns the "flag: Kenya" emoji 🇰🇪.
-func FlagKenya(v ...Variant) string { return styled(652, v) }
+func FlagKenya() string { return emojiBlob[30582:30590] }
 
 // FlagKyrgyzstan returns the "flag: Kyrgyzstan" emoji 🇰🇬.
-func FlagKyrgyzstan(v ...Variant) string { return styled(656, v) }
+func FlagKyrgyzstan() string { return emojiBlob[30590:30598] }
 
 // FlagCambodia returns the "flag: Cambodia" emoji 🇰🇭.
-func FlagCambodia(v ...Variant) string { return styled(567, v) }
+func FlagCambodia() string { return emojiBlob[30426:30434] }
 
 // FlagKiribati returns the "flag: Kiribati" emoji 🇰🇮.
-func FlagKiribati(v ...Variant) string { return styled(653, v) }
+func FlagKiribati() string { return emojiBlob[30598:30606] }
 
 // FlagComoros returns the "flag: Comoros" emoji 🇰🇲.
-func FlagComoros(v ...Variant) string { return styled(583, v) }
+func FlagComoros() string { return emojiBlob[30606:30614] }
 
 // FlagStKittsAndNevis returns the "flag: St. Kitts & Nevis" emoji
 // 🇰🇳.
-func FlagStKittsAndNevis(v ...Variant) string { return styled(744, v) }
+func FlagStKittsAndNevis() string { return emojiBlob[30614:30622] }
 
 // FlagNorthKorea returns the "flag: North Korea" emoji 🇰🇵.
-func FlagNorthKorea(v ...Variant) string { return styled(699, v) }
+func FlagNorthKorea() string { return emojiBlob[30622:30630] }
 
 // FlagSouthKorea returns the "flag: South Korea" emoji 🇰🇷.
-func FlagSouthKorea(v ...Variant) string { return styled(738, v) }
+func FlagSouthKorea() string { return emojiBlob[30630:30638] }
 
 // FlagKuwait returns the "flag: Kuwait" emoji 🇰🇼.
-func FlagKuwait(v ...Variant) string { return styled(655, v) }
+func FlagKuwait() string { return emojiBlob[30638:30646] }
 
 // FlagCaymanIslands returns the "flag: Cayman Islands" emoji 🇰🇾.
-func FlagCaymanIslands(v ...Variant) string { return styled(573, v) }
+func FlagCaymanIslands() string { return emojiBlob[30646:30654] }
 
 // FlagKazakhstan returns the "flag: Kazakhstan" emoji 🇰🇿.
-func FlagKazakhstan(v ...Variant) string { return styled(651, v) }
+func FlagKazakhstan() string { return emojiBlob[30654:30662] }
 
 // FlagLaos returns the "flag: Laos" emoji 🇱🇦.
-func FlagLaos(v ...Variant) string { return styled(657, v) }
+func FlagLaos() string { return emojiBlob[29722:29730] }
 
 // FlagLebanon returns the "flag: Lebanon" emoji 🇱🇧.
-func FlagLebanon(v ...Variant) string { return styled(659, v) }
+func FlagLebanon() string { return emojiBlob[29882:29890] }
 
 // FlagStLucia returns the "flag: St. Lucia" emoji 🇱🇨.
-func FlagStLucia(v ...Variant) string { return styled(745, v) }
+func FlagStLucia() string { return emojiBlob[30034:30042] }
 
 // FlagLiechtenstein returns the "flag: Liechtenstein" emoji 🇱🇮.
-func FlagLiechtenstein(v ...Variant) string { return styled(663, v) }
+func FlagLiechtenstein() string { return emojiBlob[30490:30498] }
 
 // FlagSriLanka returns the "flag: Sri Lanka" emoji 🇱🇰.
-func FlagSriLanka(v ...Variant) string { return styled(741, v) }
+func FlagSriLanka() string { return emojiBlob[30662:30670] }
 
 // FlagLiberia returns the "flag: Liberia" emoji 🇱🇷.
-func FlagLiberia(v ...Variant) string { return styled(661, v) }
+func FlagLiberia() string { return emojiBlob[30670:30678] }
 
 // FlagLesotho returns the "flag: Lesotho" emoji 🇱🇸.
-func FlagLesotho(v ...Variant) string { return styled(660, v) }
+func FlagLesotho() string { return emojiBlob[30678:30686] }
 
 // FlagLithuania returns the "flag: Lithuania" emoji 🇱🇹.
-func FlagLithuania(v ...Variant) string { return styled(664, v) }
+func FlagLithuania() string { return emojiBlob[30686:30694] }
 
 // FlagLuxembourg returns the "flag: Luxembourg" emoji 🇱🇺.
-func FlagLuxembourg(v ...Variant) string { return styled(665, v) }
+func FlagLuxembourg() string { return emojiBlob[30694:30702] }
 
 // FlagLatvia returns the "flag: Latvia" emoji 🇱🇻.
-func FlagLatvia(v ...Variant) string { return styled(658, v) }
+func FlagLatvia() string { return emojiBlob[30702:30710] }
 
 // FlagLibya returns the "flag: Libya" emoji 🇱🇾.
-func FlagLibya(v ...Variant) string { return styled(662, v) }
+func FlagLibya() string { return emojiBlob[30710:30718] }
 
 // FlagMorocco returns the "flag: Morocco" emoji 🇲🇦.
-func FlagMorocco(v ...Variant) string { return styled(685, v) }
+func FlagMorocco() string { return emojiBlob[29730:29738] }
 
 // FlagMonaco returns the "flag: Monaco" emoji 🇲🇨.
-func FlagMonaco(v ...Variant) string { return styled(681, v) }
+func FlagMonaco() string { return emojiBlob[30042:30050] }
 
 // FlagMoldova returns the "flag: Moldova" emoji 🇲🇩.
-func FlagMoldova(v ...Variant) string { return styled(680, v) }
+func FlagMoldova() string { return emojiBlob[30170:30178] }
 
 // FlagMontenegro returns the "flag: Montenegro" emoji 🇲🇪.
-func FlagMontenegro(v ...Variant) string { return styled(683, v) }
+func FlagMontenegro() string { return emojiBlob[30718:30726] }
 
 // FlagStMartin returns the "flag: St. Martin" emoji 🇲🇫.
-func FlagStMartin(v ...Variant) string { return styled(746, v) }
+func FlagStMartin() string { return emojiBlob[30282:30290] }
 
 // FlagMadagascar returns the "flag: Madagascar" emoji 🇲🇬.
-func FlagMadagascar(v ...Variant) string { return styled(667, v) }
+func FlagMadagascar() string { return emojiBlob[30346:30354] }
 
 // FlagMarshallIslands returns the "flag: Marshall Islands" emoji 🇲🇭.
-func FlagMarshallIslands(v ...Variant) string { return styled(673, v) }
+func FlagMarshallIslands() string { return emojiBlob[30434:30442] }
 
 // FlagNorthMacedonia returns the "flag: North Macedonia" emoji 🇲🇰.
-func FlagNorthMacedonia(v ...Variant) string { return styled(700, v) }
+func FlagNorthMacedonia() string { return emojiBlob[30610:30618] }
 
 // FlagMali returns the "flag: Mali" emoji 🇲🇱.
-func FlagMali(v ...Variant) string { return styled(671, v) }
+func FlagMali() string { return emojiBlob[30726:30734] }
 
 // FlagMyanmarBurma returns the "flag: Myanmar (Burma)" emoji 🇲🇲.
-func FlagMyanmarBurma(v ...Variant) string { return styled(687, v) }
+func FlagMyanmarBurma() string { return emojiBlob[30734:30742] }
 
 // FlagMongolia returns the "flag: Mongolia" emoji 🇲🇳.
-func FlagMongolia(v ...Variant) string { return styled(682, v) }
+func FlagMongolia() string { return emojiBlob[30742:30750] }
 
 // FlagMacaoSARChina returns the "flag: Macao SAR China" emoji 🇲🇴.
-func FlagMacaoSARChina(v ...Variant) string { return styled(666, v) }
+func FlagMacaoSARChina() string { return emojiBlob[30750:30758] }
 
 // FlagNorthernMarianaIslands returns the "flag: Northern Mariana Islands"
 // emoji 🇲🇵.
-func FlagNorthernMarianaIslands(v ...Variant) string { return styled(701, v) }
+func FlagNorthernMarianaIslands() string { return emojiBlob[30758:30766] }
 
 // FlagMartinique returns the "flag: Martinique" emoji 🇲🇶.
-func FlagMartinique(v ...Variant) string { return styled(674, v) }
+func FlagMartinique() string { return emojiBlob[30766:30774] }
 
 // FlagMauritania returns the "flag: Mauritania" emoji 🇲🇷.
-func FlagMauritania(v ...Variant) string { return styled(675, v) }
+func FlagMauritania() string { return emojiBlob[30774:30782] }
 
 // FlagMontserrat returns the "flag: Montserrat" emoji 🇲🇸.
-func FlagMontserrat(v ...Variant) string { return styled(684, v) }
+func FlagMontserrat() string { return emojiBlob[30782:30790] }
 
 // FlagMalta returns the "flag: Malta" emoji 🇲🇹.
-func FlagMalta(v ...Variant) string { return styled(672, v) }
+func FlagMalta() string { return emojiBlob[30790:30798] }
 
 // FlagMauritius returns the "flag: Mauritius" emoji 🇲🇺.
-func FlagMauritius(v ...Variant) string { return styled(676, v) }
+func FlagMauritius() string { return emojiBlob[30798:30806] }
 
 // FlagMaldives returns the "flag: Maldives" emoji 🇲🇻.
-func FlagMaldives(v ...Variant) string { return styled(670, v) }
+func FlagMaldives() string { return emojiBlob[30806:30814] }
 
 // FlagMalawi returns the "flag: Malawi" emoji 🇲🇼.
-func FlagMalawi(v ...Variant) string { return styled(668, v) }
+func FlagMalawi() string { return emojiBlob[30814:30822] }
 
 // FlagMexico returns the "flag: Mexico" emoji 🇲🇽.
-func FlagMexico(v ...Variant) string { return styled(678, v) }
+func FlagMexico() string { return emojiBlob[30822:30830] }
 
 // FlagMalaysia returns the "flag: Malaysia" emoji 🇲🇾.
-func FlagMalaysia(v ...Variant) string { return styled(669, v) }
+func FlagMalaysia() string { return emojiBlob[30830:30838] }
 
 // FlagMozambique returns the "flag: Mozambique" emoji 🇲🇿.
-func FlagMozambique(v ...Variant) string { return styled(686, v) }
+func FlagMozambique() string { return emojiBlob[30838:30846] }
 
 // FlagNamibia returns the "flag: Namibia" emoji 🇳🇦.
-func FlagNamibia(v ...Variant) string { return styled(688, v) }
+func FlagNamibia() string { return emojiBlob[30846:30854] }
 
 // FlagNewCaledonia returns the "flag: New Caledonia" emoji 🇳🇨.
-func FlagNewCaledonia(v ...Variant) string { return styled(692, v) }
+func FlagNewCaledonia() string { return emojiBlob[30050:30058] }
 
 // FlagNiger returns the "flag: Niger" emoji 🇳🇪.
-func FlagNiger(v ...Variant) string { return styled(695, v) }
+func FlagNiger() string { return emojiBlob[30854:30862] }
 
 // FlagNorfolkIsland returns the "flag: Norfolk Island" emoji 🇳🇫.
-func FlagNorfolkIsland(v ...Variant) string { return styled(698, v) }
+func FlagNorfolkIsland() string { return emojiBlob[30862:30870] }
 
 // FlagNigeria returns the "flag: Nigeria" emoji 🇳🇬.
-func FlagNigeria(v ...Variant) string { return styled(696, v) }
+func FlagNigeria() string { return emojiBlob[30354:30362] }
 
 // FlagNicaragua returns the "flag: Nicaragua" emoji 🇳🇮.
-func FlagNicaragua(v ...Variant) string { return styled(694, v) }
+func FlagNicaragua() string { return emojiBlob[30506:30514] }
 
 // FlagNetherlands returns the "flag: Netherlands" emoji 🇳🇱.
-func FlagNetherlands(v ...Variant) string { return styled(691, v) }
+func FlagNetherlands() string { return emojiBlob[30870:30878] }
 
 // FlagNorway returns the "flag: Norway" emoji 🇳🇴.
-func FlagNorway(v ...Variant) string { return styled(702, v) }
+func FlagNorway() string { return emojiBlob[30878:30886] }
 
 // FlagNepal returns the "flag: Nepal" emoji 🇳🇵.
-func FlagNepal(v ...Variant) string { return styled(690, v) }
+func FlagNepal() string { return emojiBlob[30886:30894] }
 
 // FlagNauru returns the "flag: Nauru" emoji 🇳🇷.
-func FlagNauru(v ...Variant) string { return styled(689, v) }
+func FlagNauru() string { return emojiBlob[30894:30902] }
 
 // FlagNiue returns the "flag: Niue" emoji 🇳🇺.
-func FlagNiue(v ...Variant) string { return styled(697, v) }
+func FlagNiue() string { return emojiBlob[30902:30910] }
 
 // FlagNewZealand returns the "flag: New Zealand" emoji 🇳🇿.
-func FlagNewZealand(v ...Variant) string { return styled(693, v) }
+func FlagNewZealand() string { return emojiBlob[30910:30918] }
 
 // FlagOman returns the "flag: Oman" emoji 🇴🇲.
-func FlagOman(v ...Variant) string { return styled(703, v) }
+func FlagOman() string { return emojiBlob[30754:30762] }
 
 // FlagPanama returns the "flag: Panama" emoji 🇵🇦.
-func FlagPanama(v ...Variant) string { return styled(707, v) }
+func FlagPanama() string { return emojiBlob[30918:30926] }
 
 // FlagPeru returns the "flag: Peru" emoji 🇵🇪.
-func FlagPeru(v ...Variant) string { return styled(710, v) }
+func FlagPeru() string { return emojiBlob[30926:30934] }
 
 // FlagFrenchPolynesia returns the "flag: French Polynesia" emoji 🇵🇫.
-func FlagFrenchPolynesia(v ...Variant) string { return styled(615, v) }
+func FlagFrenchPolynesia() string { return emojiBlob[30934:30942] }
 
 // FlagPapuaNewGuinea returns the "flag: Papua New Guinea" emoji 🇵🇬.
-func FlagPapuaNewGuinea(v ...Variant) string { return styled(708, v) }
+func FlagPapuaNewGuinea() string { return emojiBlob[30362:30370] }
 
 // FlagPhilippines returns the "flag: Philippines" emoji 🇵🇭.
-func FlagPhilippines(v ...Variant) string { return styled(711, v) }
+func FlagPhilippines() string { return emojiBlob[30942:30950] }
 
 // FlagPakistan returns the "flag: Pakistan" emoji 🇵🇰.
-func FlagPakistan(v ...Variant) string { return styled(704, v) }
+func FlagPakistan() string { return emojiBlob[30578:30586] }
 
 // FlagPoland returns the "flag: Poland" emoji 🇵🇱.
-func FlagPoland(v ...Variant) string { return styled(713, v) }
+func FlagPoland() string { return emojiBlob[30950:30958] }
 
 // FlagStPierreAndMiquelon returns the "flag: St. Pierre & Miquelon" emoji
 // 🇵🇲.
-func FlagStPierreAndMiquelon(v ...Variant) string { return styled(747, v) }
+func FlagStPierreAndMiquelon() string { return emojiBlob[30762:30770] }
 
 // FlagPitcairnIslands returns the "flag: Pitcairn Islands" emoji 🇵🇳.
-func FlagPitcairnIslands(v ...Variant) string { return styled(712, v) }
+func FlagPitcairnIslands() string { return emojiBlob[30890:30898] }
 
 // FlagPuertoRico returns the "flag: Puerto Rico" emoji 🇵🇷.
-func FlagPuertoRico(v ...Variant) string { return styled(715, v) }
+func FlagPuertoRico() string { return emojiBlob[30958:30966] }
 
 // FlagPalestinianTerritories returns the "flag: Palestinian Territories"
 // emoji 🇵🇸.
-func FlagPalestinianTerritories(v ...Variant) string { return styled(706, v) }
+func FlagPalestinianTerritories() string { return emojiBlob[30966:30974] }
 
 // FlagPortugal returns the "flag: Portugal" emoji 🇵🇹.
-func FlagPortugal(v ...Variant) string { return styled(714, v) }
+func FlagPortugal() string { return emojiBlob[30974:30982] }
 
 // FlagPalau returns the "flag: Palau" emoji 🇵🇼.
-func FlagPalau(v ...Variant) string { return styled(705, v) }
+func FlagPalau() string { return emojiBlob[30982:30990] }
 
 // FlagParaguay returns the "flag: Paraguay" emoji 🇵🇾.
-func FlagParaguay(v ...Variant) string { return styled(709, v) }
+func FlagParaguay() string { return emojiBlob[30990:30998] }
 
 // FlagQatar returns the "flag: Qatar" emoji 🇶🇦.
-func FlagQatar(v ...Variant) string { return styled(716, v) }
+func FlagQatar() string { return emojiBlob[29746:29754] }
 
 // FlagReunion returns the "flag: Réunion" emoji 🇷🇪.
-func FlagReunion(v ...Variant) string { return styled(720, v) }
+func FlagReunion() string { return emojiBlob[30226:30234] }
 
 // FlagRomania returns the "flag: Romania" emoji 🇷🇴.
-func FlagRomania(v ...Variant) string { return styled(717, v) }
+func FlagRomania() string { return emojiBlob[30998:31006] }
 
 // FlagSerbia returns the "flag: Serbia" emoji 🇷🇸.
-func FlagSerbia(v ...Variant) string { return styled(727, v) }
+func FlagSerbia() string { return emojiBlob[31006:31014] }
 
 // FlagRussia returns the "flag: Russia" emoji 🇷🇺.
-func FlagRussia(v ...Variant) string { return styled(718, v) }
+func FlagRussia() string { return emojiBlob[31014:31022] }
 
 // FlagRwanda returns the "flag: Rwanda" emoji 🇷🇼.
-func FlagRwanda(v ...Variant) string { return styled(719, v) }
+func FlagRwanda() string { return emojiBlob[31022:31030] }
 
 // FlagSaudiArabia returns the "flag: Saudi Arabia" emoji 🇸🇦.
-func FlagSaudiArabia(v ...Variant) string { return styled(724, v) }
+func FlagSaudiArabia() string { return emojiBlob[29762:29770] }
 
 // FlagSolomonIslands returns the "flag: Solomon Islands" emoji 🇸🇧.
-func FlagSolomonIslands(v ...Variant) string { return styled(734, v) }
+func FlagSolomonIslands() string { return emojiBlob[29930:29938] }
 
 // FlagSeychelles returns the "flag: Seychelles" emoji 🇸🇨.
-func FlagSeychelles(v ...Variant) string { return styled(728, v) }
+func FlagSeychelles() string { return emojiBlob[31030:31038] }
 
 // FlagSudan returns the "flag: Sudan" emoji 🇸🇩.
-func FlagSudan(v ...Variant) string { return styled(749, v) }
+func FlagSudan() string { return emojiBlob[31038:31046] }
 
 // FlagSweden returns the "flag: Sweden" emoji 🇸🇪.
-func FlagSweden(v ...Variant) string { return styled(752, v) }
+func FlagSweden() string { return emojiBlob[30234:30242] }
 
 // FlagSingapore returns the "flag: Singapore" emoji 🇸🇬.
-func FlagSingapore(v ...Variant) string { return styled(730, v) }
+func FlagSingapore() string { return emojiBlob[30386:30394] }
 
 // FlagStHelena returns the "flag: St. Helena" emoji 🇸🇭.
-func FlagStHelena(v ...Variant) string { return styled(743, v) }
+func FlagStHelena() string { return emojiBlob[31046:31054] }
 
 // FlagSlovenia returns the "flag: Slovenia" emoji 🇸🇮.
-func FlagSlovenia(v ...Variant) string { return styled(733, v) }
+func FlagSlovenia() string { return emojiBlob[30538:30546] }
 
 // FlagSvalbardAndJanMayen returns the "flag: Svalbard & Jan Mayen" emoji
 // 🇸🇯.
-func FlagSvalbardAndJanMayen(v ...Variant) string { return styled(751, v) }
+func FlagSvalbardAndJanMayen() string { return emojiBlob[31054:31062] }
 
 // FlagSlovakia returns the "flag: Slovakia" emoji 🇸🇰.
-func FlagSlovakia(v ...Variant) string { return styled(732, v) }
+func FlagSlovakia() string { return emojiBlob[31062:31070] }
 
 // FlagSierraLeone returns the "flag: Sierra Leone" emoji 🇸🇱.
-func FlagSierraLeone(v ...Variant) string { return styled(729, v) }
+func FlagSierraLeone() string { return emojiBlob[30682:30690] }
 
 // FlagSanMarino returns the "flag: San Marino" emoji 🇸🇲.
-func FlagSanMarino(v ...Variant) string { return styled(722, v) }
+func FlagSanMarino() string { return emojiBlob[30786:30794] }
 
 // FlagSenegal returns the "flag: Senegal" emoji 🇸🇳.
-func FlagSenegal(v ...Variant) string { return styled(726, v) }
+func FlagSenegal() string { return emojiBlob[31070:31078] }
 
 // FlagSomalia returns the "flag: Somalia" emoji 🇸🇴.
-func FlagSomalia(v ...Variant) string { return styled(735, v) }
+func FlagSomalia() string { return emojiBlob[31078:31086] }
 
 // FlagSuriname returns the "flag: Suriname" emoji 🇸🇷.
-func FlagSuriname(v ...Variant) string { return styled(750, v) }
+func FlagSuriname() string { return emojiBlob[31010:31018] }
 
 // FlagSouthSudan returns the "flag: South Sudan" emoji 🇸🇸.
-func FlagSouthSudan(v ...Variant) string { return styled(739, v) }
+func FlagSouthSudan() string { return emojiBlob[31086:31094] }
 
 // FlagSaoTomeAndPrincipe returns the "flag: São Tomé & Príncipe" emoji
 // 🇸🇹.
-func FlagSaoTomeAndPrincipe(v ...Variant) string { return styled(755, v) }
+func FlagSaoTomeAndPrincipe() string { return emojiBlob[31094:31102] }
 
 // FlagElSalvador returns the "flag: El Salvador" emoji 🇸🇻.
-func FlagElSalvador(v ...Variant) string { return styled(601, v) }
+func FlagElSalvador() string { return emojiBlob[31102:31110] }
 
 // FlagSintMaarten returns the "flag: Sint Maarten" emoji 🇸🇽.
-func FlagSintMaarten(v ...Variant) string { return styled(731, v) }
+func FlagSintMaarten() string { return emojiBlob[31110:31118] }
 
 // FlagSyria returns the "flag: Syria" emoji 🇸🇾.
-func FlagSyria(v ...Variant) string { return styled(754, v) }
+func FlagSyria() string { return emojiBlob[31118:31126] }
 
 // FlagEswatini returns the "flag: Eswatini" emoji 🇸🇿.
-func FlagEswatini(v ...Variant) string { return styled(606, v) }
+func FlagEswatini() string { return emojiBlob[31126:31134] }
 
 // FlagTristanDaCunha returns the "flag: Tristan da Cunha" emoji 🇹🇦.
-func FlagTristanDaCunha(v ...Variant) string { return styled(765, v) }
+func FlagTristanDaCunha() string { return emojiBlob[29770:29778] }
 
 // FlagTurksAndCaicosIslands returns the "flag: Turks & Caicos Islands"
 // emoji 🇹🇨.
-func FlagTurksAndCaicosIslands(v ...Variant) string { return styled(768, v) }
+func FlagTurksAndCaicosIslands() string { return emojiBlob[31134:31142] }
 
 // FlagChad returns the "flag: Chad" emoji 🇹🇩.
-func FlagChad(v ...Variant) string { return styled(576, v) }
+func FlagChad() string { return emojiBlob[31142:31150] }
 
 // FlagFrenchSouthernTerritories returns the "flag: French Southern
 // Territories" emoji 🇹🇫.
-func FlagFrenchSouthernTerritories(v ...Variant) string { return styled(616, v) }
+func FlagFrenchSouthernTerritories() string { return emojiBlob[31150:31158] }
 
 // FlagTogo returns the "flag: Togo" emoji 🇹🇬.
-func FlagTogo(v ...Variant) string { return styled(761, v) }
+func FlagTogo() string { return emojiBlob[30394:30402] }
 
 // FlagThailand returns the "flag: Thailand" emoji 🇹🇭.
-func FlagThailand(v ...Variant) string { return styled(759, v) }
+func FlagThailand() string { return emojiBlob[30458:30466] }
 
 // FlagTajikistan returns the "flag: Tajikistan" emoji 🇹🇯.
-func FlagTajikistan(v ...Variant) string { return styled(757, v) }
+func FlagTajikistan() string { return emojiBlob[30546:30554] }
 
 // FlagTokelau returns the "flag: Tokelau" emoji 🇹🇰.
-func FlagTokelau(v ...Variant) string { return styled(762, v) }
+func FlagTokelau() string { return emojiBlob[31158:31166] }
 
 // FlagTimorLeste returns the "flag: Timor-Leste" emoji 🇹🇱.
-func FlagTimorLeste(v ...Variant) string { return styled(760, v) }
+func FlagTimorLeste() string { return emojiBlob[30690:30698] }
 
 // FlagTurkmenistan returns the "flag: Turkmenistan" emoji 🇹🇲.
-func FlagTurkmenistan(v ...Variant) string { return styled(767, v) }
+func FlagTurkmenistan() string { return emojiBlob[30794:30802] }
 
 // FlagTunisia returns the "flag: Tunisia" emoji 🇹🇳.
-func FlagTunisia(v ...Variant) string { return styled(766, v) }
+func FlagTunisia() string { return emojiBlob[31166:31174] }
 
 // FlagTonga returns the "flag: Tonga" emoji 🇹🇴.
-func FlagTonga(v ...Variant) string { return styled(763, v) }
+func FlagTonga() string { return emojiBlob[31174:31182] }
 
 // FlagTurkiye returns the "flag: Türkiye" emoji 🇹🇷.
-func FlagTurkiye(v ...Variant) string { return styled(770, v) }
+func FlagTurkiye() string { return emojiBlob[31182:31190] }
 
 // FlagTrinidadAndTobago returns the "flag: Trinidad & Tobago" emoji
 // 🇹🇹.
-func FlagTrinidadAndTobago(v ...Variant) string { return styled(764, v) }
+func FlagTrinidadAndTobago() string { return emojiBlob[31190:31198] }
 
 // FlagTuvalu returns the "flag: Tuvalu" emoji 🇹🇻.
-func FlagTuvalu(v ...Variant) string { return styled(769, v) }
+func FlagTuvalu() string { return emojiBlob[31198:31206] }
 
 // FlagTaiwan returns the "flag: Taiwan" emoji 🇹🇼.
-func FlagTaiwan(v ...Variant) string { return styled(756, v) }
+func FlagTaiwan() string { return emojiBlob[31206:31214] }
 
 // FlagTanzania returns the "flag: Tanzania" emoji 🇹🇿.
-func FlagTanzania(v ...Variant) string { return styled(758, v) }
+func FlagTanzania() string { return emojiBlob[31214:31222] }
 
 // FlagUkraine returns the "flag: Ukraine" emoji 🇺🇦.
-func FlagUkraine(v ...Variant) string { return styled(774, v) }
+func FlagUkraine() string { return emojiBlob[29778:29786] }
 
 // FlagUganda returns the "flag: Uganda" emoji 🇺🇬.
-func FlagUganda(v ...Variant) string { return styled(773, v) }
+func FlagUganda() string { return emojiBlob[30402:30410] }
 
 // FlagUSOutlyingIslands returns the "flag: U.S. Outlying Islands" emoji
 // 🇺🇲.
-func FlagUSOutlyingIslands(v ...Variant) string { return styled(771, v) }
+func FlagUSOutlyingIslands() string { return emojiBlob[30802:30810] }
 
 // FlagUnitedNations returns the "flag: United Nations" emoji 🇺🇳.
-func FlagUnitedNations(v ...Variant) string { return styled(777, v) }
+func FlagUnitedNations() string { return emojiBlob[30906:30914] }
 
 // FlagUnitedStates returns the "flag: United States" emoji 🇺🇸.
-func FlagUnitedStates(v ...Variant) string { return styled(778, v) }
+func FlagUnitedStates() string { return emojiBlob[31222:31230] }
 
 // FlagUruguay returns the "flag: Uruguay" emoji 🇺🇾.
-func FlagUruguay(v ...Variant) string { return styled(779, v) }
+func FlagUruguay() string { return emojiBlob[31230:31238] }
 
 // FlagUzbekistan returns the "flag: Uzbekistan" emoji 🇺🇿.
-func FlagUzbekistan(v ...Variant) string { return styled(780, v) }
+func FlagUzbekistan() string { return emojiBlob[31238:31246] }
 
 // FlagVaticanCity returns the "flag: Vatican City" emoji 🇻🇦.
-func FlagVaticanCity(v ...Variant) string { return styled(782, v) }
+func FlagVaticanCity() string { return emojiBlob[31246:31254] }
 
 // FlagStVincentAndGrenadines returns the "flag: St. Vincent & Grenadines"
 // emoji 🇻🇨.
-func FlagStVincentAndGrenadines(v ...Variant) string { return styled(748, v) }
+func FlagStVincentAndGrenadines() string { return emojiBlob[30098:30106] }
 
 // FlagVenezuela returns the "flag: Venezuela" emoji 🇻🇪.
-func FlagVenezuela(v ...Variant) string { return styled(783, v) }
+func FlagVenezuela() string { return emojiBlob[31254:31262] }
 
 // FlagBritishVirginIslands returns the "flag: British Virgin Islands"
 // emoji 🇻🇬.
-func FlagBritishVirginIslands(v ...Variant) string { return styled(562, v) }
+func FlagBritishVirginIslands() string { return emojiBlob[31262:31270] }
 
 // FlagUSVirginIslands returns the "flag: U.S. Virgin Islands" emoji
 // 🇻🇮.
-func FlagUSVirginIslands(v ...Variant) string { return styled(772, v) }
+func FlagUSVirginIslands() string { return emojiBlob[31270:31278] }
 
 // FlagVietnam returns the "flag: Vietnam" emoji 🇻🇳.
-func FlagVietnam(v ...Variant) string { return styled(784, v) }
+func FlagVietnam() string { return emojiBlob[31278:31286] }
 
 // FlagVanuatu returns the "flag: Vanuatu" emoji 🇻🇺.
-func FlagVanuatu(v ...Variant) string { return styled(781, v) }
+func FlagVanuatu() string { return emojiBlob[31286:31294] }
 
 // FlagWallisAndFutuna returns the "flag: Wallis & Futuna" emoji 🇼🇫.
-func FlagWallisAndFutuna(v ...Variant) string { return styled(786, v) }
+func FlagWallisAndFutuna() string { return emojiBlob[31294:31302] }
 
 // FlagSamoa returns the "flag: Samoa" emoji 🇼🇸.
-func FlagSamoa(v ...Variant) string { return styled(721, v) }
+func FlagSamoa() string { return emojiBlob[31026:31034] }
 
 // FlagKosovo returns the "flag: Kosovo" emoji 🇽🇰.
-func FlagKosovo(v ...Variant) string { return styled(654, v) }
+func FlagKosovo() string { return emojiBlob[31302:31310] }
 
 // FlagYemen returns the "flag: Yemen" emoji 🇾🇪.
-func FlagYemen(v ...Variant) string { return styled(788, v) }
+func FlagYemen() string { return emojiBlob[31310:31318] }
 
 // FlagMayotte returns the "flag: Mayotte" emoji 🇾🇹.
-func FlagMayotte(v ...Variant) string { return styled(677, v) }
+func FlagMayotte() string { return emojiBlob[31318:31326] }
 
 // FlagSouthAfrica returns the "flag: South Africa" emoji 🇿🇦.
-func FlagSouthAfrica(v ...Variant) string { return styled(736, v) }
+func FlagSouthAfrica() string { return emojiBlob[31326:31334] }
 
 // FlagZambia returns the "flag: Zambia" emoji 🇿🇲.
-func FlagZambia(v ...Variant) string { return styled(789, v) }
+func FlagZambia() string { return emojiBlob[31334:31342] }
 
 // FlagZimbabwe returns the "flag: Zimbabwe" emoji 🇿🇼.
-func FlagZimbabwe(v ...Variant) string { return styled(790, v) }
+func FlagZimbabwe() string { return emojiBlob[31342:31350] }
 
 // FlagEngland returns the "flag: England" emoji
 // 🏴󠁧󠁢󠁥󠁮󠁧󠁿.
-func FlagEngland(v ...Variant) string { return styled(602, v) }
+func FlagEngland() string { return emojiBlob[3325:3353] }
 
 // FlagScotland returns the "flag: Scotland" emoji
 // 🏴󠁧󠁢󠁳󠁣󠁴󠁿.
-func FlagScotland(v ...Variant) string { return styled(725, v) }
+func FlagScotland() string { return emojiBlob[3353:3381] }
 
 // FlagWales returns the "flag: Wales" emoji 🏴󠁧󠁢󠁷󠁬󠁳󠁿.
-func FlagWales(v ...Variant) string { return styled(785, v) }
+func FlagWales() string { return emojiBlob[3381:3409] }

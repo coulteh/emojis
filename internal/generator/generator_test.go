@@ -279,14 +279,58 @@ func TestRenderProducesValidGo(t *testing.T) {
 	for _, want := range []*regexp.Regexp{
 		regexp.MustCompile(`func ThumbsUp\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
 		regexp.MustCompile(`func Person\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
-		regexp.MustCompile(`func GrinningFace\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
-		regexp.MustCompile(`func FamilyManBoy\(v \.\.\.Variant\) string \{ return styled\(\d+, v\) \}`),
+		regexp.MustCompile(`func GrinningFace\(\) string \{ return emojiBlob\[\d+:\d+\] \}`),
+		regexp.MustCompile(`func FamilyManBoy\(\) string \{ return emojiBlob\[\d+:\d+\] \}`),
 	} {
 		if !want.MatchString(emoji) {
 			t.Errorf("emoji_gen.go has nothing matching:\n\t%s", want)
 		}
 	}
 
+	// The offsets the functions slice with must actually name their emoji in
+	// the blob the tables declare.
+	blob := blobConst(t, string(files[1].Contents), "emojiBlob")
+	for _, tt := range []struct{ fn, want string }{
+		{"GrinningFace", "\U0001F600"},
+		{"FamilyManBoy", "\U0001F468‍\U0001F466"},
+	} {
+		re := regexp.MustCompile(tt.fn + `\(\) string \{ return emojiBlob\[(\d+):(\d+)\] \}`)
+		m := re.FindStringSubmatch(emoji)
+		if m == nil {
+			t.Errorf("no generated %s slicing the blob", tt.fn)
+			continue
+		}
+		off, _ := strconv.Atoi(m[1])
+		end, _ := strconv.Atoi(m[2])
+		if got := blob[off:end]; got != tt.want {
+			t.Errorf("%s slices emojiBlob[%d:%d] = %q, want %q", tt.fn, off, end, got, tt.want)
+		}
+	}
+}
+
+// blobConst pulls one of the generated string constants back out of the
+// source. The blobs are emitted as many concatenated literals across as many
+// lines, so this joins them back up the way the compiler would.
+func blobConst(t *testing.T, src, name string) string {
+	t.Helper()
+	block := regexp.MustCompile(`(?ms)^const ` + name + ` = (.*?)\n\n`).FindStringSubmatch(src)
+	if block == nil {
+		t.Fatalf("no %s constant in the generated tables", name)
+	}
+	literals := regexp.MustCompile(`"(?:[^"\\]|\\.)*"`).FindAllString(block[1], -1)
+	if len(literals) < 2 {
+		t.Errorf("%s is in %d literal(s); it should be split across lines", name, len(literals))
+	}
+
+	var sb strings.Builder
+	for _, lit := range literals {
+		s, err := strconv.Unquote(lit)
+		if err != nil {
+			t.Fatalf("%s contains an invalid Go string literal %s: %v", name, lit, err)
+		}
+		sb.WriteString(s)
+	}
+	return sb.String()
 }
 
 // No generated line may be long enough to upset an editor.

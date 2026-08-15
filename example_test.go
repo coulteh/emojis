@@ -38,10 +38,12 @@ func Example_variants() {
 	// 👨🏿‍🤝‍👨🏻
 }
 
-// Combinations Unicode does not define return the empty string.
+// An emoji with no variants takes no argument, so emojis.GrinningFace(...)
+// does not compile. For one that does take variants, a combination Unicode
+// does not define returns the empty string.
 func Example_unsupported() {
-	fmt.Printf("%q\n", emojis.GrinningFace(emojis.DarkSkinTone))
 	fmt.Printf("%q\n", emojis.ThumbsUp(emojis.RedHair))
+	fmt.Printf("%q\n", emojis.ThumbsUp(emojis.LightSkinTone, emojis.DarkSkinTone))
 	// Output:
 	// ""
 	// ""

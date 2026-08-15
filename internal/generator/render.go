@@ -100,7 +100,12 @@ type baseData struct {
 	Ident string
 	Doc   []string
 
-	Index int // row in the base tables
+	// Variants reports whether the emoji can be restyled. Only those take an
+	// argument, so that passing a variant to an emoji that has none fails to
+	// compile rather than returning the empty string at run time.
+	Variants bool
+	Index    int  // row in baseTable, passed by the emoji that take variants
+	Plain    Span // slice of the blob, returned by the emoji that do not
 }
 
 // styledKey packs a row of baseTable and up to two variants into one integer,
@@ -180,9 +185,11 @@ func newTemplateData(m *Model, pkg string) (*templateData, error) {
 		gd := groupData{Name: g.Name}
 		for _, b := range g.Bases {
 			gd.Bases = append(gd.Bases, baseData{
-				Ident: b.Ident,
-				Doc:   doc(b),
-				Index: row[b.Name],
+				Ident:    b.Ident,
+				Doc:      doc(b),
+				Variants: len(b.Forms) > 0,
+				Index:    row[b.Name],
+				Plain:    emojiBlob.Span(b.Plain),
 			})
 		}
 		d.Groups = append(d.Groups, gd)

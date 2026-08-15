@@ -13,6 +13,12 @@
 //	emojis.Person(emojis.MediumSkinTone, emojis.RedHair) // 🧑🏽‍🦰
 //	emojis.MenHoldingHands(emojis.LightSkinTone, emojis.DarkSkinTone) // 👨🏻‍🤝‍👨🏿
 //
+// Only those emoji take an argument at all. An emoji Unicode defines no
+// variants for has no parameter, so asking for one is caught by the compiler
+// rather than returning the empty string at run time:
+//
+//	emojis.GrinningFace(emojis.DarkSkinTone) // does not compile
+//
 // The data comes from Unicode's emoji-test.txt and is regenerated with
 // "go generate ./...".
 package emojis

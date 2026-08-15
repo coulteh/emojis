@@ -78,12 +78,14 @@ func TestTwoTonesKeepOrder(t *testing.T) {
 	}
 }
 
+// Passing a variant to an emoji that has none does not compile, so the only
+// combinations reachable at run time are the wrong ones for an emoji that does
+// take variants.
 func TestUnsupportedCombinations(t *testing.T) {
 	tests := []struct {
 		name string
 		got  string
 	}{
-		{"variant on an emoji that takes none", GrinningFace(DarkSkinTone)},
 		{"hair style on a hand", ThumbsUp(RedHair)},
 		{"two variants where one is allowed", ThumbsUp(LightSkinTone, DarkSkinTone)},
 		{"more variants than any emoji takes", Person(LightSkinTone, RedHair, DarkSkinTone)},
