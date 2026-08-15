@@ -10,7 +10,7 @@ import (
 	"log/slog"
 	"os"
 
-	"emojis/internal/generator"
+	"github.com/coulteh/emojis/internal/generator"
 )
 
 func main() {
