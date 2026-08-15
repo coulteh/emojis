@@ -1,0 +1,99 @@
+name: Update emoji data
+
+# Unicode publishes an emoji release roughly once a year, but the generator
+# rewrites a file only when its contents actually change, so a run that finds
+# nothing new costs a few seconds and touches nothing. That is cheap enough to
+# do daily rather than waiting on a yearly reminder.
+on:
+  schedule:
+    # Off the hour: scheduled jobs pile up at :00 and get delayed.
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+# Needed to push the commit and the tag.
+permissions:
+  contents: write
+
+# A second run starting while one is mid-push would race it to the branch.
+concurrency:
+  group: update-emoji
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          # The version the module declares, so a release is checked against
+          # the oldest Go this package claims to support.
+          go-version-file: go.mod
+
+      - name: Regenerate from Unicode
+        env:
+          LOG: ${{ runner.temp }}/generate.log
+        run: |
+          set -o pipefail
+          # Kept out of the working tree so it cannot be committed.
+          go generate ./... 2>&1 | tee "$LOG"
+
+      - name: Verify the generated package
+        run: |
+          unformatted="$(gofmt -l .)"
+          if [ -n "$unformatted" ]; then
+            echo "::error::gofmt would rewrite: $unformatted"
+            exit 1
+          fi
+          go vet ./...
+          go test ./...
+
+      - name: Look for changes
+        id: changes
+        run: |
+          if [ -z "$(git status --porcelain -- '*_gen.go')" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Unicode has published nothing new."
+            exit 0
+          fi
+
+          version="$(sed -n 's|^// Unicode: emoji ||p' variants_gen.go | head -1)"
+          case "$version" in
+            [0-9]*.[0-9]*) ;;
+            *)
+              echo "::error::cannot read the Unicode version from variants_gen.go (got '$version')"
+              exit 1
+              ;;
+          esac
+
+          {
+            echo "changed=true"
+            echo "version=$version"
+          } >> "$GITHUB_OUTPUT"
+          echo "::notice::Unicode emoji $version brings changes"
+
+      - name: Commit and tag
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          VERSION: ${{ steps.changes.outputs.version }}
+          LOG: ${{ runner.temp }}/generate.log
+        run: |
+          set -o pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # What the generator said it added or took away, for the commit body.
+          summary="$(grep -oE 'msg="(emoji added|emoji removed[^"]*)" .*' "$LOG" || true)"
+
+          git add -- '*_gen.go'
+          git commit -m "Update to Unicode emoji $VERSION" -m "${summary:-Regenerated from Unicode's emoji-test.txt.}"
+
+          # Unicode can republish a release without changing its version, in
+          # which case the commit still stands but the tag is already taken.
+          if git ls-remote --exit-code --tags origin "refs/tags/$VERSION" >/dev/null 2>&1; then
+            echo "::warning::tag $VERSION already exists; pushing the commit untagged"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          else
+            git tag -a "$VERSION" -m "Unicode emoji $VERSION"
+            git push origin "HEAD:$GITHUB_REF_NAME" --follow-tags
+          fi
