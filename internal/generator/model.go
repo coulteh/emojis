@@ -2,9 +2,8 @@ package generator
 
 import (
 	"fmt"
+	"log/slog"
 	"strings"
-
-	"emojis/internal/pkg/log"
 )
 
 // maxVariants is how many modifiers a single emoji may carry. The generated
@@ -99,8 +98,9 @@ func Build(ds *Dataset) (*Model, error) {
 			forms += len(b.Forms)
 		}
 	}
-	log.Info("built %d functions in %d groups; %d take variants, covering %d modified forms",
-		len(m.Bases), len(m.Groups), withVariants, forms)
+	slog.Info("built functions",
+		"functions", len(m.Bases), "groups", len(m.Groups),
+		"take_variants", withVariants, "modified_forms", forms)
 	return m, nil
 }
 

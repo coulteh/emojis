@@ -4,10 +4,9 @@ package generator
 
 import (
 	"fmt"
+	"log/slog"
 	"os"
 	"path/filepath"
-
-	"emojis/internal/pkg/log"
 )
 
 // Config controls a run of the generator.
@@ -53,7 +52,7 @@ func Generate(cfg Config) error {
 		if err := os.WriteFile(path, f.Contents, 0o644); err != nil {
 			return fmt.Errorf("write %s: %w", path, err)
 		}
-		log.Info("wrote %s (%d bytes)", path, len(f.Contents))
+		slog.Info("wrote file", "path", path, "bytes", len(f.Contents))
 	}
 	return nil
 }

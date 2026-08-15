@@ -2,15 +2,15 @@ package generator
 
 import (
 	"io"
+	"log/slog"
 	"strconv"
 	"strings"
 	"testing"
-
-	"emojis/internal/pkg/log"
 )
 
 func TestMain(m *testing.M) {
-	log.SetOutput(io.Discard)
+	// The generator logs as it works; the tests do not need to see it.
+	slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
 	m.Run()
 }
 

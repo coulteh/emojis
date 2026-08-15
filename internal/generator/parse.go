@@ -4,11 +4,10 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"log/slog"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"emojis/internal/pkg/log"
 )
 
 // Emoji is a single row of emoji-test.txt.
@@ -91,8 +90,8 @@ func Parse(r io.Reader, source string) (*Dataset, error) {
 	if ds.Version == "" {
 		return nil, fmt.Errorf("no version header found in %s", source)
 	}
-	log.Info("parsed %d emoji from Unicode emoji %s (%d non-%s rows skipped)",
-		len(ds.Emojis), ds.Version, skipped, statusQualified)
+	slog.Info("parsed emoji data",
+		"emoji", len(ds.Emojis), "unicode", ds.Version, "skipped", skipped)
 	return ds, nil
 }
 

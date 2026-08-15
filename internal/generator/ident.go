@@ -1,11 +1,10 @@
 package generator
 
 import (
+	"log/slog"
 	"strconv"
 	"strings"
 	"unicode"
-
-	"emojis/internal/pkg/log"
 )
 
 // fold maps the non-ASCII letters that appear in CLDR emoji names onto ASCII.
@@ -63,7 +62,8 @@ func (s *identSet) add(name string) string {
 		if owner, clash := s.taken[candidate]; !clash {
 			s.taken[candidate] = name
 			if candidate != base {
-				log.Info("identifier %q for %q collides with %q; using %q", base, name, owner, candidate)
+				slog.Warn("identifier collision",
+					"identifier", base, "name", name, "claimed_by", owner, "using", candidate)
 			}
 			return candidate
 		}
@@ -90,7 +90,7 @@ func ident(name string) string {
 		case r > unicode.MaxASCII:
 			// A letter with no folding would silently vanish from the
 			// identifier, so make the omission visible.
-			log.Error("no ASCII folding for %q in emoji name %q; dropping it", r, name)
+			slog.Error("no ASCII folding for rune; dropping it", "rune", string(r), "name", name)
 		default:
 			sb.WriteByte(' ')
 		}

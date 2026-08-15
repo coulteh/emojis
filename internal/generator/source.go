@@ -3,12 +3,11 @@ package generator
 import (
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"os"
 	"strings"
 	"time"
-
-	"emojis/internal/pkg/log"
 )
 
 // DefaultSource is Unicode's emoji test data for the latest published release.
@@ -23,11 +22,11 @@ const DefaultSource = "https://www.unicode.org/Public/emoji/latest/emoji-test.tx
 // The caller must close the returned ReadCloser.
 func open(src string) (io.ReadCloser, error) {
 	if !strings.HasPrefix(src, "http://") && !strings.HasPrefix(src, "https://") {
-		log.Debug("reading %s from disk", src)
+		slog.Debug("reading source from disk", "path", src)
 		return os.Open(src)
 	}
 
-	log.Debug("fetching %s", src)
+	slog.Debug("fetching source", "url", src)
 	client := &http.Client{Timeout: 60 * time.Second}
 	resp, err := client.Get(src)
 	if err != nil {

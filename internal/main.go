@@ -4,12 +4,12 @@
 package main
 
 import (
+	"log/slog"
 	"os"
 
 	"github.com/spf13/cobra"
 
 	"emojis/internal/generator"
-	"emojis/internal/pkg/log"
 )
 
 func main() {
@@ -24,7 +24,11 @@ func main() {
 			"and writes the generated *_gen.go files.",
 		SilenceUsage: true,
 		RunE: func(*cobra.Command, []string) error {
-			log.SetVerbose(verbose)
+			level := slog.LevelInfo
+			if verbose {
+				level = slog.LevelDebug
+			}
+			slog.SetDefault(slog.New(slog.NewTextHandler(os.Stderr, &slog.HandlerOptions{Level: level})))
 			return generator.Generate(cfg)
 		},
 	}
@@ -36,7 +40,7 @@ func main() {
 	flags.BoolVarP(&verbose, "verbose", "v", false, "log progress in detail")
 
 	if err := cmd.Execute(); err != nil {
-		log.Error("%v", err)
+		slog.Error("generation failed", "err", err)
 		os.Exit(1)
 	}
 }
