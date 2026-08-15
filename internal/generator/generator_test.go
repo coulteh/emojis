@@ -92,6 +92,22 @@ func TestIdentSetDisambiguates(t *testing.T) {
 	}
 }
 
+// A letter with no ASCII folding would vanish from the identifier without
+// trace, so ident says so. Nothing in Unicode's names needs this today; it is
+// there for the release that does.
+func TestIdentReportsUnfoldableRunes(t *testing.T) {
+	var logged bytes.Buffer
+	slog.SetDefault(slog.New(slog.NewTextHandler(&logged, nil)))
+	defer slog.SetDefault(slog.New(slog.NewTextHandler(io.Discard, nil)))
+
+	if got, want := ident("tanabata \u77ed\u518a"), "Tanabata"; got != want {
+		t.Errorf("ident with unfoldable runes = %q, want %q", got, want)
+	}
+	if !strings.Contains(logged.String(), "no ASCII folding") {
+		t.Errorf("dropping a rune went unreported:\n%s", logged.String())
+	}
+}
+
 func TestSplit(t *testing.T) {
 	tests := []struct {
 		cldr     string
@@ -127,10 +143,30 @@ func TestSplit(t *testing.T) {
 	}
 }
 
-func TestSplitRejectsTooManyModifiers(t *testing.T) {
-	_, _, err := split("crowd: light skin tone, dark skin tone, medium skin tone")
-	if err == nil {
-		t.Fatal("split accepted more modifiers than the lookup key can hold")
+func TestSplitRejectsMalformedNames(t *testing.T) {
+	tests := []struct{ name, cldr, want string }{
+		{
+			"more modifiers than the lookup key holds",
+			"crowd: light skin tone, dark skin tone, medium skin tone",
+			"more than the supported",
+		},
+		{
+			// One colon separates the name from its qualifiers; a second one
+			// means the line is not shaped the way this reads it.
+			"two colon separators",
+			"keycap: 1: light skin tone",
+			"more than one",
+		},
+	}
+	for _, tt := range tests {
+		_, _, err := split(tt.cldr)
+		if err == nil {
+			t.Errorf("%s: split(%q) succeeded, want an error", tt.name, tt.cldr)
+			continue
+		}
+		if !strings.Contains(err.Error(), tt.want) {
+			t.Errorf("%s: split failed with %q, want that to mention %q", tt.name, err, tt.want)
+		}
 	}
 }
 
@@ -215,19 +251,62 @@ func TestParseWithoutEmojiVersion(t *testing.T) {
 }
 
 func TestParseRejectsBadData(t *testing.T) {
-	tests := []struct{ name, data string }{
-		{"no version header", "1F600 ; fully-qualified # 😀 E1.0 grinning face\n"},
-		{"no emoji at all", "# Version: 17.0\n# group: X\n"},
-		{"missing status separator", "# Version: 17.0\n# group: X\n1F600 fully-qualified # 😀 E1.0 grinning face\n"},
-		{"unparseable comment", "# Version: 17.0\n# group: X\n1F600 ; fully-qualified # grinning face\n"},
-		{"bad code point", "# Version: 17.0\n# group: X\nZZZZ ; fully-qualified # 😀 E1.0 grinning face\n"},
+	// Each case names the error it expects. Asserting only that Parse failed
+	// lets a fixture drift onto some other error and keep passing: two of
+	// these were doing exactly that, one of them reaching the group check
+	// before the version check it was written for.
+	tests := []struct{ name, data, want string }{
+		{
+			"no version header",
+			"# group: X\n1F600 ; fully-qualified # \U0001F600 E1.0 grinning face\n",
+			"no version header",
+		},
+		{
+			"no emoji at all",
+			"# Version: 17.0\n# group: X\n",
+			"no fully-qualified emoji",
+		},
+		{
+			"missing status separator",
+			"# Version: 17.0\n# group: X\n1F600 fully-qualified # \U0001F600 E1.0 grinning face\n",
+			`no ";" separator`,
+		},
+		{
+			"missing comment separator",
+			"# Version: 17.0\n# group: X\n1F600 ; fully-qualified \U0001F600 E1.0 grinning face\n",
+			`no "#" separator`,
+		},
+		{
+			// A name is required; the emoji on its own does not parse.
+			"unparseable comment",
+			"# Version: 17.0\n# group: X\n1F600 ; fully-qualified # \U0001F600\n",
+			"cannot parse comment",
+		},
+		{
+			"bad code point",
+			"# Version: 17.0\n# group: X\nZZZZ ; fully-qualified # \U0001F600 E1.0 grinning face\n",
+			"bad code point",
+		},
 		// The comment repeats the sequence, so a mismatch means a misread row.
-		{"comment disagrees with code points", "# Version: 17.0\n# group: X\n1F600 ; fully-qualified # 😁 E1.0 grinning face\n"},
-		{"emoji before any group", "# Version: 17.0\n1F600 ; fully-qualified # 😀 E1.0 grinning face\n"},
+		{
+			"comment disagrees with code points",
+			"# Version: 17.0\n# group: X\n1F600 ; fully-qualified # \U0001F601 E1.0 grinning face\n",
+			"comment shows",
+		},
+		{
+			"emoji before any group",
+			"# Version: 17.0\n1F600 ; fully-qualified # \U0001F600 E1.0 grinning face\n",
+			"before any group header",
+		},
 	}
 	for _, tt := range tests {
-		if _, err := Parse(strings.NewReader(tt.data), "sample"); err == nil {
+		_, err := Parse(strings.NewReader(tt.data), "sample")
+		if err == nil {
 			t.Errorf("%s: Parse succeeded, want an error", tt.name)
+			continue
+		}
+		if !strings.Contains(err.Error(), tt.want) {
+			t.Errorf("%s: Parse failed with %q, want that to mention %q", tt.name, err, tt.want)
 		}
 	}
 }
@@ -272,6 +351,24 @@ func TestBuild(t *testing.T) {
 	// Group ordering follows the source file.
 	if m.Groups[0].Name != "Smileys & Emotion" || m.Groups[1].Name != "People & Body" {
 		t.Errorf("groups = %q, %q", m.Groups[0].Name, m.Groups[1].Name)
+	}
+}
+
+// Two emoji claiming the same name and the same variants would silently lose
+// one of them, so Build refuses instead.
+func TestBuildRejectsDuplicateForms(t *testing.T) {
+	dup := "# Version: 17.0\n# group: X\n" +
+		"1F44D 1F3FB ; fully-qualified # \U0001F44D\U0001F3FB E1.0 thumbs up: light skin tone\n" +
+		"1F44E 1F3FB ; fully-qualified # \U0001F44E\U0001F3FB E1.0 thumbs up: light skin tone\n"
+
+	ds, err := Parse(strings.NewReader(dup), "sample")
+	if err != nil {
+		t.Fatalf("Parse: %v", err)
+	}
+	if _, err := Build(ds); err == nil {
+		t.Error("Build accepted two emoji with the same name and variants")
+	} else if !strings.Contains(err.Error(), "two forms for") {
+		t.Errorf("Build failed with %q, want that to mention the duplicate forms", err)
 	}
 }
 
@@ -420,6 +517,89 @@ func TestBlobIsDeterministic(t *testing.T) {
 
 	if first.Text != second.Text {
 		t.Errorf("blob depends on input order:\n\t%q\n\t%q", first.Text, second.Text)
+	}
+}
+
+// The generated blobs are tens of thousands of characters. Nothing else in
+// these tests is long enough to make quoteChunked break a line, so the split
+// itself is exercised directly.
+func TestQuoteChunkedSplitsLongStrings(t *testing.T) {
+	long := strings.Repeat("\U0001F600", 200)
+	lit := quoteChunked(long)
+
+	lines := strings.Split(lit, "\n")
+	if len(lines) < 3 {
+		t.Fatalf("quoteChunked put %d bytes on %d line(s); it should split", len(long), len(lines))
+	}
+	for i, line := range lines {
+		// A chunk may overshoot by the last escape it fitted, never more.
+		if len(line) > chunkWidth+16 {
+			t.Errorf("line %d is %d bytes, past the chunk width of %d", i+1, len(line), chunkWidth)
+		}
+	}
+
+	// Whatever the split, the constant still has to hold the original string.
+	var got strings.Builder
+	for _, part := range regexp.MustCompile(`"(?:[^"\\]|\\.)*"`).FindAllString(lit, -1) {
+		s, err := strconv.Unquote(part)
+		if err != nil {
+			t.Fatalf("chunk %s is not a Go string literal: %v", part, err)
+		}
+		got.WriteString(s)
+	}
+	if got.String() != long {
+		t.Error("the chunks do not reassemble to the original string")
+	}
+
+	if q := quoteChunked(""); q != `""` {
+		t.Errorf(`quoteChunked("") = %s, want ""`, q)
+	}
+}
+
+// How a function's variants are described depends on their shape, and the
+// shapes read differently to a caller: two skin tones are one per figure,
+// where the order is the meaning, while a tone and a hair style describe one
+// figure and commute.
+func TestDocDescribesTheVariantShape(t *testing.T) {
+	form := func(v ...string) Form { return Form{Variants: v, Sequence: "x"} }
+
+	tests := []struct {
+		name string
+		base *Base
+		want string
+	}{
+		{
+			"a skin tone per figure",
+			&Base{Ident: "MenHoldingHands", Name: "men holding hands", Plain: "\U0001F46C",
+				Forms: []Form{form("LightSkinTone"), form("LightSkinTone", "DarkSkinTone")}},
+			"one skin tone for both figures",
+		},
+		{
+			"a skin tone and a hair style",
+			&Base{Ident: "Person", Name: "person", Plain: "\U0001F9D1",
+				Forms: []Form{form("MediumSkinTone"), form("MediumSkinTone", "RedHair")}},
+			"in either order",
+		},
+		{
+			"a single variant",
+			&Base{Ident: "ThumbsUp", Name: "thumbs up", Plain: "\U0001F44D",
+				Forms: []Form{form("DarkSkinTone")}},
+			"It accepts one variant",
+		},
+		{
+			// Unicode defines a couple of emoji only in modified forms, so
+			// there is no unmodified one to show or to fall back to.
+			"no unmodified form",
+			&Base{Ident: "KissPersonPerson", Name: "kiss: person, person",
+				Forms: []Form{form("LightSkinTone", "DarkSkinTone")}},
+			"only in modified forms",
+		},
+	}
+	for _, tt := range tests {
+		got := strings.Join(doc(tt.base), " ")
+		if !strings.Contains(got, tt.want) {
+			t.Errorf("%s: doc reads %q, want that to mention %q", tt.name, got, tt.want)
+		}
 	}
 }
 
