@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"emojis/internal/pkg/generator"
+	"emojis/internal/generator"
 	"emojis/internal/pkg/log"
 )
 
