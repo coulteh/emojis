@@ -3,7 +3,7 @@ package emojis_test
 import (
 	"fmt"
 
-	"emojis"
+	"github.com/coulteh/emojis"
 )
 
 func Example() {

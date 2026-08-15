@@ -8,7 +8,7 @@ style, or both — take the styling as an argument instead of having a function
 per combination.
 
 ```go
-import "emojis"
+import "github.com/coulteh/emojis"
 
 emojis.ThumbsUp()     // 👍
 emojis.PartyPopper()  // 🎉
