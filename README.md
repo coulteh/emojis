@@ -43,12 +43,21 @@ emojis.MenHoldingHands(emojis.LightSkinTone, emojis.DarkSkinTone) // 👨🏻‍
 emojis.MenHoldingHands(emojis.DarkSkinTone, emojis.LightSkinTone) // 👨🏿‍🤝‍👨🏻
 ```
 
-Each function's doc comment lists the variants it accepts. A combination
-Unicode does not define returns the empty string:
+Only emoji that can be restyled take an argument at all. An emoji Unicode
+defines no variants for has no parameter, so asking for one is a compile error
+rather than a surprise at run time:
 
 ```go
-emojis.GrinningFace(emojis.DarkSkinTone) // "" — no skin tone for this emoji
-emojis.ThumbsUp(emojis.RedHair)          // "" — no hair on a hand
+emojis.GrinningFace()                    // 😀
+emojis.GrinningFace(emojis.DarkSkinTone) // does not compile
+```
+
+Each function's doc comment lists the variants it accepts. For an emoji that
+does take variants, a combination Unicode does not define returns the empty
+string:
+
+```go
+emojis.ThumbsUp(emojis.RedHair) // "" — no hair on a hand
 ```
 
 ### What is not a variant
@@ -80,35 +89,14 @@ Names are Unicode's own and are matched exactly, so a handful are capitalised:
 `Lookup("T-Rex")`, not `Lookup("t-rex")`. `Names()` returns every name `Lookup`
 accepts, sorted.
 
-## Regenerating
+## Emoji data
+
+Everything here is generated from Unicode's [emoji-test.txt], currently emoji
+17.0: **1,898 functions** covering 3,944 emoji. When Unicode publishes a new
+release, pick it up with:
 
 ```sh
 go generate ./...
 ```
-
-This fetches [emoji-test.txt] from Unicode and rewrites `emoji_gen.go`,
-`tables_gen.go` and `variants_gen.go`. The generator is in `internal/`, and
-takes flags for the source, the output directory and the package name:
-
-```sh
-go run ./internal --source ./emoji-test.txt --out . --package emojis
-```
-
-`emoji-test.txt` is used in preference to `emoji-sequences.txt` because it
-names every emoji individually. `emoji-sequences.txt` collapses runs of code
-points into ranges, naming only the endpoints:
-
-```
-2648..2653 ; Basic_Emoji ; Aries..Pisces
-```
-
-which leaves the ten signs between Aries and Pisces without names.
-
-The generated package tracks Unicode's `latest` release, currently emoji 17.0:
-**1,898 functions**, 314 of which take variants, covering 3,944 emoji in total.
-Only fully-qualified emoji are generated; the minimally-qualified and
-unqualified rows are the same emoji missing presentation selectors, and the
-component rows are the bare skin tone and hair modifiers, which are not emoji
-in their own right.
 
 [emoji-test.txt]: https://www.unicode.org/Public/emoji/latest/emoji-test.txt
