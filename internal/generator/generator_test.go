@@ -429,7 +429,7 @@ func TestRenderProducesValidGo(t *testing.T) {
 	blob := blobConst(t, string(files[1].Contents), "emojiBlob")
 	for _, tt := range []struct{ fn, want string }{
 		{"GrinningFace", "\U0001F600"},
-		{"FamilyManBoy", "\U0001F468‍\U0001F466"},
+		{"FamilyManBoy", "\U0001F468\u200D\U0001F466"},
 	} {
 		re := regexp.MustCompile(tt.fn + `\(\) string \{ return emojiBlob\[(\d+):(\d+)\] \}`)
 		m := re.FindStringSubmatch(emoji)
@@ -608,13 +608,13 @@ func TestDocDescribesTheVariantShape(t *testing.T) {
 
 func TestQuoteEscapesInvisibleRunes(t *testing.T) {
 	inputs := []string{
-		"\U0001F44D",            // a plain emoji
-		"\U0001F44D\U0001F3FF",  // with a skin tone modifier
-		"\U0001F1FA\U0001F1F8",  // regional indicators
-		"❤️",                    // a variation selector
-		"\U0001F468‍\U0001F466", // a zero-width joiner
-		"\U0001F3F4\U000E0067",  // a tag character
-		`say "hi"\`,             // quotes and backslashes
+		"\U0001F44D",                 // a plain emoji
+		"\U0001F44D\U0001F3FF",       // with a skin tone modifier
+		"\U0001F1FA\U0001F1F8",       // regional indicators
+		"❤\uFE0F",                    // a variation selector
+		"\U0001F468\u200D\U0001F466", // a zero-width joiner
+		"\U0001F3F4\U000E0067",       // a tag character
+		`say "hi"\`,                  // quotes and backslashes
 	}
 	for _, in := range inputs {
 		got := quote(in)
@@ -649,16 +649,16 @@ func TestQuoteEscapesInvisibleRunes(t *testing.T) {
 func TestBuildWarnsAboutUnrecognisedStylings(t *testing.T) {
 	const data = "# Version: 18.0\n# group: People & Body\n" +
 		// A styling Unicode has not invented yet, shared by three emoji.
-		"1F9D1 200D 1F9B0 ; fully-qualified # \U0001F9D1‍\U0001F9B0 E1.0 person: teal hair\n" +
-		"1F468 200D 1F9B0 ; fully-qualified # \U0001F468‍\U0001F9B0 E1.0 man: teal hair\n" +
-		"1F469 200D 1F9B0 ; fully-qualified # \U0001F469‍\U0001F9B0 E1.0 woman: teal hair\n" +
+		"1F9D1 200D 1F9B0 ; fully-qualified # \U0001F9D1\u200D\U0001F9B0 E1.0 person: teal hair\n" +
+		"1F468 200D 1F9B0 ; fully-qualified # \U0001F468\u200D\U0001F9B0 E1.0 man: teal hair\n" +
+		"1F469 200D 1F9B0 ; fully-qualified # \U0001F469\u200D\U0001F9B0 E1.0 woman: teal hair\n" +
 		// A flag qualifier belongs to one emoji and must stay quiet.
 		"1F1FA 1F1F8 ; fully-qualified # \U0001F1FA\U0001F1F8 E2.0 flag: United States\n" +
 		"1F1EC 1F1E7 ; fully-qualified # \U0001F1EC\U0001F1E7 E2.0 flag: United Kingdom\n" +
 		// "man" names a figure under two different emoji. It is shared exactly
 		// the way a styling is, and is only quiet because PersonWords says so.
-		"1F468 200D 1F466 ; fully-qualified # \U0001F468‍\U0001F466 E4.0 family: man, boy\n" +
-		"1F468 200D 2764 FE0F 200D 1F48B 200D 1F468 ; fully-qualified # \U0001F468‍❤️‍\U0001F48B‍\U0001F468 E2.0 kiss: man, man\n"
+		"1F468 200D 1F466 ; fully-qualified # \U0001F468\u200D\U0001F466 E4.0 family: man, boy\n" +
+		"1F468 200D 2764 FE0F 200D 1F48B 200D 1F468 ; fully-qualified # \U0001F468\u200D❤\uFE0F\u200D\U0001F48B\u200D\U0001F468 E2.0 kiss: man, man\n"
 
 	var logged bytes.Buffer
 	slog.SetDefault(slog.New(slog.NewTextHandler(&logged, nil)))

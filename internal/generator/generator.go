@@ -24,7 +24,9 @@ func Generate() error {
 	if err != nil {
 		return err
 	}
-	defer src.Close()
+	// Nothing is read from it after this, so a failure to close has nothing
+	// left to affect.
+	defer func() { _ = src.Close() }()
 
 	ds, err := Parse(src, SourceURL)
 	if err != nil {
