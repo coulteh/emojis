@@ -100,3 +100,7 @@ go generate ./...
 ```
 
 [emoji-test.txt]: https://www.unicode.org/Public/emoji/latest/emoji-test.txt
+
+## AI disclosure
+
+Much of the code in this repo was written by Claude Opus 5 via [Claude Code](https://claude.com/claude-code). Note the `*_gen.go` files are machine-generated code by design. AI was used to write the generator code.
