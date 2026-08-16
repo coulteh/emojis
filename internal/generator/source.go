@@ -26,7 +26,7 @@ func fetch() (io.ReadCloser, error) {
 		return nil, fmt.Errorf("fetch %s: %w", SourceURL, err)
 	}
 	if resp.StatusCode != http.StatusOK {
-		resp.Body.Close()
+		_ = resp.Body.Close()
 		return nil, fmt.Errorf("fetch %s: unexpected status %s", SourceURL, resp.Status)
 	}
 	return resp.Body, nil

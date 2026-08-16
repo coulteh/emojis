@@ -12,12 +12,12 @@ func TestPlain(t *testing.T) {
 	}{
 		{GrinningFace(), "\U0001F600"},
 		{ThumbsUp(), "\U0001F44D"},
-		{RedHeart(), "❤️"},
+		{RedHeart(), "❤\uFE0F"},
 		{Person(), "\U0001F9D1"},
-		{FamilyManBoy(), "\U0001F468‍\U0001F466"},
-		{KissWomanMan(), "\U0001F469‍❤️‍\U0001F48B‍\U0001F468"},
-		{Keycap1(), "1️⃣"},
-		{KeycapHash(), "#️⃣"},
+		{FamilyManBoy(), "\U0001F468\u200D\U0001F466"},
+		{KissWomanMan(), "\U0001F469\u200D❤\uFE0F\u200D\U0001F48B\u200D\U0001F468"},
+		{Keycap1(), "1\uFE0F⃣"},
+		{KeycapHash(), "#\uFE0F⃣"},
 		{FirstPlaceMedal(), "\U0001F947"},
 		{FlagUnitedStates(), "\U0001F1FA\U0001F1F8"},
 	}
@@ -48,7 +48,7 @@ func TestSkinTone(t *testing.T) {
 // A skin tone and a hair style name one figure, so either order means the same
 // thing and both must resolve.
 func TestToneAndHairCommute(t *testing.T) {
-	want := "\U0001F9D1\U0001F3FD‍\U0001F9B0" // 🧑🏽‍🦰
+	want := "\U0001F9D1\U0001F3FD\u200D\U0001F9B0" // 🧑🏽‍🦰
 	if got := Person(MediumSkinTone, RedHair); got != want {
 		t.Errorf("Person(MediumSkinTone, RedHair) = %q, want %q", got, want)
 	}
@@ -66,10 +66,10 @@ func TestTwoTonesKeepOrder(t *testing.T) {
 	if lightDark == darkLight {
 		t.Fatalf("both orderings returned %q; the order distinguishes the figures", lightDark)
 	}
-	if want := "\U0001F468\U0001F3FB‍\U0001F91D‍\U0001F468\U0001F3FF"; lightDark != want {
+	if want := "\U0001F468\U0001F3FB\u200D\U0001F91D\u200D\U0001F468\U0001F3FF"; lightDark != want {
 		t.Errorf("MenHoldingHands(Light, Dark) = %q, want %q", lightDark, want)
 	}
-	if want := "\U0001F468\U0001F3FF‍\U0001F91D‍\U0001F468\U0001F3FB"; darkLight != want {
+	if want := "\U0001F468\U0001F3FF\u200D\U0001F91D\u200D\U0001F468\U0001F3FB"; darkLight != want {
 		t.Errorf("MenHoldingHands(Dark, Light) = %q, want %q", darkLight, want)
 	}
 	// A single tone applies to both figures.
