@@ -38,10 +38,26 @@ func Generate() error {
 		return err
 	}
 
+	// Renames found against the last generated package join the ones already
+	// recorded, so an old name keeps working however many releases ago
+	// Unicode replaced it.
+	previous, err := readPrevious(".")
+	if err != nil {
+		return err
+	}
+	renames, err := loadRenames(renamesFile)
+	if err != nil {
+		return err
+	}
+	detected := detectRenames(previous, model, ds.Version)
+	renames = model.applyRenames(append(renames, detected...))
+	reportRenames(detected, model)
+
 	files, err := render(model, pkg)
 	if err != nil {
 		return err
 	}
+	files = append(files, file{Name: renamesFile, Contents: formatRenames(renames)})
 
 	// Read what is there before replacing it, so a scheduled run that finds
 	// Unicode has published nothing new says so rather than looking like it
@@ -95,9 +111,8 @@ const listedNames = 10
 // by reading back the file about to be replaced.
 //
 // Removals are worth a warning: the generated functions are this package's
-// public API, and Unicode does rename things. Emoji 12.0 renamed every flag
-// from "United States" to "flag: United States", which would silently retire
-// 258 functions and introduce 258 others.
+// public API. A rename keeps its old function as an alias, so what is left is
+// an emoji Unicode has withdrawn, or a rename the generator failed to spot.
 func reportFunctionChanges(dir string, m *Model) {
 	previous, err := os.ReadFile(filepath.Join(dir, emojiFile))
 	if err != nil {
@@ -126,9 +141,12 @@ func changedFunctions(previous []byte, m *Model) (added, removed []string) {
 	for _, match := range funcRe.FindAllStringSubmatch(string(previous), -1) {
 		before[match[1]] = true
 	}
-	after := make(map[string]bool, len(m.Bases))
+	after := make(map[string]bool, len(m.Bases)+len(m.Aliases))
 	for _, b := range m.Bases {
 		after[b.Ident] = true
+	}
+	for _, a := range m.Aliases {
+		after[a.Ident] = true
 	}
 	return only(after, before), only(before, after)
 }

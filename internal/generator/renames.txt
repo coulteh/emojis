@@ -1,0 +1,11 @@
+# Emoji Unicode has renamed since this package began generating them.
+#
+# The generator adds a line here when an emoji's name changes from one release
+# to the next while the emoji itself stays the same. Each line keeps the old
+# name working: as a deprecated function, and as a name Lookup accepts. Delete
+# a line to retire that old name.
+#
+# old name ; current name ; emoji release that renamed it
+flag: French Southern Territories ; flag: French Southern and Antarctic Lands ; 18.0
+flag: Heard & McDonald Islands ; flag: Heard Island & McDonald Islands ; 18.0
+flag: St. Helena ; flag: St. Helena, Ascension & Tristan da Cunha ; 18.0

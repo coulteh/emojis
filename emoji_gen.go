@@ -7527,3 +7527,26 @@ func FlagScotland() string { return emojiBlob[3353:3381] }
 
 // FlagWales returns the "flag: Wales" emoji 🏴󠁧󠁢󠁷󠁬󠁳󠁿.
 func FlagWales() string { return emojiBlob[3381:3409] }
+
+// Renamed: the names these emoji had before Unicode renamed them.
+
+// FlagFrenchSouthernTerritories returns the 🇹🇫 emoji, which Unicode
+// called "flag: French Southern Territories" until emoji 18.0 and now
+// calls "flag: French Southern and Antarctic Lands".
+//
+// Deprecated: Use FlagFrenchSouthernAndAntarcticLands.
+func FlagFrenchSouthernTerritories() string { return FlagFrenchSouthernAndAntarcticLands() }
+
+// FlagHeardAndMcDonaldIslands returns the 🇭🇲 emoji, which Unicode
+// called "flag: Heard & McDonald Islands" until emoji 18.0 and now calls
+// "flag: Heard Island & McDonald Islands".
+//
+// Deprecated: Use FlagHeardIslandAndMcDonaldIslands.
+func FlagHeardAndMcDonaldIslands() string { return FlagHeardIslandAndMcDonaldIslands() }
+
+// FlagStHelena returns the 🇸🇭 emoji, which Unicode called "flag: St.
+// Helena" until emoji 18.0 and now calls "flag: St. Helena, Ascension &
+// Tristan da Cunha".
+//
+// Deprecated: Use FlagStHelenaAscensionAndTristanDaCunha.
+func FlagStHelena() string { return FlagStHelenaAscensionAndTristanDaCunha() }

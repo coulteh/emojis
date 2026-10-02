@@ -66,12 +66,16 @@ func (s span) in(blob string) string { return blob[s.off:s.end] }
 //	emojis.Lookup("thumbs up", emojis.DarkSkinTone) // 👍🏿
 //	emojis.Lookup("family: man, boy")               // 👨‍👦
 //
-// An unknown name, or a combination of variants that Unicode does not define,
-// returns the empty string. Prefer the generated functions where the emoji is
+// A name Unicode has since replaced still finds its emoji, so code written
+// against an older release keeps working. An unknown name, or a combination of
+// variants that Unicode does not define, returns the empty string. Prefer the generated functions where the emoji is
 // known at compile time: they index the tables directly, while Lookup has to
 // search them for the name.
 func Lookup(name string, v ...Variant) string {
 	row, ok := findBase(name)
+	if !ok {
+		row, ok = findRenamed(name)
+	}
 	if !ok {
 		return ""
 	}
@@ -96,21 +100,34 @@ func styled(row int, v []Variant) string {
 }
 
 // findBase binary searches baseNames, which the generator sorted by name.
+func findBase(name string) (int, bool) { return searchNames(baseNames[:], name) }
+
+// findRenamed looks for a name Unicode has replaced, and returns the row of
+// baseNames its emoji is now under.
+func findRenamed(name string) (int, bool) {
+	i, ok := searchNames(renamedNames[:], name)
+	if !ok {
+		return 0, false
+	}
+	return int(renamedRows[i]), true
+}
+
+// searchNames binary searches a sorted table of names.
 //
 // The search is written out rather than handed to sort.Search because the
-// closure that takes would keep this off the inlining path, and these two
+// closure that takes would keep this off the inlining path, and these
 // searches are the whole cost of a lookup.
-func findBase(name string) (int, bool) {
-	lo, hi := 0, len(baseNames)
+func searchNames(names []span, name string) (int, bool) {
+	lo, hi := 0, len(names)
 	for lo < hi {
 		mid := int(uint(lo+hi) >> 1)
-		if baseNames[mid].in(nameBlob) < name {
+		if names[mid].in(nameBlob) < name {
 			lo = mid + 1
 		} else {
 			hi = mid
 		}
 	}
-	if lo < len(baseNames) && baseNames[lo].in(nameBlob) == name {
+	if lo < len(names) && names[lo].in(nameBlob) == name {
 		return lo, true
 	}
 	return 0, false
@@ -155,7 +172,8 @@ func order(a, b Variant) (Variant, Variant) {
 }
 
 // Names returns the Unicode name of every emoji in the package, sorted. Each
-// is a name Lookup accepts.
+// is a name Lookup accepts. Names Unicode has replaced are left out, though
+// Lookup still accepts those too.
 //
 // The slice is built on demand rather than kept around, so a program that never
 // calls this pays nothing for it.
