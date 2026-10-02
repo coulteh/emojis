@@ -84,9 +84,12 @@ jobs:
 
           # What the generator said it added or took away, for the commit body.
           summary="$(grep -oE 'msg="(emoji added|emoji removed[^"]*)" .*' "$LOG" || true)"
+          # Not a ${summary:-...} default: bash reads the apostrophe in one as
+          # an opening quote, even inside double quotes.
+          [ -n "$summary" ] || summary="Regenerated from Unicode's emoji-test.txt."
 
           git add -- '*_gen.go'
-          git commit -m "Update to Unicode emoji $VERSION" -m "${summary:-Regenerated from Unicode's emoji-test.txt.}"
+          git commit -m "Update to Unicode emoji $VERSION" -m "$summary"
 
           # Unicode can republish a release without changing its version, in
           # which case the commit still stands but the tag is already taken.
