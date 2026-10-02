@@ -558,224 +558,225 @@ const nameBlob = "" +
 	"onthly amount” buttonJapanese “service charge” buttonflag: British Indian Ocean TerritoryJ" +
 	"apanese “passing grade” buttonperson with white cane facing rightfamily: adult, adult, child" +
 	", childwoman with white cane facing rightJapanese “application” buttoncouple with heart: per" +
-	"son, personJapanese “acceptable” buttonJapanese “no vacancy” buttonJapanese “prohibite" +
-	"d” buttonclosed mailbox with lowered flagfamily: woman, woman, girl, girlclosed mailbox with r" +
-	"aised flagcouple with heart: woman, womanfamily: woman, woman, girl, boygrinning face with smili" +
-	"ng eyesJapanese “discount” buttonJapanese “reserved” buttonbeaming face with smiling eye" +
-	"scounterclockwise arrows buttonfamily: man, woman, girl, girlfamily: woman, woman, boy, boyflag:" +
-	" Central African Republicflag: Northern Mariana Islandsflag: St. Vincent & Grenadinesgrinning ca" +
-	"t with smiling eyeskissing face with smiling eyesnotebook with decorative coveropen mailbox with" +
-	" lowered flagsmiling face with smiling eyesJapanese “bargain” buttonJapanese “vacancy” b" +
-	"uttonbackhand index pointing rightcloud with lightning and raincouple with heart: woman, manfami" +
-	"ly: man, woman, girl, boyflag: Cocos (Keeling) Islandsflag: Palestinian Territoriesfrowning face" +
-	" with open mouthkissing face with closed eyesmagnifying glass tilted rightopen mailbox with rais" +
-	"ed flagrolling on the floor laughingJapanese symbol for beginnerJapanese “secret” buttonback" +
-	"hand index pointing downbackhand index pointing leftfamily: man, man, girl, girlfamily: man, wom" +
-	"an, boy, boyflag: British Virgin Islandsflag: São Tomé & Príncipeflag: Turks & Caicos Islands" +
-	"globe showing Asia-Australiaindex pointing at the viewermagnifying glass tilted leftperson kneel" +
-	"ing facing rightsmiling face with heart-eyessmiling face with open handssmiling face with sungla" +
-	"ssescouple with heart: man, manfamily: adult, child, childfamily: man, man, girl, boyflag: Carib" +
-	"bean Netherlandsflag: St. Pierre & Miquelonflag: U.S. Outlying Islandsglobe showing Europe-Afric" +
-	"agrinning face with big eyesperson running facing rightperson walking facing rightsmiling cat wi" +
-	"th heart-eyeswoman and man holding handswoman kneeling facing rightJapanese “here” buttonbac" +
-	"khand index pointing upface with crossed-out eyesface with symbols on mouthfamily: man, man, boy" +
-	", boyflag: Bosnia & Herzegovinaflag: Svalbard & Jan Mayenflag: United Arab Emiratessquinting fac" +
-	"e with tonguewoman running facing rightwoman walking facing rightblack medium-small squarechart " +
-	"increasing with yenclockwise vertical arrowsexclamation question markface with bags under eyesfa" +
-	"ce with hand over mouthface with steam from nosefamily: woman, girl, girlflag: Congo - Brazzavil" +
-	"leflag: Hong Kong SAR Chinaflag: U.S. Virgin Islandsfork and knife with platehand with fingers s" +
-	"playedhead shaking horizontallyperson in suit levitatingperson playing water polored triangle po" +
-	"inted downwhite medium-small squarewoman construction workerbottle with popping corkdowncast fac" +
-	"e with sweatface with diagonal mouthface with raised eyebrowfamily: woman, girl, boyflag: Domini" +
-	"can Republicgrinning face with sweathorizontal traffic lightleft arrow curving rightperson in lo" +
-	"tus positionrescue worker’s helmetright arrow curving downright arrow curving leftsmiling face" +
-	" with heartsumbrella with rain dropswinking face with tonguewoman playing water poloanxious face" +
-	" with sweatdotted six-pointed stardouble exclamation markface holding back tearsfamily: man, gir" +
-	"l, girlfamily: woman, boy, boyfirst quarter moon faceflag: Antigua & Barbudaflag: Clipperton Isl" +
-	"andflag: Equatorial Guineaflag: St. Kitts & Nevisflag: Trinidad & Tobagofront-facing baby chickg" +
-	"rinning squinting facehead shaking verticallyleaf fluttering in windmobile phone with arrowperso" +
-	"n playing handballred triangle pointed uprightwards pushing handsmiling face with hornswoman in " +
-	"lotus positionAB button (blood type)ballot box with ballotface screaming in fearface with head-b" +
-	"andageface with medical maskface with rolling eyesface with tears of joyfamily: man, girl, boyfl" +
-	"ag: Ascension Islandflag: Christmas Islandflag: Congo - Kinshasaflag: Côte d’Ivoireflag: Falk" +
-	"land Islandsflag: French Polynesiaflag: Marshall Islandsflag: Papua New Guineaflag: Pitcairn Isl" +
-	"andsflag: Tristan da Cunhaglobe showing Americaslast quarter moon faceleftwards pushing handpeop" +
-	"le with bunny earsperson getting haircutperson getting massageperson lifting weightsperson mount" +
-	"ain bikingright arrow curving upslightly frowning facesmiling face with halosmiling face with te" +
-	"arsun behind large cloudsun behind small cloudsunrise over mountainsvertical traffic lightwhite " +
-	"exclamation markwoman playing handballA button (blood type)O button (blood type)angry face with " +
-	"hornsbuilding constructioncat with tears of joyeight-spoked asteriskface with peeking eyeface wi" +
-	"th spiral eyesface with thermometerfamily: man, boy, boyflag: Ceuta & Melillaflag: Macao SAR Chi" +
-	"naflag: Myanmar (Burma)flag: North Macedoniaflag: Solomon Islandsflag: St. Barthélemyflag: Wall" +
-	"is & Futunainput latin lowercaseinput latin uppercasemoon viewing ceremonyno one under eighteenp" +
-	"art alternation markperson in steamy roomperson wearing turbanrightwards thumb signsad but relie" +
-	"ved faceshuffle tracks buttonslightly smiling facespeaker medium volumesport utility vehiclesun " +
-	"behind rain cloudteacup without handlewoman getting haircutwoman getting massagewoman lifting we" +
-	"ightswoman mountain bikingwomen with bunny earsJapanese post officecheck box with checkear with " +
-	"hearing aideye in speech bubblefish cake with swirlflag: American Samoaflag: Canary Islandsflag:" +
-	" Cayman Islandsflag: European Unionflag: Norfolk Islandflag: United Kingdomflag: United Nationsf" +
-	"lag: Western Saharaflag: Åland Islandsflower playing cardsglobe with meridianskiss: person, per" +
-	"sonlarge orange diamondleftwards thumb signmartial arts uniformpeople holding handsperson bounci" +
-	"ng ballperson with skullcapplay or pause buttonred exclamation markrepeat single buttonroasted s" +
-	"weet potatoskull and crossbonessmall orange diamondsnow-capped mountainsnowman without snowspeak" +
-	"-no-evil monkeywaning crescent moonwaxing crescent moonwoman factory workerwoman in steamy roomw" +
-	"oman police officerwoman wearing turbanwoman with headscarfbeach with umbrellablack medium squar" +
-	"eblack square buttonbusts in silhouettecard index dividersenvelope with arrowexpressionless face" +
-	"face blowing a kissfast reverse buttonfast-forward buttonflag: Bouvet Islandflag: Faroe Islandsf" +
-	"lag: French Guianaflag: Guinea-Bissauflag: Liechtensteinflag: New Caledoniaflag: United Stateshe" +
-	"ar-no-evil monkeyidentification cardinput latin lettersoncoming automobileoncoming police carper" +
-	"son cartwheelingperson feeding babyperson gesturing NOperson gesturing OKperson raising handpers" +
-	"on tipping handraised back of handrolled-up newspapershallow pan of foodspeaker high volumewanin" +
-	"g gibbous moonwaxing gibbous moonwhite medium squarewhite question markwhite square buttonwoman " +
-	"bouncing ballwoman health workerwoman office workerwomen holding handsairplane departureblack la" +
-	"rge squareblack small squarebust in silhouettecat with wry smileclassical buildingclinking beer " +
-	"mugsdiamond with a doteight-pointed starface savoring foodface without mouthflag: Burkina Fasofl" +
-	"ag: Cook Islandsflag: Diego Garciaflag: Saudi Arabiaflag: Sierra Leoneflag: Sint Maartenflag: So" +
-	"uth Africaflag: Turkmenistanflag: Vatican Cityhourglass not donekiss: woman, womanlarge blue dia" +
-	"mondleft speech bubblelitter in bin signloudly crying facemahjong red dragonone-piece swimsuitpe" +
-	"rson facepalmingperson rowing boatperson taking bathright anger bubblesee-no-evil monkeysmall bl" +
-	"ue diamondspeaker low volumesuspension railwaytelephone receivertransgender symbolumbrella on gr" +
-	"oundwhite large squarewhite small squarewoman cartwheelingwoman feeding babywoman gesturing NOwo" +
-	"man gesturing OKwoman raising handwoman supervillainwoman technologistwoman tipping handStatue o" +
-	"f Libertyadmission ticketsamerican footballarticulated lorrycamera with flashcheck mark buttonch" +
-	"ildren crossingcityscape at duskconvenience storecross mark buttoncurrency exchangedisappointed " +
-	"facedouble curly loopface with monoclefire extinguisherflag: Afghanistanflag: El Salvadorflag: I" +
-	"sle of Manflag: Netherlandsflag: New Zealandflag: North Koreaflag: Philippinesflag: Puerto Ricof" +
-	"lag: South Koreaflag: South Sudanflag: Switzerlandflag: Timor-Lestehammer and wrenchheart exclam" +
-	"ationheart with ribbonheavy dollar signheavy equals signhollow red circlehouse with gardenincomi" +
-	"ng envelopelast track buttonlinked paperclipsmantelpiece clockmonarch butterflymountain cableway" +
-	"next track buttonnon-potable waterpalms up togetherperson with crownred paper lanternred questio" +
-	"n markright-facing fistsatellite antennasign of the hornsstar and crescentstudio microphonestuff" +
-	"ed flatbreadtear-off calendarwheelchair symbolwoman facepalmingwoman firefighterwoman rowing boa" +
-	"twoman’s clotheszipper-mouth faceadhesive bandageairplane arrivalanatomical heartchart decreas" +
-	"ingclinking glassesdepartment storedesktop computerdotted line facedown-right arrowdownwards but" +
-	"toneleven o’clockfast down buttonflag: Antarcticaflag: Azerbaijanflag: Bangladeshflag: Cape Ve" +
-	"rdeflag: Costa Ricaflag: Guadeloupeflag: Kazakhstanflag: Kyrgyzstanflag: Luxembourgflag: Madagas" +
-	"carflag: Martiniqueflag: Mauritaniaflag: Micronesiaflag: Montenegroflag: Montserratflag: Mozambi" +
-	"queflag: San Marinoflag: Seychellesflag: St. Martinflag: Tajikistanflag: Uzbekistanfolding hand " +
-	"fanfour leaf cloverheart decorationheart with arrowhigh-heeled shoehigh-speed trainkiss: woman, " +
-	"manleft-facing fistleft-right arrowlight blue heartlove-you gesturemobile phone offmoney with wi" +
-	"ngsmoney-mouth facemountain railwaymusical keyboardnight with starsno mobile phonesopen file fol" +
-	"derpassport controlpeople wrestlingpersevering faceperson in tuxedoperson shruggingperson with v" +
-	"eilplace of worshipplayground slidepolice car lightrecycling symbolrevolving heartssun behind cl" +
-	"oudtransgender flagtriangular rulertwelve o’clockupside-down facewoman’s sandal1st place med" +
-	"al2nd place medal3rd place medalJapanese castleastonished facebell with slashbowl with spoonbrid" +
-	"ge at nightclosed umbrellacloud with raincloud with snowconfounded facecowboy hat facecrossed fi" +
-	"ngersdollar banknotedown-left arroweight o’clockflag: Argentinaflag: Australiaflag: Gibraltarf" +
-	"lag: Greenlandflag: Guatemalaflag: Indonesiaflag: Lithuaniaflag: Mauritiusflag: Nicaraguaflag: S" +
-	"ingaporeflag: Sri Lankaflag: St. Luciaflag: Venezuelahammer and picklocked with keylocked with p" +
-	"enmilitary helmetnet with handleoffice buildingperforming artsperson climbingperson frowningpers" +
-	"on jugglingperson standingperson swimmingpinched fingerspine decorationpregnant personreminder r" +
-	"ibbonrightwards handseven o’clocksparkling heartspiral calendarthought balloonthree o’clockt" +
-	"riangular flagwheel of dharmawoman astronautwoman detectivewoman in tuxedowoman scientistwoman s" +
-	"hruggingwoman superherowoman with veilwomen wrestlingChristmas treeJapanese dollsaerial tramwaya" +
-	"nguished faceartist palettebaguette breadbreast-feedingbrown mushroomcarousel horsechequered fla" +
-	"gcherry blossomclapping handscocktail glasscomputer mousecouch and lampcrossed swordscup with st" +
-	"rawdeciduous treedelivery truckderelict housedisguised facedistorted faceevergreen treeexploding" +
-	" headface in cloudsfast up buttonfilm projectorfive o’clockflag: Anguillaflag: Barbadosflag: B" +
-	"otswanaflag: Bulgariaflag: Cambodiaflag: Cameroonflag: Colombiaflag: Curaçaoflag: Djiboutiflag:" +
-	" Eswatiniflag: Ethiopiaflag: Guernseyflag: Hondurasflag: Kiribatiflag: Malaysiaflag: Maldivesfla" +
-	"g: Mongoliaflag: Pakistanflag: Paraguayflag: Portugalflag: Réunionflag: Scotlandflag: Slovakiaf" +
-	"lag: Sloveniaflag: Surinameflag: Tanzaniaflag: Thailandflag: Türkiyeflag: Zimbabwefortune cooki" +
-	"efour o’clockframed picturefull moon facegraduation capgrimacing facehairy creaturehatching ch" +
-	"ickhourglass donehundred pointsjack-o-lanternkiss: man, manleftwards handmechanical armmechanica" +
-	"l legmedical symbolmilitary medalnauseated facenest with eggsnine o’clockno pedestriansorthodo" +
-	"x crosspage facing uppage with curlpalm down handpassenger shippeople huggingperson fencingperso" +
-	"n golfingperson poutingperson surfingpound banknotepouring liquidpregnant womanroller coasterroo" +
-	"t vegetablerugby footballsmall airplanesoft ice creamspeech balloonspiral notepadspouting whales" +
-	"traight rulersweat dropletstreasure chesttrident emblemtropical drinktwo-hump camelup-right arro" +
-	"wupwards buttonvibration modewoman climbingwoman frowningwoman jugglingwoman mechanicwoman stand" +
-	"ingwoman swimmingwoman’s bootwomen’s roomalien monsterauto rickshawbaggage claimbalance scal" +
-	"eballet dancerbeating heartbirthday cakebookmark tabsbow and arrowbright buttoncard file boxcarp" +
-	" streamercarpentry sawchocolate barclapper boardcomputer diskconfetti ballconfused facecontrol k" +
-	"nobscracking facecrossed flagscurling stonedesert islanddrooling facedrop of bloodelectric pluge" +
-	"leven-thirtyeuro banknoteface exhalingface vomitingflag: Albaniaflag: Algeriaflag: Andorraflag: " +
-	"Armeniaflag: Austriaflag: Bahamasflag: Bahrainflag: Belarusflag: Belgiumflag: Bermudaflag: Boliv" +
-	"iaflag: Burundiflag: Comorosflag: Croatiaflag: Czechiaflag: Denmarkflag: Ecuadorflag: Englandfla" +
-	"g: Eritreaflag: Estoniaflag: Finlandflag: Georgiaflag: Germanyflag: Grenadaflag: Hungaryflag: Ic" +
-	"elandflag: Irelandflag: Jamaicaflag: Lebanonflag: Lesothoflag: Liberiaflag: Mayotteflag: Moldova" +
-	"flag: Moroccoflag: Namibiaflag: Nigeriaflag: Romaniaflag: Senegalflag: Somaliaflag: Tokelauflag:" +
-	" Tunisiaflag: Ukraineflag: Uruguayflag: Vanuatuflag: Vietnamflexed bicepsflying saucerglass of m" +
-	"ilkgrowing heartheart on fireinput numbersinput symbolskitchen knifeleafless treelotion bottleme" +
-	"nding heartmiddle fingermotor scootermusical notesmusical scoremuted speakernational parknesting" +
-	" dollsnew moon faceoncoming fistoncoming taxione o’clockorange circleorange squarepartying fac" +
-	"eperson bikingperson bowingperson in bedpinching handpleading facepurple circlepurple squarerail" +
-	"way trackraising handsrecord buttonrepeat buttonringed planetroll of paperround pushpinrunning s" +
-	"hirtsaluting facesewing needlesheaf of riceshinto shrineshooting starshopping bagsshopping carts" +
-	"hushing facesix o’clocksleeping facesmirking facesneezing facespeaking headstar of Davidsteami" +
-	"ng bowlsun with facetanabata treeten o’clockthinking facetropical fishtumbler glasstwelve-thir" +
-	"tytwo o’clockunamused faceup-down arrowup-left arrowvideocassettevulcan salutewater buffalowil" +
-	"ted flowerwoman dancingwoman golfingwoman poutingwoman studentwoman surfingwoman teacherwoman va" +
-	"mpirewoman’s hatyellow circleyellow squareanger symbolantenna barsballet shoesbellhop bellbeve" +
-	"rage boxblack circleboxing glovebroken chainbroken heartbrown circlebrown squarebullet traincall" +
-	" me handcheese wedgecricket gamecrystal balldashing awaydiamond suiteight-thirtyeject buttonenra" +
-	"ged facefearful faceferris wheelfield hockeyfile cabinetfishing poleflag in holeflag: Angolaflag" +
-	": Belizeflag: Bhutanflag: Brazilflag: Bruneiflag: Canadaflag: Cyprusflag: Franceflag: Gambiaflag" +
-	": Greeceflag: Guyanaflag: Israelflag: Jerseyflag: Jordanflag: Kosovoflag: Kuwaitflag: Latviaflag" +
-	": Malawiflag: Mexicoflag: Monacoflag: Norwayflag: Panamaflag: Polandflag: Russiaflag: Rwandaflag" +
-	": Serbiaflag: Swedenflag: Taiwanflag: Tuvaluflag: Ugandaflag: Zambiafleur-de-lisflushed facefold" +
-	"ed handsfountain penfrench friesfried shrimpglowing stargreen circlegreen squarehigh voltagehind" +
-	"u templehippopotamushorse racinghot beveragekick scooterleft luggagelevel sliderman’s shoemap " +
-	"of Japanmeat on bonemelting facemovie cameranazar amuletneutral faceno litteringnut and boltolde" +
-	"r persononcoming busoptical diskorange heartpalm up handparty popperpeace symbolpensive facepick" +
-	"up truckpotted plantprayer beadspregnant manpurple heartpuzzle pieceradio buttonrainbow flagred " +
-	"enveloperice crackerroller skaterunning shoeseven-thirtyshaking faceslot machinespiral shellspor" +
-	"ts medalthong sandalthree-thirtyvictory handvideo camerawater closetwater pistolwhite circlewhit" +
-	"e flowerwoman artistwoman bikingwoman bowingwoman farmerwoman singerwoman zombieworried facewrap" +
-	"ped giftwriting handyawning faceyellow heartyen banknoteCOOL buttonFREE buttonSagittariusSanta C" +
-	"lausTokyo toweralarm clockatom symbolbaby bottlebaby symbolbarber polebell pepperblack heartblue" +
-	" circleblue squareblueberriesbrown heartcanned foodcircus tentclosed bookcooked ricecredit cardc" +
-	"ut of meatdeaf persondiving maskdragon faceear of cornfallen leaffax machinefemale signfight clo" +
-	"udfilm framesfingerprintfire enginefirecrackerfive-thirtyflag: Arubaflag: Beninflag: Chileflag: " +
-	"Chinaflag: Egyptflag: Gabonflag: Ghanaflag: Haitiflag: Indiaflag: Italyflag: Japanflag: Kenyafla" +
-	"g: Libyaflag: Maltaflag: Nauruflag: Nepalflag: Palauflag: Qatarflag: Samoaflag: Spainflag: Sudan" +
-	"flag: Syriaflag: Tongaflag: Walesflag: Yemenfloppy diskflying discfour-thirtyfuneral urnginger r" +
-	"ootgreen applegreen heartgreen saladheart handshiking boothot springshushed faceinformationkissi" +
-	"ng catlady beetlelatin crossleafy greenloudspeakerlove letterlow batterymirror ballmonkey facena" +
-	"il polishnine-thirtyno bicyclesorange bookoutbox traypile of poopirate flagplay buttonpool 8 bal" +
-	"lpostal hornpot of foodpoultry legpouting catrabbit faceradioactiverailway carraised fistraised " +
-	"handsafety vestscrewdriverservice dogsleepy facesnowboardersoccer ballstar-struckstethoscopestop" +
-	" buttontakeout boxthumbs downtimer clockwastebasketwaving handwhite heartwoman fairywoman geniew" +
-	"oman guardwoman judgewoman pilotBACK arrowMrs. ClausNEW buttonSOON arrowSOS buttonUP! buttonbaby" +
-	" angelbasketballbilled capbiting lipblack birdblack flagbubble teachess pawnchopsticksclown face" +
-	"clutch bagcrying catcurry ricedeaf womandim buttonempty nestflag: Chadflag: Cubaflag: Fijiflag: " +
-	"Guamflag: Iranflag: Iraqflag: Laosflag: Maliflag: Niueflag: Omanflag: Peruflag: Sarkflag: Togofl" +
-	"ashlightfootprintsgreen bookgrey heartheart suithelicopterhorse facehot pepperice hockeyinbox tr" +
-	"aykeycap: 10kiwi fruitlight bulblight raillighthouselocomotivelove hotellying facemagic wandmapl" +
-	"e leafmicroscopemotor boatmotorcyclemount fujimouse facemouse trapname badgeno smokingone-thirty" +
-	"paintbrushpaw printspetri dishpink heartpolar bearracing carred squareregisteredrhinocerossafety" +
-	" pinshaved icesix-thirtyskateboardspade suitspider webstrawberryteddy beartelevisionten-thirtyti" +
-	"ger facetired facetoothbrushtrade marktrolleybustwo heartstwo-thirtyvideo gamevolleyballwater wa" +
-	"vewatermelonweary facewhite flagwind chimewine glasswoman cookwoman magewoozy faceCL buttonCapri" +
-	"cornEND arrowID buttonNG buttonOK buttonON! arrowOphiuchusTOP arrowVS buttonaccordionambulanceba" +
-	"dmintonbar chartbento boxbiohazardblack catblack nibblue bookboomerangbriefcasecigarettecircled " +
-	"Mclipboardclub suitcockroachcold facecollisioncopyrightcrocodilecroissantdiya lampfireworksflat " +
-	"shoefuel pumpgem stoneguide doghair pickhamburgerhandshakeheadphoneheadstonehoney potice skateje" +
-	"llyfishkeycap: #keycap: *keycap: 0keycap: 2keycap: 3keycap: 4keycap: 5keycap: 6keycap: 7keycap: " +
-	"8keycap: 9kiss marklandslidelong drummegaphonemerpersonmilky waymoney bagmoon cakenerd faceold w" +
-	"omanopen bookorangutanpalm treeparachutepineappleping pongred applered heartrice ballring buoysa" +
-	"xophoneshortcakesnowflakespaghettispeedboatstop signstopwatchsunflowersynagoguetangerinetelescop" +
-	"etest tubethumbs uptrackballwavy dashweary catwind facewoman elfworld mapzany faceATM signAquari" +
-	"usMx ClausP buttonbackpackbaseballblowfishbroccolibullseyebus stopcat facecherrieschestnutchipmu" +
-	"nkcow facecucumberdeaf mandog facedoughnutdumplingeggplantelephantelevatorflamingogame diegoal n" +
-	"ethedgehoghibiscushoneybeehospitalhot facehyacinthinfinityjoystickkangaroolab coatlacrosselipsti" +
-	"cklollipopmonorailmosquitomotorwaymultiplyno entryoil drumpancakespig facepig noseprincessrestro" +
-	"omsailboatsandwichsauropodscissorsscorpionseedlingshamrocksoftballsparklersparklessplattertram c" +
-	"artromboneunlockedup arrowwirelessyin yangOK handScorpioalembicamphoraavocadobathtubbouquetbowli" +
-	"ngburritocampingchickencoconutcompasscookingcupcakecustardcustomscyclonedolphinfalafelfeathergir" +
-	"affegogglesgorillahamsterhandbaghot dogleopardlobstermammothmaracasmenorahmermaidmicrobeminibusn" +
-	"ecktieoctopusold keyold manpackagepea podpeacockpeanutspenguinphoenixpiñataplacardplungerpopcor" +
-	"npostboxpretzelprinterraccoonreceiptroosterrosettestadiumstationsyringet-shirttoolboxtop hattorn" +
-	"adotractortrumpetunicornvolcanowarningweddingCancerGeminiPiscesTaurusabacusanchorbadgerbananabea" +
-	"verbikinibriefsbucketcactuscandlecarrotchainschurchcinemacoffincrayoncrutchdaggerdonkeye-mailera" +
-	"serfonduegarlicglovesgoblingrapesguitarhouseskhandakimonoladderlaptopledgerlizardmagnetmermanmet" +
-	"eormosqueoysterparrotpencilpicklepoodlerocketschoolscrollselfieshieldshortsshovelshowerspongesun" +
-	"settamaleteapottennisthreadtoilettomatotrophyturkeyturtleviolinwafflewindowAriesLibraT-RexVirgob" +
-	"aconbagelbanjobeansbisonbooksbrainbrickbroomcandycanoeclampcometcoraldangodizzydresseagleferryfl" +
-	"utefoggyghostgoosehamsajeansjokerkaabakoalalabellemonllamalungsmangometrominusmooseninjaoliveoni" +
-	"onotterpagerpandapeachpizzapurserazorrobotsharkskierskunkslothsnailsnakesockssquidsushitulipx-ra" +
-	"yyo-yozebrabombcoincrabdeerdododoordoveduckfroggeargoatharpherbhookkitelimelionmatememomoaiodeno" +
-	"greorcapearpillplussakesaltsarisealsledsoaptacowolfwoodwormyarnZZZaxebugdnadvdfoxjar"
+	"son, personflag: French Southern TerritoriesJapanese “acceptable” buttonJapanese “no vacan" +
+	"cy” buttonJapanese “prohibited” buttonclosed mailbox with lowered flagfamily: woman, woman" +
+	", girl, girlclosed mailbox with raised flagcouple with heart: woman, womanfamily: woman, woman, " +
+	"girl, boygrinning face with smiling eyesJapanese “discount” buttonJapanese “reserved” bu" +
+	"ttonbeaming face with smiling eyescounterclockwise arrows buttonfamily: man, woman, girl, girlfa" +
+	"mily: woman, woman, boy, boyflag: Central African Republicflag: Heard & McDonald Islandsflag: No" +
+	"rthern Mariana Islandsflag: St. Vincent & Grenadinesgrinning cat with smiling eyeskissing face w" +
+	"ith smiling eyesnotebook with decorative coveropen mailbox with lowered flagsmiling face with sm" +
+	"iling eyesJapanese “bargain” buttonJapanese “vacancy” buttonbackhand index pointing righ" +
+	"tcloud with lightning and raincouple with heart: woman, manfamily: man, woman, girl, boyflag: Co" +
+	"cos (Keeling) Islandsflag: Palestinian Territoriesfrowning face with open mouthkissing face with" +
+	" closed eyesmagnifying glass tilted rightopen mailbox with raised flagrolling on the floor laugh" +
+	"ingJapanese symbol for beginnerJapanese “secret” buttonbackhand index pointing downbackhand " +
+	"index pointing leftfamily: man, man, girl, girlfamily: man, woman, boy, boyflag: British Virgin " +
+	"Islandsflag: São Tomé & Príncipeflag: Turks & Caicos Islandsglobe showing Asia-Australiaindex" +
+	" pointing at the viewermagnifying glass tilted leftperson kneeling facing rightsmiling face with" +
+	" heart-eyessmiling face with open handssmiling face with sunglassescouple with heart: man, manfa" +
+	"mily: adult, child, childfamily: man, man, girl, boyflag: Caribbean Netherlandsflag: St. Pierre " +
+	"& Miquelonflag: U.S. Outlying Islandsglobe showing Europe-Africagrinning face with big eyesperso" +
+	"n running facing rightperson walking facing rightsmiling cat with heart-eyeswoman and man holdin" +
+	"g handswoman kneeling facing rightJapanese “here” buttonbackhand index pointing upface with " +
+	"crossed-out eyesface with symbols on mouthfamily: man, man, boy, boyflag: Bosnia & Herzegovinafl" +
+	"ag: Svalbard & Jan Mayenflag: United Arab Emiratessquinting face with tonguewoman running facing" +
+	" rightwoman walking facing rightblack medium-small squarechart increasing with yenclockwise vert" +
+	"ical arrowsexclamation question markface with bags under eyesface with hand over mouthface with " +
+	"steam from nosefamily: woman, girl, girlflag: Congo - Brazzavilleflag: Hong Kong SAR Chinaflag: " +
+	"U.S. Virgin Islandsfork and knife with platehand with fingers splayedhead shaking horizontallype" +
+	"rson in suit levitatingperson playing water polored triangle pointed downwhite medium-small squa" +
+	"rewoman construction workerbottle with popping corkdowncast face with sweatface with diagonal mo" +
+	"uthface with raised eyebrowfamily: woman, girl, boyflag: Dominican Republicgrinning face with sw" +
+	"eathorizontal traffic lightleft arrow curving rightperson in lotus positionrescue worker’s hel" +
+	"metright arrow curving downright arrow curving leftsmiling face with heartsumbrella with rain dr" +
+	"opswinking face with tonguewoman playing water poloanxious face with sweatdotted six-pointed sta" +
+	"rdouble exclamation markface holding back tearsfamily: man, girl, girlfamily: woman, boy, boyfir" +
+	"st quarter moon faceflag: Antigua & Barbudaflag: Clipperton Islandflag: Equatorial Guineaflag: S" +
+	"t. Kitts & Nevisflag: Trinidad & Tobagofront-facing baby chickgrinning squinting facehead shakin" +
+	"g verticallyleaf fluttering in windmobile phone with arrowperson playing handballred triangle po" +
+	"inted uprightwards pushing handsmiling face with hornswoman in lotus positionAB button (blood ty" +
+	"pe)ballot box with ballotface screaming in fearface with head-bandageface with medical maskface " +
+	"with rolling eyesface with tears of joyfamily: man, girl, boyflag: Ascension Islandflag: Christm" +
+	"as Islandflag: Congo - Kinshasaflag: Côte d’Ivoireflag: Falkland Islandsflag: French Polynesi" +
+	"aflag: Marshall Islandsflag: Papua New Guineaflag: Pitcairn Islandsflag: Tristan da Cunhaglobe s" +
+	"howing Americaslast quarter moon faceleftwards pushing handpeople with bunny earsperson getting " +
+	"haircutperson getting massageperson lifting weightsperson mountain bikingright arrow curving ups" +
+	"lightly frowning facesmiling face with halosmiling face with tearsun behind large cloudsun behin" +
+	"d small cloudsunrise over mountainsvertical traffic lightwhite exclamation markwoman playing han" +
+	"dballA button (blood type)O button (blood type)angry face with hornsbuilding constructioncat wit" +
+	"h tears of joyeight-spoked asteriskface with peeking eyeface with spiral eyesface with thermomet" +
+	"erfamily: man, boy, boyflag: Ceuta & Melillaflag: Macao SAR Chinaflag: Myanmar (Burma)flag: Nort" +
+	"h Macedoniaflag: Solomon Islandsflag: St. Barthélemyflag: Wallis & Futunainput latin lowercasei" +
+	"nput latin uppercasemoon viewing ceremonyno one under eighteenpart alternation markperson in ste" +
+	"amy roomperson wearing turbanrightwards thumb signsad but relieved faceshuffle tracks buttonslig" +
+	"htly smiling facespeaker medium volumesport utility vehiclesun behind rain cloudteacup without h" +
+	"andlewoman getting haircutwoman getting massagewoman lifting weightswoman mountain bikingwomen w" +
+	"ith bunny earsJapanese post officecheck box with checkear with hearing aideye in speech bubblefi" +
+	"sh cake with swirlflag: American Samoaflag: Canary Islandsflag: Cayman Islandsflag: European Uni" +
+	"onflag: Norfolk Islandflag: United Kingdomflag: United Nationsflag: Western Saharaflag: Åland I" +
+	"slandsflower playing cardsglobe with meridianskiss: person, personlarge orange diamondleftwards " +
+	"thumb signmartial arts uniformpeople holding handsperson bouncing ballperson with skullcapplay o" +
+	"r pause buttonred exclamation markrepeat single buttonroasted sweet potatoskull and crossbonessm" +
+	"all orange diamondsnow-capped mountainsnowman without snowspeak-no-evil monkeywaning crescent mo" +
+	"onwaxing crescent moonwoman factory workerwoman in steamy roomwoman police officerwoman wearing " +
+	"turbanwoman with headscarfbeach with umbrellablack medium squareblack square buttonbusts in silh" +
+	"ouettecard index dividersenvelope with arrowexpressionless faceface blowing a kissfast reverse b" +
+	"uttonfast-forward buttonflag: Bouvet Islandflag: Faroe Islandsflag: French Guianaflag: Guinea-Bi" +
+	"ssauflag: Liechtensteinflag: New Caledoniaflag: United Stateshear-no-evil monkeyidentification c" +
+	"ardinput latin lettersoncoming automobileoncoming police carperson cartwheelingperson feeding ba" +
+	"byperson gesturing NOperson gesturing OKperson raising handperson tipping handraised back of han" +
+	"drolled-up newspapershallow pan of foodspeaker high volumewaning gibbous moonwaxing gibbous moon" +
+	"white medium squarewhite question markwhite square buttonwoman bouncing ballwoman health workerw" +
+	"oman office workerwomen holding handsairplane departureblack large squareblack small squarebust " +
+	"in silhouettecat with wry smileclassical buildingclinking beer mugsdiamond with a doteight-point" +
+	"ed starface savoring foodface without mouthflag: Burkina Fasoflag: Cook Islandsflag: Diego Garci" +
+	"aflag: Saudi Arabiaflag: Sierra Leoneflag: Sint Maartenflag: South Africaflag: Turkmenistanflag:" +
+	" Vatican Cityhourglass not donekiss: woman, womanlarge blue diamondleft speech bubblelitter in b" +
+	"in signloudly crying facemahjong red dragonone-piece swimsuitperson facepalmingperson rowing boa" +
+	"tperson taking bathright anger bubblesee-no-evil monkeysmall blue diamondspeaker low volumesuspe" +
+	"nsion railwaytelephone receivertransgender symbolumbrella on groundwhite large squarewhite small" +
+	" squarewoman cartwheelingwoman feeding babywoman gesturing NOwoman gesturing OKwoman raising han" +
+	"dwoman supervillainwoman technologistwoman tipping handStatue of Libertyadmission ticketsamerica" +
+	"n footballarticulated lorrycamera with flashcheck mark buttonchildren crossingcityscape at duskc" +
+	"onvenience storecross mark buttoncurrency exchangedisappointed facedouble curly loopface with mo" +
+	"noclefire extinguisherflag: Afghanistanflag: El Salvadorflag: Isle of Manflag: Netherlandsflag: " +
+	"New Zealandflag: North Koreaflag: Philippinesflag: Puerto Ricoflag: South Koreaflag: South Sudan" +
+	"flag: Switzerlandflag: Timor-Lestehammer and wrenchheart exclamationheart with ribbonheavy dolla" +
+	"r signheavy equals signhollow red circlehouse with gardenincoming envelopelast track buttonlinke" +
+	"d paperclipsmantelpiece clockmonarch butterflymountain cablewaynext track buttonnon-potable wate" +
+	"rpalms up togetherperson with crownred paper lanternred question markright-facing fistsatellite " +
+	"antennasign of the hornsstar and crescentstudio microphonestuffed flatbreadtear-off calendarwhee" +
+	"lchair symbolwoman facepalmingwoman firefighterwoman rowing boatwoman’s clotheszipper-mouth fa" +
+	"ceadhesive bandageairplane arrivalanatomical heartchart decreasingclinking glassesdepartment sto" +
+	"redesktop computerdotted line facedown-right arrowdownwards buttoneleven o’clockfast down butt" +
+	"onflag: Antarcticaflag: Azerbaijanflag: Bangladeshflag: Cape Verdeflag: Costa Ricaflag: Guadelou" +
+	"peflag: Kazakhstanflag: Kyrgyzstanflag: Luxembourgflag: Madagascarflag: Martiniqueflag: Mauritan" +
+	"iaflag: Micronesiaflag: Montenegroflag: Montserratflag: Mozambiqueflag: San Marinoflag: Seychell" +
+	"esflag: St. Martinflag: Tajikistanflag: Uzbekistanfolding hand fanfour leaf cloverheart decorati" +
+	"onheart with arrowhigh-heeled shoehigh-speed trainkiss: woman, manleft-facing fistleft-right arr" +
+	"owlight blue heartlove-you gesturemobile phone offmoney with wingsmoney-mouth facemountain railw" +
+	"aymusical keyboardnight with starsno mobile phonesopen file folderpassport controlpeople wrestli" +
+	"ngpersevering faceperson in tuxedoperson shruggingperson with veilplace of worshipplayground sli" +
+	"depolice car lightrecycling symbolrevolving heartssun behind cloudtransgender flagtriangular rul" +
+	"ertwelve o’clockupside-down facewoman’s sandal1st place medal2nd place medal3rd place medalJ" +
+	"apanese castleastonished facebell with slashbowl with spoonbridge at nightclosed umbrellacloud w" +
+	"ith raincloud with snowconfounded facecowboy hat facecrossed fingersdollar banknotedown-left arr" +
+	"oweight o’clockflag: Argentinaflag: Australiaflag: Gibraltarflag: Greenlandflag: Guatemalaflag" +
+	": Indonesiaflag: Lithuaniaflag: Mauritiusflag: Nicaraguaflag: Singaporeflag: Sri Lankaflag: St. " +
+	"Luciaflag: Venezuelahammer and picklocked with keylocked with penmilitary helmetnet with handleo" +
+	"ffice buildingperforming artsperson climbingperson frowningperson jugglingperson standingperson " +
+	"swimmingpinched fingerspine decorationpregnant personreminder ribbonrightwards handseven o’clo" +
+	"cksparkling heartspiral calendarthought balloonthree o’clocktriangular flagwheel of dharmawoma" +
+	"n astronautwoman detectivewoman in tuxedowoman scientistwoman shruggingwoman superherowoman with" +
+	" veilwomen wrestlingChristmas treeJapanese dollsaerial tramwayanguished faceartist palettebaguet" +
+	"te breadbreast-feedingbrown mushroomcarousel horsechequered flagcherry blossomclapping handscock" +
+	"tail glasscomputer mousecouch and lampcrossed swordscup with strawdeciduous treedelivery truckde" +
+	"relict housedisguised facedistorted faceevergreen treeexploding headface in cloudsfast up button" +
+	"film projectorfive o’clockflag: Anguillaflag: Barbadosflag: Botswanaflag: Bulgariaflag: Cambod" +
+	"iaflag: Cameroonflag: Colombiaflag: Curaçaoflag: Djiboutiflag: Eswatiniflag: Ethiopiaflag: Guer" +
+	"nseyflag: Hondurasflag: Kiribatiflag: Malaysiaflag: Maldivesflag: Mongoliaflag: Pakistanflag: Pa" +
+	"raguayflag: Portugalflag: Réunionflag: Scotlandflag: Slovakiaflag: Sloveniaflag: Surinameflag: " +
+	"Tanzaniaflag: Thailandflag: Türkiyeflag: Zimbabwefortune cookiefour o’clockframed picturefull" +
+	" moon facegraduation capgrimacing facehairy creaturehatching chickhourglass donehundred pointsja" +
+	"ck-o-lanternkiss: man, manleftwards handmechanical armmechanical legmedical symbolmilitary medal" +
+	"nauseated facenest with eggsnine o’clockno pedestriansorthodox crosspage facing uppage with cu" +
+	"rlpalm down handpassenger shippeople huggingperson fencingperson golfingperson poutingperson sur" +
+	"fingpound banknotepouring liquidpregnant womanroller coasterroot vegetablerugby footballsmall ai" +
+	"rplanesoft ice creamspeech balloonspiral notepadspouting whalestraight rulersweat dropletstreasu" +
+	"re chesttrident emblemtropical drinktwo-hump camelup-right arrowupwards buttonvibration modewoma" +
+	"n climbingwoman frowningwoman jugglingwoman mechanicwoman standingwoman swimmingwoman’s bootwo" +
+	"men’s roomalien monsterauto rickshawbaggage claimbalance scaleballet dancerbeating heartbirthd" +
+	"ay cakebookmark tabsbow and arrowbright buttoncard file boxcarp streamercarpentry sawchocolate b" +
+	"arclapper boardcomputer diskconfetti ballconfused facecontrol knobscracking facecrossed flagscur" +
+	"ling stonedesert islanddrooling facedrop of bloodelectric plugeleven-thirtyeuro banknoteface exh" +
+	"alingface vomitingflag: Albaniaflag: Algeriaflag: Andorraflag: Armeniaflag: Austriaflag: Bahamas" +
+	"flag: Bahrainflag: Belarusflag: Belgiumflag: Bermudaflag: Boliviaflag: Burundiflag: Comorosflag:" +
+	" Croatiaflag: Czechiaflag: Denmarkflag: Ecuadorflag: Englandflag: Eritreaflag: Estoniaflag: Finl" +
+	"andflag: Georgiaflag: Germanyflag: Grenadaflag: Hungaryflag: Icelandflag: Irelandflag: Jamaicafl" +
+	"ag: Lebanonflag: Lesothoflag: Liberiaflag: Mayotteflag: Moldovaflag: Moroccoflag: Namibiaflag: N" +
+	"igeriaflag: Romaniaflag: Senegalflag: Somaliaflag: Tokelauflag: Tunisiaflag: Ukraineflag: Urugua" +
+	"yflag: Vanuatuflag: Vietnamflexed bicepsflying saucerglass of milkgrowing heartheart on fireinpu" +
+	"t numbersinput symbolskitchen knifeleafless treelotion bottlemending heartmiddle fingermotor sco" +
+	"otermusical notesmusical scoremuted speakernational parknesting dollsnew moon faceoncoming fisto" +
+	"ncoming taxione o’clockorange circleorange squarepartying faceperson bikingperson bowingperson" +
+	" in bedpinching handpleading facepurple circlepurple squarerailway trackraising handsrecord butt" +
+	"onrepeat buttonringed planetroll of paperround pushpinrunning shirtsaluting facesewing needleshe" +
+	"af of riceshinto shrineshooting starshopping bagsshopping cartshushing facesix o’clocksleeping" +
+	" facesmirking facesneezing facespeaking headstar of Davidsteaming bowlsun with facetanabata tree" +
+	"ten o’clockthinking facetropical fishtumbler glasstwelve-thirtytwo o’clockunamused faceup-do" +
+	"wn arrowup-left arrowvideocassettevulcan salutewater buffalowilted flowerwoman dancingwoman golf" +
+	"ingwoman poutingwoman studentwoman surfingwoman teacherwoman vampirewoman’s hatyellow circleye" +
+	"llow squareanger symbolantenna barsballet shoesbellhop bellbeverage boxblack circleboxing gloveb" +
+	"roken chainbroken heartbrown circlebrown squarebullet traincall me handcheese wedgecricket gamec" +
+	"rystal balldashing awaydiamond suiteight-thirtyeject buttonenraged facefearful faceferris wheelf" +
+	"ield hockeyfile cabinetfishing poleflag in holeflag: Angolaflag: Belizeflag: Bhutanflag: Brazilf" +
+	"lag: Bruneiflag: Canadaflag: Cyprusflag: Franceflag: Gambiaflag: Greeceflag: Guyanaflag: Israelf" +
+	"lag: Jerseyflag: Jordanflag: Kosovoflag: Kuwaitflag: Latviaflag: Malawiflag: Mexicoflag: Monacof" +
+	"lag: Norwayflag: Panamaflag: Polandflag: Russiaflag: Rwandaflag: Serbiaflag: Swedenflag: Taiwanf" +
+	"lag: Tuvaluflag: Ugandaflag: Zambiafleur-de-lisflushed facefolded handsfountain penfrench friesf" +
+	"ried shrimpglowing stargreen circlegreen squarehigh voltagehindu templehippopotamushorse racingh" +
+	"ot beveragekick scooterleft luggagelevel sliderman’s shoemap of Japanmeat on bonemelting facem" +
+	"ovie cameranazar amuletneutral faceno litteringnut and boltolder persononcoming busoptical disko" +
+	"range heartpalm up handparty popperpeace symbolpensive facepickup truckpotted plantprayer beadsp" +
+	"regnant manpurple heartpuzzle pieceradio buttonrainbow flagred enveloperice crackerroller skater" +
+	"unning shoeseven-thirtyshaking faceslot machinespiral shellsports medalthong sandalthree-thirtyv" +
+	"ictory handvideo camerawater closetwater pistolwhite circlewhite flowerwoman artistwoman bikingw" +
+	"oman bowingwoman farmerwoman singerwoman zombieworried facewrapped giftwriting handyawning facey" +
+	"ellow heartyen banknoteCOOL buttonFREE buttonSagittariusSanta ClausTokyo toweralarm clockatom sy" +
+	"mbolbaby bottlebaby symbolbarber polebell pepperblack heartblue circleblue squareblueberriesbrow" +
+	"n heartcanned foodcircus tentclosed bookcooked ricecredit cardcut of meatdeaf persondiving maskd" +
+	"ragon faceear of cornfallen leaffax machinefemale signfight cloudfilm framesfingerprintfire engi" +
+	"nefirecrackerfive-thirtyflag: Arubaflag: Beninflag: Chileflag: Chinaflag: Egyptflag: Gabonflag: " +
+	"Ghanaflag: Haitiflag: Indiaflag: Italyflag: Japanflag: Kenyaflag: Libyaflag: Maltaflag: Naurufla" +
+	"g: Nepalflag: Palauflag: Qatarflag: Samoaflag: Spainflag: Sudanflag: Syriaflag: Tongaflag: Wales" +
+	"flag: Yemenfloppy diskflying discfour-thirtyfuneral urnginger rootgreen applegreen heartgreen sa" +
+	"ladheart handshiking boothot springshushed faceinformationkissing catlady beetlelatin crossleafy" +
+	" greenloudspeakerlove letterlow batterymirror ballmonkey facenail polishnine-thirtyno bicyclesor" +
+	"ange bookoutbox traypile of poopirate flagplay buttonpool 8 ballpostal hornpot of foodpoultry le" +
+	"gpouting catrabbit faceradioactiverailway carraised fistraised handsafety vestscrewdriverservice" +
+	" dogsleepy facesnowboardersoccer ballstar-struckstethoscopestop buttontakeout boxthumbs downtime" +
+	"r clockwastebasketwaving handwhite heartwoman fairywoman geniewoman guardwoman judgewoman pilotB" +
+	"ACK arrowMrs. ClausNEW buttonSOON arrowSOS buttonUP! buttonbaby angelbasketballbilled capbiting " +
+	"lipblack birdblack flagbubble teachess pawnchopsticksclown faceclutch bagcrying catcurry ricedea" +
+	"f womandim buttonempty nestflag: Chadflag: Cubaflag: Fijiflag: Guamflag: Iranflag: Iraqflag: Lao" +
+	"sflag: Maliflag: Niueflag: Omanflag: Peruflag: Sarkflag: Togoflashlightfootprintsgreen bookgrey " +
+	"heartheart suithelicopterhorse facehot pepperice hockeyinbox traykeycap: 10kiwi fruitlight bulbl" +
+	"ight raillighthouselocomotivelove hotellying facemagic wandmaple leafmicroscopemotor boatmotorcy" +
+	"clemount fujimouse facemouse trapname badgeno smokingone-thirtypaintbrushpaw printspetri dishpin" +
+	"k heartpolar bearracing carred squareregisteredrhinocerossafety pinshaved icesix-thirtyskateboar" +
+	"dspade suitspider webstrawberryteddy beartelevisionten-thirtytiger facetired facetoothbrushtrade" +
+	" marktrolleybustwo heartstwo-thirtyvideo gamevolleyballwater wavewatermelonweary facewhite flagw" +
+	"ind chimewine glasswoman cookwoman magewoozy faceCL buttonCapricornEND arrowID buttonNG buttonOK" +
+	" buttonON! arrowOphiuchusTOP arrowVS buttonaccordionambulancebadmintonbar chartbento boxbiohazar" +
+	"dblack catblack nibblue bookboomerangbriefcasecigarettecircled Mclipboardclub suitcockroachcold " +
+	"facecollisioncopyrightcrocodilecroissantdiya lampfireworksflat shoefuel pumpgem stoneguide dogha" +
+	"ir pickhamburgerhandshakeheadphoneheadstonehoney potice skatejellyfishkeycap: #keycap: *keycap: " +
+	"0keycap: 2keycap: 3keycap: 4keycap: 5keycap: 6keycap: 7keycap: 8keycap: 9kiss marklandslidelong " +
+	"drummegaphonemerpersonmilky waymoney bagmoon cakenerd faceold womanopen bookorangutanpalm treepa" +
+	"rachutepineappleping pongred applered heartrice ballring buoysaxophoneshortcakesnowflakespaghett" +
+	"ispeedboatstop signstopwatchsunflowersynagoguetangerinetelescopetest tubethumbs uptrackballwavy " +
+	"dashweary catwind facewoman elfworld mapzany faceATM signAquariusMx ClausP buttonbackpackbasebal" +
+	"lblowfishbroccolibullseyebus stopcat facecherrieschestnutchipmunkcow facecucumberdeaf mandog fac" +
+	"edoughnutdumplingeggplantelephantelevatorflamingogame diegoal nethedgehoghibiscushoneybeehospita" +
+	"lhot facehyacinthinfinityjoystickkangaroolab coatlacrosselipsticklollipopmonorailmosquitomotorwa" +
+	"ymultiplyno entryoil drumpancakespig facepig noseprincessrestroomsailboatsandwichsauropodscissor" +
+	"sscorpionseedlingshamrocksoftballsparklersparklessplattertram cartromboneunlockedup arrowwireles" +
+	"syin yangOK handScorpioalembicamphoraavocadobathtubbouquetbowlingburritocampingchickencoconutcom" +
+	"passcookingcupcakecustardcustomscyclonedolphinfalafelfeathergiraffegogglesgorillahamsterhandbagh" +
+	"ot dogleopardlobstermammothmaracasmenorahmermaidmicrobeminibusnecktieoctopusold keyold manpackag" +
+	"epea podpeacockpeanutspenguinphoenixpiñataplacardplungerpopcornpostboxpretzelprinterraccoonrece" +
+	"iptroosterrosettestadiumstationsyringet-shirttoolboxtop hattornadotractortrumpetunicornvolcanowa" +
+	"rningweddingCancerGeminiPiscesTaurusabacusanchorbadgerbananabeaverbikinibriefsbucketcactuscandle" +
+	"carrotchainschurchcinemacoffincrayoncrutchdaggerdonkeye-maileraserfonduegarlicglovesgoblingrapes" +
+	"guitarhouseskhandakimonoladderlaptopledgerlizardmagnetmermanmeteormosqueoysterparrotpencilpickle" +
+	"poodlerocketschoolscrollselfieshieldshortsshovelshowerspongesunsettamaleteapottennisthreadtoilet" +
+	"tomatotrophyturkeyturtleviolinwafflewindowAriesLibraT-RexVirgobaconbagelbanjobeansbisonbooksbrai" +
+	"nbrickbroomcandycanoeclampcometcoraldangodizzydresseagleferryflutefoggyghostgoosehamsajeansjoker" +
+	"kaabakoalalabellemonllamalungsmangometrominusmooseninjaoliveonionotterpagerpandapeachpizzapurser" +
+	"azorrobotsharkskierskunkslothsnailsnakesockssquidsushitulipx-rayyo-yozebrabombcoincrabdeerdododo" +
+	"ordoveduckfroggeargoatharpherbhookkitelimelionmatememomoaiodenogreorcapearpillplussakesaltsarise" +
+	"alsledsoaptacowolfwoodwormyarnZZZaxebugdnadvdfoxjar"
 
 // baseNames has one row per emoji, sorted by name so Lookup can binary search
 // it. baseEmoji gives the unmodified emoji for the row at the same index; a
@@ -786,1913 +787,1913 @@ const nameBlob = "" +
 // have to be allocated and filled on the heap at package init, by every program
 // that imports this package, whether or not it ever looked anything up.
 var baseNames = [1907]span{
-	{10547, 10562}, // 1st place medal
-	{10562, 10577}, // 2nd place medal
-	{10577, 10592}, // 3rd place medal
-	{5222, 5243},   // A button (blood type)
-	{4430, 4452},   // AB button (blood type)
-	{19858, 19866}, // ATM sign
-	{19866, 19874}, // Aquarius
-	{21291, 21296}, // Aries
-	{4431, 4452},   // B button (blood type)
-	{17984, 17994}, // BACK arrow
-	{18994, 19003}, // CL button
-	{16664, 16675}, // COOL button
-	{20877, 20883}, // Cancer
-	{19003, 19012}, // Capricorn
-	{11477, 11491}, // Christmas tree
-	{19012, 19021}, // END arrow
-	{16675, 16686}, // FREE button
-	{20883, 20889}, // Gemini
-	{19021, 19030}, // ID button
-	{10592, 10607}, // Japanese castle
-	{11491, 11505}, // Japanese dolls
-	{5999, 6019},   // Japanese post office
-	{1956, 1984},   // Japanese symbol for beginner
-	{875, 907},     // Japanese “acceptable” button
+	{10610, 10625}, // 1st place medal
+	{10625, 10640}, // 2nd place medal
+	{10640, 10655}, // 3rd place medal
+	{5285, 5306},   // A button (blood type)
+	{4493, 4515},   // AB button (blood type)
+	{19921, 19929}, // ATM sign
+	{19929, 19937}, // Aquarius
+	{21354, 21359}, // Aries
+	{4494, 4515},   // B button (blood type)
+	{18047, 18057}, // BACK arrow
+	{19057, 19066}, // CL button
+	{16727, 16738}, // COOL button
+	{20940, 20946}, // Cancer
+	{19066, 19075}, // Capricorn
+	{11540, 11554}, // Christmas tree
+	{19075, 19084}, // END arrow
+	{16738, 16749}, // FREE button
+	{20946, 20952}, // Gemini
+	{19084, 19093}, // ID button
+	{10655, 10670}, // Japanese castle
+	{11554, 11568}, // Japanese dolls
+	{6062, 6082},   // Japanese post office
+	{2019, 2047},   // Japanese symbol for beginner
+	{908, 940},     // Japanese “acceptable” button
 	{809, 842},     // Japanese “application” button
-	{1579, 1608},   // Japanese “bargain” button
+	{1642, 1671},   // Japanese “bargain” button
 	{453, 490},     // Japanese “congratulations” button
-	{1159, 1189},   // Japanese “discount” button
+	{1192, 1222},   // Japanese “discount” button
 	{527, 563},     // Japanese “free of charge” button
-	{2755, 2781},   // Japanese “here” button
+	{2818, 2844},   // Japanese “here” button
 	{563, 599},     // Japanese “monthly amount” button
-	{907, 939},     // Japanese “no vacancy” button
+	{940, 972},     // Japanese “no vacancy” button
 	{216, 256},     // Japanese “not free of charge” button
 	{336, 375},     // Japanese “open for business” button
 	{671, 706},     // Japanese “passing grade” button
-	{939, 971},     // Japanese “prohibited” button
-	{1189, 1219},   // Japanese “reserved” button
-	{1984, 2012},   // Japanese “secret” button
+	{972, 1004},    // Japanese “prohibited” button
+	{1222, 1252},   // Japanese “reserved” button
+	{2047, 2075},   // Japanese “secret” button
 	{599, 635},     // Japanese “service charge” button
-	{1608, 1637},   // Japanese “vacancy” button
-	{7841, 7844},   // Leo
-	{21296, 21301}, // Libra
-	{17994, 18004}, // Mrs. Claus
-	{19874, 19882}, // Mx Claus
-	{18004, 18014}, // NEW button
-	{19030, 19039}, // NG button
-	{5243, 5264},   // O button (blood type)
-	{19039, 19048}, // OK button
-	{20394, 20401}, // OK hand
-	{19048, 19057}, // ON! arrow
-	{19057, 19066}, // Ophiuchus
-	{19882, 19890}, // P button
-	{20889, 20895}, // Pisces
-	{18014, 18024}, // SOON arrow
-	{18024, 18034}, // SOS button
-	{16686, 16697}, // Sagittarius
-	{16697, 16708}, // Santa Claus
-	{20401, 20408}, // Scorpio
-	{8440, 8457},   // Statue of Liberty
-	{21301, 21306}, // T-Rex
-	{19066, 19075}, // TOP arrow
-	{20895, 20901}, // Taurus
-	{16708, 16719}, // Tokyo tower
-	{18034, 18044}, // UP! button
-	{19075, 19084}, // VS button
-	{21306, 21311}, // Virgo
-	{21759, 21762}, // ZZZ
-	{20901, 20907}, // abacus
-	{19084, 19093}, // accordion
-	{9443, 9459},   // adhesive bandage
-	{8457, 8474},   // admission tickets
-	{11505, 11519}, // aerial tramway
-	{7558, 7566},   // airplane
-	{9459, 9475},   // airplane arrival
-	{7558, 7576},   // airplane departure
-	{16719, 16730}, // alarm clock
-	{20408, 20415}, // alembic
-	{13101, 13106}, // alien
-	{13101, 13114}, // alien monster
-	{19093, 19102}, // ambulance
-	{8474, 8491},   // american football
-	{20415, 20422}, // amphora
-	{9475, 9491},   // anatomical heart
-	{20907, 20913}, // anchor
-	{15116, 15128}, // anger symbol
-	{5264, 5274},   // angry face
-	{5264, 5285},   // angry face with horns
-	{11519, 11533}, // anguished face
-	{9070, 9073},   // ant
-	{15128, 15140}, // antenna bars
-	{3924, 3947},   // anxious face with sweat
-	{8491, 8508},   // articulated lorry
-	{11533, 11539}, // artist
-	{11533, 11547}, // artist palette
-	{10607, 10622}, // astonished face
-	{11363, 11372}, // astronaut
-	{16730, 16741}, // atom symbol
-	{13114, 13127}, // auto rickshaw
-	{7168, 7178},   // automobile
-	{20422, 20429}, // avocado
-	{21762, 21765}, // axe
-	{4213, 4217},   // baby
-	{18044, 18054}, // baby angel
-	{16741, 16752}, // baby bottle
-	{4213, 4223},   // baby chick
-	{16752, 16763}, // baby symbol
-	{2012, 2040},   // backhand index pointing down
-	{2040, 2068},   // backhand index pointing left
-	{1637, 1666},   // backhand index pointing right
-	{2781, 2807},   // backhand index pointing up
-	{19890, 19898}, // backpack
-	{21311, 21316}, // bacon
-	{20913, 20919}, // badger
-	{19102, 19111}, // badminton
-	{21316, 21321}, // bagel
-	{13127, 13140}, // baggage claim
-	{11547, 11561}, // baguette bread
-	{13140, 13153}, // balance scale
-	{13153, 13166}, // ballet dancer
-	{15140, 15152}, // ballet shoes
-	{11305, 11312}, // balloon
-	{4452, 4474},   // ballot box with ballot
-	{20919, 20925}, // banana
-	{21321, 21326}, // banjo
-	{10764, 10768}, // bank
-	{19111, 19120}, // bar chart
-	{16763, 16774}, // barber pole
-	{19898, 19906}, // baseball
-	{17901, 17907}, // basket
-	{18054, 18064}, // basketball
-	{8112, 8115},   // bat
-	{20429, 20436}, // bathtub
-	{17537, 17544}, // battery
-	{6779, 6798},   // beach with umbrella
-	{1219, 1249},   // beaming face with smiling eyes
-	{21326, 21331}, // beans
-	{18670, 18674}, // bear
-	{13166, 13179}, // beating heart
-	{20925, 20931}, // beaver
-	{14437, 14440}, // bed
-	{7675, 7683},   // beer mug
-	{17483, 17489}, // beetle
-	{10622, 10626}, // bell
-	{16774, 16785}, // bell pepper
-	{10622, 10637}, // bell with slash
-	{15152, 15164}, // bellhop bell
-	{19120, 19129}, // bento box
-	{15164, 15176}, // beverage box
-	{17591, 17598}, // bicycle
-	{20931, 20937}, // bikini
-	{18064, 18074}, // billed cap
-	{19129, 19138}, // biohazard
-	{18090, 18094}, // bird
-	{13179, 13192}, // birthday cake
-	{21331, 21336}, // bison
-	{18074, 18084}, // biting lip
-	{18084, 18094}, // black bird
-	{19138, 19147}, // black cat
-	{15176, 15188}, // black circle
-	{18094, 18104}, // black flag
-	{16785, 16796}, // black heart
-	{7576, 7594},   // black large square
-	{6798, 6817},   // black medium square
-	{3041, 3066},   // black medium-small square
-	{19147, 19156}, // black nib
-	{7594, 7612},   // black small square
-	{6817, 6836},   // black square button
-	{11624, 11631}, // blossom
-	{19906, 19914}, // blowfish
-	{19156, 19165}, // blue book
-	{16796, 16807}, // blue circle
-	{10121, 10131}, // blue heart
-	{16807, 16818}, // blue square
-	{16818, 16829}, // blueberries
-	{10222, 10226}, // boar
-	{21611, 21615}, // bomb
-	{6554, 6558},   // bone
-	{13192, 13200}, // bookmark
-	{13192, 13205}, // bookmark tabs
-	{21336, 21341}, // books
-	{19165, 19174}, // boomerang
-	{3516, 3540},   // bottle with popping cork
-	{20436, 20443}, // bouquet
-	{13205, 13218}, // bow and arrow
-	{10637, 10652}, // bowl with spoon
-	{20443, 20450}, // bowling
-	{15188, 15200}, // boxing glove
-	{1125, 1128},   // boy
-	{21341, 21346}, // brain
-	{9319, 9324},   // bread
-	{11561, 11575}, // breast-feeding
-	{21346, 21351}, // brick
-	{10652, 10667}, // bridge at night
-	{19174, 19183}, // briefcase
-	{20937, 20943}, // briefs
-	{13218, 13231}, // bright button
-	{19914, 19922}, // broccoli
-	{15200, 15212}, // broken chain
-	{15212, 15224}, // broken heart
-	{21351, 21356}, // broom
-	{15224, 15236}, // brown circle
-	{16829, 16840}, // brown heart
-	{11575, 11589}, // brown mushroom
-	{15236, 15248}, // brown square
-	{18104, 18114}, // bubble tea
-	{8128, 8135},   // bubbles
-	{20943, 20949}, // bucket
-	{21765, 21768}, // bug
-	{5285, 5306},   // building construction
-	{15248, 15260}, // bullet train
-	{19922, 19930}, // bullseye
-	{20450, 20457}, // burrito
+	{1671, 1700},   // Japanese “vacancy” button
+	{7904, 7907},   // Leo
+	{21359, 21364}, // Libra
+	{18057, 18067}, // Mrs. Claus
+	{19937, 19945}, // Mx Claus
+	{18067, 18077}, // NEW button
+	{19093, 19102}, // NG button
+	{5306, 5327},   // O button (blood type)
+	{19102, 19111}, // OK button
+	{20457, 20464}, // OK hand
+	{19111, 19120}, // ON! arrow
+	{19120, 19129}, // Ophiuchus
+	{19945, 19953}, // P button
+	{20952, 20958}, // Pisces
+	{18077, 18087}, // SOON arrow
+	{18087, 18097}, // SOS button
+	{16749, 16760}, // Sagittarius
+	{16760, 16771}, // Santa Claus
+	{20464, 20471}, // Scorpio
+	{8503, 8520},   // Statue of Liberty
+	{21364, 21369}, // T-Rex
+	{19129, 19138}, // TOP arrow
+	{20958, 20964}, // Taurus
+	{16771, 16782}, // Tokyo tower
+	{18097, 18107}, // UP! button
+	{19138, 19147}, // VS button
+	{21369, 21374}, // Virgo
+	{21822, 21825}, // ZZZ
+	{20964, 20970}, // abacus
+	{19147, 19156}, // accordion
+	{9506, 9522},   // adhesive bandage
+	{8520, 8537},   // admission tickets
+	{11568, 11582}, // aerial tramway
+	{7621, 7629},   // airplane
+	{9522, 9538},   // airplane arrival
+	{7621, 7639},   // airplane departure
+	{16782, 16793}, // alarm clock
+	{20471, 20478}, // alembic
+	{13164, 13169}, // alien
+	{13164, 13177}, // alien monster
+	{19156, 19165}, // ambulance
+	{8537, 8554},   // american football
+	{20478, 20485}, // amphora
+	{9538, 9554},   // anatomical heart
+	{20970, 20976}, // anchor
+	{15179, 15191}, // anger symbol
+	{5327, 5337},   // angry face
+	{5327, 5348},   // angry face with horns
+	{11582, 11596}, // anguished face
+	{9133, 9136},   // ant
+	{15191, 15203}, // antenna bars
+	{3987, 4010},   // anxious face with sweat
+	{8554, 8571},   // articulated lorry
+	{11596, 11602}, // artist
+	{11596, 11610}, // artist palette
+	{10670, 10685}, // astonished face
+	{11426, 11435}, // astronaut
+	{16793, 16804}, // atom symbol
+	{13177, 13190}, // auto rickshaw
+	{7231, 7241},   // automobile
+	{20485, 20492}, // avocado
+	{21825, 21828}, // axe
+	{4276, 4280},   // baby
+	{18107, 18117}, // baby angel
+	{16804, 16815}, // baby bottle
+	{4276, 4286},   // baby chick
+	{16815, 16826}, // baby symbol
+	{2075, 2103},   // backhand index pointing down
+	{2103, 2131},   // backhand index pointing left
+	{1700, 1729},   // backhand index pointing right
+	{2844, 2870},   // backhand index pointing up
+	{19953, 19961}, // backpack
+	{21374, 21379}, // bacon
+	{20976, 20982}, // badger
+	{19165, 19174}, // badminton
+	{21379, 21384}, // bagel
+	{13190, 13203}, // baggage claim
+	{11610, 11624}, // baguette bread
+	{13203, 13216}, // balance scale
+	{13216, 13229}, // ballet dancer
+	{15203, 15215}, // ballet shoes
+	{11368, 11375}, // balloon
+	{4515, 4537},   // ballot box with ballot
+	{20982, 20988}, // banana
+	{21384, 21389}, // banjo
+	{10827, 10831}, // bank
+	{19174, 19183}, // bar chart
+	{16826, 16837}, // barber pole
+	{19961, 19969}, // baseball
+	{17964, 17970}, // basket
+	{18117, 18127}, // basketball
+	{8175, 8178},   // bat
+	{20492, 20499}, // bathtub
+	{17600, 17607}, // battery
+	{6842, 6861},   // beach with umbrella
+	{1252, 1282},   // beaming face with smiling eyes
+	{21389, 21394}, // beans
+	{18733, 18737}, // bear
+	{13229, 13242}, // beating heart
+	{20988, 20994}, // beaver
+	{14500, 14503}, // bed
+	{7738, 7746},   // beer mug
+	{17546, 17552}, // beetle
+	{10685, 10689}, // bell
+	{16837, 16848}, // bell pepper
+	{10685, 10700}, // bell with slash
+	{15215, 15227}, // bellhop bell
+	{19183, 19192}, // bento box
+	{15227, 15239}, // beverage box
+	{17654, 17661}, // bicycle
+	{20994, 21000}, // bikini
+	{18127, 18137}, // billed cap
+	{19192, 19201}, // biohazard
+	{18153, 18157}, // bird
+	{13242, 13255}, // birthday cake
+	{21394, 21399}, // bison
+	{18137, 18147}, // biting lip
+	{18147, 18157}, // black bird
+	{19201, 19210}, // black cat
+	{15239, 15251}, // black circle
+	{18157, 18167}, // black flag
+	{16848, 16859}, // black heart
+	{7639, 7657},   // black large square
+	{6861, 6880},   // black medium square
+	{3104, 3129},   // black medium-small square
+	{19210, 19219}, // black nib
+	{7657, 7675},   // black small square
+	{6880, 6899},   // black square button
+	{11687, 11694}, // blossom
+	{19969, 19977}, // blowfish
+	{19219, 19228}, // blue book
+	{16859, 16870}, // blue circle
+	{10184, 10194}, // blue heart
+	{16870, 16881}, // blue square
+	{16881, 16892}, // blueberries
+	{10285, 10289}, // boar
+	{21674, 21678}, // bomb
+	{6617, 6621},   // bone
+	{13255, 13263}, // bookmark
+	{13255, 13268}, // bookmark tabs
+	{21399, 21404}, // books
+	{19228, 19237}, // boomerang
+	{3579, 3603},   // bottle with popping cork
+	{20499, 20506}, // bouquet
+	{13268, 13281}, // bow and arrow
+	{10700, 10715}, // bowl with spoon
+	{20506, 20513}, // bowling
+	{15251, 15263}, // boxing glove
+	{1158, 1161},   // boy
+	{21404, 21409}, // brain
+	{9382, 9387},   // bread
+	{11624, 11638}, // breast-feeding
+	{21409, 21414}, // brick
+	{10715, 10730}, // bridge at night
+	{19237, 19246}, // briefcase
+	{21000, 21006}, // briefs
+	{13281, 13294}, // bright button
+	{19977, 19985}, // broccoli
+	{15263, 15275}, // broken chain
+	{15275, 15287}, // broken heart
+	{21414, 21419}, // broom
+	{15287, 15299}, // brown circle
+	{16892, 16903}, // brown heart
+	{11638, 11652}, // brown mushroom
+	{15299, 15311}, // brown square
+	{18167, 18177}, // bubble tea
+	{8191, 8198},   // bubbles
+	{21006, 21012}, // bucket
+	{21828, 21831}, // bug
+	{5348, 5369},   // building construction
+	{15311, 15323}, // bullet train
+	{19985, 19993}, // bullseye
+	{20513, 20520}, // burrito
 	{357, 360},     // bus
-	{19930, 19938}, // bus stop
-	{7612, 7630},   // bust in silhouette
-	{6836, 6855},   // busts in silhouette
-	{9094, 9100},   // butter
-	{9094, 9103},   // butterfly
-	{20949, 20955}, // cactus
-	{9333, 9341},   // calendar
-	{15260, 15272}, // call me hand
-	{12942, 12947}, // camel
-	{8508, 8514},   // camera
-	{8508, 8525},   // camera with flash
-	{20457, 20464}, // camping
-	{20955, 20961}, // candle
-	{21356, 21361}, // candy
-	{16840, 16851}, // canned food
-	{21361, 21366}, // canoe
-	{13231, 13244}, // card file box
-	{6855, 6865},   // card index
-	{6855, 6874},   // card index dividers
-	{11589, 11603}, // carousel horse
-	{13244, 13257}, // carp streamer
-	{13257, 13270}, // carpentry saw
-	{20961, 20967}, // carrot
-	{10601, 10607}, // castle
+	{19993, 20001}, // bus stop
+	{7675, 7693},   // bust in silhouette
+	{6899, 6918},   // busts in silhouette
+	{9157, 9163},   // butter
+	{9157, 9166},   // butterfly
+	{21012, 21018}, // cactus
+	{9396, 9404},   // calendar
+	{15323, 15335}, // call me hand
+	{13005, 13010}, // camel
+	{8571, 8577},   // camera
+	{8571, 8588},   // camera with flash
+	{20520, 20527}, // camping
+	{21018, 21024}, // candle
+	{21419, 21424}, // candy
+	{16903, 16914}, // canned food
+	{21424, 21429}, // canoe
+	{13294, 13307}, // card file box
+	{6918, 6928},   // card index
+	{6918, 6937},   // card index dividers
+	{11652, 11666}, // carousel horse
+	{13307, 13320}, // carp streamer
+	{13320, 13333}, // carpentry saw
+	{21024, 21030}, // carrot
+	{10664, 10670}, // castle
 	{826, 829},     // cat
-	{19938, 19946}, // cat face
-	{5306, 5327},   // cat with tears of joy
-	{7630, 7648},   // cat with wry smile
-	{20967, 20973}, // chains
+	{20001, 20009}, // cat face
+	{5369, 5390},   // cat with tears of joy
+	{7693, 7711},   // cat with wry smile
+	{21030, 21036}, // chains
 	{115, 120},     // chair
-	{9491, 9507},   // chart decreasing
-	{3066, 3082},   // chart increasing
-	{3066, 3091},   // chart increasing with yen
-	{6019, 6039},   // check box with check
-	{8525, 8535},   // check mark
-	{8525, 8542},   // check mark button
-	{15272, 15284}, // cheese wedge
-	{11603, 11617}, // chequered flag
-	{19946, 19954}, // cherries
-	{11617, 11631}, // cherry blossom
-	{18114, 18124}, // chess pawn
-	{19954, 19962}, // chestnut
-	{20464, 20471}, // chicken
+	{9554, 9570},   // chart decreasing
+	{3129, 3145},   // chart increasing
+	{3129, 3154},   // chart increasing with yen
+	{6082, 6102},   // check box with check
+	{8588, 8598},   // check mark
+	{8588, 8605},   // check mark button
+	{15335, 15347}, // cheese wedge
+	{11666, 11680}, // chequered flag
+	{20009, 20017}, // cherries
+	{11680, 11694}, // cherry blossom
+	{18177, 18187}, // chess pawn
+	{20017, 20025}, // chestnut
+	{20527, 20534}, // chicken
 	{763, 768},     // child
-	{8542, 8559},   // children crossing
-	{19962, 19970}, // chipmunk
-	{13270, 13283}, // chocolate bar
-	{18124, 18134}, // chopsticks
-	{20973, 20979}, // church
-	{19183, 19192}, // cigarette
-	{20979, 20985}, // cinema
-	{19192, 19201}, // circled M
-	{16851, 16862}, // circus tent
-	{8559, 8568},   // cityscape
-	{8559, 8576},   // cityscape at dusk
-	{21366, 21371}, // clamp
-	{13283, 13296}, // clapper board
-	{11631, 11645}, // clapping hands
-	{7648, 7666},   // classical building
-	{7666, 7684},   // clinking beer mugs
-	{9507, 9523},   // clinking glasses
-	{19201, 19210}, // clipboard
-	{3091, 3116},   // clockwise vertical arrows
-	{16862, 16873}, // closed book
-	{971, 1003},    // closed mailbox with lowered flag
-	{1035, 1066},   // closed mailbox with raised flag
-	{10667, 10682}, // closed umbrella
-	{1666, 1671},   // cloud
-	{1666, 1686},   // cloud with lightning
-	{1666, 1695},   // cloud with lightning and rain
-	{10682, 10697}, // cloud with rain
-	{10697, 10712}, // cloud with snow
-	{18134, 18144}, // clown face
-	{19210, 19219}, // club suit
-	{18144, 18154}, // clutch bag
-	{20142, 20146}, // coat
-	{19219, 19228}, // cockroach
-	{11645, 11659}, // cocktail glass
-	{20471, 20478}, // coconut
-	{20985, 20991}, // coffin
-	{21615, 21619}, // coin
-	{19228, 19237}, // cold face
-	{19237, 19246}, // collision
-	{21371, 21376}, // comet
-	{20478, 20485}, // compass
-	{13296, 13309}, // computer disk
-	{11659, 11673}, // computer mouse
-	{13309, 13322}, // confetti ball
-	{10712, 10727}, // confounded face
-	{13322, 13335}, // confused face
-	{3497, 3509},   // construction
-	{3497, 3516},   // construction worker
-	{13335, 13348}, // control knobs
-	{8576, 8593},   // convenience store
-	{12283, 12287}, // cook
-	{16873, 16884}, // cooked rice
-	{12283, 12289}, // cookie
-	{20485, 20492}, // cooking
-	{19246, 19255}, // copyright
-	{21376, 21381}, // coral
-	{11673, 11687}, // couch and lamp
-	{1249, 1279},   // counterclockwise arrows button
+	{8605, 8622},   // children crossing
+	{20025, 20033}, // chipmunk
+	{13333, 13346}, // chocolate bar
+	{18187, 18197}, // chopsticks
+	{21036, 21042}, // church
+	{19246, 19255}, // cigarette
+	{21042, 21048}, // cinema
+	{19255, 19264}, // circled M
+	{16914, 16925}, // circus tent
+	{8622, 8631},   // cityscape
+	{8622, 8639},   // cityscape at dusk
+	{21429, 21434}, // clamp
+	{13346, 13359}, // clapper board
+	{11694, 11708}, // clapping hands
+	{7711, 7729},   // classical building
+	{7729, 7747},   // clinking beer mugs
+	{9570, 9586},   // clinking glasses
+	{19264, 19273}, // clipboard
+	{3154, 3179},   // clockwise vertical arrows
+	{16925, 16936}, // closed book
+	{1004, 1036},   // closed mailbox with lowered flag
+	{1068, 1099},   // closed mailbox with raised flag
+	{10730, 10745}, // closed umbrella
+	{1729, 1734},   // cloud
+	{1729, 1749},   // cloud with lightning
+	{1729, 1758},   // cloud with lightning and rain
+	{10745, 10760}, // cloud with rain
+	{10760, 10775}, // cloud with snow
+	{18197, 18207}, // clown face
+	{19273, 19282}, // club suit
+	{18207, 18217}, // clutch bag
+	{20205, 20209}, // coat
+	{19282, 19291}, // cockroach
+	{11708, 11722}, // cocktail glass
+	{20534, 20541}, // coconut
+	{21048, 21054}, // coffin
+	{21678, 21682}, // coin
+	{19291, 19300}, // cold face
+	{19300, 19309}, // collision
+	{21434, 21439}, // comet
+	{20541, 20548}, // compass
+	{13359, 13372}, // computer disk
+	{11722, 11736}, // computer mouse
+	{13372, 13385}, // confetti ball
+	{10775, 10790}, // confounded face
+	{13385, 13398}, // confused face
+	{3560, 3572},   // construction
+	{3560, 3579},   // construction worker
+	{13398, 13411}, // control knobs
+	{8639, 8656},   // convenience store
+	{12346, 12350}, // cook
+	{16936, 16947}, // cooked rice
+	{12346, 12352}, // cookie
+	{20548, 20555}, // cooking
+	{19309, 19318}, // copyright
+	{21439, 21444}, // coral
+	{11736, 11750}, // couch and lamp
+	{1282, 1312},   // counterclockwise arrows button
 	{842, 859},     // couple with heart
-	{2404, 2431},   // couple with heart: man, man
+	{2467, 2494},   // couple with heart: man, man
 	{842, 875},     // couple with heart: person, person
-	{1695, 1724},   // couple with heart: woman, man
-	{1066, 1097},   // couple with heart: woman, woman
-	{10727, 10730}, // cow
-	{19970, 19978}, // cow face
-	{10727, 10742}, // cowboy hat face
-	{21619, 21623}, // crab
-	{13348, 13361}, // cracking face
-	{20991, 20997}, // crayon
-	{16884, 16895}, // credit card
-	{6646, 6659},   // crescent moon
-	{15284, 15291}, // cricket
-	{15284, 15296}, // cricket game
-	{19255, 19264}, // crocodile
-	{19264, 19273}, // croissant
-	{8593, 8603},   // cross mark
-	{8593, 8610},   // cross mark button
-	{10742, 10757}, // crossed fingers
-	{13361, 13374}, // crossed flags
-	{11687, 11701}, // crossed swords
-	{9183, 9188},   // crown
-	{20997, 21003}, // crutch
-	{18154, 18164}, // crying cat
-	{8015, 8026},   // crying face
-	{15296, 15308}, // crystal ball
-	{19978, 19986}, // cucumber
-	{11701, 11715}, // cup with straw
-	{20492, 20499}, // cupcake
-	{13374, 13387}, // curling stone
-	{8651, 8661},   // curly loop
-	{8610, 8627},   // currency exchange
-	{18164, 18174}, // curry rice
-	{20499, 20506}, // custard
-	{20506, 20513}, // customs
-	{16895, 16906}, // cut of meat
-	{20513, 20520}, // cyclone
-	{21003, 21009}, // dagger
-	{21381, 21386}, // dango
-	{15308, 15320}, // dashing away
-	{19986, 19994}, // deaf man
-	{16906, 16917}, // deaf person
-	{18174, 18184}, // deaf woman
-	{11715, 11729}, // deciduous tree
-	{21623, 21627}, // deer
-	{11729, 11743}, // delivery truck
-	{9523, 9539},   // department store
-	{11743, 11757}, // derelict house
-	{13387, 13393}, // desert
-	{13387, 13400}, // desert island
-	{9539, 9555},   // desktop computer
-	{11378, 11387}, // detective
-	{15320, 15332}, // diamond suit
-	{7684, 7702},   // diamond with a dot
-	{18184, 18194}, // dim button
-	{8627, 8644},   // disappointed face
-	{11757, 11771}, // disguised face
-	{11771, 11785}, // distorted face
-	{6866, 6872},   // divide
-	{16917, 16928}, // diving mask
-	{19273, 19282}, // diya lamp
-	{21386, 21391}, // dizzy
-	{21768, 21771}, // dna
-	{21627, 21631}, // dodo
-	{17794, 17797}, // dog
-	{19994, 20002}, // dog face
-	{10757, 10772}, // dollar banknote
-	{20520, 20527}, // dolphin
-	{21009, 21015}, // donkey
-	{21631, 21635}, // door
-	{9555, 9571},   // dotted line face
-	{3947, 3970},   // dotted six-pointed star
-	{8644, 8661},   // double curly loop
-	{3970, 3993},   // double exclamation mark
-	{20002, 20010}, // doughnut
-	{21635, 21639}, // dove
-	{14911, 14921}, // down arrow
-	{10772, 10787}, // down-left arrow
-	{9571, 9587},   // down-right arrow
-	{3540, 3564},   // downcast face with sweat
-	{9587, 9603},   // downwards button
-	{8038, 8044},   // dragon
-	{16928, 16939}, // dragon face
-	{21391, 21396}, // dress
-	{13400, 13413}, // drooling face
-	{13413, 13426}, // drop of blood
-	{12883, 12890}, // droplet
-	{19521, 19525}, // drum
-	{21639, 21643}, // duck
-	{20010, 20018}, // dumpling
-	{21771, 21774}, // dvd
-	{21015, 21021}, // e-mail
-	{21396, 21401}, // eagle
+	{1758, 1787},   // couple with heart: woman, man
+	{1099, 1130},   // couple with heart: woman, woman
+	{10790, 10793}, // cow
+	{20033, 20041}, // cow face
+	{10790, 10805}, // cowboy hat face
+	{21682, 21686}, // crab
+	{13411, 13424}, // cracking face
+	{21054, 21060}, // crayon
+	{16947, 16958}, // credit card
+	{6709, 6722},   // crescent moon
+	{15347, 15354}, // cricket
+	{15347, 15359}, // cricket game
+	{19318, 19327}, // crocodile
+	{19327, 19336}, // croissant
+	{8656, 8666},   // cross mark
+	{8656, 8673},   // cross mark button
+	{10805, 10820}, // crossed fingers
+	{13424, 13437}, // crossed flags
+	{11750, 11764}, // crossed swords
+	{9246, 9251},   // crown
+	{21060, 21066}, // crutch
+	{18217, 18227}, // crying cat
+	{8078, 8089},   // crying face
+	{15359, 15371}, // crystal ball
+	{20041, 20049}, // cucumber
+	{11764, 11778}, // cup with straw
+	{20555, 20562}, // cupcake
+	{13437, 13450}, // curling stone
+	{8714, 8724},   // curly loop
+	{8673, 8690},   // currency exchange
+	{18227, 18237}, // curry rice
+	{20562, 20569}, // custard
+	{20569, 20576}, // customs
+	{16958, 16969}, // cut of meat
+	{20576, 20583}, // cyclone
+	{21066, 21072}, // dagger
+	{21444, 21449}, // dango
+	{15371, 15383}, // dashing away
+	{20049, 20057}, // deaf man
+	{16969, 16980}, // deaf person
+	{18237, 18247}, // deaf woman
+	{11778, 11792}, // deciduous tree
+	{21686, 21690}, // deer
+	{11792, 11806}, // delivery truck
+	{9586, 9602},   // department store
+	{11806, 11820}, // derelict house
+	{13450, 13456}, // desert
+	{13450, 13463}, // desert island
+	{9602, 9618},   // desktop computer
+	{11441, 11450}, // detective
+	{15383, 15395}, // diamond suit
+	{7747, 7765},   // diamond with a dot
+	{18247, 18257}, // dim button
+	{8690, 8707},   // disappointed face
+	{11820, 11834}, // disguised face
+	{11834, 11848}, // distorted face
+	{6929, 6935},   // divide
+	{16980, 16991}, // diving mask
+	{19336, 19345}, // diya lamp
+	{21449, 21454}, // dizzy
+	{21831, 21834}, // dna
+	{21690, 21694}, // dodo
+	{17857, 17860}, // dog
+	{20057, 20065}, // dog face
+	{10820, 10835}, // dollar banknote
+	{20583, 20590}, // dolphin
+	{21072, 21078}, // donkey
+	{21694, 21698}, // door
+	{9618, 9634},   // dotted line face
+	{4010, 4033},   // dotted six-pointed star
+	{8707, 8724},   // double curly loop
+	{4033, 4056},   // double exclamation mark
+	{20065, 20073}, // doughnut
+	{21698, 21702}, // dove
+	{14974, 14984}, // down arrow
+	{10835, 10850}, // down-left arrow
+	{9634, 9650},   // down-right arrow
+	{3603, 3627},   // downcast face with sweat
+	{9650, 9666},   // downwards button
+	{8101, 8107},   // dragon
+	{16991, 17002}, // dragon face
+	{21454, 21459}, // dress
+	{13463, 13476}, // drooling face
+	{13476, 13489}, // drop of blood
+	{12946, 12953}, // droplet
+	{19584, 19588}, // drum
+	{21702, 21706}, // duck
+	{20073, 20081}, // dumpling
+	{21834, 21837}, // dvd
+	{21078, 21084}, // e-mail
+	{21459, 21464}, // eagle
 	{497, 500},     // ear
-	{16939, 16950}, // ear of corn
-	{6039, 6059},   // ear with hearing aid
-	{12537, 12540}, // egg
-	{20018, 20026}, // eggplant
-	{10787, 10802}, // eight o’clock
-	{7702, 7720},   // eight-pointed star
-	{5327, 5348},   // eight-spoked asterisk
-	{15332, 15344}, // eight-thirty
-	{15344, 15356}, // eject button
-	{13426, 13439}, // electric plug
-	{20026, 20034}, // elephant
-	{20034, 20042}, // elevator
-	{9603, 9619},   // eleven o’clock
-	{13439, 13452}, // eleven-thirty
-	{15390, 15393}, // elf
-	{18194, 18204}, // empty nest
-	{15356, 15368}, // enraged face
-	{6874, 6882},   // envelope
-	{6874, 6893},   // envelope with arrow
-	{21021, 21027}, // eraser
-	{13452, 13465}, // euro banknote
-	{11785, 11799}, // evergreen tree
-	{2260, 2263},   // ewe
-	{3116, 3141},   // exclamation question mark
-	{11799, 11813}, // exploding head
-	{6893, 6912},   // expressionless face
+	{17002, 17013}, // ear of corn
+	{6102, 6122},   // ear with hearing aid
+	{12600, 12603}, // egg
+	{20081, 20089}, // eggplant
+	{10850, 10865}, // eight o’clock
+	{7765, 7783},   // eight-pointed star
+	{5390, 5411},   // eight-spoked asterisk
+	{15395, 15407}, // eight-thirty
+	{15407, 15419}, // eject button
+	{13489, 13502}, // electric plug
+	{20089, 20097}, // elephant
+	{20097, 20105}, // elevator
+	{9666, 9682},   // eleven o’clock
+	{13502, 13515}, // eleven-thirty
+	{15453, 15456}, // elf
+	{18257, 18267}, // empty nest
+	{15419, 15431}, // enraged face
+	{6937, 6945},   // envelope
+	{6937, 6956},   // envelope with arrow
+	{21084, 21090}, // eraser
+	{13515, 13528}, // euro banknote
+	{11848, 11862}, // evergreen tree
+	{2323, 2326},   // ewe
+	{3179, 3204},   // exclamation question mark
+	{11862, 11876}, // exploding head
+	{6956, 6975},   // expressionless face
 	{390, 393},     // eye
-	{6059, 6079},   // eye in speech bubble
+	{6122, 6142},   // eye in speech bubble
 	{390, 394},     // eyes
-	{6912, 6931},   // face blowing a kiss
-	{13465, 13478}, // face exhaling
-	{3993, 4016},   // face holding back tears
-	{11813, 11827}, // face in clouds
-	{7720, 7738},   // face savoring food
-	{4474, 4496},   // face screaming in fear
-	{13478, 13491}, // face vomiting
-	{3141, 3166},   // face with bags under eyes
-	{2807, 2833},   // face with crossed-out eyes
-	{3564, 3588},   // face with diagonal mouth
-	{3166, 3191},   // face with hand over mouth
-	{4496, 4518},   // face with head-bandage
-	{4518, 4540},   // face with medical mask
-	{8661, 8678},   // face with monocle
+	{6975, 6994},   // face blowing a kiss
+	{13528, 13541}, // face exhaling
+	{4056, 4079},   // face holding back tears
+	{11876, 11890}, // face in clouds
+	{7783, 7801},   // face savoring food
+	{4537, 4559},   // face screaming in fear
+	{13541, 13554}, // face vomiting
+	{3204, 3229},   // face with bags under eyes
+	{2870, 2896},   // face with crossed-out eyes
+	{3627, 3651},   // face with diagonal mouth
+	{3229, 3254},   // face with hand over mouth
+	{4559, 4581},   // face with head-bandage
+	{4581, 4603},   // face with medical mask
+	{8724, 8741},   // face with monocle
 	{375, 414},     // face with open eyes and hand over mouth
-	{1820, 1840},   // face with open mouth
-	{5348, 5369},   // face with peeking eye
-	{3588, 3612},   // face with raised eyebrow
-	{4540, 4562},   // face with rolling eyes
-	{5369, 5390},   // face with spiral eyes
-	{3191, 3216},   // face with steam from nose
-	{2833, 2859},   // face with symbols on mouth
-	{4562, 4584},   // face with tears of joy
-	{5390, 5411},   // face with thermometer
-	{2973, 2989},   // face with tongue
-	{7738, 7756},   // face without mouth
-	{6685, 6692},   // factory
-	{6685, 6699},   // factory worker
-	{17935, 17940}, // fairy
-	{20527, 20534}, // falafel
-	{16950, 16961}, // fallen leaf
+	{1883, 1903},   // face with open mouth
+	{5411, 5432},   // face with peeking eye
+	{3651, 3675},   // face with raised eyebrow
+	{4603, 4625},   // face with rolling eyes
+	{5432, 5453},   // face with spiral eyes
+	{3254, 3279},   // face with steam from nose
+	{2896, 2922},   // face with symbols on mouth
+	{4625, 4647},   // face with tears of joy
+	{5453, 5474},   // face with thermometer
+	{3036, 3052},   // face with tongue
+	{7801, 7819},   // face without mouth
+	{6748, 6755},   // factory
+	{6748, 6762},   // factory worker
+	{17998, 18003}, // fairy
+	{20590, 20597}, // falafel
+	{17013, 17024}, // fallen leaf
 	{741, 747},     // family
 	{741, 768},     // family: adult, adult, child
 	{741, 775},     // family: adult, adult, child, child
-	{2431, 2451},   // family: adult, child
-	{2431, 2458},   // family: adult, child, child
-	{5411, 5427},   // family: man, boy
-	{5411, 5432},   // family: man, boy, boy
-	{4016, 4033},   // family: man, girl
-	{4584, 4606},   // family: man, girl, boy
-	{4016, 4039},   // family: man, girl, girl
-	{2859, 2880},   // family: man, man, boy
-	{2859, 2885},   // family: man, man, boy, boy
-	{2068, 2090},   // family: man, man, girl
-	{2458, 2485},   // family: man, man, girl, boy
-	{2068, 2096},   // family: man, man, girl, girl
-	{2096, 2119},   // family: man, woman, boy
-	{2096, 2124},   // family: man, woman, boy, boy
-	{1279, 1303},   // family: man, woman, girl
-	{1724, 1753},   // family: man, woman, girl, boy
-	{1279, 1309},   // family: man, woman, girl, girl
-	{4039, 4057},   // family: woman, boy
-	{4039, 4062},   // family: woman, boy, boy
-	{3216, 3235},   // family: woman, girl
-	{3612, 3636},   // family: woman, girl, boy
-	{3216, 3241},   // family: woman, girl, girl
-	{1309, 1334},   // family: woman, woman, boy
-	{1309, 1339},   // family: woman, woman, boy, boy
-	{1003, 1029},   // family: woman, woman, girl
-	{1097, 1128},   // family: woman, woman, girl, boy
-	{1003, 1035},   // family: woman, woman, girl, girl
-	{16562, 16568}, // farmer
-	{9619, 9635},   // fast down button
-	{6931, 6950},   // fast reverse button
-	{11827, 11841}, // fast up button
-	{6950, 6969},   // fast-forward button
-	{16961, 16972}, // fax machine
-	{15368, 15380}, // fearful face
-	{20534, 20541}, // feather
-	{16972, 16983}, // female sign
-	{15380, 15392}, // ferris wheel
-	{21401, 21406}, // ferry
-	{15392, 15404}, // field hockey
-	{16983, 16994}, // fight cloud
-	{15404, 15416}, // file cabinet
-	{10264, 10275}, // file folder
-	{16994, 17005}, // film frames
-	{11841, 11855}, // film projector
-	{17005, 17016}, // fingerprint
-	{8678, 8682},   // fire
-	{17016, 17027}, // fire engine
-	{8678, 8695},   // fire extinguisher
-	{17027, 17038}, // firecracker
-	{9381, 9392},   // firefighter
-	{19282, 19291}, // fireworks
-	{4062, 4080},   // first quarter moon
-	{4062, 4085},   // first quarter moon face
-	{6079, 6083},   // fish
-	{6079, 6099},   // fish cake with swirl
-	{15416, 15428}, // fishing pole
-	{11855, 11869}, // five o’clock
-	{17038, 17049}, // five-thirty
-	{15428, 15440}, // flag in hole
-	{8695, 8712},   // flag: Afghanistan
-	{13491, 13504}, // flag: Albania
-	{13504, 13517}, // flag: Algeria
-	{6099, 6119},   // flag: American Samoa
-	{13517, 13530}, // flag: Andorra
-	{15440, 15452}, // flag: Angola
-	{11869, 11883}, // flag: Anguilla
-	{9635, 9651},   // flag: Antarctica
-	{4085, 4108},   // flag: Antigua & Barbuda
-	{10802, 10817}, // flag: Argentina
-	{13530, 13543}, // flag: Armenia
-	{17049, 17060}, // flag: Aruba
-	{4606, 4628},   // flag: Ascension Island
-	{10817, 10832}, // flag: Australia
-	{13543, 13556}, // flag: Austria
-	{9651, 9667},   // flag: Azerbaijan
-	{13556, 13569}, // flag: Bahamas
-	{13569, 13582}, // flag: Bahrain
-	{9667, 9683},   // flag: Bangladesh
-	{11883, 11897}, // flag: Barbados
-	{13582, 13595}, // flag: Belarus
-	{13595, 13608}, // flag: Belgium
-	{15452, 15464}, // flag: Belize
-	{17060, 17071}, // flag: Benin
-	{13608, 13621}, // flag: Bermuda
-	{15464, 15476}, // flag: Bhutan
-	{13621, 13634}, // flag: Bolivia
-	{2885, 2911},   // flag: Bosnia & Herzegovina
-	{11897, 11911}, // flag: Botswana
-	{6969, 6988},   // flag: Bouvet Island
-	{15476, 15488}, // flag: Brazil
+	{2494, 2514},   // family: adult, child
+	{2494, 2521},   // family: adult, child, child
+	{5474, 5490},   // family: man, boy
+	{5474, 5495},   // family: man, boy, boy
+	{4079, 4096},   // family: man, girl
+	{4647, 4669},   // family: man, girl, boy
+	{4079, 4102},   // family: man, girl, girl
+	{2922, 2943},   // family: man, man, boy
+	{2922, 2948},   // family: man, man, boy, boy
+	{2131, 2153},   // family: man, man, girl
+	{2521, 2548},   // family: man, man, girl, boy
+	{2131, 2159},   // family: man, man, girl, girl
+	{2159, 2182},   // family: man, woman, boy
+	{2159, 2187},   // family: man, woman, boy, boy
+	{1312, 1336},   // family: man, woman, girl
+	{1787, 1816},   // family: man, woman, girl, boy
+	{1312, 1342},   // family: man, woman, girl, girl
+	{4102, 4120},   // family: woman, boy
+	{4102, 4125},   // family: woman, boy, boy
+	{3279, 3298},   // family: woman, girl
+	{3675, 3699},   // family: woman, girl, boy
+	{3279, 3304},   // family: woman, girl, girl
+	{1342, 1367},   // family: woman, woman, boy
+	{1342, 1372},   // family: woman, woman, boy, boy
+	{1036, 1062},   // family: woman, woman, girl
+	{1130, 1161},   // family: woman, woman, girl, boy
+	{1036, 1068},   // family: woman, woman, girl, girl
+	{16625, 16631}, // farmer
+	{9682, 9698},   // fast down button
+	{6994, 7013},   // fast reverse button
+	{11890, 11904}, // fast up button
+	{7013, 7032},   // fast-forward button
+	{17024, 17035}, // fax machine
+	{15431, 15443}, // fearful face
+	{20597, 20604}, // feather
+	{17035, 17046}, // female sign
+	{15443, 15455}, // ferris wheel
+	{21464, 21469}, // ferry
+	{15455, 15467}, // field hockey
+	{17046, 17057}, // fight cloud
+	{15467, 15479}, // file cabinet
+	{10327, 10338}, // file folder
+	{17057, 17068}, // film frames
+	{11904, 11918}, // film projector
+	{17068, 17079}, // fingerprint
+	{8741, 8745},   // fire
+	{17079, 17090}, // fire engine
+	{8741, 8758},   // fire extinguisher
+	{17090, 17101}, // firecracker
+	{9444, 9455},   // firefighter
+	{19345, 19354}, // fireworks
+	{4125, 4143},   // first quarter moon
+	{4125, 4148},   // first quarter moon face
+	{6142, 6146},   // fish
+	{6142, 6162},   // fish cake with swirl
+	{15479, 15491}, // fishing pole
+	{11918, 11932}, // five o’clock
+	{17101, 17112}, // five-thirty
+	{15491, 15503}, // flag in hole
+	{8758, 8775},   // flag: Afghanistan
+	{13554, 13567}, // flag: Albania
+	{13567, 13580}, // flag: Algeria
+	{6162, 6182},   // flag: American Samoa
+	{13580, 13593}, // flag: Andorra
+	{15503, 15515}, // flag: Angola
+	{11932, 11946}, // flag: Anguilla
+	{9698, 9714},   // flag: Antarctica
+	{4148, 4171},   // flag: Antigua & Barbuda
+	{10865, 10880}, // flag: Argentina
+	{13593, 13606}, // flag: Armenia
+	{17112, 17123}, // flag: Aruba
+	{4669, 4691},   // flag: Ascension Island
+	{10880, 10895}, // flag: Australia
+	{13606, 13619}, // flag: Austria
+	{9714, 9730},   // flag: Azerbaijan
+	{13619, 13632}, // flag: Bahamas
+	{13632, 13645}, // flag: Bahrain
+	{9730, 9746},   // flag: Bangladesh
+	{11946, 11960}, // flag: Barbados
+	{13645, 13658}, // flag: Belarus
+	{13658, 13671}, // flag: Belgium
+	{15515, 15527}, // flag: Belize
+	{17123, 17134}, // flag: Benin
+	{13671, 13684}, // flag: Bermuda
+	{15527, 15539}, // flag: Bhutan
+	{13684, 13697}, // flag: Bolivia
+	{2948, 2974},   // flag: Bosnia & Herzegovina
+	{11960, 11974}, // flag: Botswana
+	{7032, 7051},   // flag: Bouvet Island
+	{15539, 15551}, // flag: Brazil
 	{635, 671},     // flag: British Indian Ocean Territory
-	{2124, 2152},   // flag: British Virgin Islands
-	{15488, 15500}, // flag: Brunei
-	{11911, 11925}, // flag: Bulgaria
-	{7756, 7774},   // flag: Burkina Faso
-	{13634, 13647}, // flag: Burundi
-	{11925, 11939}, // flag: Cambodia
-	{11939, 11953}, // flag: Cameroon
-	{15500, 15512}, // flag: Canada
-	{6119, 6139},   // flag: Canary Islands
-	{9683, 9699},   // flag: Cape Verde
-	{2485, 2512},   // flag: Caribbean Netherlands
-	{6139, 6159},   // flag: Cayman Islands
-	{1339, 1369},   // flag: Central African Republic
-	{5432, 5453},   // flag: Ceuta & Melilla
-	{18204, 18214}, // flag: Chad
-	{17071, 17082}, // flag: Chile
-	{17082, 17093}, // flag: China
-	{4628, 4650},   // flag: Christmas Island
-	{4108, 4131},   // flag: Clipperton Island
-	{1753, 1782},   // flag: Cocos (Keeling) Islands
-	{11953, 11967}, // flag: Colombia
-	{13647, 13660}, // flag: Comoros
-	{3241, 3266},   // flag: Congo - Brazzaville
-	{4650, 4672},   // flag: Congo - Kinshasa
-	{7774, 7792},   // flag: Cook Islands
-	{9699, 9715},   // flag: Costa Rica
-	{13660, 13673}, // flag: Croatia
-	{18214, 18224}, // flag: Cuba
-	{11967, 11981}, // flag: Curaçao
-	{15512, 15524}, // flag: Cyprus
-	{13673, 13686}, // flag: Czechia
-	{4672, 4694},   // flag: Côte d’Ivoire
-	{13686, 13699}, // flag: Denmark
-	{7792, 7810},   // flag: Diego Garcia
-	{11981, 11995}, // flag: Djibouti
-	{3636, 3650},   // flag: Dominica
-	{3636, 3660},   // flag: Dominican Republic
-	{13699, 13712}, // flag: Ecuador
-	{17093, 17104}, // flag: Egypt
-	{8712, 8729},   // flag: El Salvador
-	{13712, 13725}, // flag: England
-	{4131, 4154},   // flag: Equatorial Guinea
-	{13725, 13738}, // flag: Eritrea
-	{13738, 13751}, // flag: Estonia
-	{11995, 12009}, // flag: Eswatini
-	{12009, 12023}, // flag: Ethiopia
-	{6159, 6179},   // flag: European Union
-	{4694, 4716},   // flag: Falkland Islands
-	{6988, 7007},   // flag: Faroe Islands
-	{18224, 18234}, // flag: Fiji
-	{13751, 13764}, // flag: Finland
-	{15524, 15536}, // flag: France
-	{7007, 7026},   // flag: French Guiana
-	{4716, 4738},   // flag: French Polynesia
+	{2187, 2215},   // flag: British Virgin Islands
+	{15551, 15563}, // flag: Brunei
+	{11974, 11988}, // flag: Bulgaria
+	{7819, 7837},   // flag: Burkina Faso
+	{13697, 13710}, // flag: Burundi
+	{11988, 12002}, // flag: Cambodia
+	{12002, 12016}, // flag: Cameroon
+	{15563, 15575}, // flag: Canada
+	{6182, 6202},   // flag: Canary Islands
+	{9746, 9762},   // flag: Cape Verde
+	{2548, 2575},   // flag: Caribbean Netherlands
+	{6202, 6222},   // flag: Cayman Islands
+	{1372, 1402},   // flag: Central African Republic
+	{5495, 5516},   // flag: Ceuta & Melilla
+	{18267, 18277}, // flag: Chad
+	{17134, 17145}, // flag: Chile
+	{17145, 17156}, // flag: China
+	{4691, 4713},   // flag: Christmas Island
+	{4171, 4194},   // flag: Clipperton Island
+	{1816, 1845},   // flag: Cocos (Keeling) Islands
+	{12016, 12030}, // flag: Colombia
+	{13710, 13723}, // flag: Comoros
+	{3304, 3329},   // flag: Congo - Brazzaville
+	{4713, 4735},   // flag: Congo - Kinshasa
+	{7837, 7855},   // flag: Cook Islands
+	{9762, 9778},   // flag: Costa Rica
+	{13723, 13736}, // flag: Croatia
+	{18277, 18287}, // flag: Cuba
+	{12030, 12044}, // flag: Curaçao
+	{15575, 15587}, // flag: Cyprus
+	{13736, 13749}, // flag: Czechia
+	{4735, 4757},   // flag: Côte d’Ivoire
+	{13749, 13762}, // flag: Denmark
+	{7855, 7873},   // flag: Diego Garcia
+	{12044, 12058}, // flag: Djibouti
+	{3699, 3713},   // flag: Dominica
+	{3699, 3723},   // flag: Dominican Republic
+	{13762, 13775}, // flag: Ecuador
+	{17156, 17167}, // flag: Egypt
+	{8775, 8792},   // flag: El Salvador
+	{13775, 13788}, // flag: England
+	{4194, 4217},   // flag: Equatorial Guinea
+	{13788, 13801}, // flag: Eritrea
+	{13801, 13814}, // flag: Estonia
+	{12058, 12072}, // flag: Eswatini
+	{12072, 12086}, // flag: Ethiopia
+	{6222, 6242},   // flag: European Union
+	{4757, 4779},   // flag: Falkland Islands
+	{7051, 7070},   // flag: Faroe Islands
+	{18287, 18297}, // flag: Fiji
+	{13814, 13827}, // flag: Finland
+	{15587, 15599}, // flag: France
+	{7070, 7089},   // flag: French Guiana
+	{4779, 4801},   // flag: French Polynesia
 	{175, 216},     // flag: French Southern and Antarctic Lands
-	{17104, 17115}, // flag: Gabon
-	{15536, 15548}, // flag: Gambia
-	{13764, 13777}, // flag: Georgia
-	{13777, 13790}, // flag: Germany
-	{17115, 17126}, // flag: Ghana
-	{10832, 10847}, // flag: Gibraltar
-	{15548, 15560}, // flag: Greece
-	{10847, 10862}, // flag: Greenland
-	{13790, 13803}, // flag: Grenada
-	{9715, 9731},   // flag: Guadeloupe
-	{18234, 18244}, // flag: Guam
-	{10862, 10877}, // flag: Guatemala
-	{12023, 12037}, // flag: Guernsey
-	{7026, 7038},   // flag: Guinea
-	{7026, 7045},   // flag: Guinea-Bissau
-	{15560, 15572}, // flag: Guyana
-	{17126, 17137}, // flag: Haiti
+	{17167, 17178}, // flag: Gabon
+	{15599, 15611}, // flag: Gambia
+	{13827, 13840}, // flag: Georgia
+	{13840, 13853}, // flag: Germany
+	{17178, 17189}, // flag: Ghana
+	{10895, 10910}, // flag: Gibraltar
+	{15611, 15623}, // flag: Greece
+	{10910, 10925}, // flag: Greenland
+	{13853, 13866}, // flag: Grenada
+	{9778, 9794},   // flag: Guadeloupe
+	{18297, 18307}, // flag: Guam
+	{10925, 10940}, // flag: Guatemala
+	{12086, 12100}, // flag: Guernsey
+	{7089, 7101},   // flag: Guinea
+	{7089, 7108},   // flag: Guinea-Bissau
+	{15623, 15635}, // flag: Guyana
+	{17189, 17200}, // flag: Haiti
 	{490, 527},     // flag: Heard Island & McDonald Islands
-	{12037, 12051}, // flag: Honduras
-	{3266, 3291},   // flag: Hong Kong SAR China
-	{13803, 13816}, // flag: Hungary
-	{13816, 13829}, // flag: Iceland
-	{17137, 17148}, // flag: India
-	{10877, 10892}, // flag: Indonesia
-	{18244, 18254}, // flag: Iran
-	{18254, 18264}, // flag: Iraq
-	{13829, 13842}, // flag: Ireland
-	{8729, 8746},   // flag: Isle of Man
-	{15572, 15584}, // flag: Israel
-	{17148, 17159}, // flag: Italy
-	{13842, 13855}, // flag: Jamaica
-	{17159, 17170}, // flag: Japan
-	{15584, 15596}, // flag: Jersey
-	{15596, 15608}, // flag: Jordan
-	{9731, 9747},   // flag: Kazakhstan
-	{17170, 17181}, // flag: Kenya
-	{12051, 12065}, // flag: Kiribati
-	{15608, 15620}, // flag: Kosovo
-	{15620, 15632}, // flag: Kuwait
-	{9747, 9763},   // flag: Kyrgyzstan
-	{18264, 18274}, // flag: Laos
-	{15632, 15644}, // flag: Latvia
-	{13855, 13868}, // flag: Lebanon
-	{13868, 13881}, // flag: Lesotho
-	{13881, 13894}, // flag: Liberia
-	{17181, 17192}, // flag: Libya
-	{7045, 7064},   // flag: Liechtenstein
-	{10892, 10907}, // flag: Lithuania
-	{9763, 9779},   // flag: Luxembourg
-	{5453, 5474},   // flag: Macao SAR China
-	{9779, 9795},   // flag: Madagascar
-	{15644, 15656}, // flag: Malawi
-	{12065, 12079}, // flag: Malaysia
-	{12079, 12093}, // flag: Maldives
-	{18274, 18284}, // flag: Mali
-	{17192, 17203}, // flag: Malta
-	{4738, 4760},   // flag: Marshall Islands
-	{9795, 9811},   // flag: Martinique
-	{9811, 9827},   // flag: Mauritania
-	{10907, 10922}, // flag: Mauritius
-	{13894, 13907}, // flag: Mayotte
-	{15656, 15668}, // flag: Mexico
-	{9827, 9843},   // flag: Micronesia
-	{13907, 13920}, // flag: Moldova
-	{15668, 15680}, // flag: Monaco
-	{12093, 12107}, // flag: Mongolia
-	{9843, 9859},   // flag: Montenegro
-	{9859, 9875},   // flag: Montserrat
-	{13920, 13933}, // flag: Morocco
-	{9875, 9891},   // flag: Mozambique
-	{5474, 5495},   // flag: Myanmar (Burma)
-	{13933, 13946}, // flag: Namibia
-	{17203, 17214}, // flag: Nauru
-	{17214, 17225}, // flag: Nepal
-	{8746, 8763},   // flag: Netherlands
-	{7064, 7083},   // flag: New Caledonia
-	{8763, 8780},   // flag: New Zealand
-	{10922, 10937}, // flag: Nicaragua
-	{13946, 13957}, // flag: Niger
-	{13946, 13959}, // flag: Nigeria
-	{18284, 18294}, // flag: Niue
-	{6179, 6199},   // flag: Norfolk Island
-	{8780, 8797},   // flag: North Korea
-	{5495, 5516},   // flag: North Macedonia
-	{1369, 1399},   // flag: Northern Mariana Islands
-	{15680, 15692}, // flag: Norway
-	{18294, 18304}, // flag: Oman
-	{12107, 12121}, // flag: Pakistan
-	{17225, 17236}, // flag: Palau
-	{1782, 1811},   // flag: Palestinian Territories
-	{15692, 15704}, // flag: Panama
-	{4760, 4782},   // flag: Papua New Guinea
-	{12121, 12135}, // flag: Paraguay
-	{18304, 18314}, // flag: Peru
-	{8797, 8814},   // flag: Philippines
-	{4782, 4804},   // flag: Pitcairn Islands
-	{15704, 15716}, // flag: Poland
-	{12135, 12149}, // flag: Portugal
-	{8814, 8831},   // flag: Puerto Rico
-	{17236, 17247}, // flag: Qatar
-	{13959, 13972}, // flag: Romania
-	{15716, 15728}, // flag: Russia
-	{15728, 15740}, // flag: Rwanda
-	{12149, 12163}, // flag: Réunion
-	{17247, 17258}, // flag: Samoa
-	{9891, 9907},   // flag: San Marino
-	{18314, 18324}, // flag: Sark
-	{7810, 7828},   // flag: Saudi Arabia
-	{12163, 12177}, // flag: Scotland
-	{13972, 13985}, // flag: Senegal
-	{15740, 15752}, // flag: Serbia
-	{9907, 9923},   // flag: Seychelles
-	{7828, 7846},   // flag: Sierra Leone
-	{10937, 10952}, // flag: Singapore
-	{7846, 7864},   // flag: Sint Maarten
-	{12177, 12191}, // flag: Slovakia
-	{12191, 12205}, // flag: Slovenia
-	{5516, 5537},   // flag: Solomon Islands
-	{13985, 13998}, // flag: Somalia
-	{7864, 7882},   // flag: South Africa
+	{12100, 12114}, // flag: Honduras
+	{3329, 3354},   // flag: Hong Kong SAR China
+	{13866, 13879}, // flag: Hungary
+	{13879, 13892}, // flag: Iceland
+	{17200, 17211}, // flag: India
+	{10940, 10955}, // flag: Indonesia
+	{18307, 18317}, // flag: Iran
+	{18317, 18327}, // flag: Iraq
+	{13892, 13905}, // flag: Ireland
+	{8792, 8809},   // flag: Isle of Man
+	{15635, 15647}, // flag: Israel
+	{17211, 17222}, // flag: Italy
+	{13905, 13918}, // flag: Jamaica
+	{17222, 17233}, // flag: Japan
+	{15647, 15659}, // flag: Jersey
+	{15659, 15671}, // flag: Jordan
+	{9794, 9810},   // flag: Kazakhstan
+	{17233, 17244}, // flag: Kenya
+	{12114, 12128}, // flag: Kiribati
+	{15671, 15683}, // flag: Kosovo
+	{15683, 15695}, // flag: Kuwait
+	{9810, 9826},   // flag: Kyrgyzstan
+	{18327, 18337}, // flag: Laos
+	{15695, 15707}, // flag: Latvia
+	{13918, 13931}, // flag: Lebanon
+	{13931, 13944}, // flag: Lesotho
+	{13944, 13957}, // flag: Liberia
+	{17244, 17255}, // flag: Libya
+	{7108, 7127},   // flag: Liechtenstein
+	{10955, 10970}, // flag: Lithuania
+	{9826, 9842},   // flag: Luxembourg
+	{5516, 5537},   // flag: Macao SAR China
+	{9842, 9858},   // flag: Madagascar
+	{15707, 15719}, // flag: Malawi
+	{12128, 12142}, // flag: Malaysia
+	{12142, 12156}, // flag: Maldives
+	{18337, 18347}, // flag: Mali
+	{17255, 17266}, // flag: Malta
+	{4801, 4823},   // flag: Marshall Islands
+	{9858, 9874},   // flag: Martinique
+	{9874, 9890},   // flag: Mauritania
+	{10970, 10985}, // flag: Mauritius
+	{13957, 13970}, // flag: Mayotte
+	{15719, 15731}, // flag: Mexico
+	{9890, 9906},   // flag: Micronesia
+	{13970, 13983}, // flag: Moldova
+	{15731, 15743}, // flag: Monaco
+	{12156, 12170}, // flag: Mongolia
+	{9906, 9922},   // flag: Montenegro
+	{9922, 9938},   // flag: Montserrat
+	{13983, 13996}, // flag: Morocco
+	{9938, 9954},   // flag: Mozambique
+	{5537, 5558},   // flag: Myanmar (Burma)
+	{13996, 14009}, // flag: Namibia
+	{17266, 17277}, // flag: Nauru
+	{17277, 17288}, // flag: Nepal
+	{8809, 8826},   // flag: Netherlands
+	{7127, 7146},   // flag: New Caledonia
+	{8826, 8843},   // flag: New Zealand
+	{10985, 11000}, // flag: Nicaragua
+	{14009, 14020}, // flag: Niger
+	{14009, 14022}, // flag: Nigeria
+	{18347, 18357}, // flag: Niue
+	{6242, 6262},   // flag: Norfolk Island
+	{8843, 8860},   // flag: North Korea
+	{5558, 5579},   // flag: North Macedonia
+	{1432, 1462},   // flag: Northern Mariana Islands
+	{15743, 15755}, // flag: Norway
+	{18357, 18367}, // flag: Oman
+	{12170, 12184}, // flag: Pakistan
+	{17288, 17299}, // flag: Palau
+	{1845, 1874},   // flag: Palestinian Territories
+	{15755, 15767}, // flag: Panama
+	{4823, 4845},   // flag: Papua New Guinea
+	{12184, 12198}, // flag: Paraguay
+	{18367, 18377}, // flag: Peru
+	{8860, 8877},   // flag: Philippines
+	{4845, 4867},   // flag: Pitcairn Islands
+	{15767, 15779}, // flag: Poland
+	{12198, 12212}, // flag: Portugal
+	{8877, 8894},   // flag: Puerto Rico
+	{17299, 17310}, // flag: Qatar
+	{14022, 14035}, // flag: Romania
+	{15779, 15791}, // flag: Russia
+	{15791, 15803}, // flag: Rwanda
+	{12212, 12226}, // flag: Réunion
+	{17310, 17321}, // flag: Samoa
+	{9954, 9970},   // flag: San Marino
+	{18377, 18387}, // flag: Sark
+	{7873, 7891},   // flag: Saudi Arabia
+	{12226, 12240}, // flag: Scotland
+	{14035, 14048}, // flag: Senegal
+	{15803, 15815}, // flag: Serbia
+	{9970, 9986},   // flag: Seychelles
+	{7891, 7909},   // flag: Sierra Leone
+	{11000, 11015}, // flag: Singapore
+	{7909, 7927},   // flag: Sint Maarten
+	{12240, 12254}, // flag: Slovakia
+	{12254, 12268}, // flag: Slovenia
+	{5579, 5600},   // flag: Solomon Islands
+	{14048, 14061}, // flag: Somalia
+	{7927, 7945},   // flag: South Africa
 	{46, 90},       // flag: South Georgia & South Sandwich Islands
-	{8831, 8848},   // flag: South Korea
-	{8848, 8865},   // flag: South Sudan
-	{17258, 17269}, // flag: Spain
-	{10952, 10967}, // flag: Sri Lanka
-	{5537, 5558},   // flag: St. Barthélemy
+	{8894, 8911},   // flag: South Korea
+	{8911, 8928},   // flag: South Sudan
+	{17321, 17332}, // flag: Spain
+	{11015, 11030}, // flag: Sri Lanka
+	{5600, 5621},   // flag: St. Barthélemy
 	{0, 46},        // flag: St. Helena, Ascension & Tristan da Cunha
-	{4154, 4177},   // flag: St. Kitts & Nevis
-	{10967, 10982}, // flag: St. Lucia
-	{9923, 9939},   // flag: St. Martin
-	{2512, 2539},   // flag: St. Pierre & Miquelon
-	{1399, 1429},   // flag: St. Vincent & Grenadines
-	{17269, 17280}, // flag: Sudan
-	{12205, 12219}, // flag: Suriname
-	{2911, 2937},   // flag: Svalbard & Jan Mayen
-	{15752, 15764}, // flag: Sweden
-	{8865, 8882},   // flag: Switzerland
-	{17280, 17291}, // flag: Syria
-	{2152, 2180},   // flag: São Tomé & Príncipe
-	{15764, 15776}, // flag: Taiwan
-	{9939, 9955},   // flag: Tajikistan
-	{12219, 12233}, // flag: Tanzania
-	{12233, 12247}, // flag: Thailand
-	{8882, 8899},   // flag: Timor-Leste
-	{18324, 18334}, // flag: Togo
-	{13998, 14011}, // flag: Tokelau
-	{17291, 17302}, // flag: Tonga
-	{4177, 4200},   // flag: Trinidad & Tobago
-	{4804, 4826},   // flag: Tristan da Cunha
-	{14011, 14024}, // flag: Tunisia
-	{7882, 7900},   // flag: Turkmenistan
-	{2180, 2208},   // flag: Turks & Caicos Islands
-	{15776, 15788}, // flag: Tuvalu
-	{12247, 12261}, // flag: Türkiye
-	{2539, 2566},   // flag: U.S. Outlying Islands
-	{3291, 3316},   // flag: U.S. Virgin Islands
-	{15788, 15800}, // flag: Uganda
-	{14024, 14037}, // flag: Ukraine
-	{2937, 2963},   // flag: United Arab Emirates
-	{6199, 6219},   // flag: United Kingdom
-	{6219, 6239},   // flag: United Nations
-	{7083, 7102},   // flag: United States
-	{14037, 14050}, // flag: Uruguay
-	{9955, 9971},   // flag: Uzbekistan
-	{14050, 14063}, // flag: Vanuatu
-	{7900, 7918},   // flag: Vatican City
-	{10982, 10997}, // flag: Venezuela
-	{14063, 14076}, // flag: Vietnam
-	{17302, 17313}, // flag: Wales
-	{5558, 5579},   // flag: Wallis & Futuna
-	{6239, 6259},   // flag: Western Sahara
-	{17313, 17324}, // flag: Yemen
-	{15800, 15812}, // flag: Zambia
-	{12261, 12275}, // flag: Zimbabwe
-	{6259, 6279},   // flag: Åland Islands
-	{20042, 20050}, // flamingo
-	{18334, 18344}, // flashlight
-	{19291, 19300}, // flat shoe
-	{9315, 9324},   // flatbread
-	{15812, 15824}, // fleur-de-lis
-	{14076, 14089}, // flexed biceps
-	{17324, 17335}, // floppy disk
-	{6279, 6299},   // flower playing cards
-	{15824, 15836}, // flushed face
-	{21406, 21411}, // flute
-	{9100, 9103},   // fly
-	{17335, 17346}, // flying disc
-	{14089, 14102}, // flying saucer
-	{21411, 21414}, // fog
-	{21411, 21416}, // foggy
-	{15836, 15848}, // folded hands
-	{9971, 9987},   // folding hand fan
-	{21027, 21033}, // fondue
-	{8483, 8487},   // foot
-	{18344, 18354}, // footprints
-	{3316, 3330},   // fork and knife
-	{3316, 3341},   // fork and knife with plate
-	{12275, 12289}, // fortune cookie
-	{15848, 15856}, // fountain
-	{15848, 15860}, // fountain pen
-	{9987, 10003},  // four leaf clover
-	{12289, 12303}, // four o’clock
-	{17346, 17357}, // four-thirty
-	{21774, 21777}, // fox
-	{12303, 12317}, // framed picture
-	{15860, 15872}, // french fries
-	{15872, 15884}, // fried shrimp
-	{21643, 21647}, // frog
-	{4200, 4223},   // front-facing baby chick
-	{1811, 1824},   // frowning face
-	{1811, 1840},   // frowning face with open mouth
-	{19300, 19309}, // fuel pump
-	{12317, 12326}, // full moon
-	{12317, 12331}, // full moon face
-	{17357, 17368}, // funeral urn
-	{20050, 20058}, // game die
-	{21033, 21039}, // garlic
-	{21647, 21651}, // gear
-	{19309, 19318}, // gem stone
-	{17946, 17951}, // genie
-	{21416, 21421}, // ghost
-	{17368, 17379}, // ginger root
-	{20541, 20548}, // giraffe
-	{1025, 1029},   // girl
-	{14102, 14115}, // glass of milk
-	{2397, 2404},   // glasses
-	{4826, 4848},   // globe showing Americas
-	{2208, 2236},   // globe showing Asia-Australia
-	{2566, 2593},   // globe showing Europe-Africa
-	{6299, 6319},   // globe with meridians
-	{21039, 21045}, // gloves
-	{15884, 15896}, // glowing star
-	{20058, 20066}, // goal net
-	{21651, 21655}, // goat
-	{21045, 21051}, // goblin
-	{20548, 20555}, // goggles
-	{21421, 21426}, // goose
-	{20555, 20562}, // gorilla
-	{12331, 12345}, // graduation cap
-	{21051, 21057}, // grapes
-	{17379, 17390}, // green apple
-	{18354, 18364}, // green book
-	{15896, 15908}, // green circle
-	{17390, 17401}, // green heart
-	{17401, 17412}, // green salad
-	{15908, 15920}, // green square
-	{18364, 18374}, // grey heart
-	{12345, 12359}, // grimacing face
-	{1429, 1441},   // grinning cat
-	{1429, 1459},   // grinning cat with smiling eyes
-	{1128, 1141},   // grinning face
-	{2593, 2620},   // grinning face with big eyes
-	{1128, 1159},   // grinning face with smiling eyes
-	{3660, 3684},   // grinning face with sweat
-	{4223, 4246},   // grinning squinting face
-	{14115, 14128}, // growing heart
-	{17957, 17962}, // guard
-	{19318, 19327}, // guide dog
-	{21057, 21063}, // guitar
-	{19327, 19336}, // hair pick
-	{12359, 12373}, // hairy creature
-	{19336, 19345}, // hamburger
-	{8899, 8905},   // hammer
-	{10997, 11012}, // hammer and pick
-	{8899, 8916},   // hammer and wrench
-	{21426, 21431}, // hamsa
-	{20562, 20569}, // hamster
-	{3341, 3366},   // hand with fingers splayed
+	{4217, 4240},   // flag: St. Kitts & Nevis
+	{11030, 11045}, // flag: St. Lucia
+	{9986, 10002},  // flag: St. Martin
+	{2575, 2602},   // flag: St. Pierre & Miquelon
+	{1462, 1492},   // flag: St. Vincent & Grenadines
+	{17332, 17343}, // flag: Sudan
+	{12268, 12282}, // flag: Suriname
+	{2974, 3000},   // flag: Svalbard & Jan Mayen
+	{15815, 15827}, // flag: Sweden
+	{8928, 8945},   // flag: Switzerland
+	{17343, 17354}, // flag: Syria
+	{2215, 2243},   // flag: São Tomé & Príncipe
+	{15827, 15839}, // flag: Taiwan
+	{10002, 10018}, // flag: Tajikistan
+	{12282, 12296}, // flag: Tanzania
+	{12296, 12310}, // flag: Thailand
+	{8945, 8962},   // flag: Timor-Leste
+	{18387, 18397}, // flag: Togo
+	{14061, 14074}, // flag: Tokelau
+	{17354, 17365}, // flag: Tonga
+	{4240, 4263},   // flag: Trinidad & Tobago
+	{4867, 4889},   // flag: Tristan da Cunha
+	{14074, 14087}, // flag: Tunisia
+	{7945, 7963},   // flag: Turkmenistan
+	{2243, 2271},   // flag: Turks & Caicos Islands
+	{15839, 15851}, // flag: Tuvalu
+	{12310, 12324}, // flag: Türkiye
+	{2602, 2629},   // flag: U.S. Outlying Islands
+	{3354, 3379},   // flag: U.S. Virgin Islands
+	{15851, 15863}, // flag: Uganda
+	{14087, 14100}, // flag: Ukraine
+	{3000, 3026},   // flag: United Arab Emirates
+	{6262, 6282},   // flag: United Kingdom
+	{6282, 6302},   // flag: United Nations
+	{7146, 7165},   // flag: United States
+	{14100, 14113}, // flag: Uruguay
+	{10018, 10034}, // flag: Uzbekistan
+	{14113, 14126}, // flag: Vanuatu
+	{7963, 7981},   // flag: Vatican City
+	{11045, 11060}, // flag: Venezuela
+	{14126, 14139}, // flag: Vietnam
+	{17365, 17376}, // flag: Wales
+	{5621, 5642},   // flag: Wallis & Futuna
+	{6302, 6322},   // flag: Western Sahara
+	{17376, 17387}, // flag: Yemen
+	{15863, 15875}, // flag: Zambia
+	{12324, 12338}, // flag: Zimbabwe
+	{6322, 6342},   // flag: Åland Islands
+	{20105, 20113}, // flamingo
+	{18397, 18407}, // flashlight
+	{19354, 19363}, // flat shoe
+	{9378, 9387},   // flatbread
+	{15875, 15887}, // fleur-de-lis
+	{14139, 14152}, // flexed biceps
+	{17387, 17398}, // floppy disk
+	{6342, 6362},   // flower playing cards
+	{15887, 15899}, // flushed face
+	{21469, 21474}, // flute
+	{9163, 9166},   // fly
+	{17398, 17409}, // flying disc
+	{14152, 14165}, // flying saucer
+	{21474, 21477}, // fog
+	{21474, 21479}, // foggy
+	{15899, 15911}, // folded hands
+	{10034, 10050}, // folding hand fan
+	{21090, 21096}, // fondue
+	{8546, 8550},   // foot
+	{18407, 18417}, // footprints
+	{3379, 3393},   // fork and knife
+	{3379, 3404},   // fork and knife with plate
+	{12338, 12352}, // fortune cookie
+	{15911, 15919}, // fountain
+	{15911, 15923}, // fountain pen
+	{10050, 10066}, // four leaf clover
+	{12352, 12366}, // four o’clock
+	{17409, 17420}, // four-thirty
+	{21837, 21840}, // fox
+	{12366, 12380}, // framed picture
+	{15923, 15935}, // french fries
+	{15935, 15947}, // fried shrimp
+	{21706, 21710}, // frog
+	{4263, 4286},   // front-facing baby chick
+	{1874, 1887},   // frowning face
+	{1874, 1903},   // frowning face with open mouth
+	{19363, 19372}, // fuel pump
+	{12380, 12389}, // full moon
+	{12380, 12394}, // full moon face
+	{17420, 17431}, // funeral urn
+	{20113, 20121}, // game die
+	{21096, 21102}, // garlic
+	{21710, 21714}, // gear
+	{19372, 19381}, // gem stone
+	{18009, 18014}, // genie
+	{21479, 21484}, // ghost
+	{17431, 17442}, // ginger root
+	{20604, 20611}, // giraffe
+	{1058, 1062},   // girl
+	{14165, 14178}, // glass of milk
+	{2460, 2467},   // glasses
+	{4889, 4911},   // globe showing Americas
+	{2271, 2299},   // globe showing Asia-Australia
+	{2629, 2656},   // globe showing Europe-Africa
+	{6362, 6382},   // globe with meridians
+	{21102, 21108}, // gloves
+	{15947, 15959}, // glowing star
+	{20121, 20129}, // goal net
+	{21714, 21718}, // goat
+	{21108, 21114}, // goblin
+	{20611, 20618}, // goggles
+	{21484, 21489}, // goose
+	{20618, 20625}, // gorilla
+	{12394, 12408}, // graduation cap
+	{21114, 21120}, // grapes
+	{17442, 17453}, // green apple
+	{18417, 18427}, // green book
+	{15959, 15971}, // green circle
+	{17453, 17464}, // green heart
+	{17464, 17475}, // green salad
+	{15971, 15983}, // green square
+	{18427, 18437}, // grey heart
+	{12408, 12422}, // grimacing face
+	{1492, 1504},   // grinning cat
+	{1492, 1522},   // grinning cat with smiling eyes
+	{1161, 1174},   // grinning face
+	{2656, 2683},   // grinning face with big eyes
+	{1161, 1192},   // grinning face with smiling eyes
+	{3723, 3747},   // grinning face with sweat
+	{4286, 4309},   // grinning squinting face
+	{14178, 14191}, // growing heart
+	{18020, 18025}, // guard
+	{19381, 19390}, // guide dog
+	{21120, 21126}, // guitar
+	{19390, 19399}, // hair pick
+	{12422, 12436}, // hairy creature
+	{19399, 19408}, // hamburger
+	{8962, 8968},   // hammer
+	{11060, 11075}, // hammer and pick
+	{8962, 8979},   // hammer and wrench
+	{21489, 21494}, // hamsa
+	{20625, 20632}, // hamster
+	{3404, 3429},   // hand with fingers splayed
 	{256, 296},     // hand with index finger and thumb crossed
-	{20569, 20576}, // handbag
-	{19345, 19354}, // handshake
-	{21655, 21659}, // harp
-	{12373, 12387}, // hatching chick
-	{3366, 3391},   // head shaking horizontally
-	{4246, 4269},   // head shaking vertically
-	{19354, 19363}, // headphone
-	{19363, 19372}, // headstone
-	{7507, 7520},   // health worker
-	{7102, 7121},   // hear-no-evil monkey
-	{10003, 10019}, // heart decoration
-	{8916, 8933},   // heart exclamation
-	{17412, 17423}, // heart hands
-	{14128, 14141}, // heart on fire
-	{18374, 18384}, // heart suit
-	{10019, 10035}, // heart with arrow
-	{8933, 8950},   // heart with ribbon
-	{8950, 8967},   // heavy dollar sign
-	{8967, 8984},   // heavy equals sign
-	{20066, 20074}, // hedgehog
-	{18384, 18394}, // helicopter
-	{21659, 21663}, // herb
-	{20074, 20082}, // hibiscus
-	{15920, 15932}, // high voltage
-	{10035, 10051}, // high-heeled shoe
-	{10051, 10067}, // high-speed train
-	{17423, 17434}, // hiking boot
-	{15932, 15944}, // hindu temple
-	{15944, 15956}, // hippopotamus
-	{15436, 15440}, // hole
-	{8984, 9001},   // hollow red circle
-	{19372, 19381}, // honey pot
-	{20082, 20090}, // honeybee
-	{21663, 21667}, // hook
-	{3684, 3708},   // horizontal traffic light
-	{11598, 11603}, // horse
-	{18394, 18404}, // horse face
-	{15956, 15968}, // horse racing
-	{20090, 20098}, // hospital
-	{15968, 15980}, // hot beverage
-	{20576, 20583}, // hot dog
-	{20098, 20106}, // hot face
-	{18404, 18414}, // hot pepper
-	{17434, 17445}, // hot springs
-	{18499, 18504}, // hotel
-	{12387, 12401}, // hourglass done
-	{7918, 7936},   // hourglass not done
-	{9001, 9006},   // house
-	{9001, 9018},   // house with garden
-	{21063, 21069}, // houses
-	{12401, 12415}, // hundred points
-	{17445, 17456}, // hushed face
-	{15471, 15474}, // hut
-	{20106, 20114}, // hyacinth
+	{20632, 20639}, // handbag
+	{19408, 19417}, // handshake
+	{21718, 21722}, // harp
+	{12436, 12450}, // hatching chick
+	{3429, 3454},   // head shaking horizontally
+	{4309, 4332},   // head shaking vertically
+	{19417, 19426}, // headphone
+	{19426, 19435}, // headstone
+	{7570, 7583},   // health worker
+	{7165, 7184},   // hear-no-evil monkey
+	{10066, 10082}, // heart decoration
+	{8979, 8996},   // heart exclamation
+	{17475, 17486}, // heart hands
+	{14191, 14204}, // heart on fire
+	{18437, 18447}, // heart suit
+	{10082, 10098}, // heart with arrow
+	{8996, 9013},   // heart with ribbon
+	{9013, 9030},   // heavy dollar sign
+	{9030, 9047},   // heavy equals sign
+	{20129, 20137}, // hedgehog
+	{18447, 18457}, // helicopter
+	{21722, 21726}, // herb
+	{20137, 20145}, // hibiscus
+	{15983, 15995}, // high voltage
+	{10098, 10114}, // high-heeled shoe
+	{10114, 10130}, // high-speed train
+	{17486, 17497}, // hiking boot
+	{15995, 16007}, // hindu temple
+	{16007, 16019}, // hippopotamus
+	{15499, 15503}, // hole
+	{9047, 9064},   // hollow red circle
+	{19435, 19444}, // honey pot
+	{20145, 20153}, // honeybee
+	{21726, 21730}, // hook
+	{3747, 3771},   // horizontal traffic light
+	{11661, 11666}, // horse
+	{18457, 18467}, // horse face
+	{16019, 16031}, // horse racing
+	{20153, 20161}, // hospital
+	{16031, 16043}, // hot beverage
+	{20639, 20646}, // hot dog
+	{20161, 20169}, // hot face
+	{18467, 18477}, // hot pepper
+	{17497, 17508}, // hot springs
+	{18562, 18567}, // hotel
+	{12450, 12464}, // hourglass done
+	{7981, 7999},   // hourglass not done
+	{9064, 9069},   // house
+	{9064, 9081},   // house with garden
+	{21126, 21132}, // houses
+	{12464, 12478}, // hundred points
+	{17508, 17519}, // hushed face
+	{15534, 15537}, // hut
+	{20169, 20177}, // hyacinth
 	{615, 618},     // ice
-	{12812, 12821}, // ice cream
-	{18414, 18424}, // ice hockey
-	{19381, 19390}, // ice skate
-	{7121, 7140},   // identification card
-	{18424, 18434}, // inbox tray
-	{9018, 9035},   // incoming envelope
-	{2236, 2264},   // index pointing at the viewer
-	{2790, 2807},   // index pointing up
-	{20114, 20122}, // infinity
-	{17456, 17467}, // information
-	{7140, 7159},   // input latin letters
-	{5579, 5600},   // input latin lowercase
-	{5600, 5621},   // input latin uppercase
-	{14141, 14154}, // input numbers
-	{14154, 14167}, // input symbols
-	{12415, 12429}, // jack-o-lantern
-	{21777, 21780}, // jar
-	{21431, 21436}, // jeans
-	{19390, 19399}, // jellyfish
-	{21436, 21441}, // joker
-	{20122, 20130}, // joystick
-	{17968, 17973}, // judge
-	{21441, 21446}, // kaaba
-	{20130, 20138}, // kangaroo
-	{6636, 6639},   // key
-	{10219, 10227}, // keyboard
-	{19399, 19408}, // keycap: #
-	{19408, 19417}, // keycap: *
-	{19417, 19426}, // keycap: 0
-	{18434, 18443}, // keycap: 1
-	{18434, 18444}, // keycap: 10
-	{19426, 19435}, // keycap: 2
-	{19435, 19444}, // keycap: 3
-	{19444, 19453}, // keycap: 4
-	{19453, 19462}, // keycap: 5
-	{19462, 19471}, // keycap: 6
-	{19471, 19480}, // keycap: 7
-	{19480, 19489}, // keycap: 8
-	{19489, 19498}, // keycap: 9
-	{21069, 21075}, // khanda
-	{15980, 15992}, // kick scooter
-	{21075, 21081}, // kimono
-	{1459, 1463},   // kiss
-	{19498, 19507}, // kiss mark
-	{12429, 12443}, // kiss: man, man
-	{6319, 6339},   // kiss: person, person
-	{10067, 10083}, // kiss: woman, man
-	{7936, 7954},   // kiss: woman, woman
-	{17467, 17478}, // kissing cat
-	{1459, 1471},   // kissing face
-	{1840, 1869},   // kissing face with closed eyes
-	{1459, 1489},   // kissing face with smiling eyes
-	{14167, 14180}, // kitchen knife
-	{21667, 21671}, // kite
-	{18444, 18454}, // kiwi fruit
-	{10767, 10771}, // knot
-	{21446, 21451}, // koala
-	{20138, 20146}, // lab coat
-	{21451, 21456}, // label
-	{20146, 20154}, // lacrosse
-	{21081, 21087}, // ladder
-	{17478, 17489}, // lady beetle
-	{19507, 19516}, // landslide
-	{21087, 21093}, // laptop
-	{7954, 7972},   // large blue diamond
-	{6339, 6359},   // large orange diamond
-	{4848, 4865},   // last quarter moon
-	{4848, 4870},   // last quarter moon face
-	{9035, 9052},   // last track button
-	{17489, 17500}, // latin cross
-	{4269, 4292},   // leaf fluttering in wind
-	{14180, 14193}, // leafless tree
-	{17500, 17511}, // leafy green
-	{21093, 21099}, // ledger
-	{3708, 3718},   // left arrow
-	{3708, 3732},   // left arrow curving right
-	{15992, 16004}, // left luggage
-	{7972, 7990},   // left speech bubble
-	{10083, 10099}, // left-facing fist
-	{10099, 10115}, // left-right arrow
-	{12443, 12457}, // leftwards hand
-	{4870, 4892},   // leftwards pushing hand
-	{6359, 6379},   // leftwards thumb sign
-	{12482, 12485}, // leg
-	{21456, 21461}, // lemon
-	{20583, 20590}, // leopard
-	{16004, 16016}, // level slider
-	{10115, 10131}, // light blue heart
-	{18454, 18464}, // light bulb
-	{18464, 18474}, // light rail
-	{18474, 18484}, // lighthouse
-	{21671, 21675}, // lime
-	{7667, 7671},   // link
-	{9052, 9069},   // linked paperclips
-	{21675, 21679}, // lion
-	{20154, 20162}, // lipstick
-	{7990, 8008},   // litter in bin sign
-	{21099, 21105}, // lizard
-	{21461, 21466}, // llama
-	{20590, 20597}, // lobster
-	{11012, 11018}, // locked
-	{11012, 11027}, // locked with key
-	{11027, 11042}, // locked with pen
-	{18484, 18494}, // locomotive
-	{20162, 20170}, // lollipop
-	{19516, 19525}, // long drum
-	{14193, 14206}, // lotion bottle
-	{3742, 3747},   // lotus
-	{8008, 8026},   // loudly crying face
-	{17511, 17522}, // loudspeaker
-	{18494, 18504}, // love hotel
-	{17522, 17533}, // love letter
-	{10131, 10147}, // love-you gesture
-	{17533, 17544}, // low battery
-	{15997, 16004}, // luggage
-	{21466, 21471}, // lungs
-	{18504, 18514}, // lying face
-	{18980, 18984}, // mage
-	{18514, 18524}, // magic wand
-	{21105, 21111}, // magnet
-	{2264, 2292},   // magnifying glass tilted left
-	{1869, 1898},   // magnifying glass tilted right
-	{8026, 8044},   // mahjong red dragon
-	{16974, 16983}, // male sign
-	{20597, 20604}, // mammoth
+	{12875, 12884}, // ice cream
+	{18477, 18487}, // ice hockey
+	{19444, 19453}, // ice skate
+	{7184, 7203},   // identification card
+	{18487, 18497}, // inbox tray
+	{9081, 9098},   // incoming envelope
+	{2299, 2327},   // index pointing at the viewer
+	{2853, 2870},   // index pointing up
+	{20177, 20185}, // infinity
+	{17519, 17530}, // information
+	{7203, 7222},   // input latin letters
+	{5642, 5663},   // input latin lowercase
+	{5663, 5684},   // input latin uppercase
+	{14204, 14217}, // input numbers
+	{14217, 14230}, // input symbols
+	{12478, 12492}, // jack-o-lantern
+	{21840, 21843}, // jar
+	{21494, 21499}, // jeans
+	{19453, 19462}, // jellyfish
+	{21499, 21504}, // joker
+	{20185, 20193}, // joystick
+	{18031, 18036}, // judge
+	{21504, 21509}, // kaaba
+	{20193, 20201}, // kangaroo
+	{6699, 6702},   // key
+	{10282, 10290}, // keyboard
+	{19462, 19471}, // keycap: #
+	{19471, 19480}, // keycap: *
+	{19480, 19489}, // keycap: 0
+	{18497, 18506}, // keycap: 1
+	{18497, 18507}, // keycap: 10
+	{19489, 19498}, // keycap: 2
+	{19498, 19507}, // keycap: 3
+	{19507, 19516}, // keycap: 4
+	{19516, 19525}, // keycap: 5
+	{19525, 19534}, // keycap: 6
+	{19534, 19543}, // keycap: 7
+	{19543, 19552}, // keycap: 8
+	{19552, 19561}, // keycap: 9
+	{21132, 21138}, // khanda
+	{16043, 16055}, // kick scooter
+	{21138, 21144}, // kimono
+	{1522, 1526},   // kiss
+	{19561, 19570}, // kiss mark
+	{12492, 12506}, // kiss: man, man
+	{6382, 6402},   // kiss: person, person
+	{10130, 10146}, // kiss: woman, man
+	{7999, 8017},   // kiss: woman, woman
+	{17530, 17541}, // kissing cat
+	{1522, 1534},   // kissing face
+	{1903, 1932},   // kissing face with closed eyes
+	{1522, 1552},   // kissing face with smiling eyes
+	{14230, 14243}, // kitchen knife
+	{21730, 21734}, // kite
+	{18507, 18517}, // kiwi fruit
+	{10830, 10834}, // knot
+	{21509, 21514}, // koala
+	{20201, 20209}, // lab coat
+	{21514, 21519}, // label
+	{20209, 20217}, // lacrosse
+	{21144, 21150}, // ladder
+	{17541, 17552}, // lady beetle
+	{19570, 19579}, // landslide
+	{21150, 21156}, // laptop
+	{8017, 8035},   // large blue diamond
+	{6402, 6422},   // large orange diamond
+	{4911, 4928},   // last quarter moon
+	{4911, 4933},   // last quarter moon face
+	{9098, 9115},   // last track button
+	{17552, 17563}, // latin cross
+	{4332, 4355},   // leaf fluttering in wind
+	{14243, 14256}, // leafless tree
+	{17563, 17574}, // leafy green
+	{21156, 21162}, // ledger
+	{3771, 3781},   // left arrow
+	{3771, 3795},   // left arrow curving right
+	{16055, 16067}, // left luggage
+	{8035, 8053},   // left speech bubble
+	{10146, 10162}, // left-facing fist
+	{10162, 10178}, // left-right arrow
+	{12506, 12520}, // leftwards hand
+	{4933, 4955},   // leftwards pushing hand
+	{6422, 6442},   // leftwards thumb sign
+	{12545, 12548}, // leg
+	{21519, 21524}, // lemon
+	{20646, 20653}, // leopard
+	{16067, 16079}, // level slider
+	{10178, 10194}, // light blue heart
+	{18517, 18527}, // light bulb
+	{18527, 18537}, // light rail
+	{18537, 18547}, // lighthouse
+	{21734, 21738}, // lime
+	{7730, 7734},   // link
+	{9115, 9132},   // linked paperclips
+	{21738, 21742}, // lion
+	{20217, 20225}, // lipstick
+	{8053, 8071},   // litter in bin sign
+	{21162, 21168}, // lizard
+	{21524, 21529}, // llama
+	{20653, 20660}, // lobster
+	{11075, 11081}, // locked
+	{11075, 11090}, // locked with key
+	{11090, 11105}, // locked with pen
+	{18547, 18557}, // locomotive
+	{20225, 20233}, // lollipop
+	{19579, 19588}, // long drum
+	{14256, 14269}, // lotion bottle
+	{3805, 3810},   // lotus
+	{8071, 8089},   // loudly crying face
+	{17574, 17585}, // loudspeaker
+	{18557, 18567}, // love hotel
+	{17585, 17596}, // love letter
+	{10194, 10210}, // love-you gesture
+	{17596, 17607}, // low battery
+	{16060, 16067}, // luggage
+	{21529, 21534}, // lungs
+	{18567, 18577}, // lying face
+	{19043, 19047}, // mage
+	{18577, 18587}, // magic wand
+	{21168, 21174}, // magnet
+	{2327, 2355},   // magnifying glass tilted left
+	{1932, 1961},   // magnifying glass tilted right
+	{8089, 8107},   // mahjong red dragon
+	{17037, 17046}, // male sign
+	{20660, 20667}, // mammoth
 	{135, 138},     // man
-	{16522, 16532}, // man artist
-	{11359, 11372}, // man astronaut
-	{16534, 16544}, // man biking
-	{7484, 7501},   // man bouncing ball
-	{16546, 16556}, // man bowing
-	{8298, 8314},   // man cartwheeling
-	{12991, 13003}, // man climbing
-	{3493, 3516},   // man construction worker
-	{18966, 18974}, // man cook
-	{14988, 14999}, // man dancing
-	{11374, 11387}, // man detective
-	{19833, 19840}, // man elf
-	{9360, 9375},   // man facepalming
-	{6681, 6699},   // man factory worker
-	{17931, 17940}, // man fairy
-	{16558, 16568}, // man farmer
-	{8316, 8332},   // man feeding baby
-	{9377, 9392},   // man firefighter
-	{13005, 13017}, // man frowning
-	{17942, 17951}, // man genie
-	{8334, 8350},   // man gesturing NO
-	{8352, 8368},   // man gesturing OK
-	{5896, 5915},   // man getting haircut
-	{5917, 5936},   // man getting massage
-	{15001, 15012}, // man golfing
-	{17953, 17962}, // man guard
-	{7503, 7520},   // man health worker
-	{4409, 4430},   // man in lotus position
+	{16585, 16595}, // man artist
+	{11422, 11435}, // man astronaut
+	{16597, 16607}, // man biking
+	{7547, 7564},   // man bouncing ball
+	{16609, 16619}, // man bowing
+	{8361, 8377},   // man cartwheeling
+	{13054, 13066}, // man climbing
+	{3556, 3579},   // man construction worker
+	{19029, 19037}, // man cook
+	{15051, 15062}, // man dancing
+	{11437, 11450}, // man detective
+	{19896, 19903}, // man elf
+	{9423, 9438},   // man facepalming
+	{6744, 6762},   // man factory worker
+	{17994, 18003}, // man fairy
+	{16621, 16631}, // man farmer
+	{8379, 8395},   // man feeding baby
+	{9440, 9455},   // man firefighter
+	{13068, 13080}, // man frowning
+	{18005, 18014}, // man genie
+	{8397, 8413},   // man gesturing NO
+	{8415, 8431},   // man gesturing OK
+	{5959, 5978},   // man getting haircut
+	{5980, 5999},   // man getting massage
+	{15064, 15075}, // man golfing
+	{18016, 18025}, // man guard
+	{7566, 7583},   // man health worker
+	{4472, 4493},   // man in lotus position
 	{416, 440},     // man in manual wheelchair
 	{416, 453},     // man in manual wheelchair facing right
 	{135, 162},     // man in motorized wheelchair
 	{135, 175},     // man in motorized wheelchair facing right
-	{6701, 6719},   // man in steamy room
-	{11389, 11402}, // man in tuxedo
-	{17964, 17973}, // man judge
-	{13019, 13031}, // man juggling
-	{2730, 2742},   // man kneeling
-	{2730, 2755},   // man kneeling facing right
-	{5938, 5957},   // man lifting weights
-	{18976, 18984}, // man mage
-	{13033, 13045}, // man mechanic
-	{5959, 5978},   // man mountain biking
-	{7522, 7539},   // man office worker
-	{17975, 17984}, // man pilot
-	{5202, 5222},   // man playing handball
-	{3902, 3924},   // man playing water polo
-	{6721, 6739},   // man police officer
-	{15014, 15025}, // man pouting
-	{8370, 8386},   // man raising hand
-	{9394, 9409},   // man rowing boat
-	{2991, 3002},   // man running
-	{2991, 3015},   // man running facing right
-	{11404, 11417}, // man scientist
-	{11419, 11432}, // man shrugging
-	{16570, 16580}, // man singer
-	{13047, 13059}, // man standing
-	{15027, 15038}, // man student
-	{11434, 11447}, // man superhero
-	{8388, 8404},   // man supervillain
-	{15040, 15051}, // man surfing
-	{13061, 13073}, // man swimming
-	{15053, 15064}, // man teacher
-	{8406, 8422},   // man technologist
-	{8424, 8440},   // man tipping hand
-	{15066, 15077}, // man vampire
-	{3017, 3028},   // man walking
-	{3017, 3041},   // man walking facing right
-	{6741, 6759},   // man wearing turban
-	{11449, 11462}, // man with veil
+	{6764, 6782},   // man in steamy room
+	{11452, 11465}, // man in tuxedo
+	{18027, 18036}, // man judge
+	{13082, 13094}, // man juggling
+	{2793, 2805},   // man kneeling
+	{2793, 2818},   // man kneeling facing right
+	{6001, 6020},   // man lifting weights
+	{19039, 19047}, // man mage
+	{13096, 13108}, // man mechanic
+	{6022, 6041},   // man mountain biking
+	{7585, 7602},   // man office worker
+	{18038, 18047}, // man pilot
+	{5265, 5285},   // man playing handball
+	{3965, 3987},   // man playing water polo
+	{6784, 6802},   // man police officer
+	{15077, 15088}, // man pouting
+	{8433, 8449},   // man raising hand
+	{9457, 9472},   // man rowing boat
+	{3054, 3065},   // man running
+	{3054, 3078},   // man running facing right
+	{11467, 11480}, // man scientist
+	{11482, 11495}, // man shrugging
+	{16633, 16643}, // man singer
+	{13110, 13122}, // man standing
+	{15090, 15101}, // man student
+	{11497, 11510}, // man superhero
+	{8451, 8467},   // man supervillain
+	{15103, 15114}, // man surfing
+	{13124, 13136}, // man swimming
+	{15116, 15127}, // man teacher
+	{8469, 8485},   // man technologist
+	{8487, 8503},   // man tipping hand
+	{15129, 15140}, // man vampire
+	{3080, 3091},   // man walking
+	{3080, 3104},   // man walking facing right
+	{6804, 6822},   // man wearing turban
+	{11512, 11525}, // man with veil
 	{777, 796},     // man with white cane
 	{777, 809},     // man with white cane facing right
-	{16582, 16592}, // man zombie
-	{21471, 21476}, // mango
-	{9069, 9086},   // mantelpiece clock
+	{16645, 16655}, // man zombie
+	{21534, 21539}, // mango
+	{9132, 9149},   // mantelpiece clock
 	{306, 323},     // manual wheelchair
-	{16016, 16028}, // man’s shoe
-	{16028, 16040}, // map of Japan
-	{18524, 18534}, // maple leaf
-	{20604, 20611}, // maracas
-	{6379, 6399},   // martial arts uniform
-	{21679, 21683}, // mate
-	{16040, 16052}, // meat on bone
-	{12457, 12465}, // mechanic
-	{12457, 12471}, // mechanical arm
-	{12471, 12485}, // mechanical leg
-	{12485, 12499}, // medical symbol
-	{19525, 19534}, // megaphone
-	{18919, 18924}, // melon
-	{16052, 16064}, // melting face
-	{21683, 21687}, // memo
-	{7541, 7558},   // men holding hands
-	{5980, 5999},   // men with bunny ears
-	{11464, 11477}, // men wrestling
-	{14206, 14219}, // mending heart
-	{20611, 20618}, // menorah
-	{13089, 13101}, // men’s room
-	{20618, 20625}, // mermaid
-	{21111, 21117}, // merman
-	{19534, 19543}, // merperson
-	{21117, 21123}, // meteor
-	{21476, 21481}, // metro
-	{20625, 20632}, // microbe
-	{9297, 9307},   // microphone
-	{18534, 18544}, // microscope
-	{14219, 14232}, // middle finger
-	{11042, 11057}, // military helmet
-	{12499, 12513}, // military medal
-	{19543, 19552}, // milky way
-	{20632, 20639}, // minibus
-	{21481, 21486}, // minus
-	{17544, 17550}, // mirror
-	{17544, 17555}, // mirror ball
-	{21687, 21691}, // moai
-	{4292, 4304},   // mobile phone
-	{10147, 10163}, // mobile phone off
-	{4292, 4315},   // mobile phone with arrow
-	{9086, 9103},   // monarch butterfly
-	{19552, 19561}, // money bag
-	{10163, 10179}, // money with wings
-	{10179, 10195}, // money-mouth face
-	{6633, 6639},   // monkey
-	{17555, 17566}, // monkey face
-	{20170, 20178}, // monorail
-	{19561, 19570}, // moon cake
-	{5621, 5642},   // moon viewing ceremony
-	{21486, 21491}, // moose
-	{21123, 21129}, // mosque
-	{20178, 20186}, // mosquito
-	{18544, 18554}, // motor boat
-	{14232, 14245}, // motor scooter
-	{18554, 18564}, // motorcycle
+	{16079, 16091}, // man’s shoe
+	{16091, 16103}, // map of Japan
+	{18587, 18597}, // maple leaf
+	{20667, 20674}, // maracas
+	{6442, 6462},   // martial arts uniform
+	{21742, 21746}, // mate
+	{16103, 16115}, // meat on bone
+	{12520, 12528}, // mechanic
+	{12520, 12534}, // mechanical arm
+	{12534, 12548}, // mechanical leg
+	{12548, 12562}, // medical symbol
+	{19588, 19597}, // megaphone
+	{18982, 18987}, // melon
+	{16115, 16127}, // melting face
+	{21746, 21750}, // memo
+	{7604, 7621},   // men holding hands
+	{6043, 6062},   // men with bunny ears
+	{11527, 11540}, // men wrestling
+	{14269, 14282}, // mending heart
+	{20674, 20681}, // menorah
+	{13152, 13164}, // men’s room
+	{20681, 20688}, // mermaid
+	{21174, 21180}, // merman
+	{19597, 19606}, // merperson
+	{21180, 21186}, // meteor
+	{21539, 21544}, // metro
+	{20688, 20695}, // microbe
+	{9360, 9370},   // microphone
+	{18597, 18607}, // microscope
+	{14282, 14295}, // middle finger
+	{11105, 11120}, // military helmet
+	{12562, 12576}, // military medal
+	{19606, 19615}, // milky way
+	{20695, 20702}, // minibus
+	{21544, 21549}, // minus
+	{17607, 17613}, // mirror
+	{17607, 17618}, // mirror ball
+	{21750, 21754}, // moai
+	{4355, 4367},   // mobile phone
+	{10210, 10226}, // mobile phone off
+	{4355, 4378},   // mobile phone with arrow
+	{9149, 9166},   // monarch butterfly
+	{19615, 19624}, // money bag
+	{10226, 10242}, // money with wings
+	{10242, 10258}, // money-mouth face
+	{6696, 6702},   // monkey
+	{17618, 17629}, // monkey face
+	{20233, 20241}, // monorail
+	{19624, 19633}, // moon cake
+	{5684, 5705},   // moon viewing ceremony
+	{21549, 21554}, // moose
+	{21186, 21192}, // mosque
+	{20241, 20249}, // mosquito
+	{18607, 18617}, // motor boat
+	{14295, 14308}, // motor scooter
+	{18617, 18627}, // motorcycle
 	{100, 120},     // motorized wheelchair
-	{20186, 20194}, // motorway
-	{18564, 18574}, // mount fuji
-	{4987, 4995},   // mountain
-	{9103, 9120},   // mountain cableway
-	{10195, 10211}, // mountain railway
-	{11668, 11673}, // mouse
-	{18574, 18584}, // mouse face
-	{18584, 18594}, // mouse trap
+	{20249, 20257}, // motorway
+	{18627, 18637}, // mount fuji
+	{5050, 5058},   // mountain
+	{9166, 9183},   // mountain cableway
+	{10258, 10274}, // mountain railway
+	{11731, 11736}, // mouse
+	{18637, 18647}, // mouse face
+	{18647, 18657}, // mouse trap
 	{409, 414},     // mouth
-	{16064, 16076}, // movie camera
-	{20194, 20202}, // multiply
-	{11581, 11589}, // mushroom
-	{10211, 10227}, // musical keyboard
-	{14245, 14257}, // musical note
-	{14245, 14258}, // musical notes
-	{14258, 14271}, // musical score
-	{14271, 14284}, // muted speaker
-	{17566, 17577}, // nail polish
-	{18594, 18604}, // name badge
-	{14284, 14297}, // national park
-	{12513, 12527}, // nauseated face
-	{16076, 16088}, // nazar amulet
-	{20639, 20646}, // necktie
-	{19570, 19579}, // nerd face
-	{12527, 12541}, // nest with eggs
-	{14297, 14310}, // nesting dolls
-	{11057, 11072}, // net with handle
-	{16088, 16100}, // neutral face
-	{14310, 14318}, // new moon
-	{14310, 14323}, // new moon face
-	{7340, 7349},   // newspaper
-	{9120, 9137},   // next track button
-	{10227, 10243}, // night with stars
-	{12541, 12555}, // nine o’clock
-	{17577, 17588}, // nine-thirty
-	{21491, 21496}, // ninja
-	{17588, 17599}, // no bicycles
-	{20202, 20210}, // no entry
-	{16100, 16112}, // no littering
-	{10243, 10259}, // no mobile phones
-	{5642, 5663},   // no one under eighteen
-	{12555, 12569}, // no pedestrians
-	{18604, 18614}, // no smoking
-	{9137, 9154},   // non-potable water
-	{3212, 3216},   // nose
-	{1489, 1497},   // notebook
-	{1489, 1519},   // notebook with decorative cover
-	{16112, 16124}, // nut and bolt
-	{20646, 20653}, // octopus
-	{21691, 21695}, // oden
-	{11072, 11087}, // office building
-	{7526, 7539},   // office worker
-	{21695, 21699}, // ogre
-	{20210, 20218}, // oil drum
-	{20653, 20660}, // old key
-	{20660, 20667}, // old man
-	{19579, 19588}, // old woman
-	{16124, 16136}, // older person
-	{21496, 21501}, // olive
+	{16127, 16139}, // movie camera
+	{20257, 20265}, // multiply
+	{11644, 11652}, // mushroom
+	{10274, 10290}, // musical keyboard
+	{14308, 14320}, // musical note
+	{14308, 14321}, // musical notes
+	{14321, 14334}, // musical score
+	{14334, 14347}, // muted speaker
+	{17629, 17640}, // nail polish
+	{18657, 18667}, // name badge
+	{14347, 14360}, // national park
+	{12576, 12590}, // nauseated face
+	{16139, 16151}, // nazar amulet
+	{20702, 20709}, // necktie
+	{19633, 19642}, // nerd face
+	{12590, 12604}, // nest with eggs
+	{14360, 14373}, // nesting dolls
+	{11120, 11135}, // net with handle
+	{16151, 16163}, // neutral face
+	{14373, 14381}, // new moon
+	{14373, 14386}, // new moon face
+	{7403, 7412},   // newspaper
+	{9183, 9200},   // next track button
+	{10290, 10306}, // night with stars
+	{12604, 12618}, // nine o’clock
+	{17640, 17651}, // nine-thirty
+	{21554, 21559}, // ninja
+	{17651, 17662}, // no bicycles
+	{20265, 20273}, // no entry
+	{16163, 16175}, // no littering
+	{10306, 10322}, // no mobile phones
+	{5705, 5726},   // no one under eighteen
+	{12618, 12632}, // no pedestrians
+	{18667, 18677}, // no smoking
+	{9200, 9217},   // non-potable water
+	{3275, 3279},   // nose
+	{1552, 1560},   // notebook
+	{1552, 1582},   // notebook with decorative cover
+	{16175, 16187}, // nut and bolt
+	{20709, 20716}, // octopus
+	{21754, 21758}, // oden
+	{11135, 11150}, // office building
+	{7589, 7602},   // office worker
+	{21758, 21762}, // ogre
+	{20273, 20281}, // oil drum
+	{20716, 20723}, // old key
+	{20723, 20730}, // old man
+	{19642, 19651}, // old woman
+	{16187, 16199}, // older person
+	{21559, 21564}, // olive
 	{134, 136},     // om
-	{7159, 7178},   // oncoming automobile
-	{16136, 16148}, // oncoming bus
-	{14323, 14336}, // oncoming fist
-	{7178, 7197},   // oncoming police car
-	{14336, 14349}, // oncoming taxi
-	{14349, 14362}, // one o’clock
-	{8044, 8062},   // one-piece swimsuit
-	{18614, 18624}, // one-thirty
-	{21501, 21506}, // onion
-	{19588, 19597}, // open book
-	{10259, 10275}, // open file folder
-	{2366, 2376},   // open hands
-	{1519, 1549},   // open mailbox with lowered flag
-	{1898, 1927},   // open mailbox with raised flag
-	{16148, 16160}, // optical disk
-	{17599, 17610}, // orange book
-	{14362, 14375}, // orange circle
-	{16160, 16172}, // orange heart
-	{14375, 14388}, // orange square
-	{19597, 19606}, // orangutan
-	{21699, 21703}, // orca
-	{12569, 12583}, // orthodox cross
-	{21506, 21511}, // otter
-	{17610, 17621}, // outbox tray
-	{10113, 10116}, // owl
-	{983, 985},     // ox
-	{21129, 21135}, // oyster
-	{20667, 20674}, // package
-	{12583, 12597}, // page facing up
-	{12597, 12611}, // page with curl
-	{21511, 21516}, // pager
-	{18624, 18634}, // paintbrush
-	{12611, 12625}, // palm down hand
-	{19606, 19615}, // palm tree
-	{16172, 16184}, // palm up hand
-	{9154, 9171},   // palms up together
-	{20218, 20226}, // pancakes
-	{21516, 21521}, // panda
-	{9059, 9068},   // paperclip
-	{19615, 19624}, // parachute
-	{21135, 21141}, // parrot
-	{5663, 5684},   // part alternation mark
-	{16184, 16196}, // party popper
-	{14388, 14401}, // partying face
-	{12625, 12639}, // passenger ship
-	{10275, 10291}, // passport control
-	{6467, 6479},   // pause button
-	{18634, 18644}, // paw prints
-	{20674, 20681}, // pea pod
-	{16196, 16208}, // peace symbol
-	{21521, 21526}, // peach
-	{20681, 20688}, // peacock
-	{20688, 20695}, // peanuts
-	{21703, 21707}, // pear
+	{7222, 7241},   // oncoming automobile
+	{16199, 16211}, // oncoming bus
+	{14386, 14399}, // oncoming fist
+	{7241, 7260},   // oncoming police car
+	{14399, 14412}, // oncoming taxi
+	{14412, 14425}, // one o’clock
+	{8107, 8125},   // one-piece swimsuit
+	{18677, 18687}, // one-thirty
+	{21564, 21569}, // onion
+	{19651, 19660}, // open book
+	{10322, 10338}, // open file folder
+	{2429, 2439},   // open hands
+	{1582, 1612},   // open mailbox with lowered flag
+	{1961, 1990},   // open mailbox with raised flag
+	{16211, 16223}, // optical disk
+	{17662, 17673}, // orange book
+	{14425, 14438}, // orange circle
+	{16223, 16235}, // orange heart
+	{14438, 14451}, // orange square
+	{19660, 19669}, // orangutan
+	{21762, 21766}, // orca
+	{12632, 12646}, // orthodox cross
+	{21569, 21574}, // otter
+	{17673, 17684}, // outbox tray
+	{10176, 10179}, // owl
+	{1016, 1018},   // ox
+	{21192, 21198}, // oyster
+	{20730, 20737}, // package
+	{12646, 12660}, // page facing up
+	{12660, 12674}, // page with curl
+	{21574, 21579}, // pager
+	{18687, 18697}, // paintbrush
+	{12674, 12688}, // palm down hand
+	{19669, 19678}, // palm tree
+	{16235, 16247}, // palm up hand
+	{9217, 9234},   // palms up together
+	{20281, 20289}, // pancakes
+	{21579, 21584}, // panda
+	{9122, 9131},   // paperclip
+	{19678, 19687}, // parachute
+	{21198, 21204}, // parrot
+	{5726, 5747},   // part alternation mark
+	{16247, 16259}, // party popper
+	{14451, 14464}, // partying face
+	{12688, 12702}, // passenger ship
+	{10338, 10354}, // passport control
+	{6530, 6542},   // pause button
+	{18697, 18707}, // paw prints
+	{20737, 20744}, // pea pod
+	{16259, 16271}, // peace symbol
+	{21584, 21589}, // peach
+	{20744, 20751}, // peacock
+	{20751, 20758}, // peanuts
+	{21766, 21770}, // pear
 	{349, 352},     // pen
-	{21141, 21147}, // pencil
-	{20695, 20702}, // penguin
-	{16208, 16220}, // pensive face
-	{6399, 6419},   // people holding hands
-	{12639, 12653}, // people hugging
-	{4892, 4914},   // people with bunny ears
-	{10291, 10307}, // people wrestling
-	{11087, 11102}, // performing arts
-	{10307, 10323}, // persevering face
+	{21204, 21210}, // pencil
+	{20758, 20765}, // penguin
+	{16271, 16283}, // pensive face
+	{6462, 6482},   // people holding hands
+	{12702, 12716}, // people hugging
+	{4955, 4977},   // people with bunny ears
+	{10354, 10370}, // people wrestling
+	{11150, 11165}, // performing arts
+	{10370, 10386}, // persevering face
 	{90, 96},       // person
-	{14401, 14414}, // person biking
-	{6419, 6439},   // person bouncing ball
-	{14414, 14427}, // person bowing
-	{7197, 7216},   // person cartwheeling
-	{11102, 11117}, // person climbing
-	{8062, 8080},   // person facepalming
-	{7216, 7235},   // person feeding baby
-	{12653, 12667}, // person fencing
-	{11117, 11132}, // person frowning
-	{7235, 7254},   // person gesturing NO
-	{7254, 7273},   // person gesturing OK
-	{4914, 4936},   // person getting haircut
-	{4936, 4958},   // person getting massage
-	{12667, 12681}, // person golfing
-	{14427, 14440}, // person in bed
-	{3732, 3756},   // person in lotus position
+	{14464, 14477}, // person biking
+	{6482, 6502},   // person bouncing ball
+	{14477, 14490}, // person bowing
+	{7260, 7279},   // person cartwheeling
+	{11165, 11180}, // person climbing
+	{8125, 8143},   // person facepalming
+	{7279, 7298},   // person feeding baby
+	{12716, 12730}, // person fencing
+	{11180, 11195}, // person frowning
+	{7298, 7317},   // person gesturing NO
+	{7317, 7336},   // person gesturing OK
+	{4977, 4999},   // person getting haircut
+	{4999, 5021},   // person getting massage
+	{12730, 12744}, // person golfing
+	{14490, 14503}, // person in bed
+	{3795, 3819},   // person in lotus position
 	{296, 323},     // person in manual wheelchair
 	{296, 336},     // person in manual wheelchair facing right
 	{90, 120},      // person in motorized wheelchair
 	{90, 133},      // person in motorized wheelchair facing right
-	{5684, 5705},   // person in steamy room
-	{3391, 3416},   // person in suit levitating
-	{10323, 10339}, // person in tuxedo
-	{11132, 11147}, // person juggling
-	{2292, 2307},   // person kneeling
-	{2292, 2320},   // person kneeling facing right
-	{4958, 4980},   // person lifting weights
-	{4980, 5002},   // person mountain biking
-	{4315, 4338},   // person playing handball
-	{3416, 3441},   // person playing water polo
-	{12681, 12695}, // person pouting
-	{7273, 7292},   // person raising hand
-	{8080, 8098},   // person rowing boat
-	{2620, 2634},   // person running
-	{2620, 2647},   // person running facing right
-	{10339, 10355}, // person shrugging
-	{11147, 11162}, // person standing
-	{12695, 12709}, // person surfing
-	{11162, 11177}, // person swimming
-	{8098, 8116},   // person taking bath
-	{7292, 7311},   // person tipping hand
-	{2647, 2661},   // person walking
-	{2647, 2674},   // person walking facing right
-	{5705, 5726},   // person wearing turban
-	{9171, 9188},   // person with crown
-	{6439, 6459},   // person with skullcap
-	{10355, 10371}, // person with veil
+	{5747, 5768},   // person in steamy room
+	{3454, 3479},   // person in suit levitating
+	{10386, 10402}, // person in tuxedo
+	{11195, 11210}, // person juggling
+	{2355, 2370},   // person kneeling
+	{2355, 2383},   // person kneeling facing right
+	{5021, 5043},   // person lifting weights
+	{5043, 5065},   // person mountain biking
+	{4378, 4401},   // person playing handball
+	{3479, 3504},   // person playing water polo
+	{12744, 12758}, // person pouting
+	{7336, 7355},   // person raising hand
+	{8143, 8161},   // person rowing boat
+	{2683, 2697},   // person running
+	{2683, 2710},   // person running facing right
+	{10402, 10418}, // person shrugging
+	{11210, 11225}, // person standing
+	{12758, 12772}, // person surfing
+	{11225, 11240}, // person swimming
+	{8161, 8179},   // person taking bath
+	{7355, 7374},   // person tipping hand
+	{2710, 2724},   // person walking
+	{2710, 2737},   // person walking facing right
+	{5768, 5789},   // person wearing turban
+	{9234, 9251},   // person with crown
+	{6502, 6522},   // person with skullcap
+	{10418, 10434}, // person with veil
 	{706, 728},     // person with white cane
 	{706, 741},     // person with white cane facing right
-	{18644, 18654}, // petri dish
-	{20702, 20709}, // phoenix
-	{11008, 11012}, // pick
-	{21147, 21153}, // pickle
-	{16220, 16232}, // pickup truck
-	{8048, 8051},   // pie
-	{20226, 20229}, // pig
-	{20226, 20234}, // pig face
-	{20234, 20242}, // pig nose
-	{17621, 17632}, // pile of poo
-	{21707, 21711}, // pill
-	{17979, 17984}, // pilot
-	{11177, 11192}, // pinched fingers
-	{14440, 14453}, // pinching hand
-	{11192, 11207}, // pine decoration
-	{19624, 19633}, // pineapple
-	{19633, 19642}, // ping pong
-	{18654, 18664}, // pink heart
-	{17632, 17643}, // pirate flag
-	{21526, 21531}, // pizza
-	{20709, 20716}, // piñata
-	{20716, 20723}, // placard
-	{10371, 10387}, // place of worship
-	{17643, 17654}, // play button
-	{6459, 6479},   // play or pause button
-	{10387, 10403}, // playground slide
-	{14453, 14466}, // pleading face
-	{20723, 20730}, // plunger
-	{21711, 21715}, // plus
-	{18664, 18674}, // polar bear
-	{7187, 7197},   // police car
-	{10403, 10419}, // police car light
-	{6725, 6739},   // police officer
-	{21153, 21159}, // poodle
-	{17654, 17665}, // pool 8 ball
-	{20730, 20737}, // popcorn
-	{6008, 6019},   // post office
-	{17665, 17676}, // postal horn
-	{20737, 20744}, // postbox
-	{17676, 17687}, // pot of food
-	{9141, 9154},   // potable water
-	{6533, 6539},   // potato
-	{16232, 16244}, // potted plant
-	{17687, 17698}, // poultry leg
-	{12709, 12723}, // pound banknote
-	{12723, 12737}, // pouring liquid
-	{17698, 17709}, // pouting cat
-	{16244, 16256}, // prayer beads
-	{16256, 16268}, // pregnant man
-	{11207, 11222}, // pregnant person
-	{12737, 12751}, // pregnant woman
-	{20744, 20751}, // pretzel
-	{20242, 20248}, // prince
-	{20242, 20250}, // princess
-	{20751, 20758}, // printer
-	{951, 961},     // prohibited
-	{14466, 14479}, // purple circle
-	{16268, 16280}, // purple heart
-	{14479, 14492}, // purple square
-	{21531, 21536}, // purse
-	{14576, 14583}, // pushpin
-	{16280, 16292}, // puzzle piece
-	{17709, 17715}, // rabbit
-	{17709, 17720}, // rabbit face
-	{20758, 20765}, // raccoon
-	{18674, 18684}, // racing car
-	{16292, 16297}, // radio
-	{16292, 16304}, // radio button
-	{17720, 17731}, // radioactive
-	{17731, 17742}, // railway car
-	{14492, 14505}, // railway track
-	{16304, 16311}, // rainbow
-	{16304, 16316}, // rainbow flag
-	{7311, 7330},   // raised back of hand
-	{17742, 17753}, // raised fist
-	{17753, 17764}, // raised hand
-	{14505, 14518}, // raising hands
-	{11513, 11516}, // ram
+	{18707, 18717}, // petri dish
+	{20765, 20772}, // phoenix
+	{11071, 11075}, // pick
+	{21210, 21216}, // pickle
+	{16283, 16295}, // pickup truck
+	{8111, 8114},   // pie
+	{20289, 20292}, // pig
+	{20289, 20297}, // pig face
+	{20297, 20305}, // pig nose
+	{17684, 17695}, // pile of poo
+	{21770, 21774}, // pill
+	{18042, 18047}, // pilot
+	{11240, 11255}, // pinched fingers
+	{14503, 14516}, // pinching hand
+	{11255, 11270}, // pine decoration
+	{19687, 19696}, // pineapple
+	{19696, 19705}, // ping pong
+	{18717, 18727}, // pink heart
+	{17695, 17706}, // pirate flag
+	{21589, 21594}, // pizza
+	{20772, 20779}, // piñata
+	{20779, 20786}, // placard
+	{10434, 10450}, // place of worship
+	{17706, 17717}, // play button
+	{6522, 6542},   // play or pause button
+	{10450, 10466}, // playground slide
+	{14516, 14529}, // pleading face
+	{20786, 20793}, // plunger
+	{21774, 21778}, // plus
+	{18727, 18737}, // polar bear
+	{7250, 7260},   // police car
+	{10466, 10482}, // police car light
+	{6788, 6802},   // police officer
+	{21216, 21222}, // poodle
+	{17717, 17728}, // pool 8 ball
+	{20793, 20800}, // popcorn
+	{6071, 6082},   // post office
+	{17728, 17739}, // postal horn
+	{20800, 20807}, // postbox
+	{17739, 17750}, // pot of food
+	{9204, 9217},   // potable water
+	{6596, 6602},   // potato
+	{16295, 16307}, // potted plant
+	{17750, 17761}, // poultry leg
+	{12772, 12786}, // pound banknote
+	{12786, 12800}, // pouring liquid
+	{17761, 17772}, // pouting cat
+	{16307, 16319}, // prayer beads
+	{16319, 16331}, // pregnant man
+	{11270, 11285}, // pregnant person
+	{12800, 12814}, // pregnant woman
+	{20807, 20814}, // pretzel
+	{20305, 20311}, // prince
+	{20305, 20313}, // princess
+	{20814, 20821}, // printer
+	{984, 994},     // prohibited
+	{14529, 14542}, // purple circle
+	{16331, 16343}, // purple heart
+	{14542, 14555}, // purple square
+	{21594, 21599}, // purse
+	{14639, 14646}, // pushpin
+	{16343, 16355}, // puzzle piece
+	{17772, 17778}, // rabbit
+	{17772, 17783}, // rabbit face
+	{20821, 20828}, // raccoon
+	{18737, 18747}, // racing car
+	{16355, 16360}, // radio
+	{16355, 16367}, // radio button
+	{17783, 17794}, // radioactive
+	{17794, 17805}, // railway car
+	{14555, 14568}, // railway track
+	{16367, 16374}, // rainbow
+	{16367, 16379}, // rainbow flag
+	{7374, 7393},   // raised back of hand
+	{17805, 17816}, // raised fist
+	{17816, 17827}, // raised hand
+	{14568, 14581}, // raising hands
+	{11576, 11579}, // ram
 	{469, 472},     // rat
-	{21536, 21541}, // razor
-	{20765, 20772}, // receipt
-	{14518, 14531}, // record button
-	{10419, 10435}, // recycling symbol
-	{19642, 19651}, // red apple
-	{8991, 9001},   // red circle
-	{16316, 16328}, // red envelope
-	{6479, 6499},   // red exclamation mark
-	{19651, 19660}, // red heart
-	{9188, 9205},   // red paper lantern
-	{9205, 9222},   // red question mark
-	{18684, 18694}, // red square
-	{3441, 3466},   // red triangle pointed down
-	{4338, 4361},   // red triangle pointed up
-	{18694, 18704}, // registered
-	{5755, 5768},   // relieved face
-	{11222, 11237}, // reminder ribbon
-	{14531, 14544}, // repeat button
-	{6499, 6519},   // repeat single button
-	{3756, 3780},   // rescue worker’s helmet
-	{20250, 20258}, // restroom
-	{6936, 6950},   // reverse button
-	{10435, 10451}, // revolving hearts
-	{18704, 18714}, // rhinoceros
-	{8944, 8950},   // ribbon
-	{19660, 19669}, // rice ball
-	{16328, 16340}, // rice cracker
-	{8116, 8134},   // right anger bubble
-	{3780, 3791},   // right arrow
-	{3780, 3804},   // right arrow curving down
-	{3804, 3828},   // right arrow curving left
-	{5002, 5024},   // right arrow curving up
-	{9222, 9239},   // right-facing fist
-	{11237, 11252}, // rightwards hand
-	{4361, 4384},   // rightwards pushing hand
-	{5726, 5747},   // rightwards thumb sign
-	{4280, 4284},   // ring
-	{19669, 19678}, // ring buoy
-	{14544, 14557}, // ringed planet
-	{6519, 6539},   // roasted sweet potato
-	{21541, 21546}, // robot
-	{20310, 20314}, // rock
-	{21159, 21165}, // rocket
-	{14557, 14570}, // roll of paper
-	{7330, 7349},   // rolled-up newspaper
-	{12751, 12765}, // roller coaster
-	{16340, 16352}, // roller skate
-	{1927, 1956},   // rolling on the floor laughing
-	{20772, 20779}, // rooster
-	{12765, 12779}, // root vegetable
-	{20779, 20783}, // rose
-	{20779, 20786}, // rosette
-	{14570, 14583}, // round pushpin
-	{12779, 12793}, // rugby football
-	{14583, 14596}, // running shirt
-	{16352, 16364}, // running shoe
-	{5747, 5768},   // sad but relieved face
-	{18714, 18724}, // safety pin
-	{17764, 17775}, // safety vest
-	{20258, 20266}, // sailboat
-	{21715, 21719}, // sake
-	{21719, 21723}, // salt
-	{14596, 14609}, // saluting face
-	{20266, 20274}, // sandwich
-	{21723, 21727}, // sari
-	{9239, 9248},   // satellite
-	{9239, 9256},   // satellite antenna
-	{20274, 20282}, // sauropod
-	{19678, 19687}, // saxophone
-	{6774, 6779},   // scarf
-	{21165, 21171}, // school
-	{11408, 11417}, // scientist
-	{20282, 20290}, // scissors
-	{20290, 20298}, // scorpion
-	{17775, 17786}, // screwdriver
-	{21171, 21177}, // scroll
-	{21727, 21731}, // seal
-	{12516, 12520}, // seat
-	{8134, 8152},   // see-no-evil monkey
-	{20298, 20306}, // seedling
-	{21177, 21183}, // selfie
-	{17786, 17797}, // service dog
-	{11252, 11267}, // seven o’clock
-	{16364, 16376}, // seven-thirty
-	{14609, 14622}, // sewing needle
-	{16376, 16388}, // shaking face
-	{7349, 7368},   // shallow pan of food
-	{20306, 20314}, // shamrock
-	{21546, 21551}, // shark
-	{18724, 18734}, // shaved ice
-	{14622, 14635}, // sheaf of rice
-	{21183, 21189}, // shield
-	{14635, 14648}, // shinto shrine
-	{10383, 10387}, // ship
-	{14648, 14661}, // shooting star
-	{14661, 14674}, // shopping bags
-	{14674, 14687}, // shopping cart
-	{19687, 19696}, // shortcake
-	{21189, 21195}, // shorts
-	{21195, 21201}, // shovel
-	{21201, 21207}, // shower
-	{15878, 15884}, // shrimp
-	{5768, 5789},   // shuffle tracks button
-	{14687, 14700}, // shushing face
-	{9256, 9273},   // sign of the horns
-	{16574, 16580}, // singer
-	{14700, 14713}, // six o’clock
-	{18734, 18744}, // six-thirty
-	{18744, 18754}, // skateboard
-	{21551, 21556}, // skier
-	{1458, 1462},   // skis
-	{6451, 6456},   // skull
-	{6539, 6559},   // skull and crossbones
-	{21556, 21561}, // skunk
-	{21731, 21735}, // sled
-	{14713, 14726}, // sleeping face
-	{17797, 17808}, // sleepy face
-	{5024, 5046},   // slightly frowning face
-	{5789, 5810},   // slightly smiling face
-	{16388, 16400}, // slot machine
-	{21561, 21566}, // sloth
-	{12793, 12807}, // small airplane
-	{8152, 8170},   // small blue diamond
-	{6559, 6579},   // small orange diamond
-	{2674, 2701},   // smiling cat with heart-eyes
-	{1549, 1561},   // smiling face
-	{5046, 5068},   // smiling face with halo
-	{2320, 2348},   // smiling face with heart-eyes
-	{3828, 3852},   // smiling face with hearts
-	{4384, 4407},   // smiling face with horns
-	{2348, 2376},   // smiling face with open hands
-	{1549, 1579},   // smiling face with smiling eyes
-	{2376, 2404},   // smiling face with sunglasses
-	{5068, 5090},   // smiling face with tear
-	{14726, 14739}, // smirking face
-	{21566, 21571}, // snail
-	{21571, 21576}, // snake
-	{14739, 14752}, // sneezing face
-	{6579, 6599},   // snow-capped mountain
-	{17808, 17819}, // snowboarder
-	{19696, 19705}, // snowflake
-	{6599, 6606},   // snowman
-	{6599, 6619},   // snowman without snow
-	{21735, 21739}, // soap
-	{17819, 17830}, // soccer ball
-	{21576, 21581}, // socks
-	{12807, 12821}, // soft ice cream
-	{20314, 20322}, // softball
-	{18754, 18764}, // spade suit
-	{19705, 19714}, // spaghetti
-	{20322, 20329}, // sparkle
-	{20322, 20330}, // sparkler
-	{20330, 20338}, // sparkles
-	{11267, 11282}, // sparkling heart
-	{6619, 6639},   // speak-no-evil monkey
-	{7368, 7387},   // speaker high volume
-	{8170, 8188},   // speaker low volume
-	{5810, 5831},   // speaker medium volume
-	{14752, 14765}, // speaking head
-	{12821, 12835}, // speech balloon
-	{19714, 19723}, // speedboat
-	{18764, 18770}, // spider
-	{18764, 18774}, // spider web
-	{11282, 11297}, // spiral calendar
-	{12835, 12849}, // spiral notepad
-	{16400, 16412}, // spiral shell
-	{20338, 20346}, // splatter
-	{21207, 21213}, // sponge
-	{10647, 10652}, // spoon
-	{5831, 5852},   // sport utility vehicle
-	{16412, 16424}, // sports medal
-	{12849, 12863}, // spouting whale
-	{21581, 21586}, // squid
-	{2963, 2989},   // squinting face with tongue
-	{20786, 20793}, // stadium
-	{3966, 3970},   // star
-	{9273, 9290},   // star and crescent
-	{14765, 14778}, // star of David
-	{17830, 17841}, // star-struck
-	{20793, 20800}, // station
-	{14778, 14791}, // steaming bowl
-	{17841, 17852}, // stethoscope
-	{17852, 17863}, // stop button
-	{19723, 19732}, // stop sign
-	{19732, 19741}, // stopwatch
-	{12863, 12877}, // straight ruler
-	{18774, 18784}, // strawberry
-	{15031, 15038}, // student
-	{9290, 9307},   // studio microphone
-	{9307, 9324},   // stuffed flatbread
-	{2394, 2397},   // sun
-	{10451, 10467}, // sun behind cloud
-	{5090, 5112},   // sun behind large cloud
-	{5852, 5873},   // sun behind rain cloud
-	{5112, 5134},   // sun behind small cloud
-	{14791, 14804}, // sun with face
-	{19741, 19750}, // sunflower
-	{2394, 2404},   // sunglasses
-	{5134, 5141},   // sunrise
-	{5134, 5156},   // sunrise over mountains
-	{21213, 21219}, // sunset
-	{11438, 11447}, // superhero
-	{8392, 8404},   // supervillain
-	{21586, 21591}, // sushi
-	{8188, 8206},   // suspension railway
-	{11906, 11910}, // swan
-	{12877, 12891}, // sweat droplets
-	{19750, 19759}, // synagogue
-	{20800, 20807}, // syringe
-	{20807, 20814}, // t-shirt
-	{21739, 21743}, // taco
-	{17863, 17874}, // takeout box
-	{21219, 21225}, // tamale
-	{14804, 14817}, // tanabata tree
-	{19759, 19768}, // tangerine
-	{14345, 14349}, // taxi
-	{15057, 15064}, // teacher
-	{5873, 5894},   // teacup without handle
-	{21225, 21231}, // teapot
-	{9324, 9341},   // tear-off calendar
-	{8410, 8422},   // technologist
-	{18784, 18794}, // teddy bear
-	{8206, 8215},   // telephone
-	{8206, 8224},   // telephone receiver
-	{19768, 19777}, // telescope
-	{18794, 18804}, // television
-	{14817, 14830}, // ten o’clock
-	{18804, 18814}, // ten-thirty
-	{21231, 21237}, // tennis
-	{16858, 16862}, // tent
-	{19777, 19786}, // test tube
-	{5400, 5411},   // thermometer
-	{14830, 14843}, // thinking face
-	{16424, 16436}, // thong sandal
-	{11297, 11312}, // thought balloon
-	{21237, 21243}, // thread
-	{11312, 11327}, // three o’clock
-	{16436, 16448}, // three-thirty
-	{17874, 17885}, // thumbs down
-	{19786, 19795}, // thumbs up
-	{8467, 8473},   // ticket
-	{18814, 18819}, // tiger
-	{18814, 18824}, // tiger face
-	{17885, 17896}, // timer clock
-	{18824, 18834}, // tired face
-	{21243, 21249}, // toilet
-	{21249, 21255}, // tomato
-	{2983, 2989},   // tongue
-	{20814, 20821}, // toolbox
-	{18834, 18839}, // tooth
-	{18834, 18844}, // toothbrush
-	{20821, 20828}, // top hat
-	{20828, 20835}, // tornado
-	{19795, 19804}, // trackball
-	{20835, 20842}, // tractor
-	{18844, 18854}, // trade mark
-	{10062, 10067}, // train
-	{11512, 11516}, // tram
-	{20346, 20354}, // tram car
-	{10467, 10483}, // transgender flag
-	{8224, 8242},   // transgender symbol
-	{12891, 12905}, // treasure chest
-	{11327, 11342}, // triangular flag
-	{10483, 10499}, // triangular ruler
-	{12905, 12919}, // trident emblem
-	{14556, 14561}, // troll
-	{18854, 18864}, // trolleybus
-	{20354, 20362}, // trombone
-	{21255, 21261}, // trophy
-	{12919, 12933}, // tropical drink
-	{14843, 14856}, // tropical fish
-	{20842, 20849}, // trumpet
-	{21591, 21596}, // tulip
-	{14856, 14869}, // tumbler glass
-	{21261, 21267}, // turkey
-	{21267, 21273}, // turtle
-	{10499, 10515}, // twelve o’clock
-	{14869, 14882}, // twelve-thirty
-	{18864, 18874}, // two hearts
-	{14882, 14895}, // two o’clock
-	{12933, 12947}, // two-hump camel
-	{18874, 18884}, // two-thirty
-	{3852, 3860},   // umbrella
-	{8242, 8260},   // umbrella on ground
-	{3852, 3876},   // umbrella with rain drops
-	{14895, 14908}, // unamused face
-	{20849, 20856}, // unicorn
-	{20362, 20370}, // unlocked
-	{20370, 20378}, // up arrow
-	{14908, 14921}, // up-down arrow
-	{14921, 14934}, // up-left arrow
-	{12947, 12961}, // up-right arrow
-	{10515, 10531}, // upside-down face
-	{12961, 12975}, // upwards button
-	{15070, 15077}, // vampire
-	{5156, 5178},   // vertical traffic light
-	{12975, 12989}, // vibration mode
-	{16448, 16460}, // victory hand
-	{16460, 16472}, // video camera
-	{18884, 18894}, // video game
-	{14934, 14947}, // videocassette
-	{21273, 21279}, // violin
-	{20856, 20863}, // volcano
-	{18894, 18904}, // volleyball
-	{14947, 14960}, // vulcan salute
-	{21279, 21285}, // waffle
-	{6639, 6659},   // waning crescent moon
-	{7387, 7406},   // waning gibbous moon
-	{20863, 20870}, // warning
-	{17896, 17907}, // wastebasket
-	{19736, 19741}, // watch
-	{14960, 14973}, // water buffalo
-	{16472, 16484}, // water closet
-	{16484, 16496}, // water pistol
-	{18904, 18914}, // water wave
-	{18914, 18924}, // watermelon
-	{17907, 17918}, // waving hand
-	{19804, 19813}, // wavy dash
-	{6659, 6679},   // waxing crescent moon
-	{7406, 7425},   // waxing gibbous moon
-	{19813, 19822}, // weary cat
-	{18924, 18934}, // weary face
-	{20870, 20877}, // wedding
-	{12858, 12863}, // whale
+	{21599, 21604}, // razor
+	{20828, 20835}, // receipt
+	{14581, 14594}, // record button
+	{10482, 10498}, // recycling symbol
+	{19705, 19714}, // red apple
+	{9054, 9064},   // red circle
+	{16379, 16391}, // red envelope
+	{6542, 6562},   // red exclamation mark
+	{19714, 19723}, // red heart
+	{9251, 9268},   // red paper lantern
+	{9268, 9285},   // red question mark
+	{18747, 18757}, // red square
+	{3504, 3529},   // red triangle pointed down
+	{4401, 4424},   // red triangle pointed up
+	{18757, 18767}, // registered
+	{5818, 5831},   // relieved face
+	{11285, 11300}, // reminder ribbon
+	{14594, 14607}, // repeat button
+	{6562, 6582},   // repeat single button
+	{3819, 3843},   // rescue worker’s helmet
+	{20313, 20321}, // restroom
+	{6999, 7013},   // reverse button
+	{10498, 10514}, // revolving hearts
+	{18767, 18777}, // rhinoceros
+	{9007, 9013},   // ribbon
+	{19723, 19732}, // rice ball
+	{16391, 16403}, // rice cracker
+	{8179, 8197},   // right anger bubble
+	{3843, 3854},   // right arrow
+	{3843, 3867},   // right arrow curving down
+	{3867, 3891},   // right arrow curving left
+	{5065, 5087},   // right arrow curving up
+	{9285, 9302},   // right-facing fist
+	{11300, 11315}, // rightwards hand
+	{4424, 4447},   // rightwards pushing hand
+	{5789, 5810},   // rightwards thumb sign
+	{4343, 4347},   // ring
+	{19732, 19741}, // ring buoy
+	{14607, 14620}, // ringed planet
+	{6582, 6602},   // roasted sweet potato
+	{21604, 21609}, // robot
+	{20373, 20377}, // rock
+	{21222, 21228}, // rocket
+	{14620, 14633}, // roll of paper
+	{7393, 7412},   // rolled-up newspaper
+	{12814, 12828}, // roller coaster
+	{16403, 16415}, // roller skate
+	{1990, 2019},   // rolling on the floor laughing
+	{20835, 20842}, // rooster
+	{12828, 12842}, // root vegetable
+	{20842, 20846}, // rose
+	{20842, 20849}, // rosette
+	{14633, 14646}, // round pushpin
+	{12842, 12856}, // rugby football
+	{14646, 14659}, // running shirt
+	{16415, 16427}, // running shoe
+	{5810, 5831},   // sad but relieved face
+	{18777, 18787}, // safety pin
+	{17827, 17838}, // safety vest
+	{20321, 20329}, // sailboat
+	{21778, 21782}, // sake
+	{21782, 21786}, // salt
+	{14659, 14672}, // saluting face
+	{20329, 20337}, // sandwich
+	{21786, 21790}, // sari
+	{9302, 9311},   // satellite
+	{9302, 9319},   // satellite antenna
+	{20337, 20345}, // sauropod
+	{19741, 19750}, // saxophone
+	{6837, 6842},   // scarf
+	{21228, 21234}, // school
+	{11471, 11480}, // scientist
+	{20345, 20353}, // scissors
+	{20353, 20361}, // scorpion
+	{17838, 17849}, // screwdriver
+	{21234, 21240}, // scroll
+	{21790, 21794}, // seal
+	{12579, 12583}, // seat
+	{8197, 8215},   // see-no-evil monkey
+	{20361, 20369}, // seedling
+	{21240, 21246}, // selfie
+	{17849, 17860}, // service dog
+	{11315, 11330}, // seven o’clock
+	{16427, 16439}, // seven-thirty
+	{14672, 14685}, // sewing needle
+	{16439, 16451}, // shaking face
+	{7412, 7431},   // shallow pan of food
+	{20369, 20377}, // shamrock
+	{21609, 21614}, // shark
+	{18787, 18797}, // shaved ice
+	{14685, 14698}, // sheaf of rice
+	{21246, 21252}, // shield
+	{14698, 14711}, // shinto shrine
+	{10446, 10450}, // ship
+	{14711, 14724}, // shooting star
+	{14724, 14737}, // shopping bags
+	{14737, 14750}, // shopping cart
+	{19750, 19759}, // shortcake
+	{21252, 21258}, // shorts
+	{21258, 21264}, // shovel
+	{21264, 21270}, // shower
+	{15941, 15947}, // shrimp
+	{5831, 5852},   // shuffle tracks button
+	{14750, 14763}, // shushing face
+	{9319, 9336},   // sign of the horns
+	{16637, 16643}, // singer
+	{14763, 14776}, // six o’clock
+	{18797, 18807}, // six-thirty
+	{18807, 18817}, // skateboard
+	{21614, 21619}, // skier
+	{1521, 1525},   // skis
+	{6514, 6519},   // skull
+	{6602, 6622},   // skull and crossbones
+	{21619, 21624}, // skunk
+	{21794, 21798}, // sled
+	{14776, 14789}, // sleeping face
+	{17860, 17871}, // sleepy face
+	{5087, 5109},   // slightly frowning face
+	{5852, 5873},   // slightly smiling face
+	{16451, 16463}, // slot machine
+	{21624, 21629}, // sloth
+	{12856, 12870}, // small airplane
+	{8215, 8233},   // small blue diamond
+	{6622, 6642},   // small orange diamond
+	{2737, 2764},   // smiling cat with heart-eyes
+	{1612, 1624},   // smiling face
+	{5109, 5131},   // smiling face with halo
+	{2383, 2411},   // smiling face with heart-eyes
+	{3891, 3915},   // smiling face with hearts
+	{4447, 4470},   // smiling face with horns
+	{2411, 2439},   // smiling face with open hands
+	{1612, 1642},   // smiling face with smiling eyes
+	{2439, 2467},   // smiling face with sunglasses
+	{5131, 5153},   // smiling face with tear
+	{14789, 14802}, // smirking face
+	{21629, 21634}, // snail
+	{21634, 21639}, // snake
+	{14802, 14815}, // sneezing face
+	{6642, 6662},   // snow-capped mountain
+	{17871, 17882}, // snowboarder
+	{19759, 19768}, // snowflake
+	{6662, 6669},   // snowman
+	{6662, 6682},   // snowman without snow
+	{21798, 21802}, // soap
+	{17882, 17893}, // soccer ball
+	{21639, 21644}, // socks
+	{12870, 12884}, // soft ice cream
+	{20377, 20385}, // softball
+	{18817, 18827}, // spade suit
+	{19768, 19777}, // spaghetti
+	{20385, 20392}, // sparkle
+	{20385, 20393}, // sparkler
+	{20393, 20401}, // sparkles
+	{11330, 11345}, // sparkling heart
+	{6682, 6702},   // speak-no-evil monkey
+	{7431, 7450},   // speaker high volume
+	{8233, 8251},   // speaker low volume
+	{5873, 5894},   // speaker medium volume
+	{14815, 14828}, // speaking head
+	{12884, 12898}, // speech balloon
+	{19777, 19786}, // speedboat
+	{18827, 18833}, // spider
+	{18827, 18837}, // spider web
+	{11345, 11360}, // spiral calendar
+	{12898, 12912}, // spiral notepad
+	{16463, 16475}, // spiral shell
+	{20401, 20409}, // splatter
+	{21270, 21276}, // sponge
+	{10710, 10715}, // spoon
+	{5894, 5915},   // sport utility vehicle
+	{16475, 16487}, // sports medal
+	{12912, 12926}, // spouting whale
+	{21644, 21649}, // squid
+	{3026, 3052},   // squinting face with tongue
+	{20849, 20856}, // stadium
+	{4029, 4033},   // star
+	{9336, 9353},   // star and crescent
+	{14828, 14841}, // star of David
+	{17893, 17904}, // star-struck
+	{20856, 20863}, // station
+	{14841, 14854}, // steaming bowl
+	{17904, 17915}, // stethoscope
+	{17915, 17926}, // stop button
+	{19786, 19795}, // stop sign
+	{19795, 19804}, // stopwatch
+	{12926, 12940}, // straight ruler
+	{18837, 18847}, // strawberry
+	{15094, 15101}, // student
+	{9353, 9370},   // studio microphone
+	{9370, 9387},   // stuffed flatbread
+	{2457, 2460},   // sun
+	{10514, 10530}, // sun behind cloud
+	{5153, 5175},   // sun behind large cloud
+	{5915, 5936},   // sun behind rain cloud
+	{5175, 5197},   // sun behind small cloud
+	{14854, 14867}, // sun with face
+	{19804, 19813}, // sunflower
+	{2457, 2467},   // sunglasses
+	{5197, 5204},   // sunrise
+	{5197, 5219},   // sunrise over mountains
+	{21276, 21282}, // sunset
+	{11501, 11510}, // superhero
+	{8455, 8467},   // supervillain
+	{21649, 21654}, // sushi
+	{8251, 8269},   // suspension railway
+	{11969, 11973}, // swan
+	{12940, 12954}, // sweat droplets
+	{19813, 19822}, // synagogue
+	{20863, 20870}, // syringe
+	{20870, 20877}, // t-shirt
+	{21802, 21806}, // taco
+	{17926, 17937}, // takeout box
+	{21282, 21288}, // tamale
+	{14867, 14880}, // tanabata tree
+	{19822, 19831}, // tangerine
+	{14408, 14412}, // taxi
+	{15120, 15127}, // teacher
+	{5936, 5957},   // teacup without handle
+	{21288, 21294}, // teapot
+	{9387, 9404},   // tear-off calendar
+	{8473, 8485},   // technologist
+	{18847, 18857}, // teddy bear
+	{8269, 8278},   // telephone
+	{8269, 8287},   // telephone receiver
+	{19831, 19840}, // telescope
+	{18857, 18867}, // television
+	{14880, 14893}, // ten o’clock
+	{18867, 18877}, // ten-thirty
+	{21294, 21300}, // tennis
+	{16921, 16925}, // tent
+	{19840, 19849}, // test tube
+	{5463, 5474},   // thermometer
+	{14893, 14906}, // thinking face
+	{16487, 16499}, // thong sandal
+	{11360, 11375}, // thought balloon
+	{21300, 21306}, // thread
+	{11375, 11390}, // three o’clock
+	{16499, 16511}, // three-thirty
+	{17937, 17948}, // thumbs down
+	{19849, 19858}, // thumbs up
+	{8530, 8536},   // ticket
+	{18877, 18882}, // tiger
+	{18877, 18887}, // tiger face
+	{17948, 17959}, // timer clock
+	{18887, 18897}, // tired face
+	{21306, 21312}, // toilet
+	{21312, 21318}, // tomato
+	{3046, 3052},   // tongue
+	{20877, 20884}, // toolbox
+	{18897, 18902}, // tooth
+	{18897, 18907}, // toothbrush
+	{20884, 20891}, // top hat
+	{20891, 20898}, // tornado
+	{19858, 19867}, // trackball
+	{20898, 20905}, // tractor
+	{18907, 18917}, // trade mark
+	{10125, 10130}, // train
+	{11575, 11579}, // tram
+	{20409, 20417}, // tram car
+	{10530, 10546}, // transgender flag
+	{8287, 8305},   // transgender symbol
+	{12954, 12968}, // treasure chest
+	{11390, 11405}, // triangular flag
+	{10546, 10562}, // triangular ruler
+	{12968, 12982}, // trident emblem
+	{14619, 14624}, // troll
+	{18917, 18927}, // trolleybus
+	{20417, 20425}, // trombone
+	{21318, 21324}, // trophy
+	{12982, 12996}, // tropical drink
+	{14906, 14919}, // tropical fish
+	{20905, 20912}, // trumpet
+	{21654, 21659}, // tulip
+	{14919, 14932}, // tumbler glass
+	{21324, 21330}, // turkey
+	{21330, 21336}, // turtle
+	{10562, 10578}, // twelve o’clock
+	{14932, 14945}, // twelve-thirty
+	{18927, 18937}, // two hearts
+	{14945, 14958}, // two o’clock
+	{12996, 13010}, // two-hump camel
+	{18937, 18947}, // two-thirty
+	{3915, 3923},   // umbrella
+	{8305, 8323},   // umbrella on ground
+	{3915, 3939},   // umbrella with rain drops
+	{14958, 14971}, // unamused face
+	{20912, 20919}, // unicorn
+	{20425, 20433}, // unlocked
+	{20433, 20441}, // up arrow
+	{14971, 14984}, // up-down arrow
+	{14984, 14997}, // up-left arrow
+	{13010, 13024}, // up-right arrow
+	{10578, 10594}, // upside-down face
+	{13024, 13038}, // upwards button
+	{15133, 15140}, // vampire
+	{5219, 5241},   // vertical traffic light
+	{13038, 13052}, // vibration mode
+	{16511, 16523}, // victory hand
+	{16523, 16535}, // video camera
+	{18947, 18957}, // video game
+	{14997, 15010}, // videocassette
+	{21336, 21342}, // violin
+	{20919, 20926}, // volcano
+	{18957, 18967}, // volleyball
+	{15010, 15023}, // vulcan salute
+	{21342, 21348}, // waffle
+	{6702, 6722},   // waning crescent moon
+	{7450, 7469},   // waning gibbous moon
+	{20926, 20933}, // warning
+	{17959, 17970}, // wastebasket
+	{19799, 19804}, // watch
+	{15023, 15036}, // water buffalo
+	{16535, 16547}, // water closet
+	{16547, 16559}, // water pistol
+	{18967, 18977}, // water wave
+	{18977, 18987}, // watermelon
+	{17970, 17981}, // waving hand
+	{19867, 19876}, // wavy dash
+	{6722, 6742},   // waxing crescent moon
+	{7469, 7488},   // waxing gibbous moon
+	{19876, 19885}, // weary cat
+	{18987, 18997}, // weary face
+	{20933, 20940}, // wedding
+	{12921, 12926}, // whale
 	{110, 115},     // wheel
-	{11342, 11357}, // wheel of dharma
-	{9341, 9358},   // wheelchair symbol
+	{11405, 11420}, // wheel of dharma
+	{9404, 9421},   // wheelchair symbol
 	{718, 728},     // white cane
-	{16496, 16508}, // white circle
-	{5178, 5200},   // white exclamation mark
-	{18934, 18944}, // white flag
-	{16508, 16520}, // white flower
-	{17918, 17929}, // white heart
-	{8260, 8278},   // white large square
-	{7425, 7444},   // white medium square
-	{3466, 3491},   // white medium-small square
-	{7444, 7463},   // white question mark
-	{8278, 8296},   // white small square
-	{7463, 7482},   // white square button
-	{14973, 14986}, // wilted flower
-	{18944, 18954}, // wind chime
-	{19822, 19831}, // wind face
-	{21285, 21291}, // window
-	{18954, 18964}, // wine glass
-	{2217, 2221},   // wing
-	{3876, 3888},   // winking face
-	{3876, 3900},   // winking face with tongue
-	{20378, 20386}, // wireless
-	{21743, 21747}, // wolf
+	{16559, 16571}, // white circle
+	{5241, 5263},   // white exclamation mark
+	{18997, 19007}, // white flag
+	{16571, 16583}, // white flower
+	{17981, 17992}, // white heart
+	{8323, 8341},   // white large square
+	{7488, 7507},   // white medium square
+	{3529, 3554},   // white medium-small square
+	{7507, 7526},   // white question mark
+	{8341, 8359},   // white small square
+	{7526, 7545},   // white square button
+	{15036, 15049}, // wilted flower
+	{19007, 19017}, // wind chime
+	{19885, 19894}, // wind face
+	{21348, 21354}, // window
+	{19017, 19027}, // wine glass
+	{2280, 2284},   // wing
+	{3939, 3951},   // winking face
+	{3939, 3963},   // winking face with tongue
+	{20441, 20449}, // wireless
+	{21806, 21810}, // wolf
 	{133, 138},     // woman
-	{2701, 2728},   // woman and man holding hands
-	{16520, 16532}, // woman artist
-	{11357, 11372}, // woman astronaut
-	{16532, 16544}, // woman biking
-	{7482, 7501},   // woman bouncing ball
-	{16544, 16556}, // woman bowing
-	{8296, 8314},   // woman cartwheeling
-	{12989, 13003}, // woman climbing
-	{3491, 3516},   // woman construction worker
-	{18964, 18974}, // woman cook
-	{14986, 14999}, // woman dancing
-	{11372, 11387}, // woman detective
-	{19831, 19840}, // woman elf
-	{9358, 9375},   // woman facepalming
-	{6679, 6699},   // woman factory worker
-	{17929, 17940}, // woman fairy
-	{16556, 16568}, // woman farmer
-	{8314, 8332},   // woman feeding baby
-	{9375, 9392},   // woman firefighter
-	{13003, 13017}, // woman frowning
-	{17940, 17951}, // woman genie
-	{8332, 8350},   // woman gesturing NO
-	{8350, 8368},   // woman gesturing OK
-	{5894, 5915},   // woman getting haircut
-	{5915, 5936},   // woman getting massage
-	{14999, 15012}, // woman golfing
-	{17951, 17962}, // woman guard
-	{7501, 7520},   // woman health worker
-	{4407, 4430},   // woman in lotus position
+	{2764, 2791},   // woman and man holding hands
+	{16583, 16595}, // woman artist
+	{11420, 11435}, // woman astronaut
+	{16595, 16607}, // woman biking
+	{7545, 7564},   // woman bouncing ball
+	{16607, 16619}, // woman bowing
+	{8359, 8377},   // woman cartwheeling
+	{13052, 13066}, // woman climbing
+	{3554, 3579},   // woman construction worker
+	{19027, 19037}, // woman cook
+	{15049, 15062}, // woman dancing
+	{11435, 11450}, // woman detective
+	{19894, 19903}, // woman elf
+	{9421, 9438},   // woman facepalming
+	{6742, 6762},   // woman factory worker
+	{17992, 18003}, // woman fairy
+	{16619, 16631}, // woman farmer
+	{8377, 8395},   // woman feeding baby
+	{9438, 9455},   // woman firefighter
+	{13066, 13080}, // woman frowning
+	{18003, 18014}, // woman genie
+	{8395, 8413},   // woman gesturing NO
+	{8413, 8431},   // woman gesturing OK
+	{5957, 5978},   // woman getting haircut
+	{5978, 5999},   // woman getting massage
+	{15062, 15075}, // woman golfing
+	{18014, 18025}, // woman guard
+	{7564, 7583},   // woman health worker
+	{4470, 4493},   // woman in lotus position
 	{414, 440},     // woman in manual wheelchair
 	{414, 453},     // woman in manual wheelchair facing right
 	{133, 162},     // woman in motorized wheelchair
 	{133, 175},     // woman in motorized wheelchair facing right
-	{6699, 6719},   // woman in steamy room
-	{11387, 11402}, // woman in tuxedo
-	{17962, 17973}, // woman judge
-	{13017, 13031}, // woman juggling
-	{2728, 2742},   // woman kneeling
-	{2728, 2755},   // woman kneeling facing right
-	{5936, 5957},   // woman lifting weights
-	{18974, 18984}, // woman mage
-	{13031, 13045}, // woman mechanic
-	{5957, 5978},   // woman mountain biking
-	{7520, 7539},   // woman office worker
-	{17973, 17984}, // woman pilot
-	{5200, 5222},   // woman playing handball
-	{3900, 3924},   // woman playing water polo
-	{6719, 6739},   // woman police officer
-	{15012, 15025}, // woman pouting
-	{8368, 8386},   // woman raising hand
-	{9392, 9409},   // woman rowing boat
-	{2989, 3002},   // woman running
-	{2989, 3015},   // woman running facing right
-	{11402, 11417}, // woman scientist
-	{11417, 11432}, // woman shrugging
-	{16568, 16580}, // woman singer
-	{13045, 13059}, // woman standing
-	{15025, 15038}, // woman student
-	{11432, 11447}, // woman superhero
-	{8386, 8404},   // woman supervillain
-	{15038, 15051}, // woman surfing
-	{13059, 13073}, // woman swimming
-	{15051, 15064}, // woman teacher
-	{8404, 8422},   // woman technologist
-	{8422, 8440},   // woman tipping hand
-	{15064, 15077}, // woman vampire
-	{3015, 3028},   // woman walking
-	{3015, 3041},   // woman walking facing right
-	{6739, 6759},   // woman wearing turban
-	{6759, 6779},   // woman with headscarf
-	{11447, 11462}, // woman with veil
+	{6762, 6782},   // woman in steamy room
+	{11450, 11465}, // woman in tuxedo
+	{18025, 18036}, // woman judge
+	{13080, 13094}, // woman juggling
+	{2791, 2805},   // woman kneeling
+	{2791, 2818},   // woman kneeling facing right
+	{5999, 6020},   // woman lifting weights
+	{19037, 19047}, // woman mage
+	{13094, 13108}, // woman mechanic
+	{6020, 6041},   // woman mountain biking
+	{7583, 7602},   // woman office worker
+	{18036, 18047}, // woman pilot
+	{5263, 5285},   // woman playing handball
+	{3963, 3987},   // woman playing water polo
+	{6782, 6802},   // woman police officer
+	{15075, 15088}, // woman pouting
+	{8431, 8449},   // woman raising hand
+	{9455, 9472},   // woman rowing boat
+	{3052, 3065},   // woman running
+	{3052, 3078},   // woman running facing right
+	{11465, 11480}, // woman scientist
+	{11480, 11495}, // woman shrugging
+	{16631, 16643}, // woman singer
+	{13108, 13122}, // woman standing
+	{15088, 15101}, // woman student
+	{11495, 11510}, // woman superhero
+	{8449, 8467},   // woman supervillain
+	{15101, 15114}, // woman surfing
+	{13122, 13136}, // woman swimming
+	{15114, 15127}, // woman teacher
+	{8467, 8485},   // woman technologist
+	{8485, 8503},   // woman tipping hand
+	{15127, 15140}, // woman vampire
+	{3078, 3091},   // woman walking
+	{3078, 3104},   // woman walking facing right
+	{6802, 6822},   // woman wearing turban
+	{6822, 6842},   // woman with headscarf
+	{11510, 11525}, // woman with veil
 	{775, 796},     // woman with white cane
 	{775, 809},     // woman with white cane facing right
-	{16580, 16592}, // woman zombie
-	{13073, 13087}, // woman’s boot
-	{9409, 9426},   // woman’s clothes
-	{15077, 15090}, // woman’s hat
-	{10531, 10547}, // woman’s sandal
-	{7539, 7558},   // women holding hands
-	{5978, 5999},   // women with bunny ears
-	{11462, 11477}, // women wrestling
-	{13087, 13101}, // women’s room
-	{21747, 21751}, // wood
-	{18984, 18994}, // woozy face
-	{19840, 19849}, // world map
-	{21751, 21755}, // worm
-	{16592, 16604}, // worried face
-	{16604, 16616}, // wrapped gift
-	{8910, 8916},   // wrench
-	{16616, 16628}, // writing hand
-	{21596, 21601}, // x-ray
-	{21755, 21759}, // yarn
-	{16628, 16640}, // yawning face
-	{15090, 15103}, // yellow circle
-	{16640, 16652}, // yellow heart
-	{15103, 15116}, // yellow square
-	{16652, 16664}, // yen banknote
-	{20386, 20394}, // yin yang
-	{21601, 21606}, // yo-yo
-	{19849, 19858}, // zany face
-	{21606, 21611}, // zebra
-	{9426, 9443},   // zipper-mouth face
-	{16586, 16592}, // zombie
+	{16643, 16655}, // woman zombie
+	{13136, 13150}, // woman’s boot
+	{9472, 9489},   // woman’s clothes
+	{15140, 15153}, // woman’s hat
+	{10594, 10610}, // woman’s sandal
+	{7602, 7621},   // women holding hands
+	{6041, 6062},   // women with bunny ears
+	{11525, 11540}, // women wrestling
+	{13150, 13164}, // women’s room
+	{21810, 21814}, // wood
+	{19047, 19057}, // woozy face
+	{19903, 19912}, // world map
+	{21814, 21818}, // worm
+	{16655, 16667}, // worried face
+	{16667, 16679}, // wrapped gift
+	{8973, 8979},   // wrench
+	{16679, 16691}, // writing hand
+	{21659, 21664}, // x-ray
+	{21818, 21822}, // yarn
+	{16691, 16703}, // yawning face
+	{15153, 15166}, // yellow circle
+	{16703, 16715}, // yellow heart
+	{15166, 15179}, // yellow square
+	{16715, 16727}, // yen banknote
+	{20449, 20457}, // yin yang
+	{21664, 21669}, // yo-yo
+	{19912, 19921}, // zany face
+	{21669, 21674}, // zebra
+	{9489, 9506},   // zipper-mouth face
+	{16649, 16655}, // zombie
 }
 
 var baseEmoji = [1907]span{
@@ -8730,4 +8731,19 @@ var styledEmoji = [2058]span{
 	{34628, 34635},
 	{34635, 34642},
 	{34642, 34649},
+}
+
+// renamedNames holds the old names of emoji Unicode has renamed, sorted for
+// binary search, so Lookup still accepts them. renamedRows gives the row of
+// baseNames the emoji at the same index is now under.
+var renamedNames = [3]span{
+	{875, 908},   // flag: French Southern Territories -> flag: French Southern and Antarctic Lands
+	{1402, 1432}, // flag: Heard & McDonald Islands -> flag: Heard Island & McDonald Islands
+	{0, 16},      // flag: St. Helena -> flag: St. Helena, Ascension & Tristan da Cunha
+}
+
+var renamedRows = [3]uint16{
+	618,
+	636,
+	745,
 }

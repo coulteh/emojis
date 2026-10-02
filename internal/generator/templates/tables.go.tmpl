@@ -37,3 +37,14 @@ var styledKeys = [{{len .Styled}}]uint32{
 var styledEmoji = [{{len .Styled}}]span{
 {{range .Styled}}	{ {{.Emoji.Off}}, {{.Emoji.End}} },
 {{end}}}
+
+// renamedNames holds the old names of emoji Unicode has renamed, sorted for
+// binary search, so Lookup still accepts them. renamedRows gives the row of
+// baseNames the emoji at the same index is now under.
+var renamedNames = [{{len .Renamed}}]span{
+{{range .Renamed}}	{ {{.Name.Off}}, {{.Name.End}} }, // {{.Comment}}
+{{end}}}
+
+var renamedRows = [{{len .Renamed}}]uint16{
+{{range .Renamed}}	{{.Row}},
+{{end}}}

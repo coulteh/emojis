@@ -147,6 +147,45 @@ func TestNames(t *testing.T) {
 	}
 }
 
+// A renamed emoji keeps answering to its old name, as a deprecated function
+// and in Lookup, but Names lists only what Unicode calls it now.
+func TestRenamed(t *testing.T) {
+	for _, tt := range []struct{ old, current string }{
+		{FlagStHelena(), FlagStHelenaAscensionAndTristanDaCunha()},
+		{FlagHeardAndMcDonaldIslands(), FlagHeardIslandAndMcDonaldIslands()},
+		{FlagFrenchSouthernTerritories(), FlagFrenchSouthernAndAntarcticLands()},
+	} {
+		if tt.old == "" || tt.old != tt.current {
+			t.Errorf("old function returns %q, current one %q", tt.old, tt.current)
+		}
+	}
+	if got, want := Lookup("flag: St. Helena"), "\U0001F1F8\U0001F1ED"; got != want {
+		t.Errorf("Lookup of a renamed emoji's old name = %q, want %q", got, want)
+	}
+	for _, n := range Names() {
+		if n == "flag: St. Helena" {
+			t.Errorf("Names() lists %q, which Unicode has replaced", n)
+		}
+	}
+}
+
+func TestRenamedTables(t *testing.T) {
+	for i := 1; i < len(renamedNames); i++ {
+		if a, b := renamedNames[i-1].in(nameBlob), renamedNames[i].in(nameBlob); a >= b {
+			t.Fatalf("renamedNames is not sorted: %q before %q", a, b)
+		}
+	}
+	for i, row := range renamedRows {
+		if int(row) >= len(baseNames) {
+			t.Errorf("renamedRows[%d] = %d, past the %d rows of baseNames", i, row, len(baseNames))
+		}
+		old := renamedNames[i].in(nameBlob)
+		if _, ok := findBase(old); ok {
+			t.Errorf("%q is both a current name and a renamed one", old)
+		}
+	}
+}
+
 func TestVariantString(t *testing.T) {
 	if got, want := DarkSkinTone.String(), "dark skin tone"; got != want {
 		t.Errorf("DarkSkinTone.String() = %q, want %q", got, want)

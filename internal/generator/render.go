@@ -66,9 +66,11 @@ type templateData struct {
 	EmojiBlob string // quoted literal holding every emoji
 	NameBlob  string // quoted literal holding every name
 
-	Bases  []baseEntry   // sorted by name, for binary search
-	Styled []styledEntry // sorted by key, for binary search
-	Groups []groupData
+	Bases   []baseEntry    // sorted by name, for binary search
+	Styled  []styledEntry  // sorted by key, for binary search
+	Renamed []renamedEntry // sorted by old name, for binary search
+	Groups  []groupData
+	Aliases []aliasData
 }
 
 type variantData struct {
@@ -89,6 +91,21 @@ type styledEntry struct {
 	Key     uint32
 	Emoji   Span
 	Comment string
+}
+
+// renamedEntry is one row of the generated renamed-name tables.
+type renamedEntry struct {
+	Name    Span
+	Row     int // row of baseTable the emoji is now under
+	Comment string
+}
+
+// aliasData is the deprecated function kept under a renamed emoji's old name.
+type aliasData struct {
+	Ident    string
+	Doc      []string
+	Variants bool
+	Current  string // the function the emoji is now generated as
 }
 
 type groupData struct {
@@ -144,6 +161,9 @@ func newTemplateData(m *Model, pkg string) (*templateData, error) {
 			sequences = append(sequences, f.Sequence)
 		}
 	}
+	for _, a := range m.Aliases {
+		names = append(names, a.Rename.Old)
+	}
 	emojiBlob := NewBlob("emoji", sequences)
 	nameBlob := NewBlob("names", names)
 	d.EmojiBlob = quoteChunked(emojiBlob.Text)
@@ -180,6 +200,24 @@ func newTemplateData(m *Model, pkg string) (*templateData, error) {
 		}
 	}
 	sort.Slice(d.Styled, func(i, j int) bool { return d.Styled[i].Key < d.Styled[j].Key })
+
+	for _, a := range m.Aliases {
+		d.Renamed = append(d.Renamed, renamedEntry{
+			Name:    nameBlob.Span(a.Rename.Old),
+			Row:     row[a.Current.Name],
+			Comment: a.Rename.Old + " -> " + a.Current.Name,
+		})
+		d.Aliases = append(d.Aliases, aliasData{
+			Ident:    a.Ident,
+			Doc:      aliasDoc(a),
+			Variants: len(a.Current.Forms) > 0,
+			Current:  a.Current.Ident,
+		})
+	}
+	sort.Slice(d.Renamed, func(i, j int) bool {
+		return nameBlob.Text[d.Renamed[i].Name.Off:d.Renamed[i].Name.End] <
+			nameBlob.Text[d.Renamed[j].Name.Off:d.Renamed[j].Name.End]
+	})
 
 	for _, g := range m.Groups {
 		gd := groupData{Name: g.Name}
@@ -226,6 +264,13 @@ func doc(b *Base) []string {
 
 	lines = append(lines, "")
 	return append(lines, wrap(sentence, 72)...)
+}
+
+// aliasDoc writes the comment above a renamed emoji's deprecated function.
+func aliasDoc(a *Alias) []string {
+	lines := wrap(fmt.Sprintf("%s returns the%s emoji, which Unicode called %q until emoji %s and now calls %q.",
+		a.Ident, sample(a.Current), a.Rename.Old, a.Rename.Version, a.Current.Name), 72)
+	return append(lines, "", "Deprecated: Use "+a.Current.Ident+".")
 }
 
 // shape describes how a base may be modified.

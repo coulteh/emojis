@@ -6,3 +6,10 @@
 {{end}}{{if .Variants}}func {{.Ident}}(v ...Variant) string { return styled({{.Index}}, v) }
 {{else}}func {{.Ident}}() string { return emojiBlob[{{.Plain.Off}}:{{.Plain.End}}] }
 {{end}}{{end}}{{end}}
+{{- if .Aliases}}
+// Renamed: the names these emoji had before Unicode renamed them.
+{{range .Aliases}}
+{{range .Doc}}//{{if .}} {{.}}{{end}}
+{{end}}{{if .Variants}}func {{.Ident}}(v ...Variant) string { return {{.Current}}(v...) }
+{{else}}func {{.Ident}}() string { return {{.Current}}() }
+{{end}}{{end}}{{end}}

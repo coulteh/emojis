@@ -43,6 +43,11 @@ type Model struct {
 	Groups   []*Group
 	Bases    []*Base // flattened, same order as Groups
 	Variants []VariantDef
+	Aliases  []*Alias // old names of renamed emoji, sorted by old name
+
+	// idents holds every identifier claimed so far, so an alias cannot take
+	// one an emoji already has.
+	idents *identSet
 }
 
 // Build groups the dataset's emoji into one Base per generated function.
@@ -52,6 +57,7 @@ func Build(ds *Dataset) (*Model, error) {
 	byName := make(map[string]*Base, len(ds.Emojis))
 	groups := make(map[string]*Group)
 	idents := newIdentSet()
+	m.idents = idents
 	unknown := make(map[string]map[string]bool)
 
 	for _, e := range ds.Emojis {

@@ -86,18 +86,26 @@ emojis.Lookup("not an emoji")                  // ""
 ```
 
 Names are Unicode's own and are matched exactly, so a handful are capitalised:
-`Lookup("T-Rex")`, not `Lookup("t-rex")`. `Names()` returns every name `Lookup`
-accepts, sorted.
+`Lookup("T-Rex")`, not `Lookup("t-rex")`. `Names()` returns every emoji's
+current name, sorted.
 
 ## Emoji data
 
 Everything here is generated from Unicode's [emoji-test.txt], currently emoji
-17.0: **1,898 functions** covering 3,944 emoji. When Unicode publishes a new
+18.0: **1,907 functions** covering 3,963 emoji. When Unicode publishes a new
 release, pick it up with:
 
 ```sh
 go generate ./...
 ```
+
+A scheduled workflow does this daily, and tags each change as the next minor
+version.
+
+Unicode occasionally renames an emoji, usually a flag when a territory's name
+changes. The old name keeps working: its function stays as a deprecated alias
+for the new one, and `Lookup` still accepts it. The generator spots renames by
+itself and records them in [`internal/generator/renames.txt`](internal/generator/renames.txt).
 
 [emoji-test.txt]: https://www.unicode.org/Public/emoji/latest/emoji-test.txt
 
